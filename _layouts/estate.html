@@ -1,0 +1,120 @@
+---
+layout: default
+---
+{% include band-list.css.html %}
+
+{%- comment -%}
+  API Estate page. One URL that answers "what does this company actually offer as
+  APIs" for a visitor who knows the company and not the product names.
+
+  The SPREAD is the hero, not the average. A conglomerate's headline rating is the
+  least interesting number on the page — what an agent actually meets is one
+  surface at a time, and inside Cisco those surfaces run from 70.2 to 1.8. The
+  page is built to make that range unmissable.
+
+  This layout is copied one-way from network/_layouts/ to the estates site by
+  bootstrap-sites.py. Edit it HERE, never the site copy, or the next build reverts
+  it silently (see network/CLAUDE.md).
+{%- endcomment -%}
+
+<style>
+  .est-head { margin-bottom: 1.25rem; }
+  .est-stats { display: flex; flex-wrap: wrap; gap: 1.25rem; margin: .75rem 0 0; color: #4b5563; font-size: .95rem; }
+  .est-stat strong { color: #111827; }
+  .est-spread { background: #fff; border: 1px solid #e3e7ee; border-left: 4px solid #b45309; border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+  .est-spread-num { font-size: 2.25rem; font-weight: 700; line-height: 1; color: #111827; }
+  .est-spread-lbl { color: #4b5563; margin-left: .5rem; }
+  .est-spread-ends { margin-top: .75rem; color: #4b5563; font-size: .95rem; }
+  .est-spread-ends strong { color: #111827; }
+  .est-rating { background: #fff; border: 1px solid #e3e7ee; border-left: 4px solid #5b21b6; border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; }
+  .est-rating-num { font-size: 1.75rem; font-weight: 700; color: #111827; }
+  .estr-note { color: #6b7280; margin-left: .5rem; font-size: .95rem; }
+  .estr-method { color: #6b7280; font-size: .9rem; margin-top: .75rem; }
+  .est-unrated { display: flex; flex-wrap: wrap; gap: .4rem; max-height: 9rem; overflow-y: auto; }
+  .est-unrated span { background: #f3f4f6; border-radius: 999px; padding: .15rem .6rem; font-size: .85rem; color: #374151; }
+</style>
+
+<div class="est-head">
+  <h1>{{ page.name }}</h1>
+  <div class="est-stats">
+    <span class="est-stat"><strong>{{ page.member_total }}</strong> provider profiles</span>
+    <span class="est-stat"><strong>{{ page.member_on_network }}</strong> rated</span>
+    <span class="est-stat"><strong>{{ page.api_total }}</strong> APIs</span>
+    {% if page.parent_provider %}<span class="est-stat"><a href="/providers/{{ page.parent_provider }}/">Parent provider page →</a></span>{% endif %}
+  </div>
+</div>
+
+{% if page.overview %}<div class="est-overview">{{ page.overview | markdownify }}</div>{% endif %}
+
+{% assign r = page.estate_rating %}
+
+{%- comment -%}
+  The spread block. Stated first and largest because it is the finding: a single
+  company's API surfaces are not one quality, and a buyer or an agent meets one of
+  them, not the average.
+{%- endcomment -%}
+{% if r.spread %}
+<div class="est-spread">
+  <div>
+    <span class="est-spread-num">{{ r.spread }}</span><span class="est-spread-lbl">points of spread across {{ r.scored }} rated surfaces</span>
+  </div>
+  <div class="est-spread-ends">
+    Best: <strong>{{ r.best }}</strong> &nbsp;·&nbsp; Weakest: <strong>{{ r.worst }}</strong>
+    {% if r.exemplar > 0 or r.strong > 0 %}
+      &nbsp;·&nbsp; {{ r.exemplar }} exemplar, {{ r.strong }} strong, {{ r.developing }} developing
+    {% endif %}
+  </div>
+</div>
+{% endif %}
+
+{% if r.rating %}
+<div class="est-rating">
+  <div>
+    <span class="est-rating-num">{{ r.rating }}</span>
+    {% if r.band %}<span class="score-band score-band-{{ r.band }}">{{ r.band }}</span>{% endif %}
+    <span class="estr-note">blended estate rating across {{ r.scored }} rated profile{% if r.scored != 1 %}s{% endif %}</span>
+  </div>
+  <p class="estr-method">
+    Composite average {{ r.composite_avg }}{% if r.agent_avg %}, agent-readiness average {{ r.agent_avg }}{% endif %}.
+    Averages are shrunk toward the network mean so a small estate is not decided by one outlier,
+    then blended 0.6 composite / 0.4 agent-readiness — the same rollup the
+    <a href="/vcs/">venture capital</a> pages use. The average is the least useful number here;
+    the spread above is the one that describes what an agent actually meets.
+  </p>
+</div>
+{% endif %}
+
+<h2 class="section-anchor" id="members">Surfaces in this Estate</h2>
+<p class="section-note">
+  Every provider profile that declares this company as its parent, grouped by API Evangelist
+  rating. Exemplar and Strong are expanded by default. These are listed as found — where one
+  contract is registered under several profiles, it appears under each.
+</p>
+{% include band-list.html bands=page.member_bands link_base='/providers/' empty_text='No rated provider profiles are linked to this estate yet.' %}
+
+{% if page.members_unrated.size > 0 %}
+<h2 class="section-anchor" id="members-unrated">Not Yet Rated</h2>
+<p class="section-note">
+  {{ page.members_unrated.size }} further profile{% if page.members_unrated.size != 1 %}s{% endif %}
+  in this estate without a provider page on the network yet.
+</p>
+<div class="est-unrated">
+  {% for m in page.members_unrated %}<span>{{ m.name }}</span>{% endfor %}
+</div>
+{% endif %}
+
+<h2 class="section-anchor" id="about">About this page</h2>
+<p class="section-note">
+  An estate is one company whose API surface is spread across many provider profiles. This page
+  is generated from the <code>x-parent</code> declaration in each member's own
+  <code>apis.yml</code>, and every rating shown is read from that member's provider page, so this
+  page can never disagree with them. Nothing here is merged or deduplicated —
+  it is the footprint as an agent encounters it.
+  {% if page.source_yaml_url %}
+  <a href="{{ page.source_yaml_url }}">Source apis.yml →</a>
+  {% endif %}
+</p>
+<p class="section-note">
+  Something wrong here? <a href="https://apis.io/contact/">Tell us</a> — corrections are free and
+  read by a human.
+</p>

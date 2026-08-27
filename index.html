@@ -1,0 +1,105 @@
+---
+layout: default
+title: API Estates
+description: Companies whose API surface is spread across many provider profiles — what one vendor actually offers, and how far its surfaces range in quality.
+---
+{% include band-list.css.html %}
+<style>
+  .est-head { margin-bottom: 1.5rem; }
+  .est-head h1 { font-size: 2rem; font-weight: 700; color: #1a1a2e; margin-bottom: 0.5rem; }
+  .est-head p { color: #4a5568; line-height: 1.65; max-width: 60rem; }
+  .est-topstats { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1rem 0 1.25rem; }
+  .est-topstat { background: #fff; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.6rem 1rem; font-size: 0.85rem; }
+  .est-topstat strong { color: #b45309; font-variant-numeric: tabular-nums; font-size: 1.05rem; }
+  .est-search { margin: 0 0 0.5rem; }
+  .est-search input { width: 100%; padding: 0.7rem 1rem; border: 1px solid #cdd6e4; border-radius: 10px; font-size: 1rem; }
+  .est-search input:focus { outline: none; border-color: #b45309; box-shadow: 0 0 0 3px rgba(180,83,9,0.12); }
+  .est-count { font-size: 0.82rem; color: #8a94a6; margin-bottom: 1.25rem; font-variant-numeric: tabular-nums; }
+  .est-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0.9rem; }
+  .est-card { display: block; background: #fff; border: 1px solid #e3e7ee; border-left: 3px solid #b45309; border-radius: 10px; padding: 1.1rem 1.25rem; text-decoration: none; color: inherit; transition: all 0.12s; }
+  .est-card:hover { border-color: #b45309; box-shadow: 0 2px 10px rgba(180,83,9,0.12); transform: translateY(-1px); }
+  .est-card h3 { font-size: 1rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.3rem; }
+  .est-card p { font-size: 0.85rem; color: #6c757d; margin: 0 0 0.6rem; min-height: 3.6em; line-height: 1.4; }
+  .est-card .meta { font-size: 0.78rem; color: #b45309; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .est-card .meta span { color: #8a94a6; font-weight: 500; }
+  .est-empty { color: #8a94a6; padding: 2rem 0; }
+  /* Spread leads the card. The estate average is the least interesting number
+     on it — an agent meets ONE surface, never the mean of them. */
+  .est-rating { display: flex; align-items: baseline; gap: 1rem; margin: 0 0 0.6rem; flex-wrap: wrap; }
+  .est-metric { font-size: 0.78rem; color: #6c757d; }
+  .est-metric strong { font-size: 1.05rem; color: #b45309; font-variant-numeric: tabular-nums; font-weight: 800; margin-right: 0.15rem; }
+</style>
+
+<div class="est-head">
+  <h1>API Estates</h1>
+  <p>
+    One company, many front doors. These are vendors whose API surface is scattered
+    across dozens of separate provider profiles — a product line here, an acquisition
+    there, a documentation portal that never mentions its siblings. Each estate page
+    joins them on the <code>x-parent</code> each profile declares, and shows the
+    footprint <strong>as an agent encounters it</strong>: nothing merged, nothing
+    deduplicated, nothing tidied up first.
+  </p>
+  <p>
+    Estates are ranked by <strong>spread</strong> — the distance between a company's
+    best-rated API surface and its weakest. A high spread means the experience an agent
+    gets depends entirely on which door it walked through.
+  </p>
+  <div class="est-topstats">
+    <span class="est-topstat"><strong>{{ site.data.estates.count }}</strong> estates</span>
+    <span class="est-topstat"><strong>{{ site.data.estates.members }}</strong> provider profiles</span>
+    <span class="est-topstat"><strong>{{ site.data.estates.on_network }}</strong> rated on the network</span>
+  </div>
+</div>
+
+<div class="est-search">
+  <input type="search" id="est-q" placeholder="Search estates — Cisco, Bloomberg, IBM…" aria-label="Search API estates" autocomplete="off">
+</div>
+<div class="est-count" id="est-count"></div>
+
+<div class="est-grid" id="est-grid">
+  {% for est in site.data.estates.estates %}
+  <a class="est-card" href="/estates/{{ est.slug }}/"
+     data-name="{{ est.name | downcase }}" data-desc="{{ est.description | downcase | strip_html }}">
+    <h3>{{ est.name }}</h3>
+    {% if est.rating_scored and est.rating_scored > 0 %}
+    <div class="est-rating">
+      <span class="est-metric"><strong>{{ est.spread }}</strong> spread</span>
+      <span class="est-metric"><strong>{{ est.rating }}</strong> rating</span>
+      {% if est.rating_band %}<span class="score-band score-band-{{ est.rating_band }}">{{ est.rating_band }}</span>{% endif %}
+    </div>
+    {% endif %}
+    <p>{{ est.description | strip_html | truncate: 130 }}</p>
+    <div class="meta">{{ est.member_on_network }} rated profiles <span>· {{ est.api_total }} APIs</span></div>
+  </a>
+  {% endfor %}
+</div>
+<p class="est-empty" id="est-empty" style="display:none;">No estates match that search.</p>
+
+<script>
+(function () {
+  var q = document.getElementById('est-q');
+  var grid = document.getElementById('est-grid');
+  var countEl = document.getElementById('est-count');
+  var emptyEl = document.getElementById('est-empty');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.est-card'));
+
+  function render(n) {
+    countEl.textContent = n === cards.length ? cards.length + ' estates' : n + ' of ' + cards.length + ' estates';
+    emptyEl.style.display = n === 0 ? '' : 'none';
+  }
+  function apply() {
+    var term = (q.value || '').trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (c) {
+      var hit = !term || c.getAttribute('data-name').indexOf(term) !== -1
+                      || c.getAttribute('data-desc').indexOf(term) !== -1;
+      c.style.display = hit ? '' : 'none';
+      if (hit) shown++;
+    });
+    render(shown);
+  }
+  q.addEventListener('input', apply);
+  render(cards.length);
+}());
+</script>

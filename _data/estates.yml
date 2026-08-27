@@ -1,0 +1,365 @@
+count: 12
+members: 178
+on_network: 178
+estates:
+- slug: cisco
+  name: Cisco
+  description: 'Cisco provides a comprehensive suite of APIs across its networking,
+    security, collaboration, and cloud infrastructure platforms. Through Cisco DevNet,
+    developers can access REST APIs, SDKs, and developer tools for Meraki, Webex,
+    Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other '
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
+  member_total: 28
+  member_on_network: 28
+  api_total: 910
+  tags:
+  - Fortune 100
+  - Collaboration
+  - Enterprise
+  - Networking
+  - Security
+  - SD-WAN
+  strength: 26
+  rating: 32.3
+  rating_band: thin
+  composite_avg: 38.3
+  composite_band: thin
+  agent_avg: 23.3
+  agent_band: emerging
+  spread: 68.4
+  rating_scored: 28
+  rating_exemplar: 2
+  rating_strong: 7
+  rating_developing: 6
+  rating_agent_native: 0
+  rating_agent_ready: 15
+- slug: oracle
+  name: Oracle
+  description: Collection of Oracle's APIs and developer resources across cloud infrastructure,
+    databases, AI services, SaaS applications, and platform services.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle.png
+  member_total: 24
+  member_on_network: 24
+  api_total: 433
+  tags:
+  - Cloud
+  - Database
+  - Enterprise
+  - Infrastructure
+  - Software-as-a-Service
+  - Fortune 100
+  strength: 20
+  rating: 25.6
+  rating_band: thin
+  composite_avg: 32.5
+  composite_band: thin
+  agent_avg: 15.3
+  agent_band: emerging
+  spread: 62.1
+  rating_scored: 24
+  rating_exemplar: 1
+  rating_strong: 3
+  rating_developing: 11
+  rating_agent_native: 0
+  rating_agent_ready: 4
+- slug: sap
+  name: SAP
+  description: Collection of SAP's enterprise APIs for business applications and cloud
+    services.
+  image: https://www.sap.com/dam/application/shared/logos/sap-logo.svg
+  member_total: 14
+  member_on_network: 14
+  api_total: 175
+  tags:
+  - Artificial Intelligence
+  - BTP
+  - Business Applications
+  - Cloud
+  - Data Management
+  - Enterprise
+  strength: 7
+  rating: 27.6
+  rating_band: thin
+  composite_avg: 33.3
+  composite_band: thin
+  agent_avg: 19.0
+  agent_band: emerging
+  spread: 35.9
+  rating_scored: 14
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 7
+  rating_agent_native: 0
+  rating_agent_ready: 3
+- slug: salesforce
+  name: Salesforce
+  description: Salesforce is a cloud-based customer relationship management (CRM)
+    platform that provides a comprehensive suite of enterprise applications for sales,
+    service, marketing, commerce, analytics and AI. Its Lightning Platform exposes
+    REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pu
+  image: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg
+  member_total: 19
+  member_on_network: 19
+  api_total: 140
+  tags:
+  - Fortune 500
+  - Artificial Intelligence
+  - Analytics
+  - Cloud
+  - Commerce
+  - CRM
+  strength: 7
+  rating: 16.6
+  rating_band: emerging
+  composite_avg: 21.9
+  composite_band: emerging
+  agent_avg: 8.6
+  agent_band: minimal
+  spread: 52.6
+  rating_scored: 19
+  rating_exemplar: 0
+  rating_strong: 2
+  rating_developing: 3
+  rating_agent_native: 0
+  rating_agent_ready: 1
+- slug: ibm
+  name: IBM
+  description: A collection of IBM's public APIs and developer resources.
+  image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
+  member_total: 19
+  member_on_network: 19
+  api_total: 187
+  tags:
+  - API Management
+  - Artificial Intelligence
+  - Billing
+  - Cloud Computing
+  - Containers
+  - Data Governance
+  strength: 6
+  rating: 20.8
+  rating_band: emerging
+  composite_avg: 26.6
+  composite_band: thin
+  agent_avg: 12.1
+  agent_band: emerging
+  spread: 53.4
+  rating_scored: 19
+  rating_exemplar: 0
+  rating_strong: 1
+  rating_developing: 4
+  rating_agent_native: 0
+  rating_agent_ready: 2
+- slug: splunk
+  name: Splunk
+  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated
+    big data via a web-style interface.
+  image: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
+  member_total: 4
+  member_on_network: 4
+  api_total: 53
+  tags:
+  - Analytics
+  - Data Analysis
+  - Logging
+  - Machine Data
+  - Monitoring
+  - Observability
+  strength: 3
+  rating: 22.6
+  rating_band: emerging
+  composite_avg: 29.8
+  composite_band: thin
+  agent_avg: 11.9
+  agent_band: emerging
+  spread: 33.8
+  rating_scored: 4
+  rating_exemplar: 0
+  rating_strong: 1
+  rating_developing: 1
+  rating_agent_native: 0
+  rating_agent_ready: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design
+    and manufacturing of semiconductors and other hardware components for a wide range
+    of industries. They provide a diverse portfolio of products for the enterprise,
+    data center, networking, telecommunications, and consumer electron
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadcom.png
+  member_total: 6
+  member_on_network: 6
+  api_total: 87
+  tags:
+  - Cloud Infrastructure
+  - Gateways
+  - Management
+  - Networks
+  - Observability
+  - Virtualization
+  strength: 3
+  rating: 19.8
+  rating_band: emerging
+  composite_avg: 25.7
+  composite_band: thin
+  agent_avg: 11.0
+  agent_band: emerging
+  spread: 52.8
+  rating_scored: 6
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 3
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: bloomberg
+  name: Bloomberg
+  description: Bloomberg delivers business and markets news, data, analysis, and video
+    to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg
+    provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia
+    API for programmatic access to market data, analytics, and enter
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg.png
+  member_total: 36
+  member_on_network: 36
+  api_total: 152
+  tags:
+  - Analytics
+  - Business Intelligence
+  - Data License
+  - Enterprise
+  - Execution Management
+  - Financial-Services
+  strength: 3
+  rating: 16.3
+  rating_band: emerging
+  composite_avg: 23.3
+  composite_band: emerging
+  agent_avg: 5.9
+  agent_band: minimal
+  spread: 42.2
+  rating_scored: 36
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 3
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: webex
+  name: Webex
+  description: Cisco Webex is a comprehensive collaboration platform offering APIs
+    for messaging, meetings, calling, devices, and contact center workflows. The Webex
+    Developer Platform enables developers to build integrations, bots, embedded apps,
+    and automations using REST APIs, SDKs, and webhooks. Webex supports
+  image: https://developer.webex.com/images/webex-logo.png
+  member_total: 5
+  member_on_network: 5
+  api_total: 55
+  tags:
+  - Calling
+  - Collaboration
+  - Communications
+  - Enterprise
+  - Messaging
+  - Video Conferencing
+  strength: 1
+  rating: 22.2
+  rating_band: emerging
+  composite_avg: 26.9
+  composite_band: thin
+  agent_avg: 15.2
+  agent_band: emerging
+  spread: 18.7
+  rating_scored: 5
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 1
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: vmware
+  name: VMware
+  description: Collection of VMware APIs for cloud infrastructure, virtualization,
+    and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria
+    operations.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vmware.png
+  member_total: 11
+  member_on_network: 11
+  api_total: 15
+  tags:
+  - Cloud Computing
+  - Container Management
+  - Hybrid Cloud
+  - Infrastructure
+  - Virtualization
+  strength: 1
+  rating: 12.5
+  rating_band: emerging
+  composite_avg: 16.7
+  composite_band: emerging
+  agent_avg: 6.2
+  agent_band: minimal
+  spread: 35.1
+  rating_scored: 11
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 1
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: nvidia
+  name: Nvidia
+  description: Nvidia is a Fortune 500 company that provides developer APIs and integration
+    capabilities through its developer platform. NVIDIA provides developer APIs for
+    GPU computing, AI/ML model training and inference, and graphics. The platform
+    includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU servic
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nvidia.png
+  member_total: 9
+  member_on_network: 9
+  api_total: 63
+  tags:
+  - GPU
+  - Artificial Intelligence
+  - Machine-Learning
+  - Computing
+  - Graphics
+  - Fortune 1000
+  strength: 1
+  rating: 11.1
+  rating_band: emerging
+  composite_avg: 14.9
+  composite_band: emerging
+  agent_avg: 5.5
+  agent_band: minimal
+  spread: 41.3
+  rating_scored: 9
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 1
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: symantec
+  name: Symantec
+  description: Symantec (now part of Broadcom) is a leading enterprise cybersecurity
+    company providing endpoint security, threat detection, data loss prevention, identity
+    security, and network protection products. Symantec offers REST APIs for Endpoint
+    Protection Manager (SEPM), Endpoint Security Cloud (SES), Endp
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/symantec.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 0
+  tags:
+  - Broadcom
+  - Cybersecurity
+  - DLP
+  - EDR
+  - Endpoint Protection
+  - Endpoint Security
+  strength: 0
+  rating: 12.3
+  rating_band: emerging
+  composite_avg: 16.4
+  composite_band: emerging
+  agent_avg: 6.1
+  agent_band: minimal
+  spread: 9.5
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0

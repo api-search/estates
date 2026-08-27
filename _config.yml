@@ -1,0 +1,30 @@
+name: APIs.io API Estates
+description: Companies whose API surface is spread across many provider profiles — what one vendor actually offers, and how far its surfaces range in quality.
+image: https://apis.io/assets/branding/apisio-social-card.png
+url: https://apis.io
+
+node: website
+nav_active: estates
+
+keywords:
+  - APIs
+  - Search
+  - Discovery
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+include: [".well-known"]
+
+github_org: api-search
+github_repo: estates
+
+collections:
+  estates:
+    output: true
+    permalink: /estates/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: estates
+    values:
+      layout: estate
