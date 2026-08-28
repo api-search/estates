@@ -169,6 +169,7 @@ slug: nvidia
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvidia/refs/heads/main/apis.yml
+subfamilies: []
 tags:
 - GPU
 - Artificial Intelligence

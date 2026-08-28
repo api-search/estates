@@ -1,6 +1,6 @@
-count: 12
-members: 182
-on_network: 182
+count: 8
+members: 189
+on_network: 189
 estates:
 - slug: cisco
   name: Cisco
@@ -9,9 +9,9 @@ estates:
     developers can access REST APIs, SDKs, and developer tools for Meraki, Webex,
     Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other '
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
-  member_total: 28
-  member_on_network: 28
-  api_total: 910
+  member_total: 37
+  member_on_network: 37
+  api_total: 1018
   tags:
   - Fortune 100
   - Collaboration
@@ -19,27 +19,30 @@ estates:
   - Networking
   - Security
   - SD-WAN
-  strength: 25
-  rating: 32.0
+  subfamilies:
+  - Webex
+  - Splunk
+  strength: 29
+  rating: 31.3
   rating_band: thin
-  composite_avg: 38.0
+  composite_avg: 37.6
   composite_band: thin
-  agent_avg: 22.9
+  agent_avg: 21.8
   agent_band: emerging
   spread: 68.1
-  rating_scored: 28
+  rating_scored: 37
   rating_exemplar: 2
-  rating_strong: 6
-  rating_developing: 7
+  rating_strong: 7
+  rating_developing: 9
   rating_agent_native: 0
-  rating_agent_ready: 13
+  rating_agent_ready: 14
 - slug: oracle
   name: Oracle
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure,
     databases, AI services, SaaS applications, and platform services.
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle.png
-  member_total: 26
-  member_on_network: 26
+  member_total: 27
+  member_on_network: 27
   api_total: 438
   tags:
   - Cloud
@@ -48,15 +51,17 @@ estates:
   - Infrastructure
   - Software-as-a-Service
   - Fortune 100
+  subfamilies:
+  - Agile Software
   strength: 21
-  rating: 25.8
+  rating: 25.1
   rating_band: thin
-  composite_avg: 32.5
+  composite_avg: 31.6
   composite_band: thin
-  agent_avg: 15.8
+  agent_avg: 15.3
   agent_band: emerging
   spread: 62.1
-  rating_scored: 26
+  rating_scored: 27
   rating_exemplar: 1
   rating_strong: 4
   rating_developing: 10
@@ -69,8 +74,8 @@ estates:
     service, marketing, commerce, analytics and AI. Its Lightning Platform exposes
     REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pu
   image: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg
-  member_total: 21
-  member_on_network: 21
+  member_total: 22
+  member_on_network: 22
   api_total: 149
   tags:
   - Fortune 500
@@ -79,15 +84,17 @@ estates:
   - Cloud
   - Commerce
   - CRM
+  subfamilies:
+  - Demandware
   strength: 8
-  rating: 17.3
+  rating: 16.8
   rating_band: emerging
-  composite_avg: 22.4
+  composite_avg: 21.9
   composite_band: emerging
-  agent_avg: 9.6
+  agent_avg: 9.2
   agent_band: minimal
   spread: 52.6
-  rating_scored: 21
+  rating_scored: 22
   rating_exemplar: 0
   rating_strong: 2
   rating_developing: 4
@@ -108,6 +115,7 @@ estates:
   - Cloud
   - Data Management
   - Enterprise
+  subfamilies: []
   strength: 7
   rating: 27.6
   rating_band: thin
@@ -126,8 +134,8 @@ estates:
   name: IBM
   description: A collection of IBM's public APIs and developer resources.
   image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
-  member_total: 19
-  member_on_network: 19
+  member_total: 20
+  member_on_network: 20
   api_total: 187
   tags:
   - API Management
@@ -136,49 +144,22 @@ estates:
   - Cloud Computing
   - Containers
   - Data Governance
+  subfamilies:
+  - Software AG
   strength: 6
-  rating: 20.8
+  rating: 20.3
   rating_band: emerging
-  composite_avg: 26.6
+  composite_avg: 26.0
   composite_band: thin
-  agent_avg: 12.1
+  agent_avg: 11.7
   agent_band: emerging
   spread: 53.4
-  rating_scored: 19
+  rating_scored: 20
   rating_exemplar: 0
   rating_strong: 1
   rating_developing: 4
   rating_agent_native: 0
   rating_agent_ready: 2
-- slug: splunk
-  name: Splunk
-  description: Splunk is a platform for searching, monitoring, and analyzing machine-generated
-    big data via a web-style interface.
-  image: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
-  member_total: 4
-  member_on_network: 4
-  api_total: 53
-  tags:
-  - Analytics
-  - Data Analysis
-  - Logging
-  - Machine Data
-  - Monitoring
-  - Observability
-  strength: 3
-  rating: 22.6
-  rating_band: emerging
-  composite_avg: 29.8
-  composite_band: thin
-  agent_avg: 11.9
-  agent_band: emerging
-  spread: 33.6
-  rating_scored: 4
-  rating_exemplar: 0
-  rating_strong: 1
-  rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 1
 - slug: broadcom
   name: Broadcom
   description: Broadcom is a global technology company that specializes in the design
@@ -186,9 +167,9 @@ estates:
     of industries. They provide a diverse portfolio of products for the enterprise,
     data center, networking, telecommunications, and consumer electron
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadcom.png
-  member_total: 6
-  member_on_network: 6
-  api_total: 87
+  member_total: 24
+  member_on_network: 24
+  api_total: 117
   tags:
   - Cloud Infrastructure
   - Gateways
@@ -196,18 +177,24 @@ estates:
   - Networks
   - Observability
   - Virtualization
-  strength: 3
-  rating: 19.8
+  subfamilies:
+  - VMware
+  - Symantec
+  - CA Technologies (Broadcom)
+  - AppNeta
+  - Carbon Black
+  strength: 4
+  rating: 13.2
   rating_band: emerging
-  composite_avg: 25.7
-  composite_band: thin
-  agent_avg: 11.0
-  agent_band: emerging
+  composite_avg: 17.6
+  composite_band: emerging
+  agent_avg: 6.6
+  agent_band: minimal
   spread: 52.8
-  rating_scored: 6
+  rating_scored: 24
   rating_exemplar: 0
   rating_strong: 0
-  rating_developing: 3
+  rating_developing: 4
   rating_agent_native: 0
   rating_agent_ready: 0
 - slug: bloomberg
@@ -227,6 +214,7 @@ estates:
   - Enterprise
   - Execution Management
   - Financial-Services
+  subfamilies: []
   strength: 3
   rating: 16.9
   rating_band: emerging
@@ -239,66 +227,6 @@ estates:
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 3
-  rating_agent_native: 0
-  rating_agent_ready: 0
-- slug: webex
-  name: Webex
-  description: Cisco Webex is a comprehensive collaboration platform offering APIs
-    for messaging, meetings, calling, devices, and contact center workflows. The Webex
-    Developer Platform enables developers to build integrations, bots, embedded apps,
-    and automations using REST APIs, SDKs, and webhooks. Webex supports
-  image: https://developer.webex.com/images/webex-logo.png
-  member_total: 5
-  member_on_network: 5
-  api_total: 55
-  tags:
-  - Calling
-  - Collaboration
-  - Communications
-  - Enterprise
-  - Messaging
-  - Video Conferencing
-  strength: 1
-  rating: 22.3
-  rating_band: emerging
-  composite_avg: 27.0
-  composite_band: thin
-  agent_avg: 15.2
-  agent_band: emerging
-  spread: 18.7
-  rating_scored: 5
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 0
-- slug: vmware
-  name: VMware
-  description: Collection of VMware APIs for cloud infrastructure, virtualization,
-    and management solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria
-    operations.
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vmware.png
-  member_total: 11
-  member_on_network: 11
-  api_total: 15
-  tags:
-  - Cloud Computing
-  - Container Management
-  - Hybrid Cloud
-  - Infrastructure
-  - Virtualization
-  strength: 1
-  rating: 12.5
-  rating_band: emerging
-  composite_avg: 16.7
-  composite_band: emerging
-  agent_avg: 6.2
-  agent_band: minimal
-  spread: 35.1
-  rating_scored: 11
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 1
   rating_agent_native: 0
   rating_agent_ready: 0
 - slug: nvidia
@@ -318,6 +246,7 @@ estates:
   - Computing
   - Graphics
   - Fortune 1000
+  subfamilies: []
   strength: 1
   rating: 11.1
   rating_band: emerging
@@ -330,36 +259,5 @@ estates:
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 0
-- slug: symantec
-  name: Symantec
-  description: Symantec (now part of Broadcom) is a leading enterprise cybersecurity
-    company providing endpoint security, threat detection, data loss prevention, identity
-    security, and network protection products. Symantec offers REST APIs for Endpoint
-    Protection Manager (SEPM), Endpoint Security Cloud (SES), Endp
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/symantec.png
-  member_total: 3
-  member_on_network: 3
-  api_total: 0
-  tags:
-  - Broadcom
-  - Cybersecurity
-  - DLP
-  - EDR
-  - Endpoint Protection
-  - Endpoint Security
-  strength: 0
-  rating: 12.3
-  rating_band: emerging
-  composite_avg: 16.4
-  composite_band: emerging
-  agent_avg: 6.1
-  agent_band: minimal
-  spread: 9.5
-  rating_scored: 3
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 0

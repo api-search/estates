@@ -4,20 +4,20 @@ category: Estates
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases,
   AI services, SaaS applications, and platform services.
 estate_rating:
-  agent_avg: 15.8
+  agent_avg: 15.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 16.9
+  agent_raw: 16.3
   agent_ready: 4
   band: thin
   best: 67.1
-  composite_avg: 32.5
+  composite_avg: 31.6
   composite_band: thin
-  composite_raw: 34.7
+  composite_raw: 33.6
   developing: 10
   exemplar: 1
-  rating: 25.8
-  scored: 26
+  rating: 25.1
+  scored: 27
   spread: 62.1
   strength: 21
   strong: 4
@@ -249,7 +249,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 8
+  count: 9
   items:
   - &id019
     acquired: null
@@ -329,6 +329,17 @@ member_bands:
     score_composite: 5.0
     slug: datalogix
   - &id026
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: agile-software
+    name: Digital Market
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 5.0
+    slug: digital-market
+  - &id027
     acquired: 2014
     agent_band: human-only
     agent_score: 0.0
@@ -341,8 +352,8 @@ member_bands:
     slug: greenbytes
   label: Minimal
   open: false
-member_on_network: 26
-member_total: 26
+member_on_network: 27
+member_total: 27
 members:
 - *id001
 - *id002
@@ -370,10 +381,11 @@ members:
 - *id024
 - *id025
 - *id026
+- *id027
 members_unrated: []
 name: Oracle
-overview: 'Oracle publishes its API surface across 26 provider profiles indexed on the APIs.io network,
-  of which 26 carry a rating. The rated members span 62.1 points, from 67.1 down to 5.0.
+overview: 'Oracle publishes its API surface across 27 provider profiles indexed on the APIs.io network,
+  of which 27 carry a rating. The rated members span 62.1 points, from 67.1 down to 5.0.
 
 
   Its highest-rated surfaces are Oracle Siebel, Oracle Health (Cerner), Oracle Hospitality, Responsys,
@@ -384,6 +396,16 @@ slug: oracle
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/apis.yml
+subfamilies:
+- member_count: 1
+  members:
+  - name: Digital Market
+    score_band: minimal
+    score_composite: 5.0
+    slug: digital-market
+  name: Agile Software
+  on_network: true
+  slug: agile-software
 tags:
 - Cloud
 - Database

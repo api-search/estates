@@ -28,6 +28,12 @@ description: Companies whose API surface is spread across many provider profiles
   .est-rating { display: flex; align-items: baseline; gap: 1rem; margin: 0 0 0.6rem; flex-wrap: wrap; }
   .est-metric { font-size: 0.78rem; color: #6c757d; }
   .est-metric strong { font-size: 1.05rem; color: #b45309; font-variant-numeric: tabular-nums; font-weight: 800; margin-right: 0.15rem; }
+  /* Rooted membership folded Webex into Cisco and VMware into Broadcom, so the
+     brand a visitor types is no longer a card of its own. Name it on the parent
+     card AND put it in the search key, or the fold costs the discovery this
+     section exists to provide. */
+  .est-card .brands { font-size: 0.76rem; color: #6c757d; margin: 0 0 0.5rem; }
+  .est-card .brands b { color: #4a5568; font-weight: 600; }
 </style>
 
 <div class="est-head">
@@ -36,9 +42,10 @@ description: Companies whose API surface is spread across many provider profiles
     One company, many front doors. These are vendors whose API surface is scattered
     across dozens of separate provider profiles — a product line here, an acquisition
     there, a documentation portal that never mentions its siblings. Each estate page
-    joins them on the <code>x-parent</code> each profile declares, and shows the
-    footprint <strong>as an agent encounters it</strong>: nothing merged, nothing
-    deduplicated, nothing tidied up first.
+    joins them on the <code>x-parent</code> each profile declares — followed all the way
+    to the company that owns them today, so Webex and Splunk sit inside Cisco rather than
+    beside it — and shows the footprint <strong>as an agent encounters it</strong>:
+    nothing merged, nothing deduplicated, nothing tidied up first.
   </p>
   <p>
     Estates are ranked by <strong>spread</strong> — the distance between a company's
@@ -60,7 +67,8 @@ description: Companies whose API surface is spread across many provider profiles
 <div class="est-grid" id="est-grid">
   {% for est in site.data.estates.estates %}
   <a class="est-card" href="/estates/{{ est.slug }}/"
-     data-name="{{ est.name | downcase }}" data-desc="{{ est.description | downcase | strip_html }}">
+     data-name="{{ est.name | downcase }}" data-desc="{{ est.description | downcase | strip_html }}"
+     data-brands="{{ est.subfamilies | join: ' ' | downcase }}">
     <h3>{{ est.name }}</h3>
     {% if est.rating_scored and est.rating_scored > 0 %}
     <div class="est-rating">
@@ -70,6 +78,9 @@ description: Companies whose API surface is spread across many provider profiles
     </div>
     {% endif %}
     <p>{{ est.description | strip_html | truncate: 130 }}</p>
+    {% if est.subfamilies.size > 0 %}
+    <p class="brands">Includes <b>{{ est.subfamilies | join: ', ' }}</b></p>
+    {% endif %}
     <div class="meta">{{ est.member_on_network }} rated profiles <span>· {{ est.api_total }} APIs</span></div>
   </a>
   {% endfor %}
@@ -93,7 +104,8 @@ description: Companies whose API surface is spread across many provider profiles
     var shown = 0;
     cards.forEach(function (c) {
       var hit = !term || c.getAttribute('data-name').indexOf(term) !== -1
-                      || c.getAttribute('data-desc').indexOf(term) !== -1;
+                      || c.getAttribute('data-desc').indexOf(term) !== -1
+                      || (c.getAttribute('data-brands') || '').indexOf(term) !== -1;
       c.style.display = hit ? '' : 'none';
       if (hit) shown++;
     });

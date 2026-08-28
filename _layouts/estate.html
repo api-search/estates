@@ -32,6 +32,13 @@ layout: default
   .estr-method { color: #6b7280; font-size: .9rem; margin-top: .75rem; }
   .est-unrated { display: flex; flex-wrap: wrap; gap: .4rem; max-height: 9rem; overflow-y: auto; }
   .est-unrated span { background: #f3f4f6; border-radius: 999px; padding: .15rem .6rem; font-size: .85rem; color: #374151; }
+  .est-families { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+  .est-family { background: #fff; border: 1px solid #e3e7ee; border-radius: 12px; padding: 1rem 1.15rem; }
+  .est-family-name { font-size: 1.05rem; margin: 0 0 .6rem; }
+  .est-family-count { color: #6b7280; font-size: .85rem; font-weight: 400; margin-left: .4rem; }
+  .est-family-list { list-style: none; margin: 0; padding: 0; }
+  .est-family-list li { display: flex; justify-content: space-between; gap: .5rem; padding: .2rem 0; font-size: .92rem; }
+  .est-family-list .score-band { flex: none; }
 </style>
 
 <div class="est-head">
@@ -92,6 +99,39 @@ layout: default
 </p>
 {% include band-list.html bands=page.member_bands link_base='/providers/' empty_text='No rated provider profiles are linked to this estate yet.' %}
 
+{%- comment -%}
+  Sub-families. x-parent is a tree — Cisco owns Webex owns five collaboration
+  profiles — and membership above is rooted at the top of that chain, so those
+  five count as Cisco surfaces. But the brand a visitor types is "webex", so the
+  acquired brand is named here rather than dissolved into the parent. Same
+  profiles as the list above, arranged the way people search.
+{%- endcomment -%}
+{% if page.subfamilies.size > 0 %}
+<h2 class="section-anchor" id="brands">Brands inside this Estate</h2>
+<p class="section-note">
+  Acquired brands that carry product families of their own. Their profiles are already counted in
+  the estate above — this is the same footprint, grouped by the name it was bought under.
+</p>
+<div class="est-families">
+  {% for f in page.subfamilies %}
+  <div class="est-family">
+    <h3 class="est-family-name">
+      {% if f.on_network %}<a href="/providers/{{ f.slug }}/">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}
+      <span class="est-family-count">{{ f.member_count }} profile{% if f.member_count != 1 %}s{% endif %}</span>
+    </h3>
+    <ul class="est-family-list">
+      {% for m in f.members %}
+      <li>
+        <a href="/providers/{{ m.slug }}/">{{ m.name }}</a>
+        {% if m.score_band %}<span class="score-band score-band-{{ m.score_band }}">{{ m.score_composite }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
 {% if page.members_unrated.size > 0 %}
 <h2 class="section-anchor" id="members-unrated">Not Yet Rated</h2>
 <p class="section-note">
@@ -107,8 +147,9 @@ layout: default
 <p class="section-note">
   An estate is one company whose API surface is spread across many provider profiles. This page
   is generated from the <code>x-parent</code> declaration in each member's own
-  <code>apis.yml</code>, and every rating shown is read from that member's provider page, so this
-  page can never disagree with them. Nothing here is merged or deduplicated —
+  <code>apis.yml</code>, followed to the top of the chain — so a brand acquired by a brand that was
+  itself acquired lands in the estate of the company that owns it today. Every rating shown is read
+  from that member's provider page, so this page can never disagree with them. Nothing here is merged or deduplicated —
   it is the footprint as an agent encounters it.
   {% if page.source_yaml_url %}
   <a href="{{ page.source_yaml_url }}">Source apis.yml →</a>

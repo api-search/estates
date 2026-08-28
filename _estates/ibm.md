@@ -3,20 +3,20 @@ api_total: 187
 category: Estates
 description: A collection of IBM's public APIs and developer resources.
 estate_rating:
-  agent_avg: 12.1
+  agent_avg: 11.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 12.7
+  agent_raw: 12.2
   agent_ready: 2
   band: emerging
   best: 59.1
-  composite_avg: 26.6
+  composite_avg: 26.0
   composite_band: thin
-  composite_raw: 28.0
+  composite_raw: 27.2
   developing: 4
   exemplar: 0
-  rating: 20.8
-  scored: 19
+  rating: 20.3
+  scored: 20
   spread: 53.4
   strength: 6
   strong: 1
@@ -143,7 +143,7 @@ member_bands:
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 7
+  count: 8
   items:
   - &id010
     acquired: null
@@ -222,13 +222,24 @@ member_bands:
     score_band: emerging
     score_composite: 14.5
     slug: ibm-db2
+  - &id017
+    acquired: 2007
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 0
+    immediate_parent: software-ag
+    name: Web Methods
+    relationship: acquisition
+    score_band: emerging
+    score_composite: 12.3
+    slug: web-methods
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
   count: 3
   items:
-  - &id017
+  - &id018
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -239,7 +250,7 @@ member_bands:
     score_band: minimal
     score_composite: 10.1
     slug: api-harmony
-  - &id018
+  - &id019
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -250,7 +261,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.6
     slug: ibm-text-to-speech
-  - &id019
+  - &id020
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -263,8 +274,8 @@ member_bands:
     slug: watson-natural-language-understanding
   label: Minimal
   open: false
-member_on_network: 19
-member_total: 19
+member_on_network: 20
+member_total: 20
 members:
 - *id001
 - *id002
@@ -285,10 +296,11 @@ members:
 - *id017
 - *id018
 - *id019
+- *id020
 members_unrated: []
 name: IBM
-overview: 'IBM publishes its API surface across 19 provider profiles indexed on the APIs.io network, of
-  which 19 carry a rating. The rated members span 53.4 points, from 59.1 down to 5.7.
+overview: 'IBM publishes its API surface across 20 provider profiles indexed on the APIs.io network, of
+  which 20 carry a rating. The rated members span 53.4 points, from 59.1 down to 5.7.
 
 
   Its highest-rated surfaces are Red Hat, IBM Turbonomic, OpenPages, IBM Language Translator, IBM API
@@ -299,6 +311,16 @@ slug: ibm
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/apis.yml
+subfamilies:
+- member_count: 1
+  members:
+  - name: Web Methods
+    score_band: emerging
+    score_composite: 12.3
+    slug: web-methods
+  name: Software AG
+  on_network: true
+  slug: software-ag
 tags:
 - API Management
 - Artificial Intelligence

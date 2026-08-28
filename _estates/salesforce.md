@@ -7,20 +7,20 @@ description: Salesforce is a cloud-based customer relationship management (CRM) 
   gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and
   subscribe to org data programmatically.
 estate_rating:
-  agent_avg: 9.6
+  agent_avg: 9.2
   agent_band: minimal
   agent_native: 0
-  agent_raw: 9.6
+  agent_raw: 9.1
   agent_ready: 2
   band: emerging
   best: 57.6
-  composite_avg: 22.4
+  composite_avg: 21.9
   composite_band: emerging
-  composite_raw: 22.7
+  composite_raw: 22.0
   developing: 4
   exemplar: 0
-  rating: 17.3
-  scored: 21
+  rating: 16.8
+  scored: 22
   spread: 52.6
   strength: 8
   strong: 2
@@ -197,7 +197,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 8
+  count: 9
   items:
   - &id014
     acquired: 2025
@@ -211,6 +211,17 @@ member_bands:
     score_composite: 8.7
     slug: convergence
   - &id015
+    acquired: 2013
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: demandware
+    name: CQuotient
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 8.3
+    slug: cquotient
+  - &id016
     acquired: 2023
     agent_band: human-only
     agent_score: 0.0
@@ -221,7 +232,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: airkit
-  - &id016
+  - &id017
     acquired: 2012
     agent_band: human-only
     agent_score: 0.0
@@ -232,7 +243,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: buddy-media
-  - &id017
+  - &id018
     acquired: 2013
     agent_band: human-only
     agent_score: 0.0
@@ -243,7 +254,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: exact-target
-  - &id018
+  - &id019
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -254,7 +265,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: spiff
-  - &id019
+  - &id020
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -265,7 +276,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: spindle-technologies
-  - &id020
+  - &id021
     acquired: 2015
     agent_band: human-only
     agent_score: 0.0
@@ -276,7 +287,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: steelbrick
-  - &id021
+  - &id022
     acquired: 2020
     agent_band: human-only
     agent_score: 0.0
@@ -289,8 +300,8 @@ member_bands:
     slug: vlocity
   label: Minimal
   open: false
-member_on_network: 21
-member_total: 21
+member_on_network: 22
+member_total: 22
 members:
 - *id001
 - *id002
@@ -313,10 +324,11 @@ members:
 - *id019
 - *id020
 - *id021
+- *id022
 members_unrated: []
 name: Salesforce
-overview: 'Salesforce publishes its API surface across 21 provider profiles indexed on the APIs.io network,
-  of which 21 carry a rating. The rated members span 52.6 points, from 57.6 down to 5.0.
+overview: 'Salesforce publishes its API surface across 22 provider profiles indexed on the APIs.io network,
+  of which 22 carry a rating. The rated members span 52.6 points, from 57.6 down to 5.0.
 
 
   Its highest-rated surfaces are Salesforce Marketing Cloud Account Engagement (Pardot), Salesforce Automation,
@@ -327,6 +339,16 @@ slug: salesforce
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml
+subfamilies:
+- member_count: 1
+  members:
+  - name: CQuotient
+    score_band: minimal
+    score_composite: 8.3
+    slug: cquotient
+  name: Demandware
+  on_network: true
+  slug: demandware
 tags:
 - Fortune 500
 - Artificial Intelligence

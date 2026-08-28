@@ -500,6 +500,7 @@ slug: bloomberg
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/apis.yml
+subfamilies: []
 tags:
 - Analytics
 - Business Intelligence

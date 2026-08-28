@@ -1,28 +1,28 @@
 ---
-api_total: 910
+api_total: 1018
 category: Estates
 description: Cisco provides a comprehensive suite of APIs across its networking, security, collaboration,
   and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and
   developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and
   other Cisco products to automate network operations, build integrations, and extend platform capabilities.
 estate_rating:
-  agent_avg: 22.9
+  agent_avg: 21.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 25.3
-  agent_ready: 13
+  agent_raw: 23.5
+  agent_ready: 14
   band: thin
   best: 69.9
-  composite_avg: 38.0
+  composite_avg: 37.6
   composite_band: thin
-  composite_raw: 41.0
-  developing: 7
+  composite_raw: 39.8
+  developing: 9
   exemplar: 2
-  rating: 32.0
-  scored: 28
+  rating: 31.3
+  scored: 37
   spread: 68.1
-  strength: 25
-  strong: 6
+  strength: 29
+  strong: 7
   worst: 1.8
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
 layout: estate
@@ -57,7 +57,7 @@ member_bands:
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 6
+  count: 7
   items:
   - &id003
     acquired: null
@@ -104,6 +104,17 @@ member_bands:
     score_composite: 60.7
     slug: cisco-xdr
   - &id007
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 34.6
+    api_count: 49
+    immediate_parent: splunk
+    name: Splunk Observability Cloud
+    relationship: product
+    score_band: strong
+    score_composite: 60.4
+    slug: splunk-observability
+  - &id008
     acquired: 2013
     agent_band: agent-ready
     agent_score: 37.4
@@ -114,7 +125,7 @@ member_bands:
     score_band: strong
     score_composite: 57.8
     slug: cisco-secure-firewall
-  - &id008
+  - &id009
     acquired: null
     agent_band: agent-ready
     agent_score: 29.3
@@ -129,9 +140,9 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 7
+  count: 9
   items:
-  - &id009
+  - &id010
     acquired: null
     agent_band: agent-ready
     agent_score: 35.5
@@ -142,7 +153,7 @@ member_bands:
     score_band: developing
     score_composite: 53.5
     slug: cisco-aci
-  - &id010
+  - &id011
     acquired: null
     agent_band: agent-ready
     agent_score: 31.7
@@ -153,7 +164,7 @@ member_bands:
     score_band: developing
     score_composite: 52.9
     slug: cisco-crosswork
-  - &id011
+  - &id012
     acquired: null
     agent_band: agent-aware
     agent_score: 25.0
@@ -164,7 +175,7 @@ member_bands:
     score_band: developing
     score_composite: 52.8
     slug: intersight
-  - &id012
+  - &id013
     acquired: 2007
     agent_band: agent-ready
     agent_score: 43.5
@@ -175,7 +186,7 @@ member_bands:
     score_band: developing
     score_composite: 50.1
     slug: webex
-  - &id013
+  - &id014
     acquired: 2024
     agent_band: agent-ready
     agent_score: 34.0
@@ -186,7 +197,7 @@ member_bands:
     score_band: developing
     score_composite: 48.0
     slug: splunk
-  - &id014
+  - &id015
     acquired: null
     agent_band: agent-ready
     agent_score: 31.3
@@ -197,7 +208,29 @@ member_bands:
     score_band: developing
     score_composite: 46.7
     slug: agntcy
-  - &id015
+  - &id016
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.8
+    api_count: 18
+    immediate_parent: webex
+    name: Cisco Expressway
+    relationship: product
+    score_band: developing
+    score_composite: 42.8
+    slug: cisco-expressway
+  - &id017
+    acquired: 2018
+    agent_band: agent-aware
+    agent_score: 7.9
+    api_count: 1
+    immediate_parent: splunk
+    name: Splunk SOAR
+    relationship: acquisition
+    score_band: developing
+    score_composite: 41.3
+    slug: splunk-soar
+  - &id018
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -212,9 +245,20 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 8
+  count: 13
   items:
-  - &id016
+  - &id019
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.1
+    api_count: 14
+    immediate_parent: webex
+    name: Cisco Webex Meetings
+    relationship: product
+    score_band: thin
+    score_composite: 37.4
+    slug: cisco-webex-meetings
+  - &id020
     acquired: 2024
     agent_band: agent-aware
     agent_score: 23.9
@@ -225,7 +269,7 @@ member_bands:
     score_band: thin
     score_composite: 35.7
     slug: isovalent
-  - &id017
+  - &id021
     acquired: null
     agent_band: agent-aware
     agent_score: 20.5
@@ -236,7 +280,18 @@ member_bands:
     score_band: thin
     score_composite: 33.1
     slug: cisco-support-apis
-  - &id018
+  - &id022
+    acquired: 2019
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 1
+    immediate_parent: splunk
+    name: SignalFx
+    relationship: acquisition
+    score_band: thin
+    score_composite: 33.0
+    slug: signalfx
+  - &id023
     acquired: null
     agent_band: agent-aware
     agent_score: 20.9
@@ -247,7 +302,7 @@ member_bands:
     score_band: thin
     score_composite: 32.2
     slug: cisco-voice-portal
-  - &id019
+  - &id024
     acquired: null
     agent_band: agent-aware
     agent_score: 22.3
@@ -258,7 +313,18 @@ member_bands:
     score_band: thin
     score_composite: 32.0
     slug: cisco-nexus
-  - &id020
+  - &id025
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.8
+    api_count: 4
+    immediate_parent: webex
+    name: Cisco Directory Connector
+    relationship: product
+    score_band: thin
+    score_composite: 31.1
+    slug: cisco-directory-connector
+  - &id026
     acquired: 2012
     agent_band: agent-ready
     agent_score: 31.2
@@ -269,7 +335,7 @@ member_bands:
     score_band: thin
     score_composite: 30.7
     slug: cisco-meraki
-  - &id021
+  - &id027
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -280,7 +346,7 @@ member_bands:
     score_band: thin
     score_composite: 28.3
     slug: cisco-secure-client
-  - &id022
+  - &id028
     acquired: 2017
     agent_band: agent-aware
     agent_score: 22.3
@@ -291,7 +357,7 @@ member_bands:
     score_band: thin
     score_composite: 28.0
     slug: appdynamics
-  - &id023
+  - &id029
     acquired: 2023
     agent_band: agent-aware
     agent_score: 19.8
@@ -302,13 +368,46 @@ member_bands:
     score_band: thin
     score_composite: 27.8
     slug: valtix
+  - &id030
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.8
+    api_count: 7
+    immediate_parent: webex
+    name: Cisco Control Hub
+    relationship: product
+    score_band: thin
+    score_composite: 27.7
+    slug: cisco-control-hub
+  - &id031
+    acquired: 2018
+    agent_band: agent-aware
+    agent_score: 12.9
+    api_count: 2
+    immediate_parent: splunk
+    name: Splunk On-Call (VictorOps)
+    relationship: acquisition
+    score_band: thin
+    score_composite: 26.8
+    slug: victorops
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 2
+  count: 3
   items:
-  - &id024
+  - &id032
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.8
+    api_count: 12
+    immediate_parent: webex
+    name: Cisco Collaboration Hybrid Solutions
+    relationship: product
+    score_band: emerging
+    score_composite: 24.1
+    slug: cisco-collaboration-hybrid-solutions
+  - &id033
     acquired: 2018
     agent_band: agent-aware
     agent_score: 21.5
@@ -319,7 +418,7 @@ member_bands:
     score_band: emerging
     score_composite: 20.0
     slug: duo-security
-  - &id025
+  - &id034
     acquired: 2021
     agent_band: human-only
     agent_score: 2.5
@@ -336,7 +435,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 3
   items:
-  - &id026
+  - &id035
     acquired: 2021
     agent_band: human-only
     agent_score: 0.0
@@ -347,7 +446,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.5
     slug: epsagon
-  - &id027
+  - &id036
     acquired: 2021
     agent_band: human-only
     agent_score: 0.0
@@ -358,7 +457,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.4
     slug: acacia
-  - &id028
+  - &id037
     acquired: 2018
     agent_band: human-only
     agent_score: 0.0
@@ -371,8 +470,8 @@ member_bands:
     slug: broadsoft
   label: Minimal
   open: false
-member_on_network: 28
-member_total: 28
+member_on_network: 37
+member_total: 37
 members:
 - *id001
 - *id002
@@ -402,10 +501,19 @@ members:
 - *id026
 - *id027
 - *id028
+- *id029
+- *id030
+- *id031
+- *id032
+- *id033
+- *id034
+- *id035
+- *id036
+- *id037
 members_unrated: []
 name: Cisco
-overview: 'Cisco publishes its API surface across 28 provider profiles indexed on the APIs.io network,
-  of which 28 carry a rating. The rated members span 68.1 points, from 69.9 down to 1.8.
+overview: 'Cisco publishes its API surface across 37 provider profiles indexed on the APIs.io network,
+  of which 37 carry a rating. The rated members span 68.1 points, from 69.9 down to 1.8.
 
 
   Its highest-rated surfaces are ThousandEyes, Cisco Identity Services Engine, Cisco Catalyst Center,
@@ -416,6 +524,53 @@ slug: cisco
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/apis.yml
+subfamilies:
+- member_count: 5
+  members:
+  - name: Cisco Expressway
+    score_band: developing
+    score_composite: 42.8
+    slug: cisco-expressway
+  - name: Cisco Webex Meetings
+    score_band: thin
+    score_composite: 37.4
+    slug: cisco-webex-meetings
+  - name: Cisco Directory Connector
+    score_band: thin
+    score_composite: 31.1
+    slug: cisco-directory-connector
+  - name: Cisco Control Hub
+    score_band: thin
+    score_composite: 27.7
+    slug: cisco-control-hub
+  - name: Cisco Collaboration Hybrid Solutions
+    score_band: emerging
+    score_composite: 24.1
+    slug: cisco-collaboration-hybrid-solutions
+  name: Webex
+  on_network: true
+  slug: webex
+- member_count: 4
+  members:
+  - name: Splunk Observability Cloud
+    score_band: strong
+    score_composite: 60.4
+    slug: splunk-observability
+  - name: Splunk SOAR
+    score_band: developing
+    score_composite: 41.3
+    slug: splunk-soar
+  - name: SignalFx
+    score_band: thin
+    score_composite: 33.0
+    slug: signalfx
+  - name: Splunk On-Call (VictorOps)
+    score_band: thin
+    score_composite: 26.8
+    slug: victorops
+  name: Splunk
+  on_network: true
+  slug: splunk
 tags:
 - Fortune 100
 - Collaboration
