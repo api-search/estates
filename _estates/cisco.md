@@ -6,23 +6,23 @@ description: Cisco provides a comprehensive suite of APIs across its networking,
   developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and
   other Cisco products to automate network operations, build integrations, and extend platform capabilities.
 estate_rating:
-  agent_avg: 23.3
+  agent_avg: 22.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 25.7
-  agent_ready: 15
+  agent_raw: 25.3
+  agent_ready: 13
   band: thin
-  best: 70.2
-  composite_avg: 38.3
+  best: 69.9
+  composite_avg: 38.0
   composite_band: thin
-  composite_raw: 41.3
-  developing: 6
+  composite_raw: 41.0
+  developing: 7
   exemplar: 2
-  rating: 32.3
+  rating: 32.0
   scored: 28
-  spread: 68.4
-  strength: 26
-  strong: 7
+  spread: 68.1
+  strength: 25
+  strong: 6
   worst: 1.8
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
 layout: estate
@@ -40,7 +40,7 @@ member_bands:
     name: ThousandEyes
     relationship: acquisition
     score_band: exemplar
-    score_composite: 70.2
+    score_composite: 69.9
     slug: thousandeyes
   - &id002
     acquired: null
@@ -57,7 +57,7 @@ member_bands:
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 7
+  count: 6
   items:
   - &id003
     acquired: null
@@ -72,14 +72,14 @@ member_bands:
     slug: cisco-catalyst-center
   - &id004
     acquired: 2017
-    agent_band: agent-ready
-    agent_score: 31.3
+    agent_band: agent-aware
+    agent_score: 26.3
     api_count: 13
     immediate_parent: cisco
     name: Cisco Catalyst SD-WAN
     relationship: acquisition
     score_band: strong
-    score_composite: 64.6
+    score_composite: 61.8
     slug: cisco-catalyst-sdwan
   - &id005
     acquired: 2015
@@ -90,7 +90,7 @@ member_bands:
     name: Cisco Umbrella
     relationship: acquisition
     score_band: strong
-    score_composite: 61.1
+    score_composite: 61.0
     slug: cisco-umbrella
   - &id006
     acquired: null
@@ -104,17 +104,6 @@ member_bands:
     score_composite: 60.7
     slug: cisco-xdr
   - &id007
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 31.8
-    api_count: 11
-    immediate_parent: cisco
-    name: Cisco Intersight
-    relationship: product
-    score_band: strong
-    score_composite: 58.7
-    slug: intersight
-  - &id008
     acquired: 2013
     agent_band: agent-ready
     agent_score: 37.4
@@ -125,7 +114,7 @@ member_bands:
     score_band: strong
     score_composite: 57.8
     slug: cisco-secure-firewall
-  - &id009
+  - &id008
     acquired: null
     agent_band: agent-ready
     agent_score: 29.3
@@ -140,9 +129,9 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 6
+  count: 7
   items:
-  - &id010
+  - &id009
     acquired: null
     agent_band: agent-ready
     agent_score: 35.5
@@ -153,7 +142,7 @@ member_bands:
     score_band: developing
     score_composite: 53.5
     slug: cisco-aci
-  - &id011
+  - &id010
     acquired: null
     agent_band: agent-ready
     agent_score: 31.7
@@ -162,8 +151,19 @@ member_bands:
     name: Cisco Crosswork
     relationship: product
     score_band: developing
-    score_composite: 52.1
+    score_composite: 52.9
     slug: cisco-crosswork
+  - &id011
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.0
+    api_count: 11
+    immediate_parent: cisco
+    name: Cisco Intersight
+    relationship: product
+    score_band: developing
+    score_composite: 52.8
+    slug: intersight
   - &id012
     acquired: 2007
     agent_band: agent-ready
@@ -189,13 +189,13 @@ member_bands:
   - &id014
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.2
+    agent_score: 31.3
     api_count: 5
     immediate_parent: cisco
     name: AGNTCY
     relationship: initiative
     score_band: developing
-    score_composite: 47.6
+    score_composite: 46.7
     slug: agntcy
   - &id015
     acquired: null
@@ -217,13 +217,13 @@ member_bands:
   - &id016
     acquired: 2024
     agent_band: agent-aware
-    agent_score: 21.0
+    agent_score: 23.9
     api_count: 10
     immediate_parent: cisco
     name: Isovalent
     relationship: acquisition
     score_band: thin
-    score_composite: 35.6
+    score_composite: 35.7
     slug: isovalent
   - &id017
     acquired: null
@@ -405,7 +405,7 @@ members:
 members_unrated: []
 name: Cisco
 overview: 'Cisco publishes its API surface across 28 provider profiles indexed on the APIs.io network,
-  of which 28 carry a rating. The rated members span 68.4 points, from 70.2 down to 1.8.
+  of which 28 carry a rating. The rated members span 68.1 points, from 69.9 down to 1.8.
 
 
   Its highest-rated surfaces are ThousandEyes, Cisco Identity Services Engine, Cisco Catalyst Center,

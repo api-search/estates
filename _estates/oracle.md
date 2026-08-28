@@ -1,26 +1,26 @@
 ---
-api_total: 433
+api_total: 438
 category: Estates
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases,
   AI services, SaaS applications, and platform services.
 estate_rating:
-  agent_avg: 15.3
+  agent_avg: 15.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 16.4
+  agent_raw: 16.9
   agent_ready: 4
   band: thin
   best: 67.1
   composite_avg: 32.5
   composite_band: thin
-  composite_raw: 34.8
-  developing: 11
+  composite_raw: 34.7
+  developing: 10
   exemplar: 1
-  rating: 25.6
-  scored: 24
+  rating: 25.8
+  scored: 26
   spread: 62.1
-  strength: 20
-  strong: 3
+  strength: 21
+  strong: 4
   worst: 5.0
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle.png
 layout: estate
@@ -44,7 +44,7 @@ member_bands:
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 3
+  count: 4
   items:
   - &id002
     acquired: 2022
@@ -69,23 +69,6 @@ member_bands:
     score_composite: 60.5
     slug: oracle-hospitality
   - &id004
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 31.1
-    api_count: 23
-    immediate_parent: oracle
-    name: Oracle Eloqua
-    relationship: acquisition
-    score_band: strong
-    score_composite: 54.9
-    slug: eloqua
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 11
-  items:
-  - &id005
     acquired: 2014
     agent_band: agent-aware
     agent_score: 26.1
@@ -93,9 +76,26 @@ member_bands:
     immediate_parent: oracle
     name: Responsys
     relationship: acquisition
-    score_band: developing
-    score_composite: 53.8
+    score_band: strong
+    score_composite: 55.3
     slug: responsys
+  - &id005
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 28.6
+    api_count: 23
+    immediate_parent: oracle
+    name: Oracle Eloqua
+    relationship: acquisition
+    score_band: strong
+    score_composite: 55.1
+    slug: eloqua
+  label: Strong
+  open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 10
+  items:
   - &id006
     acquired: null
     agent_band: agent-aware
@@ -210,7 +210,7 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 1
+  count: 3
   items:
   - &id016
     acquired: null
@@ -223,13 +223,35 @@ member_bands:
     score_band: thin
     score_composite: 36.9
     slug: oracle-planning
+  - &id017
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 21.4
+    api_count: 3
+    immediate_parent: oracle
+    name: Oracle Partitioning
+    relationship: product
+    score_band: thin
+    score_composite: 33.2
+    slug: oracle-partitioning
+  - &id018
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.9
+    api_count: 2
+    immediate_parent: oracle
+    name: Oracle Health Data Intelligence
+    relationship: product
+    score_band: thin
+    score_composite: 31.3
+    slug: oracle-health-data-intelligence
   label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
   count: 8
   items:
-  - &id017
+  - &id019
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -240,7 +262,7 @@ member_bands:
     score_band: minimal
     score_composite: 10.4
     slug: timesten
-  - &id018
+  - &id020
     acquired: 2016
     agent_band: human-only
     agent_score: 0.0
@@ -251,7 +273,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.3
     slug: palerra
-  - &id019
+  - &id021
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -262,7 +284,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: agile-software
-  - &id020
+  - &id022
     acquired: 2010
     agent_band: human-only
     agent_score: 0.0
@@ -273,7 +295,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: amberpoint
-  - &id021
+  - &id023
     acquired: 2017
     agent_band: human-only
     agent_score: 0.0
@@ -284,7 +306,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: conjectag
-  - &id022
+  - &id024
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -295,7 +317,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: datafox
-  - &id023
+  - &id025
     acquired: 2014
     agent_band: human-only
     agent_score: 0.0
@@ -306,7 +328,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: datalogix
-  - &id024
+  - &id026
     acquired: 2014
     agent_band: human-only
     agent_score: 0.0
@@ -319,8 +341,8 @@ member_bands:
     slug: greenbytes
   label: Minimal
   open: false
-member_on_network: 24
-member_total: 24
+member_on_network: 26
+member_total: 26
 members:
 - *id001
 - *id002
@@ -346,14 +368,16 @@ members:
 - *id022
 - *id023
 - *id024
+- *id025
+- *id026
 members_unrated: []
 name: Oracle
-overview: 'Oracle publishes its API surface across 24 provider profiles indexed on the APIs.io network,
-  of which 24 carry a rating. The rated members span 62.1 points, from 67.1 down to 5.0.
+overview: 'Oracle publishes its API surface across 26 provider profiles indexed on the APIs.io network,
+  of which 26 carry a rating. The rated members span 62.1 points, from 67.1 down to 5.0.
 
 
-  Its highest-rated surfaces are Oracle Siebel, Oracle Health (Cerner), Oracle Hospitality, Oracle Eloqua,
-  Responsys.'
+  Its highest-rated surfaces are Oracle Siebel, Oracle Health (Cerner), Oracle Hospitality, Responsys,
+  Oracle Eloqua.'
 parent_provider: oracle
 permalink: /estates/oracle/
 slug: oracle
