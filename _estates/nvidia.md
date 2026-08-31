@@ -1,5 +1,5 @@
 ---
-api_total: 63
+api_total: 64
 category: Estates
 description: Nvidia is a Fortune 500 company that provides developer APIs and integration capabilities
   through its developer platform. NVIDIA provides developer APIs for GPU computing, AI/ML model training
@@ -9,18 +9,18 @@ estate_rating:
   agent_avg: 5.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 3.2
+  agent_raw: 3.3
   agent_ready: 0
   band: emerging
-  best: 46.3
-  composite_avg: 14.9
+  best: 43.9
+  composite_avg: 14.5
   composite_band: emerging
-  composite_raw: 11.3
+  composite_raw: 11.1
   developing: 1
   exemplar: 0
-  rating: 11.1
-  scored: 9
-  spread: 41.3
+  rating: 10.9
+  scored: 10
+  spread: 38.9
   strength: 1
   strong: 0
   worst: 5.0
@@ -40,13 +40,13 @@ member_bands:
     name: NVIDIA Run:ai
     relationship: acquisition
     score_band: developing
-    score_composite: 46.3
+    score_composite: 43.9
     slug: runai
   label: Developing
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 1
+  count: 2
   items:
   - &id002
     acquired: 2025
@@ -59,13 +59,24 @@ member_bands:
     score_band: emerging
     score_composite: 14.1
     slug: lepton-ai
+  - &id003
+    acquired: null
+    agent_band: human-only
+    agent_score: 5.0
+    api_count: 1
+    immediate_parent: nvidia
+    name: Shoreline
+    relationship: acquisition
+    score_band: emerging
+    score_composite: 11.6
+    slug: shoreline
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
   count: 7
   items:
-  - &id003
+  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -76,7 +87,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.2
     slug: cumulus-networks
-  - &id004
+  - &id005
     acquired: 2022
     agent_band: human-only
     agent_score: 0.0
@@ -87,7 +98,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.9
     slug: excelero-storage
-  - &id005
+  - &id006
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -98,7 +109,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.8
     slug: deci-ai
-  - &id006
+  - &id007
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -109,7 +120,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.3
     slug: augtera-networks
-  - &id007
+  - &id008
     acquired: 2021
     agent_band: human-only
     agent_score: 0.0
@@ -120,7 +131,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: deepmap
-  - &id008
+  - &id009
     acquired: 2011
     agent_band: human-only
     agent_score: 0.0
@@ -131,7 +142,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: icerasemi
-  - &id009
+  - &id010
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -144,8 +155,8 @@ member_bands:
     slug: swiftstack
   label: Minimal
   open: false
-member_on_network: 9
-member_total: 9
+member_on_network: 10
+member_total: 10
 members:
 - *id001
 - *id002
@@ -156,13 +167,14 @@ members:
 - *id007
 - *id008
 - *id009
+- *id010
 members_unrated: []
 name: Nvidia
-overview: 'Nvidia publishes its API surface across 9 provider profiles indexed on the APIs.io network,
-  of which 9 carry a rating. The rated members span 41.3 points, from 46.3 down to 5.0.
+overview: 'Nvidia publishes its API surface across 10 provider profiles indexed on the APIs.io network,
+  of which 10 carry a rating. The rated members span 38.9 points, from 43.9 down to 5.0.
 
 
-  Its highest-rated surfaces are NVIDIA Run:ai, Lepton AI, Cumulus Networks, Excelero Storage, Deci AI.'
+  Its highest-rated surfaces are NVIDIA Run:ai, Lepton AI, Shoreline, Cumulus Networks, Excelero Storage.'
 parent_provider: nvidia
 permalink: /estates/nvidia/
 slug: nvidia

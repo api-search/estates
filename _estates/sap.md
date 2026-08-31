@@ -1,22 +1,22 @@
 ---
-api_total: 175
+api_total: 253
 category: Estates
 description: Collection of SAP's enterprise APIs for business applications and cloud services.
 estate_rating:
-  agent_avg: 19.0
+  agent_avg: 19.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.3
-  agent_ready: 3
+  agent_raw: 22.1
+  agent_ready: 4
   band: thin
   best: 51.0
-  composite_avg: 33.3
+  composite_avg: 33.5
   composite_band: thin
-  composite_raw: 37.6
+  composite_raw: 37.3
   developing: 7
   exemplar: 0
-  rating: 27.6
-  scored: 14
+  rating: 27.8
+  scored: 16
   spread: 35.9
   strength: 7
   strong: 0
@@ -42,17 +42,6 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 26
-    immediate_parent: sap
-    name: SAP BI Tools
-    relationship: product
-    score_band: developing
-    score_composite: 50.7
-    slug: sap-bi-tools
-  - &id003
-    acquired: null
-    agent_band: agent-aware
     agent_score: 22.7
     api_count: 16
     immediate_parent: sap
@@ -61,7 +50,29 @@ member_bands:
     score_band: developing
     score_composite: 48.2
     slug: sap-integration-suite
+  - &id003
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 23.9
+    api_count: 46
+    immediate_parent: sap
+    name: SAP Sales and Distribution (SD)
+    relationship: product
+    score_band: developing
+    score_composite: 48.0
+    slug: sap-sales-and-distribution-sd
   - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.1
+    api_count: 26
+    immediate_parent: sap
+    name: SAP BI Tools
+    relationship: product
+    score_band: developing
+    score_composite: 45.9
+    slug: sap-bi-tools
+  - &id005
     acquired: null
     agent_band: agent-aware
     agent_score: 25.5
@@ -72,17 +83,6 @@ member_bands:
     score_band: developing
     score_composite: 45.1
     slug: sybase
-  - &id005
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 23.9
-    api_count: 46
-    immediate_parent: sap
-    name: SAP Sales and Distribution (SD)
-    relationship: product
-    score_band: developing
-    score_composite: 44.4
-    slug: sap-sales-and-distribution-sd
   - &id006
     acquired: null
     agent_band: agent-aware
@@ -109,7 +109,7 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 5
+  count: 7
   items:
   - &id008
     acquired: null
@@ -124,6 +124,17 @@ member_bands:
     slug: sap-api-management
   - &id009
     acquired: null
+    agent_band: agent-ready
+    agent_score: 29.9
+    api_count: 74
+    immediate_parent: sap
+    name: Ariba
+    relationship: product
+    score_band: thin
+    score_composite: 36.9
+    slug: ariba
+  - &id010
+    acquired: null
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 11
@@ -133,7 +144,18 @@ member_bands:
     score_band: thin
     score_composite: 34.4
     slug: sap-business-one
-  - &id010
+  - &id011
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 11.4
+    api_count: 4
+    immediate_parent: sap
+    name: SAP BW
+    relationship: product
+    score_band: thin
+    score_composite: 34.0
+    slug: sap-bw
+  - &id012
     acquired: null
     agent_band: agent-ready
     agent_score: 33.5
@@ -142,9 +164,9 @@ member_bands:
     name: Ariba Guided Buying
     relationship: acquisition
     score_band: thin
-    score_composite: 31.7
+    score_composite: 32.5
     slug: ariba-guided-buying
-  - &id011
+  - &id013
     acquired: null
     agent_band: agent-aware
     agent_score: 15.5
@@ -155,7 +177,7 @@ member_bands:
     score_band: thin
     score_composite: 30.9
     slug: sap-btp
-  - &id012
+  - &id014
     acquired: null
     agent_band: agent-aware
     agent_score: 15.5
@@ -172,7 +194,7 @@ member_bands:
   blurb: Early or largely undocumented
   count: 2
   items:
-  - &id013
+  - &id015
     acquired: null
     agent_band: agent-aware
     agent_score: 22.7
@@ -183,7 +205,7 @@ member_bands:
     score_band: emerging
     score_composite: 22.2
     slug: sap-successfactors
-  - &id014
+  - &id016
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -196,8 +218,8 @@ member_bands:
     slug: sap-america
   label: Emerging
   open: false
-member_on_network: 14
-member_total: 14
+member_on_network: 16
+member_total: 16
 members:
 - *id001
 - *id002
@@ -213,14 +235,16 @@ members:
 - *id012
 - *id013
 - *id014
+- *id015
+- *id016
 members_unrated: []
 name: SAP
-overview: 'SAP publishes its API surface across 14 provider profiles indexed on the APIs.io network, of
-  which 14 carry a rating. The rated members span 35.9 points, from 51.0 down to 15.1.
+overview: 'SAP publishes its API surface across 16 provider profiles indexed on the APIs.io network, of
+  which 16 carry a rating. The rated members span 35.9 points, from 51.0 down to 15.1.
 
 
-  Its highest-rated surfaces are SAP BRIM (Billing and Revenue Innovation Management), SAP BI Tools, SAP
-  Integration Suite, Sybase, SAP Sales and Distribution (SD).'
+  Its highest-rated surfaces are SAP BRIM (Billing and Revenue Innovation Management), SAP Integration
+  Suite, SAP Sales and Distribution (SD), SAP BI Tools, Sybase.'
 parent_provider: sap
 permalink: /estates/sap/
 slug: sap

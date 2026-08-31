@@ -13,24 +13,24 @@ estate_rating:
   agent_raw: 5.9
   agent_ready: 0
   band: emerging
-  best: 53.4
-  composite_avg: 17.6
+  best: 56.2
+  composite_avg: 17.8
   composite_band: emerging
-  composite_raw: 16.9
-  developing: 4
+  composite_raw: 17.1
+  developing: 3
   exemplar: 0
-  rating: 13.2
+  rating: 13.3
   scored: 24
-  spread: 52.8
-  strength: 4
-  strong: 0
+  spread: 55.6
+  strength: 5
+  strong: 1
   worst: 0.6
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadcom.png
 layout: estate
 member_bands:
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 4
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 1
   items:
   - &id001
     acquired: 2023
@@ -40,9 +40,15 @@ member_bands:
     immediate_parent: broadcom
     name: VMware
     relationship: acquisition
-    score_band: developing
-    score_composite: 53.4
+    score_band: strong
+    score_composite: 56.2
     slug: vmware
+  label: Strong
+  open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 3
+  items:
   - &id002
     acquired: 2017
     agent_band: agent-aware
@@ -119,7 +125,7 @@ member_bands:
     name: Lastline
     relationship: acquisition
     score_band: emerging
-    score_composite: 22.8
+    score_composite: 23.5
     slug: lastline
   - &id008
     acquired: 2018
@@ -183,6 +189,17 @@ member_bands:
     score_composite: 8.7
     slug: avi-networks
   - &id013
+    acquired: 2012
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: appneta
+    name: Tracelytics
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 7.5
+    slug: tracelytics
+  - &id014
     acquired: 2009
     agent_band: human-only
     agent_score: 0.0
@@ -193,17 +210,6 @@ member_bands:
     score_band: minimal
     score_composite: 6.9
     slug: springsource
-  - &id014
-    acquired: 2012
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: appneta
-    name: Tracelytics
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 6.8
-    slug: tracelytics
   - &id015
     acquired: 2018
     agent_band: human-only
@@ -346,7 +352,7 @@ members:
 members_unrated: []
 name: Broadcom
 overview: 'Broadcom publishes its API surface across 24 provider profiles indexed on the APIs.io network,
-  of which 24 carry a rating. The rated members span 52.8 points, from 53.4 down to 0.6.
+  of which 24 carry a rating. The rated members span 55.6 points, from 56.2 down to 0.6.
 
 
   Its highest-rated surfaces are VMware, Brocade, Symantec, CloudHealth, VMware Tanzu.'
@@ -369,7 +375,7 @@ subfamilies:
     slug: vmware-tanzu
   - name: Lastline
     score_band: emerging
-    score_composite: 22.8
+    score_composite: 23.5
     slug: lastline
   - name: Carbon Black
     score_band: emerging
@@ -440,7 +446,7 @@ subfamilies:
   members:
   - name: Tracelytics
     score_band: minimal
-    score_composite: 6.8
+    score_composite: 7.5
     slug: tracelytics
   name: AppNeta
   on_network: true

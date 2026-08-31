@@ -1,47 +1,53 @@
 ---
-api_total: 1018
+api_total: 1673
 category: Estates
 description: Cisco provides a comprehensive suite of APIs across its networking, security, collaboration,
   and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and
   developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and
   other Cisco products to automate network operations, build integrations, and extend platform capabilities.
 estate_rating:
-  agent_avg: 21.8
+  agent_avg: 22.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 23.5
-  agent_ready: 14
+  agent_raw: 23.9
+  agent_ready: 16
   band: thin
-  best: 69.9
-  composite_avg: 37.6
+  best: 67.7
+  composite_avg: 37.3
   composite_band: thin
-  composite_raw: 39.8
+  composite_raw: 39.4
   developing: 9
-  exemplar: 2
+  exemplar: 1
   rating: 31.3
   scored: 37
-  spread: 68.1
-  strength: 29
-  strong: 7
+  spread: 65.9
+  strength: 28
+  strong: 8
   worst: 1.8
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
 layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: 2020
     agent_band: agent-ready
     agent_score: 51.1
-    api_count: 26
+    api_count: 98
     immediate_parent: cisco
     name: ThousandEyes
     relationship: acquisition
     score_band: exemplar
-    score_composite: 69.9
+    score_composite: 67.7
     slug: thousandeyes
+  label: Exemplar
+  open: true
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 8
+  items:
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -50,15 +56,9 @@ member_bands:
     immediate_parent: cisco
     name: Cisco Identity Services Engine
     relationship: product
-    score_band: exemplar
-    score_composite: 67.8
+    score_band: strong
+    score_composite: 65.2
     slug: cisco-ise
-  label: Exemplar
-  open: true
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 7
-  items:
   - &id003
     acquired: null
     agent_band: agent-ready
@@ -68,40 +68,40 @@ member_bands:
     name: Cisco Catalyst Center
     relationship: product
     score_band: strong
-    score_composite: 65.9
+    score_composite: 64.2
     slug: cisco-catalyst-center
   - &id004
     acquired: 2017
-    agent_band: agent-aware
-    agent_score: 26.3
-    api_count: 13
+    agent_band: agent-ready
+    agent_score: 31.3
+    api_count: 382
     immediate_parent: cisco
     name: Cisco Catalyst SD-WAN
     relationship: acquisition
     score_band: strong
-    score_composite: 61.8
+    score_composite: 63.0
     slug: cisco-catalyst-sdwan
   - &id005
     acquired: 2015
     agent_band: agent-ready
     agent_score: 29.7
-    api_count: 26
+    api_count: 85
     immediate_parent: cisco
     name: Cisco Umbrella
     relationship: acquisition
     score_band: strong
-    score_composite: 61.0
+    score_composite: 59.2
     slug: cisco-umbrella
   - &id006
     acquired: null
     agent_band: agent-ready
     agent_score: 36.7
-    api_count: 50
+    api_count: 83
     immediate_parent: cisco
     name: Cisco XDR
     relationship: product
     score_band: strong
-    score_composite: 60.7
+    score_composite: 59.0
     slug: cisco-xdr
   - &id007
     acquired: null
@@ -112,9 +112,20 @@ member_bands:
     name: Splunk Observability Cloud
     relationship: product
     score_band: strong
-    score_composite: 60.4
+    score_composite: 58.7
     slug: splunk-observability
   - &id008
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 31.8
+    api_count: 117
+    immediate_parent: cisco
+    name: Cisco Intersight
+    relationship: product
+    score_band: strong
+    score_composite: 57.4
+    slug: intersight
+  - &id009
     acquired: 2013
     agent_band: agent-ready
     agent_score: 37.4
@@ -123,19 +134,8 @@ member_bands:
     name: Cisco Secure Firewall
     relationship: acquisition
     score_band: strong
-    score_composite: 57.8
+    score_composite: 56.3
     slug: cisco-secure-firewall
-  - &id009
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 29.3
-    api_count: 3
-    immediate_parent: cisco
-    name: Cisco PSIRT openVuln API
-    relationship: product
-    score_band: strong
-    score_composite: 56.4
-    slug: cisco-psirt
   label: Strong
   open: true
 - band: developing
@@ -143,6 +143,17 @@ member_bands:
   count: 9
   items:
   - &id010
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 29.3
+    api_count: 3
+    immediate_parent: cisco
+    name: Cisco PSIRT openVuln API
+    relationship: product
+    score_band: developing
+    score_composite: 53.9
+    slug: cisco-psirt
+  - &id011
     acquired: null
     agent_band: agent-ready
     agent_score: 35.5
@@ -153,29 +164,7 @@ member_bands:
     score_band: developing
     score_composite: 53.5
     slug: cisco-aci
-  - &id011
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 31.7
-    api_count: 99
-    immediate_parent: cisco
-    name: Cisco Crosswork
-    relationship: product
-    score_band: developing
-    score_composite: 52.9
-    slug: cisco-crosswork
   - &id012
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 25.0
-    api_count: 11
-    immediate_parent: cisco
-    name: Cisco Intersight
-    relationship: product
-    score_band: developing
-    score_composite: 52.8
-    slug: intersight
-  - &id013
     acquired: 2007
     agent_band: agent-ready
     agent_score: 43.5
@@ -184,8 +173,19 @@ member_bands:
     name: Webex
     relationship: acquisition
     score_band: developing
-    score_composite: 50.1
+    score_composite: 51.0
     slug: webex
+  - &id013
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 31.7
+    api_count: 99
+    immediate_parent: cisco
+    name: Cisco Crosswork
+    relationship: product
+    score_band: developing
+    score_composite: 50.6
+    slug: cisco-crosswork
   - &id014
     acquired: 2024
     agent_band: agent-ready
@@ -195,18 +195,18 @@ member_bands:
     name: Splunk
     relationship: acquisition
     score_band: developing
-    score_composite: 48.0
+    score_composite: 49.7
     slug: splunk
   - &id015
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.3
-    api_count: 5
+    agent_score: 34.2
+    api_count: 21
     immediate_parent: cisco
     name: AGNTCY
     relationship: initiative
     score_band: developing
-    score_composite: 46.7
+    score_composite: 45.9
     slug: agntcy
   - &id016
     acquired: null
@@ -228,7 +228,7 @@ member_bands:
     name: Splunk SOAR
     relationship: acquisition
     score_band: developing
-    score_composite: 41.3
+    score_composite: 40.9
     slug: splunk-soar
   - &id018
     acquired: null
@@ -267,31 +267,9 @@ member_bands:
     name: Isovalent
     relationship: acquisition
     score_band: thin
-    score_composite: 35.7
+    score_composite: 34.2
     slug: isovalent
   - &id021
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 20.5
-    api_count: 8
-    immediate_parent: cisco
-    name: Cisco Support APIs
-    relationship: product
-    score_band: thin
-    score_composite: 33.1
-    slug: cisco-support-apis
-  - &id022
-    acquired: 2019
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 1
-    immediate_parent: splunk
-    name: SignalFx
-    relationship: acquisition
-    score_band: thin
-    score_composite: 33.0
-    slug: signalfx
-  - &id023
     acquired: null
     agent_band: agent-aware
     agent_score: 20.9
@@ -302,7 +280,7 @@ member_bands:
     score_band: thin
     score_composite: 32.2
     slug: cisco-voice-portal
-  - &id024
+  - &id022
     acquired: null
     agent_band: agent-aware
     agent_score: 22.3
@@ -313,6 +291,28 @@ member_bands:
     score_band: thin
     score_composite: 32.0
     slug: cisco-nexus
+  - &id023
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 20.5
+    api_count: 8
+    immediate_parent: cisco
+    name: Cisco Support APIs
+    relationship: product
+    score_band: thin
+    score_composite: 32.0
+    slug: cisco-support-apis
+  - &id024
+    acquired: 2019
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 1
+    immediate_parent: splunk
+    name: SignalFx
+    relationship: acquisition
+    score_band: thin
+    score_composite: 31.9
+    slug: signalfx
   - &id025
     acquired: null
     agent_band: agent-aware
@@ -355,7 +355,7 @@ member_bands:
     name: AppDynamics
     relationship: acquisition
     score_band: thin
-    score_composite: 28.0
+    score_composite: 27.9
     slug: appdynamics
   - &id029
     acquired: 2023
@@ -513,7 +513,7 @@ members:
 members_unrated: []
 name: Cisco
 overview: 'Cisco publishes its API surface across 37 provider profiles indexed on the APIs.io network,
-  of which 37 carry a rating. The rated members span 68.1 points, from 69.9 down to 1.8.
+  of which 37 carry a rating. The rated members span 65.9 points, from 67.7 down to 1.8.
 
 
   Its highest-rated surfaces are ThousandEyes, Cisco Identity Services Engine, Cisco Catalyst Center,
@@ -554,15 +554,15 @@ subfamilies:
   members:
   - name: Splunk Observability Cloud
     score_band: strong
-    score_composite: 60.4
+    score_composite: 58.7
     slug: splunk-observability
   - name: Splunk SOAR
     score_band: developing
-    score_composite: 41.3
+    score_composite: 40.9
     slug: splunk-soar
   - name: SignalFx
     score_band: thin
-    score_composite: 33.0
+    score_composite: 31.9
     slug: signalfx
   - name: Splunk On-Call (VictorOps)
     score_band: thin

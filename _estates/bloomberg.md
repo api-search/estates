@@ -6,22 +6,22 @@ description: Bloomberg delivers business and markets news, data, analysis, and v
   BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise
   services.
 estate_rating:
-  agent_avg: 6.7
+  agent_avg: 7.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.3
-  agent_ready: 0
+  agent_raw: 7.2
+  agent_ready: 1
   band: emerging
-  best: 51.9
-  composite_avg: 23.7
-  composite_band: emerging
-  composite_raw: 24.0
-  developing: 3
+  best: 51.7
+  composite_avg: 25.2
+  composite_band: thin
+  composite_raw: 25.7
+  developing: 5
   exemplar: 0
-  rating: 16.9
+  rating: 18.1
   scored: 36
-  spread: 42.2
-  strength: 3
+  spread: 42.0
+  strength: 5
   strong: 0
   worst: 9.7
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg.png
@@ -29,9 +29,20 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 3
+  count: 5
   items:
   - &id001
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 28.6
+    api_count: 2
+    immediate_parent: bloomberg
+    name: Bloomberg Applications
+    relationship: product
+    score_band: developing
+    score_composite: 51.7
+    slug: bloomberg-applications
+  - &id002
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -40,9 +51,9 @@ member_bands:
     name: Bloomberg AIM
     relationship: product
     score_band: developing
-    score_composite: 51.9
+    score_composite: 51.6
     slug: bloomberg-aim
-  - &id002
+  - &id003
     acquired: null
     agent_band: agent-aware
     agent_score: 25.5
@@ -53,7 +64,7 @@ member_bands:
     score_band: developing
     score_composite: 43.6
     slug: bloomberg-emsx
-  - &id003
+  - &id004
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
@@ -64,13 +75,24 @@ member_bands:
     score_band: developing
     score_composite: 43.1
     slug: bloomberg-buyside-enterprise-solutions
+  - &id005
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 2
+    immediate_parent: bloomberg
+    name: Bloomberg Data Sets
+    relationship: product
+    score_band: developing
+    score_composite: 39.5
+    slug: bloomberg-data-sets
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
   count: 7
   items:
-  - &id004
+  - &id006
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -81,7 +103,7 @@ member_bands:
     score_band: thin
     score_composite: 38.9
     slug: bloomberg-apis
-  - &id005
+  - &id007
     acquired: null
     agent_band: human-only
     agent_score: 5.0
@@ -92,7 +114,29 @@ member_bands:
     score_band: thin
     score_composite: 36.4
     slug: bloomberg-news
-  - &id006
+  - &id008
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 2
+    immediate_parent: bloomberg
+    name: Bloomberg Data Workflows
+    relationship: product
+    score_band: thin
+    score_composite: 36.2
+    slug: bloomberg-data-workflows
+  - &id009
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 8.5
+    api_count: 2
+    immediate_parent: bloomberg
+    name: Bloomberg Data
+    relationship: product
+    score_band: thin
+    score_composite: 33.4
+    slug: bloomberg-data
+  - &id010
     acquired: null
     agent_band: human-only
     agent_score: 3.8
@@ -103,7 +147,7 @@ member_bands:
     score_band: thin
     score_composite: 30.5
     slug: bloomberg-professional-service
-  - &id007
+  - &id011
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -114,7 +158,7 @@ member_bands:
     score_band: thin
     score_composite: 28.2
     slug: bloomberg-intelligence
-  - &id008
+  - &id012
     acquired: null
     agent_band: agent-aware
     agent_score: 15.5
@@ -125,46 +169,13 @@ member_bands:
     score_band: thin
     score_composite: 26.6
     slug: bloomberg-proprietary-technologies
-  - &id009
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 6.0
-    api_count: 2
-    immediate_parent: bloomberg
-    name: Bloomberg Applications
-    relationship: product
-    score_band: thin
-    score_composite: 26.5
-    slug: bloomberg-applications
-  - &id010
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 16.8
-    api_count: 2
-    immediate_parent: bloomberg
-    name: Bloomberg Data Sets
-    relationship: product
-    score_band: thin
-    score_composite: 26.4
-    slug: bloomberg-data-sets
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 25
+  count: 23
   items:
-  - &id011
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 16.8
-    api_count: 2
-    immediate_parent: bloomberg
-    name: Bloomberg Data Workflows
-    relationship: product
-    score_band: emerging
-    score_composite: 24.1
-    slug: bloomberg-data-workflows
-  - &id012
+  - &id013
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -175,17 +186,6 @@ member_bands:
     score_band: emerging
     score_composite: 23.5
     slug: bloomberg-terminal
-  - &id013
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 6.0
-    api_count: 2
-    immediate_parent: bloomberg
-    name: Bloomberg Data
-    relationship: product
-    score_band: emerging
-    score_composite: 22.7
-    slug: bloomberg-data
   - &id014
     acquired: null
     agent_band: human-only
@@ -489,11 +489,11 @@ members:
 members_unrated: []
 name: Bloomberg
 overview: 'Bloomberg publishes its API surface across 36 provider profiles indexed on the APIs.io network,
-  of which 36 carry a rating. The rated members span 42.2 points, from 51.9 down to 9.7.
+  of which 36 carry a rating. The rated members span 42.0 points, from 51.7 down to 9.7.
 
 
-  Its highest-rated surfaces are Bloomberg AIM, Bloomberg EMSX, Bloomberg Buyside Enterprise Solutions,
-  Bloomberg APIs, Bloomberg News.'
+  Its highest-rated surfaces are Bloomberg Applications, Bloomberg AIM, Bloomberg EMSX, Bloomberg Buyside
+  Enterprise Solutions, Bloomberg Data Sets.'
 parent_provider: bloomberg
 permalink: /estates/bloomberg/
 slug: bloomberg

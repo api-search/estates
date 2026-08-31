@@ -1,5 +1,5 @@
 ---
-api_total: 149
+api_total: 147
 category: Estates
 description: Salesforce is a cloud-based customer relationship management (CRM) platform that provides
   a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics
@@ -7,42 +7,42 @@ description: Salesforce is a cloud-based customer relationship management (CRM) 
   gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and
   subscribe to org data programmatically.
 estate_rating:
-  agent_avg: 9.2
+  agent_avg: 9.9
   agent_band: minimal
-  agent_native: 0
-  agent_raw: 9.1
-  agent_ready: 2
+  agent_native: 1
+  agent_raw: 9.9
+  agent_ready: 1
   band: emerging
-  best: 57.6
-  composite_avg: 21.9
+  best: 60.9
+  composite_avg: 23.4
   composite_band: emerging
-  composite_raw: 22.0
+  composite_raw: 23.9
   developing: 4
   exemplar: 0
-  rating: 16.8
+  rating: 18.0
   scored: 22
-  spread: 52.6
-  strength: 8
-  strong: 2
+  spread: 55.9
+  strength: 10
+  strong: 3
   worst: 5.0
 image: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg
 layout: estate
 member_bands:
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 2
+  count: 3
   items:
   - &id001
     acquired: null
-    agent_band: agent-ready
-    agent_score: 28.6
-    api_count: 3
+    agent_band: agent-native
+    agent_score: 49.9
+    api_count: 12
     immediate_parent: salesforce
-    name: Salesforce Marketing Cloud Account Engagement (Pardot)
-    relationship: acquisition
+    name: Salesforce Service Cloud APIs
+    relationship: product
     score_band: strong
-    score_composite: 57.6
-    slug: pardot
+    score_composite: 60.9
+    slug: service-cloud
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -54,24 +54,35 @@ member_bands:
     score_band: strong
     score_composite: 55.4
     slug: salesforce-automation
+  - &id003
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 28.6
+    api_count: 3
+    immediate_parent: salesforce
+    name: Salesforce Marketing Cloud Account Engagement (Pardot)
+    relationship: acquisition
+    score_band: strong
+    score_composite: 55.0
+    slug: pardot
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
   count: 4
   items:
-  - &id003
+  - &id004
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
-    api_count: 52
+    api_count: 46
     immediate_parent: salesforce
     name: Salesforce Sales Cloud
     relationship: product
     score_band: developing
-    score_composite: 53.4
+    score_composite: 51.5
     slug: salesforce-sales-cloud
-  - &id004
+  - &id005
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
@@ -82,7 +93,18 @@ member_bands:
     score_band: developing
     score_composite: 51.1
     slug: salesforce-experience-cloud
-  - &id005
+  - &id006
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 10.1
+    api_count: 1
+    immediate_parent: salesforce
+    name: Lightning Web Components
+    relationship: product
+    score_band: developing
+    score_composite: 41.8
+    slug: lightning-web-components
+  - &id007
     acquired: 2016
     agent_band: agent-aware
     agent_score: 9.6
@@ -93,24 +115,13 @@ member_bands:
     score_band: developing
     score_composite: 40.3
     slug: demandware
-  - &id006
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 34.6
-    api_count: 8
-    immediate_parent: salesforce
-    name: Salesforce Service Cloud APIs
-    relationship: product
-    score_band: developing
-    score_composite: 39.5
-    slug: service-cloud
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
   count: 2
   items:
-  - &id007
+  - &id008
     acquired: null
     agent_band: agent-aware
     agent_score: 20.9
@@ -121,7 +132,7 @@ member_bands:
     score_band: thin
     score_composite: 35.4
     slug: salesforce-commerce-cloud
-  - &id008
+  - &id009
     acquired: null
     agent_band: agent-aware
     agent_score: 15.5
@@ -136,19 +147,8 @@ member_bands:
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 5
+  count: 4
   items:
-  - &id009
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 7.2
-    api_count: 1
-    immediate_parent: salesforce
-    name: Lightning Web Components
-    relationship: product
-    score_band: emerging
-    score_composite: 17.3
-    slug: lightning-web-components
   - &id010
     acquired: 2024
     agent_band: human-only
@@ -328,11 +328,11 @@ members:
 members_unrated: []
 name: Salesforce
 overview: 'Salesforce publishes its API surface across 22 provider profiles indexed on the APIs.io network,
-  of which 22 carry a rating. The rated members span 52.6 points, from 57.6 down to 5.0.
+  of which 22 carry a rating. The rated members span 55.9 points, from 60.9 down to 5.0.
 
 
-  Its highest-rated surfaces are Salesforce Marketing Cloud Account Engagement (Pardot), Salesforce Automation,
-  Salesforce Sales Cloud, Salesforce Experience Cloud, Demandware.'
+  Its highest-rated surfaces are Salesforce Service Cloud APIs, Salesforce Automation, Salesforce Marketing
+  Cloud Account Engagement (Pardot), Salesforce Sales Cloud, Salesforce Experience Cloud.'
 parent_provider: salesforce
 permalink: /estates/salesforce/
 slug: salesforce
