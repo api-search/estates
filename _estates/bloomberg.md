@@ -1,5 +1,5 @@
 ---
-api_total: 152
+api_total: 100
 category: Estates
 description: Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring
   stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including
@@ -13,12 +13,12 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 51.7
-  composite_avg: 25.2
+  composite_avg: 25.4
   composite_band: thin
-  composite_raw: 25.7
+  composite_raw: 26.0
   developing: 5
   exemplar: 0
-  rating: 18.1
+  rating: 18.2
   scored: 36
   spread: 42.0
   strength: 5
@@ -46,35 +46,35 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
-    api_count: 18
+    api_count: 3
     immediate_parent: bloomberg
     name: Bloomberg AIM
     relationship: product
     score_band: developing
-    score_composite: 51.6
+    score_composite: 51.1
     slug: bloomberg-aim
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.5
-    api_count: 7
-    immediate_parent: bloomberg
-    name: Bloomberg EMSX
-    relationship: product
-    score_band: developing
-    score_composite: 43.6
-    slug: bloomberg-emsx
-  - &id004
-    acquired: null
-    agent_band: agent-aware
     agent_score: 27.3
-    api_count: 24
+    api_count: 4
     immediate_parent: bloomberg
     name: Bloomberg Buyside Enterprise Solutions
     relationship: product
     score_band: developing
     score_composite: 43.1
     slug: bloomberg-buyside-enterprise-solutions
+  - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.5
+    api_count: 1
+    immediate_parent: bloomberg
+    name: Bloomberg EMSX
+    relationship: product
+    score_band: developing
+    score_composite: 43.1
+    slug: bloomberg-emsx
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -96,12 +96,12 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
-    api_count: 12
+    api_count: 1
     immediate_parent: bloomberg
     name: Bloomberg APIs
     relationship: product
     score_band: thin
-    score_composite: 38.9
+    score_composite: 38.4
     slug: bloomberg-apis
   - &id007
     acquired: null
@@ -145,7 +145,7 @@ member_bands:
     name: Bloomberg Professional Service
     relationship: product
     score_band: thin
-    score_composite: 30.5
+    score_composite: 31.5
     slug: bloomberg-professional-service
   - &id011
     acquired: null
@@ -156,7 +156,7 @@ member_bands:
     name: Bloomberg Intelligence
     relationship: product
     score_band: thin
-    score_composite: 28.2
+    score_composite: 29.4
     slug: bloomberg-intelligence
   - &id012
     acquired: null
@@ -184,7 +184,7 @@ member_bands:
     name: Bloomberg Terminal
     relationship: product
     score_band: emerging
-    score_composite: 23.5
+    score_composite: 25.1
     slug: bloomberg-terminal
   - &id014
     acquired: null
@@ -195,7 +195,7 @@ member_bands:
     name: Bloomberg Enterprise
     relationship: product
     score_band: emerging
-    score_composite: 21.1
+    score_composite: 23.0
     slug: bloomberg-enterprise
   - &id015
     acquired: null
@@ -206,9 +206,20 @@ member_bands:
     name: Bloomberg Terminals
     relationship: product
     score_band: emerging
-    score_composite: 21.1
+    score_composite: 23.0
     slug: bloomberg-terminals
   - &id016
+    acquired: null
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 3
+    immediate_parent: bloomberg
+    name: Bloomberg Platform
+    relationship: product
+    score_band: emerging
+    score_composite: 22.0
+    slug: bloomberg-platform
+  - &id017
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -219,7 +230,7 @@ member_bands:
     score_band: emerging
     score_composite: 20.6
     slug: bloomberg-government-bgov
-  - &id017
+  - &id018
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -230,17 +241,6 @@ member_bands:
     score_band: emerging
     score_composite: 20.3
     slug: bloomberg-valuation-service-bval
-  - &id018
-    acquired: null
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 3
-    immediate_parent: bloomberg
-    name: Bloomberg Platform
-    relationship: product
-    score_band: emerging
-    score_composite: 20.0
-    slug: bloomberg-platform
   - &id019
     acquired: null
     agent_band: human-only
@@ -492,8 +492,8 @@ overview: 'Bloomberg publishes its API surface across 36 provider profiles index
   of which 36 carry a rating. The rated members span 42.0 points, from 51.7 down to 9.7.
 
 
-  Its highest-rated surfaces are Bloomberg Applications, Bloomberg AIM, Bloomberg EMSX, Bloomberg Buyside
-  Enterprise Solutions, Bloomberg Data Sets.'
+  Its highest-rated surfaces are Bloomberg Applications, Bloomberg AIM, Bloomberg Buyside Enterprise Solutions,
+  Bloomberg EMSX, Bloomberg Data Sets.'
 parent_provider: bloomberg
 permalink: /estates/bloomberg/
 slug: bloomberg

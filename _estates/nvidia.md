@@ -1,5 +1,5 @@
 ---
-api_total: 64
+api_total: 3
 category: Estates
 description: Nvidia is a Fortune 500 company that provides developer APIs and integration capabilities
   through its developer platform. NVIDIA provides developer APIs for GPU computing, AI/ML model training
@@ -12,15 +12,15 @@ estate_rating:
   agent_raw: 3.3
   agent_ready: 0
   band: emerging
-  best: 43.9
-  composite_avg: 14.5
+  best: 42.4
+  composite_avg: 14.4
   composite_band: emerging
-  composite_raw: 11.1
+  composite_raw: 10.9
   developing: 1
   exemplar: 0
-  rating: 10.9
+  rating: 10.8
   scored: 10
-  spread: 38.9
+  spread: 37.4
   strength: 1
   strong: 0
   worst: 5.0
@@ -35,12 +35,12 @@ member_bands:
     acquired: 2024
     agent_band: agent-aware
     agent_score: 24.6
-    api_count: 62
+    api_count: 1
     immediate_parent: nvidia
     name: NVIDIA Run:ai
     relationship: acquisition
     score_band: developing
-    score_composite: 43.9
+    score_composite: 42.4
     slug: runai
   label: Developing
   open: false
@@ -171,7 +171,7 @@ members:
 members_unrated: []
 name: Nvidia
 overview: 'Nvidia publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 38.9 points, from 43.9 down to 5.0.
+  of which 10 carry a rating. The rated members span 37.4 points, from 42.4 down to 5.0.
 
 
   Its highest-rated surfaces are NVIDIA Run:ai, Lepton AI, Shoreline, Cumulus Networks, Excelero Storage.'

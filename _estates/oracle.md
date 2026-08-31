@@ -1,5 +1,5 @@
 ---
-api_total: 704
+api_total: 188
 category: Estates
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases,
   AI services, SaaS applications, and platform services.
@@ -11,12 +11,12 @@ estate_rating:
   agent_ready: 6
   band: thin
   best: 69.1
-  composite_avg: 33.7
+  composite_avg: 33.6
   composite_band: thin
-  composite_raw: 36.0
+  composite_raw: 35.8
   developing: 14
   exemplar: 1
-  rating: 27.1
+  rating: 27.0
   scored: 28
   spread: 64.1
   strength: 23
@@ -33,7 +33,7 @@ member_bands:
     acquired: null
     agent_band: agent-native
     agent_score: 45.2
-    api_count: 25
+    api_count: 9
     immediate_parent: oracle
     name: Oracle Cloud Infrastructure
     relationship: product
@@ -50,7 +50,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 32.5
-    api_count: 154
+    api_count: 59
     immediate_parent: oracle
     name: Oracle Hospitality
     relationship: product
@@ -61,12 +61,12 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 31.3
-    api_count: 16
+    api_count: 1
     immediate_parent: oracle
     name: Oracle Siebel
     relationship: product
     score_band: strong
-    score_composite: 62.2
+    score_composite: 61.7
     slug: oracle-siebel
   - &id004
     acquired: 2022
@@ -89,84 +89,84 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 38.3
-    api_count: 25
+    api_count: 1
     immediate_parent: oracle
     name: Oracle Partitioning
     relationship: product
     score_band: developing
-    score_composite: 54.1
+    score_composite: 53.6
     slug: oracle-partitioning
   - &id006
     acquired: null
     agent_band: agent-ready
     agent_score: 34.4
-    api_count: 2
+    api_count: 1
     immediate_parent: oracle
     name: Oracle Health Data Intelligence
     relationship: product
     score_band: developing
-    score_composite: 53.7
+    score_composite: 52.5
     slug: oracle-health-data-intelligence
   - &id007
+    acquired: 2014
+    agent_band: agent-aware
+    agent_score: 26.1
+    api_count: 2
+    immediate_parent: oracle
+    name: Responsys
+    relationship: acquisition
+    score_band: developing
+    score_composite: 51.8
+    slug: responsys
+  - &id008
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
-    api_count: 48
+    api_count: 21
     immediate_parent: oracle
     name: PeopleSoft
     relationship: acquisition
     score_band: developing
     score_composite: 50.9
     slug: peoplesoft
-  - &id008
+  - &id009
     acquired: null
     agent_band: agent-ready
     agent_score: 31.1
-    api_count: 158
+    api_count: 3
     immediate_parent: oracle
     name: Oracle Eloqua
     relationship: acquisition
     score_band: developing
     score_composite: 50.5
     slug: eloqua
-  - &id009
-    acquired: 2014
-    agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 27
-    immediate_parent: oracle
-    name: Responsys
-    relationship: acquisition
-    score_band: developing
-    score_composite: 50.5
-    slug: responsys
   - &id010
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.5
-    api_count: 23
-    immediate_parent: oracle
-    name: Oracle Essbase
-    relationship: product
-    score_band: developing
-    score_composite: 50.3
-    slug: oracle-essbase
-  - &id011
-    acquired: null
-    agent_band: agent-aware
     agent_score: 25.9
-    api_count: 29
+    api_count: 3
     immediate_parent: oracle
     name: Oracle Database
     relationship: product
     score_band: developing
     score_composite: 50.1
     slug: oracle-database
+  - &id011
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.5
+    api_count: 1
+    immediate_parent: oracle
+    name: Oracle Essbase
+    relationship: product
+    score_band: developing
+    score_composite: 49.7
+    slug: oracle-essbase
   - &id012
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
-    api_count: 52
+    api_count: 7
     immediate_parent: oracle
     name: Oracle Fusion Cloud Applications
     relationship: product
@@ -177,67 +177,67 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
-    api_count: 9
+    api_count: 1
     immediate_parent: oracle
     name: Oracle Primavera
     relationship: product
     score_band: developing
-    score_composite: 45.7
+    score_composite: 45.1
     slug: oracle-primavera
   - &id014
     acquired: null
     agent_band: agent-aware
     agent_score: 24.4
-    api_count: 10
+    api_count: 2
     immediate_parent: oracle
     name: Oracle Retail
     relationship: product
     score_band: developing
-    score_composite: 42.9
+    score_composite: 42.4
     slug: oracle-retail
   - &id015
     acquired: null
     agent_band: agent-aware
     agent_score: 22.7
-    api_count: 5
+    api_count: 1
     immediate_parent: oracle
     name: Oracle Transportation Management
     relationship: product
     score_band: developing
-    score_composite: 42.9
+    score_composite: 42.4
     slug: oracle-transportation-management
   - &id016
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
-    api_count: 18
-    immediate_parent: oracle
-    name: Oracle General Ledger
-    relationship: product
-    score_band: developing
-    score_composite: 42.1
-    slug: oracle-general-ledger
-  - &id017
-    acquired: null
-    agent_band: agent-aware
     agent_score: 24.0
-    api_count: 26
+    api_count: 3
     immediate_parent: oracle
     name: Oracle WebLogic Server
     relationship: product
     score_band: developing
     score_composite: 41.9
     slug: oracle-weblogic
+  - &id017
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.8
+    api_count: 1
+    immediate_parent: oracle
+    name: Oracle General Ledger
+    relationship: product
+    score_band: developing
+    score_composite: 41.5
+    slug: oracle-general-ledger
   - &id018
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
-    api_count: 6
+    api_count: 1
     immediate_parent: oracle
     name: Oracle Container Engine for Kubernetes
     relationship: product
     score_band: developing
-    score_composite: 40.8
+    score_composite: 40.3
     slug: oracle-container-engine
   label: Developing
   open: false

@@ -1,5 +1,5 @@
 ---
-api_total: 150
+api_total: 117
 category: Estates
 description: APIs for Qlik's analytics and data integration platform.
 estate_rating:
@@ -10,12 +10,12 @@ estate_rating:
   agent_ready: 3
   band: thin
   best: 59.3
-  composite_avg: 30.8
+  composite_avg: 30.7
   composite_band: thin
   composite_raw: 38.6
   developing: 1
   exemplar: 0
-  rating: 25.2
+  rating: 25.1
   scored: 6
   spread: 42.5
   strength: 3
@@ -49,12 +49,12 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 30.7
-    api_count: 8
+    api_count: 1
     immediate_parent: qlik
     name: Qlik Sense
     relationship: product
     score_band: developing
-    score_composite: 46.4
+    score_composite: 45.8
     slug: qlik-sense
   label: Developing
   open: false
@@ -77,7 +77,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 29.0
-    api_count: 32
+    api_count: 6
     immediate_parent: qlik
     name: Qlik Sense Enterprise
     relationship: product

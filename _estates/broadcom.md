@@ -1,5 +1,5 @@
 ---
-api_total: 117
+api_total: 25
 category: Estates
 description: Broadcom is a global technology company that specializes in the design and manufacturing
   of semiconductors and other hardware components for a wide range of industries. They provide a diverse
@@ -13,16 +13,16 @@ estate_rating:
   agent_raw: 5.9
   agent_ready: 0
   band: emerging
-  best: 56.2
-  composite_avg: 17.8
+  best: 55.7
+  composite_avg: 17.7
   composite_band: emerging
-  composite_raw: 17.1
-  developing: 3
+  composite_raw: 16.9
+  developing: 2
   exemplar: 0
   rating: 13.3
   scored: 24
-  spread: 55.6
-  strength: 5
+  spread: 55.1
+  strength: 4
   strong: 1
   worst: 0.6
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadcom.png
@@ -36,41 +36,47 @@ member_bands:
     acquired: 2023
     agent_band: agent-aware
     agent_score: 24.8
-    api_count: 59
+    api_count: 1
     immediate_parent: broadcom
     name: VMware
     relationship: acquisition
     score_band: strong
-    score_composite: 56.2
+    score_composite: 55.7
     slug: vmware
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 3
+  count: 2
   items:
   - &id002
     acquired: 2017
     agent_band: agent-aware
     agent_score: 19.8
-    api_count: 12
+    api_count: 1
     immediate_parent: broadcom
     name: Brocade
     relationship: acquisition
     score_band: developing
-    score_composite: 46.4
+    score_composite: 45.9
     slug: brocade
   - &id003
     acquired: 2019
     agent_band: agent-aware
     agent_score: 22.3
-    api_count: 8
+    api_count: 1
     immediate_parent: broadcom
     name: Symantec
     relationship: acquisition
     score_band: developing
-    score_composite: 42.0
+    score_composite: 41.4
     slug: symantec
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 3
+  items:
   - &id004
     acquired: 2018
     agent_band: agent-aware
@@ -79,36 +85,30 @@ member_bands:
     immediate_parent: vmware
     name: CloudHealth
     relationship: acquisition
-    score_band: developing
-    score_composite: 40.1
+    score_band: thin
+    score_composite: 38.9
     slug: cloudhealth
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 2
-  items:
   - &id005
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
-    api_count: 5
+    api_count: 2
     immediate_parent: vmware
     name: VMware Tanzu
     relationship: product
     score_band: thin
-    score_composite: 37.6
+    score_composite: 37.1
     slug: vmware-tanzu
   - &id006
     acquired: 2013
     agent_band: agent-aware
     agent_score: 19.6
-    api_count: 15
+    api_count: 2
     immediate_parent: ca
     name: Flowdock (Discontinued)
     relationship: acquisition
     score_band: thin
-    score_composite: 30.5
+    score_composite: 30.0
     slug: flowdock
   label: Thin
   open: false
@@ -352,7 +352,7 @@ members:
 members_unrated: []
 name: Broadcom
 overview: 'Broadcom publishes its API surface across 24 provider profiles indexed on the APIs.io network,
-  of which 24 carry a rating. The rated members span 55.6 points, from 56.2 down to 0.6.
+  of which 24 carry a rating. The rated members span 55.1 points, from 55.7 down to 0.6.
 
 
   Its highest-rated surfaces are VMware, Brocade, Symantec, CloudHealth, VMware Tanzu.'
@@ -366,12 +366,12 @@ subfamilies:
 - member_count: 11
   members:
   - name: CloudHealth
-    score_band: developing
-    score_composite: 40.1
+    score_band: thin
+    score_composite: 38.9
     slug: cloudhealth
   - name: VMware Tanzu
     score_band: thin
-    score_composite: 37.6
+    score_composite: 37.1
     slug: vmware-tanzu
   - name: Lastline
     score_band: emerging
@@ -433,7 +433,7 @@ subfamilies:
   members:
   - name: Flowdock (Discontinued)
     score_band: thin
-    score_composite: 30.5
+    score_composite: 30.0
     slug: flowdock
   - name: Arcot Systems
     score_band: minimal

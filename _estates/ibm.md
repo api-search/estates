@@ -1,5 +1,5 @@
 ---
-api_total: 194
+api_total: 37
 category: Estates
 description: A collection of IBM's public APIs and developer resources.
 estate_rating:
@@ -9,15 +9,15 @@ estate_rating:
   agent_raw: 13.4
   agent_ready: 3
   band: emerging
-  best: 59.5
-  composite_avg: 27.0
+  best: 60.0
+  composite_avg: 26.9
   composite_band: thin
   composite_raw: 28.3
   developing: 4
   exemplar: 0
-  rating: 21.3
+  rating: 21.2
   scored: 21
-  spread: 53.8
+  spread: 54.3
   strength: 8
   strong: 2
   worst: 5.7
@@ -37,13 +37,13 @@ member_bands:
     name: Red Hat Ansible Automation Platform
     relationship: product
     score_band: strong
-    score_composite: 59.5
+    score_composite: 60.0
     slug: red-hat-ansible-automation-platform
   - &id002
     acquired: 2019
     agent_band: agent-ready
     agent_score: 50.1
-    api_count: 75
+    api_count: 6
     immediate_parent: ibm
     name: Red Hat
     relationship: acquisition
@@ -60,14 +60,25 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
-    api_count: 10
+    api_count: 1
     immediate_parent: ibm
     name: IBM Turbonomic
     relationship: acquisition
     score_band: developing
-    score_composite: 47.6
+    score_composite: 47.0
     slug: turbonomic
   - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.3
+    api_count: 1
+    immediate_parent: ibm
+    name: IBM Language Translator
+    relationship: product
+    score_band: developing
+    score_composite: 46.9
+    slug: ibm-translate
+  - &id005
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -78,17 +89,6 @@ member_bands:
     score_band: developing
     score_composite: 46.6
     slug: openpages
-  - &id005
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 22.3
-    api_count: 4
-    immediate_parent: ibm
-    name: IBM Language Translator
-    relationship: product
-    score_band: developing
-    score_composite: 45.4
-    slug: ibm-translate
   - &id006
     acquired: null
     agent_band: agent-aware
@@ -110,45 +110,45 @@ member_bands:
     acquired: 2023
     agent_band: agent-ready
     agent_score: 28.7
-    api_count: 3
+    api_count: 1
     immediate_parent: ibm
     name: Apptio
     relationship: acquisition
     score_band: thin
-    score_composite: 37.6
+    score_composite: 37.1
     slug: apptio
   - &id008
     acquired: 2024
     agent_band: agent-aware
     agent_score: 19.8
-    api_count: 6
+    api_count: 1
     immediate_parent: ibm
     name: Software AG
     relationship: acquisition
     score_band: thin
-    score_composite: 35.2
+    score_composite: 34.7
     slug: software-ag
   - &id009
     acquired: 2025
     agent_band: agent-aware
     agent_score: 19.8
-    api_count: 9
+    api_count: 1
     immediate_parent: ibm
     name: HashiCorp
     relationship: acquisition
     score_band: thin
-    score_composite: 30.4
+    score_composite: 29.9
     slug: hashicorp
   - &id010
     acquired: null
     agent_band: agent-aware
     agent_score: 24.7
-    api_count: 62
+    api_count: 1
     immediate_parent: ibm
     name: Instana
     relationship: acquisition
     score_band: thin
-    score_composite: 27.2
+    score_composite: 26.7
     slug: instana
   label: Thin
   open: false
@@ -312,11 +312,11 @@ members:
 members_unrated: []
 name: IBM
 overview: 'IBM publishes its API surface across 21 provider profiles indexed on the APIs.io network, of
-  which 21 carry a rating. The rated members span 53.8 points, from 59.5 down to 5.7.
+  which 21 carry a rating. The rated members span 54.3 points, from 60.0 down to 5.7.
 
 
-  Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat, IBM Turbonomic, OpenPages,
-  IBM Language Translator.'
+  Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat, IBM Turbonomic, IBM Language
+  Translator, OpenPages.'
 parent_provider: ibm
 permalink: /estates/ibm/
 slug: ibm
@@ -328,7 +328,7 @@ subfamilies:
   members:
   - name: Red Hat Ansible Automation Platform
     score_band: strong
-    score_composite: 59.5
+    score_composite: 60.0
     slug: red-hat-ansible-automation-platform
   name: Red Hat
   on_network: true
