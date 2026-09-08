@@ -10,49 +10,55 @@ estate_rating:
   agent_avg: 21.8
   agent_band: emerging
   agent_native: 2
-  agent_raw: 33.7
+  agent_raw: 33.0
   agent_ready: 1
   band: thin
-  best: 65.1
-  composite_avg: 33.3
+  best: 76.7
+  composite_avg: 34.9
   composite_band: thin
-  composite_raw: 45.4
+  composite_raw: 47.8
   developing: 1
-  exemplar: 0
-  rating: 28.7
+  exemplar: 1
+  rating: 29.7
   scored: 5
-  spread: 37.3
-  strength: 5
-  strong: 2
-  worst: 27.8
+  spread: 51.6
+  strength: 6
+  strong: 1
+  worst: 25.1
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastic.png
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 2
+- band: exemplar
+  blurb: Complete, well-documented, and agent-ready
+  count: 1
   items:
   - &id001
     acquired: null
     agent_band: agent-native
-    agent_score: 51.3
+    agent_score: 50.3
     api_count: 3
     immediate_parent: elastic
     name: Elastic Stack (ELK Stack)
     relationship: product
-    score_band: strong
-    score_composite: 65.1
+    score_band: exemplar
+    score_composite: 76.7
     slug: elk-stack
+  label: Exemplar
+  open: true
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 1
+  items:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.2
+    agent_score: 29.5
     api_count: 1
     immediate_parent: elastic
     name: Elastic Observability
     relationship: product
     score_band: strong
-    score_composite: 57.0
+    score_composite: 58.4
     slug: elastic-observability
   label: Strong
   open: true
@@ -69,13 +75,13 @@ member_bands:
     name: Elasticsearch
     relationship: product
     score_band: developing
-    score_composite: 42.5
+    score_composite: 41.8
     slug: elasticsearch
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 2
+  count: 1
   items:
   - &id004
     acquired: null
@@ -86,8 +92,14 @@ member_bands:
     name: Kibana
     relationship: product
     score_band: thin
-    score_composite: 34.4
+    score_composite: 37.0
     slug: kibana
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 1
+  items:
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -96,10 +108,10 @@ member_bands:
     immediate_parent: elastic
     name: Elastic Stack
     relationship: product
-    score_band: thin
-    score_composite: 27.8
+    score_band: emerging
+    score_composite: 25.1
     slug: elastic-stack
-  label: Thin
+  label: Emerging
   open: false
 member_on_network: 5
 member_total: 5
@@ -112,7 +124,7 @@ members:
 members_unrated: []
 name: Elastic
 overview: 'Elastic publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 37.3 points, from 65.1 down to 27.8.
+  of which 5 carry a rating. The rated members span 51.6 points, from 76.7 down to 25.1.
 
 
   Its highest-rated surfaces are Elastic Stack (ELK Stack), Elastic Observability, Elasticsearch, Kibana,

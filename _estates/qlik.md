@@ -6,26 +6,26 @@ estate_rating:
   agent_avg: 16.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.3
+  agent_raw: 21.8
   agent_ready: 3
   band: thin
-  best: 59.3
-  composite_avg: 30.7
+  best: 70.5
+  composite_avg: 32.1
   composite_band: thin
-  composite_raw: 38.6
+  composite_raw: 40.5
   developing: 1
-  exemplar: 0
-  rating: 25.1
+  exemplar: 1
+  rating: 25.9
   scored: 6
-  spread: 42.5
-  strength: 3
-  strong: 1
+  spread: 53.7
+  strength: 4
+  strong: 0
   worst: 16.8
 image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo.png
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
+- band: exemplar
+  blurb: Complete, well-documented, and agent-ready
   count: 1
   items:
   - &id001
@@ -36,10 +36,10 @@ member_bands:
     immediate_parent: qlik
     name: Qlik Sense APIs
     relationship: product
-    score_band: strong
-    score_composite: 59.3
+    score_band: exemplar
+    score_composite: 70.5
     slug: qliksense
-  label: Strong
+  label: Exemplar
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
@@ -54,7 +54,7 @@ member_bands:
     name: Qlik Sense
     relationship: product
     score_band: developing
-    score_composite: 45.8
+    score_composite: 45.4
     slug: qlik-sense
   label: Developing
   open: false
@@ -64,8 +64,8 @@ member_bands:
   items:
   - &id003
     acquired: null
-    agent_band: agent-aware
-    agent_score: 8.5
+    agent_band: human-only
+    agent_score: 5.0
     api_count: 10
     immediate_parent: qlik
     name: QlikView
@@ -82,7 +82,7 @@ member_bands:
     name: Qlik Sense Enterprise
     relationship: product
     score_band: thin
-    score_composite: 36.7
+    score_composite: 38.1
     slug: qlik-sense-enterprise
   - &id005
     acquired: null
@@ -93,7 +93,7 @@ member_bands:
     name: Qlik Cloud
     relationship: product
     score_band: thin
-    score_composite: 33.7
+    score_composite: 33.2
     slug: qlik-cloud
   label: Thin
   open: false
@@ -126,7 +126,7 @@ members:
 members_unrated: []
 name: Qlik
 overview: 'Qlik publishes its API surface across 6 provider profiles indexed on the APIs.io network, of
-  which 6 carry a rating. The rated members span 42.5 points, from 59.3 down to 16.8.
+  which 6 carry a rating. The rated members span 53.7 points, from 70.5 down to 16.8.
 
 
   Its highest-rated surfaces are Qlik Sense APIs, Qlik Sense, QlikView, Qlik Sense Enterprise, Qlik Cloud.'

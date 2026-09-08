@@ -6,21 +6,21 @@ description: Nvidia is a Fortune 500 company that provides developer APIs and in
   and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU
   services.
 estate_rating:
-  agent_avg: 5.5
+  agent_avg: 6.0
   agent_band: minimal
   agent_native: 0
-  agent_raw: 3.3
+  agent_raw: 3.5
   agent_ready: 0
   band: emerging
-  best: 42.4
-  composite_avg: 14.4
+  best: 41.7
+  composite_avg: 14.8
   composite_band: emerging
-  composite_raw: 10.9
+  composite_raw: 10.8
   developing: 1
   exemplar: 0
-  rating: 10.8
-  scored: 10
-  spread: 37.4
+  rating: 11.3
+  scored: 9
+  spread: 36.7
   strength: 1
   strong: 0
   worst: 5.0
@@ -34,19 +34,19 @@ member_bands:
   - &id001
     acquired: 2024
     agent_band: agent-aware
-    agent_score: 24.6
+    agent_score: 27.5
     api_count: 1
     immediate_parent: nvidia
     name: NVIDIA Run:ai
     relationship: acquisition
     score_band: developing
-    score_composite: 42.4
+    score_composite: 41.7
     slug: runai
   label: Developing
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 2
+  count: 1
   items:
   - &id002
     acquired: 2025
@@ -59,24 +59,13 @@ member_bands:
     score_band: emerging
     score_composite: 14.1
     slug: lepton-ai
-  - &id003
-    acquired: null
-    agent_band: human-only
-    agent_score: 5.0
-    api_count: 1
-    immediate_parent: nvidia
-    name: Shoreline
-    relationship: acquisition
-    score_band: emerging
-    score_composite: 11.6
-    slug: shoreline
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
   count: 7
   items:
-  - &id004
+  - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -87,7 +76,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.2
     slug: cumulus-networks
-  - &id005
+  - &id004
     acquired: 2022
     agent_band: human-only
     agent_score: 0.0
@@ -98,7 +87,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.9
     slug: excelero-storage
-  - &id006
+  - &id005
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -109,7 +98,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.8
     slug: deci-ai
-  - &id007
+  - &id006
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -120,7 +109,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.3
     slug: augtera-networks
-  - &id008
+  - &id007
     acquired: 2021
     agent_band: human-only
     agent_score: 0.0
@@ -131,7 +120,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: deepmap
-  - &id009
+  - &id008
     acquired: 2011
     agent_band: human-only
     agent_score: 0.0
@@ -142,7 +131,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: icerasemi
-  - &id010
+  - &id009
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -154,6 +143,23 @@ member_bands:
     score_composite: 5.0
     slug: swiftstack
   label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id010
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 1
+    immediate_parent: nvidia
+    name: Shoreline
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: shoreline
+  label: Unrated
   open: false
 member_on_network: 10
 member_total: 10
@@ -171,10 +177,10 @@ members:
 members_unrated: []
 name: Nvidia
 overview: 'Nvidia publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 37.4 points, from 42.4 down to 5.0.
+  of which 10 carry a rating. The rated members span 36.7 points, from 41.7 down to 5.0.
 
 
-  Its highest-rated surfaces are NVIDIA Run:ai, Lepton AI, Shoreline, Cumulus Networks, Excelero Storage.'
+  Its highest-rated surfaces are NVIDIA Run:ai, Lepton AI, Cumulus Networks, Excelero Storage, Deci AI.'
 parent_provider: nvidia
 permalink: /estates/nvidia/
 slug: nvidia

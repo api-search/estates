@@ -8,19 +8,19 @@ description: Abstract API is a platform that offers a wide range of API services
   generation. Abstract API provides a seamless way for developers to access powerful features without
   having to build them from scratch.
 estate_rating:
-  agent_avg: 9.5
+  agent_avg: 9.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.8
   agent_ready: 1
   band: emerging
   best: 35.8
-  composite_avg: 18.3
+  composite_avg: 18.8
   composite_band: emerging
   composite_raw: 14.6
   developing: 0
   exemplar: 0
-  rating: 14.8
+  rating: 15.2
   scored: 4
   spread: 28.2
   strength: 0

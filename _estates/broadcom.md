@@ -7,21 +7,21 @@ description: Broadcom is a global technology company that specializes in the des
   electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets,
   routers, and smart TVs.
 estate_rating:
-  agent_avg: 6.6
+  agent_avg: 7.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.9
+  agent_raw: 6.8
   agent_ready: 0
   band: emerging
-  best: 55.7
-  composite_avg: 17.7
+  best: 54.3
+  composite_avg: 19.1
   composite_band: emerging
-  composite_raw: 16.9
+  composite_raw: 18.4
   developing: 2
   exemplar: 0
-  rating: 13.3
-  scored: 24
-  spread: 55.1
+  rating: 14.5
+  scored: 21
+  spread: 53.7
   strength: 4
   strong: 1
   worst: 0.6
@@ -41,7 +41,7 @@ member_bands:
     name: VMware
     relationship: acquisition
     score_band: strong
-    score_composite: 55.7
+    score_composite: 54.3
     slug: vmware
   label: Strong
   open: true
@@ -58,7 +58,7 @@ member_bands:
     name: Brocade
     relationship: acquisition
     score_band: developing
-    score_composite: 45.9
+    score_composite: 45.2
     slug: brocade
   - &id003
     acquired: 2019
@@ -69,7 +69,7 @@ member_bands:
     name: Symantec
     relationship: acquisition
     score_band: developing
-    score_composite: 41.4
+    score_composite: 40.7
     slug: symantec
   label: Developing
   open: false
@@ -86,7 +86,7 @@ member_bands:
     name: CloudHealth
     relationship: acquisition
     score_band: thin
-    score_composite: 38.9
+    score_composite: 38.2
     slug: cloudhealth
   - &id005
     acquired: null
@@ -97,7 +97,7 @@ member_bands:
     name: VMware Tanzu
     relationship: product
     score_band: thin
-    score_composite: 37.1
+    score_composite: 36.4
     slug: vmware-tanzu
   - &id006
     acquired: 2013
@@ -108,7 +108,7 @@ member_bands:
     name: Flowdock (Discontinued)
     relationship: acquisition
     score_band: thin
-    score_composite: 30.0
+    score_composite: 29.6
     slug: flowdock
   label: Thin
   open: false
@@ -147,7 +147,7 @@ member_bands:
     name: Carbon Black
     relationship: acquisition
     score_band: emerging
-    score_composite: 19.3
+    score_composite: 19.8
     slug: carbon-black
   - &id010
     acquired: 2016
@@ -175,7 +175,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 13
+  count: 10
   items:
   - &id012
     acquired: 2019
@@ -211,17 +211,6 @@ member_bands:
     score_composite: 6.9
     slug: springsource
   - &id015
-    acquired: 2018
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: vmware
-    name: Heptio
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.3
-    slug: heptio
-  - &id016
     acquired: 2017
     agent_band: human-only
     agent_score: 0.0
@@ -232,18 +221,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: apteligent
-  - &id017
-    acquired: 2004
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: symantec
-    name: Brightmail
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: brightmail
-  - &id018
+  - &id016
     acquired: 2016
     agent_band: human-only
     agent_score: 0.0
@@ -254,18 +232,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: confer
-  - &id019
-    acquired: 2020
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: vmware
-    name: Datrium
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: datrium
-  - &id020
+  - &id017
     acquired: 2017
     agent_band: human-only
     agent_score: 0.0
@@ -276,7 +243,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: fireglass
-  - &id021
+  - &id018
     acquired: 2012
     agent_band: human-only
     agent_score: 0.0
@@ -287,7 +254,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: nicira-networks
-  - &id022
+  - &id019
     acquired: 2020
     agent_band: human-only
     agent_score: 0.0
@@ -298,7 +265,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: octarine
-  - &id023
+  - &id020
     acquired: 2010
     agent_band: human-only
     agent_score: 0.0
@@ -309,7 +276,7 @@ member_bands:
     score_band: minimal
     score_composite: 1.5
     slug: arcot-systems
-  - &id024
+  - &id021
     acquired: 2000
     agent_band: human-only
     agent_score: 0.0
@@ -321,6 +288,45 @@ member_bands:
     score_composite: 0.6
     slug: newport-communications
   label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 3
+  items:
+  - &id022
+    acquired: 2004
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: symantec
+    name: Brightmail
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: brightmail
+  - &id023
+    acquired: 2020
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: vmware
+    name: Datrium
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: datrium
+  - &id024
+    acquired: 2018
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: vmware
+    name: Heptio
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: heptio
+  label: Unrated
   open: false
 member_on_network: 24
 member_total: 24
@@ -352,7 +358,7 @@ members:
 members_unrated: []
 name: Broadcom
 overview: 'Broadcom publishes its API surface across 24 provider profiles indexed on the APIs.io network,
-  of which 24 carry a rating. The rated members span 55.1 points, from 55.7 down to 0.6.
+  of which 24 carry a rating. The rated members span 53.7 points, from 54.3 down to 0.6.
 
 
   Its highest-rated surfaces are VMware, Brocade, Symantec, CloudHealth, VMware Tanzu.'
@@ -367,11 +373,11 @@ subfamilies:
   members:
   - name: CloudHealth
     score_band: thin
-    score_composite: 38.9
+    score_composite: 38.2
     slug: cloudhealth
   - name: VMware Tanzu
     score_band: thin
-    score_composite: 37.1
+    score_composite: 36.4
     slug: vmware-tanzu
   - name: Lastline
     score_band: emerging
@@ -379,7 +385,7 @@ subfamilies:
     slug: lastline
   - name: Carbon Black
     score_band: emerging
-    score_composite: 19.3
+    score_composite: 19.8
     slug: carbon-black
   - name: AVI Networks
     score_band: minimal
@@ -389,18 +395,10 @@ subfamilies:
     score_band: minimal
     score_composite: 6.9
     slug: springsource
-  - name: Heptio
-    score_band: minimal
-    score_composite: 5.3
-    slug: heptio
   - name: Apteligent
     score_band: minimal
     score_composite: 5.0
     slug: apteligent
-  - name: Datrium
-    score_band: minimal
-    score_composite: 5.0
-    slug: datrium
   - name: Nicira Networks
     score_band: minimal
     score_composite: 5.0
@@ -409,6 +407,14 @@ subfamilies:
     score_band: minimal
     score_composite: 5.0
     slug: octarine
+  - name: Datrium
+    score_band: null
+    score_composite: null
+    slug: datrium
+  - name: Heptio
+    score_band: null
+    score_composite: null
+    slug: heptio
   name: VMware
   on_network: true
   slug: vmware
@@ -418,14 +424,14 @@ subfamilies:
     score_band: emerging
     score_composite: 14.5
     slug: bluecoat-symantec
-  - name: Brightmail
-    score_band: minimal
-    score_composite: 5.0
-    slug: brightmail
   - name: Fireglass
     score_band: minimal
     score_composite: 5.0
     slug: fireglass
+  - name: Brightmail
+    score_band: null
+    score_composite: null
+    slug: brightmail
   name: Symantec
   on_network: true
   slug: symantec
@@ -433,7 +439,7 @@ subfamilies:
   members:
   - name: Flowdock (Discontinued)
     score_band: thin
-    score_composite: 30.0
+    score_composite: 29.6
     slug: flowdock
   - name: Arcot Systems
     score_band: minimal
