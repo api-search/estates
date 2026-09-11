@@ -4,7 +4,7 @@ category: Estates
 description: The GitHub REST API allows developers to programmatically interact with GitHub resources
   including repositories, users, organizations, pull requests, issues, and more.
 estate_rating:
-  agent_avg: 10.4
+  agent_avg: 10.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.3
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 22.2
   developing: 0
   exemplar: 0
-  rating: 17.4
+  rating: 17.5
   scored: 4
   spread: 32.1
   strength: 0

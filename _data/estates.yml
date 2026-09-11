@@ -422,7 +422,7 @@ estates:
   rating_band: thin
   composite_avg: 32.3
   composite_band: thin
-  agent_avg: 15.7
+  agent_avg: 15.8
   agent_band: emerging
   spread: 8.6
   rating_scored: 4
@@ -487,11 +487,11 @@ estates:
   - Video
   subfamilies: []
   strength: 3
-  rating: 23.2
+  rating: 23.3
   rating_band: emerging
   composite_avg: 28.4
   composite_band: thin
-  agent_avg: 15.5
+  agent_avg: 15.6
   agent_band: emerging
   spread: 39.9
   rating_scored: 3
@@ -584,11 +584,11 @@ estates:
   subfamilies:
   - Sage Intacct
   strength: 0
-  rating: 20.6
+  rating: 20.7
   rating_band: emerging
   composite_avg: 25.9
   composite_band: thin
-  agent_avg: 12.7
+  agent_avg: 12.8
   agent_band: emerging
   spread: 7.6
   rating_scored: 4
@@ -615,11 +615,11 @@ estates:
   - WAF
   subfamilies: []
   strength: 0
-  rating: 18.9
+  rating: 19.0
   rating_band: emerging
   composite_avg: 23.9
   composite_band: emerging
-  agent_avg: 11.5
+  agent_avg: 11.6
   agent_band: emerging
   spread: 23.4
   rating_scored: 3
@@ -646,11 +646,11 @@ estates:
   - T1
   subfamilies: []
   strength: 0
-  rating: 17.4
+  rating: 17.5
   rating_band: emerging
   composite_avg: 22.1
   composite_band: emerging
-  agent_avg: 10.4
+  agent_avg: 10.5
   agent_band: emerging
   spread: 32.1
   rating_scored: 4
@@ -710,9 +710,9 @@ estates:
   - OCR
   subfamilies: []
   strength: 0
-  rating: 12.6
+  rating: 12.7
   rating_band: emerging
-  composite_avg: 16.6
+  composite_avg: 16.7
   composite_band: emerging
   agent_avg: 6.6
   agent_band: minimal
