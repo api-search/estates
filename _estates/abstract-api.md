@@ -26,7 +26,10 @@ estate_rating:
   strength: 0
   strong: 0
   worst: 7.6
+estate_root: null
+estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abstract-api.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: thin
@@ -107,6 +110,7 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/apis.yml
 subfamilies: []
+subfamily_page_count: 0
 tags:
 - Avatars
 - Company Enrichment

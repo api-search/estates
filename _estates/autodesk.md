@@ -25,7 +25,10 @@ estate_rating:
   strength: 4
   strong: 0
   worst: 41.6
+estate_root: null
+estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autodesk.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: developing
@@ -100,6 +103,7 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/apis.yml
 subfamilies: []
+subfamily_page_count: 0
 tags:
 - Fortune 1000
 - 3D Modeling

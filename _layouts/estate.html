@@ -34,12 +34,29 @@ layout: default
   .est-unrated span { background: #f3f4f6; border-radius: 999px; padding: .15rem .6rem; font-size: .85rem; color: #374151; }
   .est-families { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
   .est-family { background: #fff; border: 1px solid #e3e7ee; border-radius: 12px; padding: 1rem 1.15rem; }
+  .est-crumb { font-size: .9rem; color: #6b7280; margin-bottom: .6rem; }
+  .est-crumb-sep { margin: 0 .4rem; color: #9ca3af; }
+  .est-family-more { display: block; margin-top: .6rem; font-size: .88rem; }
+  .est-family.has-page { border-left: 3px solid #5b21b6; }
   .est-family-name { font-size: 1.05rem; margin: 0 0 .6rem; }
   .est-family-count { color: #6b7280; font-size: .85rem; font-weight: 400; margin-left: .4rem; }
   .est-family-list { list-style: none; margin: 0; padding: 0; }
   .est-family-list li { display: flex; justify-content: space-between; gap: .5rem; padding: .2rem 0; font-size: .92rem; }
   .est-family-list .score-band { flex: none; }
 </style>
+
+{%- comment -%}
+  A sub-family page — Azure inside Microsoft, Webex inside Cisco — is the same
+  layout scoped to one brand. It needs a way back up, because a reader who lands
+  on Azure from search has no other signal that it sits inside a larger estate.
+{%- endcomment -%}
+{% if page.is_subfamily %}
+<div class="est-crumb">
+  <a href="/estates/{{ page.estate_root }}/">{{ page.estate_root_name }}</a>
+  <span class="est-crumb-sep">›</span>
+  <span>{{ page.name }}</span>
+</div>
+{% endif %}
 
 <div class="est-head">
   <h1>{{ page.name }}</h1>
@@ -109,14 +126,18 @@ layout: default
 {% if page.subfamilies.size > 0 %}
 <h2 class="section-anchor" id="brands">Brands inside this Estate</h2>
 <p class="section-note">
-  Acquired brands that carry product families of their own. Their profiles are already counted in
-  the estate above — this is the same footprint, grouped by the name it was bought under.
+  Acquired brands and product families that carry surfaces of their own. Their profiles are already
+  counted in the estate above — this is the same footprint, grouped by the name it is sold under.
+  {% if page.subfamily_page_count > 0 %}The {{ page.subfamily_page_count }} largest have a rated page
+  of their own.{% endif %}
 </p>
 <div class="est-families">
   {% for f in page.subfamilies %}
-  <div class="est-family">
+  <div class="est-family{% if f.has_page %} has-page{% endif %}">
     <h3 class="est-family-name">
-      {% if f.on_network %}<a href="/providers/{{ f.slug }}/">{{ f.name }}</a>{% else %}{{ f.name }}{% endif %}
+      {% if f.has_page %}<a href="{{ f.permalink }}">{{ f.name }}</a>
+      {% elsif f.on_network %}<a href="/providers/{{ f.slug }}/">{{ f.name }}</a>
+      {% else %}{{ f.name }}{% endif %}
       <span class="est-family-count">{{ f.member_count }} profile{% if f.member_count != 1 %}s{% endif %}</span>
     </h3>
     <ul class="est-family-list">
@@ -127,6 +148,7 @@ layout: default
       </li>
       {% endfor %}
     </ul>
+    {% if f.has_page %}<a class="est-family-more" href="{{ f.permalink }}">All {{ f.member_count }} {{ f.name }} surfaces, rated →</a>{% endif %}
   </div>
   {% endfor %}
 </div>

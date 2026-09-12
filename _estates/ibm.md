@@ -21,7 +21,10 @@ estate_rating:
   strength: 11
   strong: 2
   worst: 5.7
+estate_root: null
+estate_root_name: null
 image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
+is_subfamily: false
 layout: estate
 member_bands:
 - band: strong
@@ -360,7 +363,8 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/apis.yml
 subfamilies:
-- member_count: 3
+- has_page: true
+  member_count: 3
   members:
   - name: Red Hat Ansible Automation Platform
     score_band: strong
@@ -376,8 +380,10 @@ subfamilies:
     slug: red-hat-openshift
   name: Red Hat
   on_network: true
+  permalink: /estates/red-hat/
   slug: red-hat
-- member_count: 1
+- has_page: false
+  member_count: 1
   members:
   - name: Cloudability
     score_band: developing
@@ -385,8 +391,10 @@ subfamilies:
     slug: cloudability
   name: Apptio
   on_network: true
+  permalink: /estates/apptio/
   slug: apptio
-- member_count: 1
+- has_page: false
+  member_count: 1
   members:
   - name: Web Methods
     score_band: emerging
@@ -394,7 +402,9 @@ subfamilies:
     slug: web-methods
   name: Software AG
   on_network: true
+  permalink: /estates/software-ag/
   slug: software-ag
+subfamily_page_count: 1
 tags:
 - API Management
 - Artificial Intelligence

@@ -25,7 +25,10 @@ estate_rating:
   strength: 316
   strong: 92
   worst: 8.8
+estate_root: null
+estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: exemplar
@@ -2926,7 +2929,8 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/apis.yml
 subfamilies:
-- member_count: 235
+- has_page: true
+  member_count: 235
   members:
   - name: Amazon Pinpoint
     score_band: exemplar
@@ -3870,7 +3874,9 @@ subfamilies:
     slug: elemental
   name: Amazon Web Services (AWS)
   on_network: true
+  permalink: /estates/aws/
   slug: aws
+subfamily_page_count: 1
 tags:
 - Amazon
 - Advertising

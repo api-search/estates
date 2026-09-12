@@ -25,7 +25,10 @@ estate_rating:
   strength: 0
   strong: 0
   worst: 7.6
+estate_root: null
+estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudmersive.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: minimal
@@ -88,6 +91,7 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/apis.yml
 subfamilies: []
+subfamily_page_count: 0
 tags:
 - Barcodes
 - Conversions

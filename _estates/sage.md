@@ -26,7 +26,10 @@ estate_rating:
   strength: 0
   strong: 0
   worst: 28.1
+estate_root: null
+estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sage.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: thin
@@ -100,7 +103,8 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/apis.yml
 subfamilies:
-- member_count: 1
+- has_page: false
+  member_count: 1
   members:
   - name: Sage Intacct Accounting
     score_band: thin
@@ -108,7 +112,9 @@ subfamilies:
     slug: sage-intacct-accounting
   name: Sage Intacct
   on_network: true
+  permalink: /estates/sage-intacct/
   slug: sage-intacct
+subfamily_page_count: 0
 tags:
 - Accounting
 - Business Management

@@ -23,7 +23,10 @@ estate_rating:
   strength: 12
   strong: 3
   worst: 34.5
+estate_root: null
+estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atlassian.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: exemplar
@@ -163,7 +166,8 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
 subfamilies:
-- member_count: 1
+- has_page: false
+  member_count: 1
   members:
   - name: Bitbucket Pipelines
     score_band: developing
@@ -171,7 +175,9 @@ subfamilies:
     slug: bitbucket-pipelines
   name: Bitbucket
   on_network: true
+  permalink: /estates/bitbucket/
   slug: bitbucket
+subfamily_page_count: 0
 tags:
 - Code
 - Collaboration

@@ -24,7 +24,10 @@ estate_rating:
   strength: 32
   strong: 8
   worst: 1.8
+estate_root: null
+estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cisco.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: exemplar
@@ -525,7 +528,8 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/apis.yml
 subfamilies:
-- member_count: 5
+- has_page: true
+  member_count: 5
   members:
   - name: Cisco Expressway
     score_band: developing
@@ -549,8 +553,10 @@ subfamilies:
     slug: cisco-collaboration-hybrid-solutions
   name: Webex
   on_network: true
+  permalink: /estates/webex/
   slug: webex
-- member_count: 4
+- has_page: true
+  member_count: 4
   members:
   - name: Splunk Observability Cloud
     score_band: strong
@@ -570,7 +576,9 @@ subfamilies:
     slug: victorops
   name: Splunk
   on_network: true
+  permalink: /estates/splunk/
   slug: splunk
+subfamily_page_count: 2
 tags:
 - Fortune 100
 - Collaboration

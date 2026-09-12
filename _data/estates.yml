@@ -1,6 +1,6 @@
-count: 24
-members: 663
-on_network: 663
+count: 27
+members: 866
+on_network: 866
 estates:
 - slug: amazon
   name: Amazon
@@ -35,13 +35,43 @@ estates:
   rating_developing: 117
   rating_agent_native: 6
   rating_agent_ready: 90
+- slug: microsoft
+  name: Microsoft
+  description: Collection of Microsoft's primary APIs and developer resources.
+  image: https://www.microsoft.com/favicon.ico
+  member_total: 201
+  member_on_network: 201
+  api_total: 1519
+  tags:
+  - Fortune 100
+  subfamilies:
+  - Microsoft Azure
+  - Microsoft 365
+  - GitHub
+  - Microsoft Xbox
+  - Microsoft Power Platform APIs
+  - Microsoft Dynamics 365
+  strength: 151
+  rating: 33.3
+  rating_band: thin
+  composite_avg: 41.1
+  composite_band: developing
+  agent_avg: 21.6
+  agent_band: emerging
+  spread: 75.0
+  rating_scored: 201
+  rating_exemplar: 7
+  rating_strong: 34
+  rating_developing: 62
+  rating_agent_native: 1
+  rating_agent_ready: 48
 - slug: google
   name: Google
   description: Google's public APIs and services.
   image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
-  member_total: 141
-  member_on_network: 141
-  api_total: 184
+  member_total: 143
+  member_on_network: 143
+  api_total: 185
   tags:
   - Advertising
   - Cloud
@@ -51,45 +81,21 @@ estates:
   - Search
   subfamilies:
   - Google Cloud Platform
+  - Google Workspace
   strength: 126
-  rating: 35.4
+  rating: 35.2
   rating_band: thin
-  composite_avg: 43.0
+  composite_avg: 42.7
   composite_band: developing
-  agent_avg: 24.1
+  agent_avg: 23.9
   agent_band: emerging
   spread: 66.5
-  rating_scored: 141
+  rating_scored: 143
   rating_exemplar: 3
   rating_strong: 11
   rating_developing: 95
   rating_agent_native: 0
   rating_agent_ready: 23
-- slug: microsoft
-  name: Microsoft
-  description: Collection of Microsoft's primary APIs and developer resources.
-  image: https://www.microsoft.com/favicon.ico
-  member_total: 24
-  member_on_network: 24
-  api_total: 828
-  tags:
-  - Fortune 100
-  subfamilies:
-  - Microsoft Azure
-  strength: 38
-  rating: 38.9
-  rating_band: thin
-  composite_avg: 49.1
-  composite_band: developing
-  agent_avg: 23.5
-  agent_band: emerging
-  spread: 74.4
-  rating_scored: 24
-  rating_exemplar: 4
-  rating_strong: 7
-  rating_developing: 12
-  rating_agent_native: 0
-  rating_agent_ready: 6
 - slug: cisco
   name: Cisco
   description: 'Cisco provides a comprehensive suite of APIs across its networking,
@@ -188,6 +194,37 @@ estates:
   rating_developing: 7
   rating_agent_native: 1
   rating_agent_ready: 4
+- slug: zoho
+  name: Zoho
+  description: Zoho is a comprehensive cloud software suite offering 55+ integrated
+    business applications for sales, marketing, customer service, finance, HR, collaboration,
+    and custom solutions, trusted by over 130 million users worldwide.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  member_total: 18
+  member_on_network: 18
+  api_total: 186
+  tags:
+  - Analytics
+  - Collaboration
+  - CRM
+  - Customer Service
+  - Email
+  - Finance
+  subfamilies: []
+  strength: 13
+  rating: 30.5
+  rating_band: thin
+  composite_avg: 36.7
+  composite_band: thin
+  agent_avg: 21.3
+  agent_band: emerging
+  spread: 57.7
+  rating_scored: 18
+  rating_exemplar: 2
+  rating_strong: 0
+  rating_developing: 7
+  rating_agent_native: 0
+  rating_agent_ready: 7
 - slug: atlassian
   name: Atlassian
   description: Atlassian is a software company that develops collaboration, productivity,
@@ -484,7 +521,6 @@ estates:
   - Symantec
   - CA Technologies (Broadcom)
   - AppNeta
-  - Carbon Black
   strength: 4
   rating: 14.5
   rating_band: emerging
@@ -531,6 +567,38 @@ estates:
   rating_developing: 1
   rating_agent_native: 0
   rating_agent_ready: 1
+- slug: siemens
+  name: Siemens
+  description: Siemens is a global powerhouse in the fields of electrification, automation
+    and digitalization. The company offers a broad portfolio of products, solutions
+    and services that enable customers to increase their efficiency and sustainability.
+    Siemens operates in a variety of sectors including energy, h
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siemens.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 5
+  tags:
+  - Automation
+  - Electrification
+  - Industry
+  - Manufacturing
+  - Building Automation
+  - Industrial IoT
+  subfamilies: []
+  strength: 2
+  rating: 21.0
+  rating_band: emerging
+  composite_avg: 25.8
+  composite_band: thin
+  agent_avg: 13.8
+  agent_band: emerging
+  spread: 42.8
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 2
+  rating_agent_native: 0
+  rating_agent_ready: 0
 - slug: spring
   name: Spring Framework
   description: Spring is the leading open-source application framework for Java. The
@@ -552,7 +620,7 @@ estates:
   strength: 1
   rating: 23.1
   rating_band: emerging
-  composite_avg: 29.5
+  composite_avg: 29.4
   composite_band: thin
   agent_avg: 13.6
   agent_band: emerging
@@ -659,37 +727,38 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 0
-- slug: github
-  name: GitHub
-  description: The GitHub REST API allows developers to programmatically interact
-    with GitHub resources including repositories, users, organizations, pull requests,
-    issues, and more.
-  image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  member_total: 4
-  member_on_network: 4
-  api_total: 4
+- slug: rtx
+  name: RTX
+  description: 'RTX Corporation is a leading American aerospace and defense company
+    comprising three market businesses: Collins Aerospace, Pratt & Whitney, and Raytheon.
+    Raytheon develops the EAGLE (Enhanced Automated Graphical Logistics Environment)
+    software platform for integrated logistics support and logistic s'
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rtx.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 3
   tags:
-  - Code
-  - Pipelines
-  - Platform
-  - Software Development
-  - Source Control
-  - T1
+  - Defense
+  - Aerospace
+  - Government
+  - Logistics
+  - Intelligence
+  - Military
   subfamilies: []
   strength: 0
-  rating: 17.5
+  rating: 15.4
   rating_band: emerging
-  composite_avg: 22.1
+  composite_avg: 18.6
   composite_band: emerging
   agent_avg: 10.6
   agent_band: emerging
-  spread: 32.1
-  rating_scored: 4
+  spread: 24.6
+  rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
   rating_agent_native: 0
-  rating_agent_ready: 0
+  rating_agent_ready: 1
 - slug: abstract-api
   name: Abstract API
   description: 'Abstract API is a platform that offers a wide range of API services
@@ -749,6 +818,38 @@ estates:
   agent_band: minimal
   spread: 0.0
   rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: smarty
+  name: Smarty
+  description: Smarty (formerly SmartyStreets) is an address intelligence company
+    that provides REST APIs for US and international address verification, validation,
+    geocoding, and autocomplete at high volume. The platform supports over 210 million
+    US addresses including 20 million non-USPS addresses, delivering up
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smarty.png
+  member_total: 4
+  member_on_network: 4
+  api_total: 4
+  tags:
+  - Address Verification
+  - Geocoding
+  - Address Autocomplete
+  - ZIP Code
+  - Address Intelligence
+  - Location Data
+  subfamilies: []
+  strength: 0
+  rating: 11.8
+  rating_band: emerging
+  composite_avg: 15.7
+  composite_band: emerging
+  agent_avg: 6.0
+  agent_band: minimal
+  spread: 0.5
+  rating_scored: 4
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0

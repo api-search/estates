@@ -25,7 +25,10 @@ estate_rating:
   strength: 4
   strong: 1
   worst: 0.6
+estate_root: null
+estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadcom.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: strong
@@ -369,7 +372,8 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/apis.yml
 subfamilies:
-- member_count: 11
+- has_page: true
+  member_count: 12
   members:
   - name: CloudHealth
     score_band: thin
@@ -399,6 +403,10 @@ subfamilies:
     score_band: minimal
     score_composite: 5.0
     slug: apteligent
+  - name: Confer Technologies
+    score_band: minimal
+    score_composite: 5.0
+    slug: confer
   - name: Nicira Networks
     score_band: minimal
     score_composite: 5.0
@@ -417,8 +425,10 @@ subfamilies:
     slug: heptio
   name: VMware
   on_network: true
+  permalink: /estates/vmware/
   slug: vmware
-- member_count: 3
+- has_page: true
+  member_count: 3
   members:
   - name: Bluecoat (Symantec)
     score_band: emerging
@@ -434,8 +444,10 @@ subfamilies:
     slug: brightmail
   name: Symantec
   on_network: true
+  permalink: /estates/symantec/
   slug: symantec
-- member_count: 2
+- has_page: false
+  member_count: 2
   members:
   - name: Flowdock (Discontinued)
     score_band: thin
@@ -447,8 +459,10 @@ subfamilies:
     slug: arcot-systems
   name: CA Technologies (Broadcom)
   on_network: true
+  permalink: /estates/ca/
   slug: ca
-- member_count: 1
+- has_page: false
+  member_count: 1
   members:
   - name: Tracelytics
     score_band: minimal
@@ -456,16 +470,9 @@ subfamilies:
     slug: tracelytics
   name: AppNeta
   on_network: true
+  permalink: /estates/appneta/
   slug: appneta
-- member_count: 1
-  members:
-  - name: Confer Technologies
-    score_band: minimal
-    score_composite: 5.0
-    slug: confer
-  name: Carbon Black
-  on_network: true
-  slug: carbon-black
+subfamily_page_count: 2
 tags:
 - Cloud Infrastructure
 - Gateways

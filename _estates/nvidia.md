@@ -24,7 +24,10 @@ estate_rating:
   strength: 1
   strong: 0
   worst: 5.0
+estate_root: null
+estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nvidia.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: developing
@@ -188,6 +191,7 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvidia/refs/heads/main/apis.yml
 subfamilies: []
+subfamily_page_count: 0
 tags:
 - GPU
 - Artificial Intelligence

@@ -1,27 +1,30 @@
 ---
-api_total: 184
+api_total: 185
 category: Estates
 description: Google's public APIs and services.
 estate_rating:
-  agent_avg: 24.1
+  agent_avg: 23.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 24.6
+  agent_raw: 24.4
   agent_ready: 23
   band: thin
   best: 71.5
-  composite_avg: 43.0
+  composite_avg: 42.7
   composite_band: developing
-  composite_raw: 43.7
+  composite_raw: 43.4
   developing: 95
   exemplar: 3
-  rating: 35.4
-  scored: 141
+  rating: 35.2
+  scored: 143
   spread: 66.5
   strength: 126
   strong: 11
   worst: 5.0
+estate_root: null
+estate_root_name: null
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+is_subfamily: false
 layout: estate
 member_bands:
 - band: exemplar
@@ -1243,7 +1246,7 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 30
+  count: 31
   items:
   - &id110
     acquired: null
@@ -1501,6 +1504,17 @@ member_bands:
   - &id133
     acquired: null
     agent_band: agent-aware
+    agent_score: 27.3
+    api_count: 1
+    immediate_parent: google-workspace
+    name: Google Chat Integrations for Workspace
+    relationship: product
+    score_band: thin
+    score_composite: 31.6
+    slug: google-chat-integrations-for-workspace
+  - &id134
+    acquired: null
+    agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
     immediate_parent: google
@@ -1509,7 +1523,7 @@ member_bands:
     score_band: thin
     score_composite: 31.3
     slug: google-keep
-  - &id134
+  - &id135
     acquired: null
     agent_band: agent-aware
     agent_score: 17.3
@@ -1520,7 +1534,7 @@ member_bands:
     score_band: thin
     score_composite: 31.1
     slug: google-cloud-recommendations-ai
-  - &id135
+  - &id136
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -1531,7 +1545,7 @@ member_bands:
     score_band: thin
     score_composite: 30.6
     slug: google-appsheet
-  - &id136
+  - &id137
     acquired: null
     agent_band: agent-aware
     agent_score: 17.3
@@ -1542,7 +1556,7 @@ member_bands:
     score_band: thin
     score_composite: 30.6
     slug: google-assistant
-  - &id137
+  - &id138
     acquired: null
     agent_band: agent-aware
     agent_score: 17.3
@@ -1553,7 +1567,7 @@ member_bands:
     score_band: thin
     score_composite: 30.5
     slug: google-meet
-  - &id138
+  - &id139
     acquired: null
     agent_band: agent-aware
     agent_score: 17.3
@@ -1564,7 +1578,7 @@ member_bands:
     score_band: thin
     score_composite: 30.3
     slug: google-cloud-scheduler
-  - &id139
+  - &id140
     acquired: null
     agent_band: agent-aware
     agent_score: 18.0
@@ -1581,7 +1595,7 @@ member_bands:
   blurb: Early or largely undocumented
   count: 1
   items:
-  - &id140
+  - &id141
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -1596,9 +1610,20 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 1
+  count: 2
   items:
-  - &id141
+  - &id142
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: google-workspace
+    name: Google Vids
+    relationship: product
+    score_band: minimal
+    score_composite: 10.7
+    slug: vids
+  - &id143
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -1611,8 +1636,8 @@ member_bands:
     slug: elastifile
   label: Minimal
   open: false
-member_on_network: 141
-member_total: 141
+member_on_network: 143
+member_total: 143
 members:
 - *id001
 - *id002
@@ -1755,10 +1780,12 @@ members:
 - *id139
 - *id140
 - *id141
+- *id142
+- *id143
 members_unrated: []
 name: Google
-overview: 'Google publishes its API surface across 141 provider profiles indexed on the APIs.io network,
-  of which 141 carry a rating. The rated members span 66.5 points, from 71.5 down to 5.0.
+overview: 'Google publishes its API surface across 143 provider profiles indexed on the APIs.io network,
+  of which 143 carry a rating. The rated members span 66.5 points, from 71.5 down to 5.0.
 
 
   Its highest-rated surfaces are Google Ads, Google Analytics, Google Search Console, Google Analytics
@@ -1770,7 +1797,8 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/apis.yml
 subfamilies:
-- member_count: 68
+- has_page: true
+  member_count: 68
   members:
   - name: Apigee
     score_band: strong
@@ -2046,7 +2074,24 @@ subfamilies:
     slug: elastifile
   name: Google Cloud Platform
   on_network: true
+  permalink: /estates/google-cloud-platform/
   slug: google-cloud-platform
+- has_page: false
+  member_count: 2
+  members:
+  - name: Google Chat Integrations for Workspace
+    score_band: thin
+    score_composite: 31.6
+    slug: google-chat-integrations-for-workspace
+  - name: Google Vids
+    score_band: minimal
+    score_composite: 10.7
+    slug: vids
+  name: Google Workspace
+  on_network: true
+  permalink: /estates/google-workspace/
+  slug: google-workspace
+subfamily_page_count: 1
 tags:
 - Advertising
 - Cloud

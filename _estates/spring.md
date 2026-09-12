@@ -14,7 +14,7 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 40.0
-  composite_avg: 29.5
+  composite_avg: 29.4
   composite_band: thin
   composite_raw: 35.6
   developing: 1
@@ -25,7 +25,10 @@ estate_rating:
   strength: 1
   strong: 0
   worst: 30.7
+estate_root: null
+estate_root_name: null
 image: ''
+is_subfamily: false
 layout: estate
 member_bands:
 - band: developing
@@ -130,6 +133,7 @@ source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/apis.yml
 subfamilies: []
+subfamily_page_count: 0
 tags:
 - Artificial Intelligence
 - Cloud-Native
