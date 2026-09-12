@@ -7,7 +7,7 @@ description: Autodesk is a global leader in design, engineering, and entertainme
   projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem
   including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.
 estate_rating:
-  agent_avg: 15.8
+  agent_avg: 15.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 22.2

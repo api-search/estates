@@ -6,7 +6,7 @@ description: Bloomberg delivers business and markets news, data, analysis, and v
   BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise
   services.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.9

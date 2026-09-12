@@ -3,7 +3,7 @@ api_total: 117
 category: Estates
 description: APIs for Qlik's analytics and data integration platform.
 estate_rating:
-  agent_avg: 16.7
+  agent_avg: 16.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 21.8
@@ -15,7 +15,7 @@ estate_rating:
   composite_raw: 40.5
   developing: 1
   exemplar: 1
-  rating: 25.9
+  rating: 26.0
   scored: 6
   spread: 53.7
   strength: 4

@@ -7,10 +7,10 @@ description: Salesforce is a cloud-based customer relationship management (CRM) 
   gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and
   subscribe to org data programmatically.
 estate_rating:
-  agent_avg: 12.8
+  agent_avg: 13.0
   agent_band: emerging
   agent_native: 1
-  agent_raw: 13.2
+  agent_raw: 13.4
   agent_ready: 4
   band: emerging
   best: 68.6
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 29.4
   developing: 7
   exemplar: 1
-  rating: 22.1
+  rating: 22.2
   scored: 27
   spread: 63.6
   strength: 18
@@ -124,7 +124,7 @@ member_bands:
   - &id008
     acquired: 2019
     agent_band: agent-ready
-    agent_score: 30.0
+    agent_score: 35.2
     api_count: 1
     immediate_parent: salesforce
     name: Tableau

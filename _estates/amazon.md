@@ -7,11 +7,11 @@ description: Amazon is a global technology and e-commerce company offering a wid
   applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of
   sellers, developers, advertisers, and content creators.
 estate_rating:
-  agent_avg: 25.6
+  agent_avg: 26.1
   agent_band: thin
-  agent_native: 5
-  agent_raw: 25.9
-  agent_ready: 79
+  agent_native: 6
+  agent_raw: 26.4
+  agent_ready: 90
   band: developing
   best: 82.2
   composite_avg: 50.8
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 51.4
   developing: 117
   exemplar: 5
-  rating: 40.7
+  rating: 40.9
   scored: 237
   spread: 73.4
   strength: 316
@@ -46,7 +46,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 39.4
+    agent_score: 44.6
     api_count: 2
     immediate_parent: aws
     name: Amazon SES
@@ -56,8 +56,8 @@ member_bands:
     slug: amazon-ses
   - &id003
     acquired: null
-    agent_band: agent-ready
-    agent_score: 35.8
+    agent_band: agent-native
+    agent_score: 41.0
     api_count: 1
     immediate_parent: aws
     name: Amazon VPN
@@ -107,7 +107,7 @@ member_bands:
   - &id007
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 37.1
     api_count: 2
     immediate_parent: aws
     name: Amazon S3
@@ -118,7 +118,7 @@ member_bands:
   - &id008
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.3
+    agent_score: 35.4
     api_count: 1
     immediate_parent: aws
     name: CloudFront
@@ -205,8 +205,8 @@ member_bands:
     slug: amazon-sns
   - &id016
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
+    agent_band: agent-ready
+    agent_score: 31.3
     api_count: 1
     immediate_parent: aws
     name: Amazon DynamoDB
@@ -327,7 +327,7 @@ member_bands:
   - &id027
     acquired: null
     agent_band: agent-native
-    agent_score: 50.8
+    agent_score: 55.9
     api_count: 1
     immediate_parent: aws
     name: Amazon Nova
@@ -348,8 +348,8 @@ member_bands:
     slug: amazon-entity-resolution
   - &id029
     acquired: null
-    agent_band: agent-aware
-    agent_score: 22.8
+    agent_band: agent-ready
+    agent_score: 29.2
     api_count: 3
     immediate_parent: aws
     name: AWS Braket
@@ -480,8 +480,8 @@ member_bands:
     slug: amazon-documentdb
   - &id041
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
+    agent_band: agent-ready
+    agent_score: 31.3
     api_count: 1
     immediate_parent: aws
     name: Amazon GameLift
@@ -667,8 +667,8 @@ member_bands:
     slug: amazon-cloudformation
   - &id058
     acquired: null
-    agent_band: agent-ready
-    agent_score: 31.3
+    agent_band: agent-aware
+    agent_score: 24.8
     api_count: 1
     immediate_parent: aws
     name: Amazon EFS
@@ -821,8 +821,8 @@ member_bands:
     slug: amazon-bedrock
   - &id072
     acquired: null
-    agent_band: agent-aware
-    agent_score: 25.5
+    agent_band: agent-ready
+    agent_score: 32.0
     api_count: 1
     immediate_parent: aws
     name: Amazon Certificate Manager
@@ -865,8 +865,8 @@ member_bands:
     slug: amazon-transit-gateway
   - &id076
     acquired: null
-    agent_band: agent-aware
-    agent_score: 27.3
+    agent_band: agent-ready
+    agent_score: 33.7
     api_count: 1
     immediate_parent: aws
     name: Amazon Redshift
@@ -987,7 +987,7 @@ member_bands:
   - &id087
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 37.1
     api_count: 22
     immediate_parent: aws
     name: Amazon Connect
@@ -1074,8 +1074,8 @@ member_bands:
     slug: amazon-iot-greengrass
   - &id095
     acquired: null
-    agent_band: agent-aware
-    agent_score: 22.8
+    agent_band: agent-ready
+    agent_score: 29.2
     api_count: 1
     immediate_parent: aws
     name: Amazon Private CA
@@ -1234,8 +1234,8 @@ member_bands:
     slug: amazon-medialive
   - &id109
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
+    agent_band: agent-ready
+    agent_score: 31.3
     api_count: 1
     immediate_parent: aws
     name: Amazon ECS
@@ -1454,8 +1454,8 @@ member_bands:
     slug: amazon-devops-guru
   - &id129
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
+    agent_band: agent-ready
+    agent_score: 31.3
     api_count: 1
     immediate_parent: aws
     name: Amazon Global Accelerator
@@ -1487,8 +1487,8 @@ member_bands:
     slug: amazon-security-hub
   - &id132
     acquired: null
-    agent_band: agent-aware
-    agent_score: 28.1
+    agent_band: agent-ready
+    agent_score: 34.5
     api_count: 1
     immediate_parent: aws
     name: Amazon Incident Manager
@@ -1950,7 +1950,7 @@ member_bands:
   - &id174
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 37.1
     api_count: 6
     immediate_parent: aws
     name: Amazon FinSpace
@@ -2016,7 +2016,7 @@ member_bands:
   - &id180
     acquired: null
     agent_band: agent-ready
-    agent_score: 37.1
+    agent_score: 30.6
     api_count: 2
     immediate_parent: aws
     name: Amazon MQ
@@ -2071,7 +2071,7 @@ member_bands:
   - &id185
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.8
+    agent_score: 36.3
     api_count: 3
     immediate_parent: aws
     name: Amazon AppFlow
@@ -2115,7 +2115,7 @@ member_bands:
   - &id189
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 37.1
     api_count: 6
     immediate_parent: aws
     name: Amazon Fault Injection Simulator
@@ -2125,8 +2125,8 @@ member_bands:
     slug: amazon-fault-injection-simulator
   - &id190
     acquired: null
-    agent_band: agent-aware
-    agent_score: 28.1
+    agent_band: agent-ready
+    agent_score: 34.5
     api_count: 1
     immediate_parent: aws
     name: Amazon CodeGuru Reviewer
@@ -2334,8 +2334,8 @@ member_bands:
     slug: amazon-privatelink
   - &id209
     acquired: null
-    agent_band: agent-aware
-    agent_score: 22.3
+    agent_band: agent-ready
+    agent_score: 28.8
     api_count: 3
     immediate_parent: aws
     name: Amazon Monitron
@@ -2389,8 +2389,8 @@ member_bands:
     slug: aws
   - &id214
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
+    agent_band: agent-ready
+    agent_score: 31.3
     api_count: 3
     immediate_parent: aws
     name: Amazon Service Catalog
@@ -2417,8 +2417,8 @@ member_bands:
     slug: aws-glue
   - &id216
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
+    agent_band: agent-ready
+    agent_score: 31.3
     api_count: 1
     immediate_parent: aws
     name: Amazon Athena
@@ -2506,7 +2506,7 @@ member_bands:
   - &id224
     acquired: null
     agent_band: agent-ready
-    agent_score: 28.6
+    agent_score: 35.1
     api_count: 1
     immediate_parent: aws
     name: Amazon Aurora DSQL

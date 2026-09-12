@@ -5,46 +5,35 @@ description: Atlassian is a software company that develops collaboration, produc
   tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline
   workflows, and support project tracking across a wide range of industries.
 estate_rating:
-  agent_avg: 24.2
-  agent_band: emerging
+  agent_avg: 25.8
+  agent_band: thin
   agent_native: 0
-  agent_raw: 37.9
-  agent_ready: 3
+  agent_raw: 35.2
+  agent_ready: 5
   band: thin
-  best: 74.3
-  composite_avg: 40.4
+  best: 70.2
+  composite_avg: 41.4
   composite_band: developing
-  composite_raw: 58.7
-  developing: 1
-  exemplar: 2
-  rating: 33.9
-  scored: 5
-  spread: 39.8
-  strength: 9
-  strong: 1
+  composite_raw: 53.5
+  developing: 3
+  exemplar: 1
+  rating: 35.2
+  scored: 8
+  spread: 35.7
+  strength: 12
+  strong: 3
   worst: 34.5
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atlassian.png
 layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 50.8
-    api_count: 2
-    immediate_parent: atlassian
-    name: Atlassian Confluence
-    relationship: product
-    score_band: exemplar
-    score_composite: 74.3
-    slug: atlassian-confluence
-  - &id002
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 45.0
+    agent_score: 50.2
     api_count: 2
     immediate_parent: atlassian
     name: Atlassian Compass
@@ -56,26 +45,59 @@ member_bands:
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 1
+  count: 3
   items:
+  - &id002
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 47.8
+    api_count: 1
+    immediate_parent: atlassian
+    name: Confluence
+    relationship: product
+    score_band: strong
+    score_composite: 62.1
+    slug: confluence
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 47.1
-    api_count: 4
+    agent_score: 34.2
+    api_count: 1
     immediate_parent: atlassian
-    name: Atlassian Jira
+    name: Bitbucket
+    relationship: acquisition
+    score_band: strong
+    score_composite: 60.4
+    slug: bitbucket
+  - &id004
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 50.7
+    api_count: 1
+    immediate_parent: atlassian
+    name: Jira
     relationship: product
     score_band: strong
-    score_composite: 66.4
-    slug: atlassian-jira
+    score_composite: 56.3
+    slug: jira
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 1
+  count: 3
   items:
-  - &id004
+  - &id005
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.1
+    api_count: 2
+    immediate_parent: atlassian
+    name: HipChat
+    relationship: product
+    score_band: developing
+    score_composite: 51.3
+    slug: hipchat
+  - &id006
     acquired: null
     agent_band: agent-aware
     agent_score: 28.3
@@ -86,13 +108,24 @@ member_bands:
     score_band: developing
     score_composite: 48.3
     slug: opsgenie
+  - &id007
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 33.1
+    api_count: 1
+    immediate_parent: bitbucket
+    name: Bitbucket Pipelines
+    relationship: product
+    score_band: developing
+    score_composite: 45.0
+    slug: bitbucket-pipelines
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
   count: 1
   items:
-  - &id005
+  - &id008
     acquired: null
     agent_band: agent-aware
     agent_score: 18.3
@@ -105,28 +138,40 @@ member_bands:
     slug: statuspage
   label: Thin
   open: false
-member_on_network: 5
-member_total: 5
+member_on_network: 8
+member_total: 8
 members:
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
+- *id006
+- *id007
+- *id008
 members_unrated: []
 name: Atlassian
-overview: 'Atlassian publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 39.8 points, from 74.3 down to 34.5.
+overview: 'Atlassian publishes its API surface across 8 provider profiles indexed on the APIs.io network,
+  of which 8 carry a rating. The rated members span 35.7 points, from 70.2 down to 34.5.
 
 
-  Its highest-rated surfaces are Atlassian Confluence, Atlassian Compass, Atlassian Jira, OpsGenie, Statuspage.'
+  Its highest-rated surfaces are Atlassian Compass, Confluence, Bitbucket, Jira, HipChat.'
 parent_provider: atlassian
 permalink: /estates/atlassian/
 slug: atlassian
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
-subfamilies: []
+subfamilies:
+- member_count: 1
+  members:
+  - name: Bitbucket Pipelines
+    score_band: developing
+    score_composite: 45.0
+    slug: bitbucket-pipelines
+  name: Bitbucket
+  on_network: true
+  slug: bitbucket
 tags:
 - Code
 - Collaboration

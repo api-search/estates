@@ -10,21 +10,21 @@ description: Cvent is a leading meetings, events, and hospitality technology pro
   integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads,
   webhooks, SSO, custom widgets, white-label, and integration documentation.
 estate_rating:
-  agent_avg: 23.1
+  agent_avg: 23.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 38.8
   agent_ready: 3
   band: thin
-  best: 79.2
-  composite_avg: 40.4
+  best: 82.0
+  composite_avg: 40.8
   composite_band: developing
-  composite_raw: 63.3
+  composite_raw: 64.3
   developing: 1
   exemplar: 2
-  rating: 33.5
+  rating: 33.8
   scored: 4
-  spread: 38.3
+  spread: 41.1
   strength: 9
   strong: 1
   worst: 40.9
@@ -44,7 +44,7 @@ member_bands:
     name: Cvent Registration
     relationship: product
     score_band: exemplar
-    score_composite: 79.2
+    score_composite: 82.0
     slug: cvent-registration
   - &id002
     acquired: null
@@ -72,7 +72,7 @@ member_bands:
     name: Cvent Hospitality Cloud
     relationship: product
     score_band: strong
-    score_composite: 63.2
+    score_composite: 64.3
     slug: cvent-hospitality-cloud
   label: Strong
   open: true
@@ -103,7 +103,7 @@ members:
 members_unrated: []
 name: Cvent
 overview: 'Cvent publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 38.3 points, from 79.2 down to 40.9.
+  of which 4 carry a rating. The rated members span 41.1 points, from 82.0 down to 40.9.
 
 
   Its highest-rated surfaces are Cvent Registration, Cvent Event Cloud, Cvent Hospitality Cloud, Cvent

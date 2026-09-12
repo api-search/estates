@@ -7,7 +7,7 @@ description: NASA (National Aeronautics and Space Administration) provides a sui
   EPIC Earth imagery, and the NASA Image and Video Library. All APIs are free and accessible with an API
   key.
 estate_rating:
-  agent_avg: 18.6
+  agent_avg: 18.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 26.6

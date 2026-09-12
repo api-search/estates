@@ -10,24 +10,24 @@ estate_rating:
   agent_raw: 19.0
   agent_ready: 5
   band: thin
-  best: 67.7
-  composite_avg: 34.3
+  best: 71.1
+  composite_avg: 34.5
   composite_band: thin
-  composite_raw: 36.6
+  composite_raw: 36.8
   developing: 14
-  exemplar: 2
-  rating: 27.7
+  exemplar: 3
+  rating: 27.8
   scored: 27
-  spread: 62.7
-  strength: 24
-  strong: 2
+  spread: 66.1
+  strength: 25
+  strong: 1
   worst: 5.0
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle.png
 layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 2
+  count: 3
   items:
   - &id001
     acquired: null
@@ -38,9 +38,20 @@ member_bands:
     name: Oracle Cloud Infrastructure
     relationship: product
     score_band: exemplar
-    score_composite: 67.7
+    score_composite: 71.1
     slug: oracle-cloud
   - &id002
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 32.5
+    api_count: 59
+    immediate_parent: oracle
+    name: Oracle Hospitality
+    relationship: product
+    score_band: exemplar
+    score_composite: 69.3
+    slug: oracle-hospitality
+  - &id003
     acquired: null
     agent_band: agent-ready
     agent_score: 31.3
@@ -55,19 +66,8 @@ member_bands:
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 2
+  count: 1
   items:
-  - &id003
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 32.5
-    api_count: 59
-    immediate_parent: oracle
-    name: Oracle Hospitality
-    relationship: product
-    score_band: strong
-    score_composite: 65.4
-    slug: oracle-hospitality
   - &id004
     acquired: null
     agent_band: agent-ready
@@ -403,10 +403,10 @@ members:
 members_unrated: []
 name: Oracle
 overview: 'Oracle publishes its API surface across 28 provider profiles indexed on the APIs.io network,
-  of which 28 carry a rating. The rated members span 62.7 points, from 67.7 down to 5.0.
+  of which 28 carry a rating. The rated members span 66.1 points, from 71.1 down to 5.0.
 
 
-  Its highest-rated surfaces are Oracle Cloud Infrastructure, Oracle Siebel, Oracle Hospitality, Oracle
+  Its highest-rated surfaces are Oracle Cloud Infrastructure, Oracle Hospitality, Oracle Siebel, Oracle
   Partitioning, Responsys.'
 parent_provider: oracle
 permalink: /estates/oracle/

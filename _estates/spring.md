@@ -7,19 +7,19 @@ description: Spring is the leading open-source application framework for Java. T
   rapid application development with embedded servers and auto-configuration. Spring is maintained by
   VMware and hosted under the Spring Projects GitHub organization.
 estate_rating:
-  agent_avg: 13.5
+  agent_avg: 13.6
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.9
   agent_ready: 0
   band: emerging
   best: 40.0
-  composite_avg: 29.4
+  composite_avg: 29.5
   composite_band: thin
   composite_raw: 35.6
   developing: 1
   exemplar: 0
-  rating: 23.0
+  rating: 23.1
   scored: 6
   spread: 9.3
   strength: 1

@@ -3,19 +3,19 @@ api_total: 828
 category: Estates
 description: Collection of Microsoft's primary APIs and developer resources.
 estate_rating:
-  agent_avg: 22.9
+  agent_avg: 23.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 25.5
+  agent_raw: 26.2
   agent_ready: 6
   band: thin
   best: 79.4
-  composite_avg: 48.9
+  composite_avg: 49.1
   composite_band: developing
-  composite_raw: 54.5
+  composite_raw: 54.7
   developing: 12
   exemplar: 4
-  rating: 38.5
+  rating: 38.9
   scored: 24
   spread: 74.4
   strength: 38
@@ -31,7 +31,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.9
+    agent_score: 38.1
     api_count: 5
     immediate_parent: microsoft
     name: Power Query
@@ -42,6 +42,17 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
+    agent_score: 52.0
+    api_count: 9
+    immediate_parent: microsoft
+    name: Microsoft Entra ID (formerly Azure AD)
+    relationship: product
+    score_band: exemplar
+    score_composite: 77.9
+    slug: azure-ad
+  - &id003
+    acquired: null
+    agent_band: agent-ready
     agent_score: 42.1
     api_count: 1
     immediate_parent: microsoft
@@ -50,7 +61,7 @@ member_bands:
     score_band: exemplar
     score_composite: 76.6
     slug: microsoft-power-platform
-  - &id003
+  - &id004
     acquired: null
     agent_band: agent-ready
     agent_score: 52.7
@@ -61,17 +72,6 @@ member_bands:
     score_band: exemplar
     score_composite: 73.3
     slug: microsoft-azure
-  - &id004
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 46.8
-    api_count: 9
-    immediate_parent: microsoft
-    name: Microsoft Entra ID (formerly Azure AD)
-    relationship: product
-    score_band: exemplar
-    score_composite: 71.8
-    slug: azure-ad
   label: Exemplar
   open: true
 - band: strong
@@ -92,7 +92,7 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.3
+    agent_score: 37.3
     api_count: 9
     immediate_parent: microsoft
     name: Microsoft .NET
@@ -345,8 +345,8 @@ overview: 'Microsoft publishes its API surface across 24 provider profiles index
   of which 24 carry a rating. The rated members span 74.4 points, from 79.4 down to 5.0.
 
 
-  Its highest-rated surfaces are Power Query, Microsoft Power Platform, Microsoft Azure, Microsoft Entra
-  ID (formerly Azure AD), Microsoft Azure API Management.'
+  Its highest-rated surfaces are Power Query, Microsoft Entra ID (formerly Azure AD), Microsoft Power
+  Platform, Microsoft Azure, Microsoft Azure API Management.'
 parent_provider: microsoft
 permalink: /estates/microsoft/
 slug: microsoft

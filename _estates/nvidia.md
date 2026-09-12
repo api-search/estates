@@ -6,7 +6,7 @@ description: Nvidia is a Fortune 500 company that provides developer APIs and in
   and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU
   services.
 estate_rating:
-  agent_avg: 6.0
+  agent_avg: 6.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.5

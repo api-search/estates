@@ -6,10 +6,10 @@ description: Cisco provides a comprehensive suite of APIs across its networking,
   developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and
   other Cisco products to automate network operations, build integrations, and extend platform capabilities.
 estate_rating:
-  agent_avg: 22.8
+  agent_avg: 23.0
   agent_band: emerging
   agent_native: 1
-  agent_raw: 24.5
+  agent_raw: 24.6
   agent_ready: 15
   band: thin
   best: 71.2
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 40.2
   developing: 10
   exemplar: 2
-  rating: 32.0
+  rating: 32.1
   scored: 37
   spread: 69.4
   strength: 32
@@ -34,7 +34,7 @@ member_bands:
   - &id001
     acquired: 2020
     agent_band: agent-ready
-    agent_score: 51.1
+    agent_score: 56.3
     api_count: 53
     immediate_parent: cisco
     name: ThousandEyes
