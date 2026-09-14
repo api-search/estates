@@ -7,24 +7,24 @@ description: Siemens is a global powerhouse in the fields of electrification, au
   infrastructure, and industry. With a focus on innovation and technology, Siemens is constantly pushing
   the boundaries to create a better future for society and the environment.
 estate_rating:
-  agent_avg: 13.8
+  agent_avg: 12.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.7
+  agent_raw: 14.1
   agent_ready: 0
   band: emerging
   best: 47.8
-  composite_avg: 25.8
-  composite_band: thin
-  composite_raw: 32.0
+  composite_avg: 23.3
+  composite_band: emerging
+  composite_raw: 24.9
   developing: 2
   exemplar: 0
-  rating: 21.0
-  scored: 3
-  spread: 42.8
+  rating: 18.9
+  scored: 4
+  spread: 44.2
   strength: 2
   strong: 0
-  worst: 5.0
+  worst: 3.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siemens.png
@@ -46,6 +46,7 @@ member_bands:
     score_band: developing
     score_composite: 47.8
     slug: siemens-plm
+    source: declared
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -57,11 +58,12 @@ member_bands:
     score_band: developing
     score_composite: 43.1
     slug: siemens-mindsphere
+    source: declared
   label: Developing
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 1
+  count: 2
   items:
   - &id003
     acquired: null
@@ -74,21 +76,35 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: mentor-graphics
+    source: declared
+  - &id004
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: siemens
+    name: Dresser-Rand Group
+    relationship: product
+    score_band: minimal
+    score_composite: 3.6
+    slug: dresser-rand-group
+    source: prose
   label: Minimal
   open: false
-member_on_network: 3
-member_total: 3
+member_on_network: 4
+member_total: 4
 members:
 - *id001
 - *id002
 - *id003
+- *id004
 members_unrated: []
 name: Siemens
-overview: 'Siemens publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 42.8 points, from 47.8 down to 5.0.
+overview: 'Siemens publishes its API surface across 4 provider profiles indexed on the APIs.io network,
+  of which 4 carry a rating. The rated members span 44.2 points, from 47.8 down to 3.6.
 
 
-  Its highest-rated surfaces are Siemens PLM, Siemens MindSphere, Mentor Graphics.'
+  Its highest-rated surfaces are Siemens PLM, Siemens MindSphere, Mentor Graphics, Dresser-Rand Group.'
 parent_provider: siemens
 permalink: /estates/siemens/
 slug: siemens

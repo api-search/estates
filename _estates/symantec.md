@@ -7,7 +7,7 @@ description: Symantec (now part of Broadcom) is a leading enterprise cybersecuri
   Detection and Response (EDR), Data Loss Prevention (DLP), and the Integrated Cyber Defense Manager (ICDm)
   platform.
 estate_rating:
-  agent_avg: 7.7
+  agent_avg: 7.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 9.8
   developing: 0
   exemplar: 0
-  rating: 14.2
+  rating: 14.3
   scored: 2
   spread: 9.5
   strength: 0
@@ -46,6 +46,7 @@ member_bands:
     score_band: emerging
     score_composite: 14.5
     slug: bluecoat-symantec
+    source: declared
   label: Emerging
   open: false
 - band: minimal
@@ -63,6 +64,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: fireglass
+    source: declared
   label: Minimal
   open: false
 - band: unrated
@@ -80,6 +82,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: brightmail
+    source: declared
   label: Unrated
   open: false
 member_on_network: 3

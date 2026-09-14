@@ -46,6 +46,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.6
     slug: cloudmersive-document-and-data-conversion
+    source: declared
   - &id002
     acquired: null
     agent_band: human-only
@@ -57,6 +58,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.6
     slug: cloudmersive-natural-language-processing
+    source: declared
   - &id003
     acquired: null
     agent_band: human-only
@@ -68,6 +70,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.6
     slug: cloudmersive-validate
+    source: declared
   label: Minimal
   open: false
 member_on_network: 3

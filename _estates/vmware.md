@@ -43,6 +43,7 @@ member_bands:
     score_band: thin
     score_composite: 38.2
     slug: cloudhealth
+    source: declared
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -54,6 +55,7 @@ member_bands:
     score_band: thin
     score_composite: 36.4
     slug: vmware-tanzu
+    source: declared
   label: Thin
   open: false
 - band: emerging
@@ -71,6 +73,7 @@ member_bands:
     score_band: emerging
     score_composite: 23.5
     slug: lastline
+    source: declared
   - &id004
     acquired: 2019
     agent_band: human-only
@@ -82,6 +85,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.8
     slug: carbon-black
+    source: declared
   label: Emerging
   open: false
 - band: minimal
@@ -99,6 +103,7 @@ member_bands:
     score_band: minimal
     score_composite: 8.7
     slug: avi-networks
+    source: declared
   - &id006
     acquired: 2009
     agent_band: human-only
@@ -110,6 +115,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.9
     slug: springsource
+    source: declared
   - &id007
     acquired: 2017
     agent_band: human-only
@@ -121,6 +127,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: apteligent
+    source: declared
   - &id008
     acquired: 2016
     agent_band: human-only
@@ -132,6 +139,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: confer
+    source: declared
   - &id009
     acquired: 2012
     agent_band: human-only
@@ -143,6 +151,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: nicira-networks
+    source: declared
   - &id010
     acquired: 2020
     agent_band: human-only
@@ -154,6 +163,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: octarine
+    source: declared
   label: Minimal
   open: false
 - band: unrated
@@ -171,6 +181,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: datrium
+    source: declared
   - &id012
     acquired: 2018
     agent_band: null
@@ -182,6 +193,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: heptio
+    source: declared
   label: Unrated
   open: false
 member_on_network: 12

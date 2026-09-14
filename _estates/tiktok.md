@@ -6,7 +6,7 @@ description: TikTok is a short-form social video platform offering developers RE
   (advertising and campaign management), TikTok Shop API (seller product and order management), and the
   Data Portability API.
 estate_rating:
-  agent_avg: 16.3
+  agent_avg: 16.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 25.6
@@ -45,6 +45,7 @@ member_bands:
     score_band: strong
     score_composite: 54.6
     slug: tiktok-ads
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -62,6 +63,7 @@ member_bands:
     score_band: developing
     score_composite: 47.3
     slug: tiktok-for-developers
+    source: declared
   label: Developing
   open: false
 - band: emerging
@@ -79,6 +81,7 @@ member_bands:
     score_band: emerging
     score_composite: 14.7
     slug: tiktok-shop
+    source: declared
   label: Emerging
   open: false
 member_on_network: 3

@@ -1,22 +1,22 @@
 ---
-api_total: 117
+api_total: 118
 category: Estates
 description: APIs for Qlik's analytics and data integration platform.
 estate_rating:
-  agent_avg: 16.8
+  agent_avg: 15.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.8
+  agent_raw: 19.3
   agent_ready: 3
-  band: thin
+  band: emerging
   best: 70.5
-  composite_avg: 32.1
+  composite_avg: 30.9
   composite_band: thin
-  composite_raw: 40.5
+  composite_raw: 37.2
   developing: 1
   exemplar: 1
-  rating: 26.0
-  scored: 6
+  rating: 24.9
+  scored: 7
   spread: 53.7
   strength: 4
   strong: 0
@@ -34,7 +34,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 40.1
+    agent_score: 41.9
     api_count: 82
     immediate_parent: qlik
     name: Qlik Sense APIs
@@ -42,6 +42,7 @@ member_bands:
     score_band: exemplar
     score_composite: 70.5
     slug: qliksense
+    source: declared
   label: Exemplar
   open: true
 - band: developing
@@ -59,6 +60,7 @@ member_bands:
     score_band: developing
     score_composite: 45.4
     slug: qlik-sense
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -76,6 +78,7 @@ member_bands:
     score_band: thin
     score_composite: 39.0
     slug: qlikview
+    source: declared
   - &id004
     acquired: null
     agent_band: agent-ready
@@ -87,6 +90,7 @@ member_bands:
     score_band: thin
     score_composite: 38.1
     slug: qlik-sense-enterprise
+    source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -98,13 +102,26 @@ member_bands:
     score_band: thin
     score_composite: 33.2
     slug: qlik-cloud
+    source: declared
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 1
+  count: 2
   items:
   - &id006
+    acquired: null
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 1
+    immediate_parent: qlik
+    name: Upsolver
+    relationship: product
+    score_band: emerging
+    score_composite: 17.1
+    slug: upsolver
+    source: prose
+  - &id007
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -115,10 +132,11 @@ member_bands:
     score_band: emerging
     score_composite: 16.8
     slug: qlik-mashups
+    source: declared
   label: Emerging
   open: false
-member_on_network: 6
-member_total: 6
+member_on_network: 7
+member_total: 7
 members:
 - *id001
 - *id002
@@ -126,10 +144,11 @@ members:
 - *id004
 - *id005
 - *id006
+- *id007
 members_unrated: []
 name: Qlik
-overview: 'Qlik publishes its API surface across 6 provider profiles indexed on the APIs.io network, of
-  which 6 carry a rating. The rated members span 53.7 points, from 70.5 down to 16.8.
+overview: 'Qlik publishes its API surface across 7 provider profiles indexed on the APIs.io network, of
+  which 7 carry a rating. The rated members span 53.7 points, from 70.5 down to 16.8.
 
 
   Its highest-rated surfaces are Qlik Sense APIs, Qlik Sense, QlikView, Qlik Sense Enterprise, Qlik Cloud.'

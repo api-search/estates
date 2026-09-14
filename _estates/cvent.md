@@ -1,5 +1,5 @@
 ---
-api_total: 5
+api_total: 6
 category: Estates
 description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800
   employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration,
@@ -10,24 +10,24 @@ description: Cvent is a leading meetings, events, and hospitality technology pro
   integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads,
   webhooks, SSO, custom widgets, white-label, and integration documentation.
 estate_rating:
-  agent_avg: 23.2
+  agent_avg: 19.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 38.8
+  agent_raw: 27.2
   agent_ready: 3
   band: thin
   best: 82.0
-  composite_avg: 40.8
-  composite_band: developing
-  composite_raw: 64.3
+  composite_avg: 37.8
+  composite_band: thin
+  composite_raw: 50.9
   developing: 1
   exemplar: 2
-  rating: 33.8
-  scored: 4
-  spread: 41.1
+  rating: 30.6
+  scored: 6
+  spread: 66.4
   strength: 9
   strong: 1
-  worst: 40.9
+  worst: 15.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cvent.png
@@ -49,6 +49,7 @@ member_bands:
     score_band: exemplar
     score_composite: 82.0
     slug: cvent-registration
+    source: declared
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -60,6 +61,7 @@ member_bands:
     score_band: exemplar
     score_composite: 69.9
     slug: cvent-event-cloud
+    source: declared
   label: Exemplar
   open: true
 - band: strong
@@ -77,6 +79,7 @@ member_bands:
     score_band: strong
     score_composite: 64.3
     slug: cvent-hospitality-cloud
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -94,23 +97,62 @@ member_bands:
     score_band: developing
     score_composite: 40.9
     slug: cvent-community
+    source: declared
   label: Developing
   open: false
-member_on_network: 4
-member_total: 4
+- band: thin
+  blurb: Limited public surface area
+  count: 1
+  items:
+  - &id005
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 7.9
+    api_count: 1
+    immediate_parent: cvent
+    name: Jifflenow
+    relationship: product
+    score_band: thin
+    score_composite: 32.9
+    slug: jifflenow
+    source: prose
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 1
+  items:
+  - &id006
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: cvent
+    name: DoubleDutch
+    relationship: product
+    score_band: emerging
+    score_composite: 15.6
+    slug: doubledutch
+    source: prose
+  label: Emerging
+  open: false
+member_on_network: 6
+member_total: 6
 members:
 - *id001
 - *id002
 - *id003
 - *id004
+- *id005
+- *id006
 members_unrated: []
 name: Cvent
-overview: 'Cvent publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 41.1 points, from 82.0 down to 40.9.
+overview: 'Cvent publishes its API surface across 6 provider profiles indexed on the APIs.io network,
+  of which 6 carry a rating. The rated members span 66.4 points, from 82.0 down to 15.6.
 
 
   Its highest-rated surfaces are Cvent Registration, Cvent Event Cloud, Cvent Hospitality Cloud, Cvent
-  Community.'
+  Community, Jifflenow.'
 parent_provider: cvent
 permalink: /estates/cvent/
 slug: cvent

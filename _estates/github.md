@@ -11,12 +11,12 @@ estate_rating:
   agent_ready: 2
   band: thin
   best: 64.1
-  composite_avg: 32.1
+  composite_avg: 32.6
   composite_band: thin
-  composite_raw: 37.7
+  composite_raw: 38.5
   developing: 2
   exemplar: 0
-  rating: 26.3
+  rating: 26.6
   scored: 9
   spread: 57.2
   strength: 6
@@ -43,6 +43,7 @@ member_bands:
     score_band: strong
     score_composite: 64.1
     slug: github-copilot
+    source: declared
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -54,6 +55,7 @@ member_bands:
     score_band: strong
     score_composite: 61.2
     slug: github-actions
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -63,25 +65,27 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.6
-    api_count: 1
-    immediate_parent: github
-    name: npm
-    relationship: product
-    score_band: developing
-    score_composite: 48.5
-    slug: npm
-  - &id004
-    acquired: null
-    agent_band: agent-aware
     agent_score: 23.2
     api_count: 2
     immediate_parent: github
     name: NuGet
     relationship: product
     score_band: developing
-    score_composite: 44.5
+    score_composite: 49.7
     slug: nuget
+    source: declared
+  - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.6
+    api_count: 1
+    immediate_parent: github
+    name: npm
+    relationship: product
+    score_band: developing
+    score_composite: 49.3
+    slug: npm
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -99,6 +103,7 @@ member_bands:
     score_band: thin
     score_composite: 39.0
     slug: github-container-registry
+    source: declared
   - &id006
     acquired: null
     agent_band: agent-aware
@@ -108,8 +113,9 @@ member_bands:
     name: Microsoft Package
     relationship: product
     score_band: thin
-    score_composite: 32.6
+    score_composite: 33.4
     slug: microsoft-package
+    source: declared
   - &id007
     acquired: null
     agent_band: agent-aware
@@ -121,6 +127,7 @@ member_bands:
     score_band: thin
     score_composite: 28.9
     slug: github-enterprise
+    source: declared
   label: Thin
   open: false
 - band: emerging
@@ -138,6 +145,7 @@ member_bands:
     score_band: emerging
     score_composite: 13.9
     slug: github-cli
+    source: declared
   label: Emerging
   open: false
 - band: minimal
@@ -155,10 +163,41 @@ member_bands:
     score_band: minimal
     score_composite: 6.9
     slug: github-readme-stats
+    source: declared
   label: Minimal
   open: false
-member_on_network: 9
-member_total: 9
+- band: unrated
+  blurb: Not yet scored
+  count: 2
+  items:
+  - &id010
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: github
+    name: Artillery Games
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: artillery-games
+    source: prose
+  - &id011
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: github
+    name: Lytmus
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: lytmus
+    source: prose
+  label: Unrated
+  open: false
+member_on_network: 11
+member_total: 11
 members:
 - *id001
 - *id002
@@ -169,13 +208,15 @@ members:
 - *id007
 - *id008
 - *id009
+- *id010
+- *id011
 members_unrated: []
 name: GitHub
-overview: 'GitHub publishes its API surface across 9 provider profiles indexed on the APIs.io network,
-  of which 9 carry a rating. The rated members span 57.2 points, from 64.1 down to 6.9.
+overview: 'GitHub publishes its API surface across 11 provider profiles indexed on the APIs.io network,
+  of which 11 carry a rating. The rated members span 57.2 points, from 64.1 down to 6.9.
 
 
-  Its highest-rated surfaces are GitHub Copilot, GitHub Actions, npm, NuGet, GitHub Container Registry.'
+  Its highest-rated surfaces are GitHub Copilot, GitHub Actions, NuGet, npm, GitHub Container Registry.'
 parent_provider: github
 permalink: /estates/github/
 slug: github
@@ -185,6 +226,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/he
 subfamilies: []
 tags:
 - Code
+- Developer Tools
 - Pipelines
 - Platform
 - Software Development

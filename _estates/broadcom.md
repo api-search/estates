@@ -7,20 +7,20 @@ description: Broadcom is a global technology company that specializes in the des
   electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets,
   routers, and smart TVs.
 estate_rating:
-  agent_avg: 7.5
+  agent_avg: 6.8
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.8
+  agent_raw: 5.9
   agent_ready: 0
   band: emerging
   best: 54.3
-  composite_avg: 19.1
+  composite_avg: 17.7
   composite_band: emerging
-  composite_raw: 18.4
+  composite_raw: 16.7
   developing: 2
   exemplar: 0
-  rating: 14.5
-  scored: 21
+  rating: 13.3
+  scored: 24
   spread: 53.7
   strength: 4
   strong: 1
@@ -46,6 +46,7 @@ member_bands:
     score_band: strong
     score_composite: 54.3
     slug: vmware
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -63,6 +64,7 @@ member_bands:
     score_band: developing
     score_composite: 45.2
     slug: brocade
+    source: declared
   - &id003
     acquired: 2019
     agent_band: agent-aware
@@ -74,6 +76,7 @@ member_bands:
     score_band: developing
     score_composite: 40.7
     slug: symantec
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -91,6 +94,7 @@ member_bands:
     score_band: thin
     score_composite: 38.2
     slug: cloudhealth
+    source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -102,6 +106,7 @@ member_bands:
     score_band: thin
     score_composite: 36.4
     slug: vmware-tanzu
+    source: declared
   - &id006
     acquired: 2013
     agent_band: agent-aware
@@ -113,6 +118,7 @@ member_bands:
     score_band: thin
     score_composite: 29.6
     slug: flowdock
+    source: declared
   label: Thin
   open: false
 - band: emerging
@@ -130,6 +136,7 @@ member_bands:
     score_band: emerging
     score_composite: 23.5
     slug: lastline
+    source: declared
   - &id008
     acquired: 2018
     agent_band: human-only
@@ -141,6 +148,7 @@ member_bands:
     score_band: emerging
     score_composite: 21.3
     slug: ca
+    source: declared
   - &id009
     acquired: 2019
     agent_band: human-only
@@ -152,6 +160,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.8
     slug: carbon-black
+    source: declared
   - &id010
     acquired: 2016
     agent_band: human-only
@@ -163,6 +172,7 @@ member_bands:
     score_band: emerging
     score_composite: 14.5
     slug: bluecoat-symantec
+    source: declared
   - &id011
     acquired: 2021
     agent_band: human-only
@@ -174,11 +184,12 @@ member_bands:
     score_band: emerging
     score_composite: 12.5
     slug: appneta
+    source: declared
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 10
+  count: 13
   items:
   - &id012
     acquired: 2019
@@ -191,6 +202,7 @@ member_bands:
     score_band: minimal
     score_composite: 8.7
     slug: avi-networks
+    source: declared
   - &id013
     acquired: 2012
     agent_band: human-only
@@ -202,6 +214,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.5
     slug: tracelytics
+    source: declared
   - &id014
     acquired: 2009
     agent_band: human-only
@@ -213,7 +226,20 @@ member_bands:
     score_band: minimal
     score_composite: 6.9
     slug: springsource
+    source: declared
   - &id015
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: broadcom
+    name: Avago Technologies
+    relationship: rename
+    score_band: minimal
+    score_composite: 5.4
+    slug: avago-technologies
+    source: declared
+  - &id016
     acquired: 2017
     agent_band: human-only
     agent_score: 0.0
@@ -224,7 +250,8 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: apteligent
-  - &id016
+    source: declared
+  - &id017
     acquired: 2016
     agent_band: human-only
     agent_score: 0.0
@@ -235,7 +262,8 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: confer
-  - &id017
+    source: declared
+  - &id018
     acquired: 2017
     agent_band: human-only
     agent_score: 0.0
@@ -246,7 +274,32 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: fireglass
-  - &id018
+    source: declared
+  - &id019
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: avago-technologies
+    name: LSI
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: lsi
+    source: prose
+  - &id020
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: avago-technologies
+    name: LSI Logic
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: lsi-logic
+    source: prose
+  - &id021
     acquired: 2012
     agent_band: human-only
     agent_score: 0.0
@@ -257,7 +310,8 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: nicira-networks
-  - &id019
+    source: declared
+  - &id022
     acquired: 2020
     agent_band: human-only
     agent_score: 0.0
@@ -268,7 +322,8 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: octarine
-  - &id020
+    source: declared
+  - &id023
     acquired: 2010
     agent_band: human-only
     agent_score: 0.0
@@ -279,7 +334,8 @@ member_bands:
     score_band: minimal
     score_composite: 1.5
     slug: arcot-systems
-  - &id021
+    source: declared
+  - &id024
     acquired: 2000
     agent_band: human-only
     agent_score: 0.0
@@ -290,13 +346,14 @@ member_bands:
     score_band: minimal
     score_composite: 0.6
     slug: newport-communications
+    source: declared
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 3
+  count: 4
   items:
-  - &id022
+  - &id025
     acquired: 2004
     agent_band: null
     agent_score: null
@@ -307,7 +364,20 @@ member_bands:
     score_band: null
     score_composite: null
     slug: brightmail
-  - &id023
+    source: declared
+  - &id026
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: ca
+    name: Concord Data Systems
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: concord-data-systems
+    source: prose
+  - &id027
     acquired: 2020
     agent_band: null
     agent_score: null
@@ -318,7 +388,8 @@ member_bands:
     score_band: null
     score_composite: null
     slug: datrium
-  - &id024
+    source: declared
+  - &id028
     acquired: 2018
     agent_band: null
     agent_score: null
@@ -329,10 +400,11 @@ member_bands:
     score_band: null
     score_composite: null
     slug: heptio
+    source: declared
   label: Unrated
   open: false
-member_on_network: 24
-member_total: 24
+member_on_network: 28
+member_total: 28
 members:
 - *id001
 - *id002
@@ -358,10 +430,14 @@ members:
 - *id022
 - *id023
 - *id024
+- *id025
+- *id026
+- *id027
+- *id028
 members_unrated: []
 name: Broadcom
-overview: 'Broadcom publishes its API surface across 24 provider profiles indexed on the APIs.io network,
-  of which 24 carry a rating. The rated members span 53.7 points, from 54.3 down to 0.6.
+overview: 'Broadcom publishes its API surface across 28 provider profiles indexed on the APIs.io network,
+  of which 28 carry a rating. The rated members span 53.7 points, from 54.3 down to 0.6.
 
 
   Its highest-rated surfaces are VMware, Brocade, Symantec, CloudHealth, VMware Tanzu.'
@@ -430,6 +506,25 @@ subfamilies:
 - has_page: true
   member_count: 3
   members:
+  - name: Flowdock (Discontinued)
+    score_band: thin
+    score_composite: 29.6
+    slug: flowdock
+  - name: Arcot Systems
+    score_band: minimal
+    score_composite: 1.5
+    slug: arcot-systems
+  - name: Concord Data Systems
+    score_band: null
+    score_composite: null
+    slug: concord-data-systems
+  name: CA Technologies (Broadcom)
+  on_network: true
+  permalink: /estates/ca/
+  slug: ca
+- has_page: true
+  member_count: 3
+  members:
   - name: Bluecoat (Symantec)
     score_band: emerging
     score_composite: 14.5
@@ -449,18 +544,18 @@ subfamilies:
 - has_page: false
   member_count: 2
   members:
-  - name: Flowdock (Discontinued)
-    score_band: thin
-    score_composite: 29.6
-    slug: flowdock
-  - name: Arcot Systems
+  - name: LSI
     score_band: minimal
-    score_composite: 1.5
-    slug: arcot-systems
-  name: CA Technologies (Broadcom)
+    score_composite: 5.0
+    slug: lsi
+  - name: LSI Logic
+    score_band: minimal
+    score_composite: 5.0
+    slug: lsi-logic
+  name: Avago Technologies
   on_network: true
-  permalink: /estates/ca/
-  slug: ca
+  permalink: /estates/avago-technologies/
+  slug: avago-technologies
 - has_page: false
   member_count: 1
   members:
@@ -472,7 +567,7 @@ subfamilies:
   on_network: true
   permalink: /estates/appneta/
   slug: appneta
-subfamily_page_count: 2
+subfamily_page_count: 3
 tags:
 - Cloud Infrastructure
 - Gateways

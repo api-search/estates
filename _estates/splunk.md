@@ -4,24 +4,24 @@ category: Estates
 description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data
   via a web-style interface.
 estate_rating:
-  agent_avg: 12.4
+  agent_avg: 10.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.5
+  agent_raw: 9.7
   agent_ready: 1
   band: emerging
   best: 60.8
-  composite_avg: 30.2
+  composite_avg: 25.6
   composite_band: thin
-  composite_raw: 40.4
+  composite_raw: 28.4
   developing: 1
   exemplar: 0
-  rating: 23.1
-  scored: 4
-  spread: 34.0
+  rating: 19.4
+  scored: 6
+  spread: 56.7
   strength: 3
   strong: 1
-  worst: 26.8
+  worst: 4.1
 estate_root: cisco
 estate_root_name: Cisco
 image: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
@@ -43,6 +43,7 @@ member_bands:
     score_band: strong
     score_composite: 60.8
     slug: splunk-observability
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -60,6 +61,7 @@ member_bands:
     score_band: developing
     score_composite: 42.0
     slug: splunk-soar
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -77,6 +79,7 @@ member_bands:
     score_band: thin
     score_composite: 31.9
     slug: signalfx
+    source: declared
   - &id004
     acquired: 2018
     agent_band: agent-aware
@@ -88,22 +91,56 @@ member_bands:
     score_band: thin
     score_composite: 26.8
     slug: victorops
+    source: declared
   label: Thin
   open: false
-member_on_network: 4
-member_total: 4
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 2
+  items:
+  - &id005
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: splunk
+    name: Rocana
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: rocana
+    source: prose
+  - &id006
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: splunk
+    name: Streamlio
+    relationship: product
+    score_band: minimal
+    score_composite: 4.1
+    slug: streamlio
+    source: prose
+  label: Minimal
+  open: false
+member_on_network: 6
+member_total: 6
 members:
 - *id001
 - *id002
 - *id003
 - *id004
+- *id005
+- *id006
 members_unrated: []
 name: Splunk
-overview: 'Splunk publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 34.0 points, from 60.8 down to 26.8.
+overview: 'Splunk publishes its API surface across 6 provider profiles indexed on the APIs.io network,
+  of which 6 carry a rating. The rated members span 56.7 points, from 60.8 down to 4.1.
 
 
-  Its highest-rated surfaces are Splunk Observability Cloud, Splunk SOAR, SignalFx, Splunk On-Call (VictorOps).'
+  Its highest-rated surfaces are Splunk Observability Cloud, Splunk SOAR, SignalFx, Splunk On-Call (VictorOps),
+  Rocana.'
 parent_provider: splunk
 permalink: /estates/splunk/
 slug: splunk

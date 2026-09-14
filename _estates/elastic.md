@@ -1,5 +1,5 @@
 ---
-api_total: 13
+api_total: 14
 category: Estates
 description: Elastic is a software company that builds search-powered solutions for observability, security,
   and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations
@@ -7,24 +7,24 @@ description: Elastic is a software company that builds search-powered solutions 
   delivers managed Elasticsearch and Kibana deployments with REST APIs for both data operations and deployment
   management.
 estate_rating:
-  agent_avg: 20.9
+  agent_avg: 18.2
   agent_band: emerging
   agent_native: 1
-  agent_raw: 31.0
+  agent_raw: 23.4
   agent_ready: 2
   band: thin
   best: 76.7
-  composite_avg: 34.9
+  composite_avg: 31.3
   composite_band: thin
-  composite_raw: 47.8
+  composite_raw: 37.8
   developing: 1
   exemplar: 1
-  rating: 29.3
-  scored: 5
-  spread: 51.6
+  rating: 26.1
+  scored: 7
+  spread: 71.7
   strength: 6
   strong: 1
-  worst: 25.1
+  worst: 5.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastic.png
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-native
-    agent_score: 47.1
+    agent_score: 48.8
     api_count: 3
     immediate_parent: elastic
     name: Elastic Stack (ELK Stack)
@@ -46,6 +46,7 @@ member_bands:
     score_band: exemplar
     score_composite: 76.7
     slug: elk-stack
+    source: declared
   label: Exemplar
   open: true
 - band: strong
@@ -55,7 +56,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.5
+    agent_score: 31.3
     api_count: 1
     immediate_parent: elastic
     name: Elastic Observability
@@ -63,6 +64,7 @@ member_bands:
     score_band: strong
     score_composite: 58.4
     slug: elastic-observability
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -80,6 +82,7 @@ member_bands:
     score_band: developing
     score_composite: 41.8
     slug: elasticsearch
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -97,11 +100,12 @@ member_bands:
     score_band: thin
     score_composite: 37.0
     slug: kibana
+    source: declared
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 1
+  count: 2
   items:
   - &id005
     acquired: null
@@ -114,20 +118,53 @@ member_bands:
     score_band: emerging
     score_composite: 25.1
     slug: elastic-stack
+    source: declared
+  - &id006
+    acquired: null
+    agent_band: human-only
+    agent_score: 5.0
+    api_count: 1
+    immediate_parent: elastic
+    name: Swiftype
+    relationship: product
+    score_band: emerging
+    score_composite: 20.5
+    slug: swiftype
+    source: prose
   label: Emerging
   open: false
-member_on_network: 5
-member_total: 5
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 1
+  items:
+  - &id007
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: elastic
+    name: Cmd *
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: cmd
+    source: prose
+  label: Minimal
+  open: false
+member_on_network: 7
+member_total: 7
 members:
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
+- *id006
+- *id007
 members_unrated: []
 name: Elastic
-overview: 'Elastic publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 51.6 points, from 76.7 down to 25.1.
+overview: 'Elastic publishes its API surface across 7 provider profiles indexed on the APIs.io network,
+  of which 7 carry a rating. The rated members span 71.7 points, from 76.7 down to 5.0.
 
 
   Its highest-rated surfaces are Elastic Stack (ELK Stack), Elastic Observability, Elasticsearch, Kibana,

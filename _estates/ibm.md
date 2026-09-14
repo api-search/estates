@@ -1,26 +1,26 @@
 ---
-api_total: 51
+api_total: 59
 category: Estates
 description: A collection of IBM's public APIs and developer resources.
 estate_rating:
-  agent_avg: 13.2
+  agent_avg: 10.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 13.7
+  agent_raw: 10.9
   agent_ready: 3
   band: emerging
   best: 63.2
-  composite_avg: 29.6
-  composite_band: thin
-  composite_raw: 31.1
-  developing: 7
+  composite_avg: 24.9
+  composite_band: emerging
+  composite_raw: 25.3
+  developing: 9
   exemplar: 0
-  rating: 23.0
-  scored: 24
-  spread: 57.5
-  strength: 11
+  rating: 19.3
+  scored: 38
+  spread: 62.3
+  strength: 13
   strong: 2
-  worst: 5.7
+  worst: 0.9
 estate_root: null
 estate_root_name: null
 image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
@@ -42,6 +42,7 @@ member_bands:
     score_band: strong
     score_composite: 63.2
     slug: red-hat-ansible-automation-platform
+    source: declared
   - &id002
     acquired: 2019
     agent_band: agent-ready
@@ -53,11 +54,12 @@ member_bands:
     score_band: strong
     score_composite: 57.5
     slug: red-hat
+    source: declared
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 7
+  count: 9
   items:
   - &id003
     acquired: 2019
@@ -70,6 +72,7 @@ member_bands:
     score_band: developing
     score_composite: 50.7
     slug: cloudability
+    source: declared
   - &id004
     acquired: null
     agent_band: agent-aware
@@ -81,6 +84,7 @@ member_bands:
     score_band: developing
     score_composite: 49.6
     slug: red-hat-3scale
+    source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -92,7 +96,20 @@ member_bands:
     score_band: developing
     score_composite: 49.1
     slug: red-hat-openshift
+    source: declared
   - &id006
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 23.9
+    api_count: 1
+    immediate_parent: ibm
+    name: DataStax
+    relationship: product
+    score_band: developing
+    score_composite: 46.7
+    slug: datastax
+    source: prose
+  - &id007
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -103,7 +120,8 @@ member_bands:
     score_band: developing
     score_composite: 46.3
     slug: openpages
-  - &id007
+    source: declared
+  - &id008
     acquired: null
     agent_band: agent-aware
     agent_score: 22.3
@@ -114,7 +132,8 @@ member_bands:
     score_band: developing
     score_composite: 46.2
     slug: ibm-translate
-  - &id008
+    source: declared
+  - &id009
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -125,7 +144,8 @@ member_bands:
     score_band: developing
     score_composite: 45.6
     slug: turbonomic
-  - &id009
+    source: declared
+  - &id010
     acquired: null
     agent_band: agent-aware
     agent_score: 21.4
@@ -134,15 +154,28 @@ member_bands:
     name: IBM API Connect
     relationship: product
     score_band: developing
-    score_composite: 42.9
+    score_composite: 43.9
     slug: ibm-api-connect
+    source: declared
+  - &id011
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.0
+    api_count: 1
+    immediate_parent: datastax
+    name: Langflow
+    relationship: product
+    score_band: developing
+    score_composite: 41.7
+    slug: langflow
+    source: prose
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 4
+  count: 5
   items:
-  - &id010
+  - &id012
     acquired: 2023
     agent_band: agent-ready
     agent_score: 28.7
@@ -153,7 +186,8 @@ member_bands:
     score_band: thin
     score_composite: 37.1
     slug: apptio
-  - &id011
+    source: declared
+  - &id013
     acquired: 2024
     agent_band: agent-aware
     agent_score: 19.8
@@ -164,7 +198,8 @@ member_bands:
     score_band: thin
     score_composite: 34.0
     slug: software-ag
-  - &id012
+    source: declared
+  - &id014
     acquired: 2025
     agent_band: agent-aware
     agent_score: 21.5
@@ -175,7 +210,8 @@ member_bands:
     score_band: thin
     score_composite: 29.2
     slug: hashicorp
-  - &id013
+    source: declared
+  - &id015
     acquired: null
     agent_band: agent-aware
     agent_score: 24.7
@@ -186,13 +222,38 @@ member_bands:
     score_band: thin
     score_composite: 28.2
     slug: instana
+    source: declared
+  - &id016
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 18.0
+    api_count: 5
+    immediate_parent: red-hat
+    name: JBoss
+    relationship: product
+    score_band: thin
+    score_composite: 26.7
+    slug: jboss
+    source: prose
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 8
+  count: 11
   items:
-  - &id014
+  - &id017
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 18.3
+    api_count: 1
+    immediate_parent: ibm
+    name: NS1
+    relationship: product
+    score_band: emerging
+    score_composite: 25.1
+    slug: ns1
+    source: prose
+  - &id018
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -203,7 +264,8 @@ member_bands:
     score_band: emerging
     score_composite: 22.0
     slug: ibm-cloud-kubernetes
-  - &id015
+    source: declared
+  - &id019
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -214,7 +276,8 @@ member_bands:
     score_band: emerging
     score_composite: 21.2
     slug: streamsets
-  - &id016
+    source: declared
+  - &id020
     acquired: null
     agent_band: human-only
     agent_score: 5.0
@@ -225,7 +288,8 @@ member_bands:
     score_band: emerging
     score_composite: 20.7
     slug: qradar
-  - &id017
+    source: declared
+  - &id021
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -236,7 +300,8 @@ member_bands:
     score_band: emerging
     score_composite: 20.2
     slug: ibm-watson
-  - &id018
+    source: declared
+  - &id022
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -247,7 +312,20 @@ member_bands:
     score_band: emerging
     score_composite: 18.6
     slug: netezza
-  - &id019
+    source: declared
+  - &id023
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: ibm
+    name: Databand
+    relationship: product
+    score_band: emerging
+    score_composite: 18.0
+    slug: databand
+    source: prose
+  - &id024
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -258,7 +336,8 @@ member_bands:
     score_band: emerging
     score_composite: 14.8
     slug: ibm-app-connect
-  - &id020
+    source: declared
+  - &id025
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -269,7 +348,8 @@ member_bands:
     score_band: emerging
     score_composite: 14.5
     slug: ibm-db2
-  - &id021
+    source: declared
+  - &id026
     acquired: 2007
     agent_band: human-only
     agent_score: 2.5
@@ -280,13 +360,38 @@ member_bands:
     score_band: emerging
     score_composite: 12.3
     slug: web-methods
+    source: declared
+  - &id027
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: ibm
+    name: Compose
+    relationship: product
+    score_band: emerging
+    score_composite: 11.7
+    slug: compose
+    source: prose
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 3
+  count: 11
   items:
-  - &id022
+  - &id028
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: red-hat
+    name: NeuralMagic
+    relationship: product
+    score_band: minimal
+    score_composite: 10.7
+    slug: neuralmagic
+    source: prose
+  - &id029
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -297,7 +402,8 @@ member_bands:
     score_band: minimal
     score_composite: 10.1
     slug: api-harmony
-  - &id023
+    source: declared
+  - &id030
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -308,7 +414,8 @@ member_bands:
     score_band: minimal
     score_composite: 7.6
     slug: ibm-text-to-speech
-  - &id024
+    source: declared
+  - &id031
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -319,10 +426,113 @@ member_bands:
     score_band: minimal
     score_composite: 5.7
     slug: watson-natural-language-understanding
+    source: declared
+  - &id032
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: ibm
+    name: Ahana
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: ahana
+    source: prose
+  - &id033
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: ibm
+    name: Coremetrics
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: coremetrics
+    source: prose
+  - &id034
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: ibm
+    name: Cross Access
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: cross-access
+    source: prose
+  - &id035
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: ibm
+    name: Internet Security Systems
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: internet-security-systems
+    source: prose
+  - &id036
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: red-hat
+    name: Qumranet
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: qumranet
+    source: prose
+  - &id037
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: ibm
+    name: Seek AI
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: seek-ai
+    source: prose
+  - &id038
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: ibm
+    name: DWL
+    relationship: product
+    score_band: minimal
+    score_composite: 0.9
+    slug: dwl
+    source: prose
   label: Minimal
   open: false
-member_on_network: 24
-member_total: 24
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id039
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: ibm
+    name: Blekko
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: blekko
+    source: prose
+  label: Unrated
+  open: false
+member_on_network: 39
+member_total: 39
 members:
 - *id001
 - *id002
@@ -348,10 +558,25 @@ members:
 - *id022
 - *id023
 - *id024
+- *id025
+- *id026
+- *id027
+- *id028
+- *id029
+- *id030
+- *id031
+- *id032
+- *id033
+- *id034
+- *id035
+- *id036
+- *id037
+- *id038
+- *id039
 members_unrated: []
 name: IBM
-overview: 'IBM publishes its API surface across 24 provider profiles indexed on the APIs.io network, of
-  which 24 carry a rating. The rated members span 57.5 points, from 63.2 down to 5.7.
+overview: 'IBM publishes its API surface across 39 provider profiles indexed on the APIs.io network, of
+  which 39 carry a rating. The rated members span 62.3 points, from 63.2 down to 0.9.
 
 
   Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat, Cloudability, Red Hat 3scale,
@@ -364,7 +589,7 @@ source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/apis.yml
 subfamilies:
 - has_page: true
-  member_count: 3
+  member_count: 6
   members:
   - name: Red Hat Ansible Automation Platform
     score_band: strong
@@ -378,6 +603,18 @@ subfamilies:
     score_band: developing
     score_composite: 49.1
     slug: red-hat-openshift
+  - name: JBoss
+    score_band: thin
+    score_composite: 26.7
+    slug: jboss
+  - name: NeuralMagic
+    score_band: minimal
+    score_composite: 10.7
+    slug: neuralmagic
+  - name: Qumranet
+    score_band: minimal
+    score_composite: 5.0
+    slug: qumranet
   name: Red Hat
   on_network: true
   permalink: /estates/red-hat/
@@ -393,6 +630,17 @@ subfamilies:
   on_network: true
   permalink: /estates/apptio/
   slug: apptio
+- has_page: false
+  member_count: 1
+  members:
+  - name: Langflow
+    score_band: developing
+    score_composite: 41.7
+    slug: langflow
+  name: DataStax
+  on_network: true
+  permalink: /estates/datastax/
+  slug: datastax
 - has_page: false
   member_count: 1
   members:

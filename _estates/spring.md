@@ -14,7 +14,7 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 40.0
-  composite_avg: 29.4
+  composite_avg: 29.5
   composite_band: thin
   composite_raw: 35.6
   developing: 1
@@ -46,6 +46,7 @@ member_bands:
     score_band: developing
     score_composite: 40.0
     slug: spring-boot
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -63,6 +64,7 @@ member_bands:
     score_band: thin
     score_composite: 38.8
     slug: spring-cloud-config
+    source: declared
   - &id003
     acquired: null
     agent_band: agent-aware
@@ -74,6 +76,7 @@ member_bands:
     score_band: thin
     score_composite: 36.9
     slug: spring-cloud-gateway
+    source: declared
   - &id004
     acquired: null
     agent_band: agent-aware
@@ -85,6 +88,7 @@ member_bands:
     score_band: thin
     score_composite: 34.4
     slug: spring-integration
+    source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -96,6 +100,7 @@ member_bands:
     score_band: thin
     score_composite: 32.7
     slug: spring-data
+    source: declared
   - &id006
     acquired: null
     agent_band: human-only
@@ -107,6 +112,7 @@ member_bands:
     score_band: thin
     score_composite: 30.7
     slug: spring-cloud-stream
+    source: declared
   label: Thin
   open: false
 member_on_network: 6

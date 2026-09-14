@@ -44,6 +44,7 @@ member_bands:
     score_band: exemplar
     score_composite: 75.8
     slug: zoho-crm
+    source: declared
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -55,6 +56,7 @@ member_bands:
     score_band: exemplar
     score_composite: 68.9
     slug: zoho-campaigns
+    source: declared
   label: Exemplar
   open: true
 - band: developing
@@ -72,6 +74,7 @@ member_bands:
     score_band: developing
     score_composite: 48.8
     slug: zoho-inventory
+    source: declared
   - &id004
     acquired: null
     agent_band: agent-aware
@@ -83,6 +86,7 @@ member_bands:
     score_band: developing
     score_composite: 46.9
     slug: zoho-people
+    source: declared
   - &id005
     acquired: null
     agent_band: agent-ready
@@ -94,6 +98,7 @@ member_bands:
     score_band: developing
     score_composite: 46.9
     slug: zoho-sign
+    source: declared
   - &id006
     acquired: null
     agent_band: agent-ready
@@ -105,6 +110,7 @@ member_bands:
     score_band: developing
     score_composite: 45.7
     slug: zoho-cliq
+    source: declared
   - &id007
     acquired: null
     agent_band: agent-ready
@@ -116,6 +122,7 @@ member_bands:
     score_band: developing
     score_composite: 42.7
     slug: zoho-sheet
+    source: declared
   - &id008
     acquired: null
     agent_band: agent-aware
@@ -127,6 +134,7 @@ member_bands:
     score_band: developing
     score_composite: 40.8
     slug: zoho-mail
+    source: declared
   - &id009
     acquired: null
     agent_band: agent-ready
@@ -138,6 +146,7 @@ member_bands:
     score_band: developing
     score_composite: 40.0
     slug: zoho-analytics
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -155,6 +164,7 @@ member_bands:
     score_band: thin
     score_composite: 38.0
     slug: zoho-writer
+    source: declared
   - &id011
     acquired: null
     agent_band: agent-aware
@@ -166,6 +176,7 @@ member_bands:
     score_band: thin
     score_composite: 37.3
     slug: zoho-creator
+    source: declared
   - &id012
     acquired: null
     agent_band: agent-aware
@@ -177,6 +188,7 @@ member_bands:
     score_band: thin
     score_composite: 36.3
     slug: zoho-books
+    source: declared
   - &id013
     acquired: null
     agent_band: agent-aware
@@ -188,6 +200,7 @@ member_bands:
     score_band: thin
     score_composite: 35.1
     slug: zoho-forms
+    source: declared
   - &id014
     acquired: null
     agent_band: agent-aware
@@ -199,6 +212,7 @@ member_bands:
     score_band: thin
     score_composite: 32.7
     slug: zoho-projects
+    source: declared
   - &id015
     acquired: null
     agent_band: agent-aware
@@ -210,6 +224,7 @@ member_bands:
     score_band: thin
     score_composite: 27.8
     slug: zoho-invoice
+    source: declared
   - &id016
     acquired: null
     agent_band: agent-aware
@@ -221,6 +236,7 @@ member_bands:
     score_band: thin
     score_composite: 26.5
     slug: zoho-recruit
+    source: declared
   label: Thin
   open: false
 - band: emerging
@@ -238,6 +254,7 @@ member_bands:
     score_band: emerging
     score_composite: 26.1
     slug: zoho-desk
+    source: declared
   - &id018
     acquired: null
     agent_band: human-only
@@ -249,6 +266,7 @@ member_bands:
     score_band: emerging
     score_composite: 18.1
     slug: zoho-meeting
+    source: declared
   label: Emerging
   open: false
 member_on_network: 18

@@ -45,6 +45,7 @@ member_bands:
     score_band: strong
     score_composite: 54.5
     slug: bloomberg-applications
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -62,6 +63,7 @@ member_bands:
     score_band: developing
     score_composite: 49.7
     slug: bloomberg-aim
+    source: declared
   - &id003
     acquired: null
     agent_band: agent-aware
@@ -73,6 +75,7 @@ member_bands:
     score_band: developing
     score_composite: 42.4
     slug: bloomberg-buyside-enterprise-solutions
+    source: declared
   - &id004
     acquired: null
     agent_band: agent-aware
@@ -84,6 +87,7 @@ member_bands:
     score_band: developing
     score_composite: 42.4
     slug: bloomberg-emsx
+    source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -95,6 +99,7 @@ member_bands:
     score_band: developing
     score_composite: 39.5
     slug: bloomberg-data-sets
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -112,6 +117,7 @@ member_bands:
     score_band: thin
     score_composite: 37.7
     slug: bloomberg-apis
+    source: declared
   - &id007
     acquired: null
     agent_band: human-only
@@ -123,6 +129,7 @@ member_bands:
     score_band: thin
     score_composite: 36.4
     slug: bloomberg-news
+    source: declared
   - &id008
     acquired: null
     agent_band: agent-aware
@@ -134,6 +141,7 @@ member_bands:
     score_band: thin
     score_composite: 36.2
     slug: bloomberg-data-workflows
+    source: declared
   - &id009
     acquired: null
     agent_band: human-only
@@ -145,6 +153,7 @@ member_bands:
     score_band: thin
     score_composite: 33.4
     slug: bloomberg-data
+    source: declared
   - &id010
     acquired: null
     agent_band: human-only
@@ -156,6 +165,7 @@ member_bands:
     score_band: thin
     score_composite: 31.5
     slug: bloomberg-professional-service
+    source: declared
   - &id011
     acquired: null
     agent_band: human-only
@@ -167,6 +177,7 @@ member_bands:
     score_band: thin
     score_composite: 28.2
     slug: bloomberg-intelligence
+    source: declared
   - &id012
     acquired: null
     agent_band: agent-aware
@@ -178,6 +189,7 @@ member_bands:
     score_band: thin
     score_composite: 26.6
     slug: bloomberg-proprietary-technologies
+    source: declared
   label: Thin
   open: false
 - band: emerging
@@ -195,6 +207,7 @@ member_bands:
     score_band: emerging
     score_composite: 23.5
     slug: bloomberg-terminal
+    source: declared
   - &id014
     acquired: null
     agent_band: human-only
@@ -206,6 +219,7 @@ member_bands:
     score_band: emerging
     score_composite: 21.1
     slug: bloomberg-enterprise
+    source: declared
   - &id015
     acquired: null
     agent_band: human-only
@@ -217,6 +231,7 @@ member_bands:
     score_band: emerging
     score_composite: 21.1
     slug: bloomberg-terminals
+    source: declared
   - &id016
     acquired: null
     agent_band: human-only
@@ -228,6 +243,7 @@ member_bands:
     score_band: emerging
     score_composite: 20.6
     slug: bloomberg-government-bgov
+    source: declared
   - &id017
     acquired: null
     agent_band: human-only
@@ -239,6 +255,7 @@ member_bands:
     score_band: emerging
     score_composite: 20.3
     slug: bloomberg-valuation-service-bval
+    source: declared
   - &id018
     acquired: null
     agent_band: human-only
@@ -250,6 +267,7 @@ member_bands:
     score_band: emerging
     score_composite: 20.0
     slug: bloomberg-platform
+    source: declared
   - &id019
     acquired: null
     agent_band: human-only
@@ -261,6 +279,7 @@ member_bands:
     score_band: emerging
     score_composite: 20.0
     slug: bloomberg-products-and-platforms
+    source: declared
   - &id020
     acquired: null
     agent_band: human-only
@@ -272,6 +291,7 @@ member_bands:
     score_band: emerging
     score_composite: 20.0
     slug: bloomberg-television-and-radio
+    source: declared
   - &id021
     acquired: null
     agent_band: human-only
@@ -283,6 +303,7 @@ member_bands:
     score_band: emerging
     score_composite: 20.0
     slug: bloomberg-tv
+    source: declared
   - &id022
     acquired: null
     agent_band: human-only
@@ -294,6 +315,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.7
     slug: bloomberg-excel-plug-ins
+    source: declared
   - &id023
     acquired: null
     agent_band: human-only
@@ -305,6 +327,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.7
     slug: bloomberg-financial-solutions
+    source: declared
   - &id024
     acquired: null
     agent_band: human-only
@@ -316,6 +339,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.7
     slug: bloomberg-product-suite
+    source: declared
   - &id025
     acquired: null
     agent_band: human-only
@@ -327,6 +351,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.7
     slug: bloomberg-tax-btax
+    source: declared
   - &id026
     acquired: null
     agent_band: human-only
@@ -338,6 +363,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.6
     slug: bloomberg-esg-products
+    source: declared
   - &id027
     acquired: null
     agent_band: human-only
@@ -349,6 +375,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.6
     slug: bloomberg-indices
+    source: declared
   - &id028
     acquired: null
     agent_band: human-only
@@ -360,6 +387,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.6
     slug: bloomberg-sustainable-finance-products
+    source: declared
   - &id029
     acquired: null
     agent_band: human-only
@@ -371,6 +399,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.4
     slug: bloomberg-media-platforms
+    source: declared
   - &id030
     acquired: null
     agent_band: human-only
@@ -382,6 +411,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.3
     slug: bloomberg-tradebook
+    source: declared
   - &id031
     acquired: null
     agent_band: human-only
@@ -393,6 +423,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.1
     slug: bloomberg-index-solutions-limited-bisl
+    source: declared
   - &id032
     acquired: null
     agent_band: human-only
@@ -404,6 +435,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.1
     slug: bloomberg-instant-messaging
+    source: declared
   - &id033
     acquired: null
     agent_band: human-only
@@ -415,6 +447,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.1
     slug: bloomberg-message
+    source: declared
   - &id034
     acquired: null
     agent_band: human-only
@@ -426,6 +459,7 @@ member_bands:
     score_band: emerging
     score_composite: 19.1
     slug: bloomberg-query-language-bql
+    source: declared
   - &id035
     acquired: null
     agent_band: human-only
@@ -437,6 +471,7 @@ member_bands:
     score_band: emerging
     score_composite: 17.8
     slug: bloomberg-tax-research
+    source: declared
   label: Emerging
   open: false
 - band: minimal
@@ -454,6 +489,7 @@ member_bands:
     score_band: minimal
     score_composite: 9.7
     slug: second-measure
+    source: declared
   label: Minimal
   open: false
 member_on_network: 36

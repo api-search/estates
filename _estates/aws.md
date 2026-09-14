@@ -5,10 +5,10 @@ description: Amazon Web Services is a comprehensive collection of cloud computin
   by Amazon, offering infrastructure as a service, platform as a service, and software as a service solutions
   globally.
 estate_rating:
-  agent_avg: 26.2
+  agent_avg: 26.0
   agent_band: thin
-  agent_native: 6
-  agent_raw: 26.5
+  agent_native: 5
+  agent_raw: 26.3
   agent_ready: 90
   band: developing
   best: 82.2
@@ -16,12 +16,12 @@ estate_rating:
   composite_band: developing
   composite_raw: 51.5
   developing: 116
-  exemplar: 5
-  rating: 41.0
+  exemplar: 4
+  rating: 40.9
   scored: 235
   spread: 73.4
-  strength: 315
-  strong: 92
+  strength: 314
+  strong: 93
   worst: 8.8
 estate_root: amazon
 estate_root_name: Amazon
@@ -31,7 +31,7 @@ layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 5
+  count: 4
   items:
   - &id001
     acquired: null
@@ -44,10 +44,11 @@ member_bands:
     score_band: exemplar
     score_composite: 82.2
     slug: amazon-pinpoint
+    source: declared
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 44.6
+    agent_score: 38.1
     api_count: 2
     immediate_parent: aws
     name: Amazon SES
@@ -55,10 +56,11 @@ member_bands:
     score_band: exemplar
     score_composite: 76.3
     slug: amazon-ses
+    source: declared
   - &id003
     acquired: null
-    agent_band: agent-native
-    agent_score: 41.0
+    agent_band: agent-ready
+    agent_score: 34.5
     api_count: 1
     immediate_parent: aws
     name: Amazon VPN
@@ -66,6 +68,7 @@ member_bands:
     score_band: exemplar
     score_composite: 73.3
     slug: amazon-vpn
+    source: declared
   - &id004
     acquired: null
     agent_band: agent-native
@@ -77,24 +80,14 @@ member_bands:
     score_band: exemplar
     score_composite: 73.0
     slug: amazon-codeguru-profiler
-  - &id005
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 23.4
-    api_count: 3
-    immediate_parent: aws
-    name: Amazon API Gateway
-    relationship: product
-    score_band: exemplar
-    score_composite: 68.2
-    slug: aws-api-gateway
+    source: declared
   label: Exemplar
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 92
+  count: 93
   items:
-  - &id006
+  - &id005
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
@@ -105,21 +98,11 @@ member_bands:
     score_band: strong
     score_composite: 66.2
     slug: amazon-freertos
-  - &id007
+    source: declared
+  - &id006
     acquired: null
     agent_band: agent-ready
-    agent_score: 37.1
-    api_count: 2
-    immediate_parent: aws
-    name: Amazon S3
-    relationship: product
-    score_band: strong
-    score_composite: 65.7
-    slug: amazon-s3
-  - &id008
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 35.4
+    agent_score: 29.0
     api_count: 1
     immediate_parent: aws
     name: CloudFront
@@ -127,7 +110,20 @@ member_bands:
     score_band: strong
     score_composite: 65.7
     slug: cloudfront
-  - &id009
+    source: declared
+  - &id007
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 23.4
+    api_count: 3
+    immediate_parent: aws
+    name: Amazon API Gateway
+    relationship: product
+    score_band: strong
+    score_composite: 64.9
+    slug: aws-api-gateway
+    source: declared
+  - &id008
     acquired: null
     agent_band: agent-ready
     agent_score: 32.3
@@ -138,7 +134,8 @@ member_bands:
     score_band: strong
     score_composite: 64.3
     slug: amazon-ec2-auto-scaling
-  - &id010
+    source: declared
+  - &id009
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
@@ -149,6 +146,19 @@ member_bands:
     score_band: strong
     score_composite: 63.9
     slug: amazon-cognito
+    source: declared
+  - &id010
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.6
+    api_count: 2
+    immediate_parent: aws
+    name: Amazon S3
+    relationship: product
+    score_band: strong
+    score_composite: 63.7
+    slug: amazon-s3
+    source: declared
   - &id011
     acquired: null
     agent_band: agent-aware
@@ -160,6 +170,7 @@ member_bands:
     score_band: strong
     score_composite: 63.2
     slug: amazon-sagemaker
+    source: declared
   - &id012
     acquired: null
     agent_band: agent-ready
@@ -171,6 +182,7 @@ member_bands:
     score_band: strong
     score_composite: 62.9
     slug: amazon-clean-rooms
+    source: declared
   - &id013
     acquired: null
     agent_band: agent-aware
@@ -182,6 +194,7 @@ member_bands:
     score_band: strong
     score_composite: 62.9
     slug: amazon-healthlake
+    source: declared
   - &id014
     acquired: null
     agent_band: agent-ready
@@ -193,6 +206,7 @@ member_bands:
     score_band: strong
     score_composite: 62.8
     slug: amazon-ec2
+    source: declared
   - &id015
     acquired: null
     agent_band: agent-aware
@@ -204,6 +218,7 @@ member_bands:
     score_band: strong
     score_composite: 62.4
     slug: amazon-sns
+    source: declared
   - &id016
     acquired: null
     agent_band: agent-ready
@@ -215,6 +230,7 @@ member_bands:
     score_band: strong
     score_composite: 62.3
     slug: amazon-dynamodb
+    source: declared
   - &id017
     acquired: null
     agent_band: agent-ready
@@ -226,6 +242,7 @@ member_bands:
     score_band: strong
     score_composite: 62.0
     slug: amazon-secrets-manager
+    source: declared
   - &id018
     acquired: null
     agent_band: agent-aware
@@ -237,6 +254,7 @@ member_bands:
     score_band: strong
     score_composite: 61.8
     slug: amazon-lambda
+    source: declared
   - &id019
     acquired: null
     agent_band: agent-ready
@@ -248,6 +266,7 @@ member_bands:
     score_band: strong
     score_composite: 61.3
     slug: amazon-healthomics
+    source: declared
   - &id020
     acquired: null
     agent_band: agent-aware
@@ -259,6 +278,7 @@ member_bands:
     score_band: strong
     score_composite: 61.3
     slug: amazon-keyspaces
+    source: declared
   - &id021
     acquired: null
     agent_band: agent-aware
@@ -270,6 +290,7 @@ member_bands:
     score_band: strong
     score_composite: 61.2
     slug: amazon-neptune
+    source: declared
   - &id022
     acquired: null
     agent_band: agent-aware
@@ -281,6 +302,7 @@ member_bands:
     score_band: strong
     score_composite: 61.1
     slug: amazon-kendra
+    source: declared
   - &id023
     acquired: null
     agent_band: agent-aware
@@ -292,6 +314,7 @@ member_bands:
     score_band: strong
     score_composite: 61.1
     slug: amazon-kms
+    source: declared
   - &id024
     acquired: null
     agent_band: agent-ready
@@ -303,6 +326,7 @@ member_bands:
     score_band: strong
     score_composite: 60.9
     slug: amazon-eventbridge-pipes
+    source: declared
   - &id025
     acquired: null
     agent_band: agent-ready
@@ -314,6 +338,7 @@ member_bands:
     score_band: strong
     score_composite: 60.9
     slug: amazon-eventbridge-scheduler
+    source: declared
   - &id026
     acquired: null
     agent_band: agent-aware
@@ -325,10 +350,11 @@ member_bands:
     score_band: strong
     score_composite: 60.7
     slug: amazon-cloudfront
+    source: declared
   - &id027
     acquired: null
     agent_band: agent-native
-    agent_score: 55.9
+    agent_score: 49.5
     api_count: 1
     immediate_parent: aws
     name: Amazon Nova
@@ -336,6 +362,7 @@ member_bands:
     score_band: strong
     score_composite: 60.7
     slug: amazon-nova
+    source: declared
   - &id028
     acquired: null
     agent_band: agent-ready
@@ -347,6 +374,7 @@ member_bands:
     score_band: strong
     score_composite: 60.4
     slug: amazon-entity-resolution
+    source: declared
   - &id029
     acquired: null
     agent_band: agent-ready
@@ -358,6 +386,7 @@ member_bands:
     score_band: strong
     score_composite: 60.4
     slug: aws-braket
+    source: declared
   - &id030
     acquired: null
     agent_band: agent-aware
@@ -369,6 +398,7 @@ member_bands:
     score_band: strong
     score_composite: 60.3
     slug: amazon-kinesis
+    source: declared
   - &id031
     acquired: null
     agent_band: agent-aware
@@ -380,6 +410,7 @@ member_bands:
     score_band: strong
     score_composite: 60.3
     slug: amazon-rds
+    source: declared
   - &id032
     acquired: null
     agent_band: agent-ready
@@ -391,6 +422,7 @@ member_bands:
     score_band: strong
     score_composite: 60.3
     slug: aws-lambda
+    source: declared
   - &id033
     acquired: null
     agent_band: agent-ready
@@ -402,6 +434,7 @@ member_bands:
     score_band: strong
     score_composite: 60.2
     slug: amazon-elastic-load-balancing
+    source: declared
   - &id034
     acquired: null
     agent_band: agent-aware
@@ -413,6 +446,7 @@ member_bands:
     score_band: strong
     score_composite: 60.1
     slug: amazon-polly
+    source: declared
   - &id035
     acquired: null
     agent_band: agent-aware
@@ -424,6 +458,7 @@ member_bands:
     score_band: strong
     score_composite: 59.9
     slug: amazon-eventbridge
+    source: declared
   - &id036
     acquired: null
     agent_band: agent-ready
@@ -435,6 +470,7 @@ member_bands:
     score_band: strong
     score_composite: 59.6
     slug: amazon-vpc
+    source: declared
   - &id037
     acquired: null
     agent_band: agent-aware
@@ -446,6 +482,7 @@ member_bands:
     score_band: strong
     score_composite: 59.4
     slug: amazon-lake-formation
+    source: declared
   - &id038
     acquired: null
     agent_band: agent-aware
@@ -457,6 +494,7 @@ member_bands:
     score_band: strong
     score_composite: 59.4
     slug: aws-healthlake
+    source: declared
   - &id039
     acquired: null
     agent_band: agent-ready
@@ -468,6 +506,7 @@ member_bands:
     score_band: strong
     score_composite: 59.2
     slug: amazon-healthimaging
+    source: declared
   - &id040
     acquired: null
     agent_band: agent-aware
@@ -479,6 +518,7 @@ member_bands:
     score_band: strong
     score_composite: 59.1
     slug: amazon-documentdb
+    source: declared
   - &id041
     acquired: null
     agent_band: agent-ready
@@ -490,6 +530,7 @@ member_bands:
     score_band: strong
     score_composite: 59.1
     slug: amazon-gamelift
+    source: declared
   - &id042
     acquired: null
     agent_band: agent-aware
@@ -501,6 +542,7 @@ member_bands:
     score_band: strong
     score_composite: 59.0
     slug: amazon-workmail
+    source: declared
   - &id043
     acquired: null
     agent_band: agent-native
@@ -512,6 +554,7 @@ member_bands:
     score_band: strong
     score_composite: 58.9
     slug: amazon-ec2-image-builder
+    source: declared
   - &id044
     acquired: null
     agent_band: agent-aware
@@ -523,6 +566,7 @@ member_bands:
     score_band: strong
     score_composite: 58.8
     slug: amazon-opensearch-service
+    source: declared
   - &id045
     acquired: null
     agent_band: agent-aware
@@ -534,6 +578,7 @@ member_bands:
     score_band: strong
     score_composite: 58.7
     slug: amazon-xray
+    source: declared
   - &id046
     acquired: null
     agent_band: agent-ready
@@ -545,6 +590,7 @@ member_bands:
     score_band: strong
     score_composite: 58.4
     slug: amazon-glue-databrew
+    source: declared
   - &id047
     acquired: null
     agent_band: agent-aware
@@ -556,6 +602,7 @@ member_bands:
     score_band: strong
     score_composite: 58.2
     slug: amazon-cloudsearch
+    source: declared
   - &id048
     acquired: null
     agent_band: agent-aware
@@ -567,6 +614,7 @@ member_bands:
     score_band: strong
     score_composite: 58.2
     slug: amazon-ebs
+    source: declared
   - &id049
     acquired: null
     agent_band: agent-aware
@@ -578,6 +626,7 @@ member_bands:
     score_band: strong
     score_composite: 58.1
     slug: amazon-elastic-beanstalk
+    source: declared
   - &id050
     acquired: null
     agent_band: agent-aware
@@ -589,6 +638,7 @@ member_bands:
     score_band: strong
     score_composite: 58.1
     slug: amazon-elasticache
+    source: declared
   - &id051
     acquired: null
     agent_band: agent-aware
@@ -600,6 +650,7 @@ member_bands:
     score_band: strong
     score_composite: 58.1
     slug: amazon-health-dashboard
+    source: declared
   - &id052
     acquired: null
     agent_band: agent-aware
@@ -611,6 +662,7 @@ member_bands:
     score_band: strong
     score_composite: 58.0
     slug: amazon-location-service
+    source: declared
   - &id053
     acquired: null
     agent_band: agent-aware
@@ -622,6 +674,7 @@ member_bands:
     score_band: strong
     score_composite: 58.0
     slug: amazon-transcribe
+    source: declared
   - &id054
     acquired: null
     agent_band: agent-aware
@@ -633,6 +686,7 @@ member_bands:
     score_band: strong
     score_composite: 57.6
     slug: amazon-cloudwatch
+    source: declared
   - &id055
     acquired: null
     agent_band: agent-aware
@@ -644,6 +698,7 @@ member_bands:
     score_band: strong
     score_composite: 57.6
     slug: amazon-q
+    source: declared
   - &id056
     acquired: null
     agent_band: agent-ready
@@ -655,6 +710,7 @@ member_bands:
     score_band: strong
     score_composite: 57.5
     slug: amazon-iam-access-analyzer
+    source: declared
   - &id057
     acquired: null
     agent_band: agent-aware
@@ -666,6 +722,7 @@ member_bands:
     score_band: strong
     score_composite: 57.4
     slug: amazon-cloudformation
+    source: declared
   - &id058
     acquired: null
     agent_band: agent-aware
@@ -677,6 +734,7 @@ member_bands:
     score_band: strong
     score_composite: 57.4
     slug: amazon-efs
+    source: declared
   - &id059
     acquired: null
     agent_band: agent-ready
@@ -688,6 +746,7 @@ member_bands:
     score_band: strong
     score_composite: 57.4
     slug: amazon-sqs
+    source: declared
   - &id060
     acquired: null
     agent_band: agent-aware
@@ -699,6 +758,7 @@ member_bands:
     score_band: strong
     score_composite: 57.3
     slug: amazon-quicksight
+    source: declared
   - &id061
     acquired: null
     agent_band: agent-aware
@@ -710,6 +770,7 @@ member_bands:
     score_band: strong
     score_composite: 57.2
     slug: amazon-ecr
+    source: declared
   - &id062
     acquired: null
     agent_band: agent-aware
@@ -721,6 +782,7 @@ member_bands:
     score_band: strong
     score_composite: 57.1
     slug: amazon-translate
+    source: declared
   - &id063
     acquired: null
     agent_band: agent-aware
@@ -732,6 +794,7 @@ member_bands:
     score_band: strong
     score_composite: 57.1
     slug: amazon-waf
+    source: declared
   - &id064
     acquired: null
     agent_band: agent-ready
@@ -743,6 +806,7 @@ member_bands:
     score_band: strong
     score_composite: 57.0
     slug: amazon-guardduty
+    source: declared
   - &id065
     acquired: null
     agent_band: agent-aware
@@ -754,6 +818,7 @@ member_bands:
     score_band: strong
     score_composite: 56.9
     slug: amazon-route-53
+    source: declared
   - &id066
     acquired: null
     agent_band: agent-ready
@@ -765,6 +830,7 @@ member_bands:
     score_band: strong
     score_composite: 56.9
     slug: amazon-well-architected-tool
+    source: declared
   - &id067
     acquired: null
     agent_band: agent-ready
@@ -776,6 +842,7 @@ member_bands:
     score_band: strong
     score_composite: 56.7
     slug: amazon-firewall-manager
+    source: declared
   - &id068
     acquired: null
     agent_band: agent-ready
@@ -787,6 +854,7 @@ member_bands:
     score_band: strong
     score_composite: 56.7
     slug: amazon-ground-station
+    source: declared
   - &id069
     acquired: null
     agent_band: agent-ready
@@ -798,6 +866,7 @@ member_bands:
     score_band: strong
     score_composite: 56.7
     slug: amazon-msk
+    source: declared
   - &id070
     acquired: null
     agent_band: agent-aware
@@ -809,6 +878,7 @@ member_bands:
     score_band: strong
     score_composite: 56.5
     slug: amazon-iam
+    source: declared
   - &id071
     acquired: null
     agent_band: agent-aware
@@ -820,6 +890,7 @@ member_bands:
     score_band: strong
     score_composite: 56.2
     slug: amazon-bedrock
+    source: declared
   - &id072
     acquired: null
     agent_band: agent-ready
@@ -831,6 +902,7 @@ member_bands:
     score_band: strong
     score_composite: 56.2
     slug: amazon-certificate-manager
+    source: declared
   - &id073
     acquired: null
     agent_band: agent-ready
@@ -842,6 +914,7 @@ member_bands:
     score_band: strong
     score_composite: 56.2
     slug: amazon-glue
+    source: declared
   - &id074
     acquired: null
     agent_band: agent-aware
@@ -853,6 +926,7 @@ member_bands:
     score_band: strong
     score_composite: 56.1
     slug: amazon-payment-cryptography
+    source: declared
   - &id075
     acquired: null
     agent_band: agent-ready
@@ -864,6 +938,7 @@ member_bands:
     score_band: strong
     score_composite: 56.1
     slug: amazon-transit-gateway
+    source: declared
   - &id076
     acquired: null
     agent_band: agent-ready
@@ -875,6 +950,7 @@ member_bands:
     score_band: strong
     score_composite: 56.0
     slug: amazon-redshift
+    source: declared
   - &id077
     acquired: null
     agent_band: agent-ready
@@ -886,6 +962,7 @@ member_bands:
     score_band: strong
     score_composite: 55.9
     slug: amazon-datazone
+    source: declared
   - &id078
     acquired: null
     agent_band: agent-ready
@@ -897,6 +974,7 @@ member_bands:
     score_band: strong
     score_composite: 55.8
     slug: amazon-elastic-transcoder
+    source: declared
   - &id079
     acquired: null
     agent_band: agent-ready
@@ -908,6 +986,7 @@ member_bands:
     score_band: strong
     score_composite: 55.8
     slug: amazon-rekognition
+    source: declared
   - &id080
     acquired: null
     agent_band: agent-ready
@@ -919,6 +998,7 @@ member_bands:
     score_band: strong
     score_composite: 55.8
     slug: amazon-workspaces-web
+    source: declared
   - &id081
     acquired: null
     agent_band: agent-ready
@@ -930,6 +1010,7 @@ member_bands:
     score_band: strong
     score_composite: 55.7
     slug: amazon-forecast
+    source: declared
   - &id082
     acquired: null
     agent_band: agent-ready
@@ -941,6 +1022,7 @@ member_bands:
     score_band: strong
     score_composite: 55.5
     slug: amazon-fraud-detector
+    source: declared
   - &id083
     acquired: null
     agent_band: agent-aware
@@ -952,6 +1034,7 @@ member_bands:
     score_band: strong
     score_composite: 55.2
     slug: amazon-config
+    source: declared
   - &id084
     acquired: null
     agent_band: agent-aware
@@ -963,6 +1046,7 @@ member_bands:
     score_band: strong
     score_composite: 55.2
     slug: amazon-iot-twinmaker
+    source: declared
   - &id085
     acquired: null
     agent_band: agent-ready
@@ -974,6 +1058,7 @@ member_bands:
     score_band: strong
     score_composite: 55.2
     slug: amazon-mainframe-modernization
+    source: declared
   - &id086
     acquired: null
     agent_band: agent-aware
@@ -985,6 +1070,7 @@ member_bands:
     score_band: strong
     score_composite: 54.8
     slug: amazon-codeartifact
+    source: declared
   - &id087
     acquired: null
     agent_band: agent-ready
@@ -996,6 +1082,7 @@ member_bands:
     score_band: strong
     score_composite: 54.8
     slug: amazon-connect
+    source: declared
   - &id088
     acquired: null
     agent_band: agent-aware
@@ -1007,6 +1094,7 @@ member_bands:
     score_band: strong
     score_composite: 54.8
     slug: amazon-emr
+    source: declared
   - &id089
     acquired: null
     agent_band: agent-aware
@@ -1018,6 +1106,7 @@ member_bands:
     score_band: strong
     score_composite: 54.7
     slug: amazon-datasync
+    source: declared
   - &id090
     acquired: null
     agent_band: agent-aware
@@ -1029,6 +1118,7 @@ member_bands:
     score_band: strong
     score_composite: 54.7
     slug: amazon-lex
+    source: declared
   - &id091
     acquired: null
     agent_band: agent-aware
@@ -1040,6 +1130,7 @@ member_bands:
     score_band: strong
     score_composite: 54.6
     slug: amazon-lightsail
+    source: declared
   - &id092
     acquired: null
     agent_band: agent-ready
@@ -1051,6 +1142,7 @@ member_bands:
     score_band: strong
     score_composite: 54.6
     slug: amazon-mediaconnect
+    source: declared
   - &id093
     acquired: null
     agent_band: agent-native
@@ -1062,6 +1154,7 @@ member_bands:
     score_band: strong
     score_composite: 54.6
     slug: amazon-mediaconvert
+    source: declared
   - &id094
     acquired: null
     agent_band: agent-ready
@@ -1073,6 +1166,7 @@ member_bands:
     score_band: strong
     score_composite: 54.5
     slug: amazon-iot-greengrass
+    source: declared
   - &id095
     acquired: null
     agent_band: agent-ready
@@ -1084,6 +1178,7 @@ member_bands:
     score_band: strong
     score_composite: 54.5
     slug: amazon-private-ca
+    source: declared
   - &id096
     acquired: null
     agent_band: agent-ready
@@ -1095,6 +1190,7 @@ member_bands:
     score_band: strong
     score_composite: 54.4
     slug: amazon-iot-sitewise
+    source: declared
   - &id097
     acquired: null
     agent_band: agent-aware
@@ -1106,6 +1202,7 @@ member_bands:
     score_band: strong
     score_composite: 54.3
     slug: amazon-cloudtrail
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -1123,6 +1220,7 @@ member_bands:
     score_band: developing
     score_composite: 54.2
     slug: amazon-data-exchange
+    source: declared
   - &id099
     acquired: null
     agent_band: agent-ready
@@ -1134,6 +1232,7 @@ member_bands:
     score_band: developing
     score_composite: 54.2
     slug: amazon-inspector
+    source: declared
   - &id100
     acquired: null
     agent_band: agent-ready
@@ -1145,6 +1244,7 @@ member_bands:
     score_band: developing
     score_composite: 54.2
     slug: amazon-managed-blockchain
+    source: declared
   - &id101
     acquired: null
     agent_band: agent-aware
@@ -1156,6 +1256,7 @@ member_bands:
     score_band: developing
     score_composite: 54.1
     slug: amazon-codedeploy
+    source: declared
   - &id102
     acquired: null
     agent_band: agent-aware
@@ -1167,6 +1268,7 @@ member_bands:
     score_band: developing
     score_composite: 54.1
     slug: amazon-step-functions
+    source: declared
   - &id103
     acquired: null
     agent_band: agent-ready
@@ -1178,6 +1280,7 @@ member_bands:
     score_band: developing
     score_composite: 53.9
     slug: amazon-macie
+    source: declared
   - &id104
     acquired: null
     agent_band: agent-ready
@@ -1189,6 +1292,7 @@ member_bands:
     score_band: developing
     score_composite: 53.9
     slug: amazon-mediapackage
+    source: declared
   - &id105
     acquired: null
     agent_band: agent-ready
@@ -1200,6 +1304,7 @@ member_bands:
     score_band: developing
     score_composite: 53.8
     slug: amazon-data-lifecycle-manager
+    source: declared
   - &id106
     acquired: null
     agent_band: agent-ready
@@ -1211,6 +1316,7 @@ member_bands:
     score_band: developing
     score_composite: 53.8
     slug: amazon-mediatailor
+    source: declared
   - &id107
     acquired: null
     agent_band: agent-ready
@@ -1222,6 +1328,7 @@ member_bands:
     score_band: developing
     score_composite: 53.8
     slug: amazon-outposts
+    source: declared
   - &id108
     acquired: null
     agent_band: agent-ready
@@ -1233,6 +1340,7 @@ member_bands:
     score_band: developing
     score_composite: 53.7
     slug: amazon-medialive
+    source: declared
   - &id109
     acquired: null
     agent_band: agent-ready
@@ -1244,6 +1352,7 @@ member_bands:
     score_band: developing
     score_composite: 53.5
     slug: amazon-ecs
+    source: declared
   - &id110
     acquired: null
     agent_band: agent-aware
@@ -1255,6 +1364,7 @@ member_bands:
     score_band: developing
     score_composite: 53.4
     slug: amazon-storage-gateway
+    source: declared
   - &id111
     acquired: null
     agent_band: agent-ready
@@ -1266,6 +1376,7 @@ member_bands:
     score_band: developing
     score_composite: 53.3
     slug: amazon-iot-core
+    source: declared
   - &id112
     acquired: null
     agent_band: agent-aware
@@ -1277,6 +1388,7 @@ member_bands:
     score_band: developing
     score_composite: 53.3
     slug: amazon-kinesis-video-streams
+    source: declared
   - &id113
     acquired: null
     agent_band: agent-aware
@@ -1288,6 +1400,7 @@ member_bands:
     score_band: developing
     score_composite: 53.2
     slug: amazon-compute-optimizer
+    source: declared
   - &id114
     acquired: null
     agent_band: agent-aware
@@ -1299,6 +1412,7 @@ member_bands:
     score_band: developing
     score_composite: 53.2
     slug: amazon-organizations
+    source: declared
   - &id115
     acquired: null
     agent_band: agent-aware
@@ -1310,6 +1424,7 @@ member_bands:
     score_band: developing
     score_composite: 53.1
     slug: amazon-proton
+    source: declared
   - &id116
     acquired: null
     agent_band: agent-aware
@@ -1321,6 +1436,7 @@ member_bands:
     score_band: developing
     score_composite: 53.0
     slug: amazon-personalize
+    source: declared
   - &id117
     acquired: null
     agent_band: agent-aware
@@ -1332,6 +1448,7 @@ member_bands:
     score_band: developing
     score_composite: 52.9
     slug: amazon-codebuild
+    source: declared
   - &id118
     acquired: null
     agent_band: agent-aware
@@ -1343,6 +1460,7 @@ member_bands:
     score_band: developing
     score_composite: 52.9
     slug: amazon-codepipeline
+    source: declared
   - &id119
     acquired: null
     agent_band: agent-aware
@@ -1354,6 +1472,7 @@ member_bands:
     score_band: developing
     score_composite: 52.9
     slug: amazon-workspaces
+    source: declared
   - &id120
     acquired: null
     agent_band: agent-aware
@@ -1365,6 +1484,7 @@ member_bands:
     score_band: developing
     score_composite: 52.8
     slug: amazon-iot-fleetwise
+    source: declared
   - &id121
     acquired: null
     agent_band: agent-aware
@@ -1376,6 +1496,7 @@ member_bands:
     score_band: developing
     score_composite: 52.8
     slug: amazon-security-lake
+    source: declared
   - &id122
     acquired: null
     agent_band: agent-aware
@@ -1387,6 +1508,7 @@ member_bands:
     score_band: developing
     score_composite: 52.7
     slug: amazon-direct-connect
+    source: declared
   - &id123
     acquired: null
     agent_band: agent-aware
@@ -1398,6 +1520,7 @@ member_bands:
     score_band: developing
     score_composite: 52.6
     slug: amazon-iam-identity-center
+    source: declared
   - &id124
     acquired: null
     agent_band: agent-ready
@@ -1409,6 +1532,7 @@ member_bands:
     score_band: developing
     score_composite: 52.6
     slug: amazon-iot-device-management
+    source: declared
   - &id125
     acquired: null
     agent_band: agent-aware
@@ -1420,6 +1544,7 @@ member_bands:
     score_band: developing
     score_composite: 52.5
     slug: amazon-kinesis-firehose
+    source: declared
   - &id126
     acquired: null
     agent_band: agent-aware
@@ -1431,6 +1556,7 @@ member_bands:
     score_band: developing
     score_composite: 52.5
     slug: amazon-network-firewall
+    source: declared
   - &id127
     acquired: null
     agent_band: agent-aware
@@ -1442,6 +1568,7 @@ member_bands:
     score_band: developing
     score_composite: 52.4
     slug: amazon-interactive-video-service
+    source: declared
   - &id128
     acquired: null
     agent_band: agent-ready
@@ -1453,6 +1580,7 @@ member_bands:
     score_band: developing
     score_composite: 52.3
     slug: amazon-devops-guru
+    source: declared
   - &id129
     acquired: null
     agent_band: agent-ready
@@ -1464,6 +1592,7 @@ member_bands:
     score_band: developing
     score_composite: 52.3
     slug: amazon-global-accelerator
+    source: declared
   - &id130
     acquired: null
     agent_band: agent-ready
@@ -1475,6 +1604,7 @@ member_bands:
     score_band: developing
     score_composite: 52.2
     slug: amazon-iot-device-defender
+    source: declared
   - &id131
     acquired: null
     agent_band: agent-aware
@@ -1486,6 +1616,7 @@ member_bands:
     score_band: developing
     score_composite: 52.2
     slug: amazon-security-hub
+    source: declared
   - &id132
     acquired: null
     agent_band: agent-ready
@@ -1497,6 +1628,7 @@ member_bands:
     score_band: developing
     score_composite: 52.0
     slug: amazon-incident-manager
+    source: declared
   - &id133
     acquired: null
     agent_band: agent-aware
@@ -1508,6 +1640,7 @@ member_bands:
     score_band: developing
     score_composite: 51.9
     slug: amazon-iot-events
+    source: declared
   - &id134
     acquired: null
     agent_band: agent-ready
@@ -1519,6 +1652,7 @@ member_bands:
     score_band: developing
     score_composite: 51.9
     slug: amazon-managed-grafana
+    source: declared
   - &id135
     acquired: null
     agent_band: agent-native
@@ -1530,6 +1664,7 @@ member_bands:
     score_band: developing
     score_composite: 51.7
     slug: amazon-opensearch
+    source: declared
   - &id136
     acquired: null
     agent_band: agent-aware
@@ -1541,6 +1676,7 @@ member_bands:
     score_band: developing
     score_composite: 51.6
     slug: amazon-fsx
+    source: declared
   - &id137
     acquired: null
     agent_band: agent-aware
@@ -1552,6 +1688,7 @@ member_bands:
     score_band: developing
     score_composite: 51.6
     slug: amazon-mediastore
+    source: declared
   - &id138
     acquired: null
     agent_band: agent-ready
@@ -1563,6 +1700,7 @@ member_bands:
     score_band: developing
     score_composite: 51.5
     slug: aws-app-mesh
+    source: declared
   - &id139
     acquired: null
     agent_band: agent-aware
@@ -1574,6 +1712,7 @@ member_bands:
     score_band: developing
     score_composite: 51.4
     slug: amazon-marketplace
+    source: declared
   - &id140
     acquired: null
     agent_band: agent-aware
@@ -1585,6 +1724,7 @@ member_bands:
     score_band: developing
     score_composite: 51.3
     slug: amazon-batch
+    source: declared
   - &id141
     acquired: null
     agent_band: agent-aware
@@ -1596,6 +1736,7 @@ member_bands:
     score_band: developing
     score_composite: 51.2
     slug: amazon-data-pipeline
+    source: declared
   - &id142
     acquired: null
     agent_band: agent-aware
@@ -1607,6 +1748,7 @@ member_bands:
     score_band: developing
     score_composite: 51.2
     slug: aws-app-runner
+    source: declared
   - &id143
     acquired: null
     agent_band: agent-aware
@@ -1618,6 +1760,7 @@ member_bands:
     score_band: developing
     score_composite: 51.1
     slug: amazon-migration-hub
+    source: declared
   - &id144
     acquired: null
     agent_band: agent-aware
@@ -1629,6 +1772,7 @@ member_bands:
     score_band: developing
     score_composite: 51.1
     slug: amazon-snow-family
+    source: declared
   - &id145
     acquired: null
     agent_band: agent-aware
@@ -1640,6 +1784,7 @@ member_bands:
     score_band: developing
     score_composite: 50.9
     slug: amazon-simpledb
+    source: declared
   - &id146
     acquired: null
     agent_band: agent-aware
@@ -1651,6 +1796,7 @@ member_bands:
     score_band: developing
     score_composite: 50.8
     slug: amazon-lakeformation
+    source: declared
   - &id147
     acquired: null
     agent_band: agent-aware
@@ -1662,6 +1808,7 @@ member_bands:
     score_band: developing
     score_composite: 50.7
     slug: amazon-license-manager
+    source: declared
   - &id148
     acquired: null
     agent_band: agent-aware
@@ -1673,6 +1820,7 @@ member_bands:
     score_band: developing
     score_composite: 50.6
     slug: amazon-shield
+    source: declared
   - &id149
     acquired: null
     agent_band: agent-ready
@@ -1684,6 +1832,7 @@ member_bands:
     score_band: developing
     score_composite: 50.4
     slug: amazon-managed-prometheus
+    source: declared
   - &id150
     acquired: null
     agent_band: agent-aware
@@ -1695,6 +1844,7 @@ member_bands:
     score_band: developing
     score_composite: 50.2
     slug: amazon-amplify
+    source: declared
   - &id151
     acquired: null
     agent_band: agent-aware
@@ -1706,6 +1856,7 @@ member_bands:
     score_band: developing
     score_composite: 50.1
     slug: amazon-lookout-for-equipment
+    source: declared
   - &id152
     acquired: null
     agent_band: agent-ready
@@ -1717,6 +1868,7 @@ member_bands:
     score_band: developing
     score_composite: 49.9
     slug: amazon-deepracer
+    source: declared
   - &id153
     acquired: null
     agent_band: agent-aware
@@ -1728,6 +1880,7 @@ member_bands:
     score_band: developing
     score_composite: 49.8
     slug: amazon-backup
+    source: declared
   - &id154
     acquired: null
     agent_band: agent-aware
@@ -1739,6 +1892,7 @@ member_bands:
     score_band: developing
     score_composite: 49.8
     slug: amazon-mechanical-turk
+    source: declared
   - &id155
     acquired: null
     agent_band: agent-aware
@@ -1750,6 +1904,7 @@ member_bands:
     score_band: developing
     score_composite: 49.8
     slug: amazon-route53-resolver
+    source: declared
   - &id156
     acquired: null
     agent_band: agent-ready
@@ -1761,6 +1916,7 @@ member_bands:
     score_band: developing
     score_composite: 49.8
     slug: amazon-simspace-weaver
+    source: declared
   - &id157
     acquired: null
     agent_band: agent-aware
@@ -1772,6 +1928,7 @@ member_bands:
     score_band: developing
     score_composite: 49.7
     slug: amazon-swf
+    source: declared
   - &id158
     acquired: null
     agent_band: agent-aware
@@ -1783,6 +1940,7 @@ member_bands:
     score_band: developing
     score_composite: 49.6
     slug: amazon-managed-apache-flink
+    source: declared
   - &id159
     acquired: null
     agent_band: agent-aware
@@ -1794,6 +1952,7 @@ member_bands:
     score_band: developing
     score_composite: 49.5
     slug: amazon-s3-glacier
+    source: declared
   - &id160
     acquired: null
     agent_band: agent-ready
@@ -1805,7 +1964,20 @@ member_bands:
     score_band: developing
     score_composite: 49.2
     slug: amazon-panorama
+    source: declared
   - &id161
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.8
+    api_count: 1
+    immediate_parent: aws
+    name: AWS X-Ray
+    relationship: product
+    score_band: developing
+    score_composite: 49.1
+    slug: aws-x-ray
+    source: declared
+  - &id162
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
@@ -1816,7 +1988,8 @@ member_bands:
     score_band: developing
     score_composite: 48.9
     slug: aws-redshift
-  - &id162
+    source: declared
+  - &id163
     acquired: null
     agent_band: agent-aware
     agent_score: 20.1
@@ -1827,7 +2000,8 @@ member_bands:
     score_band: developing
     score_composite: 48.5
     slug: amazon-app-runner
-  - &id163
+    source: declared
+  - &id164
     acquired: null
     agent_band: agent-ready
     agent_score: 32.4
@@ -1838,7 +2012,8 @@ member_bands:
     score_band: developing
     score_composite: 48.4
     slug: aws-s3
-  - &id164
+    source: declared
+  - &id165
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -1849,7 +2024,8 @@ member_bands:
     score_band: developing
     score_composite: 48.4
     slug: aws-step-functions
-  - &id165
+    source: declared
+  - &id166
     acquired: null
     agent_band: agent-aware
     agent_score: 21.4
@@ -1860,7 +2036,8 @@ member_bands:
     score_band: developing
     score_composite: 48.3
     slug: amazon-b2b-data-interchange
-  - &id166
+    source: declared
+  - &id167
     acquired: null
     agent_band: agent-aware
     agent_score: 21.0
@@ -1871,7 +2048,8 @@ member_bands:
     score_band: developing
     score_composite: 48.2
     slug: amazon-device-farm
-  - &id167
+    source: declared
+  - &id168
     acquired: null
     agent_band: agent-aware
     agent_score: 22.3
@@ -1882,7 +2060,8 @@ member_bands:
     score_band: developing
     score_composite: 48.2
     slug: amazon-eks
-  - &id168
+    source: declared
+  - &id169
     acquired: null
     agent_band: agent-ready
     agent_score: 32.3
@@ -1893,17 +2072,7 @@ member_bands:
     score_band: developing
     score_composite: 48.2
     slug: amazon-signer
-  - &id169
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 19.8
-    api_count: 1
-    immediate_parent: aws
-    name: AWS X-Ray
-    relationship: product
-    score_band: developing
-    score_composite: 48.2
-    slug: aws-x-ray
+    source: declared
   - &id170
     acquired: null
     agent_band: agent-aware
@@ -1915,6 +2084,7 @@ member_bands:
     score_band: developing
     score_composite: 48.1
     slug: amazon-braket
+    source: declared
   - &id171
     acquired: null
     agent_band: agent-aware
@@ -1926,6 +2096,7 @@ member_bands:
     score_band: developing
     score_composite: 48.1
     slug: amazon-dms
+    source: declared
   - &id172
     acquired: null
     agent_band: agent-aware
@@ -1937,6 +2108,7 @@ member_bands:
     score_band: developing
     score_composite: 47.9
     slug: amazon-comprehend
+    source: declared
   - &id173
     acquired: null
     agent_band: agent-aware
@@ -1948,6 +2120,7 @@ member_bands:
     score_band: developing
     score_composite: 47.8
     slug: amazon-deadline-cloud
+    source: declared
   - &id174
     acquired: null
     agent_band: agent-ready
@@ -1959,6 +2132,7 @@ member_bands:
     score_band: developing
     score_composite: 47.8
     slug: amazon-finspace
+    source: declared
   - &id175
     acquired: null
     agent_band: agent-aware
@@ -1970,6 +2144,7 @@ member_bands:
     score_band: developing
     score_composite: 47.8
     slug: amazon-launch-wizard
+    source: declared
   - &id176
     acquired: null
     agent_band: agent-aware
@@ -1981,6 +2156,7 @@ member_bands:
     score_band: developing
     score_composite: 47.7
     slug: amazon-lookout-for-metrics
+    source: declared
   - &id177
     acquired: null
     agent_band: agent-ready
@@ -1992,6 +2168,7 @@ member_bands:
     score_band: developing
     score_composite: 47.6
     slug: amazon-codecatalyst
+    source: declared
   - &id178
     acquired: null
     agent_band: agent-ready
@@ -2003,6 +2180,7 @@ member_bands:
     score_band: developing
     score_composite: 47.6
     slug: amazon-detective
+    source: declared
   - &id179
     acquired: null
     agent_band: agent-ready
@@ -2014,6 +2192,7 @@ member_bands:
     score_band: developing
     score_composite: 47.6
     slug: amazon-fargate
+    source: declared
   - &id180
     acquired: null
     agent_band: agent-ready
@@ -2025,6 +2204,7 @@ member_bands:
     score_band: developing
     score_composite: 47.5
     slug: amazon-mq
+    source: declared
   - &id181
     acquired: null
     agent_band: agent-aware
@@ -2036,6 +2216,7 @@ member_bands:
     score_band: developing
     score_composite: 47.2
     slug: amazon-lookout-for-vision
+    source: declared
   - &id182
     acquired: null
     agent_band: agent-aware
@@ -2047,6 +2228,7 @@ member_bands:
     score_band: developing
     score_composite: 47.2
     slug: amazon-systems-manager
+    source: declared
   - &id183
     acquired: null
     agent_band: agent-aware
@@ -2058,6 +2240,7 @@ member_bands:
     score_band: developing
     score_composite: 46.9
     slug: amazon-directory-service
+    source: declared
   - &id184
     acquired: null
     agent_band: agent-aware
@@ -2069,6 +2252,7 @@ member_bands:
     score_band: developing
     score_composite: 46.8
     slug: amazon-resource-explorer
+    source: declared
   - &id185
     acquired: null
     agent_band: agent-ready
@@ -2080,6 +2264,7 @@ member_bands:
     score_band: developing
     score_composite: 46.3
     slug: amazon-appflow
+    source: declared
   - &id186
     acquired: null
     agent_band: agent-aware
@@ -2091,6 +2276,7 @@ member_bands:
     score_band: developing
     score_composite: 46.3
     slug: amazon-trusted-advisor
+    source: declared
   - &id187
     acquired: null
     agent_band: agent-aware
@@ -2102,6 +2288,7 @@ member_bands:
     score_band: developing
     score_composite: 46.1
     slug: amazon-timestream
+    source: declared
   - &id188
     acquired: null
     agent_band: agent-ready
@@ -2113,6 +2300,7 @@ member_bands:
     score_band: developing
     score_composite: 46.0
     slug: amazon-qldb
+    source: declared
   - &id189
     acquired: null
     agent_band: agent-ready
@@ -2124,6 +2312,7 @@ member_bands:
     score_band: developing
     score_composite: 45.9
     slug: amazon-fault-injection-simulator
+    source: declared
   - &id190
     acquired: null
     agent_band: agent-ready
@@ -2135,6 +2324,7 @@ member_bands:
     score_band: developing
     score_composite: 45.8
     slug: amazon-codeguru-reviewer
+    source: declared
   - &id191
     acquired: null
     agent_band: agent-ready
@@ -2146,7 +2336,20 @@ member_bands:
     score_band: developing
     score_composite: 45.5
     slug: amazon-robomaker
+    source: declared
   - &id192
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 28.1
+    api_count: 2
+    immediate_parent: aws
+    name: Amazon Cloud9
+    relationship: product
+    score_band: developing
+    score_composite: 45.4
+    slug: amazon-cloud9
+    source: declared
+  - &id193
     acquired: null
     agent_band: agent-aware
     agent_score: 23.3
@@ -2157,7 +2360,8 @@ member_bands:
     score_band: developing
     score_composite: 45.2
     slug: amazon-app-studio
-  - &id193
+    source: declared
+  - &id194
     acquired: null
     agent_band: agent-aware
     agent_score: 17.3
@@ -2168,7 +2372,8 @@ member_bands:
     score_band: developing
     score_composite: 44.9
     slug: amazon-transfer-family
-  - &id194
+    source: declared
+  - &id195
     acquired: null
     agent_band: agent-aware
     agent_score: 17.3
@@ -2179,7 +2384,8 @@ member_bands:
     score_band: developing
     score_composite: 44.9
     slug: amazon-verified-access
-  - &id195
+    source: declared
+  - &id196
     acquired: null
     agent_band: agent-ready
     agent_score: 29.5
@@ -2190,17 +2396,7 @@ member_bands:
     score_band: developing
     score_composite: 44.4
     slug: amazon-app-mesh
-  - &id196
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 28.1
-    api_count: 2
-    immediate_parent: aws
-    name: Amazon Cloud9
-    relationship: product
-    score_band: developing
-    score_composite: 44.4
-    slug: amazon-cloud9
+    source: declared
   - &id197
     acquired: null
     agent_band: agent-aware
@@ -2212,6 +2408,7 @@ member_bands:
     score_band: developing
     score_composite: 44.3
     slug: amazon-codestar
+    source: declared
   - &id198
     acquired: null
     agent_band: agent-aware
@@ -2223,6 +2420,7 @@ member_bands:
     score_band: developing
     score_composite: 43.9
     slug: amazon-serverless-application-repository
+    source: declared
   - &id199
     acquired: null
     agent_band: agent-aware
@@ -2234,6 +2432,7 @@ member_bands:
     score_band: developing
     score_composite: 43.9
     slug: kinesis
+    source: declared
   - &id200
     acquired: null
     agent_band: agent-aware
@@ -2245,6 +2444,7 @@ member_bands:
     score_band: developing
     score_composite: 43.8
     slug: amazon-billing-and-cost-management
+    source: declared
   - &id201
     acquired: null
     agent_band: agent-ready
@@ -2256,6 +2456,7 @@ member_bands:
     score_band: developing
     score_composite: 43.8
     slug: amazon-control-tower
+    source: declared
   - &id202
     acquired: null
     agent_band: agent-aware
@@ -2267,6 +2468,7 @@ member_bands:
     score_band: developing
     score_composite: 43.7
     slug: amazon-textract
+    source: declared
   - &id203
     acquired: null
     agent_band: agent-aware
@@ -2278,6 +2480,7 @@ member_bands:
     score_band: developing
     score_composite: 43.6
     slug: amazon-memorydb
+    source: declared
   - &id204
     acquired: null
     agent_band: agent-ready
@@ -2289,6 +2492,7 @@ member_bands:
     score_band: developing
     score_composite: 43.0
     slug: amazon-codeguru-security
+    source: declared
   - &id205
     acquired: null
     agent_band: agent-aware
@@ -2300,6 +2504,7 @@ member_bands:
     score_band: developing
     score_composite: 43.0
     slug: amazon-parallel-computing-service
+    source: declared
   - &id206
     acquired: null
     agent_band: agent-aware
@@ -2311,6 +2516,7 @@ member_bands:
     score_band: developing
     score_composite: 43.0
     slug: amazon-verified-permissions
+    source: declared
   - &id207
     acquired: null
     agent_band: agent-aware
@@ -2322,6 +2528,7 @@ member_bands:
     score_band: developing
     score_composite: 43.0
     slug: amazon-vpc-lattice
+    source: declared
   - &id208
     acquired: null
     agent_band: agent-aware
@@ -2333,6 +2540,7 @@ member_bands:
     score_band: developing
     score_composite: 42.6
     slug: amazon-privatelink
+    source: declared
   - &id209
     acquired: null
     agent_band: agent-ready
@@ -2344,6 +2552,7 @@ member_bands:
     score_band: developing
     score_composite: 42.2
     slug: amazon-monitron
+    source: declared
   - &id210
     acquired: null
     agent_band: agent-aware
@@ -2355,6 +2564,7 @@ member_bands:
     score_band: developing
     score_composite: 41.6
     slug: amazon-cloud-wan
+    source: declared
   - &id211
     acquired: null
     agent_band: agent-aware
@@ -2366,6 +2576,7 @@ member_bands:
     score_band: developing
     score_composite: 41.3
     slug: amazon-cloud-map
+    source: declared
   - &id212
     acquired: null
     agent_band: human-only
@@ -2377,6 +2588,7 @@ member_bands:
     score_band: developing
     score_composite: 41.1
     slug: amazon-cloudhsm
+    source: declared
   - &id213
     acquired: null
     agent_band: agent-ready
@@ -2388,6 +2600,7 @@ member_bands:
     score_band: developing
     score_composite: 40.4
     slug: amazon-service-catalog
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -2405,6 +2618,7 @@ member_bands:
     score_band: thin
     score_composite: 38.2
     slug: aws-glue
+    source: declared
   - &id215
     acquired: null
     agent_band: agent-ready
@@ -2416,6 +2630,7 @@ member_bands:
     score_band: thin
     score_composite: 38.1
     slug: amazon-athena
+    source: declared
   - &id216
     acquired: null
     agent_band: agent-aware
@@ -2427,6 +2642,7 @@ member_bands:
     score_band: thin
     score_composite: 37.7
     slug: aws-codebuild
+    source: declared
   - &id217
     acquired: null
     agent_band: agent-ready
@@ -2438,6 +2654,7 @@ member_bands:
     score_band: thin
     score_composite: 37.5
     slug: amazon-supply-chain
+    source: declared
   - &id218
     acquired: null
     agent_band: human-only
@@ -2449,6 +2666,7 @@ member_bands:
     score_band: thin
     score_composite: 36.4
     slug: amazon-cloudshell
+    source: declared
   - &id219
     acquired: null
     agent_band: agent-ready
@@ -2460,6 +2678,7 @@ member_bands:
     score_band: thin
     score_composite: 33.8
     slug: amazon-resilience-hub
+    source: declared
   - &id220
     acquired: null
     agent_band: agent-aware
@@ -2471,6 +2690,7 @@ member_bands:
     score_band: thin
     score_composite: 31.9
     slug: amazon-audit-manager
+    source: declared
   - &id221
     acquired: null
     agent_band: agent-ready
@@ -2482,6 +2702,7 @@ member_bands:
     score_band: thin
     score_composite: 31.8
     slug: amazon-appsync
+    source: declared
   - &id222
     acquired: null
     agent_band: agent-ready
@@ -2493,6 +2714,7 @@ member_bands:
     score_band: thin
     score_composite: 31.5
     slug: amazon-aurora
+    source: declared
   - &id223
     acquired: null
     agent_band: agent-ready
@@ -2504,6 +2726,7 @@ member_bands:
     score_band: thin
     score_composite: 31.5
     slug: amazon-aurora-dsql
+    source: declared
   - &id224
     acquired: null
     agent_band: agent-aware
@@ -2515,6 +2738,7 @@ member_bands:
     score_band: thin
     score_composite: 31.5
     slug: aws-waf
+    source: declared
   - &id225
     acquired: null
     agent_band: agent-aware
@@ -2526,6 +2750,7 @@ member_bands:
     score_band: thin
     score_composite: 30.8
     slug: aws-elastic-beanstalk
+    source: declared
   - &id226
     acquired: null
     agent_band: agent-aware
@@ -2537,6 +2762,7 @@ member_bands:
     score_band: thin
     score_composite: 30.4
     slug: amazon-augmented-ai
+    source: declared
   - &id227
     acquired: null
     agent_band: agent-aware
@@ -2548,6 +2774,7 @@ member_bands:
     score_band: thin
     score_composite: 30.2
     slug: aws-backup
+    source: declared
   - &id228
     acquired: null
     agent_band: agent-aware
@@ -2559,6 +2786,7 @@ member_bands:
     score_band: thin
     score_composite: 29.9
     slug: aws-marketplace
+    source: declared
   - &id229
     acquired: null
     agent_band: agent-aware
@@ -2570,6 +2798,7 @@ member_bands:
     score_band: thin
     score_composite: 29.5
     slug: amazon-application-migration-service
+    source: declared
   - &id230
     acquired: null
     agent_band: agent-aware
@@ -2581,6 +2810,7 @@ member_bands:
     score_band: thin
     score_composite: 29.2
     slug: aws-security-hub
+    source: declared
   - &id231
     acquired: null
     agent_band: agent-aware
@@ -2592,6 +2822,7 @@ member_bands:
     score_band: thin
     score_composite: 28.6
     slug: aws-batch
+    source: declared
   label: Thin
   open: false
 - band: emerging
@@ -2609,6 +2840,7 @@ member_bands:
     score_band: emerging
     score_composite: 24.9
     slug: aws-cli
+    source: declared
   - &id233
     acquired: null
     agent_band: agent-aware
@@ -2620,6 +2852,7 @@ member_bands:
     score_band: emerging
     score_composite: 21.0
     slug: amazon-application-discovery-service
+    source: declared
   - &id234
     acquired: null
     agent_band: agent-aware
@@ -2631,6 +2864,7 @@ member_bands:
     score_band: emerging
     score_composite: 17.4
     slug: amazon-web-services
+    source: declared
   label: Emerging
   open: false
 - band: minimal
@@ -2648,6 +2882,7 @@ member_bands:
     score_band: minimal
     score_composite: 8.8
     slug: elemental
+    source: declared
   label: Minimal
   open: false
 member_on_network: 235
@@ -2896,7 +3131,7 @@ overview: 'Amazon Web Services (AWS) publishes its API surface across 235 provid
 
 
   Its highest-rated surfaces are Amazon Pinpoint, Amazon SES, Amazon VPN, Amazon CodeGuru Profiler, Amazon
-  API Gateway.'
+  FreeRTOS.'
 parent_provider: aws
 permalink: /estates/aws/
 slug: aws

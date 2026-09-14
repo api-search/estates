@@ -1,28 +1,28 @@
 ---
-api_total: 21
+api_total: 22
 category: Estates
 description: Atlassian is a software company that develops collaboration, productivity, and project management
   tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline
   workflows, and support project tracking across a wide range of industries.
 estate_rating:
-  agent_avg: 25.8
-  agent_band: thin
+  agent_avg: 23.1
+  agent_band: emerging
   agent_native: 0
-  agent_raw: 35.2
+  agent_raw: 29.2
   agent_ready: 5
   band: thin
   best: 70.2
-  composite_avg: 41.4
-  composite_band: developing
-  composite_raw: 53.5
+  composite_avg: 38.9
+  composite_band: thin
+  composite_raw: 47.2
   developing: 3
-  exemplar: 1
-  rating: 35.2
-  scored: 8
-  spread: 35.7
-  strength: 12
-  strong: 3
-  worst: 34.5
+  exemplar: 3
+  rating: 32.6
+  scored: 10
+  spread: 65.2
+  strength: 14
+  strong: 1
+  worst: 5.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atlassian.png
@@ -31,7 +31,7 @@ layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 1
+  count: 3
   items:
   - &id001
     acquired: null
@@ -44,24 +44,38 @@ member_bands:
     score_band: exemplar
     score_composite: 70.2
     slug: atlassian-compass
-  label: Exemplar
-  open: true
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 3
-  items:
+    source: declared
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 47.8
+    agent_score: 54.9
+    api_count: 1
+    immediate_parent: atlassian
+    name: Jira
+    relationship: product
+    score_band: exemplar
+    score_composite: 68.9
+    slug: jira
+    source: declared
+  - &id003
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 51.6
     api_count: 1
     immediate_parent: atlassian
     name: Confluence
     relationship: product
-    score_band: strong
-    score_composite: 62.1
+    score_band: exemplar
+    score_composite: 67.8
     slug: confluence
-  - &id003
+    source: declared
+  label: Exemplar
+  open: true
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 1
+  items:
+  - &id004
     acquired: null
     agent_band: agent-ready
     agent_score: 34.2
@@ -72,17 +86,7 @@ member_bands:
     score_band: strong
     score_composite: 60.4
     slug: bitbucket
-  - &id004
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 50.7
-    api_count: 1
-    immediate_parent: atlassian
-    name: Jira
-    relationship: product
-    score_band: strong
-    score_composite: 56.3
-    slug: jira
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -100,6 +104,7 @@ member_bands:
     score_band: developing
     score_composite: 51.3
     slug: hipchat
+    source: declared
   - &id006
     acquired: null
     agent_band: agent-aware
@@ -111,6 +116,7 @@ member_bands:
     score_band: developing
     score_composite: 48.3
     slug: opsgenie
+    source: declared
   - &id007
     acquired: null
     agent_band: agent-ready
@@ -122,6 +128,7 @@ member_bands:
     score_band: developing
     score_composite: 45.0
     slug: bitbucket-pipelines
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -139,10 +146,47 @@ member_bands:
     score_band: thin
     score_composite: 34.5
     slug: statuspage
+    source: declared
   label: Thin
   open: false
-member_on_network: 8
-member_total: 8
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 1
+  items:
+  - &id009
+    acquired: null
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 1
+    immediate_parent: atlassian
+    name: Optic
+    relationship: product
+    score_band: emerging
+    score_composite: 21.1
+    slug: optic
+    source: prose
+  label: Emerging
+  open: false
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 1
+  items:
+  - &id010
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: atlassian
+    name: Wikidocs
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: wikidocs
+    source: prose
+  label: Minimal
+  open: false
+member_on_network: 10
+member_total: 10
 members:
 - *id001
 - *id002
@@ -152,13 +196,15 @@ members:
 - *id006
 - *id007
 - *id008
+- *id009
+- *id010
 members_unrated: []
 name: Atlassian
-overview: 'Atlassian publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 35.7 points, from 70.2 down to 34.5.
+overview: 'Atlassian publishes its API surface across 10 provider profiles indexed on the APIs.io network,
+  of which 10 carry a rating. The rated members span 65.2 points, from 70.2 down to 5.0.
 
 
-  Its highest-rated surfaces are Atlassian Compass, Confluence, Bitbucket, Jira, HipChat.'
+  Its highest-rated surfaces are Atlassian Compass, Jira, Confluence, Bitbucket, HipChat.'
 parent_provider: atlassian
 permalink: /estates/atlassian/
 slug: atlassian

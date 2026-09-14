@@ -4,19 +4,19 @@ category: Estates
 description: APIs for Xbox gaming platform including Xbox Live Services and Azure PlayFab backend for
   games.
 estate_rating:
-  agent_avg: 17.3
+  agent_avg: 17.4
   agent_band: emerging
   agent_native: 1
   agent_raw: 22.8
   agent_ready: 1
   band: emerging
   best: 48.6
-  composite_avg: 26.2
+  composite_avg: 26.4
   composite_band: thin
-  composite_raw: 29.7
+  composite_raw: 29.9
   developing: 2
   exemplar: 0
-  rating: 22.6
+  rating: 22.8
   scored: 6
   spread: 41.0
   strength: 2
@@ -43,6 +43,7 @@ member_bands:
     score_band: developing
     score_composite: 48.6
     slug: playfab
+    source: declared
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -52,8 +53,9 @@ member_bands:
     name: Blizzard Entertainment
     relationship: product
     score_band: developing
-    score_composite: 46.7
+    score_composite: 47.4
     slug: blizzard-entertainment
+    source: declared
   label: Developing
   open: false
 - band: thin
@@ -71,6 +73,7 @@ member_bands:
     score_band: thin
     score_composite: 27.0
     slug: battle-net
+    source: declared
   - &id004
     acquired: null
     agent_band: agent-aware
@@ -82,6 +85,7 @@ member_bands:
     score_band: thin
     score_composite: 26.9
     slug: mojang
+    source: declared
   label: Thin
   open: false
 - band: emerging
@@ -97,8 +101,9 @@ member_bands:
     name: Activision Blizzard
     relationship: product
     score_band: emerging
-    score_composite: 21.1
+    score_composite: 21.8
     slug: activision-blizzard
+    source: declared
   label: Emerging
   open: false
 - band: minimal
@@ -116,6 +121,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.6
     slug: halo
+    source: declared
   label: Minimal
   open: false
 member_on_network: 6

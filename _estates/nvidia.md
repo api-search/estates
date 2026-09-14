@@ -6,10 +6,10 @@ description: Nvidia is a Fortune 500 company that provides developer APIs and in
   and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU
   services.
 estate_rating:
-  agent_avg: 6.1
+  agent_avg: 6.7
   agent_band: minimal
   agent_native: 0
-  agent_raw: 3.5
+  agent_raw: 4.4
   agent_ready: 0
   band: emerging
   best: 41.7
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 10.8
   developing: 1
   exemplar: 0
-  rating: 11.3
+  rating: 11.6
   scored: 9
   spread: 36.7
   strength: 1
@@ -45,6 +45,7 @@ member_bands:
     score_band: developing
     score_composite: 41.7
     slug: runai
+    source: declared
   label: Developing
   open: false
 - band: emerging
@@ -62,6 +63,7 @@ member_bands:
     score_band: emerging
     score_composite: 14.1
     slug: lepton-ai
+    source: declared
   label: Emerging
   open: false
 - band: minimal
@@ -70,8 +72,8 @@ member_bands:
   items:
   - &id003
     acquired: null
-    agent_band: human-only
-    agent_score: 0.0
+    agent_band: agent-aware
+    agent_score: 8.6
     api_count: 0
     immediate_parent: nvidia
     name: Cumulus Networks
@@ -79,6 +81,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.2
     slug: cumulus-networks
+    source: declared
   - &id004
     acquired: 2022
     agent_band: human-only
@@ -90,6 +93,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.9
     slug: excelero-storage
+    source: declared
   - &id005
     acquired: 2024
     agent_band: human-only
@@ -101,6 +105,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.8
     slug: deci-ai
+    source: declared
   - &id006
     acquired: 2024
     agent_band: human-only
@@ -112,6 +117,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.3
     slug: augtera-networks
+    source: declared
   - &id007
     acquired: 2021
     agent_band: human-only
@@ -123,6 +129,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: deepmap
+    source: declared
   - &id008
     acquired: 2011
     agent_band: human-only
@@ -134,6 +141,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: icerasemi
+    source: declared
   - &id009
     acquired: null
     agent_band: human-only
@@ -145,6 +153,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: swiftstack
+    source: declared
   label: Minimal
   open: false
 - band: unrated
@@ -162,6 +171,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: shoreline
+    source: declared
   label: Unrated
   open: false
 member_on_network: 10

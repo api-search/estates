@@ -11,16 +11,16 @@ estate_rating:
   agent_ready: 2
   band: thin
   best: 77.9
-  composite_avg: 36.7
+  composite_avg: 37.1
   composite_band: thin
-  composite_raw: 55.0
-  developing: 1
+  composite_raw: 55.9
+  developing: 0
   exemplar: 1
-  rating: 30.5
+  rating: 30.7
   scored: 4
   spread: 46.0
-  strength: 6
-  strong: 1
+  strength: 7
+  strong: 2
   worst: 31.9
 estate_root: microsoft
 estate_root_name: Microsoft
@@ -43,11 +43,12 @@ member_bands:
     score_band: exemplar
     score_composite: 77.9
     slug: azure-ad
+    source: declared
   label: Exemplar
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 1
+  count: 2
   items:
   - &id002
     acquired: null
@@ -58,14 +59,9 @@ member_bands:
     name: Microsoft Azure Active Directory
     relationship: product
     score_band: strong
-    score_composite: 56.6
+    score_composite: 57.3
     slug: microsoft-azure-active-directory
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 1
-  items:
+    source: declared
   - &id003
     acquired: null
     agent_band: agent-aware
@@ -74,11 +70,12 @@ member_bands:
     immediate_parent: microsoft-entra
     name: Microsoft Active Directory
     relationship: product
-    score_band: developing
-    score_composite: 53.6
+    score_band: strong
+    score_composite: 56.5
     slug: active-directory
-  label: Developing
-  open: false
+    source: declared
+  label: Strong
+  open: true
 - band: thin
   blurb: Limited public surface area
   count: 1
@@ -94,6 +91,7 @@ member_bands:
     score_band: thin
     score_composite: 31.9
     slug: microsoft-intune
+    source: declared
   label: Thin
   open: false
 member_on_network: 4

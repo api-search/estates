@@ -46,6 +46,7 @@ member_bands:
     score_band: developing
     score_composite: 49.4
     slug: nasa-firms
+    source: declared
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -57,6 +58,7 @@ member_bands:
     score_band: developing
     score_composite: 48.1
     slug: nasa-neows
+    source: declared
   - &id003
     acquired: null
     agent_band: agent-ready
@@ -68,6 +70,7 @@ member_bands:
     score_band: developing
     score_composite: 44.7
     slug: nasa-apod
+    source: declared
   - &id004
     acquired: null
     agent_band: agent-aware
@@ -79,6 +82,7 @@ member_bands:
     score_band: developing
     score_composite: 43.7
     slug: nasa-cmr
+    source: declared
   - &id005
     acquired: null
     agent_band: agent-ready
@@ -90,6 +94,7 @@ member_bands:
     score_band: developing
     score_composite: 42.8
     slug: nasa-mars
+    source: declared
   label: Developing
   open: false
 member_on_network: 5

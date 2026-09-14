@@ -48,6 +48,7 @@ member_bands:
     score_band: minimal
     score_composite: 8.1
     slug: us-autocomplete
+    source: declared
   - &id002
     acquired: null
     agent_band: human-only
@@ -59,6 +60,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.6
     slug: us-extract
+    source: declared
   - &id003
     acquired: null
     agent_band: human-only
@@ -70,6 +72,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.6
     slug: us-street-address
+    source: declared
   - &id004
     acquired: null
     agent_band: human-only
@@ -81,6 +84,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.6
     slug: us-zipcode
+    source: declared
   label: Minimal
   open: false
 member_on_network: 4
