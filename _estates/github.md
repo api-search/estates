@@ -4,23 +4,23 @@ category: Estates
 description: The GitHub REST API allows developers to programmatically interact with GitHub resources
   including repositories, users, organizations, pull requests, issues, and more.
 estate_rating:
-  agent_avg: 17.5
+  agent_avg: 18.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.2
+  agent_raw: 22.5
   agent_ready: 2
   band: thin
-  best: 64.1
-  composite_avg: 32.6
+  best: 79.8
+  composite_avg: 34.1
   composite_band: thin
-  composite_raw: 38.5
+  composite_raw: 40.6
   developing: 2
-  exemplar: 0
-  rating: 26.6
+  exemplar: 1
+  rating: 27.8
   scored: 9
-  spread: 57.2
-  strength: 6
-  strong: 2
+  spread: 72.9
+  strength: 7
+  strong: 1
   worst: 6.9
 estate_root: microsoft
 estate_root_name: Microsoft
@@ -28,11 +28,29 @@ image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 is_subfamily: true
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 2
+- band: exemplar
+  blurb: Complete, well-documented, and agent-ready
+  count: 1
   items:
   - &id001
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 50.0
+    api_count: 1
+    immediate_parent: github
+    name: GitHub Actions
+    relationship: product
+    score_band: exemplar
+    score_composite: 79.8
+    slug: github-actions
+    source: declared
+  label: Exemplar
+  open: true
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 1
+  items:
+  - &id002
     acquired: null
     agent_band: agent-ready
     agent_score: 38.5
@@ -43,18 +61,6 @@ member_bands:
     score_band: strong
     score_composite: 64.1
     slug: github-copilot
-    source: declared
-  - &id002
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 38.1
-    api_count: 1
-    immediate_parent: github
-    name: GitHub Actions
-    relationship: product
-    score_band: strong
-    score_composite: 61.2
-    slug: github-actions
     source: declared
   label: Strong
   open: true
@@ -71,7 +77,7 @@ member_bands:
     name: NuGet
     relationship: product
     score_band: developing
-    score_composite: 49.7
+    score_composite: 49.8
     slug: nuget
     source: declared
   - &id004
@@ -213,10 +219,10 @@ members:
 members_unrated: []
 name: GitHub
 overview: 'GitHub publishes its API surface across 11 provider profiles indexed on the APIs.io network,
-  of which 11 carry a rating. The rated members span 57.2 points, from 64.1 down to 6.9.
+  of which 11 carry a rating. The rated members span 72.9 points, from 79.8 down to 6.9.
 
 
-  Its highest-rated surfaces are GitHub Copilot, GitHub Actions, NuGet, npm, GitHub Container Registry.'
+  Its highest-rated surfaces are GitHub Actions, GitHub Copilot, NuGet, npm, GitHub Container Registry.'
 parent_provider: github
 permalink: /estates/github/
 slug: github
@@ -232,5 +238,6 @@ tags:
 - Software Development
 - Source Control
 - T1
+- GitHub
 title: GitHub
 ---

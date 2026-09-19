@@ -1,5 +1,5 @@
 ---
-api_total: 4
+api_total: 6
 category: Estates
 description: CyberArk is the global leader in identity security, providing a unified Identity Security
   Platform that protects human, machine, and application identities across hybrid and multi-cloud environments.
@@ -12,21 +12,21 @@ description: CyberArk is the global leader in identity security, providing a uni
   for PAM Self-Hosted, Privilege Cloud, and CyberArk Identity are documented on docs.cyberark.com and
   developer.cyberark.com.
 estate_rating:
-  agent_avg: 16.3
+  agent_avg: 16.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 25.2
   agent_ready: 1
   band: emerging
-  best: 42.3
+  best: 40.7
   composite_avg: 26.2
   composite_band: thin
-  composite_raw: 32.9
+  composite_raw: 32.4
   developing: 1
   exemplar: 0
-  rating: 22.2
+  rating: 22.3
   scored: 3
-  spread: 16.2
+  spread: 14.6
   strength: 1
   strong: 0
   worst: 26.1
@@ -44,12 +44,12 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 33.2
-    api_count: 2
+    api_count: 4
     immediate_parent: cyberark
     name: Venafi
     relationship: product
     score_band: developing
-    score_composite: 42.3
+    score_composite: 40.7
     slug: venafi
     source: prose
   label: Developing
@@ -99,7 +99,7 @@ members:
 members_unrated: []
 name: CyberArk
 overview: 'CyberArk publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 16.2 points, from 42.3 down to 26.1.
+  of which 3 carry a rating. The rated members span 14.6 points, from 40.7 down to 26.1.
 
 
   Its highest-rated surfaces are Venafi, Conjur, CyberArk Identity.'

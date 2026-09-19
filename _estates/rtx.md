@@ -8,19 +8,19 @@ description: 'RTX Corporation is a leading American aerospace and defense compan
   software including SPARQL triple stores, NLP frameworks, and TAK ecosystem plugins for government and
   military situational awareness platforms.'
 estate_rating:
-  agent_avg: 10.4
+  agent_avg: 10.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.0
   agent_ready: 2
   band: emerging
   best: 38.1
-  composite_avg: 17.9
+  composite_avg: 18.1
   composite_band: emerging
   composite_raw: 14.5
   developing: 0
   exemplar: 0
-  rating: 14.9
+  rating: 15.1
   scored: 6
   spread: 34.7
   strength: 0

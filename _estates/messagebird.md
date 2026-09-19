@@ -1,21 +1,30 @@
 ---
 api_total: 3
 category: Estates
-description: Build powerful apps using the fastest and most reliable cloud communications APIs.
+description: 'MessageBird, which trades as Bird, is a Dutch cloud communications company whose platform
+  carries email, SMS, WhatsApp, RCS, push, voice and eSIM traffic for businesses in over 200 countries.
+  Bird publishes a first-party OpenAPI 3.1 description of 277 operations at bird.com/openapi.json and
+  generates its TypeScript, Python, Go and PHP SDKs from it. The platform is unusually agent-native: a
+  hosted MCP server at mcp.bird.com behind credential-less OAuth, a bird CLI with JSON output and semantic
+  exit codes, published agent skills shipped as an Agent Plugins marketplace plugin, an RFC 9727 api-catalog,
+  an Agentic Resource Discovery document, an llms.txt, and a Markdown twin of every documentation page.
+  One auth model, one opt-in Idempotency-Key contract, IETF RateLimit headers and one stable error envelope
+  span every channel. The legacy MessageBird REST API at rest.messagebird.com is still served alongside
+  it.'
 estate_rating:
-  agent_avg: 12.6
+  agent_avg: 12.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.4
   agent_ready: 0
   band: emerging
   best: 50.1
-  composite_avg: 26.3
+  composite_avg: 26.5
   composite_band: thin
   composite_raw: 33.3
   developing: 2
   exemplar: 0
-  rating: 20.8
+  rating: 21.0
   scored: 3
   spread: 40.4
   strength: 2
@@ -107,6 +116,16 @@ subfamilies:
   permalink: /estates/pusher/
   slug: pusher
 subfamily_page_count: 0
-tags: []
+tags:
+- Communications
+- Messaging
+- SMS
+- Email
+- WhatsApp
+- Voice
+- Verification
+- CPaaS
+- Webhook
+- Agents
 title: Messagebird
 ---

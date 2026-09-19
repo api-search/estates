@@ -1,25 +1,25 @@
 ---
-api_total: 16
+api_total: 15
 category: Estates
 description: Collection of Workday REST and SOAP APIs for human capital management, financial management,
   enterprise planning, analytics, and platform extensibility.
 estate_rating:
-  agent_avg: 16.3
+  agent_avg: 16.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 20.2
+  agent_raw: 20.1
   agent_ready: 1
   band: emerging
-  best: 48.5
-  composite_avg: 29.4
+  best: 48.4
+  composite_avg: 28.9
   composite_band: thin
-  composite_raw: 34.5
-  developing: 4
+  composite_raw: 34.4
+  developing: 3
   exemplar: 0
-  rating: 24.2
-  scored: 7
-  spread: 43.5
-  strength: 4
+  rating: 23.7
+  scored: 6
+  spread: 43.4
+  strength: 3
   strong: 0
   worst: 5.0
 estate_root: null
@@ -30,7 +30,7 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 4
+  count: 3
   items:
   - &id001
     acquired: null
@@ -41,10 +41,22 @@ member_bands:
     name: Flowise
     relationship: product
     score_band: developing
-    score_composite: 48.5
+    score_composite: 48.4
     slug: flowise
     source: prose
   - &id002
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 31.5
+    api_count: 11
+    immediate_parent: workday
+    name: Scout RFP (Workday Strategic Sourcing)
+    relationship: product
+    score_band: developing
+    score_composite: 45.8
+    slug: scoutrfp
+    source: prose
+  - &id003
     acquired: null
     agent_band: agent-aware
     agent_score: 23.2
@@ -56,36 +68,24 @@ member_bands:
     score_composite: 43.3
     slug: sana
     source: prose
-  - &id003
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 31.5
-    api_count: 11
-    immediate_parent: workday
-    name: Scout RFP (Workday Strategic Sourcing)
-    relationship: product
-    score_band: developing
-    score_composite: 42.6
-    slug: scoutrfp
-    source: prose
-  - &id004
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 21.0
-    api_count: 1
-    immediate_parent: workday
-    name: Scout RFP
-    relationship: product
-    score_band: developing
-    score_composite: 39.4
-    slug: scout-rfp
-    source: prose
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
   count: 2
   items:
+  - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 23.6
+    api_count: 1
+    immediate_parent: workday
+    name: Peakon
+    relationship: product
+    score_band: thin
+    score_composite: 32.1
+    slug: peakon
+    source: prose
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -98,25 +98,13 @@ member_bands:
     score_composite: 31.5
     slug: evisort
     source: prose
-  - &id006
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 23.6
-    api_count: 1
-    immediate_parent: workday
-    name: Peakon
-    relationship: product
-    score_band: thin
-    score_composite: 31.5
-    slug: peakon
-    source: prose
   label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
   count: 1
   items:
-  - &id007
+  - &id006
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -130,8 +118,8 @@ member_bands:
     source: prose
   label: Minimal
   open: false
-member_on_network: 7
-member_total: 7
+member_on_network: 6
+member_total: 6
 members:
 - *id001
 - *id002
@@ -139,14 +127,13 @@ members:
 - *id004
 - *id005
 - *id006
-- *id007
 members_unrated: []
 name: Workday
-overview: 'Workday publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 43.5 points, from 48.5 down to 5.0.
+overview: 'Workday publishes its API surface across 6 provider profiles indexed on the APIs.io network,
+  of which 6 carry a rating. The rated members span 43.4 points, from 48.4 down to 5.0.
 
 
-  Its highest-rated surfaces are Flowise, Sana, Scout RFP (Workday Strategic Sourcing), Scout RFP, Evisort.'
+  Its highest-rated surfaces are Flowise, Scout RFP (Workday Strategic Sourcing), Sana, Peakon, Evisort.'
 parent_provider: workday
 permalink: /estates/workday/
 slug: workday

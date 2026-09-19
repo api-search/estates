@@ -4,21 +4,21 @@ category: Estates
 description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data
   via a web-style interface.
 estate_rating:
-  agent_avg: 10.2
+  agent_avg: 10.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 9.7
   agent_ready: 1
   band: emerging
-  best: 60.8
-  composite_avg: 25.6
+  best: 61.0
+  composite_avg: 25.7
   composite_band: thin
-  composite_raw: 28.4
+  composite_raw: 28.5
   developing: 1
   exemplar: 0
-  rating: 19.4
+  rating: 19.5
   scored: 6
-  spread: 56.7
+  spread: 56.9
   strength: 3
   strong: 1
   worst: 4.1
@@ -41,7 +41,7 @@ member_bands:
     name: Splunk Observability Cloud
     relationship: product
     score_band: strong
-    score_composite: 60.8
+    score_composite: 61.0
     slug: splunk-observability
     source: declared
   label: Strong
@@ -136,7 +136,7 @@ members:
 members_unrated: []
 name: Splunk
 overview: 'Splunk publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 56.7 points, from 60.8 down to 4.1.
+  of which 6 carry a rating. The rated members span 56.9 points, from 61.0 down to 4.1.
 
 
   Its highest-rated surfaces are Splunk Observability Cloud, Splunk SOAR, SignalFx, Splunk On-Call (VictorOps),

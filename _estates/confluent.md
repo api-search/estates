@@ -1,28 +1,28 @@
 ---
-api_total: 2
+api_total: 3
 category: Estates
 description: Stream, connect, process, and govern your data with an all-in-one, real-time platform from
   the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible
   and usable data products with the market leading Data Streaming Platform.
 estate_rating:
-  agent_avg: 16.3
+  agent_avg: 18.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 25.3
+  agent_raw: 38.0
   agent_ready: 1
-  band: emerging
-  best: 72.9
-  composite_avg: 28.0
+  band: thin
+  best: 72.5
+  composite_avg: 31.3
   composite_band: thin
-  composite_raw: 37.7
+  composite_raw: 53.6
   developing: 0
   exemplar: 1
-  rating: 23.3
-  scored: 3
-  spread: 67.4
+  rating: 26.3
+  scored: 2
+  spread: 37.8
   strength: 3
   strong: 0
-  worst: 5.5
+  worst: 34.7
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confluent.png
@@ -37,12 +37,12 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 49.4
-    api_count: 1
+    api_count: 2
     immediate_parent: confluent
     name: Confluent | the Data Streaming Platform
     relationship: product
     score_band: exemplar
-    score_composite: 72.9
+    score_composite: 72.5
     slug: confluent-the-data-streaming-platform
     source: declared
   label: Exemplar
@@ -65,23 +65,23 @@ member_bands:
     source: declared
   label: Thin
   open: false
-- band: minimal
-  blurb: Almost no public developer surface
+- band: unrated
+  blurb: Not yet scored
   count: 1
   items:
   - &id003
     acquired: null
-    agent_band: human-only
-    agent_score: 0.0
+    agent_band: null
+    agent_score: null
     api_count: 0
     immediate_parent: confluent
     name: Noteable
     relationship: product
-    score_band: minimal
-    score_composite: 5.5
+    score_band: null
+    score_composite: null
     slug: noteable
     source: prose
-  label: Minimal
+  label: Unrated
   open: false
 member_on_network: 3
 member_total: 3
@@ -92,7 +92,7 @@ members:
 members_unrated: []
 name: Confluent
 overview: 'Confluent publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 67.4 points, from 72.9 down to 5.5.
+  of which 3 carry a rating. The rated members span 37.8 points, from 72.5 down to 34.7.
 
 
   Its highest-rated surfaces are Confluent | the Data Streaming Platform, Confluent Schema Registry, Noteable.'

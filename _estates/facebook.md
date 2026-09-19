@@ -6,24 +6,24 @@ description: Facebook is Meta's social networking platform providing APIs for de
   social graph. Meta also provides APIs for marketing and advertising, Instagram content management, Messenger
   bots, Threads publishing, and WhatsApp business messaging.
 estate_rating:
-  agent_avg: 7.5
+  agent_avg: 8.4
   agent_band: minimal
   agent_native: 0
-  agent_raw: 4.7
+  agent_raw: 5.7
   agent_ready: 0
   band: emerging
   best: 37.2
-  composite_avg: 17.5
+  composite_avg: 19.0
   composite_band: emerging
-  composite_raw: 13.7
+  composite_raw: 15.6
   developing: 0
   exemplar: 0
-  rating: 13.5
-  scored: 6
-  spread: 33.1
+  rating: 14.8
+  scored: 5
+  spread: 32.2
   strength: 0
   strong: 0
-  worst: 4.1
+  worst: 5.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/facebook.png
@@ -68,7 +68,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 4
+  count: 3
   items:
   - &id003
     acquired: null
@@ -106,25 +106,13 @@ member_bands:
     score_composite: 5.0
     slug: gowalla
     source: prose
-  - &id006
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: facebook
-    name: Little Eye
-    relationship: product
-    score_band: minimal
-    score_composite: 4.1
-    slug: little-eye
-    source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 2
+  count: 3
   items:
-  - &id007
+  - &id006
     acquired: null
     agent_band: null
     agent_score: null
@@ -136,7 +124,7 @@ member_bands:
     score_composite: null
     slug: friendly
     source: prose
-  - &id008
+  - &id007
     acquired: null
     agent_band: null
     agent_score: null
@@ -147,6 +135,18 @@ member_bands:
     score_band: null
     score_composite: null
     slug: grokstyle
+    source: prose
+  - &id008
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: facebook
+    name: Little Eye
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: little-eye
     source: prose
   label: Unrated
   open: false
@@ -164,7 +164,7 @@ members:
 members_unrated: []
 name: Facebook
 overview: 'Facebook publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 33.1 points, from 37.2 down to 4.1.
+  of which 8 carry a rating. The rated members span 32.2 points, from 37.2 down to 5.0.
 
 
   Its highest-rated surfaces are Parse, Wit.AI, Bloomsbury, CTRL-labs *, Gowalla.'

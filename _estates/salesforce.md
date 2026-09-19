@@ -14,7 +14,7 @@ estate_rating:
   agent_ready: 4
   band: emerging
   best: 68.6
-  composite_avg: 26.0
+  composite_avg: 26.1
   composite_band: thin
   composite_raw: 26.7
   developing: 7
@@ -74,7 +74,7 @@ member_bands:
     name: Salesforce Sales Cloud
     relationship: product
     score_band: strong
-    score_composite: 55.3
+    score_composite: 57.2
     slug: salesforce-sales-cloud
     source: declared
   - &id004
@@ -86,7 +86,7 @@ member_bands:
     name: Salesforce Marketing Cloud Account Engagement (Pardot)
     relationship: acquisition
     score_band: strong
-    score_composite: 54.8
+    score_composite: 55.0
     slug: pardot
     source: declared
   - &id005
@@ -140,7 +140,7 @@ member_bands:
     name: Tableau
     relationship: acquisition
     score_band: developing
-    score_composite: 50.4
+    score_composite: 50.8
     slug: tableau
     source: declared
   - &id009
@@ -538,5 +538,6 @@ tags:
 - Marketing
 - Platform
 - Sales
+- Salesforce
 title: Salesforce
 ---

@@ -1,26 +1,26 @@
 ---
-api_total: 14
+api_total: 13
 category: Estates
 description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management
   services including authentication, authorization, and directory services.
 estate_rating:
-  agent_avg: 21.2
+  agent_avg: 20.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 34.1
-  agent_ready: 2
+  agent_raw: 36.1
+  agent_ready: 1
   band: thin
-  best: 77.9
-  composite_avg: 37.1
+  best: 79.7
+  composite_avg: 34.6
   composite_band: thin
-  composite_raw: 55.9
-  developing: 0
+  composite_raw: 55.0
+  developing: 1
   exemplar: 1
-  rating: 30.7
-  scored: 4
-  spread: 46.0
-  strength: 7
-  strong: 2
+  rating: 29.0
+  scored: 3
+  spread: 47.8
+  strength: 4
+  strong: 0
   worst: 31.9
 estate_root: microsoft
 estate_root_name: Microsoft
@@ -35,34 +35,22 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 52.0
+    agent_score: 56.3
     api_count: 9
     immediate_parent: microsoft-entra
     name: Microsoft Entra ID (formerly Azure AD)
     relationship: product
     score_band: exemplar
-    score_composite: 77.9
+    score_composite: 79.7
     slug: azure-ad
     source: declared
   label: Exemplar
   open: true
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 2
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 1
   items:
   - &id002
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 32.4
-    api_count: 1
-    immediate_parent: microsoft-entra
-    name: Microsoft Azure Active Directory
-    relationship: product
-    score_band: strong
-    score_composite: 57.3
-    slug: microsoft-azure-active-directory
-    source: declared
-  - &id003
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
@@ -70,17 +58,17 @@ member_bands:
     immediate_parent: microsoft-entra
     name: Microsoft Active Directory
     relationship: product
-    score_band: strong
-    score_composite: 56.5
+    score_band: developing
+    score_composite: 53.4
     slug: active-directory
     source: declared
-  label: Strong
-  open: true
+  label: Developing
+  open: false
 - band: thin
   blurb: Limited public surface area
   count: 1
   items:
-  - &id004
+  - &id003
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -94,6 +82,24 @@ member_bands:
     source: declared
   label: Thin
   open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id004
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: microsoft-entra
+    name: Microsoft Azure Active Directory
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: microsoft-azure-active-directory
+    source: declared
+  label: Unrated
+  open: false
 member_on_network: 4
 member_total: 4
 members:
@@ -104,11 +110,11 @@ members:
 members_unrated: []
 name: Microsoft Entra
 overview: 'Microsoft Entra publishes its API surface across 4 provider profiles indexed on the APIs.io
-  network, of which 4 carry a rating. The rated members span 46.0 points, from 77.9 down to 31.9.
+  network, of which 4 carry a rating. The rated members span 47.8 points, from 79.7 down to 31.9.
 
 
-  Its highest-rated surfaces are Microsoft Entra ID (formerly Azure AD), Microsoft Azure Active Directory,
-  Microsoft Active Directory, Microsoft Intune.'
+  Its highest-rated surfaces are Microsoft Entra ID (formerly Azure AD), Microsoft Active Directory, Microsoft
+  Intune, Microsoft Azure Active Directory.'
 parent_provider: microsoft-entra
 permalink: /estates/microsoft-entra/
 slug: microsoft-entra
@@ -127,5 +133,6 @@ tags:
 - Network Security
 - Security
 - Zero Trust
+- Identity Federation
 title: Microsoft Entra
 ---

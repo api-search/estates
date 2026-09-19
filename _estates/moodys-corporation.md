@@ -10,21 +10,21 @@ description: 'Moody''s Corporation (NYSE: MCO) is a global integrated risk-asses
   subsidiary brands including Bureau van Dijk (Orbis), RMS (catastrophe risk), Kompany / Passfort (KYC),
   and Four Twenty Seven (climate).'
 estate_rating:
-  agent_avg: 11.2
+  agent_avg: 11.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.6
   agent_ready: 1
   band: emerging
-  best: 35.8
-  composite_avg: 19.6
+  best: 35.9
+  composite_avg: 19.8
   composite_band: emerging
   composite_raw: 15.3
   developing: 0
   exemplar: 0
-  rating: 16.2
+  rating: 16.4
   scored: 3
-  spread: 30.8
+  spread: 30.9
   strength: 0
   strong: 0
   worst: 5.0
@@ -47,7 +47,7 @@ member_bands:
     name: Moody's RMS
     relationship: product
     score_band: thin
-    score_composite: 35.8
+    score_composite: 35.9
     slug: moodys-rms
     source: declared
   label: Thin
@@ -91,7 +91,7 @@ members:
 members_unrated: []
 name: Moody's Corporation
 overview: 'Moody''s Corporation publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 30.8 points, from 35.8 down to 5.0.
+  network, of which 3 carry a rating. The rated members span 30.9 points, from 35.9 down to 5.0.
 
 
   Its highest-rated surfaces are Moody''s RMS, Cortera, Regulatory DataCorp.'

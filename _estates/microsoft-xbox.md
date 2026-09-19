@@ -4,21 +4,21 @@ category: Estates
 description: APIs for Xbox gaming platform including Xbox Live Services and Azure PlayFab backend for
   games.
 estate_rating:
-  agent_avg: 17.4
+  agent_avg: 17.5
   agent_band: emerging
   agent_native: 1
   agent_raw: 22.8
   agent_ready: 1
   band: emerging
-  best: 48.6
-  composite_avg: 26.4
+  best: 49.2
+  composite_avg: 26.6
   composite_band: thin
-  composite_raw: 29.9
+  composite_raw: 30.0
   developing: 2
   exemplar: 0
-  rating: 22.8
+  rating: 23.0
   scored: 6
-  spread: 41.0
+  spread: 41.6
   strength: 2
   strong: 0
   worst: 7.6
@@ -41,7 +41,7 @@ member_bands:
     name: PlayFab
     relationship: product
     score_band: developing
-    score_composite: 48.6
+    score_composite: 49.2
     slug: playfab
     source: declared
   - &id002
@@ -136,7 +136,7 @@ members:
 members_unrated: []
 name: Microsoft Xbox
 overview: 'Microsoft Xbox publishes its API surface across 6 provider profiles indexed on the APIs.io
-  network, of which 6 carry a rating. The rated members span 41.0 points, from 48.6 down to 7.6.
+  network, of which 6 carry a rating. The rated members span 41.6 points, from 49.2 down to 7.6.
 
 
   Its highest-rated surfaces are PlayFab, Blizzard Entertainment, Battle.net, Mojang, Activision Blizzard.'

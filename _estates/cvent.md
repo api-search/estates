@@ -1,5 +1,5 @@
 ---
-api_total: 6
+api_total: 22
 category: Estates
 description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800
   employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration,
@@ -10,21 +10,21 @@ description: Cvent is a leading meetings, events, and hospitality technology pro
   integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads,
   webhooks, SSO, custom widgets, white-label, and integration documentation.
 estate_rating:
-  agent_avg: 19.8
+  agent_avg: 20.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 27.2
+  agent_raw: 28.3
   agent_ready: 3
   band: thin
-  best: 82.0
+  best: 79.5
   composite_avg: 37.8
   composite_band: thin
-  composite_raw: 50.9
+  composite_raw: 50.5
   developing: 1
   exemplar: 2
-  rating: 30.6
+  rating: 30.9
   scored: 6
-  spread: 66.4
+  spread: 63.9
   strength: 9
   strong: 1
   worst: 15.6
@@ -41,13 +41,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 38.3
+    agent_score: 42.6
     api_count: 2
     immediate_parent: cvent
     name: Cvent Registration
     relationship: product
     score_band: exemplar
-    score_composite: 82.0
+    score_composite: 79.5
     slug: cvent-registration
     source: declared
   - &id002
@@ -71,13 +71,13 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 53.2
-    api_count: 1
+    agent_score: 55.8
+    api_count: 17
     immediate_parent: cvent
     name: Cvent Hospitality Cloud
     relationship: product
     score_band: strong
-    score_composite: 64.3
+    score_composite: 64.4
     slug: cvent-hospitality-cloud
     source: declared
   label: Strong
@@ -148,7 +148,7 @@ members:
 members_unrated: []
 name: Cvent
 overview: 'Cvent publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 66.4 points, from 82.0 down to 15.6.
+  of which 6 carry a rating. The rated members span 63.9 points, from 79.5 down to 15.6.
 
 
   Its highest-rated surfaces are Cvent Registration, Cvent Event Cloud, Cvent Hospitality Cloud, Cvent

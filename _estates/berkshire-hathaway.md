@@ -1,5 +1,5 @@
 ---
-api_total: 8
+api_total: 16
 category: Estates
 description: Berkshire Hathaway is a multinational conglomerate holding company headquartered in Omaha,
   Nebraska. The company's diversified subsidiaries span insurance (GEICO, Berkshire Hathaway Specialty
@@ -9,21 +9,21 @@ description: Berkshire Hathaway is a multinational conglomerate holding company 
   a public API Center providing customer APIs for shipment tracking, pricing, scheduling, and waybill
   management.
 estate_rating:
-  agent_avg: 11.6
+  agent_avg: 11.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 12.4
+  agent_raw: 11.2
   agent_ready: 1
   band: emerging
-  best: 50.8
+  best: 49.1
   composite_avg: 21.1
   composite_band: emerging
-  composite_raw: 19.8
+  composite_raw: 19.3
   developing: 1
   exemplar: 0
-  rating: 17.3
+  rating: 17.1
   scored: 4
-  spread: 47.8
+  spread: 46.1
   strength: 1
   strong: 0
   worst: 3.0
@@ -40,13 +40,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 36.8
-    api_count: 8
+    agent_score: 32.1
+    api_count: 16
     immediate_parent: berkshire-hathaway
     name: BNSF
     relationship: subsidiary
     score_band: developing
-    score_composite: 50.8
+    score_composite: 49.1
     slug: bnsf
     source: declared
   label: Developing
@@ -109,7 +109,7 @@ members:
 members_unrated: []
 name: Berkshire Hathaway
 overview: 'Berkshire Hathaway publishes its API surface across 4 provider profiles indexed on the APIs.io
-  network, of which 4 carry a rating. The rated members span 47.8 points, from 50.8 down to 3.0.
+  network, of which 4 carry a rating. The rated members span 46.1 points, from 49.1 down to 3.0.
 
 
   Its highest-rated surfaces are BNSF, GEICO, Precision Castparts, Alleghany Corporation.'

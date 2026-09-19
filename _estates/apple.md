@@ -3,20 +3,20 @@ api_total: 3
 category: Estates
 description: Collection of Apple's public APIs and developer resources.
 estate_rating:
-  agent_avg: 8.9
+  agent_avg: 9.6
   agent_band: minimal
   agent_native: 0
-  agent_raw: 7.9
+  agent_raw: 8.8
   agent_ready: 1
   band: emerging
   best: 65.0
-  composite_avg: 20.6
+  composite_avg: 21.6
   composite_band: emerging
-  composite_raw: 19.8
+  composite_raw: 21.2
   developing: 1
   exemplar: 0
-  rating: 15.9
-  scored: 10
+  rating: 16.8
+  scored: 9
   spread: 60.0
   strength: 3
   strong: 1
@@ -101,21 +101,9 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 6
+  count: 5
   items:
   - &id005
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: apple
-    name: ToyTalk
-    relationship: product
-    score_band: minimal
-    score_composite: 7.2
-    slug: toytalk
-    source: prose
-  - &id006
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -127,7 +115,7 @@ member_bands:
     score_composite: 5.0
     slug: buddybuild
     source: prose
-  - &id007
+  - &id006
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -139,7 +127,7 @@ member_bands:
     score_composite: 5.0
     slug: curious-ai
     source: prose
-  - &id008
+  - &id007
     acquired: 2023-09
     agent_band: human-only
     agent_score: 0.0
@@ -151,7 +139,7 @@ member_bands:
     score_composite: 5.0
     slug: drishti
     source: prose
-  - &id009
+  - &id008
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -163,7 +151,7 @@ member_bands:
     score_composite: 5.0
     slug: drishti-technologies
     source: prose
-  - &id010
+  - &id009
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -179,9 +167,9 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 4
+  count: 5
   items:
-  - &id011
+  - &id010
     acquired: null
     agent_band: null
     agent_score: null
@@ -193,7 +181,7 @@ member_bands:
     score_composite: null
     slug: anobit-technologies
     source: prose
-  - &id012
+  - &id011
     acquired: null
     agent_band: null
     agent_score: null
@@ -205,7 +193,7 @@ member_bands:
     score_composite: null
     slug: fleetsmith
     source: prose
-  - &id013
+  - &id012
     acquired: null
     agent_band: null
     agent_score: null
@@ -217,7 +205,7 @@ member_bands:
     score_composite: null
     slug: pop-up-archive
     source: prose
-  - &id014
+  - &id013
     acquired: null
     agent_band: null
     agent_score: null
@@ -228,6 +216,18 @@ member_bands:
     score_band: null
     score_composite: null
     slug: scoutfm
+    source: prose
+  - &id014
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: apple
+    name: ToyTalk
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: toytalk
     source: prose
   label: Unrated
   open: false
@@ -254,7 +254,7 @@ overview: 'Apple publishes its API surface across 14 provider profiles indexed o
   of which 14 carry a rating. The rated members span 60.0 points, from 65.0 down to 5.0.
 
 
-  Its highest-rated surfaces are Apple CloudKit, Shazam, Dark Sky, Silk Labs, ToyTalk.'
+  Its highest-rated surfaces are Apple CloudKit, Shazam, Dark Sky, Silk Labs, buddybuild.'
 parent_provider: apple
 permalink: /estates/apple/
 slug: apple

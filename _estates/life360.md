@@ -12,24 +12,24 @@ description: Life360 is a family safety platform built around a location-sharing
   ai-plugin manifest whose advertised OpenAPI does not resolve, and Content-Signal directives in robots.txt).
   This profile is maintained in the API Evangelist network for company discovery and monitoring.
 estate_rating:
-  agent_avg: 7.1
+  agent_avg: 8.1
   agent_band: minimal
   agent_native: 0
-  agent_raw: 2.3
+  agent_raw: 3.1
   agent_ready: 0
   band: emerging
   best: 40.9
-  composite_avg: 20.1
+  composite_avg: 22.0
   composite_band: emerging
-  composite_raw: 17.6
+  composite_raw: 21.3
   developing: 1
   exemplar: 0
-  rating: 14.9
-  scored: 4
-  spread: 34.5
+  rating: 16.4
+  scored: 3
+  spread: 30.3
   strength: 1
   strong: 0
-  worst: 6.4
+  worst: 10.6
 estate_root: null
 estate_root_name: null
 image: https://www.life360.com/svgs/life360-logo-dark.svg
@@ -74,7 +74,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 1
   items:
   - &id003
     acquired: null
@@ -88,34 +88,21 @@ member_bands:
     score_composite: 10.6
     slug: jiobit
     source: prose
-  - &id004
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: life360
-    name: Tile
-    relationship: product
-    score_band: minimal
-    score_composite: 6.4
-    slug: tile
-    source: prose
   label: Minimal
   open: false
-member_on_network: 4
-member_total: 4
+member_on_network: 3
+member_total: 3
 members:
 - *id001
 - *id002
 - *id003
-- *id004
 members_unrated: []
 name: Life360
-overview: 'Life360 publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 34.5 points, from 40.9 down to 6.4.
+overview: 'Life360 publishes its API surface across 3 provider profiles indexed on the APIs.io network,
+  of which 3 carry a rating. The rated members span 30.3 points, from 40.9 down to 10.6.
 
 
-  Its highest-rated surfaces are Nativo, Tile (thetileapp), Jiobit, Tile.'
+  Its highest-rated surfaces are Nativo, Tile (thetileapp), Jiobit.'
 parent_provider: life360
 permalink: /estates/life360/
 slug: life360
@@ -131,7 +118,7 @@ tags:
 - Location
 - GPS Tracking
 - Bluetooth Trackers
-- Mobile Apps
+- Mobile App
 - Driving Safety
 - Wearables
 - Subscription

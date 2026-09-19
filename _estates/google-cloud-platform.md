@@ -1,5 +1,5 @@
 ---
-api_total: 74
+api_total: 71
 category: Estates
 description: Google Cloud Platform enables developers to build, test, and deploy applications on Google's
   highly-scalable and reliable infrastructure.
@@ -10,17 +10,17 @@ estate_rating:
   agent_raw: 23.7
   agent_ready: 3
   band: thin
-  best: 65.2
-  composite_avg: 42.4
+  best: 65.0
+  composite_avg: 42.3
   composite_band: developing
-  composite_raw: 43.9
-  developing: 54
+  composite_raw: 43.8
+  developing: 51
   exemplar: 0
-  rating: 34.6
-  scored: 68
-  spread: 60.2
-  strength: 60
-  strong: 3
+  rating: 34.5
+  scored: 66
+  spread: 60.0
+  strength: 59
+  strong: 4
   worst: 5.0
 estate_root: google
 estate_root_name: Google
@@ -30,18 +30,18 @@ layout: estate
 member_bands:
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 3
+  count: 4
   items:
   - &id001
     acquired: null
     agent_band: agent-ready
     agent_score: 37.9
-    api_count: 3
+    api_count: 2
     immediate_parent: google-cloud-platform
     name: Google Dialogflow
     relationship: product
     score_band: strong
-    score_composite: 65.2
+    score_composite: 65.0
     slug: google-dialogflow
     source: declared
   - &id002
@@ -68,12 +68,6 @@ member_bands:
     score_composite: 62.1
     slug: apigee
     source: declared
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 54
-  items:
   - &id004
     acquired: null
     agent_band: agent-ready
@@ -82,10 +76,16 @@ member_bands:
     immediate_parent: google-cloud-platform
     name: Google Cloud Storage
     relationship: product
-    score_band: developing
-    score_composite: 53.4
+    score_band: strong
+    score_composite: 55.4
     slug: gcp-cloud-storage
     source: declared
+  label: Strong
+  open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 51
+  items:
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -95,7 +95,7 @@ member_bands:
     name: Google Cloud Healthcare
     relationship: product
     score_band: developing
-    score_composite: 52.9
+    score_composite: 53.9
     slug: google-cloud-healthcare
     source: declared
   - &id006
@@ -137,18 +137,6 @@ member_bands:
   - &id009
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
-    api_count: 1
-    immediate_parent: google-cloud-platform
-    name: Google Cloud Storage
-    relationship: product
-    score_band: developing
-    score_composite: 47.2
-    slug: google-cloud-storage
-    source: declared
-  - &id010
-    acquired: null
-    agent_band: agent-aware
     agent_score: 26.5
     api_count: 1
     immediate_parent: google-cloud-platform
@@ -158,7 +146,7 @@ member_bands:
     score_composite: 46.9
     slug: google-cloud-build
     source: declared
-  - &id011
+  - &id010
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -170,7 +158,7 @@ member_bands:
     score_composite: 46.8
     slug: google-cloud-bigtable
     source: declared
-  - &id012
+  - &id011
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -182,7 +170,7 @@ member_bands:
     score_composite: 46.6
     slug: google-cloud-spanner
     source: declared
-  - &id013
+  - &id012
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -194,7 +182,7 @@ member_bands:
     score_composite: 46.6
     slug: google-cloud-sql
     source: declared
-  - &id014
+  - &id013
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -206,7 +194,7 @@ member_bands:
     score_composite: 46.2
     slug: google-cloud-firestore
     source: declared
-  - &id015
+  - &id014
     acquired: null
     agent_band: agent-aware
     agent_score: 26.5
@@ -218,7 +206,7 @@ member_bands:
     score_composite: 46.1
     slug: google-cloud-dataproc
     source: declared
-  - &id016
+  - &id015
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -230,7 +218,7 @@ member_bands:
     score_composite: 46.1
     slug: google-cloud-security-command-center
     source: declared
-  - &id017
+  - &id016
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -242,7 +230,7 @@ member_bands:
     score_composite: 46.0
     slug: google-cloud-compute-engine
     source: declared
-  - &id018
+  - &id017
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -254,7 +242,7 @@ member_bands:
     score_composite: 46.0
     slug: google-cloud-dns
     source: declared
-  - &id019
+  - &id018
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -266,19 +254,7 @@ member_bands:
     score_composite: 46.0
     slug: google-cloud-kubernetes-engine
     source: declared
-  - &id020
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 19.8
-    api_count: 1
-    immediate_parent: google-cloud-platform
-    name: Google Cloud Translation
-    relationship: product
-    score_band: developing
-    score_composite: 45.8
-    slug: google-cloud-translation
-    source: declared
-  - &id021
+  - &id019
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -290,7 +266,7 @@ member_bands:
     score_composite: 45.5
     slug: google-cloud-batch
     source: declared
-  - &id022
+  - &id020
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -302,7 +278,7 @@ member_bands:
     score_composite: 45.4
     slug: google-cloud-secret-manager
     source: declared
-  - &id023
+  - &id021
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -314,7 +290,7 @@ member_bands:
     score_composite: 45.3
     slug: google-cloud-automl
     source: declared
-  - &id024
+  - &id022
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -326,7 +302,7 @@ member_bands:
     score_composite: 45.3
     slug: google-cloud-text-to-speech
     source: declared
-  - &id025
+  - &id023
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -338,7 +314,7 @@ member_bands:
     score_composite: 45.3
     slug: google-cloud-video-intelligence
     source: declared
-  - &id026
+  - &id024
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -350,7 +326,7 @@ member_bands:
     score_composite: 45.3
     slug: google-cloud-vision
     source: declared
-  - &id027
+  - &id025
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -362,7 +338,7 @@ member_bands:
     score_composite: 45.1
     slug: google-cloud-armor
     source: declared
-  - &id028
+  - &id026
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -374,7 +350,7 @@ member_bands:
     score_composite: 45.0
     slug: google-cloud-cdn
     source: declared
-  - &id029
+  - &id027
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -386,7 +362,7 @@ member_bands:
     score_composite: 45.0
     slug: google-cloud-composer
     source: declared
-  - &id030
+  - &id028
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -398,7 +374,7 @@ member_bands:
     score_composite: 45.0
     slug: google-cloud-functions
     source: declared
-  - &id031
+  - &id029
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -410,7 +386,7 @@ member_bands:
     score_composite: 45.0
     slug: google-cloud-kms
     source: declared
-  - &id032
+  - &id030
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -422,7 +398,7 @@ member_bands:
     score_composite: 45.0
     slug: google-cloud-run
     source: declared
-  - &id033
+  - &id031
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -434,7 +410,7 @@ member_bands:
     score_composite: 44.6
     slug: google-cloud-interconnect
     source: declared
-  - &id034
+  - &id032
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -446,7 +422,7 @@ member_bands:
     score_composite: 44.6
     slug: google-cloud-load-balancing
     source: declared
-  - &id035
+  - &id033
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -458,7 +434,7 @@ member_bands:
     score_composite: 44.5
     slug: google-cloud-deploy
     source: declared
-  - &id036
+  - &id034
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -470,7 +446,7 @@ member_bands:
     score_composite: 44.4
     slug: google-cloud-artifact-registry
     source: declared
-  - &id037
+  - &id035
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -482,7 +458,7 @@ member_bands:
     score_composite: 44.4
     slug: google-cloud-speech-to-text
     source: declared
-  - &id038
+  - &id036
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -494,7 +470,7 @@ member_bands:
     score_composite: 44.4
     slug: google-cloud-tasks
     source: declared
-  - &id039
+  - &id037
     acquired: null
     agent_band: agent-aware
     agent_score: 21.5
@@ -506,7 +482,7 @@ member_bands:
     score_composite: 44.4
     slug: google-cloud-workflows
     source: declared
-  - &id040
+  - &id038
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -518,7 +494,7 @@ member_bands:
     score_composite: 44.0
     slug: google-cloud-iam
     source: declared
-  - &id041
+  - &id039
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -530,7 +506,7 @@ member_bands:
     score_composite: 43.9
     slug: google-cloud-eventarc
     source: declared
-  - &id042
+  - &id040
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -542,7 +518,7 @@ member_bands:
     score_composite: 43.6
     slug: google-cloud-app-engine
     source: declared
-  - &id043
+  - &id041
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -554,7 +530,7 @@ member_bands:
     score_composite: 43.6
     slug: google-cloud-assured-workloads
     source: declared
-  - &id044
+  - &id042
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -566,7 +542,7 @@ member_bands:
     score_composite: 43.6
     slug: google-cloud-memorystore
     source: declared
-  - &id045
+  - &id043
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -578,7 +554,7 @@ member_bands:
     score_composite: 43.6
     slug: google-cloud-operations-suite
     source: declared
-  - &id046
+  - &id044
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -590,7 +566,7 @@ member_bands:
     score_composite: 43.1
     slug: google-cloud-certificate-manager
     source: declared
-  - &id047
+  - &id045
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -602,7 +578,7 @@ member_bands:
     score_composite: 43.0
     slug: google-cloud-endpoints
     source: declared
-  - &id048
+  - &id046
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -614,7 +590,7 @@ member_bands:
     score_composite: 42.9
     slug: google-cloud-document-ai
     source: declared
-  - &id049
+  - &id047
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -626,7 +602,7 @@ member_bands:
     score_composite: 42.7
     slug: google-cloud-data-catalog
     source: declared
-  - &id050
+  - &id048
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -638,7 +614,7 @@ member_bands:
     score_composite: 42.6
     slug: google-cloud-natural-language
     source: declared
-  - &id051
+  - &id049
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -650,7 +626,7 @@ member_bands:
     score_composite: 42.4
     slug: google-cloud-migration-center
     source: declared
-  - &id052
+  - &id050
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -662,7 +638,7 @@ member_bands:
     score_composite: 42.3
     slug: google-cloud-trace
     source: declared
-  - &id053
+  - &id051
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -674,7 +650,7 @@ member_bands:
     score_composite: 41.5
     slug: google-cloud-monitoring
     source: declared
-  - &id054
+  - &id052
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -686,7 +662,7 @@ member_bands:
     score_composite: 41.3
     slug: google-cloud-profiler
     source: declared
-  - &id055
+  - &id053
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -698,7 +674,7 @@ member_bands:
     score_composite: 41.0
     slug: google-cloud-chronicle
     source: declared
-  - &id056
+  - &id054
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -710,7 +686,7 @@ member_bands:
     score_composite: 40.3
     slug: google-cloud-data-fusion
     source: declared
-  - &id057
+  - &id055
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -728,7 +704,7 @@ member_bands:
   blurb: Limited public surface area
   count: 10
   items:
-  - &id058
+  - &id056
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -740,7 +716,7 @@ member_bands:
     score_composite: 39.2
     slug: google-cloud-dialogflow-cx
     source: declared
-  - &id059
+  - &id057
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -752,7 +728,7 @@ member_bands:
     score_composite: 38.9
     slug: google-cloud-container-registry
     source: declared
-  - &id060
+  - &id058
     acquired: null
     agent_band: agent-aware
     agent_score: 25.9
@@ -764,7 +740,7 @@ member_bands:
     score_composite: 37.9
     slug: google-cloud-pubsub
     source: declared
-  - &id061
+  - &id059
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -776,7 +752,7 @@ member_bands:
     score_composite: 37.6
     slug: google-cloud-contact-center-ai
     source: declared
-  - &id062
+  - &id060
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -788,7 +764,7 @@ member_bands:
     score_composite: 36.9
     slug: google-cloud-talent-solution
     source: declared
-  - &id063
+  - &id061
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -800,7 +776,7 @@ member_bands:
     score_composite: 36.7
     slug: google-cloud-transfer-service
     source: declared
-  - &id064
+  - &id062
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -812,7 +788,7 @@ member_bands:
     score_composite: 33.8
     slug: google-cloud-vpc
     source: declared
-  - &id065
+  - &id063
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -824,7 +800,7 @@ member_bands:
     score_composite: 32.8
     slug: google-cloud-vmware-engine
     source: declared
-  - &id066
+  - &id064
     acquired: null
     agent_band: agent-aware
     agent_score: 17.3
@@ -836,7 +812,7 @@ member_bands:
     score_composite: 31.1
     slug: google-cloud-recommendations-ai
     source: declared
-  - &id067
+  - &id065
     acquired: null
     agent_band: agent-aware
     agent_score: 17.3
@@ -854,7 +830,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 1
   items:
-  - &id068
+  - &id066
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -868,8 +844,8 @@ member_bands:
     source: declared
   label: Minimal
   open: false
-member_on_network: 68
-member_total: 68
+member_on_network: 66
+member_total: 66
 members:
 - *id001
 - *id002
@@ -937,12 +913,10 @@ members:
 - *id064
 - *id065
 - *id066
-- *id067
-- *id068
 members_unrated: []
 name: Google Cloud Platform
-overview: 'Google Cloud Platform publishes its API surface across 68 provider profiles indexed on the
-  APIs.io network, of which 68 carry a rating. The rated members span 60.2 points, from 65.2 down to 5.0.
+overview: 'Google Cloud Platform publishes its API surface across 66 provider profiles indexed on the
+  APIs.io network, of which 66 carry a rating. The rated members span 60.0 points, from 65.0 down to 5.0.
 
 
   Its highest-rated surfaces are Google Dialogflow, Google Cloud Logging, Apigee, Google Cloud Storage,

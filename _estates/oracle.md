@@ -1,24 +1,24 @@
 ---
-api_total: 190
+api_total: 206
 category: Estates
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases,
   AI services, SaaS applications, and platform services.
 estate_rating:
-  agent_avg: 17.5
+  agent_avg: 18.3
   agent_band: emerging
   agent_native: 1
-  agent_raw: 18.7
+  agent_raw: 19.6
   agent_ready: 5
   band: thin
-  best: 71.1
-  composite_avg: 33.9
+  best: 74.7
+  composite_avg: 35.0
   composite_band: thin
-  composite_raw: 36.0
+  composite_raw: 37.3
   developing: 15
   exemplar: 3
-  rating: 27.3
-  scored: 29
-  spread: 66.1
+  rating: 28.3
+  scored: 28
+  spread: 69.7
   strength: 26
   strong: 1
   worst: 5.0
@@ -35,13 +35,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-native
-    agent_score: 42.5
+    agent_score: 49.3
     api_count: 9
     immediate_parent: oracle
     name: Oracle Cloud Infrastructure
     relationship: product
     score_band: exemplar
-    score_composite: 71.1
+    score_composite: 74.7
     slug: oracle-cloud
     source: declared
   - &id002
@@ -83,7 +83,7 @@ member_bands:
     name: Oracle Partitioning
     relationship: product
     score_band: strong
-    score_composite: 58.6
+    score_composite: 59.0
     slug: oracle-partitioning
     source: declared
   label: Strong
@@ -101,7 +101,7 @@ member_bands:
     name: Responsys
     relationship: acquisition
     score_band: developing
-    score_composite: 53.2
+    score_composite: 51.8
     slug: responsys
     source: declared
   - &id006
@@ -129,6 +129,30 @@ member_bands:
     slug: oracle-database
     source: declared
   - &id008
+    acquired: 2022
+    agent_band: agent-ready
+    agent_score: 28.6
+    api_count: 54
+    immediate_parent: oracle
+    name: Oracle Health (Cerner)
+    relationship: acquisition
+    score_band: developing
+    score_composite: 50.3
+    slug: cerner
+    source: declared
+  - &id009
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 27.3
+    api_count: 21
+    immediate_parent: oracle
+    name: PeopleSoft
+    relationship: acquisition
+    score_band: developing
+    score_composite: 50.1
+    slug: peoplesoft
+    source: declared
+  - &id010
     acquired: null
     agent_band: agent-aware
     agent_score: 25.5
@@ -140,19 +164,7 @@ member_bands:
     score_composite: 49.4
     slug: oracle-essbase
     source: declared
-  - &id009
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 27.3
-    api_count: 21
-    immediate_parent: oracle
-    name: PeopleSoft
-    relationship: acquisition
-    score_band: developing
-    score_composite: 49.4
-    slug: peoplesoft
-    source: declared
-  - &id010
+  - &id011
     acquired: null
     agent_band: agent-ready
     agent_score: 31.1
@@ -163,18 +175,6 @@ member_bands:
     score_band: developing
     score_composite: 49.1
     slug: eloqua
-    source: declared
-  - &id011
-    acquired: 2022
-    agent_band: agent-ready
-    agent_score: 28.6
-    api_count: 54
-    immediate_parent: oracle
-    name: Oracle Health (Cerner)
-    relationship: acquisition
-    score_band: developing
-    score_composite: 48.4
-    slug: cerner
     source: declared
   - &id012
     acquired: null
@@ -204,24 +204,24 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 27.2
-    api_count: 2
+    api_count: 1
     immediate_parent: oracle-cloud
     name: Apiary
     relationship: product
     score_band: developing
-    score_composite: 43.2
+    score_composite: 42.9
     slug: apiary
     source: prose
   - &id015
     acquired: null
     agent_band: agent-aware
     agent_score: 24.0
-    api_count: 3
+    api_count: 20
     immediate_parent: oracle
     name: Oracle WebLogic Server
     relationship: product
     score_band: developing
-    score_composite: 41.8
+    score_composite: 42.2
     slug: oracle-weblogic
     source: declared
   - &id016
@@ -294,7 +294,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 9
+  count: 8
   items:
   - &id021
     acquired: null
@@ -381,18 +381,6 @@ member_bands:
     slug: digital-market
     source: declared
   - &id028
-    acquired: 2014
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: oracle
-    name: GreenBytes
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: greenbytes
-    source: declared
-  - &id029
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -408,9 +396,9 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 1
+  count: 2
   items:
-  - &id030
+  - &id029
     acquired: 2017
     agent_band: null
     agent_score: null
@@ -421,6 +409,18 @@ member_bands:
     score_band: null
     score_composite: null
     slug: conjectag
+    source: declared
+  - &id030
+    acquired: 2014
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: oracle
+    name: GreenBytes
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: greenbytes
     source: declared
   label: Unrated
   open: false
@@ -460,7 +460,7 @@ members:
 members_unrated: []
 name: Oracle
 overview: 'Oracle publishes its API surface across 30 provider profiles indexed on the APIs.io network,
-  of which 30 carry a rating. The rated members span 66.1 points, from 71.1 down to 5.0.
+  of which 30 carry a rating. The rated members span 69.7 points, from 74.7 down to 5.0.
 
 
   Its highest-rated surfaces are Oracle Cloud Infrastructure, Oracle Hospitality, Oracle Siebel, Oracle
@@ -488,7 +488,7 @@ subfamilies:
   members:
   - name: Apiary
     score_band: developing
-    score_composite: 43.2
+    score_composite: 42.9
     slug: apiary
   name: Oracle Cloud Infrastructure
   on_network: true

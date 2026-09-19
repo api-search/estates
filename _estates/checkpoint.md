@@ -1,5 +1,5 @@
 ---
-api_total: 25
+api_total: 48
 category: Estates
 description: Check Point Software Technologies is a global cybersecurity vendor providing network, cloud,
   endpoint, mobile, and email security through its Quantum, CloudGuard, and Harmony product families.
@@ -8,21 +8,21 @@ description: Check Point Software Technologies is a global cybersecurity vendor 
   device management APIs, Harmony Email and Collaboration API, Threat Hunting (TH) API, and CloudGuard
   WAF API.
 estate_rating:
-  agent_avg: 15.5
+  agent_avg: 15.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.3
+  agent_raw: 21.9
   agent_ready: 1
   band: emerging
-  best: 53.7
-  composite_avg: 26.8
+  best: 53.2
+  composite_avg: 26.9
   composite_band: thin
-  composite_raw: 32.7
+  composite_raw: 32.4
   developing: 2
   exemplar: 0
-  rating: 22.3
+  rating: 22.5
   scored: 4
-  spread: 48.7
+  spread: 48.2
   strength: 2
   strong: 0
   worst: 5.0
@@ -40,24 +40,24 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 33.5
-    api_count: 23
+    api_count: 46
     immediate_parent: checkpoint
     name: CloudGuard
     relationship: product
     score_band: developing
-    score_composite: 53.7
+    score_composite: 53.2
     slug: cloudguard
     source: declared
   - &id002
     acquired: 2018
     agent_band: agent-aware
-    agent_score: 25.7
+    agent_score: 28.2
     api_count: 1
     immediate_parent: checkpoint
     name: Dome9
     relationship: acquisition
     score_band: developing
-    score_composite: 42.1
+    score_composite: 41.3
     slug: dome9
     source: declared
   label: Developing
@@ -108,7 +108,7 @@ members:
 members_unrated: []
 name: Check Point
 overview: 'Check Point publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 48.7 points, from 53.7 down to 5.0.
+  of which 4 carry a rating. The rated members span 48.2 points, from 53.2 down to 5.0.
 
 
   Its highest-rated surfaces are CloudGuard, Dome9, Perimeter 81, Veriti.ai.'

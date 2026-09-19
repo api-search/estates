@@ -5,21 +5,21 @@ description: Adobe provides APIs and developer resources for its creative, docum
   platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics,
   e-commerce, e-signatures, and many other Adobe products and services.
 estate_rating:
-  agent_avg: 14.1
+  agent_avg: 14.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 17.3
+  agent_raw: 18.2
   agent_ready: 2
   band: emerging
-  best: 59.1
-  composite_avg: 24.8
+  best: 58.3
+  composite_avg: 24.9
   composite_band: emerging
-  composite_raw: 27.5
+  composite_raw: 27.3
   developing: 1
   exemplar: 0
-  rating: 20.5
+  rating: 20.8
   scored: 5
-  spread: 53.8
+  spread: 53.0
   strength: 3
   strong: 1
   worst: 5.3
@@ -36,13 +36,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.8
+    agent_score: 40.0
     api_count: 1
     immediate_parent: adobe
     name: Adobe Premiere Pro
     relationship: product
     score_band: strong
-    score_composite: 59.1
+    score_composite: 58.3
     slug: adobe-premiere
     source: declared
   label: Strong
@@ -124,7 +124,7 @@ members:
 members_unrated: []
 name: Adobe
 overview: 'Adobe publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 53.8 points, from 59.1 down to 5.3.
+  of which 5 carry a rating. The rated members span 53.0 points, from 58.3 down to 5.3.
 
 
   Its highest-rated surfaces are Adobe Premiere Pro, Frame.io, Rephrase.ai, Behance, TubeMogul.'
@@ -143,7 +143,7 @@ tags:
 - Digital Asset Management
 - Document Services
 - E-Commerce
-- E-Signatures
+- E-Signature
 - Experience Cloud
 - Generative AI
 - Marketing

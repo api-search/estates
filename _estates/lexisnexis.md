@@ -7,21 +7,21 @@ description: LexisNexis is a global provider of legal, regulatory, and business 
   applications. Most LexisNexis APIs are partner-access only and require contractual agreements before
   credentials and OpenAPI specifications are released.
 estate_rating:
-  agent_avg: 13.4
+  agent_avg: 13.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.9
   agent_ready: 2
   band: emerging
-  best: 54.5
-  composite_avg: 26.7
+  best: 55.7
+  composite_avg: 27.0
   composite_band: thin
-  composite_raw: 31.3
+  composite_raw: 31.6
   developing: 0
   exemplar: 0
-  rating: 21.4
+  rating: 21.6
   scored: 5
-  spread: 48.8
+  spread: 50.0
   strength: 2
   strong: 1
   worst: 5.7
@@ -44,7 +44,7 @@ member_bands:
     name: Human API
     relationship: product
     score_band: strong
-    score_composite: 54.5
+    score_composite: 55.7
     slug: human-api
     source: prose
   label: Strong
@@ -120,7 +120,7 @@ members:
 members_unrated: []
 name: LexisNexis
 overview: 'LexisNexis publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 48.8 points, from 54.5 down to 5.7.
+  of which 5 carry a rating. The rated members span 50.0 points, from 55.7 down to 5.7.
 
 
   Its highest-rated surfaces are Human API, LexisNexis Risk Solutions, Lex Machina, Henchman, BehavioSec.'
@@ -136,7 +136,7 @@ subfamilies:
   members:
   - name: Human API
     score_band: strong
-    score_composite: 54.5
+    score_composite: 55.7
     slug: human-api
   - name: BehavioSec
     score_band: minimal

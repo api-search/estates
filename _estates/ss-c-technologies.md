@@ -13,21 +13,21 @@ description: 'SS&C Technologies Holdings (NASDAQ: SSNC) is a global provider of 
   amendment, pair and basket orders, allocations and trade reports, real-time and historical market data,
   and intraday balances, positions and activity.'
 estate_rating:
-  agent_avg: 13.8
+  agent_avg: 14.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.8
   agent_ready: 1
   band: emerging
-  best: 49.4
-  composite_avg: 25.2
+  best: 49.2
+  composite_avg: 25.3
   composite_band: thin
-  composite_raw: 30.3
+  composite_raw: 30.2
   developing: 2
   exemplar: 0
-  rating: 20.6
+  rating: 20.8
   scored: 3
-  spread: 48.1
+  spread: 47.9
   strength: 2
   strong: 0
   worst: 1.3
@@ -50,7 +50,7 @@ member_bands:
     name: Blue Prism
     relationship: product
     score_band: developing
-    score_composite: 49.4
+    score_composite: 49.2
     slug: blue-prism
     source: prose
   - &id002
@@ -94,7 +94,7 @@ members:
 members_unrated: []
 name: SS&C Technologies
 overview: 'SS&C Technologies publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 48.1 points, from 49.4 down to 1.3.
+  network, of which 3 carry a rating. The rated members span 47.9 points, from 49.2 down to 1.3.
 
 
   Its highest-rated surfaces are Blue Prism, SS&C Geneva, DST Systems.'
@@ -107,7 +107,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ss-c-technolog
 subfamilies: []
 subfamily_page_count: 0
 tags:
-- Financial Services
+- Financial-Services
 - Investment Management
 - Fund Administration
 - Wealth Management

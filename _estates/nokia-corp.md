@@ -15,19 +15,19 @@ description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, in
   the Bell Labs research division, and a broad open-source presence (600+ GitHub repos) including TTCN-3
   tooling (ntt), Corteca CLI, Moler test framework, and YANG models.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 17.6
-  composite_avg: 18.4
+  composite_avg: 18.6
   composite_band: emerging
   composite_raw: 9.1
   developing: 0
   exemplar: 0
-  rating: 14.2
+  rating: 14.3
   scored: 2
   spread: 17.0
   strength: 0
@@ -119,7 +119,7 @@ tags:
 - Telecom
 - 5G
 - 6G
-- Mobile Networks
+- Mobile Network
 - Network Infrastructure
 - IP Networks
 - Optical Networks

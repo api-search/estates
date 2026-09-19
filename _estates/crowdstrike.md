@@ -4,19 +4,19 @@ category: Estates
 description: CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike API provides
   programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 estate_rating:
-  agent_avg: 7.4
+  agent_avg: 7.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.7
   agent_ready: 0
   band: emerging
   best: 27.2
-  composite_avg: 19.9
+  composite_avg: 20.0
   composite_band: emerging
   composite_raw: 16.1
   developing: 0
   exemplar: 0
-  rating: 14.9
+  rating: 15.0
   scored: 3
   spread: 22.2
   strength: 0

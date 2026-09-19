@@ -7,19 +7,19 @@ description: Autodesk is a global leader in design, engineering, and entertainme
   projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem
   including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.
 estate_rating:
-  agent_avg: 14.5
+  agent_avg: 14.6
   agent_band: emerging
   agent_native: 0
   agent_raw: 17.1
   agent_ready: 1
   band: emerging
   best: 50.2
-  composite_avg: 30.3
+  composite_avg: 30.5
   composite_band: thin
-  composite_raw: 36.1
+  composite_raw: 36.2
   developing: 4
   exemplar: 0
-  rating: 24.0
+  rating: 24.1
   scored: 7
   spread: 45.2
   strength: 4
@@ -68,7 +68,7 @@ member_bands:
     name: Autodesk Fusion
     relationship: product
     score_band: developing
-    score_composite: 43.4
+    score_composite: 44.1
     slug: autodesk-fusion
     source: declared
   - &id004
@@ -80,7 +80,7 @@ member_bands:
     name: Autodesk BIM 360
     relationship: product
     score_band: developing
-    score_composite: 41.6
+    score_composite: 41.8
     slug: autodesk-bim360
     source: declared
   label: Developing
@@ -197,7 +197,7 @@ tags:
 - CAD
 - Construction
 - Design
-- Digital Twins
+- Digital Twin
 - Engineering
 - Manufacturing
 - Media and Entertainment

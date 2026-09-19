@@ -14,19 +14,19 @@ description: Yahoo is a consumer internet and advertising-technology company ope
   client-credentials JWT flow. Yahoo publishes no OpenAPI for any of these surfaces, distributing a public
   Postman collection and an llms.txt documentation index instead.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 20.1
-  composite_avg: 19.4
+  composite_avg: 19.6
   composite_band: emerging
   composite_raw: 12.6
   developing: 0
   exemplar: 0
-  rating: 14.8
+  rating: 14.9
   scored: 2
   spread: 15.1
   strength: 0

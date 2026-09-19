@@ -14,19 +14,19 @@ description: OpenText Cybersecurity is the security business of OpenText, assemb
   CLI (fcli), a first-party MCP server inside that CLI, and a published set of Agent Skills for Claude
   Code, GitHub Copilot, Codex and Gemini CLI.
 estate_rating:
-  agent_avg: 11.0
+  agent_avg: 11.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.2
   agent_ready: 0
   band: emerging
   best: 54.9
-  composite_avg: 25.6
+  composite_avg: 25.8
   composite_band: thin
   composite_raw: 29.9
   developing: 0
   exemplar: 0
-  rating: 19.8
+  rating: 19.9
   scored: 4
   spread: 47.0
   strength: 2

@@ -6,19 +6,19 @@ description: Cloud communications platform providing APIs for SMS, voice, video,
   and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python,
   Ruby, Java, PHP, C#, and Go.
 estate_rating:
-  agent_avg: 13.4
+  agent_avg: 13.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 16.5
   agent_ready: 1
   band: emerging
   best: 80.0
-  composite_avg: 28.3
+  composite_avg: 28.4
   composite_band: thin
   composite_raw: 36.0
   developing: 1
   exemplar: 1
-  rating: 22.3
+  rating: 22.4
   scored: 4
   spread: 71.5
   strength: 4

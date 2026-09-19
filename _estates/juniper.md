@@ -4,24 +4,24 @@ category: Estates
 description: Juniper Networks provides high-performance networking and cybersecurity solutions for service
   providers, enterprises, and public sector organizations.
 estate_rating:
-  agent_avg: 13.9
+  agent_avg: 16.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.9
+  agent_raw: 28.4
   agent_ready: 1
   band: emerging
   best: 50.6
-  composite_avg: 25.0
+  composite_avg: 28.7
   composite_band: thin
-  composite_raw: 29.9
+  composite_raw: 44.5
   developing: 1
   exemplar: 0
-  rating: 20.6
-  scored: 3
-  spread: 50.0
+  rating: 23.6
+  scored: 2
+  spread: 12.2
   strength: 1
   strong: 0
-  worst: 0.6
+  worst: 38.4
 estate_root: null
 estate_root_name: null
 image: https://www.juniper.net/content/dam/www/assets/images/juniper-networks-logo.png
@@ -64,28 +64,22 @@ member_bands:
     source: declared
   label: Thin
   open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 1
+- band: unrated
+  blurb: Not yet scored
+  count: 2
   items:
   - &id003
     acquired: null
-    agent_band: human-only
-    agent_score: 0.0
+    agent_band: null
+    agent_score: null
     api_count: 0
     immediate_parent: juniper
     name: Argon Networks
     relationship: product
-    score_band: minimal
-    score_composite: 0.6
+    score_band: null
+    score_composite: null
     slug: argon
     source: prose
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 1
-  items:
   - &id004
     acquired: null
     agent_band: null
@@ -110,7 +104,7 @@ members:
 members_unrated: []
 name: Juniper Networks
 overview: 'Juniper Networks publishes its API surface across 4 provider profiles indexed on the APIs.io
-  network, of which 4 carry a rating. The rated members span 50.0 points, from 50.6 down to 0.6.
+  network, of which 4 carry a rating. The rated members span 12.2 points, from 50.6 down to 38.4.
 
 
   Its highest-rated surfaces are Mist, 128 Technology, Argon Networks, Peribit.'

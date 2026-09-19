@@ -5,21 +5,21 @@ description: Dropbox is a file hosting service operated by the American company 
   in San Francisco, California, U.S. that offers cloud storage, file synchronization, personal cloud,
   and client software.
 estate_rating:
-  agent_avg: 16.3
+  agent_avg: 18.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 23.0
+  agent_raw: 30.6
   agent_ready: 2
   band: emerging
-  best: 56.6
-  composite_avg: 24.7
-  composite_band: emerging
-  composite_raw: 27.9
+  best: 56.7
+  composite_avg: 27.3
+  composite_band: thin
+  composite_raw: 35.5
   developing: 1
   exemplar: 0
-  rating: 21.3
-  scored: 4
-  spread: 51.6
+  rating: 23.7
+  scored: 3
+  spread: 51.7
   strength: 3
   strong: 1
   worst: 5.0
@@ -42,7 +42,7 @@ member_bands:
     name: Dropbox Sign (HelloSign)
     relationship: product
     score_band: strong
-    score_composite: 56.6
+    score_composite: 56.7
     slug: hellosign
     source: prose
   label: Strong
@@ -67,21 +67,9 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 1
   items:
   - &id003
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: dropbox
-    name: Clementine
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: clementine
-    source: prose
-  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -97,8 +85,20 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 2
+  count: 3
   items:
+  - &id004
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: dropbox
+    name: Clementine
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: clementine
+    source: prose
   - &id005
     acquired: null
     agent_band: null
@@ -137,10 +137,10 @@ members:
 members_unrated: []
 name: Dropbox
 overview: 'Dropbox publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 51.6 points, from 56.6 down to 5.0.
+  of which 6 carry a rating. The rated members span 51.7 points, from 56.7 down to 5.0.
 
 
-  Its highest-rated surfaces are Dropbox Sign (HelloSign), DocSend, Clementine, Command E, Hackpad.'
+  Its highest-rated surfaces are Dropbox Sign (HelloSign), DocSend, Command E, Clementine, Hackpad.'
 parent_provider: dropbox
 permalink: /estates/dropbox/
 slug: dropbox

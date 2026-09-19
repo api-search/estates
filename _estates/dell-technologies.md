@@ -7,21 +7,21 @@ description: Dell Technologies is a global Fortune 500 technology company that d
   servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling
   automation of IT operations and integration into enterprise tooling.
 estate_rating:
-  agent_avg: 11.1
+  agent_avg: 12.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.2
+  agent_raw: 13.4
   agent_ready: 1
   band: emerging
-  best: 61.2
-  composite_avg: 24.3
-  composite_band: emerging
-  composite_raw: 26.2
+  best: 59.3
+  composite_avg: 26.2
+  composite_band: thin
+  composite_raw: 30.1
   developing: 1
   exemplar: 0
-  rating: 19.0
-  scored: 6
-  spread: 56.2
+  rating: 20.6
+  scored: 5
+  spread: 54.3
   strength: 3
   strong: 1
   worst: 5.0
@@ -44,7 +44,7 @@ member_bands:
     name: Moogsoft
     relationship: product
     score_band: strong
-    score_composite: 61.2
+    score_composite: 59.3
     slug: moogsoft
     source: prose
   label: Strong
@@ -87,7 +87,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 3
+  count: 2
   items:
   - &id004
     acquired: null
@@ -113,19 +113,25 @@ member_bands:
     score_composite: 5.0
     slug: scaleio
     source: prose
+  label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
   - &id006
     acquired: null
-    agent_band: human-only
-    agent_score: 0.0
+    agent_band: null
+    agent_score: null
     api_count: 0
     immediate_parent: emc
     name: Voyence
     relationship: product
-    score_band: minimal
-    score_composite: 5.0
+    score_band: null
+    score_composite: null
     slug: voyence
     source: prose
-  label: Minimal
+  label: Unrated
   open: false
 member_on_network: 6
 member_total: 6
@@ -139,7 +145,7 @@ members:
 members_unrated: []
 name: Dell Technologies
 overview: 'Dell Technologies publishes its API surface across 6 provider profiles indexed on the APIs.io
-  network, of which 6 carry a rating. The rated members span 56.2 points, from 61.2 down to 5.0.
+  network, of which 6 carry a rating. The rated members span 54.3 points, from 59.3 down to 5.0.
 
 
   Its highest-rated surfaces are Moogsoft, DataLoop, EMC, XtremIO, Scaleio.'
@@ -162,8 +168,8 @@ subfamilies:
     score_composite: 5.0
     slug: scaleio
   - name: Voyence
-    score_band: minimal
-    score_composite: 5.0
+    score_band: null
+    score_composite: null
     slug: voyence
   name: EMC
   on_network: true

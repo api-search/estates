@@ -5,20 +5,20 @@ description: Hewlett Packard Enterprise is a global edge-to-cloud company that p
   servers, storage, networking, software, services, and financial services to help customers capture value
   from data.
 estate_rating:
-  agent_avg: 5.2
+  agent_avg: 5.6
   agent_band: minimal
   agent_native: 0
-  agent_raw: 2.0
+  agent_raw: 2.2
   agent_ready: 0
   band: emerging
   best: 28.2
-  composite_avg: 14.4
+  composite_avg: 15.2
   composite_band: emerging
-  composite_raw: 10.1
+  composite_raw: 10.8
   developing: 0
   exemplar: 0
-  rating: 10.7
-  scored: 9
+  rating: 11.4
+  scored: 8
   spread: 23.2
   strength: 0
   strong: 0
@@ -79,7 +79,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 6
+  count: 5
   items:
   - &id004
     acquired: null
@@ -135,18 +135,6 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: hewlett-packard-enterprise
-    name: Plexxi *
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: plexxi
-    source: prose
-  - &id009
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: hewlett-packard-enterprise
     name: TidalScale
     relationship: product
     score_band: minimal
@@ -155,8 +143,8 @@ member_bands:
     source: prose
   label: Minimal
   open: false
-member_on_network: 9
-member_total: 9
+member_on_network: 8
+member_total: 8
 members:
 - *id001
 - *id002
@@ -166,11 +154,10 @@ members:
 - *id006
 - *id007
 - *id008
-- *id009
 members_unrated: []
 name: Hewlett Packard Enterprise
-overview: 'Hewlett Packard Enterprise publishes its API surface across 9 provider profiles indexed on
-  the APIs.io network, of which 9 carry a rating. The rated members span 23.2 points, from 28.2 down to
+overview: 'Hewlett Packard Enterprise publishes its API surface across 8 provider profiles indexed on
+  the APIs.io network, of which 8 carry a rating. The rated members span 23.2 points, from 28.2 down to
   5.0.
 
 

@@ -5,21 +5,21 @@ description: PTC is an industrial technology company providing software platform
   IoT (ThingWorx), Product Lifecycle Management (Windchill, Arena), Augmented Reality (Vuforia), Field
   Service Management (ServiceMax), and industrial connectivity (Kepware) in manufacturing environments.
 estate_rating:
-  agent_avg: 15.7
+  agent_avg: 15.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 23.7
   agent_ready: 1
   band: emerging
-  best: 51.0
-  composite_avg: 26.4
+  best: 51.1
+  composite_avg: 26.6
   composite_band: thin
-  composite_raw: 33.6
+  composite_raw: 33.7
   developing: 1
   exemplar: 0
-  rating: 22.1
+  rating: 22.3
   scored: 3
-  spread: 36.5
+  spread: 36.6
   strength: 1
   strong: 0
   worst: 14.5
@@ -42,7 +42,7 @@ member_bands:
     name: Onshape
     relationship: product
     score_band: developing
-    score_composite: 51.0
+    score_composite: 51.1
     slug: onshape
     source: prose
   label: Developing
@@ -92,7 +92,7 @@ members:
 members_unrated: []
 name: PTC
 overview: 'PTC publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 36.5 points, from 51.0 down to 14.5.
+  which 3 carry a rating. The rated members span 36.6 points, from 51.1 down to 14.5.
 
 
   Its highest-rated surfaces are Onshape, PTC ThingWorx, ServiceMax.'

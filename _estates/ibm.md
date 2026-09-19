@@ -1,26 +1,26 @@
 ---
-api_total: 59
+api_total: 57
 category: Estates
 description: A collection of IBM's public APIs and developer resources.
 estate_rating:
-  agent_avg: 10.9
+  agent_avg: 11.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 10.9
+  agent_raw: 11.6
   agent_ready: 3
   band: emerging
-  best: 63.2
-  composite_avg: 24.9
-  composite_band: emerging
-  composite_raw: 25.3
+  best: 63.0
+  composite_avg: 26.0
+  composite_band: thin
+  composite_raw: 26.5
   developing: 9
   exemplar: 0
-  rating: 19.3
-  scored: 38
-  spread: 62.3
+  rating: 20.2
+  scored: 36
+  spread: 58.0
   strength: 13
   strong: 2
-  worst: 0.9
+  worst: 5.0
 estate_root: null
 estate_root_name: null
 image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
@@ -34,13 +34,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.0
-    api_count: 7
+    agent_score: 32.7
+    api_count: 5
     immediate_parent: red-hat
     name: Red Hat Ansible Automation Platform
     relationship: product
     score_band: strong
-    score_composite: 63.2
+    score_composite: 63.0
     slug: red-hat-ansible-automation-platform
     source: declared
   - &id002
@@ -208,7 +208,7 @@ member_bands:
     name: HashiCorp
     relationship: acquisition
     score_band: thin
-    score_composite: 29.2
+    score_composite: 29.4
     slug: hashicorp
     source: declared
   - &id015
@@ -220,7 +220,7 @@ member_bands:
     name: Instana
     relationship: acquisition
     score_band: thin
-    score_composite: 28.2
+    score_composite: 27.5
     slug: instana
     source: declared
   - &id016
@@ -377,7 +377,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 11
+  count: 9
   items:
   - &id028
     acquired: null
@@ -457,25 +457,13 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: ibm
-    name: Cross Access
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: cross-access
-    source: prose
-  - &id035
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: ibm
     name: Internet Security Systems
     relationship: product
     score_band: minimal
     score_composite: 5.0
     slug: internet-security-systems
     source: prose
-  - &id036
+  - &id035
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -487,7 +475,7 @@ member_bands:
     score_composite: 5.0
     slug: qumranet
     source: prose
-  - &id037
+  - &id036
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -499,25 +487,13 @@ member_bands:
     score_composite: 5.0
     slug: seek-ai
     source: prose
-  - &id038
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: ibm
-    name: DWL
-    relationship: product
-    score_band: minimal
-    score_composite: 0.9
-    slug: dwl
-    source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 1
+  count: 3
   items:
-  - &id039
+  - &id037
     acquired: null
     agent_band: null
     agent_score: null
@@ -528,6 +504,30 @@ member_bands:
     score_band: null
     score_composite: null
     slug: blekko
+    source: prose
+  - &id038
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: ibm
+    name: Cross Access
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: cross-access
+    source: prose
+  - &id039
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: ibm
+    name: DWL
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: dwl
     source: prose
   label: Unrated
   open: false
@@ -576,7 +576,7 @@ members:
 members_unrated: []
 name: IBM
 overview: 'IBM publishes its API surface across 39 provider profiles indexed on the APIs.io network, of
-  which 39 carry a rating. The rated members span 62.3 points, from 63.2 down to 0.9.
+  which 39 carry a rating. The rated members span 58.0 points, from 63.0 down to 5.0.
 
 
   Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat, Cloudability, Red Hat 3scale,
@@ -593,7 +593,7 @@ subfamilies:
   members:
   - name: Red Hat Ansible Automation Platform
     score_band: strong
-    score_composite: 63.2
+    score_composite: 63.0
     slug: red-hat-ansible-automation-platform
   - name: Red Hat 3scale
     score_band: developing
@@ -660,7 +660,7 @@ tags:
 - Cloud Computing
 - Containers
 - Data Governance
-- Databases
+- Database
 - DevOps
 - Enterprise
 - Generative AI

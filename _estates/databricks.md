@@ -3,19 +3,19 @@ api_total: 1
 category: Estates
 description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
 estate_rating:
-  agent_avg: 9.0
+  agent_avg: 9.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.7
   agent_ready: 0
   band: emerging
   best: 63.7
-  composite_avg: 23.0
+  composite_avg: 23.2
   composite_band: emerging
   composite_raw: 24.2
   developing: 0
   exemplar: 0
-  rating: 17.4
+  rating: 17.6
   scored: 4
   spread: 58.7
   strength: 2
@@ -139,7 +139,7 @@ tags:
 - Analytics
 - Apache Spark
 - Big Data
-- Cleanrooms
+- Cleanroom
 - Cloud Computing
 - Data
 - Data Analytics

@@ -7,23 +7,23 @@ description: Broadcom is a global technology company that specializes in the des
   electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets,
   routers, and smart TVs.
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 9.8
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.9
-  agent_ready: 0
+  agent_raw: 9.4
+  agent_ready: 1
   band: emerging
-  best: 54.3
-  composite_avg: 17.7
+  best: 57.6
+  composite_avg: 21.9
   composite_band: emerging
-  composite_raw: 16.7
-  developing: 2
+  composite_raw: 21.8
+  developing: 3
   exemplar: 0
-  rating: 13.3
-  scored: 24
-  spread: 53.7
-  strength: 4
-  strong: 1
+  rating: 17.1
+  scored: 20
+  spread: 57.0
+  strength: 7
+  strong: 2
   worst: 0.6
 estate_root: null
 estate_root_name: null
@@ -33,9 +33,21 @@ layout: estate
 member_bands:
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 1
+  count: 2
   items:
   - &id001
+    acquired: 2018
+    agent_band: agent-ready
+    agent_score: 38.9
+    api_count: 8
+    immediate_parent: vmware
+    name: CloudHealth
+    relationship: acquisition
+    score_band: strong
+    score_composite: 57.6
+    slug: cloudhealth
+    source: declared
+  - &id002
     acquired: 2023
     agent_band: agent-aware
     agent_score: 24.8
@@ -51,9 +63,9 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 2
+  count: 3
   items:
-  - &id002
+  - &id003
     acquired: 2017
     agent_band: agent-aware
     agent_score: 19.8
@@ -65,7 +77,7 @@ member_bands:
     score_composite: 45.2
     slug: brocade
     source: declared
-  - &id003
+  - &id004
     acquired: 2019
     agent_band: agent-aware
     agent_score: 22.3
@@ -77,25 +89,37 @@ member_bands:
     score_composite: 40.7
     slug: symantec
     source: declared
+  - &id005
+    acquired: 2021
+    agent_band: agent-aware
+    agent_score: 28.1
+    api_count: 2
+    immediate_parent: broadcom
+    name: AppNeta
+    relationship: acquisition
+    score_band: developing
+    score_composite: 39.6
+    slug: appneta
+    source: declared
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 3
+  count: 2
   items:
-  - &id004
-    acquired: 2018
+  - &id006
+    acquired: 2013
     agent_band: agent-aware
-    agent_score: 22.7
-    api_count: 8
-    immediate_parent: vmware
-    name: CloudHealth
+    agent_score: 24.6
+    api_count: 2
+    immediate_parent: ca
+    name: Flowdock (Discontinued)
     relationship: acquisition
     score_band: thin
-    score_composite: 38.2
-    slug: cloudhealth
+    score_composite: 37.9
+    slug: flowdock
     source: declared
-  - &id005
+  - &id007
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -107,25 +131,13 @@ member_bands:
     score_composite: 36.4
     slug: vmware-tanzu
     source: declared
-  - &id006
-    acquired: 2013
-    agent_band: agent-aware
-    agent_score: 19.6
-    api_count: 2
-    immediate_parent: ca
-    name: Flowdock (Discontinued)
-    relationship: acquisition
-    score_band: thin
-    score_composite: 29.6
-    slug: flowdock
-    source: declared
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 5
+  count: 4
   items:
-  - &id007
+  - &id008
     acquired: 2020
     agent_band: agent-aware
     agent_score: 5.4
@@ -137,7 +149,7 @@ member_bands:
     score_composite: 23.5
     slug: lastline
     source: declared
-  - &id008
+  - &id009
     acquired: 2018
     agent_band: human-only
     agent_score: 2.5
@@ -149,7 +161,7 @@ member_bands:
     score_composite: 21.3
     slug: ca
     source: declared
-  - &id009
+  - &id010
     acquired: 2019
     agent_band: human-only
     agent_score: 2.5
@@ -161,7 +173,7 @@ member_bands:
     score_composite: 19.8
     slug: carbon-black
     source: declared
-  - &id010
+  - &id011
     acquired: 2016
     agent_band: human-only
     agent_score: 0.0
@@ -173,23 +185,11 @@ member_bands:
     score_composite: 14.5
     slug: bluecoat-symantec
     source: declared
-  - &id011
-    acquired: 2021
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 2
-    immediate_parent: broadcom
-    name: AppNeta
-    relationship: acquisition
-    score_band: emerging
-    score_composite: 12.5
-    slug: appneta
-    source: declared
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 13
+  count: 9
   items:
   - &id012
     acquired: 2019
@@ -240,42 +240,6 @@ member_bands:
     slug: avago-technologies
     source: declared
   - &id016
-    acquired: 2017
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: vmware
-    name: Apteligent
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: apteligent
-    source: declared
-  - &id017
-    acquired: 2016
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: carbon-black
-    name: Confer Technologies
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: confer
-    source: declared
-  - &id018
-    acquired: 2017
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: symantec
-    name: Fireglass
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: fireglass
-    source: declared
-  - &id019
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -287,19 +251,7 @@ member_bands:
     score_composite: 5.0
     slug: lsi
     source: prose
-  - &id020
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: avago-technologies
-    name: LSI Logic
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: lsi-logic
-    source: prose
-  - &id021
+  - &id017
     acquired: 2012
     agent_band: human-only
     agent_score: 0.0
@@ -311,7 +263,7 @@ member_bands:
     score_composite: 5.0
     slug: nicira-networks
     source: declared
-  - &id022
+  - &id018
     acquired: 2020
     agent_band: human-only
     agent_score: 0.0
@@ -323,7 +275,7 @@ member_bands:
     score_composite: 5.0
     slug: octarine
     source: declared
-  - &id023
+  - &id019
     acquired: 2010
     agent_band: human-only
     agent_score: 0.0
@@ -335,7 +287,7 @@ member_bands:
     score_composite: 1.5
     slug: arcot-systems
     source: declared
-  - &id024
+  - &id020
     acquired: 2000
     agent_band: human-only
     agent_score: 0.0
@@ -351,9 +303,21 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 4
+  count: 8
   items:
-  - &id025
+  - &id021
+    acquired: 2017
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: vmware
+    name: Apteligent
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: apteligent
+    source: declared
+  - &id022
     acquired: 2004
     agent_band: null
     agent_score: null
@@ -365,7 +329,7 @@ member_bands:
     score_composite: null
     slug: brightmail
     source: declared
-  - &id026
+  - &id023
     acquired: null
     agent_band: null
     agent_score: null
@@ -377,7 +341,19 @@ member_bands:
     score_composite: null
     slug: concord-data-systems
     source: prose
-  - &id027
+  - &id024
+    acquired: 2016
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: carbon-black
+    name: Confer Technologies
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: confer
+    source: declared
+  - &id025
     acquired: 2020
     agent_band: null
     agent_score: null
@@ -389,7 +365,19 @@ member_bands:
     score_composite: null
     slug: datrium
     source: declared
-  - &id028
+  - &id026
+    acquired: 2017
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: symantec
+    name: Fireglass
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: fireglass
+    source: declared
+  - &id027
     acquired: 2018
     agent_band: null
     agent_score: null
@@ -401,6 +389,18 @@ member_bands:
     score_composite: null
     slug: heptio
     source: declared
+  - &id028
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: avago-technologies
+    name: LSI Logic
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: lsi-logic
+    source: prose
   label: Unrated
   open: false
 member_on_network: 28
@@ -437,10 +437,10 @@ members:
 members_unrated: []
 name: Broadcom
 overview: 'Broadcom publishes its API surface across 28 provider profiles indexed on the APIs.io network,
-  of which 28 carry a rating. The rated members span 53.7 points, from 54.3 down to 0.6.
+  of which 28 carry a rating. The rated members span 57.0 points, from 57.6 down to 0.6.
 
 
-  Its highest-rated surfaces are VMware, Brocade, Symantec, CloudHealth, VMware Tanzu.'
+  Its highest-rated surfaces are CloudHealth, VMware, Brocade, Symantec, AppNeta.'
 parent_provider: broadcom
 permalink: /estates/broadcom/
 slug: broadcom
@@ -452,8 +452,8 @@ subfamilies:
   member_count: 12
   members:
   - name: CloudHealth
-    score_band: thin
-    score_composite: 38.2
+    score_band: strong
+    score_composite: 57.6
     slug: cloudhealth
   - name: VMware Tanzu
     score_band: thin
@@ -475,14 +475,6 @@ subfamilies:
     score_band: minimal
     score_composite: 6.9
     slug: springsource
-  - name: Apteligent
-    score_band: minimal
-    score_composite: 5.0
-    slug: apteligent
-  - name: Confer Technologies
-    score_band: minimal
-    score_composite: 5.0
-    slug: confer
   - name: Nicira Networks
     score_band: minimal
     score_composite: 5.0
@@ -491,6 +483,14 @@ subfamilies:
     score_band: minimal
     score_composite: 5.0
     slug: octarine
+  - name: Apteligent
+    score_band: null
+    score_composite: null
+    slug: apteligent
+  - name: Confer Technologies
+    score_band: null
+    score_composite: null
+    slug: confer
   - name: Datrium
     score_band: null
     score_composite: null
@@ -508,7 +508,7 @@ subfamilies:
   members:
   - name: Flowdock (Discontinued)
     score_band: thin
-    score_composite: 29.6
+    score_composite: 37.9
     slug: flowdock
   - name: Arcot Systems
     score_band: minimal
@@ -529,14 +529,14 @@ subfamilies:
     score_band: emerging
     score_composite: 14.5
     slug: bluecoat-symantec
-  - name: Fireglass
-    score_band: minimal
-    score_composite: 5.0
-    slug: fireglass
   - name: Brightmail
     score_band: null
     score_composite: null
     slug: brightmail
+  - name: Fireglass
+    score_band: null
+    score_composite: null
+    slug: fireglass
   name: Symantec
   on_network: true
   permalink: /estates/symantec/
@@ -549,8 +549,8 @@ subfamilies:
     score_composite: 5.0
     slug: lsi
   - name: LSI Logic
-    score_band: minimal
-    score_composite: 5.0
+    score_band: null
+    score_composite: null
     slug: lsi-logic
   name: Avago Technologies
   on_network: true
@@ -576,5 +576,6 @@ tags:
 - Observability
 - Virtualization
 - Fortune 500
+- Broadcom
 title: Broadcom
 ---

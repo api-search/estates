@@ -7,24 +7,24 @@ description: Symantec (now part of Broadcom) is a leading enterprise cybersecuri
   Detection and Response (EDR), Data Loss Prevention (DLP), and the Integrated Cyber Defense Manager (ICDm)
   platform.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 9.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 14.5
-  composite_avg: 18.6
+  composite_avg: 21.1
   composite_band: emerging
-  composite_raw: 9.8
+  composite_raw: 14.5
   developing: 0
   exemplar: 0
-  rating: 14.3
-  scored: 2
-  spread: 9.5
+  rating: 16.3
+  scored: 1
+  spread: null
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 14.5
 estate_root: broadcom
 estate_root_name: Broadcom
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/symantec.png
@@ -49,29 +49,11 @@ member_bands:
     source: declared
   label: Emerging
   open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 1
-  items:
-  - &id002
-    acquired: 2017
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: symantec
-    name: Fireglass
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: fireglass
-    source: declared
-  label: Minimal
-  open: false
 - band: unrated
   blurb: Not yet scored
-  count: 1
+  count: 2
   items:
-  - &id003
+  - &id002
     acquired: 2004
     agent_band: null
     agent_score: null
@@ -82,6 +64,18 @@ member_bands:
     score_band: null
     score_composite: null
     slug: brightmail
+    source: declared
+  - &id003
+    acquired: 2017
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: symantec
+    name: Fireglass
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: fireglass
     source: declared
   label: Unrated
   open: false
@@ -94,10 +88,10 @@ members:
 members_unrated: []
 name: Symantec
 overview: 'Symantec publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 9.5 points, from 14.5 down to 5.0.
+  of which 3 carry a rating.
 
 
-  Its highest-rated surfaces are Bluecoat (Symantec), Fireglass, Brightmail.'
+  Its highest-rated surfaces are Bluecoat (Symantec), Brightmail, Fireglass.'
 parent_provider: symantec
 permalink: /estates/symantec/
 slug: symantec

@@ -5,21 +5,21 @@ description: Zoho is a comprehensive cloud software suite offering 55+ integrate
   for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by
   over 130 million users worldwide.
 estate_rating:
-  agent_avg: 21.3
+  agent_avg: 21.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 24.2
+  agent_raw: 24.5
   agent_ready: 7
   band: thin
-  best: 75.8
-  composite_avg: 36.7
+  best: 75.7
+  composite_avg: 36.8
   composite_band: thin
   composite_raw: 40.8
   developing: 7
   exemplar: 2
-  rating: 30.5
+  rating: 30.7
   scored: 18
-  spread: 57.7
+  spread: 57.6
   strength: 13
   strong: 0
   worst: 18.1
@@ -42,7 +42,7 @@ member_bands:
     name: Zoho CRM
     relationship: product
     score_band: exemplar
-    score_composite: 75.8
+    score_composite: 75.7
     slug: zoho-crm
     source: declared
   - &id002
@@ -96,13 +96,13 @@ member_bands:
     name: Zoho Sign
     relationship: product
     score_band: developing
-    score_composite: 46.9
+    score_composite: 45.9
     slug: zoho-sign
     source: declared
   - &id006
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 35.6
     api_count: 22
     immediate_parent: zoho
     name: Zoho Cliq
@@ -155,6 +155,18 @@ member_bands:
   items:
   - &id010
     acquired: null
+    agent_band: agent-aware
+    agent_score: 24.8
+    api_count: 1
+    immediate_parent: zoho
+    name: Zoho Creator
+    relationship: product
+    score_band: thin
+    score_composite: 38.0
+    slug: zoho-creator
+    source: declared
+  - &id011
+    acquired: null
     agent_band: agent-ready
     agent_score: 34.9
     api_count: 1
@@ -164,18 +176,6 @@ member_bands:
     score_band: thin
     score_composite: 38.0
     slug: zoho-writer
-    source: declared
-  - &id011
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
-    api_count: 1
-    immediate_parent: zoho
-    name: Zoho Creator
-    relationship: product
-    score_band: thin
-    score_composite: 37.3
-    slug: zoho-creator
     source: declared
   - &id012
     acquired: null
@@ -293,7 +293,7 @@ members:
 members_unrated: []
 name: Zoho
 overview: 'Zoho publishes its API surface across 18 provider profiles indexed on the APIs.io network,
-  of which 18 carry a rating. The rated members span 57.7 points, from 75.8 down to 18.1.
+  of which 18 carry a rating. The rated members span 57.6 points, from 75.7 down to 18.1.
 
 
   Its highest-rated surfaces are Zoho CRM, Zoho Campaigns, Zoho Inventory, Zoho People, Zoho Sign.'
@@ -314,5 +314,6 @@ tags:
 - Finance
 - Human Resources
 - Project Management
+- Zoho
 title: Zoho
 ---

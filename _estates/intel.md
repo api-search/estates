@@ -4,24 +4,24 @@ category: Estates
 description: Discover Intel® Trust Authority, the independent attestation service for securing your confidential
   computing workloads.
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 7.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 3.3
+  agent_raw: 4.0
   agent_ready: 0
   band: emerging
-  best: 27.4
-  composite_avg: 15.8
+  best: 28.1
+  composite_avg: 17.6
   composite_band: emerging
-  composite_raw: 10.6
+  composite_raw: 12.7
   developing: 0
   exemplar: 0
-  rating: 12.2
-  scored: 6
-  spread: 26.5
+  rating: 13.6
+  scored: 5
+  spread: 26.3
   strength: 0
   strong: 0
-  worst: 0.9
+  worst: 1.8
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intel.png
@@ -41,7 +41,7 @@ member_bands:
     name: Moovit
     relationship: product
     score_band: thin
-    score_composite: 27.4
+    score_composite: 28.1
     slug: moovit
     source: prose
   label: Thin
@@ -66,7 +66,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 4
+  count: 3
   items:
   - &id003
     acquired: null
@@ -104,24 +104,24 @@ member_bands:
     score_composite: 1.8
     slug: aepona
     source: prose
-  - &id006
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: intel
-    name: KNO
-    relationship: product
-    score_band: minimal
-    score_composite: 0.9
-    slug: kno
-    source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 2
+  count: 3
   items:
+  - &id006
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: intel
+    name: KNO
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: kno
+    source: prose
   - &id007
     acquired: null
     agent_band: null
@@ -162,7 +162,7 @@ members:
 members_unrated: []
 name: Intel
 overview: 'Intel publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 26.5 points, from 27.4 down to 0.9.
+  of which 8 carry a rating. The rated members span 26.3 points, from 28.1 down to 1.8.
 
 
   Its highest-rated surfaces are Moovit, Granulate, Habana Labs, Mobileye, Aepona.'

@@ -10,20 +10,20 @@ description: 'Take-Two Interactive Software, Inc. (NASDAQ: TTWO) is a US interac
   Its developer-surface hosts (docs.take2games.com, dev.take2games.com) redirect every request to a FusionAuth
   SSO login.'
 estate_rating:
-  agent_avg: 4.4
+  agent_avg: 4.8
   agent_band: minimal
   agent_native: 0
-  agent_raw: 0.3
+  agent_raw: 0.4
   agent_ready: 0
-  band: minimal
+  band: emerging
   best: 14.3
-  composite_avg: 12.9
+  composite_avg: 13.7
   composite_band: emerging
-  composite_raw: 7.2
+  composite_raw: 7.5
   developing: 0
   exemplar: 0
-  rating: 9.5
-  scored: 8
+  rating: 10.1
+  scored: 7
   spread: 9.3
   strength: 0
   strong: 0
@@ -66,7 +66,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 6
+  count: 5
   items:
   - &id003
     acquired: null
@@ -86,25 +86,13 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: zynga
-    name: DNA Games
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: dna-games
-    source: prose
-  - &id005
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: zynga
     name: naturalmotion
     relationship: product
     score_band: minimal
     score_composite: 5.0
     slug: naturalmotion
     source: prose
-  - &id006
+  - &id005
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -116,7 +104,7 @@ member_bands:
     score_composite: 5.0
     slug: peak-games
     source: prose
-  - &id007
+  - &id006
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -128,7 +116,7 @@ member_bands:
     score_composite: 5.0
     slug: small-giant-games
     source: prose
-  - &id008
+  - &id007
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -141,6 +129,24 @@ member_bands:
     slug: storemaven
     source: prose
   label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id008
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: zynga
+    name: DNA Games
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: dna-games
+    source: prose
+  label: Unrated
   open: false
 member_on_network: 8
 member_total: 8
@@ -160,7 +166,7 @@ overview: 'Take-Two Interactive Software publishes its API surface across 8 prov
   to 5.0.
 
 
-  Its highest-rated surfaces are Rockstar Games, Zynga, Dots, DNA Games, naturalmotion.'
+  Its highest-rated surfaces are Rockstar Games, Zynga, Dots, naturalmotion, Peak Games.'
 parent_provider: take-two-interactive
 permalink: /estates/take-two-interactive/
 slug: take-two-interactive
@@ -171,10 +177,6 @@ subfamilies:
 - has_page: true
   member_count: 5
   members:
-  - name: DNA Games
-    score_band: minimal
-    score_composite: 5.0
-    slug: dna-games
   - name: naturalmotion
     score_band: minimal
     score_composite: 5.0
@@ -191,6 +193,10 @@ subfamilies:
     score_band: minimal
     score_composite: 5.0
     slug: storemaven
+  - name: DNA Games
+    score_band: null
+    score_composite: null
+    slug: dna-games
   name: Zynga
   on_network: true
   permalink: /estates/zynga/

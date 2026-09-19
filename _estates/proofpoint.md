@@ -11,19 +11,19 @@ description: 'Proofpoint is an enterprise cybersecurity company focused on human
   public HTML and every one of them is credential-gated at runtime; Proofpoint publishes no OpenAPI, AsyncAPI,
   GraphQL or MCP contract for any of them.'
 estate_rating:
-  agent_avg: 8.9
+  agent_avg: 9.0
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.5
   agent_ready: 0
   band: emerging
   best: 31.7
-  composite_avg: 18.2
+  composite_avg: 18.3
   composite_band: emerging
   composite_raw: 13.2
   developing: 0
   exemplar: 0
-  rating: 14.5
+  rating: 14.6
   scored: 4
   spread: 26.7
   strength: 0

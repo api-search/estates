@@ -1,25 +1,25 @@
 ---
-api_total: 100
+api_total: 99
 category: Estates
 description: Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring
   stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including
   BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise
   services.
 estate_rating:
-  agent_avg: 7.4
+  agent_avg: 7.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.9
+  agent_raw: 7.0
   agent_ready: 0
   band: emerging
   best: 54.5
-  composite_avg: 25.3
+  composite_avg: 25.4
   composite_band: thin
-  composite_raw: 25.7
+  composite_raw: 25.8
   developing: 4
   exemplar: 0
-  rating: 18.1
-  scored: 36
+  rating: 18.2
+  scored: 35
   spread: 44.8
   strength: 6
   strong: 1
@@ -194,13 +194,13 @@ member_bands:
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 23
+  count: 22
   items:
   - &id013
     acquired: null
     agent_band: human-only
     agent_score: 2.5
-    api_count: 4
+    api_count: 6
     immediate_parent: bloomberg
     name: Bloomberg Terminal
     relationship: product
@@ -224,18 +224,6 @@ member_bands:
     acquired: null
     agent_band: human-only
     agent_score: 2.5
-    api_count: 3
-    immediate_parent: bloomberg
-    name: Bloomberg Terminals
-    relationship: product
-    score_band: emerging
-    score_composite: 21.1
-    slug: bloomberg-terminals
-    source: declared
-  - &id016
-    acquired: null
-    agent_band: human-only
-    agent_score: 2.5
     api_count: 2
     immediate_parent: bloomberg
     name: Bloomberg Government (BGOV)
@@ -244,7 +232,7 @@ member_bands:
     score_composite: 20.6
     slug: bloomberg-government-bgov
     source: declared
-  - &id017
+  - &id016
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -256,7 +244,7 @@ member_bands:
     score_composite: 20.3
     slug: bloomberg-valuation-service-bval
     source: declared
-  - &id018
+  - &id017
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -268,7 +256,7 @@ member_bands:
     score_composite: 20.0
     slug: bloomberg-platform
     source: declared
-  - &id019
+  - &id018
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -280,7 +268,7 @@ member_bands:
     score_composite: 20.0
     slug: bloomberg-products-and-platforms
     source: declared
-  - &id020
+  - &id019
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -292,7 +280,7 @@ member_bands:
     score_composite: 20.0
     slug: bloomberg-television-and-radio
     source: declared
-  - &id021
+  - &id020
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -304,7 +292,7 @@ member_bands:
     score_composite: 20.0
     slug: bloomberg-tv
     source: declared
-  - &id022
+  - &id021
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -316,7 +304,7 @@ member_bands:
     score_composite: 19.7
     slug: bloomberg-excel-plug-ins
     source: declared
-  - &id023
+  - &id022
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -328,7 +316,7 @@ member_bands:
     score_composite: 19.7
     slug: bloomberg-financial-solutions
     source: declared
-  - &id024
+  - &id023
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -340,7 +328,7 @@ member_bands:
     score_composite: 19.7
     slug: bloomberg-product-suite
     source: declared
-  - &id025
+  - &id024
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -352,7 +340,7 @@ member_bands:
     score_composite: 19.7
     slug: bloomberg-tax-btax
     source: declared
-  - &id026
+  - &id025
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -364,7 +352,7 @@ member_bands:
     score_composite: 19.6
     slug: bloomberg-esg-products
     source: declared
-  - &id027
+  - &id026
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -376,7 +364,7 @@ member_bands:
     score_composite: 19.6
     slug: bloomberg-indices
     source: declared
-  - &id028
+  - &id027
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -388,7 +376,7 @@ member_bands:
     score_composite: 19.6
     slug: bloomberg-sustainable-finance-products
     source: declared
-  - &id029
+  - &id028
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -400,7 +388,7 @@ member_bands:
     score_composite: 19.4
     slug: bloomberg-media-platforms
     source: declared
-  - &id030
+  - &id029
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -412,7 +400,7 @@ member_bands:
     score_composite: 19.3
     slug: bloomberg-tradebook
     source: declared
-  - &id031
+  - &id030
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -424,7 +412,7 @@ member_bands:
     score_composite: 19.1
     slug: bloomberg-index-solutions-limited-bisl
     source: declared
-  - &id032
+  - &id031
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -436,7 +424,7 @@ member_bands:
     score_composite: 19.1
     slug: bloomberg-instant-messaging
     source: declared
-  - &id033
+  - &id032
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -448,7 +436,7 @@ member_bands:
     score_composite: 19.1
     slug: bloomberg-message
     source: declared
-  - &id034
+  - &id033
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -460,7 +448,7 @@ member_bands:
     score_composite: 19.1
     slug: bloomberg-query-language-bql
     source: declared
-  - &id035
+  - &id034
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -478,7 +466,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 1
   items:
-  - &id036
+  - &id035
     acquired: 2020
     agent_band: human-only
     agent_score: 0.0
@@ -491,6 +479,24 @@ member_bands:
     slug: second-measure
     source: declared
   label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id036
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: bloomberg
+    name: Bloomberg Terminals
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: bloomberg-terminals
+    source: declared
+  label: Unrated
   open: false
 member_on_network: 36
 member_total: 36

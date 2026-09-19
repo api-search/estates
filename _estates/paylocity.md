@@ -7,21 +7,21 @@ description: Paylocity is a cloud-based human capital management (HCM) and payro
   self-service tools. The Paylocity API uses OAuth 2.0 client credentials over api.paylocity.com to expose
   employee, payroll, deduction, earning, and onboarding data for partner integrations and customer automations.
 estate_rating:
-  agent_avg: 10.6
+  agent_avg: 10.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.1
   agent_ready: 0
   band: emerging
-  best: 40.0
-  composite_avg: 21.2
+  best: 40.7
+  composite_avg: 21.5
   composite_band: emerging
-  composite_raw: 19.7
+  composite_raw: 19.9
   developing: 1
   exemplar: 0
-  rating: 17.0
+  rating: 17.2
   scored: 3
-  spread: 34.3
+  spread: 35.0
   strength: 1
   strong: 0
   worst: 5.7
@@ -44,7 +44,7 @@ member_bands:
     name: VidGrid
     relationship: product
     score_band: developing
-    score_composite: 40.0
+    score_composite: 40.7
     slug: vidgrid
     source: prose
   label: Developing
@@ -94,7 +94,7 @@ members:
 members_unrated: []
 name: Paylocity
 overview: 'Paylocity publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 34.3 points, from 40.0 down to 5.7.
+  of which 3 carry a rating. The rated members span 35.0 points, from 40.7 down to 5.7.
 
 
   Its highest-rated surfaces are VidGrid, Airbase, Trace.'
@@ -107,7 +107,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs
 subfamilies: []
 subfamily_page_count: 0
 tags:
-- HR
+- Human Resources
 - Payroll
 - HCM
 - Benefits

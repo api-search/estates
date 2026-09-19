@@ -1,26 +1,26 @@
 ---
-api_total: 128
+api_total: 127
 category: Estates
 description: Collection of SAP's enterprise APIs for business applications and cloud services.
 estate_rating:
-  agent_avg: 18.6
+  agent_avg: 19.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 20.6
+  agent_raw: 21.8
   agent_ready: 4
   band: thin
   best: 51.8
-  composite_avg: 32.4
+  composite_avg: 33.5
   composite_band: thin
-  composite_raw: 35.1
+  composite_raw: 36.6
   developing: 9
   exemplar: 0
-  rating: 26.9
-  scored: 19
-  spread: 39.1
+  rating: 27.9
+  scored: 18
+  spread: 37.1
   strength: 9
   strong: 0
-  worst: 12.7
+  worst: 14.7
 estate_root: null
 estate_root_name: null
 image: ''
@@ -112,7 +112,7 @@ member_bands:
     name: SAP Fieldglass
     relationship: product
     score_band: developing
-    score_composite: 42.0
+    score_composite: 42.4
     slug: sap-fieldglass
     source: declared
   - &id008
@@ -143,7 +143,7 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 6
+  count: 7
   items:
   - &id010
     acquired: null
@@ -217,12 +217,6 @@ member_bands:
     score_composite: 26.7
     slug: sap-commerce
     source: declared
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 4
-  items:
   - &id016
     acquired: null
     agent_band: agent-aware
@@ -231,10 +225,16 @@ member_bands:
     immediate_parent: sap
     name: SAP SuccessFactors
     relationship: product
-    score_band: emerging
-    score_composite: 23.2
+    score_band: thin
+    score_composite: 26.5
     slug: sap-successfactors
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
+  items:
   - &id017
     acquired: null
     agent_band: agent-aware
@@ -259,37 +259,13 @@ member_bands:
     score_composite: 14.7
     slug: sap-america
     source: declared
-  - &id019
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 1
-    immediate_parent: sap
-    name: Successfactors
-    relationship: product
-    score_band: emerging
-    score_composite: 12.7
-    slug: successfactors
-    source: prose
   label: Emerging
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 3
+  count: 2
   items:
-  - &id020
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: successfactors
-    name: CubeTree
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: cubetree
-    source: prose
-  - &id021
+  - &id019
     acquired: null
     agent_band: null
     agent_score: null
@@ -301,7 +277,7 @@ member_bands:
     score_composite: null
     slug: outlooksoft
     source: prose
-  - &id022
+  - &id020
     acquired: null
     agent_band: null
     agent_score: null
@@ -315,8 +291,8 @@ member_bands:
     source: prose
   label: Unrated
   open: false
-member_on_network: 22
-member_total: 22
+member_on_network: 20
+member_total: 20
 members:
 - *id001
 - *id002
@@ -338,12 +314,10 @@ members:
 - *id018
 - *id019
 - *id020
-- *id021
-- *id022
 members_unrated: []
 name: SAP
-overview: 'SAP publishes its API surface across 22 provider profiles indexed on the APIs.io network, of
-  which 22 carry a rating. The rated members span 39.1 points, from 51.8 down to 12.7.
+overview: 'SAP publishes its API surface across 20 provider profiles indexed on the APIs.io network, of
+  which 20 carry a rating. The rated members span 37.1 points, from 51.8 down to 14.7.
 
 
   Its highest-rated surfaces are SAP BRIM (Billing and Revenue Innovation Management), SAP BI Tools, SAP
@@ -354,18 +328,7 @@ slug: sap
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/apis.yml
-subfamilies:
-- has_page: false
-  member_count: 1
-  members:
-  - name: CubeTree
-    score_band: null
-    score_composite: null
-    slug: cubetree
-  name: Successfactors
-  on_network: true
-  permalink: /estates/successfactors/
-  slug: successfactors
+subfamilies: []
 subfamily_page_count: 0
 tags:
 - Artificial Intelligence

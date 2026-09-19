@@ -9,19 +9,19 @@ description: A connected fitness company offering stationary bikes, treadmills, 
   surfaces are internal and only reachable through the consumer apps. Reverse-engineered community libraries
   exist on GitHub but are unsupported by Peloton.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 10.5
-  composite_avg: 17.8
+  composite_avg: 18.0
   composite_band: emerging
   composite_raw: 7.0
   developing: 0
   exemplar: 0
-  rating: 13.8
+  rating: 14.0
   scored: 2
   spread: 7.0
   strength: 0

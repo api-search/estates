@@ -7,20 +7,20 @@ description: LinkedIn is a professional networking platform providing APIs for c
   sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data
   portability.
 estate_rating:
-  agent_avg: 8.8
+  agent_avg: 9.9
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.8
+  agent_raw: 8.5
   agent_ready: 1
   band: emerging
   best: 59.5
-  composite_avg: 19.3
+  composite_avg: 21.0
   composite_band: emerging
-  composite_raw: 16.4
+  composite_raw: 19.2
   developing: 0
   exemplar: 0
-  rating: 15.1
-  scored: 5
+  rating: 16.6
+  scored: 4
   spread: 54.5
   strength: 2
   strong: 1
@@ -51,7 +51,7 @@ member_bands:
   open: true
 - band: minimal
   blurb: Almost no public developer surface
-  count: 4
+  count: 3
   items:
   - &id002
     acquired: null
@@ -71,25 +71,13 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: linkedin
-    name: Connected
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: connected
-    source: prose
-  - &id004
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: linkedin
     name: Drawbridge
     relationship: product
     score_band: minimal
     score_composite: 5.0
     slug: drawbridge
     source: prose
-  - &id005
+  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -105,9 +93,9 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 3
+  count: 4
   items:
-  - &id006
+  - &id005
     acquired: null
     agent_band: null
     agent_score: null
@@ -118,6 +106,18 @@ member_bands:
     score_band: null
     score_composite: null
     slug: cardmunch
+    source: prose
+  - &id006
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: linkedin
+    name: Connected
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: connected
     source: prose
   - &id007
     acquired: null
@@ -162,7 +162,7 @@ overview: 'LinkedIn publishes its API surface across 8 provider profiles indexed
   of which 8 carry a rating. The rated members span 54.5 points, from 59.5 down to 5.0.
 
 
-  Its highest-rated surfaces are LinkedIn Marketing API, Glint, Connected, Drawbridge, Fliptop.'
+  Its highest-rated surfaces are LinkedIn Marketing API, Glint, Drawbridge, Fliptop, Cardmunch.'
 parent_provider: linkedin
 permalink: /estates/linkedin/
 slug: linkedin

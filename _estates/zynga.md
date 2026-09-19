@@ -12,20 +12,20 @@ description: 'Zynga is a mobile and social game developer and publisher, founded
   "Zynga API" announced at Zynga Unleashed in 2011-2012 was retired with the zynga.com third-party publishing
   platform, and developers.zynga.com no longer resolves.'
 estate_rating:
-  agent_avg: 5.4
+  agent_avg: 6.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.0
-  composite_avg: 13.6
+  composite_avg: 14.7
   composite_band: emerging
   composite_raw: 5.0
   developing: 0
   exemplar: 0
-  rating: 10.3
-  scored: 5
+  rating: 11.3
+  scored: 4
   spread: 0.0
   strength: 0
   strong: 0
@@ -38,21 +38,9 @@ layout: estate
 member_bands:
 - band: minimal
   blurb: Almost no public developer surface
-  count: 5
+  count: 4
   items:
   - &id001
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: zynga
-    name: DNA Games
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: dna-games
-    source: prose
-  - &id002
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -64,7 +52,7 @@ member_bands:
     score_composite: 5.0
     slug: naturalmotion
     source: prose
-  - &id003
+  - &id002
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -76,7 +64,7 @@ member_bands:
     score_composite: 5.0
     slug: peak-games
     source: prose
-  - &id004
+  - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -88,7 +76,7 @@ member_bands:
     score_composite: 5.0
     slug: small-giant-games
     source: prose
-  - &id005
+  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -101,6 +89,24 @@ member_bands:
     slug: storemaven
     source: prose
   label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id005
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: zynga
+    name: DNA Games
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: dna-games
+    source: prose
+  label: Unrated
   open: false
 member_on_network: 5
 member_total: 5
@@ -116,7 +122,7 @@ overview: 'Zynga publishes its API surface across 5 provider profiles indexed on
   of which 5 carry a rating. The rated members span 0.0 points, from 5.0 down to 5.0.
 
 
-  Its highest-rated surfaces are DNA Games, naturalmotion, Peak Games, Small Giant Games, Storemaven.'
+  Its highest-rated surfaces are naturalmotion, Peak Games, Small Giant Games, Storemaven, DNA Games.'
 parent_provider: zynga
 permalink: /estates/zynga/
 slug: zynga

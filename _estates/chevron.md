@@ -10,19 +10,19 @@ description: Chevron Corporation is one of the world's largest integrated energy
   Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability,
   and IR websites.
 estate_rating:
-  agent_avg: 6.0
+  agent_avg: 6.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 3.3
-  composite_avg: 13.3
+  composite_avg: 13.5
   composite_band: emerging
   composite_raw: 2.2
   developing: 0
   exemplar: 0
-  rating: 10.4
+  rating: 10.5
   scored: 4
   spread: 2.1
   strength: 0

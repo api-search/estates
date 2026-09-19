@@ -8,19 +8,19 @@ description: Walmart is a multinational retail corporation that operates a chain
   The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory,
   pricing, fulfillment, and reporting on Walmart.com.
 estate_rating:
-  agent_avg: 10.6
+  agent_avg: 10.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.3
   agent_ready: 0
   band: emerging
   best: 34.4
-  composite_avg: 21.6
+  composite_avg: 21.8
   composite_band: emerging
   composite_raw: 20.9
   developing: 0
   exemplar: 0
-  rating: 17.2
+  rating: 17.4
   scored: 4
   spread: 29.4
   strength: 0

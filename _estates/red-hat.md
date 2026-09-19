@@ -1,24 +1,24 @@
 ---
-api_total: 19
+api_total: 17
 category: Estates
 description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions
   including Linux, cloud, container, and Kubernetes technologies.
 estate_rating:
-  agent_avg: 13.5
+  agent_avg: 13.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.7
+  agent_raw: 16.0
   agent_ready: 1
   band: emerging
-  best: 63.2
-  composite_avg: 28.6
+  best: 63.0
+  composite_avg: 28.8
   composite_band: thin
-  composite_raw: 34.1
+  composite_raw: 34.0
   developing: 2
   exemplar: 0
-  rating: 22.6
+  rating: 22.8
   scored: 6
-  spread: 58.2
+  spread: 58.0
   strength: 4
   strong: 1
   worst: 5.0
@@ -35,13 +35,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.0
-    api_count: 7
+    agent_score: 32.7
+    api_count: 5
     immediate_parent: red-hat
     name: Red Hat Ansible Automation Platform
     relationship: product
     score_band: strong
-    score_composite: 63.2
+    score_composite: 63.0
     slug: red-hat-ansible-automation-platform
     source: declared
   label: Strong
@@ -136,7 +136,7 @@ members:
 members_unrated: []
 name: Red Hat
 overview: 'Red Hat publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 58.2 points, from 63.2 down to 5.0.
+  of which 6 carry a rating. The rated members span 58.0 points, from 63.0 down to 5.0.
 
 
   Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat 3scale, Red Hat OpenShift,

@@ -8,21 +8,21 @@ description: CA Technologies (originally Computer Associates) was a major enterp
   Rally / Agile Central, Clarity PPM, BlazeMeter, AutoSys workload automation, and mainframe management
   suites. The primary developer portal is developer.broadcom.com.
 estate_rating:
-  agent_avg: 10.6
+  agent_avg: 11.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 9.8
+  agent_raw: 12.3
   agent_ready: 0
   band: emerging
-  best: 29.6
-  composite_avg: 20.2
+  best: 37.9
+  composite_avg: 21.7
   composite_band: emerging
-  composite_raw: 15.6
+  composite_raw: 19.7
   developing: 0
   exemplar: 0
-  rating: 16.4
+  rating: 17.6
   scored: 2
-  spread: 28.1
+  spread: 36.4
   strength: 0
   strong: 0
   worst: 1.5
@@ -39,13 +39,13 @@ member_bands:
   - &id001
     acquired: 2013
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 24.6
     api_count: 2
     immediate_parent: ca
     name: Flowdock (Discontinued)
     relationship: acquisition
     score_band: thin
-    score_composite: 29.6
+    score_composite: 37.9
     slug: flowdock
     source: declared
   label: Thin
@@ -95,7 +95,7 @@ members:
 members_unrated: []
 name: CA Technologies (Broadcom)
 overview: 'CA Technologies (Broadcom) publishes its API surface across 3 provider profiles indexed on
-  the APIs.io network, of which 3 carry a rating. The rated members span 28.1 points, from 29.6 down to
+  the APIs.io network, of which 3 carry a rating. The rated members span 36.4 points, from 37.9 down to
   1.5.
 
 

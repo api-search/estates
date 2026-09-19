@@ -13,20 +13,20 @@ description: 'EMC Corporation, acquired by Dell Technologies in 2016 and now ope
   whose specification API returns HTTP 401 to anonymous callers, so this profile is built from EMC''s
   own published client libraries on github.com/EMCECS and github.com/dell.'
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.7
-  composite_avg: 15.8
+  composite_avg: 17.6
   composite_band: emerging
-  composite_raw: 5.2
+  composite_raw: 5.3
   developing: 0
   exemplar: 0
-  rating: 12.2
-  scored: 3
+  rating: 13.7
+  scored: 2
   spread: 0.7
   strength: 0
   strong: 0
@@ -39,7 +39,7 @@ layout: estate
 member_bands:
 - band: minimal
   blurb: Almost no public developer surface
-  count: 3
+  count: 2
   items:
   - &id001
     acquired: null
@@ -65,19 +65,25 @@ member_bands:
     score_composite: 5.0
     slug: scaleio
     source: prose
+  label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
   - &id003
     acquired: null
-    agent_band: human-only
-    agent_score: 0.0
+    agent_band: null
+    agent_score: null
     api_count: 0
     immediate_parent: emc
     name: Voyence
     relationship: product
-    score_band: minimal
-    score_composite: 5.0
+    score_band: null
+    score_composite: null
     slug: voyence
     source: prose
-  label: Minimal
+  label: Unrated
   open: false
 member_on_network: 3
 member_total: 3

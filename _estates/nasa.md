@@ -7,19 +7,19 @@ description: NASA (National Aeronautics and Space Administration) provides a sui
   EPIC Earth imagery, and the NASA Image and Video Library. All APIs are free and accessible with an API
   key.
 estate_rating:
-  agent_avg: 18.7
+  agent_avg: 18.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 26.6
   agent_ready: 3
   band: thin
   best: 49.4
-  composite_avg: 33.9
+  composite_avg: 34.1
   composite_band: thin
-  composite_raw: 45.7
+  composite_raw: 45.9
   developing: 5
   exemplar: 0
-  rating: 27.8
+  rating: 28.0
   scored: 5
   spread: 6.6
   strength: 5
@@ -80,7 +80,7 @@ member_bands:
     name: NASA CMR
     relationship: product
     score_band: developing
-    score_composite: 43.7
+    score_composite: 44.3
     slug: nasa-cmr
     source: declared
   - &id005

@@ -7,21 +7,21 @@ description: Spotify is the world's leading music streaming platform with 600M+ 
   OAuth 2.0 with scopes for user-authorized access. The API underwent significant changes in February
   2026 with new generic library endpoints and streamlined playlist management.
 estate_rating:
-  agent_avg: 6.7
+  agent_avg: 6.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.3
   agent_ready: 0
   band: emerging
-  best: 23.9
-  composite_avg: 14.8
+  best: 35.9
+  composite_avg: 16.0
   composite_band: emerging
-  composite_raw: 8.7
+  composite_raw: 10.7
   developing: 0
   exemplar: 0
-  rating: 11.6
+  rating: 12.3
   scored: 6
-  spread: 18.9
+  spread: 30.9
   strength: 0
   strong: 0
   worst: 5.0
@@ -31,8 +31,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spotify.pn
 is_subfamily: false
 layout: estate
 member_bands:
-- band: emerging
-  blurb: Early or largely undocumented
+- band: thin
+  blurb: Limited public surface area
   count: 1
   items:
   - &id001
@@ -43,11 +43,11 @@ member_bands:
     immediate_parent: spotify
     name: Megaphone
     relationship: product
-    score_band: emerging
-    score_composite: 23.9
+    score_band: thin
+    score_composite: 35.9
     slug: megaphone
     source: prose
-  label: Emerging
+  label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
@@ -146,7 +146,7 @@ members:
 members_unrated: []
 name: Spotify
 overview: 'Spotify publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 18.9 points, from 23.9 down to 5.0.
+  of which 7 carry a rating. The rated members span 30.9 points, from 35.9 down to 5.0.
 
 
   Its highest-rated surfaces are Megaphone, SoundBetter, Betty Labs, Cord *, cordproject.'
@@ -164,5 +164,6 @@ tags:
 - Streaming
 - Podcasts
 - Playlists
+- Spotify
 title: Spotify
 ---

@@ -1,5 +1,5 @@
 ---
-api_total: 208
+api_total: 207
 category: Estates
 description: Microsoft 365 is Microsoft's productivity and collaboration suite, including Word, Excel,
   PowerPoint, Outlook, Teams, OneDrive, SharePoint, and OneNote, along with identity, security, and device
@@ -13,16 +13,16 @@ estate_rating:
   agent_raw: 22.9
   agent_ready: 11
   band: thin
-  best: 64.1
-  composite_avg: 38.6
+  best: 63.4
+  composite_avg: 38.5
   composite_band: thin
-  composite_raw: 41.9
-  developing: 7
+  composite_raw: 41.7
+  developing: 6
   exemplar: 0
   rating: 31.5
   scored: 25
-  spread: 43.9
-  strength: 19
+  spread: 43.2
+  strength: 18
   strong: 6
   worst: 20.2
 estate_root: microsoft
@@ -44,7 +44,7 @@ member_bands:
     name: Microsoft Graph
     relationship: product
     score_band: strong
-    score_composite: 64.1
+    score_composite: 63.4
     slug: microsoft-graph
     source: declared
   - &id002
@@ -111,7 +111,7 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 7
+  count: 6
   items:
   - &id007
     acquired: null
@@ -128,6 +128,18 @@ member_bands:
   - &id008
     acquired: null
     agent_band: agent-ready
+    agent_score: 29.7
+    api_count: 1
+    immediate_parent: microsoft-365
+    name: Microsoft 365 Copilot
+    relationship: product
+    score_band: developing
+    score_composite: 51.8
+    slug: microsoft-365-copilot
+    source: declared
+  - &id009
+    acquired: null
+    agent_band: agent-ready
     agent_score: 32.2
     api_count: 10
     immediate_parent: microsoft-365
@@ -136,18 +148,6 @@ member_bands:
     score_band: developing
     score_composite: 51.8
     slug: microsoft-office
-    source: declared
-  - &id009
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 29.7
-    api_count: 1
-    immediate_parent: microsoft-365
-    name: Microsoft 365 Copilot
-    relationship: product
-    score_band: developing
-    score_composite: 51.1
-    slug: microsoft-365-copilot
     source: declared
   - &id010
     acquired: null
@@ -177,33 +177,21 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 34.7
-    api_count: 15
+    api_count: 14
     immediate_parent: microsoft-365
     name: Microsoft SharePoint
     relationship: product
     score_band: developing
-    score_composite: 48.0
+    score_composite: 47.4
     slug: sharepoint
-    source: declared
-  - &id013
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 21
-    immediate_parent: microsoft-365
-    name: Microsoft Project
-    relationship: product
-    score_band: developing
-    score_composite: 42.0
-    slug: microsoft-project
     source: declared
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 6
+  count: 7
   items:
-  - &id014
+  - &id013
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -214,6 +202,18 @@ member_bands:
     score_band: thin
     score_composite: 39.2
     slug: microsoft-onenote
+    source: declared
+  - &id014
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.1
+    api_count: 21
+    immediate_parent: microsoft-365
+    name: Microsoft Project
+    relationship: product
+    score_band: thin
+    score_composite: 38.5
+    slug: microsoft-project
     source: declared
   - &id015
     acquired: null
@@ -386,7 +386,7 @@ members:
 members_unrated: []
 name: Microsoft 365
 overview: 'Microsoft 365 publishes its API surface across 25 provider profiles indexed on the APIs.io
-  network, of which 25 carry a rating. The rated members span 43.9 points, from 64.1 down to 20.2.
+  network, of which 25 carry a rating. The rated members span 43.2 points, from 63.4 down to 20.2.
 
 
   Its highest-rated surfaces are Microsoft Graph, Microsoft Outlook, Microsoft Word, Microsoft Planner,

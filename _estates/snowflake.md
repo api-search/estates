@@ -9,20 +9,20 @@ description: Snowflake is a cloud-based data platform delivering data warehousin
   Snowflake also serves a SCIM 2.0 identity endpoint, an Apache Iceberg REST Catalog, and an account-hosted
   Model Context Protocol server that exposes Cortex tools to agents under Snowflake RBAC.
 estate_rating:
-  agent_avg: 5.7
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
-  agent_raw: 0.5
+  agent_raw: 0.6
   agent_ready: 0
   band: emerging
   best: 19.4
-  composite_avg: 15.8
+  composite_avg: 17.1
   composite_band: emerging
-  composite_raw: 9.4
+  composite_raw: 10.5
   developing: 0
   exemplar: 0
-  rating: 11.8
-  scored: 5
+  rating: 12.8
+  scored: 4
   spread: 14.4
   strength: 0
   strong: 0
@@ -65,7 +65,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 3
+  count: 2
   items:
   - &id003
     acquired: null
@@ -85,18 +85,6 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: snowflake
-    name: Neeva
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: neeva
-    source: prose
-  - &id005
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: snowflake
     name: Sisu Data
     relationship: product
     score_band: minimal
@@ -104,6 +92,24 @@ member_bands:
     slug: sisu-data
     source: prose
   label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id005
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: snowflake
+    name: Neeva
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: neeva
+    source: prose
+  label: Unrated
   open: false
 member_on_network: 5
 member_total: 5
@@ -119,7 +125,7 @@ overview: 'Snowflake publishes its API surface across 5 provider profiles indexe
   of which 5 carry a rating. The rated members span 14.4 points, from 19.4 down to 5.0.
 
 
-  Its highest-rated surfaces are Datavolo, TruEra (Snowflake), Ponder, Neeva, Sisu Data.'
+  Its highest-rated surfaces are Datavolo, TruEra (Snowflake), Ponder, Sisu Data, Neeva.'
 parent_provider: snowflake
 permalink: /estates/snowflake/
 slug: snowflake
@@ -139,7 +145,7 @@ tags:
 - Data Governance
 - SQL
 - Apache Iceberg
-- Model Context Protocol
+- MCP
 - T1
 title: Snowflake
 ---

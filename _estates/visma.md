@@ -13,21 +13,21 @@ description: 'Visma is a Nordic business-software group headquartered in Oslo, N
   first-party remote MCP servers — Business NXT at mcp.business.visma.net and Spiris at mcp.spiris.se
   — both OAuth-protected and discoverable via RFC 9728.'
 estate_rating:
-  agent_avg: 14.0
+  agent_avg: 14.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 19.1
   agent_ready: 1
   band: emerging
-  best: 50.1
-  composite_avg: 24.8
-  composite_band: emerging
+  best: 49.9
+  composite_avg: 25.0
+  composite_band: thin
   composite_raw: 29.3
   developing: 1
   exemplar: 0
-  rating: 20.5
+  rating: 20.6
   scored: 3
-  spread: 45.1
+  spread: 44.9
   strength: 1
   strong: 0
   worst: 5.0
@@ -50,7 +50,7 @@ member_bands:
     name: Bokio
     relationship: product
     score_band: developing
-    score_composite: 50.1
+    score_composite: 49.9
     slug: bokio
     source: x-parent-company
   label: Developing
@@ -100,7 +100,7 @@ members:
 members_unrated: []
 name: Visma
 overview: 'Visma publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 45.1 points, from 50.1 down to 5.0.
+  of which 3 carry a rating. The rated members span 44.9 points, from 49.9 down to 5.0.
 
 
   Its highest-rated surfaces are Bokio, Silverfin, Mamut.'
@@ -114,14 +114,14 @@ subfamilies: []
 subfamily_page_count: 0
 tags:
 - Accounting
-- Business-Software
+- Business Software
 - ERP
 - Enterprise
 - Financial-Services
-- Human-Resources
+- Human Resources
 - Invoicing
 - Nordic
 - Payroll
-- SaaS
+- Software-as-a-Service
 title: Visma
 ---

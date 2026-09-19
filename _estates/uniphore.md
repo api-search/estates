@@ -16,21 +16,21 @@ description: 'Uniphore is an enterprise AI company — "The Business AI Company"
   which documents fifteen REST API families plus a webhook/SNMP health-alert surface without publishing
   a machine-readable contract.'
 estate_rating:
-  agent_avg: 11.0
+  agent_avg: 11.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.3
   agent_ready: 1
   band: emerging
-  best: 36.2
-  composite_avg: 22.6
+  best: 35.8
+  composite_avg: 22.7
   composite_band: emerging
-  composite_raw: 23.4
+  composite_raw: 23.2
   developing: 0
   exemplar: 0
-  rating: 18.0
+  rating: 18.1
   scored: 3
-  spread: 30.9
+  spread: 30.5
   strength: 0
   strong: 0
   worst: 5.3
@@ -53,7 +53,7 @@ member_bands:
     name: Infoworks
     relationship: product
     score_band: thin
-    score_composite: 36.2
+    score_composite: 35.8
     slug: infoworks
     source: declared
   - &id002
@@ -97,7 +97,7 @@ members:
 members_unrated: []
 name: Uniphore
 overview: 'Uniphore publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 30.9 points, from 36.2 down to 5.3.
+  of which 3 carry a rating. The rated members span 30.5 points, from 35.8 down to 5.3.
 
 
   Its highest-rated surfaces are Infoworks, ActionIQ, Orby AI.'
@@ -117,7 +117,7 @@ tags:
 - Customer Data Platform
 - Contact Center
 - Machine-Learning
-- Large Language Models
+- LLM
 - Enterprise Software
 - Automation
 - Customer Experience

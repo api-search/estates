@@ -14,19 +14,19 @@ description: Publicis Groupe is the French-headquartered global marketing, commu
   the Block SDK for building iframe Blocks on Publicis Groupe's CoreAI platform. Epsilon and CJ Affiliate,
   which do publish hosted API contracts, are profiled in their own API Evangelist repositories.
 estate_rating:
-  agent_avg: 8.1
+  agent_avg: 8.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.5
   agent_ready: 0
   band: emerging
   best: 26.7
-  composite_avg: 20.2
+  composite_avg: 20.4
   composite_band: emerging
   composite_raw: 17.0
   developing: 0
   exemplar: 0
-  rating: 15.4
+  rating: 15.5
   scored: 3
   spread: 16.5
   strength: 0
@@ -123,8 +123,8 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - Engineering Metrics
-- Open Source
-- Model Context Protocol
+- Open-Source
+- MCP
 - Agency Holding Company
 title: Publicis Groupe
 ---

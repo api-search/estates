@@ -4,23 +4,23 @@ category: Estates
 description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions
   including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
 estate_rating:
-  agent_avg: 7.0
+  agent_avg: 9.4
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.0
-  agent_ready: 0
+  agent_raw: 8.3
+  agent_ready: 1
   band: emerging
-  best: 38.2
-  composite_avg: 17.6
+  best: 57.6
+  composite_avg: 21.2
   composite_band: emerging
-  composite_raw: 15.3
+  composite_raw: 20.4
   developing: 0
   exemplar: 0
-  rating: 13.4
-  scored: 10
-  spread: 33.2
-  strength: 0
-  strong: 0
+  rating: 16.5
+  scored: 8
+  spread: 52.6
+  strength: 2
+  strong: 1
   worst: 5.0
 estate_root: broadcom
 estate_root_name: Broadcom
@@ -28,22 +28,28 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vmware.png
 is_subfamily: true
 layout: estate
 member_bands:
-- band: thin
-  blurb: Limited public surface area
-  count: 2
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 1
   items:
   - &id001
     acquired: 2018
-    agent_band: agent-aware
-    agent_score: 22.7
+    agent_band: agent-ready
+    agent_score: 38.9
     api_count: 8
     immediate_parent: vmware
     name: CloudHealth
     relationship: acquisition
-    score_band: thin
-    score_composite: 38.2
+    score_band: strong
+    score_composite: 57.6
     slug: cloudhealth
     source: declared
+  label: Strong
+  open: true
+- band: thin
+  blurb: Limited public surface area
+  count: 1
+  items:
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -90,7 +96,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 6
+  count: 4
   items:
   - &id005
     acquired: 2019
@@ -117,30 +123,6 @@ member_bands:
     slug: springsource
     source: declared
   - &id007
-    acquired: 2017
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: vmware
-    name: Apteligent
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: apteligent
-    source: declared
-  - &id008
-    acquired: 2016
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: carbon-black
-    name: Confer Technologies
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: confer
-    source: declared
-  - &id009
     acquired: 2012
     agent_band: human-only
     agent_score: 0.0
@@ -152,7 +134,7 @@ member_bands:
     score_composite: 5.0
     slug: nicira-networks
     source: declared
-  - &id010
+  - &id008
     acquired: 2020
     agent_band: human-only
     agent_score: 0.0
@@ -168,8 +150,32 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 2
+  count: 4
   items:
+  - &id009
+    acquired: 2017
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: vmware
+    name: Apteligent
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: apteligent
+    source: declared
+  - &id010
+    acquired: 2016
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: carbon-black
+    name: Confer Technologies
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: confer
+    source: declared
   - &id011
     acquired: 2020
     agent_band: null
@@ -214,7 +220,7 @@ members:
 members_unrated: []
 name: VMware
 overview: 'VMware publishes its API surface across 12 provider profiles indexed on the APIs.io network,
-  of which 12 carry a rating. The rated members span 33.2 points, from 38.2 down to 5.0.
+  of which 12 carry a rating. The rated members span 52.6 points, from 57.6 down to 5.0.
 
 
   Its highest-rated surfaces are CloudHealth, VMware Tanzu, Lastline, Carbon Black, AVI Networks.'
@@ -229,8 +235,8 @@ subfamilies:
   member_count: 1
   members:
   - name: Confer Technologies
-    score_band: minimal
-    score_composite: 5.0
+    score_band: null
+    score_composite: null
     slug: confer
   name: Carbon Black
   on_network: true
@@ -242,5 +248,6 @@ tags:
 - Hybrid Cloud
 - Infrastructure
 - Virtualization
+- VMware
 title: VMware
 ---

@@ -4,23 +4,23 @@ category: Estates
 description: Collection of APIs for Microsoft Power Platform services including Power Apps, Power Automate,
   Power BI, Copilot Studio, Power Pages, and Dataverse.
 estate_rating:
-  agent_avg: 20.0
+  agent_avg: 20.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 29.1
   agent_ready: 3
   band: thin
-  best: 64.8
-  composite_avg: 36.3
+  best: 72.7
+  composite_avg: 37.2
   composite_band: thin
-  composite_raw: 50.4
+  composite_raw: 52.0
   developing: 0
-  exemplar: 0
-  rating: 29.8
+  exemplar: 1
+  rating: 30.4
   scored: 5
-  spread: 29.2
-  strength: 6
-  strong: 3
+  spread: 37.1
+  strength: 7
+  strong: 2
   worst: 35.6
 estate_root: microsoft
 estate_root_name: Microsoft
@@ -28,9 +28,9 @@ image: https://powerplatform.microsoft.com/images/power-platform-logo.png
 is_subfamily: true
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 3
+- band: exemplar
+  blurb: Complete, well-documented, and agent-ready
+  count: 1
   items:
   - &id001
     acquired: null
@@ -40,10 +40,16 @@ member_bands:
     immediate_parent: power-platform
     name: Power BI
     relationship: product
-    score_band: strong
-    score_composite: 64.8
+    score_band: exemplar
+    score_composite: 72.7
     slug: power-bi
     source: declared
+  label: Exemplar
+  open: true
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 2
+  items:
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -111,7 +117,7 @@ members:
 members_unrated: []
 name: Microsoft Power Platform APIs
 overview: 'Microsoft Power Platform APIs publishes its API surface across 5 provider profiles indexed
-  on the APIs.io network, of which 5 carry a rating. The rated members span 29.2 points, from 64.8 down
+  on the APIs.io network, of which 5 carry a rating. The rated members span 37.1 points, from 72.7 down
   to 35.6.
 
 

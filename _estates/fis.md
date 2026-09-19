@@ -6,19 +6,19 @@ description: FIS (Fidelity National Information Services) is a global leader in 
   marketplace. APIs connect financial institutions, fintechs, and enterprises to FIS banking and payment
   infrastructure.
 estate_rating:
-  agent_avg: 10.3
+  agent_avg: 10.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 9.2
   agent_ready: 0
   band: emerging
   best: 51.0
-  composite_avg: 22.4
+  composite_avg: 22.6
   composite_band: emerging
   composite_raw: 22.9
   developing: 1
   exemplar: 0
-  rating: 17.6
+  rating: 17.7
   scored: 3
   spread: 43.9
   strength: 1

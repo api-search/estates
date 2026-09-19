@@ -7,22 +7,22 @@ description: Tripadvisor is the world's largest travel guidance platform, helpin
   and 29 languages. Tripadvisor provides APIs for content integration, hotel connectivity, and restaurant
   reservations.
 estate_rating:
-  agent_avg: 14.4
+  agent_avg: 16.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.7
+  agent_raw: 25.0
   agent_ready: 1
   band: emerging
-  best: 42.1
-  composite_avg: 22.3
-  composite_band: emerging
-  composite_raw: 22.5
-  developing: 1
+  best: 51.9
+  composite_avg: 26.4
+  composite_band: thin
+  composite_raw: 33.1
+  developing: 2
   exemplar: 0
-  rating: 19.1
-  scored: 4
-  spread: 37.1
-  strength: 1
+  rating: 22.4
+  scored: 3
+  spread: 46.9
+  strength: 2
   strong: 0
   worst: 5.0
 estate_root: null
@@ -33,9 +33,21 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 1
+  count: 2
   items:
   - &id001
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 27.7
+    api_count: 2
+    immediate_parent: tripadvisor
+    name: TheFork
+    relationship: product
+    score_band: developing
+    score_composite: 51.9
+    slug: thefork
+    source: prose
+  - &id002
     acquired: null
     agent_band: agent-ready
     agent_score: 47.2
@@ -44,46 +56,16 @@ member_bands:
     name: LaFourchette
     relationship: product
     score_band: developing
-    score_composite: 42.1
+    score_composite: 42.4
     slug: lafourchette
     source: prose
   label: Developing
   open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 1
-  items:
-  - &id002
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 27.7
-    api_count: 2
-    immediate_parent: tripadvisor
-    name: TheFork
-    relationship: product
-    score_band: thin
-    score_composite: 37.7
-    slug: thefork
-    source: prose
-  label: Thin
-  open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 1
   items:
   - &id003
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: tripadvisor
-    name: HouseTrip
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: housetrip
-    source: prose
-  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -99,8 +81,20 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 1
+  count: 2
   items:
+  - &id004
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: tripadvisor
+    name: HouseTrip
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: housetrip
+    source: prose
   - &id005
     acquired: null
     agent_band: null
@@ -126,10 +120,10 @@ members:
 members_unrated: []
 name: Tripadvisor
 overview: 'Tripadvisor publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 37.1 points, from 42.1 down to 5.0.
+  of which 5 carry a rating. The rated members span 46.9 points, from 51.9 down to 5.0.
 
 
-  Its highest-rated surfaces are LaFourchette, TheFork, HouseTrip, Oyster.com (TripAdvisor), Restorando.'
+  Its highest-rated surfaces are TheFork, LaFourchette, Oyster.com (TripAdvisor), HouseTrip, Restorando.'
 parent_provider: tripadvisor
 permalink: /estates/tripadvisor/
 slug: tripadvisor

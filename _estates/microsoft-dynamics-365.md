@@ -5,19 +5,19 @@ description: Microsoft Dynamics 365 is a cloud-based suite of business applicati
   ERP capabilities to help organizations manage sales, marketing, customer service, finance, operations,
   and commerce.
 estate_rating:
-  agent_avg: 19.8
+  agent_avg: 19.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 30.9
   agent_ready: 2
   band: thin
   best: 68.4
-  composite_avg: 33.5
+  composite_avg: 33.7
   composite_band: thin
   composite_raw: 47.8
   developing: 0
   exemplar: 1
-  rating: 28.0
+  rating: 28.2
   scored: 4
   spread: 37.5
   strength: 5
@@ -124,5 +124,6 @@ tags:
 - Enterprise
 - ERP
 - Microsoft
+- Microsoft Dynamics 365
 title: Microsoft Dynamics 365
 ---

@@ -10,24 +10,24 @@ description: Niantic Spatial, Inc. (spun out of Niantic, Inc. in 2025 after the 
   Android, and ROS 2, connecting to Scaniverse and VPS 2.0. Enterprise focus areas include robotics, defense
   and intelligence, and oil and gas.
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 11.4
-  composite_avg: 16.7
+  composite_avg: 18.5
   composite_band: emerging
-  composite_raw: 7.5
+  composite_raw: 8.8
   developing: 0
   exemplar: 0
-  rating: 12.7
-  scored: 3
-  spread: 6.4
+  rating: 14.3
+  scored: 2
+  spread: 5.2
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 6.2
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/niantic.png
@@ -54,7 +54,7 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 1
   items:
   - &id002
     acquired: null
@@ -68,24 +68,24 @@ member_bands:
     score_composite: 6.2
     slug: fantasmo
     source: prose
-  - &id003
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: niantic
-    name: Escher Reality
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: escher-reality
-    source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 1
+  count: 2
   items:
+  - &id003
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: niantic
+    name: Escher Reality
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: escher-reality
+    source: prose
   - &id004
     acquired: null
     agent_band: null
@@ -110,7 +110,7 @@ members:
 members_unrated: []
 name: Niantic
 overview: 'Niantic publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 6.4 points, from 11.4 down to 5.0.
+  of which 4 carry a rating. The rated members span 5.2 points, from 11.4 down to 6.2.
 
 
   Its highest-rated surfaces are 8th Wall, Fantasmo, Escher Reality, Lowkey.'

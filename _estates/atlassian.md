@@ -1,25 +1,25 @@
 ---
-api_total: 22
+api_total: 27
 category: Estates
 description: Atlassian is a software company that develops collaboration, productivity, and project management
   tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline
   workflows, and support project tracking across a wide range of industries.
 estate_rating:
-  agent_avg: 23.1
+  agent_avg: 23.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 29.2
+  agent_raw: 29.6
   agent_ready: 5
   band: thin
-  best: 70.2
-  composite_avg: 38.9
+  best: 72.6
+  composite_avg: 39.3
   composite_band: thin
-  composite_raw: 47.2
+  composite_raw: 47.7
   developing: 3
   exemplar: 3
-  rating: 32.6
+  rating: 32.9
   scored: 10
-  spread: 65.2
+  spread: 67.6
   strength: 14
   strong: 1
   worst: 5.0
@@ -36,37 +36,37 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 50.2
+    agent_score: 62.0
+    api_count: 4
+    immediate_parent: atlassian
+    name: Jira
+    relationship: product
+    score_band: exemplar
+    score_composite: 72.6
+    slug: jira
+    source: declared
+  - &id002
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 48.0
     api_count: 2
     immediate_parent: atlassian
     name: Atlassian Compass
     relationship: product
     score_band: exemplar
-    score_composite: 70.2
+    score_composite: 69.7
     slug: atlassian-compass
-    source: declared
-  - &id002
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 54.9
-    api_count: 1
-    immediate_parent: atlassian
-    name: Jira
-    relationship: product
-    score_band: exemplar
-    score_composite: 68.9
-    slug: jira
     source: declared
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 51.6
-    api_count: 1
+    agent_score: 50.8
+    api_count: 3
     immediate_parent: atlassian
     name: Confluence
     relationship: product
     score_band: exemplar
-    score_composite: 67.8
+    score_composite: 67.4
     slug: confluence
     source: declared
   label: Exemplar
@@ -84,7 +84,7 @@ member_bands:
     name: Bitbucket
     relationship: acquisition
     score_band: strong
-    score_composite: 60.4
+    score_composite: 61.0
     slug: bitbucket
     source: declared
   label: Strong
@@ -126,7 +126,7 @@ member_bands:
     name: Bitbucket Pipelines
     relationship: product
     score_band: developing
-    score_composite: 45.0
+    score_composite: 45.5
     slug: bitbucket-pipelines
     source: declared
   label: Developing
@@ -144,7 +144,7 @@ member_bands:
     name: Statuspage
     relationship: product
     score_band: thin
-    score_composite: 34.5
+    score_composite: 35.1
     slug: statuspage
     source: declared
   label: Thin
@@ -201,10 +201,10 @@ members:
 members_unrated: []
 name: Atlassian
 overview: 'Atlassian publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 65.2 points, from 70.2 down to 5.0.
+  of which 10 carry a rating. The rated members span 67.6 points, from 72.6 down to 5.0.
 
 
-  Its highest-rated surfaces are Atlassian Compass, Jira, Confluence, Bitbucket, HipChat.'
+  Its highest-rated surfaces are Jira, Atlassian Compass, Confluence, Bitbucket, HipChat.'
 parent_provider: atlassian
 permalink: /estates/atlassian/
 slug: atlassian
@@ -217,7 +217,7 @@ subfamilies:
   members:
   - name: Bitbucket Pipelines
     score_band: developing
-    score_composite: 45.0
+    score_composite: 45.5
     slug: bitbucket-pipelines
   name: Bitbucket
   on_network: true
@@ -230,5 +230,6 @@ tags:
 - Platform
 - Productivity
 - Software Development
+- Atlassian
 title: Atlassian
 ---

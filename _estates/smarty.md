@@ -9,19 +9,19 @@ description: Smarty (formerly SmartyStreets) is an address intelligence company 
   for high-throughput workloads, with US address lookups reaching up to 25,000 per second, making Smarty
   suitable for enterprise address validation pipelines and real-time checkout address autocomplete.
 estate_rating:
-  agent_avg: 6.0
+  agent_avg: 6.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 8.1
-  composite_avg: 15.7
+  composite_avg: 15.9
   composite_band: emerging
   composite_raw: 7.7
   developing: 0
   exemplar: 0
-  rating: 11.8
+  rating: 12.0
   scored: 4
   spread: 0.5
   strength: 0

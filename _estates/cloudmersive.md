@@ -7,19 +7,19 @@ description: Cloudmersive provides a portfolio of utility APIs covering virus an
   2.0 / OpenAPI specification, has SDKs in multiple languages, and is consumable on api.cloudmersive.com
   behind an API key (`Apikey` header).
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 7.6
-  composite_avg: 16.7
+  composite_avg: 16.9
   composite_band: emerging
   composite_raw: 7.6
   developing: 0
   exemplar: 0
-  rating: 12.7
+  rating: 12.9
   scored: 3
   spread: 0.0
   strength: 0
@@ -97,7 +97,7 @@ subfamilies: []
 subfamily_page_count: 0
 tags:
 - Barcodes
-- Conversions
+- Conversion
 - Documents
 - Image Recognition
 - Natural-Language

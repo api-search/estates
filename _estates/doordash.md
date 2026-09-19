@@ -2,24 +2,28 @@
 api_total: 0
 category: Estates
 description: DoorDash is an on-demand local commerce platform whose developer program exposes its logistics
-  and marketplace network through public APIs. The Drive and Drive Classic APIs let businesses request
-  on-demand deliveries fulfilled by DoorDash's Dasher fleet, while the Marketplace, Item Management, and
-  Reporting APIs let merchants and retailers receive orders, synchronize menus and catalogs, and access
-  financial and operational reporting. All APIs use JWT-based authentication and are documented at developer.doordash.com.
+  and marketplace network through thirteen publicly documented REST APIs. Drive, Drive (classic) and Parcel
+  let businesses request deliveries fulfilled by DoorDash's Dasher fleet, with Refunds, Redelivery and
+  Dasher Feedback attached to that surface. Marketplace, Marketplace (legacy) and Item Management let
+  merchants and retailers receive orders and synchronize menus, catalogs, inventory and promotions, while
+  Storefront powers white-label online ordering, Reporting delivers financial and operational data exchange,
+  and the Ads API sells sponsored placement on the marketplace. Every API authenticates with a short-lived
+  HS256 JSON Web Token the caller signs itself, and DoorDash serves each OpenAPI definition as plain YAML
+  from developer.doordash.com.
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 7.3
-  composite_avg: 16.0
+  composite_avg: 16.2
   composite_band: emerging
   composite_raw: 5.8
   developing: 0
   exemplar: 0
-  rating: 12.3
+  rating: 12.5
   scored: 3
   spread: 2.3
   strength: 0
@@ -94,6 +98,18 @@ source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/apis.yml
 subfamilies: []
 subfamily_page_count: 0
-tags: []
+tags:
+- Delivery
+- Logistics
+- Last Mile
+- On-Demand
+- Food Delivery
+- Local Commerce
+- Marketplace
+- Restaurant
+- Grocery
+- Retail
+- Fulfillment
+- Webhook
 title: Doordash
 ---

@@ -7,7 +7,7 @@ description: Elastic is a software company that builds search-powered solutions 
   delivers managed Elasticsearch and Kibana deployments with REST APIs for both data operations and deployment
   management.
 estate_rating:
-  agent_avg: 18.2
+  agent_avg: 18.3
   agent_band: emerging
   agent_native: 1
   agent_raw: 23.4
@@ -16,7 +16,7 @@ estate_rating:
   best: 76.7
   composite_avg: 31.3
   composite_band: thin
-  composite_raw: 37.8
+  composite_raw: 37.7
   developing: 1
   exemplar: 1
   rating: 26.1
@@ -98,7 +98,7 @@ member_bands:
     name: Kibana
     relationship: product
     score_band: thin
-    score_composite: 37.0
+    score_composite: 36.3
     slug: kibana
     source: declared
   label: Thin

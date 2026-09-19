@@ -6,19 +6,19 @@ description: Akamai is a global content delivery network (CDN), cloud services, 
   edge platform spans over 4,000 locations in 130+ countries, enabling customers to accelerate content
   delivery, protect against cyberattacks, and run cloud applications at the edge of the internet.
 estate_rating:
-  agent_avg: 12.8
+  agent_avg: 13.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 16.1
   agent_ready: 0
   band: emerging
   best: 38.5
-  composite_avg: 22.9
+  composite_avg: 23.1
   composite_band: emerging
   composite_raw: 24.3
   developing: 0
   exemplar: 0
-  rating: 18.9
+  rating: 19.1
   scored: 3
   spread: 33.5
   strength: 0

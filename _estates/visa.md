@@ -8,21 +8,21 @@ description: Visa is a global payment technology company that facilitates electr
   The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account
   validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.
 estate_rating:
-  agent_avg: 11.6
+  agent_avg: 11.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 12.7
   agent_ready: 1
   band: emerging
-  best: 58.8
-  composite_avg: 21.9
+  best: 59.4
+  composite_avg: 22.2
   composite_band: emerging
-  composite_raw: 21.5
+  composite_raw: 21.7
   developing: 0
   exemplar: 0
-  rating: 17.8
+  rating: 18.0
   scored: 3
-  spread: 58.7
+  spread: 59.3
   strength: 2
   strong: 1
   worst: 0.1
@@ -45,7 +45,7 @@ member_bands:
     name: Currencycloud
     relationship: product
     score_band: strong
-    score_composite: 58.8
+    score_composite: 59.4
     slug: currencycloud
     source: prose
   label: Strong
@@ -89,7 +89,7 @@ members:
 members_unrated: []
 name: Visa
 overview: 'Visa publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 58.7 points, from 58.8 down to 0.1.
+  which 3 carry a rating. The rated members span 59.3 points, from 59.4 down to 0.1.
 
 
   Its highest-rated surfaces are Currencycloud, Featurespace, Payworks.'

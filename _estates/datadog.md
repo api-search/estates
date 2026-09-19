@@ -7,7 +7,7 @@ description: Datadog is a monitoring and analytics platform that helps organizat
   platform enables companies to track performance metrics, troubleshoot issues, and optimize their systems
   for peak efficiency.
 estate_rating:
-  agent_avg: 18.2
+  agent_avg: 18.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 27.4
@@ -16,7 +16,7 @@ estate_rating:
   best: 79.3
   composite_avg: 32.8
   composite_band: thin
-  composite_raw: 46.1
+  composite_raw: 45.9
   developing: 1
   exemplar: 1
   rating: 27.0
@@ -62,7 +62,7 @@ member_bands:
     name: Metaplane
     relationship: product
     score_band: strong
-    score_composite: 59.4
+    score_composite: 58.7
     slug: metaplane
     source: prose
   label: Strong
@@ -80,7 +80,7 @@ member_bands:
     name: Adaptive ML
     relationship: product
     score_band: developing
-    score_composite: 40.6
+    score_composite: 40.4
     slug: adaptive-ml
     source: prose
   label: Developing
@@ -131,6 +131,6 @@ tags:
 - Monitoring
 - Platform
 - T1
-- Visualizations
+- Visualization
 title: Datadog
 ---

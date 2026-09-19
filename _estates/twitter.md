@@ -7,24 +7,24 @@ description: X (formerly Twitter) is a social media platform providing APIs for 
   and subscribe to real-time activity events. Available through pay-per-use credit-based pricing with
   enterprise options for high-volume access.
 estate_rating:
-  agent_avg: 5.4
+  agent_avg: 9.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.0
-  composite_avg: 13.1
+  composite_avg: 19.5
   composite_band: emerging
-  composite_raw: 4.0
+  composite_raw: 5.0
   developing: 0
   exemplar: 0
-  rating: 10.0
-  scored: 5
-  spread: 4.9
+  rating: 15.4
+  scored: 1
+  spread: null
   strength: 0
   strong: 0
-  worst: 0.1
+  worst: 5.0
 estate_root: null
 estate_root_name: null
 image: https://abs.twimg.com/favicons/twitter.ico
@@ -33,33 +33,9 @@ layout: estate
 member_bands:
 - band: minimal
   blurb: Almost no public developer surface
-  count: 5
+  count: 1
   items:
   - &id001
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: twitter
-    name: Aiden.ai
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: aidenai
-    source: prose
-  - &id002
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: twitter
-    name: Mixer Labs
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: mixer-labs
-    source: prose
-  - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -71,37 +47,25 @@ member_bands:
     score_composite: 5.0
     slug: tapcommerce-twitter
     source: prose
-  - &id004
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: twitter
-    name: tenXer *
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: tenxer
-    source: prose
-  - &id005
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: twitter
-    name: CardSpring
-    relationship: product
-    score_band: minimal
-    score_composite: 0.1
-    slug: cardspring
-    source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 5
+  count: 9
   items:
-  - &id006
+  - &id002
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: twitter
+    name: Aiden.ai
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: aidenai
+    source: prose
+  - &id003
     acquired: null
     agent_band: null
     agent_score: null
@@ -113,7 +77,19 @@ member_bands:
     score_composite: null
     slug: alien-labs
     source: prose
-  - &id007
+  - &id004
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: twitter
+    name: CardSpring
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: cardspring
+    source: prose
+  - &id005
     acquired: null
     agent_band: null
     agent_score: null
@@ -125,7 +101,19 @@ member_bands:
     score_composite: null
     slug: interana
     source: prose
-  - &id008
+  - &id006
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: twitter
+    name: Mixer Labs
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: mixer-labs
+    source: prose
+  - &id007
     acquired: null
     agent_band: null
     agent_score: null
@@ -137,7 +125,7 @@ member_bands:
     score_composite: null
     slug: mopub
     source: prose
-  - &id009
+  - &id008
     acquired: null
     agent_band: null
     agent_score: null
@@ -148,6 +136,18 @@ member_bands:
     score_band: null
     score_composite: null
     slug: tellapart
+    source: prose
+  - &id009
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: twitter
+    name: tenXer *
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: tenxer
     source: prose
   - &id010
     acquired: null
@@ -179,10 +179,10 @@ members:
 members_unrated: []
 name: X (Twitter)
 overview: 'X (Twitter) publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 4.9 points, from 5.0 down to 0.1.
+  of which 10 carry a rating.
 
 
-  Its highest-rated surfaces are Aiden.ai, Mixer Labs, TapCommerce (Twitter), tenXer *, CardSpring.'
+  Its highest-rated surfaces are TapCommerce (Twitter), Aiden.ai, Alien Labs, CardSpring, Interana.'
 parent_provider: twitter
 permalink: /estates/twitter/
 slug: twitter

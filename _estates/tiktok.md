@@ -6,23 +6,23 @@ description: TikTok is a short-form social video platform offering developers RE
   (advertising and campaign management), TikTok Shop API (seller product and order management), and the
   Data Portability API.
 estate_rating:
-  agent_avg: 16.4
+  agent_avg: 16.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 25.6
   agent_ready: 1
   band: emerging
-  best: 54.6
-  composite_avg: 28.4
+  best: 54.0
+  composite_avg: 28.5
   composite_band: thin
-  composite_raw: 38.9
-  developing: 1
+  composite_raw: 38.6
+  developing: 2
   exemplar: 0
-  rating: 23.6
+  rating: 23.7
   scored: 3
-  spread: 39.9
-  strength: 3
-  strong: 1
+  spread: 39.3
+  strength: 2
+  strong: 0
   worst: 14.7
 estate_root: null
 estate_root_name: null
@@ -30,9 +30,9 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiktok.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 2
   items:
   - &id001
     acquired: null
@@ -42,16 +42,10 @@ member_bands:
     immediate_parent: tiktok
     name: TikTok Marketing API
     relationship: product
-    score_band: strong
-    score_composite: 54.6
+    score_band: developing
+    score_composite: 54.0
     slug: tiktok-ads
     source: declared
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 1
-  items:
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -61,7 +55,7 @@ member_bands:
     name: TikTok for Developers
     relationship: product
     score_band: developing
-    score_composite: 47.3
+    score_composite: 47.2
     slug: tiktok-for-developers
     source: declared
   label: Developing
@@ -93,7 +87,7 @@ members:
 members_unrated: []
 name: TikTok
 overview: 'TikTok publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 39.9 points, from 54.6 down to 14.7.
+  of which 3 carry a rating. The rated members span 39.3 points, from 54.0 down to 14.7.
 
 
   Its highest-rated surfaces are TikTok Marketing API, TikTok for Developers, TikTok Shop API.'

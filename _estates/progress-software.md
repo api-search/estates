@@ -11,21 +11,21 @@ description: 'Progress Software Corporation (NASDAQ: PRGS) is a Burlington, Mass
   a full Swagger 2.0 contract against the customer''s own installation — alongside SaaS surfaces such
   as the ShareFile OData API and Sitefinity''s headless OData services.'
 estate_rating:
-  agent_avg: 12.3
+  agent_avg: 12.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 14.5
   agent_ready: 0
   band: emerging
-  best: 58.1
+  best: 57.0
   composite_avg: 26.9
   composite_band: thin
-  composite_raw: 34.8
+  composite_raw: 34.5
   developing: 0
   exemplar: 0
   rating: 21.1
   scored: 3
-  spread: 49.2
+  spread: 48.1
   strength: 2
   strong: 1
   worst: 8.9
@@ -48,7 +48,7 @@ member_bands:
     name: Chef Software
     relationship: product
     score_band: strong
-    score_composite: 58.1
+    score_composite: 57.0
     slug: chef-software
     source: prose
   label: Strong
@@ -98,7 +98,7 @@ members:
 members_unrated: []
 name: Progress Software
 overview: 'Progress Software publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 49.2 points, from 58.1 down to 8.9.
+  network, of which 3 carry a rating. The rated members span 48.1 points, from 57.0 down to 8.9.
 
 
   Its highest-rated surfaces are Chef Software, Sitefinity CMS, Kinvey.'

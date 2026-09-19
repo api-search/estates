@@ -9,20 +9,20 @@ description: Marvell Technology, Inc. is a Fortune 500 fabless semiconductor com
   associated with Marvell. Public developer documentation is gated behind a customer support portal and
   is not openly accessible.
 estate_rating:
-  agent_avg: 6.0
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.3
-  composite_avg: 14.5
+  composite_avg: 15.9
   composite_band: emerging
   composite_raw: 5.1
   developing: 0
   exemplar: 0
-  rating: 11.1
-  scored: 4
+  rating: 12.3
+  scored: 3
   spread: 0.3
   strength: 0
   strong: 0
@@ -35,7 +35,7 @@ layout: estate
 member_bands:
 - band: minimal
   blurb: Almost no public developer surface
-  count: 4
+  count: 3
   items:
   - &id001
     acquired: null
@@ -55,25 +55,13 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: marvell-technology
-    name: Galileo Technology
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: galileo-technology
-    source: prose
-  - &id003
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: marvell-technology
     name: Innovium
     relationship: product
     score_band: minimal
     score_composite: 5.0
     slug: innovium
     source: prose
-  - &id004
+  - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -86,6 +74,24 @@ member_bands:
     slug: inphi
     source: prose
   label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id004
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: marvell-technology
+    name: Galileo Technology
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: galileo-technology
+    source: prose
+  label: Unrated
   open: false
 member_on_network: 4
 member_total: 4
@@ -100,7 +106,7 @@ overview: 'Marvell Technology publishes its API surface across 4 provider profil
   network, of which 4 carry a rating. The rated members span 0.3 points, from 5.3 down to 5.0.
 
 
-  Its highest-rated surfaces are Aquantia, Galileo Technology, Innovium, Inphi.'
+  Its highest-rated surfaces are Aquantia, Innovium, Inphi, Galileo Technology.'
 parent_provider: marvell-technology
 permalink: /estates/marvell-technology/
 slug: marvell-technology

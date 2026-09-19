@@ -10,19 +10,19 @@ description: American Express is a globally integrated payments company and card
   Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated
   for registered issuers, merchants, acquirers, and partners rather than open self-service.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.3
   agent_ready: 0
   band: emerging
   best: 16.1
-  composite_avg: 17.9
+  composite_avg: 18.1
   composite_band: emerging
   composite_raw: 10.9
   developing: 0
   exemplar: 0
-  rating: 13.7
+  rating: 13.8
   scored: 3
   spread: 7.9
   strength: 0

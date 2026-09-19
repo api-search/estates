@@ -4,19 +4,19 @@ category: Estates
 description: Pfizer is a Fortune 500 American multinational pharmaceutical and biotechnology corporation
   that researches, develops, and manufactures medicines and vaccines for a wide range of medical disciplines.
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 3.3
-  composite_avg: 14.8
+  composite_avg: 15.0
   composite_band: emerging
   composite_raw: 2.6
   developing: 0
   exemplar: 0
-  rating: 11.6
+  rating: 11.8
   scored: 3
   spread: 1.1
   strength: 0

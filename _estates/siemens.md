@@ -7,21 +7,21 @@ description: Siemens is a global powerhouse in the fields of electrification, au
   infrastructure, and industry. With a focus on innovation and technology, Siemens is constantly pushing
   the boundaries to create a better future for society and the environment.
 estate_rating:
-  agent_avg: 12.3
+  agent_avg: 12.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 14.1
   agent_ready: 0
   band: emerging
-  best: 47.8
-  composite_avg: 23.3
+  best: 47.9
+  composite_avg: 23.5
   composite_band: emerging
   composite_raw: 24.9
   developing: 2
   exemplar: 0
-  rating: 18.9
+  rating: 19.1
   scored: 4
-  spread: 44.2
+  spread: 44.3
   strength: 2
   strong: 0
   worst: 3.6
@@ -44,7 +44,7 @@ member_bands:
     name: Siemens PLM
     relationship: product
     score_band: developing
-    score_composite: 47.8
+    score_composite: 47.9
     slug: siemens-plm
     source: declared
   - &id002
@@ -101,7 +101,7 @@ members:
 members_unrated: []
 name: Siemens
 overview: 'Siemens publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 44.2 points, from 47.8 down to 3.6.
+  of which 4 carry a rating. The rated members span 44.3 points, from 47.9 down to 3.6.
 
 
   Its highest-rated surfaces are Siemens PLM, Siemens MindSphere, Mentor Graphics, Dresser-Rand Group.'

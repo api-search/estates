@@ -7,21 +7,21 @@ description: Palo Alto Networks is a global cybersecurity leader providing advan
   CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations,
   and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.
 estate_rating:
-  agent_avg: 10.4
+  agent_avg: 10.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.1
   agent_ready: 0
   band: emerging
-  best: 37.5
-  composite_avg: 19.4
+  best: 37.4
+  composite_avg: 19.5
   composite_band: emerging
-  composite_raw: 17.8
+  composite_raw: 17.9
   developing: 0
   exemplar: 0
-  rating: 15.8
+  rating: 15.9
   scored: 9
-  spread: 32.5
+  spread: 32.4
   strength: 0
   strong: 0
   worst: 5.0
@@ -44,7 +44,7 @@ member_bands:
     name: Demisto
     relationship: product
     score_band: thin
-    score_composite: 37.5
+    score_composite: 37.4
     slug: demisto
     source: prose
   - &id002
@@ -86,7 +86,7 @@ member_bands:
     name: Panorama
     relationship: product
     score_band: emerging
-    score_composite: 24.1
+    score_composite: 24.8
     slug: panorama
     source: declared
   label: Emerging
@@ -191,7 +191,7 @@ members:
 members_unrated: []
 name: Palo Alto Networks
 overview: 'Palo Alto Networks publishes its API surface across 10 provider profiles indexed on the APIs.io
-  network, of which 10 carry a rating. The rated members span 32.5 points, from 37.5 down to 5.0.
+  network, of which 10 carry a rating. The rated members span 32.4 points, from 37.4 down to 5.0.
 
 
   Its highest-rated surfaces are Demisto, Koi Security, Prisma Cloud, Panorama, Prosimo.'
