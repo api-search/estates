@@ -15,20 +15,20 @@ description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, in
   the Bell Labs research division, and a broad open-source presence (600+ GitHub repos) including TTCN-3
   tooling (ntt), Corteca CLI, Moler test framework, and YANG models.
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 7.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 17.6
-  composite_avg: 18.6
+  composite_avg: 17.1
   composite_band: emerging
-  composite_raw: 9.1
+  composite_raw: 7.7
   developing: 0
   exemplar: 0
-  rating: 14.3
-  scored: 2
+  rating: 13.2
+  scored: 3
   spread: 17.0
   strength: 0
   strong: 0
@@ -59,9 +59,21 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 1
+  count: 2
   items:
   - &id002
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: nokia-corp
+    name: Luminous Computing
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: luminous-computing
+    source: parent-company-property
+  - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -72,14 +84,14 @@ member_bands:
     score_band: minimal
     score_composite: 0.6
     slug: gainspeed
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
   count: 1
   items:
-  - &id003
+  - &id004
     acquired: null
     agent_band: null
     agent_score: null
@@ -93,19 +105,20 @@ member_bands:
     source: prose
   label: Unrated
   open: false
-member_on_network: 3
-member_total: 3
+member_on_network: 4
+member_total: 4
 members:
 - *id001
 - *id002
 - *id003
+- *id004
 members_unrated: []
 name: Nokia
-overview: 'Nokia publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 17.0 points, from 17.6 down to 0.6.
+overview: 'Nokia publishes its API surface across 4 provider profiles indexed on the APIs.io network,
+  of which 4 carry a rating. The rated members span 17.0 points, from 17.6 down to 0.6.
 
 
-  Its highest-rated surfaces are Infinera, Gainspeed, Network Alchemy.'
+  Its highest-rated surfaces are Infinera, Luminous Computing, Gainspeed, Network Alchemy.'
 parent_provider: nokia-corp
 permalink: /estates/nokia-corp/
 slug: nokia-corp

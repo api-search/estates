@@ -7,19 +7,19 @@ description: Dell Technologies is a global Fortune 500 technology company that d
   servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling
   automation of IT operations and integration into enterprise tooling.
 estate_rating:
-  agent_avg: 12.3
+  agent_avg: 13.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 13.4
+  agent_raw: 16.0
   agent_ready: 1
   band: emerging
   best: 59.3
-  composite_avg: 26.2
+  composite_avg: 26.4
   composite_band: thin
   composite_raw: 30.1
   developing: 1
   exemplar: 0
-  rating: 20.6
+  rating: 21.4
   scored: 5
   spread: 54.3
   strength: 3
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.2
+    agent_score: 45.8
     api_count: 17
     immediate_parent: dell-technologies
     name: Moogsoft
@@ -82,7 +82,7 @@ member_bands:
     score_band: thin
     score_composite: 30.6
     slug: emc
-    source: prose
+    source: parent-company-property
   label: Thin
   open: false
 - band: minimal
@@ -112,7 +112,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: scaleio
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated

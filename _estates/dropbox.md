@@ -5,19 +5,19 @@ description: Dropbox is a file hosting service operated by the American company 
   in San Francisco, California, U.S. that offers cloud storage, file synchronization, personal cloud,
   and client software.
 estate_rating:
-  agent_avg: 18.4
+  agent_avg: 18.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 30.6
   agent_ready: 2
   band: emerging
   best: 56.7
-  composite_avg: 27.3
+  composite_avg: 27.5
   composite_band: thin
   composite_raw: 35.5
   developing: 1
   exemplar: 0
-  rating: 23.7
+  rating: 24.0
   scored: 3
   spread: 51.7
   strength: 3
@@ -44,7 +44,7 @@ member_bands:
     score_band: strong
     score_composite: 56.7
     slug: hellosign
-    source: prose
+    source: parent-company-property
   label: Strong
   open: true
 - band: developing
@@ -80,7 +80,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: command-e
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated

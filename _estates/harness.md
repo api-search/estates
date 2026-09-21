@@ -6,19 +6,19 @@ description: Harness is an AI-powered software delivery platform that automates 
   across DevOps, testing and resilience, security and compliance, and cost optimization, helping engineering
   teams ship code faster, safer, and smarter as they scale.
 estate_rating:
-  agent_avg: 16.1
+  agent_avg: 16.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 24.6
   agent_ready: 1
   band: emerging
   best: 39.0
-  composite_avg: 27.1
+  composite_avg: 27.3
   composite_band: thin
   composite_raw: 35.0
   developing: 0
   exemplar: 0
-  rating: 22.7
+  rating: 23.0
   scored: 3
   spread: 8.3
   strength: 0

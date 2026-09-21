@@ -6,19 +6,19 @@ description: Verizon is a leading telecommunications company providing wireless,
   5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform
   APIs for contact center and SMS solutions.
 estate_rating:
-  agent_avg: 10.6
+  agent_avg: 11.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 10.2
+  agent_raw: 11.4
   agent_ready: 1
   band: emerging
   best: 43.6
-  composite_avg: 22.6
+  composite_avg: 22.7
   composite_band: emerging
   composite_raw: 22.8
   developing: 2
   exemplar: 0
-  rating: 17.8
+  rating: 18.2
   scored: 5
   spread: 38.8
   strength: 2
@@ -37,7 +37,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 28.6
+    agent_score: 34.7
     api_count: 1
     immediate_parent: verizon
     name: AOL
@@ -57,7 +57,7 @@ member_bands:
     score_band: developing
     score_composite: 40.5
     slug: techcrunch
-    source: prose
+    source: parent-company-property
   label: Developing
   open: false
 - band: emerging
@@ -93,7 +93,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: convertro-inc
-    source: prose
+    source: parent-company-property
   - &id005
     acquired: null
     agent_band: human-only
@@ -135,7 +135,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: outsidein
-    source: prose
+    source: parent-company-property
   - &id008
     acquired: 2010-09
     agent_band: null

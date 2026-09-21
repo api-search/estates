@@ -6,19 +6,19 @@ description: Ivanti is an IT asset management and security platform providing un
   People & Devices, MDM, ITSM, and Zero-Trust Access, alongside Endpoint Manager APIs for patch and software
   distribution.
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 8.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.6
   agent_ready: 0
   band: emerging
   best: 37.3
-  composite_avg: 20.3
+  composite_avg: 20.5
   composite_band: emerging
   composite_raw: 16.7
   developing: 0
   exemplar: 0
-  rating: 15.3
+  rating: 15.6
   scored: 3
   spread: 32.3
   strength: 0

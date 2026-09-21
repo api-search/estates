@@ -10,19 +10,19 @@ description: 'Take-Two Interactive Software, Inc. (NASDAQ: TTWO) is a US interac
   Its developer-surface hosts (docs.take2games.com, dev.take2games.com) redirect every request to a FusionAuth
   SSO login.'
 estate_rating:
-  agent_avg: 4.8
+  agent_avg: 5.0
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.4
   agent_ready: 0
   band: emerging
   best: 14.3
-  composite_avg: 13.7
+  composite_avg: 13.8
   composite_band: emerging
   composite_raw: 7.5
   developing: 0
   exemplar: 0
-  rating: 10.1
+  rating: 10.3
   scored: 7
   spread: 9.3
   strength: 0

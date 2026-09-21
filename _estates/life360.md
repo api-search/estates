@@ -12,19 +12,19 @@ description: Life360 is a family safety platform built around a location-sharing
   ai-plugin manifest whose advertised OpenAPI does not resolve, and Content-Signal directives in robots.txt).
   This profile is maintained in the API Evangelist network for company discovery and monitoring.
 estate_rating:
-  agent_avg: 8.1
+  agent_avg: 8.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.1
   agent_ready: 0
   band: emerging
   best: 40.9
-  composite_avg: 22.0
+  composite_avg: 22.2
   composite_band: emerging
   composite_raw: 21.3
   developing: 1
   exemplar: 0
-  rating: 16.4
+  rating: 16.7
   scored: 3
   spread: 30.3
   strength: 1
@@ -51,7 +51,7 @@ member_bands:
     score_band: developing
     score_composite: 40.9
     slug: nativo
-    source: prose
+    source: parent-company-property
   label: Developing
   open: false
 - band: emerging
@@ -69,7 +69,7 @@ member_bands:
     score_band: emerging
     score_composite: 12.3
     slug: thetileapp
-    source: prose
+    source: parent-company-property
   label: Emerging
   open: false
 - band: minimal

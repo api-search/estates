@@ -12,19 +12,19 @@ description: 'Zynga is a mobile and social game developer and publisher, founded
   "Zynga API" announced at Zynga Unleashed in 2011-2012 was retired with the zynga.com third-party publishing
   platform, and developers.zynga.com no longer resolves.'
 estate_rating:
-  agent_avg: 6.1
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.0
-  composite_avg: 14.7
+  composite_avg: 14.8
   composite_band: emerging
   composite_raw: 5.0
   developing: 0
   exemplar: 0
-  rating: 11.3
+  rating: 11.4
   scored: 4
   spread: 0.0
   strength: 0

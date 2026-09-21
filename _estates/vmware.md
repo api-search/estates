@@ -4,21 +4,21 @@ category: Estates
 description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions
   including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
 estate_rating:
-  agent_avg: 9.4
+  agent_avg: 9.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.3
   agent_ready: 1
   band: emerging
-  best: 57.6
+  best: 56.3
   composite_avg: 21.2
   composite_band: emerging
-  composite_raw: 20.4
+  composite_raw: 20.2
   developing: 0
   exemplar: 0
-  rating: 16.5
+  rating: 16.6
   scored: 8
-  spread: 52.6
+  spread: 51.3
   strength: 2
   strong: 1
   worst: 5.0
@@ -41,7 +41,7 @@ member_bands:
     name: CloudHealth
     relationship: acquisition
     score_band: strong
-    score_composite: 57.6
+    score_composite: 56.3
     slug: cloudhealth
     source: declared
   label: Strong
@@ -220,7 +220,7 @@ members:
 members_unrated: []
 name: VMware
 overview: 'VMware publishes its API surface across 12 provider profiles indexed on the APIs.io network,
-  of which 12 carry a rating. The rated members span 52.6 points, from 57.6 down to 5.0.
+  of which 12 carry a rating. The rated members span 51.3 points, from 56.3 down to 5.0.
 
 
   Its highest-rated surfaces are CloudHealth, VMware Tanzu, Lastline, Carbon Black, AVI Networks.'

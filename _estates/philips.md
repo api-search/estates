@@ -13,19 +13,19 @@ description: A Dutch multinational health technology company focused on diagnost
   IntelliSpace) layered on HSDP. The legacy Philips Hue lighting API is no longer a Philips offering -
   Hue has been spun off into Signify and is published at developers.meethue.com.
 estate_rating:
-  agent_avg: 6.9
+  agent_avg: 7.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 3.3
-  composite_avg: 15.0
+  composite_avg: 15.1
   composite_band: emerging
   composite_raw: 2.6
   developing: 0
   exemplar: 0
-  rating: 11.8
+  rating: 12.0
   scored: 3
   spread: 1.1
   strength: 0
@@ -52,7 +52,7 @@ member_bands:
     score_band: minimal
     score_composite: 3.3
     slug: cardiologs
-    source: prose
+    source: parent-company-property
   - &id002
     acquired: null
     agent_band: human-only

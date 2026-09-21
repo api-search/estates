@@ -7,19 +7,19 @@ description: LexisNexis is a global provider of legal, regulatory, and business 
   applications. Most LexisNexis APIs are partner-access only and require contractual agreements before
   credentials and OpenAPI specifications are released.
 estate_rating:
-  agent_avg: 13.5
+  agent_avg: 15.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.9
+  agent_raw: 19.1
   agent_ready: 2
   band: emerging
   best: 55.7
-  composite_avg: 27.0
+  composite_avg: 27.1
   composite_band: thin
   composite_raw: 31.6
   developing: 0
   exemplar: 0
-  rating: 21.6
+  rating: 22.4
   scored: 5
   spread: 50.0
   strength: 2
@@ -46,7 +46,7 @@ member_bands:
     score_band: strong
     score_composite: 55.7
     slug: human-api
-    source: prose
+    source: parent-company-property
   label: Strong
   open: true
 - band: thin
@@ -68,7 +68,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.9
+    agent_score: 47.1
     api_count: 1
     immediate_parent: lexisnexis
     name: Lex Machina
@@ -88,7 +88,7 @@ member_bands:
     score_band: thin
     score_composite: 26.4
     slug: henchman
-    source: prose
+    source: parent-company-property
   label: Thin
   open: false
 - band: minimal
@@ -106,7 +106,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.7
     slug: behaviosec
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 member_on_network: 5

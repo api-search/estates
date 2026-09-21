@@ -11,19 +11,19 @@ description: DoorDash is an on-demand local commerce platform whose developer pr
   HS256 JSON Web Token the caller signs itself, and DoorDash serves each OpenAPI definition as plain YAML
   from developer.doordash.com.
 estate_rating:
-  agent_avg: 6.9
+  agent_avg: 7.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 7.3
-  composite_avg: 16.2
+  composite_avg: 16.3
   composite_band: emerging
   composite_raw: 5.8
   developing: 0
   exemplar: 0
-  rating: 12.5
+  rating: 12.7
   scored: 3
   spread: 2.3
   strength: 0

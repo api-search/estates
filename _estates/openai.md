@@ -12,19 +12,19 @@ description: OpenAI publishes a single unversioned REST API at https://api.opena
   Python, JavaScript, Go, Java, .NET and Ruby, alongside the Codex CLI and an anonymous documentation
   MCP server at developers.openai.com/mcp.
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
   best: 18.1
-  composite_avg: 17.5
+  composite_avg: 17.7
   composite_band: emerging
   composite_raw: 9.3
   developing: 0
   exemplar: 0
-  rating: 13.4
+  rating: 13.7
   scored: 3
   spread: 14.0
   strength: 0
@@ -69,7 +69,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.7
     slug: vegafund
-    source: prose
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: human-only
@@ -106,8 +106,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/he
 subfamilies: []
 subfamily_page_count: 0
 tags:
-- Artificial Intelligence
 - LLM
+- OpenAI
+- Artificial Intelligence
 - T1
 title: OpenAI
 ---

@@ -9,19 +9,19 @@ description: Berkshire Hathaway is a multinational conglomerate holding company 
   a public API Center providing customer APIs for shipment tracking, pricing, scheduling, and waybill
   management.
 estate_rating:
-  agent_avg: 11.1
+  agent_avg: 11.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.2
   agent_ready: 1
   band: emerging
   best: 49.1
-  composite_avg: 21.1
+  composite_avg: 21.2
   composite_band: emerging
   composite_raw: 19.3
   developing: 1
   exemplar: 0
-  rating: 17.1
+  rating: 17.3
   scored: 4
   spread: 46.1
   strength: 1
@@ -92,11 +92,11 @@ member_bands:
     api_count: 0
     immediate_parent: berkshire-hathaway
     name: Alleghany Corporation
-    relationship: product
+    relationship: acquisition
     score_band: minimal
     score_composite: 3.0
     slug: alleghany
-    source: prose
+    source: declared
   label: Minimal
   open: false
 member_on_network: 4

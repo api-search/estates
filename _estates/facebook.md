@@ -6,19 +6,19 @@ description: Facebook is Meta's social networking platform providing APIs for de
   social graph. Meta also provides APIs for marketing and advertising, Instagram content management, Messenger
   bots, Threads publishing, and WhatsApp business messaging.
 estate_rating:
-  agent_avg: 8.4
+  agent_avg: 8.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.7
   agent_ready: 0
   band: emerging
   best: 37.2
-  composite_avg: 19.0
+  composite_avg: 19.1
   composite_band: emerging
   composite_raw: 15.6
   developing: 0
   exemplar: 0
-  rating: 14.8
+  rating: 14.9
   scored: 5
   spread: 32.2
   strength: 0
@@ -45,7 +45,7 @@ member_bands:
     score_band: thin
     score_composite: 37.2
     slug: parse
-    source: prose
+    source: parent-company-property
   label: Thin
   open: false
 - band: emerging
@@ -81,7 +81,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.8
     slug: bloomsbury
-    source: prose
+    source: parent-company-property
   - &id004
     acquired: null
     agent_band: human-only
@@ -93,7 +93,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.3
     slug: ctrl-labs
-    source: prose
+    source: parent-company-property
   - &id005
     acquired: null
     agent_band: human-only
@@ -105,7 +105,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: gowalla
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated
@@ -177,6 +177,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/
 subfamilies: []
 subfamily_page_count: 0
 tags:
+- Facebook
 - Fortune 500
 - Advertising
 - Content Publishing

@@ -1,22 +1,29 @@
 ---
 api_total: 2
 category: Estates
-description: CrowdStrike is a major US corporation and Fortune 1000 company. The CrowdStrike API provides
-  programmatic access to its platform services, data, and integrations for enterprise customers and partners.
+description: 'CrowdStrike is a US cybersecurity company and Fortune 1000 constituent whose Falcon platform
+  delivers endpoint, cloud, identity and data protection from a single cloud-native agent. Its developer
+  surface is substantial and public: a 1,463-operation OAuth2 REST API spanning 128 service collections,
+  documented operation by operation on developer.crowdstrike.com, with 187 named permission scopes; six
+  official SDKs (Python, PowerShell, Go, TypeScript/JavaScript, Rust, Ruby); a Terraform provider for
+  Configuration as Code; Falcon Foundry, an app platform with its own CLI; a first-party open-source MCP
+  server (falcon-mcp) exposing 166 agent tools across 28 modules; and a published set of Agent Skills
+  for building Foundry apps. CrowdStrike does not publish an OpenAPI document, and API access requires
+  a Falcon subscription — the API itself is included in every paid bundle.'
 estate_rating:
-  agent_avg: 7.5
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.7
   agent_ready: 0
   band: emerging
   best: 27.2
-  composite_avg: 20.0
+  composite_avg: 20.2
   composite_band: emerging
   composite_raw: 16.1
   developing: 0
   exemplar: 0
-  rating: 15.0
+  rating: 15.3
   scored: 3
   spread: 22.2
   strength: 0
@@ -61,7 +68,7 @@ member_bands:
     score_band: emerging
     score_composite: 16.0
     slug: humio
-    source: prose
+    source: parent-company-property
   label: Emerging
   open: false
 - band: minimal
@@ -79,7 +86,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: bionic-stork
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 member_on_network: 3
@@ -106,5 +113,13 @@ subfamily_page_count: 0
 tags:
 - Cybersecurity
 - Endpoint Security
+- EDR
+- Threat Intelligence
+- Cloud Security
+- Identity Protection
+- Vulnerability Management
+- SIEM
+- Security Operations
+- MCP
 title: CrowdStrike
 ---

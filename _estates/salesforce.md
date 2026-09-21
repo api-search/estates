@@ -1,5 +1,5 @@
 ---
-api_total: 73
+api_total: 75
 category: Estates
 description: Salesforce is a cloud-based customer relationship management (CRM) platform that provides
   a comprehensive suite of enterprise applications for sales, service, marketing, commerce, analytics
@@ -7,20 +7,20 @@ description: Salesforce is a cloud-based customer relationship management (CRM) 
   gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and
   subscribe to org data programmatically.
 estate_rating:
-  agent_avg: 11.9
+  agent_avg: 12.8
   agent_band: emerging
   agent_native: 1
-  agent_raw: 12.1
+  agent_raw: 13.0
   agent_ready: 4
   band: emerging
   best: 68.6
-  composite_avg: 26.1
+  composite_avg: 26.2
   composite_band: thin
-  composite_raw: 26.7
+  composite_raw: 26.8
   developing: 7
   exemplar: 1
-  rating: 20.4
-  scored: 31
+  rating: 20.8
+  scored: 32
   spread: 63.6
   strength: 18
   strong: 4
@@ -80,7 +80,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 28.6
+    agent_score: 34.0
     api_count: 1
     immediate_parent: salesforce
     name: Salesforce Marketing Cloud Account Engagement (Pardot)
@@ -134,7 +134,7 @@ member_bands:
   - &id008
     acquired: 2019
     agent_band: agent-ready
-    agent_score: 35.2
+    agent_score: 47.1
     api_count: 1
     immediate_parent: salesforce
     name: Tableau
@@ -195,7 +195,7 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 2
+  count: 3
   items:
   - &id013
     acquired: null
@@ -221,13 +221,25 @@ member_bands:
     score_composite: 29.5
     slug: clockwise
     source: declared
+  - &id015
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.7
+    api_count: 2
+    immediate_parent: salesforce
+    name: Kana
+    relationship: product
+    score_band: thin
+    score_composite: 28.6
+    slug: kana
+    source: parent-company-property
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
   count: 5
   items:
-  - &id015
+  - &id016
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -238,8 +250,8 @@ member_bands:
     score_band: emerging
     score_composite: 16.8
     slug: predictionio
-    source: prose
-  - &id016
+    source: parent-company-property
+  - &id017
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -251,7 +263,7 @@ member_bands:
     score_composite: 16.2
     slug: own-ownbackup
     source: declared
-  - &id017
+  - &id018
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -263,7 +275,7 @@ member_bands:
     score_composite: 14.7
     slug: regrello
     source: declared
-  - &id018
+  - &id019
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -275,7 +287,7 @@ member_bands:
     score_composite: 12.1
     slug: zoomin
     source: declared
-  - &id019
+  - &id020
     acquired: 2026
     agent_band: human-only
     agent_score: 3.5
@@ -293,7 +305,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 12
   items:
-  - &id020
+  - &id021
     acquired: 2025
     agent_band: human-only
     agent_score: 0.0
@@ -305,7 +317,7 @@ member_bands:
     score_composite: 8.7
     slug: convergence
     source: declared
-  - &id021
+  - &id022
     acquired: 2013
     agent_band: human-only
     agent_score: 0.0
@@ -317,7 +329,7 @@ member_bands:
     score_composite: 8.3
     slug: cquotient
     source: declared
-  - &id022
+  - &id023
     acquired: 2023
     agent_band: human-only
     agent_score: 0.0
@@ -329,7 +341,7 @@ member_bands:
     score_composite: 5.0
     slug: airkit
     source: declared
-  - &id023
+  - &id024
     acquired: 2012
     agent_band: human-only
     agent_score: 0.0
@@ -341,7 +353,7 @@ member_bands:
     score_composite: 5.0
     slug: buddy-media
     source: declared
-  - &id024
+  - &id025
     acquired: 2013
     agent_band: human-only
     agent_score: 0.0
@@ -353,7 +365,7 @@ member_bands:
     score_composite: 5.0
     slug: exact-target
     source: declared
-  - &id025
+  - &id026
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -364,8 +376,8 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: itemfield
-    source: prose
-  - &id026
+    source: parent-company-property
+  - &id027
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -376,8 +388,8 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: privitar
-    source: prose
-  - &id027
+    source: parent-company-property
+  - &id028
     acquired: null
     agent_band: agent-aware
     agent_score: 8.6
@@ -389,7 +401,7 @@ member_bands:
     score_composite: 5.0
     slug: screenhero
     source: prose
-  - &id028
+  - &id029
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -401,7 +413,7 @@ member_bands:
     score_composite: 5.0
     slug: spiff
     source: declared
-  - &id029
+  - &id030
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -413,7 +425,7 @@ member_bands:
     score_composite: 5.0
     slug: spindle-technologies
     source: declared
-  - &id030
+  - &id031
     acquired: 2015
     agent_band: human-only
     agent_score: 0.0
@@ -425,7 +437,7 @@ member_bands:
     score_composite: 5.0
     slug: steelbrick
     source: declared
-  - &id031
+  - &id032
     acquired: 2020
     agent_band: human-only
     agent_score: 0.0
@@ -439,8 +451,8 @@ member_bands:
     source: declared
   label: Minimal
   open: false
-member_on_network: 31
-member_total: 31
+member_on_network: 32
+member_total: 32
 members:
 - *id001
 - *id002
@@ -473,10 +485,11 @@ members:
 - *id029
 - *id030
 - *id031
+- *id032
 members_unrated: []
 name: Salesforce
-overview: 'Salesforce publishes its API surface across 31 provider profiles indexed on the APIs.io network,
-  of which 31 carry a rating. The rated members span 63.6 points, from 68.6 down to 5.0.
+overview: 'Salesforce publishes its API surface across 32 provider profiles indexed on the APIs.io network,
+  of which 32 carry a rating. The rated members span 63.6 points, from 68.6 down to 5.0.
 
 
   Its highest-rated surfaces are Salesforce Service Cloud APIs, Slack, Salesforce Sales Cloud, Salesforce

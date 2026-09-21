@@ -3,20 +3,20 @@ api_total: 57
 category: Estates
 description: A collection of IBM's public APIs and developer resources.
 estate_rating:
-  agent_avg: 11.5
+  agent_avg: 11.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.6
+  agent_raw: 11.3
   agent_ready: 3
   band: emerging
   best: 63.0
-  composite_avg: 26.0
+  composite_avg: 25.8
   composite_band: thin
-  composite_raw: 26.5
+  composite_raw: 26.2
   developing: 9
   exemplar: 0
-  rating: 20.2
-  scored: 36
+  rating: 20.0
+  scored: 37
   spread: 58.0
   strength: 13
   strong: 2
@@ -52,7 +52,7 @@ member_bands:
     name: Red Hat
     relationship: acquisition
     score_band: strong
-    score_composite: 57.5
+    score_composite: 62.8
     slug: red-hat
     source: declared
   label: Strong
@@ -108,7 +108,7 @@ member_bands:
     score_band: developing
     score_composite: 46.7
     slug: datastax
-    source: prose
+    source: parent-company-property
   - &id007
     acquired: null
     agent_band: agent-aware
@@ -168,7 +168,7 @@ member_bands:
     score_band: developing
     score_composite: 41.7
     slug: langflow
-    source: prose
+    source: parent-company-property
   label: Developing
   open: false
 - band: thin
@@ -188,6 +188,18 @@ member_bands:
     slug: apptio
     source: declared
   - &id013
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.7
+    api_count: 1
+    immediate_parent: ibm
+    name: Instana
+    relationship: acquisition
+    score_band: thin
+    score_composite: 34.3
+    slug: instana
+    source: declared
+  - &id014
     acquired: 2024
     agent_band: agent-aware
     agent_score: 19.8
@@ -199,7 +211,7 @@ member_bands:
     score_composite: 34.0
     slug: software-ag
     source: declared
-  - &id014
+  - &id015
     acquired: 2025
     agent_band: agent-aware
     agent_score: 21.5
@@ -210,18 +222,6 @@ member_bands:
     score_band: thin
     score_composite: 29.4
     slug: hashicorp
-    source: declared
-  - &id015
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 24.7
-    api_count: 1
-    immediate_parent: ibm
-    name: Instana
-    relationship: acquisition
-    score_band: thin
-    score_composite: 27.5
-    slug: instana
     source: declared
   - &id016
     acquired: null
@@ -252,7 +252,7 @@ member_bands:
     score_band: emerging
     score_composite: 25.1
     slug: ns1
-    source: prose
+    source: parent-company-property
   - &id018
     acquired: null
     agent_band: human-only
@@ -324,7 +324,7 @@ member_bands:
     score_band: emerging
     score_composite: 18.0
     slug: databand
-    source: prose
+    source: parent-company-property
   - &id024
     acquired: null
     agent_band: human-only
@@ -372,12 +372,12 @@ member_bands:
     score_band: emerging
     score_composite: 11.7
     slug: compose
-    source: prose
+    source: parent-company-property
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 9
+  count: 10
   items:
   - &id028
     acquired: null
@@ -438,8 +438,20 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: ahana
-    source: prose
+    source: parent-company-property
   - &id033
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: ibm
+    name: Celequest
+    relationship: product
+    score_band: minimal
+    score_composite: 5.0
+    slug: celequest
+    source: parent-company-property
+  - &id034
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -450,8 +462,8 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: coremetrics
-    source: prose
-  - &id034
+    source: parent-company-property
+  - &id035
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -462,8 +474,8 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: internet-security-systems
-    source: prose
-  - &id035
+    source: parent-company-property
+  - &id036
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -475,7 +487,7 @@ member_bands:
     score_composite: 5.0
     slug: qumranet
     source: prose
-  - &id036
+  - &id037
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -486,14 +498,14 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: seek-ai
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
   count: 3
   items:
-  - &id037
+  - &id038
     acquired: null
     agent_band: null
     agent_score: null
@@ -505,7 +517,7 @@ member_bands:
     score_composite: null
     slug: blekko
     source: prose
-  - &id038
+  - &id039
     acquired: null
     agent_band: null
     agent_score: null
@@ -517,7 +529,7 @@ member_bands:
     score_composite: null
     slug: cross-access
     source: prose
-  - &id039
+  - &id040
     acquired: null
     agent_band: null
     agent_score: null
@@ -531,8 +543,8 @@ member_bands:
     source: prose
   label: Unrated
   open: false
-member_on_network: 39
-member_total: 39
+member_on_network: 40
+member_total: 40
 members:
 - *id001
 - *id002
@@ -573,10 +585,11 @@ members:
 - *id037
 - *id038
 - *id039
+- *id040
 members_unrated: []
 name: IBM
-overview: 'IBM publishes its API surface across 39 provider profiles indexed on the APIs.io network, of
-  which 39 carry a rating. The rated members span 58.0 points, from 63.0 down to 5.0.
+overview: 'IBM publishes its API surface across 40 provider profiles indexed on the APIs.io network, of
+  which 40 carry a rating. The rated members span 58.0 points, from 63.0 down to 5.0.
 
 
   Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat, Cloudability, Red Hat 3scale,
@@ -654,17 +667,17 @@ subfamilies:
   slug: software-ag
 subfamily_page_count: 1
 tags:
+- Database
+- IBM
 - API Management
 - Artificial Intelligence
 - Billing
 - Cloud Computing
 - Containers
 - Data Governance
-- Database
 - DevOps
 - Enterprise
 - Generative AI
 - Hybrid Cloud
-- Infrastructure
 title: IBM
 ---

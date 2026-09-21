@@ -10,19 +10,19 @@ description: CoStar Group is the dominant commercial and residential real estate
   Group (Australia). Distribution to partners is via enterprise data licensing, syndication feeds, and
   brand-specific marketplace tooling rather than a public self-serve developer portal.
 estate_rating:
-  agent_avg: 11.2
+  agent_avg: 11.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.4
   agent_ready: 1
   band: emerging
   best: 48.0
-  composite_avg: 25.0
+  composite_avg: 25.1
   composite_band: thin
   composite_raw: 28.1
   developing: 1
   exemplar: 0
-  rating: 19.5
+  rating: 19.7
   scored: 4
   spread: 30.8
   strength: 1

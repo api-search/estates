@@ -7,19 +7,19 @@ description: Spring is the leading open-source application framework for Java. T
   rapid application development with embedded servers and auto-configuration. Spring is maintained by
   VMware and hosted under the Spring Projects GitHub organization.
 estate_rating:
-  agent_avg: 13.7
+  agent_avg: 13.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.9
   agent_ready: 0
   band: emerging
   best: 40.0
-  composite_avg: 29.6
+  composite_avg: 29.7
   composite_band: thin
   composite_raw: 35.6
   developing: 1
   exemplar: 0
-  rating: 23.2
+  rating: 23.4
   scored: 6
   spread: 9.3
   strength: 1
@@ -141,6 +141,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring/refs/he
 subfamilies: []
 subfamily_page_count: 0
 tags:
+- Spring Framework
 - Artificial Intelligence
 - Cloud-Native
 - Enterprise

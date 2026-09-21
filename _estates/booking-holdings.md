@@ -6,21 +6,21 @@ description: Booking Holdings is the world's leading provider of online travel a
   FareHarbor, HotelsCombined, Cheapflights, and Momondo. The company connects travelers with accommodations,
   flights, rental cars, restaurant reservations, and travel experiences worldwide.
 estate_rating:
-  agent_avg: 13.3
+  agent_avg: 13.6
   agent_band: emerging
   agent_native: 0
   agent_raw: 17.0
   agent_ready: 1
   band: emerging
-  best: 70.8
-  composite_avg: 28.2
+  best: 70.3
+  composite_avg: 28.3
   composite_band: thin
-  composite_raw: 37.8
+  composite_raw: 37.6
   developing: 0
   exemplar: 1
-  rating: 22.2
+  rating: 22.4
   scored: 3
-  spread: 51.5
+  spread: 51.0
   strength: 3
   strong: 0
   worst: 19.3
@@ -43,7 +43,7 @@ member_bands:
     name: Booking.com
     relationship: product
     score_band: exemplar
-    score_composite: 70.8
+    score_composite: 70.3
     slug: booking-com
     source: prose
   label: Exemplar
@@ -87,7 +87,7 @@ members:
 members_unrated: []
 name: Booking Holdings
 overview: 'Booking Holdings publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 51.5 points, from 70.8 down to 19.3.
+  network, of which 3 carry a rating. The rated members span 51.0 points, from 70.3 down to 19.3.
 
 
   Its highest-rated surfaces are Booking.com, OpenTable, Kayak.'

@@ -7,19 +7,19 @@ description: Spotify is the world's leading music streaming platform with 600M+ 
   OAuth 2.0 with scopes for user-authorized access. The API underwent significant changes in February
   2026 with new generic library endpoints and streamlined playlist management.
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 7.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.3
   agent_ready: 0
   band: emerging
   best: 35.9
-  composite_avg: 16.0
+  composite_avg: 16.1
   composite_band: emerging
   composite_raw: 10.7
   developing: 0
   exemplar: 0
-  rating: 12.3
+  rating: 12.5
   scored: 6
   spread: 30.9
   strength: 0
@@ -64,7 +64,7 @@ member_bands:
     score_band: minimal
     score_composite: 8.1
     slug: soundbetter
-    source: prose
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: human-only
@@ -76,7 +76,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: betty-labs
-    source: prose
+    source: parent-company-property
   - &id004
     acquired: null
     agent_band: human-only
@@ -88,7 +88,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: cord
-    source: prose
+    source: parent-company-property
   - &id005
     acquired: null
     agent_band: human-only

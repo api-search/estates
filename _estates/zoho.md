@@ -5,22 +5,22 @@ description: Zoho is a comprehensive cloud software suite offering 55+ integrate
   for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by
   over 130 million users worldwide.
 estate_rating:
-  agent_avg: 21.5
+  agent_avg: 21.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 24.5
   agent_ready: 7
   band: thin
   best: 75.7
-  composite_avg: 36.8
+  composite_avg: 37.1
   composite_band: thin
-  composite_raw: 40.8
-  developing: 7
+  composite_raw: 41.1
+  developing: 8
   exemplar: 2
-  rating: 30.7
+  rating: 30.9
   scored: 18
   spread: 57.6
-  strength: 13
+  strength: 14
   strong: 0
   worst: 18.1
 estate_root: null
@@ -61,7 +61,7 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 7
+  count: 8
   items:
   - &id003
     acquired: null
@@ -126,6 +126,18 @@ member_bands:
   - &id008
     acquired: null
     agent_band: agent-aware
+    agent_score: 17.2
+    api_count: 1
+    immediate_parent: zoho
+    name: Zoho Books
+    relationship: product
+    score_band: developing
+    score_composite: 42.6
+    slug: zoho-books
+    source: declared
+  - &id009
+    acquired: null
+    agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
     immediate_parent: zoho
@@ -135,7 +147,7 @@ member_bands:
     score_composite: 40.8
     slug: zoho-mail
     source: declared
-  - &id009
+  - &id010
     acquired: null
     agent_band: agent-ready
     agent_score: 31.6
@@ -151,9 +163,9 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 7
+  count: 6
   items:
-  - &id010
+  - &id011
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -165,7 +177,7 @@ member_bands:
     score_composite: 38.0
     slug: zoho-creator
     source: declared
-  - &id011
+  - &id012
     acquired: null
     agent_band: agent-ready
     agent_score: 34.9
@@ -176,18 +188,6 @@ member_bands:
     score_band: thin
     score_composite: 38.0
     slug: zoho-writer
-    source: declared
-  - &id012
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 17.2
-    api_count: 1
-    immediate_parent: zoho
-    name: Zoho Books
-    relationship: product
-    score_band: thin
-    score_composite: 36.3
-    slug: zoho-books
     source: declared
   - &id013
     acquired: null

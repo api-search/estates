@@ -4,19 +4,19 @@ category: Estates
 description: Collection of APIs for Microsoft Power Platform services including Power Apps, Power Automate,
   Power BI, Copilot Studio, Power Pages, and Dataverse.
 estate_rating:
-  agent_avg: 20.1
+  agent_avg: 20.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 29.1
   agent_ready: 3
   band: thin
   best: 72.7
-  composite_avg: 37.2
+  composite_avg: 37.4
   composite_band: thin
   composite_raw: 52.0
   developing: 0
   exemplar: 1
-  rating: 30.4
+  rating: 30.6
   scored: 5
   spread: 37.1
   strength: 7

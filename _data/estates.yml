@@ -1,6 +1,6 @@
-count: 105
-members: 1296
-on_network: 1296
+count: 113
+members: 1338
+on_network: 1338
 estates:
 - slug: amazon
   name: Amazon
@@ -9,8 +9,8 @@ estates:
     sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa
     Skills Kit for voice experiences, Amazon Appstore for mobile ap
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon.png
-  member_total: 239
-  member_on_network: 239
+  member_total: 237
+  member_on_network: 237
   api_total: 995
   tags:
   - Amazon
@@ -21,27 +21,27 @@ estates:
   - Payments
   subfamilies:
   - Amazon Web Services (AWS)
-  strength: 310
-  rating: 40.3
+  strength: 326
+  rating: 40.8
   rating_band: developing
-  composite_avg: 50.1
+  composite_avg: 50.8
   composite_band: developing
-  agent_avg: 25.7
+  agent_avg: 25.8
   agent_band: thin
   spread: 79.1
   rating_scored: 236
-  rating_exemplar: 7
-  rating_strong: 87
-  rating_developing: 115
+  rating_exemplar: 13
+  rating_strong: 91
+  rating_developing: 105
   rating_agent_native: 5
   rating_agent_ready: 92
 - slug: microsoft
   name: Microsoft
   description: Collection of Microsoft's primary APIs and developer resources.
   image: https://www.microsoft.com/favicon.ico
-  member_total: 202
-  member_on_network: 202
-  api_total: 1432
+  member_total: 201
+  member_on_network: 201
+  api_total: 1433
   tags:
   - Fortune 100
   - Microsoft
@@ -52,20 +52,20 @@ estates:
   - LinkedIn
   - Microsoft Xbox
   - Microsoft Power Platform APIs
-  strength: 166
-  rating: 32.6
+  strength: 169
+  rating: 32.8
   rating_band: thin
-  composite_avg: 40.7
+  composite_avg: 41.0
   composite_band: developing
-  agent_avg: 20.4
+  agent_avg: 20.5
   agent_band: emerging
   spread: 76.1
-  rating_scored: 190
+  rating_scored: 191
   rating_exemplar: 16
-  rating_strong: 31
-  rating_developing: 56
+  rating_strong: 35
+  rating_developing: 51
   rating_agent_native: 2
-  rating_agent_ready: 46
+  rating_agent_ready: 47
 - slug: google
   name: Google
   description: Google's public APIs and services.
@@ -86,17 +86,17 @@ estates:
   - Fitbit
   - Nest
   - North
-  strength: 134
-  rating: 32.6
+  strength: 136
+  rating: 32.8
   rating_band: thin
-  composite_avg: 39.8
-  composite_band: thin
+  composite_avg: 40.2
+  composite_band: developing
   agent_avg: 21.7
   agent_band: emerging
   spread: 69.2
   rating_scored: 160
   rating_exemplar: 3
-  rating_strong: 17
+  rating_strong: 18
   rating_developing: 91
   rating_agent_native: 0
   rating_agent_ready: 26
@@ -121,11 +121,11 @@ estates:
   - Splunk
   - Webex
   strength: 37
-  rating: 27.2
+  rating: 27.3
   rating_band: thin
   composite_avg: 33.4
   composite_band: thin
-  agent_avg: 18.0
+  agent_avg: 18.1
   agent_band: emerging
   spread: 69.4
   rating_scored: 49
@@ -139,25 +139,25 @@ estates:
   description: Collection of Oracle's APIs and developer resources across cloud infrastructure,
     databases, AI services, SaaS applications, and platform services.
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle.png
-  member_total: 30
-  member_on_network: 30
+  member_total: 31
+  member_on_network: 31
   api_total: 206
   tags:
+  - Oracle
   - Cloud
   - Database
   - Enterprise
   - Infrastructure
   - Software-as-a-Service
-  - Fortune 100
   subfamilies:
   - Agile Software
   - Oracle Cloud Infrastructure
   strength: 26
-  rating: 28.3
+  rating: 28.5
   rating_band: thin
-  composite_avg: 35.0
+  composite_avg: 35.3
   composite_band: thin
-  agent_avg: 18.3
+  agent_avg: 18.4
   agent_band: emerging
   spread: 69.7
   rating_scored: 28
@@ -173,9 +173,9 @@ estates:
     service, marketing, commerce, analytics and AI. Its Lightning Platform exposes
     REST, SOAP, Bulk 2.0, Streaming, GraphQL, Metadata, Tooling and gRPC Pu
   image: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg
-  member_total: 31
-  member_on_network: 31
-  api_total: 73
+  member_total: 32
+  member_on_network: 32
+  api_total: 75
   tags:
   - Fortune 500
   - Artificial Intelligence
@@ -188,14 +188,14 @@ estates:
   - Demandware
   - Slack
   strength: 18
-  rating: 20.4
+  rating: 20.8
   rating_band: emerging
-  composite_avg: 26.1
+  composite_avg: 26.2
   composite_band: thin
-  agent_avg: 11.9
+  agent_avg: 12.8
   agent_band: emerging
   spread: 63.6
-  rating_scored: 31
+  rating_scored: 32
   rating_exemplar: 1
   rating_strong: 4
   rating_developing: 7
@@ -220,17 +220,17 @@ estates:
   - Atlassian
   subfamilies:
   - Bitbucket
-  strength: 14
-  rating: 32.9
+  strength: 15
+  rating: 33.5
   rating_band: thin
-  composite_avg: 39.3
+  composite_avg: 39.8
   composite_band: thin
-  agent_avg: 23.4
+  agent_avg: 24.1
   agent_band: emerging
   spread: 67.6
   rating_scored: 10
-  rating_exemplar: 3
-  rating_strong: 1
+  rating_exemplar: 4
+  rating_strong: 0
   rating_developing: 3
   rating_agent_native: 0
   rating_agent_ready: 5
@@ -251,48 +251,78 @@ estates:
   - Email
   - Finance
   subfamilies: []
-  strength: 13
-  rating: 30.7
+  strength: 14
+  rating: 30.9
   rating_band: thin
-  composite_avg: 36.8
+  composite_avg: 37.1
   composite_band: thin
-  agent_avg: 21.5
+  agent_avg: 21.7
   agent_band: emerging
   spread: 57.6
   rating_scored: 18
   rating_exemplar: 2
   rating_strong: 0
-  rating_developing: 7
+  rating_developing: 8
   rating_agent_native: 0
   rating_agent_ready: 7
+- slug: sap
+  name: SAP
+  description: Collection of SAP's enterprise APIs for business applications and cloud
+    services.
+  image: ''
+  member_total: 22
+  member_on_network: 22
+  api_total: 153
+  tags:
+  - SAP
+  - Artificial Intelligence
+  - BTP
+  - Business Applications
+  - Cloud
+  - Data Management
+  subfamilies: []
+  strength: 13
+  rating: 29.9
+  rating_band: thin
+  composite_avg: 35.2
+  composite_band: thin
+  agent_avg: 21.9
+  agent_band: emerging
+  spread: 56.3
+  rating_scored: 20
+  rating_exemplar: 1
+  rating_strong: 0
+  rating_developing: 10
+  rating_agent_native: 1
+  rating_agent_ready: 5
 - slug: ibm
   name: IBM
   description: A collection of IBM's public APIs and developer resources.
   image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
-  member_total: 39
-  member_on_network: 39
+  member_total: 40
+  member_on_network: 40
   api_total: 57
   tags:
+  - Database
+  - IBM
   - API Management
   - Artificial Intelligence
   - Billing
   - Cloud Computing
-  - Containers
-  - Data Governance
   subfamilies:
   - Red Hat
   - Apptio
   - DataStax
   - Software AG
   strength: 13
-  rating: 20.2
+  rating: 20.0
   rating_band: emerging
-  composite_avg: 26.0
+  composite_avg: 25.8
   composite_band: thin
-  agent_avg: 11.5
+  agent_avg: 11.3
   agent_band: emerging
   spread: 58.0
-  rating_scored: 36
+  rating_scored: 37
   rating_exemplar: 0
   rating_strong: 2
   rating_developing: 9
@@ -317,11 +347,11 @@ estates:
   - Event Marketing
   subfamilies: []
   strength: 9
-  rating: 30.9
+  rating: 31.0
   rating_band: thin
-  composite_avg: 37.8
+  composite_avg: 37.9
   composite_band: thin
-  agent_avg: 20.5
+  agent_avg: 20.7
   agent_band: emerging
   spread: 63.9
   rating_scored: 6
@@ -330,73 +360,6 @@ estates:
   rating_developing: 1
   rating_agent_native: 0
   rating_agent_ready: 3
-- slug: sap
-  name: SAP
-  description: Collection of SAP's enterprise APIs for business applications and cloud
-    services.
-  image: ''
-  member_total: 20
-  member_on_network: 20
-  api_total: 127
-  tags:
-  - Artificial Intelligence
-  - BTP
-  - Business Applications
-  - Cloud
-  - Data Management
-  - Enterprise
-  subfamilies: []
-  strength: 9
-  rating: 27.9
-  rating_band: thin
-  composite_avg: 33.5
-  composite_band: thin
-  agent_avg: 19.4
-  agent_band: emerging
-  spread: 37.1
-  rating_scored: 18
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 9
-  rating_agent_native: 0
-  rating_agent_ready: 4
-- slug: broadcom
-  name: Broadcom
-  description: Broadcom is a global technology company that specializes in the design
-    and manufacturing of semiconductors and other hardware components for a wide range
-    of industries. They provide a diverse portfolio of products for the enterprise,
-    data center, networking, telecommunications, and consumer electron
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadcom.png
-  member_total: 28
-  member_on_network: 28
-  api_total: 25
-  tags:
-  - Cloud Infrastructure
-  - Gateways
-  - Management
-  - Networks
-  - Observability
-  - Virtualization
-  subfamilies:
-  - VMware
-  - CA Technologies (Broadcom)
-  - Symantec
-  - Avago Technologies
-  - AppNeta
-  strength: 7
-  rating: 17.1
-  rating_band: emerging
-  composite_avg: 21.9
-  composite_band: emerging
-  agent_avg: 9.8
-  agent_band: minimal
-  spread: 57.0
-  rating_scored: 20
-  rating_exemplar: 0
-  rating_strong: 2
-  rating_developing: 3
-  rating_agent_native: 0
-  rating_agent_ready: 1
 - slug: datadog
   name: Datadog
   description: Datadog is a monitoring and analytics platform that helps organizations
@@ -408,19 +371,19 @@ estates:
   member_on_network: 4
   api_total: 4
   tags:
+  - Visualization
+  - Datadog
   - Analytics
   - Dashboards
   - Monitoring
   - Platform
-  - T1
-  - Visualization
   subfamilies: []
   strength: 6
-  rating: 27.0
+  rating: 27.2
   rating_band: thin
-  composite_avg: 32.8
+  composite_avg: 33.0
   composite_band: thin
-  agent_avg: 18.3
+  agent_avg: 18.6
   agent_band: emerging
   spread: 74.3
   rating_scored: 4
@@ -429,6 +392,36 @@ estates:
   rating_developing: 1
   rating_agent_native: 0
   rating_agent_ready: 1
+- slug: stripe
+  name: Stripe
+  description: Online payment processing for internet businesses. Stripe is a suite
+    of payment APIs that powers commerce for online businesses of all sizes.
+  image: https://stripe.com/img/about/logos/logos/blue.png
+  member_total: 5
+  member_on_network: 5
+  api_total: 30
+  tags:
+  - Commerce
+  - Financial-Services
+  - Fintech
+  - Payments
+  - T1
+  - Stripe
+  subfamilies: []
+  strength: 6
+  rating: 26.9
+  rating_band: thin
+  composite_avg: 33.2
+  composite_band: thin
+  agent_avg: 17.4
+  agent_band: emerging
+  spread: 65.4
+  rating_scored: 5
+  rating_exemplar: 1
+  rating_strong: 1
+  rating_developing: 1
+  rating_agent_native: 0
+  rating_agent_ready: 2
 - slug: elastic
   name: Elastic
   description: Elastic is a software company that builds search-powered solutions
@@ -448,11 +441,11 @@ estates:
   - Cloud
   subfamilies: []
   strength: 6
-  rating: 26.1
+  rating: 26.2
   rating_band: thin
   composite_avg: 31.3
   composite_band: thin
-  agent_avg: 18.3
+  agent_avg: 18.5
   agent_band: emerging
   spread: 71.7
   rating_scored: 7
@@ -468,8 +461,8 @@ estates:
     provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia
     API for programmatic access to market data, analytics, and enter
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg.png
-  member_total: 36
-  member_on_network: 36
+  member_total: 35
+  member_on_network: 35
   api_total: 99
   tags:
   - Analytics
@@ -480,11 +473,11 @@ estates:
   - Financial-Services
   subfamilies: []
   strength: 6
-  rating: 18.2
+  rating: 18.5
   rating_band: emerging
   composite_avg: 25.4
   composite_band: thin
-  agent_avg: 7.5
+  agent_avg: 8.1
   agent_band: minimal
   spread: 44.8
   rating_scored: 35
@@ -492,7 +485,44 @@ estates:
   rating_strong: 1
   rating_developing: 4
   rating_agent_native: 0
-  rating_agent_ready: 0
+  rating_agent_ready: 1
+- slug: broadcom
+  name: Broadcom
+  description: Broadcom is a global technology company that specializes in the design
+    and manufacturing of semiconductors and other hardware components for a wide range
+    of industries. They provide a diverse portfolio of products for the enterprise,
+    data center, networking, telecommunications, and consumer electron
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadcom.png
+  member_total: 30
+  member_on_network: 30
+  api_total: 25
+  tags:
+  - Cloud Infrastructure
+  - Gateways
+  - Management
+  - Networks
+  - Observability
+  - Virtualization
+  subfamilies:
+  - VMware
+  - Symantec
+  - Avago Technologies
+  - CA Technologies (Broadcom)
+  - AppNeta
+  strength: 6
+  rating: 16.1
+  rating_band: emerging
+  composite_avg: 20.7
+  composite_band: emerging
+  agent_avg: 9.1
+  agent_band: minimal
+  spread: 55.7
+  rating_scored: 22
+  rating_exemplar: 0
+  rating_strong: 1
+  rating_developing: 4
+  rating_agent_native: 0
+  rating_agent_ready: 1
 - slug: nasa
   name: NASA
   description: NASA (National Aeronautics and Space Administration) provides a suite
@@ -509,11 +539,11 @@ estates:
   - Space
   subfamilies: []
   strength: 5
-  rating: 28.0
+  rating: 28.2
   rating_band: thin
-  composite_avg: 34.1
+  composite_avg: 34.3
   composite_band: thin
-  agent_avg: 18.8
+  agent_avg: 19.1
   agent_band: emerging
   spread: 6.6
   rating_scored: 5
@@ -541,11 +571,11 @@ estates:
   - Geolocation
   subfamilies: []
   strength: 5
-  rating: 26.9
+  rating: 27.1
   rating_band: thin
-  composite_avg: 33.4
+  composite_avg: 33.6
   composite_band: thin
-  agent_avg: 17.1
+  agent_avg: 17.4
   agent_band: emerging
   spread: 14.8
   rating_scored: 3
@@ -572,11 +602,11 @@ estates:
   - T1
   subfamilies: []
   strength: 4
-  rating: 26.6
+  rating: 26.9
   rating_band: thin
-  composite_avg: 33.5
+  composite_avg: 33.7
   composite_band: thin
-  agent_avg: 16.2
+  agent_avg: 16.6
   agent_band: emerging
   spread: 14.4
   rating_scored: 3
@@ -585,39 +615,34 @@ estates:
   rating_developing: 2
   rating_agent_native: 0
   rating_agent_ready: 1
-- slug: autodesk
-  name: Autodesk
-  description: Autodesk is a global leader in design, engineering, and entertainment
-    software, providing cloud-connected platform APIs through Autodesk Platform Services
-    (APS). APS APIs enable developers to build applications that access design data,
-    automate workflows, visualize 3D models, manage construction pro
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autodesk.png
+- slug: qlik
+  name: Qlik
+  description: APIs for Qlik's analytics and data integration platform.
+  image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo.png
   member_total: 8
   member_on_network: 8
-  api_total: 16
+  api_total: 115
   tags:
-  - Fortune 1000
-  - 3D Modeling
-  - Architecture
-  - BIM
-  - CAD
-  - Construction
+  - Security
+  - Access Control
+  - Machine-Learning
+  - Artificial Intelligence
   subfamilies:
-  - Autodesk Construction Cloud
+  - Talend
   strength: 4
-  rating: 24.1
+  rating: 23.1
   rating_band: emerging
-  composite_avg: 30.5
+  composite_avg: 28.9
   composite_band: thin
-  agent_avg: 14.6
+  agent_avg: 14.5
   agent_band: emerging
-  spread: 45.2
-  rating_scored: 7
-  rating_exemplar: 0
+  spread: 64.7
+  rating_scored: 8
+  rating_exemplar: 1
   rating_strong: 0
-  rating_developing: 4
+  rating_developing: 1
   rating_agent_native: 0
-  rating_agent_ready: 1
+  rating_agent_ready: 2
 - slug: twilio
   name: Twilio
   description: Cloud communications platform providing APIs for SMS, voice, video,
@@ -637,11 +662,11 @@ estates:
   - Messaging
   subfamilies: []
   strength: 4
-  rating: 22.4
+  rating: 22.7
   rating_band: emerging
-  composite_avg: 28.4
+  composite_avg: 28.6
   composite_band: thin
-  agent_avg: 13.5
+  agent_avg: 13.8
   agent_band: emerging
   spread: 71.5
   rating_scored: 4
@@ -650,6 +675,71 @@ estates:
   rating_developing: 1
   rating_agent_native: 0
   rating_agent_ready: 1
+- slug: autodesk
+  name: Autodesk
+  description: Autodesk is a global leader in design, engineering, and entertainment
+    software, providing cloud-connected platform APIs through Autodesk Platform Services
+    (APS). APS APIs enable developers to build applications that access design data,
+    automate workflows, visualize 3D models, manage construction pro
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autodesk.png
+  member_total: 10
+  member_on_network: 10
+  api_total: 17
+  tags:
+  - Digital Twin
+  - Autodesk
+  - Fortune 1000
+  - 3D Modeling
+  - Architecture
+  - BIM
+  subfamilies:
+  - Autodesk Construction Cloud
+  strength: 4
+  rating: 22.0
+  rating_band: emerging
+  composite_avg: 28.2
+  composite_band: thin
+  agent_avg: 12.7
+  agent_band: emerging
+  spread: 45.2
+  rating_scored: 9
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 4
+  rating_agent_native: 0
+  rating_agent_ready: 1
+- slug: adobe
+  name: Adobe
+  description: Adobe provides APIs and developer resources for its creative, document,
+    and experience cloud platforms. Developers can integrate with PDF services, Creative
+    Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many
+    other Adobe products and services.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adobe.png
+  member_total: 5
+  member_on_network: 5
+  api_total: 3
+  tags:
+  - E-Signature
+  - Adobe
+  - Fortune 1000
+  - Analytics
+  - Creative Cloud
+  - Digital Asset Management
+  subfamilies: []
+  strength: 4
+  rating: 21.6
+  rating_band: emerging
+  composite_avg: 26.1
+  composite_band: thin
+  agent_avg: 14.9
+  agent_band: emerging
+  spread: 56.5
+  rating_scored: 5
+  rating_exemplar: 0
+  rating_strong: 2
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 2
 - slug: confluent
   name: Confluent
   description: Stream, connect, process, and govern your data with an all-in-one,
@@ -669,11 +759,11 @@ estates:
   - Apache Flink
   subfamilies: []
   strength: 3
-  rating: 26.3
+  rating: 26.5
   rating_band: thin
-  composite_avg: 31.3
+  composite_avg: 31.5
   composite_band: thin
-  agent_avg: 18.8
+  agent_avg: 19.1
   agent_band: emerging
   spread: 37.8
   rating_scored: 2
@@ -682,33 +772,38 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 1
-- slug: qlik
-  name: Qlik
-  description: APIs for Qlik's analytics and data integration platform.
-  image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo.png
-  member_total: 7
-  member_on_network: 7
-  api_total: 113
+- slug: westpac
+  name: Westpac Banking Corporation
+  description: Westpac Banking Corporation is Australia's oldest bank and company,
+    founded in 1817 as the Bank of New South Wales, and is one of the country's "Big
+    Four" banks. Headquartered in Sydney, it is a publicly listed company on the Australian
+    Securities Exchange (ASX:WBC), not a customer-owned mutual, and
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/westpac.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 7
   tags:
-  - Security
-  - Access Control
-  - Machine-Learning
-  - Artificial Intelligence
+  - Financial
+  - Banks
+  - Open Banking
+  - CDR
+  - Consumer Banking
+  - Australia
   subfamilies: []
   strength: 3
-  rating: 23.8
+  rating: 24.7
   rating_band: emerging
-  composite_avg: 29.6
+  composite_avg: 30.6
   composite_band: thin
-  agent_avg: 15.1
+  agent_avg: 15.9
   agent_band: emerging
-  spread: 52.9
-  rating_scored: 6
-  rating_exemplar: 1
-  rating_strong: 0
-  rating_developing: 0
+  spread: 25.2
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 1
+  rating_developing: 1
   rating_agent_native: 0
-  rating_agent_ready: 2
+  rating_agent_ready: 0
 - slug: dropbox
   name: Dropbox
   description: Dropbox is a file hosting service operated by the American company
@@ -722,11 +817,11 @@ estates:
   - Documents
   subfamilies: []
   strength: 3
-  rating: 23.7
+  rating: 24.0
   rating_band: emerging
-  composite_avg: 27.3
+  composite_avg: 27.5
   composite_band: thin
-  agent_avg: 18.4
+  agent_avg: 18.7
   agent_band: emerging
   spread: 51.7
   rating_scored: 3
@@ -751,11 +846,11 @@ estates:
   - Software-as-a-Service
   subfamilies: []
   strength: 3
-  rating: 23.7
+  rating: 23.8
   rating_band: emerging
   composite_avg: 28.9
   composite_band: thin
-  agent_avg: 16.0
+  agent_avg: 16.2
   agent_band: emerging
   spread: 43.4
   rating_scored: 6
@@ -783,13 +878,13 @@ estates:
   - Restaurant
   subfamilies: []
   strength: 3
-  rating: 22.2
+  rating: 22.4
   rating_band: emerging
-  composite_avg: 28.2
+  composite_avg: 28.3
   composite_band: thin
-  agent_avg: 13.3
+  agent_avg: 13.6
   agent_band: emerging
-  spread: 51.5
+  spread: 51.0
   rating_scored: 3
   rating_exemplar: 1
   rating_strong: 0
@@ -807,19 +902,19 @@ estates:
   member_on_network: 3
   api_total: 146
   tags:
+  - Enrollment
+  - Instructure
   - EdTech
   - Education
   - LMS
   - Canvas
-  - Courses
-  - Enrollment
   subfamilies: []
   strength: 3
-  rating: 21.6
+  rating: 21.9
   rating_band: emerging
-  composite_avg: 28.1
+  composite_avg: 28.3
   composite_band: thin
-  agent_avg: 11.9
+  agent_avg: 12.2
   agent_band: emerging
   spread: 64.8
   rating_scored: 3
@@ -828,38 +923,6 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 1
-- slug: adobe
-  name: Adobe
-  description: Adobe provides APIs and developer resources for its creative, document,
-    and experience cloud platforms. Developers can integrate with PDF services, Creative
-    Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many
-    other Adobe products and services.
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adobe.png
-  member_total: 5
-  member_on_network: 5
-  api_total: 3
-  tags:
-  - Fortune 1000
-  - Analytics
-  - Creative Cloud
-  - Digital Asset Management
-  - Document Services
-  - E-Commerce
-  subfamilies: []
-  strength: 3
-  rating: 20.8
-  rating_band: emerging
-  composite_avg: 24.9
-  composite_band: emerging
-  agent_avg: 14.6
-  agent_band: emerging
-  spread: 53.0
-  rating_scored: 5
-  rating_exemplar: 0
-  rating_strong: 1
-  rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 2
 - slug: dell-technologies
   name: Dell Technologies
   description: Dell Technologies is a global Fortune 500 technology company that designs,
@@ -880,14 +943,77 @@ estates:
   subfamilies:
   - EMC
   strength: 3
-  rating: 20.6
+  rating: 21.4
   rating_band: emerging
-  composite_avg: 26.2
+  composite_avg: 26.4
   composite_band: thin
-  agent_avg: 12.3
+  agent_avg: 13.8
   agent_band: emerging
   spread: 54.3
   rating_scored: 5
+  rating_exemplar: 0
+  rating_strong: 1
+  rating_developing: 1
+  rating_agent_native: 0
+  rating_agent_ready: 1
+- slug: fis
+  name: FIS Global
+  description: FIS (Fidelity National Information Services) is a global leader in
+    financial technology providing APIs for core banking, payments, wealth management,
+    and capital markets through the CodeConnect API marketplace. APIs connect financial
+    institutions, fintechs, and enterprises to FIS banking and payment
+  image: https://codeconnect.fisglobal.com/assets/FIS_codeConnect_logo_white.svg
+  member_total: 4
+  member_on_network: 4
+  api_total: 14
+  tags:
+  - Banking
+  - Core Banking
+  - Financial-Services
+  - Payments
+  - Fintech
+  subfamilies: []
+  strength: 3
+  rating: 21.4
+  rating_band: emerging
+  composite_avg: 26.7
+  composite_band: thin
+  agent_avg: 13.4
+  agent_band: emerging
+  spread: 51.3
+  rating_scored: 4
+  rating_exemplar: 0
+  rating_strong: 1
+  rating_developing: 1
+  rating_agent_native: 0
+  rating_agent_ready: 1
+- slug: palo-alto-networks
+  name: Palo Alto Networks
+  description: Palo Alto Networks is a global cybersecurity leader providing advanced
+    security platforms and services across network security, cloud security, and security
+    operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS
+    firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, co
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/palo-alto-networks.png
+  member_total: 13
+  member_on_network: 13
+  api_total: 10
+  tags:
+  - Cloud Security
+  - Cybersecurity
+  - Firewall
+  - Network Security
+  - SASE
+  - SOAR
+  subfamilies: []
+  strength: 3
+  rating: 19.7
+  rating_band: emerging
+  composite_avg: 23.8
+  composite_band: emerging
+  agent_avg: 13.5
+  agent_band: emerging
+  spread: 51.2
+  rating_scored: 12
   rating_exemplar: 0
   rating_strong: 1
   rating_developing: 1
@@ -901,19 +1027,19 @@ estates:
   member_on_network: 14
   api_total: 3
   tags:
+  - Apple
   - Developers
   - iOS
   - macOS
   - Mobile
   - Technology
-  - Fortune 100
   subfamilies: []
   strength: 3
-  rating: 16.8
+  rating: 16.9
   rating_band: emerging
-  composite_avg: 21.6
+  composite_avg: 21.7
   composite_band: emerging
-  agent_avg: 9.6
+  agent_avg: 9.8
   agent_band: minimal
   spread: 60.0
   rating_scored: 9
@@ -928,9 +1054,9 @@ estates:
     software including customer support, IT service management, sales force automation,
     marketing automation, and HR applications.
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshworks.png
-  member_total: 6
-  member_on_network: 6
-  api_total: 6
+  member_total: 7
+  member_on_network: 7
+  api_total: 7
   tags:
   - Analytics
   - Campaigns
@@ -938,21 +1064,22 @@ estates:
   - Marketing
   - Marketing Automation
   - Freshworks
-  subfamilies: []
+  subfamilies:
+  - FireHydrant
   strength: 2
-  rating: 26.1
+  rating: 26.9
   rating_band: thin
-  composite_avg: 31.8
+  composite_avg: 31.1
   composite_band: thin
-  agent_avg: 17.6
+  agent_avg: 20.5
   agent_band: emerging
-  spread: 32.7
-  rating_scored: 5
+  spread: 43.0
+  rating_scored: 6
   rating_exemplar: 0
   rating_strong: 1
   rating_developing: 0
   rating_agent_native: 0
-  rating_agent_ready: 1
+  rating_agent_ready: 3
 - slug: tiktok
   name: TikTok
   description: TikTok is a short-form social video platform offering developers REST
@@ -964,25 +1091,57 @@ estates:
   member_on_network: 3
   api_total: 6
   tags:
+  - TikTok
   - Advertising
   - Commerce
   - Content
   - E-Commerce
   - Social-Media
-  - Video
   subfamilies: []
   strength: 2
-  rating: 23.7
+  rating: 23.9
   rating_band: emerging
-  composite_avg: 28.5
+  composite_avg: 28.7
   composite_band: thin
-  agent_avg: 16.5
+  agent_avg: 16.8
   agent_band: emerging
   spread: 39.3
   rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 2
+  rating_agent_native: 0
+  rating_agent_ready: 1
+- slug: ptc
+  name: PTC
+  description: PTC is an industrial technology company providing software platforms
+    and APIs for Industrial IoT (ThingWorx), Product Lifecycle Management (Windchill,
+    Arena), Augmented Reality (Vuforia), Field Service Management (ServiceMax), and
+    industrial connectivity (Kepware) in manufacturing environments.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ptc.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 2
+  tags:
+  - Industrial IoT
+  - PLM
+  - Augmented Reality
+  - Field Service Management
+  - Manufacturing
+  - IIoT
+  subfamilies: []
+  strength: 2
+  rating: 23.0
+  rating_band: emerging
+  composite_avg: 27.6
+  composite_band: thin
+  agent_avg: 16.1
+  agent_band: emerging
+  spread: 42.9
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 1
+  rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 1
 - slug: checkpoint
@@ -1004,11 +1163,11 @@ estates:
   - Mobile Security
   subfamilies: []
   strength: 2
-  rating: 22.5
+  rating: 22.7
   rating_band: emerging
-  composite_avg: 26.9
+  composite_avg: 27.0
   composite_band: thin
-  agent_avg: 15.9
+  agent_avg: 16.2
   agent_band: emerging
   spread: 48.2
   rating_scored: 4
@@ -1036,11 +1195,11 @@ estates:
   - Travel
   subfamilies: []
   strength: 2
-  rating: 22.4
+  rating: 22.6
   rating_band: emerging
-  composite_avg: 26.4
+  composite_avg: 26.6
   composite_band: thin
-  agent_avg: 16.3
+  agent_avg: 16.6
   agent_band: emerging
   spread: 46.9
   rating_scored: 3
@@ -1068,11 +1227,11 @@ estates:
   - Delivery
   subfamilies: []
   strength: 2
-  rating: 22.4
+  rating: 22.6
   rating_band: emerging
-  composite_avg: 26.4
+  composite_avg: 26.5
   composite_band: thin
-  agent_avg: 16.4
+  agent_avg: 16.7
   agent_band: emerging
   spread: 45.8
   rating_scored: 4
@@ -1101,11 +1260,11 @@ estates:
   subfamilies:
   - LexisNexis Risk Solutions
   strength: 2
-  rating: 21.6
+  rating: 22.4
   rating_band: emerging
-  composite_avg: 27.0
+  composite_avg: 27.1
   composite_band: thin
-  agent_avg: 13.5
+  agent_avg: 15.4
   agent_band: emerging
   spread: 50.0
   rating_scored: 5
@@ -1114,6 +1273,29 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 2
+- slug: juniper-networks
+  name: juniper-networks
+  description: ''
+  image: ''
+  member_total: 4
+  member_on_network: 4
+  api_total: 2
+  tags: []
+  subfamilies: []
+  strength: 2
+  rating: 22.3
+  rating_band: emerging
+  composite_avg: 27.3
+  composite_band: thin
+  agent_avg: 14.8
+  agent_band: emerging
+  spread: 40.6
+  rating_scored: 2
+  rating_exemplar: 0
+  rating_strong: 1
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 1
 - slug: progress-software
   name: Progress Software
   description: 'Progress Software Corporation (NASDAQ: PRGS) is a Burlington, Massachusetts
@@ -1133,11 +1315,11 @@ estates:
   - Content Management
   subfamilies: []
   strength: 2
-  rating: 21.1
+  rating: 21.3
   rating_band: emerging
-  composite_avg: 26.9
+  composite_avg: 27.1
   composite_band: thin
-  agent_avg: 12.4
+  agent_avg: 12.7
   agent_band: emerging
   spread: 48.1
   rating_scored: 3
@@ -1166,11 +1348,11 @@ estates:
   subfamilies:
   - Pusher
   strength: 2
-  rating: 21.0
+  rating: 21.2
   rating_band: emerging
-  composite_avg: 26.5
+  composite_avg: 26.7
   composite_band: thin
-  agent_avg: 12.7
+  agent_avg: 13.0
   agent_band: emerging
   spread: 40.4
   rating_scored: 3
@@ -1198,11 +1380,11 @@ estates:
   - Order Management
   subfamilies: []
   strength: 2
-  rating: 20.8
+  rating: 21.0
   rating_band: emerging
-  composite_avg: 25.3
+  composite_avg: 25.5
   composite_band: thin
-  agent_avg: 14.0
+  agent_avg: 14.3
   agent_band: emerging
   spread: 47.9
   rating_scored: 3
@@ -1230,13 +1412,13 @@ estates:
   - Endpoint Security
   subfamilies: []
   strength: 2
-  rating: 19.9
+  rating: 20.2
   rating_band: emerging
-  composite_avg: 25.8
+  composite_avg: 26.0
   composite_band: thin
-  agent_avg: 11.1
+  agent_avg: 11.4
   agent_band: emerging
-  spread: 47.0
+  spread: 47.5
   rating_scored: 4
   rating_exemplar: 0
   rating_strong: 1
@@ -1262,11 +1444,11 @@ estates:
   - Industrial IoT
   subfamilies: []
   strength: 2
-  rating: 19.1
+  rating: 19.3
   rating_band: emerging
-  composite_avg: 23.5
+  composite_avg: 23.7
   composite_band: emerging
-  agent_avg: 12.4
+  agent_avg: 12.7
   agent_band: emerging
   spread: 44.3
   rating_scored: 4
@@ -1275,38 +1457,6 @@ estates:
   rating_developing: 2
   rating_agent_native: 0
   rating_agent_ready: 0
-- slug: visa
-  name: Visa
-  description: Visa is a global payment technology company that facilitates electronic
-    funds transfers by providing consumers, businesses, and governments with secure,
-    convenient, and reliable payment solutions. Through its network of financial institutions
-    and partners, Visa enables individuals to make purchases,
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visa.png
-  member_total: 3
-  member_on_network: 3
-  api_total: 2
-  tags:
-  - Account
-  - Banking
-  - Credit Cards
-  - Digital Commerce
-  - Digital Wallet
-  - Fintech
-  subfamilies: []
-  strength: 2
-  rating: 18.0
-  rating_band: emerging
-  composite_avg: 22.2
-  composite_band: emerging
-  agent_avg: 11.7
-  agent_band: emerging
-  spread: 59.3
-  rating_scored: 3
-  rating_exemplar: 0
-  rating_strong: 1
-  rating_developing: 0
-  rating_agent_native: 0
-  rating_agent_ready: 1
 - slug: verizon
   name: Verizon
   description: Verizon is a leading telecommunications company providing wireless,
@@ -1327,17 +1477,49 @@ estates:
   subfamilies:
   - AOL
   strength: 2
-  rating: 17.8
+  rating: 18.2
   rating_band: emerging
-  composite_avg: 22.6
+  composite_avg: 22.7
   composite_band: emerging
-  agent_avg: 10.6
+  agent_avg: 11.5
   agent_band: emerging
   spread: 38.8
   rating_scored: 5
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 2
+  rating_agent_native: 0
+  rating_agent_ready: 1
+- slug: visa
+  name: Visa
+  description: Visa is a global payment technology company that facilitates electronic
+    funds transfers by providing consumers, businesses, and governments with secure,
+    convenient, and reliable payment solutions. Through its network of financial institutions
+    and partners, Visa enables individuals to make purchases,
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/visa.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 2
+  tags:
+  - Visa
+  - Account
+  - Banking
+  - Credit Cards
+  - Digital Commerce
+  - Digital Wallet
+  subfamilies: []
+  strength: 2
+  rating: 18.2
+  rating_band: emerging
+  composite_avg: 22.3
+  composite_band: emerging
+  agent_avg: 12.0
+  agent_band: emerging
+  spread: 59.3
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 1
+  rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 1
 - slug: databricks
@@ -1349,19 +1531,19 @@ estates:
   member_on_network: 5
   api_total: 1
   tags:
+  - Cleanroom
+  - Databricks
   - Artificial Intelligence
   - Analytics
   - Apache Spark
   - Big Data
-  - Cleanroom
-  - Cloud Computing
   subfamilies: []
   strength: 2
-  rating: 17.6
+  rating: 17.8
   rating_band: emerging
-  composite_avg: 23.2
+  composite_avg: 23.4
   composite_band: emerging
-  agent_avg: 9.1
+  agent_avg: 9.4
   agent_band: minimal
   spread: 58.7
   rating_scored: 4
@@ -1370,36 +1552,6 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 0
-- slug: juniper
-  name: Juniper Networks
-  description: Juniper Networks provides high-performance networking and cybersecurity
-    solutions for service providers, enterprises, and public sector organizations.
-  image: https://www.juniper.net/content/dam/www/assets/images/juniper-networks-logo.png
-  member_total: 4
-  member_on_network: 4
-  api_total: 2
-  tags:
-  - Artificial Intelligence
-  - Automation
-  - Cloud
-  - Enterprise
-  - Networking
-  - SDN
-  subfamilies: []
-  strength: 1
-  rating: 23.6
-  rating_band: emerging
-  composite_avg: 28.7
-  composite_band: thin
-  agent_avg: 16.0
-  agent_band: emerging
-  spread: 12.2
-  rating_scored: 2
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 1
 - slug: spring
   name: Spring Framework
   description: Spring is the leading open-source application framework for Java. The
@@ -1411,19 +1563,19 @@ estates:
   member_on_network: 6
   api_total: 9
   tags:
+  - Spring Framework
   - Artificial Intelligence
   - Cloud-Native
   - Enterprise
   - Framework
   - Java
-  - Microservices
   subfamilies: []
   strength: 1
-  rating: 23.2
+  rating: 23.4
   rating_band: emerging
-  composite_avg: 29.6
+  composite_avg: 29.7
   composite_band: thin
-  agent_avg: 13.7
+  agent_avg: 13.9
   agent_band: emerging
   spread: 9.3
   rating_scored: 6
@@ -1432,102 +1584,6 @@ estates:
   rating_developing: 1
   rating_agent_native: 0
   rating_agent_ready: 0
-- slug: westpac
-  name: Westpac Banking Corporation
-  description: Westpac Banking Corporation is Australia's oldest bank and company,
-    founded in 1817 as the Bank of New South Wales, and is one of the country's "Big
-    Four" banks. Headquartered in Sydney, it is a publicly listed company on the Australian
-    Securities Exchange (ASX:WBC), not a customer-owned mutual, and
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/westpac.png
-  member_total: 3
-  member_on_network: 3
-  api_total: 7
-  tags:
-  - Financial
-  - Banks
-  - Open Banking
-  - CDR
-  - Consumer Banking
-  - Australia
-  subfamilies: []
-  strength: 1
-  rating: 23.2
-  rating_band: emerging
-  composite_avg: 28.3
-  composite_band: thin
-  agent_avg: 15.5
-  agent_band: emerging
-  spread: 16.7
-  rating_scored: 3
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 0
-- slug: cyberark
-  name: CyberArk
-  description: CyberArk is the global leader in identity security, providing a unified
-    Identity Security Platform that protects human, machine, and application identities
-    across hybrid and multi-cloud environments. Core product lines include Privileged
-    Access Manager (PAM Self-Hosted) and Privilege Cloud for crede
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cyberark.png
-  member_total: 3
-  member_on_network: 3
-  api_total: 6
-  tags:
-  - Authentication
-  - Cloud Security
-  - Conjur
-  - Credential Vault
-  - DevOps Secrets
-  - Endpoint Privilege Management
-  subfamilies: []
-  strength: 1
-  rating: 22.3
-  rating_band: emerging
-  composite_avg: 26.2
-  composite_band: thin
-  agent_avg: 16.4
-  agent_band: emerging
-  spread: 14.6
-  rating_scored: 3
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 1
-- slug: ptc
-  name: PTC
-  description: PTC is an industrial technology company providing software platforms
-    and APIs for Industrial IoT (ThingWorx), Product Lifecycle Management (Windchill,
-    Arena), Augmented Reality (Vuforia), Field Service Management (ServiceMax), and
-    industrial connectivity (Kepware) in manufacturing environments.
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ptc.png
-  member_total: 3
-  member_on_network: 3
-  api_total: 2
-  tags:
-  - Industrial IoT
-  - PLM
-  - Augmented Reality
-  - Field Service Management
-  - Manufacturing
-  - IIoT
-  subfamilies: []
-  strength: 1
-  rating: 22.3
-  rating_band: emerging
-  composite_avg: 26.6
-  composite_band: thin
-  agent_avg: 15.8
-  agent_band: emerging
-  spread: 36.6
-  rating_scored: 3
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 1
 - slug: solarwinds
   name: SolarWinds
   description: A collection of APIs provided by SolarWinds for IT infrastructure management,
@@ -1545,11 +1601,11 @@ estates:
   - ITSM
   subfamilies: []
   strength: 1
-  rating: 21.0
+  rating: 21.2
   rating_band: emerging
-  composite_avg: 26.2
+  composite_avg: 26.4
   composite_band: thin
-  agent_avg: 13.1
+  agent_avg: 13.5
   agent_band: emerging
   spread: 34.4
   rating_scored: 2
@@ -1577,11 +1633,11 @@ estates:
   - Human Resources
   subfamilies: []
   strength: 1
-  rating: 20.6
+  rating: 20.9
   rating_band: emerging
-  composite_avg: 25.0
+  composite_avg: 25.2
   composite_band: thin
-  agent_avg: 14.1
+  agent_avg: 14.4
   agent_band: emerging
   spread: 44.9
   rating_scored: 3
@@ -1609,11 +1665,11 @@ estates:
   - Listings
   subfamilies: []
   strength: 1
-  rating: 19.5
+  rating: 19.7
   rating_band: emerging
-  composite_avg: 25.0
+  composite_avg: 25.1
   composite_band: thin
-  agent_avg: 11.2
+  agent_avg: 11.5
   agent_band: emerging
   spread: 30.8
   rating_scored: 4
@@ -1641,44 +1697,13 @@ estates:
   - Real Estate Software
   subfamilies: []
   strength: 1
-  rating: 19.0
+  rating: 19.2
   rating_band: emerging
-  composite_avg: 23.9
+  composite_avg: 24.0
   composite_band: emerging
-  agent_avg: 11.6
+  agent_avg: 11.9
   agent_band: emerging
   spread: 32.5
-  rating_scored: 3
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 0
-- slug: fis
-  name: FIS Global
-  description: FIS (Fidelity National Information Services) is a global leader in
-    financial technology providing APIs for core banking, payments, wealth management,
-    and capital markets through the CodeConnect API marketplace. APIs connect financial
-    institutions, fintechs, and enterprises to FIS banking and payment
-  image: https://codeconnect.fisglobal.com/assets/FIS_codeConnect_logo_white.svg
-  member_total: 3
-  member_on_network: 3
-  api_total: 10
-  tags:
-  - Banking
-  - Core Banking
-  - Financial-Services
-  - Payments
-  - Fintech
-  subfamilies: []
-  strength: 1
-  rating: 17.7
-  rating_band: emerging
-  composite_avg: 22.6
-  composite_band: emerging
-  agent_avg: 10.4
-  agent_band: emerging
-  spread: 43.9
   rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
@@ -1704,45 +1729,13 @@ estates:
   - Data
   subfamilies: []
   strength: 1
-  rating: 17.5
+  rating: 17.7
   rating_band: emerging
-  composite_avg: 22.4
+  composite_avg: 22.6
   composite_band: emerging
-  agent_avg: 10.1
+  agent_avg: 10.4
   agent_band: emerging
   spread: 47.9
-  rating_scored: 3
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 1
-  rating_agent_native: 0
-  rating_agent_ready: 0
-- slug: bill
-  name: BILL
-  description: BILL (formerly Bill.com) is a cloud-based financial operations platform
-    for small and midsize businesses that automates accounts payable, accounts receivable,
-    and spend & expense management. The BILL API Platform exposes these workflows
-    through the BILL v3 REST API and embeddable BILL Elements UI co
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bill.png
-  member_total: 3
-  member_on_network: 3
-  api_total: 0
-  tags:
-  - Accounts Payable
-  - Accounts Receivable
-  - Spend Management
-  - Expense Management
-  - Payments
-  - Bill Pay
-  subfamilies: []
-  strength: 1
-  rating: 17.2
-  rating_band: emerging
-  composite_avg: 22.0
-  composite_band: emerging
-  agent_avg: 10.1
-  agent_band: emerging
-  spread: 36.1
   rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
@@ -1768,13 +1761,45 @@ estates:
   - Time Tracking
   subfamilies: []
   strength: 1
-  rating: 17.2
+  rating: 17.5
   rating_band: emerging
-  composite_avg: 21.5
+  composite_avg: 21.7
   composite_band: emerging
-  agent_avg: 10.7
+  agent_avg: 11.1
   agent_band: emerging
   spread: 35.0
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 1
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: bill
+  name: BILL
+  description: BILL (formerly Bill.com) is a cloud-based financial operations platform
+    for small and midsize businesses that automates accounts payable, accounts receivable,
+    and spend & expense management. The BILL API Platform exposes these workflows
+    through the BILL v3 REST API and embeddable BILL Elements UI co
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bill.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 0
+  tags:
+  - Accounts Payable
+  - Accounts Receivable
+  - Spend Management
+  - Expense Management
+  - Payments
+  - Bill Pay
+  subfamilies: []
+  strength: 1
+  rating: 17.4
+  rating_band: emerging
+  composite_avg: 22.1
+  composite_band: emerging
+  agent_avg: 10.4
+  agent_band: emerging
+  spread: 36.1
   rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
@@ -1800,11 +1825,11 @@ estates:
   - Investment
   subfamilies: []
   strength: 1
-  rating: 17.1
+  rating: 17.3
   rating_band: emerging
-  composite_avg: 21.1
+  composite_avg: 21.2
   composite_band: emerging
-  agent_avg: 11.1
+  agent_avg: 11.4
   agent_band: emerging
   spread: 46.1
   rating_scored: 4
@@ -1832,11 +1857,11 @@ estates:
   - Bluetooth Trackers
   subfamilies: []
   strength: 1
-  rating: 16.4
+  rating: 16.7
   rating_band: emerging
-  composite_avg: 22.0
+  composite_avg: 22.2
   composite_band: emerging
-  agent_avg: 8.1
+  agent_avg: 8.4
   agent_band: minimal
   spread: 30.3
   rating_scored: 3
@@ -1864,11 +1889,11 @@ estates:
   - Fortune 1000
   subfamilies: []
   strength: 1
-  rating: 11.7
+  rating: 11.8
   rating_band: emerging
-  composite_avg: 14.9
+  composite_avg: 15.0
   composite_band: emerging
-  agent_avg: 6.8
+  agent_avg: 7.0
   agent_band: minimal
   spread: 36.7
   rating_scored: 9
@@ -1895,11 +1920,11 @@ estates:
   - Software Delivery
   subfamilies: []
   strength: 0
-  rating: 22.7
+  rating: 23.0
   rating_band: emerging
-  composite_avg: 27.1
+  composite_avg: 27.3
   composite_band: thin
-  agent_avg: 16.1
+  agent_avg: 16.5
   agent_band: emerging
   spread: 8.3
   rating_scored: 3
@@ -1908,33 +1933,33 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 1
-- slug: akamai
-  name: Akamai
-  description: Akamai is a global content delivery network (CDN), cloud services,
-    and cybersecurity company that helps organizations deliver fast, reliable, and
-    secure digital experiences. Akamai's intelligent edge platform spans over 4,000
-    locations in 130+ countries, enabling customers to accelerate content deli
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akamai.png
+- slug: paypal
+  name: PayPal
+  description: PayPal is a global online payment system that lets individuals and
+    businesses send and receive money electronically. PayPal exposes a broad surface
+    of REST APIs covering payments, orders, subscriptions, invoicing, payouts, disputes,
+    payment tokens, shipping tracking, transaction reporting, partner r
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paypal.png
   member_total: 3
   member_on_network: 3
-  api_total: 2
+  api_total: 1
   tags:
-  - CDN
-  - Cloud
-  - Edge Computing
-  - Networks
-  - Platform
-  - Security
+  - PayPal
+  - Billing
+  - Commerce
+  - Disputes
+  - Invoices
+  - Order
   subfamilies: []
   strength: 0
-  rating: 19.1
+  rating: 19.9
   rating_band: emerging
-  composite_avg: 23.1
-  composite_band: emerging
-  agent_avg: 13.0
+  composite_avg: 25.3
+  composite_band: thin
+  agent_avg: 11.9
   agent_band: emerging
-  spread: 33.5
-  rating_scored: 3
+  spread: 1.4
+  rating_scored: 2
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
@@ -1960,14 +1985,44 @@ estates:
   subfamilies:
   - Sage Intacct
   strength: 0
-  rating: 18.3
+  rating: 18.5
   rating_band: emerging
-  composite_avg: 23.2
+  composite_avg: 23.4
   composite_band: emerging
-  agent_avg: 10.9
+  agent_avg: 11.1
   agent_band: emerging
   spread: 30.7
   rating_scored: 6
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: airbnb
+  name: Airbnb
+  description: Airbnb is the world's leading home-sharing and short-term rental marketplace,
+    connecting hosts who offer accommodations and experiences with guests worldwide.
+    The Airbnb developer platform provides connectivity partners — property management
+    systems, channel managers, and experience operators — with
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airbnb.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 1
+  tags:
+  - Reservations
+  - Hospitality
+  - Travel
+  - Airbnb
+  subfamilies: []
+  strength: 0
+  rating: 18.3
+  rating_band: emerging
+  composite_avg: 23.7
+  composite_band: emerging
+  agent_avg: 10.1
+  agent_band: emerging
+  spread: null
+  rating_scored: 1
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
@@ -1992,11 +2047,11 @@ estates:
   - Contact Center
   subfamilies: []
   strength: 0
-  rating: 18.1
+  rating: 18.3
   rating_band: emerging
-  composite_avg: 22.7
+  composite_avg: 22.9
   composite_band: emerging
-  agent_avg: 11.2
+  agent_avg: 11.5
   agent_band: emerging
   spread: 30.5
   rating_scored: 3
@@ -2005,31 +2060,33 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 1
-- slug: airbnb
-  name: Airbnb
-  description: Airbnb is the world's leading home-sharing and short-term rental marketplace,
-    connecting hosts who offer accommodations and experiences with guests worldwide.
-    The Airbnb developer platform provides connectivity partners — property management
-    systems, channel managers, and experience operators — with
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airbnb.png
-  member_total: 3
-  member_on_network: 3
-  api_total: 1
+- slug: akamai
+  name: Akamai
+  description: Akamai is a global content delivery network (CDN), cloud services,
+    and cybersecurity company that helps organizations deliver fast, reliable, and
+    secure digital experiences. Akamai's intelligent edge platform spans over 4,000
+    locations in 130+ countries, enabling customers to accelerate content deli
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akamai.png
+  member_total: 4
+  member_on_network: 4
+  api_total: 6
   tags:
-  - Reservations
-  - Hospitality
-  - Travel
-  - Airbnb
+  - CDN
+  - Cloud
+  - Edge Computing
+  - Networks
+  - Platform
+  - Security
   subfamilies: []
   strength: 0
-  rating: 17.9
+  rating: 18.1
   rating_band: emerging
-  composite_avg: 23.4
+  composite_avg: 22.1
   composite_band: emerging
-  agent_avg: 9.6
-  agent_band: minimal
-  spread: null
-  rating_scored: 1
+  agent_avg: 12.1
+  agent_band: emerging
+  spread: 33.5
+  rating_scored: 4
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
@@ -2042,24 +2099,24 @@ estates:
     known for offering a wide range of products at competitive prices, attracting
     customers from all walks of life. Walmart also provides various convenienc
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walmart.png
-  member_total: 5
-  member_on_network: 5
+  member_total: 6
+  member_on_network: 6
   api_total: 2
   tags:
+  - Walmart
   - Commerce
   - Retail
   - Fortune 100
   - Marketplace
   - E-Commerce
-  - Order
   subfamilies:
   - Flipkart
   strength: 0
-  rating: 17.4
+  rating: 17.5
   rating_band: emerging
-  composite_avg: 21.8
+  composite_avg: 21.9
   composite_band: emerging
-  agent_avg: 10.7
+  agent_avg: 11.0
   agent_band: emerging
   spread: 29.4
   rating_scored: 4
@@ -2087,11 +2144,11 @@ estates:
   - Economic Data
   subfamilies: []
   strength: 0
-  rating: 16.4
+  rating: 16.6
   rating_band: emerging
-  composite_avg: 19.8
+  composite_avg: 19.9
   composite_band: emerging
-  agent_avg: 11.3
+  agent_avg: 11.6
   agent_band: emerging
   spread: 30.9
   rating_scored: 3
@@ -2118,11 +2175,11 @@ estates:
   - WAF
   subfamilies: []
   strength: 0
-  rating: 16.3
+  rating: 16.5
   rating_band: emerging
-  composite_avg: 20.9
+  composite_avg: 21.0
   composite_band: emerging
-  agent_avg: 9.5
+  agent_avg: 9.8
   agent_band: minimal
   spread: 30.4
   rating_scored: 5
@@ -2131,65 +2188,116 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 0
-- slug: john-deere
-  name: John Deere
-  description: 'John Deere is a renowned American corporation that specializes in
-    manufacturing agricultural, construction, and forestry machinery. The company,
-    founded in 1837 by John Deere, has a long history of innovation and has become
-    a leader in the industry. John Deere''s products include tractors, combines, '
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/john-deere.png
+- slug: servicenow
+  name: ServiceNow
+  description: ServiceNow provides cloud-based platform services that automate enterprise
+    IT operations.
+  image: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg
   member_total: 3
   member_on_network: 3
-  api_total: 1
+  api_total: 5
   tags:
-  - Agriculture
-  - Combines
-  - Construction
-  - Excavators
-  - Forestry
-  - Machinery
+  - ServiceNow
+  - Automation
+  - Cloud Services
+  - Digital Workflows
+  - Enterprise Platform
+  - ITSM
+  subfamilies: []
+  strength: 0
+  rating: 16.5
+  rating_band: emerging
+  composite_avg: 20.1
+  composite_band: emerging
+  agent_avg: 11.2
+  agent_band: emerging
+  spread: 29.1
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 1
+- slug: centene-corporation
+  name: centene-corporation
+  description: ''
+  image: ''
+  member_total: 3
+  member_on_network: 3
+  api_total: 2
+  tags: []
+  subfamilies:
+  - WellCare Health Plans
+  strength: 0
+  rating: 16.2
+  rating_band: emerging
+  composite_avg: 19.7
+  composite_band: emerging
+  agent_avg: 11.0
+  agent_band: emerging
+  spread: 33.2
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 1
+- slug: tricentis
+  name: Tricentis
+  description: Tricentis is an enterprise continuous testing and quality engineering
+    company, founded in Austria in 2007 and headquartered in Vienna with US operations
+    in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca,
+    Tosca Cloud), AI-driven test management (qTest), performance te
+  image: https://be.tricentis.com/media-assets/2022/08/Tricentis-Logo-1-1120x446-1.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 6
+  tags:
+  - Company
+  - Testing
+  - Test Automation
+  - Quality Engineering
+  - Test Management
+  - Performance Testing
   subfamilies: []
   strength: 0
   rating: 16.2
   rating_band: emerging
-  composite_avg: 20.4
+  composite_avg: 21.3
   composite_band: emerging
-  agent_avg: 10.0
-  agent_band: emerging
-  spread: 33.6
+  agent_avg: 8.5
+  agent_band: minimal
+  spread: 5.4
   rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 0
-- slug: palo-alto-networks
-  name: Palo Alto Networks
-  description: Palo Alto Networks is a global cybersecurity leader providing advanced
-    security platforms and services across network security, cloud security, and security
-    operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS
-    firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, co
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/palo-alto-networks.png
-  member_total: 10
-  member_on_network: 10
-  api_total: 4
+- slug: amd
+  name: AMD
+  description: A multinational semiconductor company designing high-performance processors,
+    graphics cards, and adaptive computing solutions. Competes in data center, gaming,
+    and embedded markets with its Ryzen, EPYC, and Radeon product lines.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amd.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 1
   tags:
-  - Cloud Security
-  - Cybersecurity
-  - Firewall
-  - Network Security
-  - SASE
-  - SOAR
+  - Semiconductors
+  - Technology
+  - Processors
+  - Graphics
   subfamilies: []
   strength: 0
-  rating: 15.9
+  rating: 16.0
   rating_band: emerging
-  composite_avg: 19.5
+  composite_avg: 20.1
   composite_band: emerging
-  agent_avg: 10.5
-  agent_band: emerging
-  spread: 32.4
-  rating_scored: 9
+  agent_avg: 9.9
+  agent_band: minimal
+  spread: 22.1
+  rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
@@ -2214,11 +2322,11 @@ estates:
   - Consulting
   subfamilies: []
   strength: 0
-  rating: 15.5
+  rating: 15.8
   rating_band: emerging
-  composite_avg: 20.4
+  composite_avg: 20.6
   composite_band: emerging
-  agent_avg: 8.2
+  agent_avg: 8.6
   agent_band: minimal
   spread: 16.5
   rating_scored: 3
@@ -2238,19 +2346,19 @@ estates:
   member_on_network: 10
   api_total: 0
   tags:
+  - X / Twitter
   - Social-Media
   - Microblogging
   - Real-Time Data
   - Streaming
   - Advertising
-  - Content
   subfamilies: []
   strength: 0
-  rating: 15.4
+  rating: 15.7
   rating_band: emerging
-  composite_avg: 19.5
+  composite_avg: 19.7
   composite_band: emerging
-  agent_avg: 9.2
+  agent_avg: 9.7
   agent_band: minimal
   spread: null
   rating_scored: 1
@@ -2278,11 +2386,11 @@ estates:
   - Exchange Rates
   subfamilies: []
   strength: 0
-  rating: 15.4
+  rating: 15.6
   rating_band: emerging
-  composite_avg: 19.0
+  composite_avg: 19.1
   composite_band: emerging
-  agent_avg: 10.1
+  agent_avg: 10.4
   agent_band: emerging
   spread: 28.2
   rating_scored: 4
@@ -2310,11 +2418,11 @@ estates:
   - Zero Trust
   subfamilies: []
   strength: 0
-  rating: 15.3
+  rating: 15.6
   rating_band: emerging
-  composite_avg: 20.3
+  composite_avg: 20.5
   composite_band: emerging
-  agent_avg: 7.9
+  agent_avg: 8.2
   agent_band: minimal
   spread: 32.3
   rating_scored: 3
@@ -2323,44 +2431,76 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 0
-- slug: rtx
-  name: RTX
-  description: 'RTX Corporation is a leading American aerospace and defense company
-    comprising three market businesses: Collins Aerospace, Pratt & Whitney, and Raytheon.
-    Raytheon develops the EAGLE (Enhanced Automated Graphical Logistics Environment)
-    software platform for integrated logistics support and logistic s'
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rtx.png
-  member_total: 6
-  member_on_network: 6
-  api_total: 4
+- slug: nasdaq-omx-group
+  name: Nasdaq
+  description: Nasdaq is a global technology company serving capital markets and other
+    industries, providing trading, clearing, exchange technology, listing, information,
+    and public company services. Nasdaq Data Link offers REST APIs for accessing financial,
+    economic, and alternative data.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nasdaq-omx-group.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 2
   tags:
-  - Defense
-  - Aerospace
-  - Government
-  - Logistics
-  - Intelligence
-  - Military
-  subfamilies:
-  - United Technologies
+  - Financial-Services
+  - Capital Markets
+  - Stock Exchange
+  - Market Data
+  - Economics
+  - Fortune 1000
+  subfamilies: []
   strength: 0
-  rating: 15.1
+  rating: 15.5
   rating_band: emerging
-  composite_avg: 18.1
+  composite_avg: 18.7
   composite_band: emerging
-  agent_avg: 10.5
+  agent_avg: 10.6
   agent_band: emerging
-  spread: 34.7
-  rating_scored: 6
+  spread: 11.9
+  rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
   rating_agent_native: 0
-  rating_agent_ready: 2
+  rating_agent_ready: 0
+- slug: cloudera
+  name: Cloudera
+  description: Cloudera is a hybrid data platform company offering the Cloudera Data
+    Platform (CDP) for data engineering, data warehousing, machine learning, streaming,
+    and operational data. The platform exposes multiple REST APIs including the CDP
+    Public Cloud Control Plane API for managing environments, datalake
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudera.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 12
+  tags:
+  - Big Data
+  - Data Engineering
+  - Data Lakehouse
+  - Data Platform
+  - Data Warehouse
+  - Hadoop
+  subfamilies: []
+  strength: 0
+  rating: 15.4
+  rating_band: emerging
+  composite_avg: 19.1
+  composite_band: emerging
+  agent_avg: 9.9
+  agent_band: minimal
+  spread: 20.2
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0
 - slug: crowdstrike
   name: CrowdStrike
-  description: CrowdStrike is a major US corporation and Fortune 1000 company. The
-    CrowdStrike API provides programmatic access to its platform services, data, and
-    integrations for enterprise customers and partners.
+  description: 'CrowdStrike is a US cybersecurity company and Fortune 1000 constituent
+    whose Falcon platform delivers endpoint, cloud, identity and data protection from
+    a single cloud-native agent. Its developer surface is substantial and public:
+    a 1,463-operation OAuth2 REST API spanning 128 service collections, d'
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crowdstrike.png
   member_total: 3
   member_on_network: 3
@@ -2368,13 +2508,17 @@ estates:
   tags:
   - Cybersecurity
   - Endpoint Security
+  - EDR
+  - Threat Intelligence
+  - Cloud Security
+  - Identity Protection
   subfamilies: []
   strength: 0
-  rating: 15.0
+  rating: 15.3
   rating_band: emerging
-  composite_avg: 20.0
+  composite_avg: 20.2
   composite_band: emerging
-  agent_avg: 7.5
+  agent_avg: 7.9
   agent_band: minimal
   spread: 22.2
   rating_scored: 3
@@ -2402,11 +2546,11 @@ estates:
   - Identity
   subfamilies: []
   strength: 0
-  rating: 14.9
+  rating: 15.2
   rating_band: emerging
-  composite_avg: 19.6
+  composite_avg: 19.8
   composite_band: emerging
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
   spread: 15.1
   rating_scored: 2
@@ -2415,38 +2559,39 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 0
-- slug: facebook
-  name: Facebook
-  description: Facebook is Meta's social networking platform providing APIs for developers
-    to integrate with Facebook's ecosystem. The Facebook Graph API is the primary
-    way to read and write data to the Facebook social graph. Meta also provides APIs
-    for marketing and advertising, Instagram content management, Mess
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/facebook.png
-  member_total: 8
-  member_on_network: 8
-  api_total: 2
+- slug: rtx
+  name: RTX
+  description: 'RTX Corporation is a leading American aerospace and defense company
+    comprising three market businesses: Collins Aerospace, Pratt & Whitney, and Raytheon.
+    Raytheon develops the EAGLE (Enhanced Automated Graphical Logistics Environment)
+    software platform for integrated logistics support and logistic s'
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rtx.png
+  member_total: 6
+  member_on_network: 6
+  api_total: 4
   tags:
-  - Fortune 500
-  - Advertising
-  - Content Publishing
-  - Messaging
-  - Social-Media
-  - Social Networking
-  subfamilies: []
+  - Defense
+  - Aerospace
+  - Government
+  - Logistics
+  - Intelligence
+  - Military
+  subfamilies:
+  - United Technologies
   strength: 0
-  rating: 14.8
+  rating: 15.2
   rating_band: emerging
-  composite_avg: 19.0
+  composite_avg: 18.2
   composite_band: emerging
-  agent_avg: 8.4
-  agent_band: minimal
-  spread: 32.2
-  rating_scored: 5
+  agent_avg: 10.7
+  agent_band: emerging
+  spread: 34.7
+  rating_scored: 6
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
   rating_agent_native: 0
-  rating_agent_ready: 0
+  rating_agent_ready: 2
 - slug: becton-dickinson
   name: Becton Dickinson
   description: 'Becton Dickinson (BD) is a global medical technology company that
@@ -2466,13 +2611,77 @@ estates:
   - Diagnostics
   subfamilies: []
   strength: 0
-  rating: 14.7
+  rating: 15.0
   rating_band: emerging
-  composite_avg: 19.7
+  composite_avg: 19.9
   composite_band: emerging
-  agent_avg: 7.2
+  agent_avg: 7.6
   agent_band: minimal
   spread: 23.8
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: facebook
+  name: Facebook
+  description: Facebook is Meta's social networking platform providing APIs for developers
+    to integrate with Facebook's ecosystem. The Facebook Graph API is the primary
+    way to read and write data to the Facebook social graph. Meta also provides APIs
+    for marketing and advertising, Instagram content management, Mess
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/facebook.png
+  member_total: 8
+  member_on_network: 8
+  api_total: 2
+  tags:
+  - Facebook
+  - Fortune 500
+  - Advertising
+  - Content Publishing
+  - Messaging
+  - Social-Media
+  subfamilies: []
+  strength: 0
+  rating: 14.9
+  rating_band: emerging
+  composite_avg: 19.1
+  composite_band: emerging
+  agent_avg: 8.6
+  agent_band: minimal
+  spread: 32.2
+  rating_scored: 5
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: renaissance
+  name: Renaissance
+  description: 'Renaissance Learning, Inc. is a pre-K–12 education technology company
+    whose assessment, practice and analytics products — Star Assessments, Accelerated
+    Reader, Freckle, myON, Lalilo, Flocabulary, Nearpod, FastBridge, DnA, eduCLIMBER,
+    eSchoolData, SchoolCity and the Renaissance Growth Platform — are '
+  image: https://www.renaissance.com/wp-content/uploads/2023/04/renaissance-logo-facebook.png
+  member_total: 3
+  member_on_network: 3
+  api_total: 0
+  tags:
+  - Education
+  - EdTech
+  - K-12
+  - Assessment
+  - Learning Analytics
+  - Student Data
+  subfamilies: []
+  strength: 0
+  rating: 14.9
+  rating_band: emerging
+  composite_avg: 20.0
+  composite_band: emerging
+  agent_avg: 7.3
+  agent_band: minimal
+  spread: 8.0
   rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
@@ -2498,46 +2707,14 @@ estates:
   - Security Awareness Training
   subfamilies: []
   strength: 0
-  rating: 14.6
+  rating: 14.8
   rating_band: emerging
-  composite_avg: 18.3
+  composite_avg: 18.5
   composite_band: emerging
-  agent_avg: 9.0
+  agent_avg: 9.3
   agent_band: minimal
   spread: 26.7
   rating_scored: 4
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 0
-  rating_agent_native: 0
-  rating_agent_ready: 0
-- slug: renaissance
-  name: Renaissance
-  description: 'Renaissance Learning, Inc. is a pre-K–12 education technology company
-    whose assessment, practice and analytics products — Star Assessments, Accelerated
-    Reader, Freckle, myON, Lalilo, Flocabulary, Nearpod, FastBridge, DnA, eduCLIMBER,
-    eSchoolData, SchoolCity and the Renaissance Growth Platform — are '
-  image: https://www.renaissance.com/wp-content/uploads/2023/04/renaissance-logo-facebook.png
-  member_total: 3
-  member_on_network: 3
-  api_total: 0
-  tags:
-  - Education
-  - EdTech
-  - K-12
-  - Assessment
-  - Learning Analytics
-  - Student Data
-  subfamilies: []
-  strength: 0
-  rating: 14.6
-  rating_band: emerging
-  composite_avg: 19.8
-  composite_band: emerging
-  agent_avg: 6.9
-  agent_band: minimal
-  spread: 8.0
-  rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
@@ -2562,11 +2739,11 @@ estates:
   - Spatial Computing
   subfamilies: []
   strength: 0
-  rating: 14.3
+  rating: 14.5
   rating_band: emerging
-  composite_avg: 18.5
+  composite_avg: 18.7
   composite_band: emerging
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
   spread: 5.2
   rating_scored: 2
@@ -2575,32 +2752,32 @@ estates:
   rating_developing: 0
   rating_agent_native: 0
   rating_agent_ready: 0
-- slug: nokia-corp
-  name: Nokia
-  description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, information
-    technology, and consumer electronics corporation headquartered in Espoo, Finland.
-    Nokia is a leading vendor of carrier-grade network equipment for communication
-    service providers (CSPs), webscalers, and enterprises across m
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nokia-corp.png
+- slug: marathon-petroleum
+  name: Marathon Petroleum
+  description: Marathon Petroleum is one of the largest petroleum product refiners,
+    transporters, and marketers in the United States, with operations including refineries,
+    pipelines, terminals, and retail outlets. No public developer APIs have been identified
+    at this time.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marathon-petroleum.png
   member_total: 3
   member_on_network: 3
   api_total: 0
   tags:
-  - Telecommunications
-  - Telecom
-  - 5G
-  - 6G
-  - Mobile Network
-  - Network Infrastructure
-  subfamilies: []
+  - Energy
+  - Fortune 500
+  - Petroleum
+  - Pipelines
+  - Refining
+  subfamilies:
+  - Western Refining
   strength: 0
-  rating: 14.3
+  rating: 14.4
   rating_band: emerging
-  composite_avg: 18.6
+  composite_avg: 18.4
   composite_band: emerging
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
-  spread: 17.0
+  spread: 2.7
   rating_scored: 2
   rating_exemplar: 0
   rating_strong: 0
@@ -2627,11 +2804,11 @@ estates:
   subfamilies:
   - Peloton Interactive
   strength: 0
-  rating: 14.0
+  rating: 14.2
   rating_band: emerging
-  composite_avg: 18.0
+  composite_avg: 18.2
   composite_band: emerging
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
   spread: 7.0
   rating_scored: 2
@@ -2659,11 +2836,11 @@ estates:
   - Fraud Prevention
   subfamilies: []
   strength: 0
-  rating: 13.8
+  rating: 14.1
   rating_band: emerging
-  composite_avg: 18.1
+  composite_avg: 18.3
   composite_band: emerging
-  agent_avg: 7.4
+  agent_avg: 7.7
   agent_band: minimal
   spread: 7.9
   rating_scored: 3
@@ -2691,11 +2868,11 @@ estates:
   - Booking
   subfamilies: []
   strength: 0
-  rating: 13.8
+  rating: 14.1
   rating_band: emerging
-  composite_avg: 17.8
+  composite_avg: 18.0
   composite_band: emerging
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
   spread: 2.6
   rating_scored: 2
@@ -2716,11 +2893,11 @@ estates:
   - Fortune 100
   subfamilies: []
   strength: 0
-  rating: 13.6
+  rating: 13.7
   rating_band: emerging
-  composite_avg: 17.6
+  composite_avg: 17.7
   composite_band: emerging
-  agent_avg: 7.5
+  agent_avg: 7.8
   agent_band: minimal
   spread: 26.3
   rating_scored: 5
@@ -2740,16 +2917,17 @@ estates:
   member_on_network: 3
   api_total: 2
   tags:
-  - Artificial Intelligence
   - LLM
+  - OpenAI
+  - Artificial Intelligence
   - T1
   subfamilies: []
   strength: 0
-  rating: 13.4
+  rating: 13.7
   rating_band: emerging
-  composite_avg: 17.5
+  composite_avg: 17.7
   composite_band: emerging
-  agent_avg: 7.2
+  agent_avg: 7.6
   agent_band: minimal
   spread: 14.0
   rating_scored: 3
@@ -2776,11 +2954,11 @@ estates:
   - Open-Source
   subfamilies: []
   strength: 0
-  rating: 13.3
+  rating: 13.6
   rating_band: emerging
-  composite_avg: 16.9
+  composite_avg: 17.1
   composite_band: emerging
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
   spread: 0.4
   rating_scored: 2
@@ -2808,14 +2986,78 @@ estates:
   - PropTech
   subfamilies: []
   strength: 0
-  rating: 13.3
+  rating: 13.5
   rating_band: emerging
-  composite_avg: 17.3
+  composite_avg: 17.5
   composite_band: emerging
-  agent_avg: 7.2
+  agent_avg: 7.6
   agent_band: minimal
   spread: 11.4
   rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: nokia-corp
+  name: Nokia
+  description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, information
+    technology, and consumer electronics corporation headquartered in Espoo, Finland.
+    Nokia is a leading vendor of carrier-grade network equipment for communication
+    service providers (CSPs), webscalers, and enterprises across m
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nokia-corp.png
+  member_total: 4
+  member_on_network: 4
+  api_total: 0
+  tags:
+  - Telecommunications
+  - Telecom
+  - 5G
+  - 6G
+  - Mobile Network
+  - Network Infrastructure
+  subfamilies: []
+  strength: 0
+  rating: 13.2
+  rating_band: emerging
+  composite_avg: 17.1
+  composite_band: emerging
+  agent_avg: 7.3
+  agent_band: minimal
+  spread: 17.0
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: snowflake
+  name: Snowflake
+  description: Snowflake is a cloud-based data platform delivering data warehousing,
+    data lakes, data engineering, data science and data application development as
+    a single managed service across AWS, Azure and Google Cloud. Its developer surface
+    is a 47-document OpenAPI corpus over /api/v2 covering databases, sch
+  image: https://www.snowflake.com/wp-content/themes/snowflake/assets/img/brand-guidelines/logo-sno-blue-example.svg
+  member_total: 5
+  member_on_network: 5
+  api_total: 1
+  tags:
+  - Snowflake
+  - Data
+  - Data Warehouse
+  - Data Lakehouse
+  - Cloud Data Platform
+  - Analytics
+  subfamilies: []
+  strength: 0
+  rating: 13.1
+  rating_band: emerging
+  composite_avg: 17.3
+  composite_band: emerging
+  agent_avg: 6.7
+  agent_band: minimal
+  spread: 14.4
+  rating_scored: 4
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
@@ -2840,11 +3082,11 @@ estates:
   - OCR
   subfamilies: []
   strength: 0
-  rating: 12.9
+  rating: 13.1
   rating_band: emerging
-  composite_avg: 16.9
+  composite_avg: 17.0
   composite_band: emerging
-  agent_avg: 6.9
+  agent_avg: 7.3
   agent_band: minimal
   spread: 0.0
   rating_scored: 3
@@ -2871,46 +3113,14 @@ estates:
   - Subscription
   subfamilies: []
   strength: 0
-  rating: 12.9
+  rating: 13.1
   rating_band: emerging
-  composite_avg: 16.9
+  composite_avg: 17.0
   composite_band: emerging
-  agent_avg: 6.9
+  agent_avg: 7.3
   agent_band: minimal
   spread: 5.2
   rating_scored: 3
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 0
-  rating_agent_native: 0
-  rating_agent_ready: 0
-- slug: snowflake
-  name: Snowflake
-  description: Snowflake is a cloud-based data platform delivering data warehousing,
-    data lakes, data engineering, data science and data application development as
-    a single managed service across AWS, Azure and Google Cloud. Its developer surface
-    is a 47-document OpenAPI corpus over /api/v2 covering databases, sch
-  image: https://www.snowflake.com/wp-content/themes/snowflake/assets/img/brand-guidelines/logo-sno-blue-example.svg
-  member_total: 5
-  member_on_network: 5
-  api_total: 1
-  tags:
-  - Data
-  - Data Warehouse
-  - Data Lakehouse
-  - Cloud Data Platform
-  - Analytics
-  - Artificial Intelligence
-  subfamilies: []
-  strength: 0
-  rating: 12.8
-  rating_band: emerging
-  composite_avg: 17.1
-  composite_band: emerging
-  agent_avg: 6.4
-  agent_band: minimal
-  spread: 14.4
-  rating_scored: 4
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
@@ -2922,8 +3132,8 @@ estates:
     offering a wide range of products and services to help clients in the banking,
     payments, and wealth management industries.
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fiserv.png
-  member_total: 5
-  member_on_network: 5
+  member_total: 6
+  member_on_network: 6
   api_total: 2
   tags:
   - Banking
@@ -2934,11 +3144,11 @@ estates:
   subfamilies:
   - First Data (Fiserv)
   strength: 0
-  rating: 12.7
+  rating: 12.9
   rating_band: emerging
-  composite_avg: 16.2
+  composite_avg: 16.4
   composite_band: emerging
-  agent_avg: 7.4
+  agent_avg: 7.7
   agent_band: minimal
   spread: 18.7
   rating_scored: 4
@@ -2966,11 +3176,11 @@ estates:
   - Payments
   subfamilies: []
   strength: 0
-  rating: 12.7
+  rating: 12.9
   rating_band: emerging
-  composite_avg: 16.1
+  composite_avg: 16.2
   composite_band: emerging
-  agent_avg: 7.7
+  agent_avg: 8.0
   agent_band: minimal
   spread: 19.3
   rating_scored: 4
@@ -2998,13 +3208,76 @@ estates:
   - Local Commerce
   subfamilies: []
   strength: 0
-  rating: 12.5
+  rating: 12.7
+  rating_band: emerging
+  composite_avg: 16.3
+  composite_band: emerging
+  agent_avg: 7.3
+  agent_band: minimal
+  spread: 2.3
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: johnson-and-johnson
+  name: Johnson & Johnson
+  description: Johnson & Johnson is a multinational pharmaceutical and medical devices
+    corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech,
+    J&J has historically connected health platforms and APIs through subsidiaries
+    such as LifeScan (OneTouch blood glucose monitoring), which was div
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/johnson-and-johnson.png
+  member_total: 4
+  member_on_network: 4
+  api_total: 0
+  tags:
+  - Healthcare
+  - Medical Devices
+  - Diabetes
+  - Blood Glucose
+  - Pharmaceuticals
+  - Fortune 100
+  subfamilies: []
+  strength: 0
+  rating: 12.6
   rating_band: emerging
   composite_avg: 16.2
   composite_band: emerging
-  agent_avg: 6.9
+  agent_avg: 7.3
   agent_band: minimal
-  spread: 2.3
+  spread: 9.1
+  rating_scored: 3
+  rating_exemplar: 0
+  rating_strong: 0
+  rating_developing: 0
+  rating_agent_native: 0
+  rating_agent_ready: 0
+- slug: marvell-technology
+  name: Marvell Technology
+  description: Marvell Technology, Inc. is a Fortune 500 fabless semiconductor company
+    headquartered in Santa Clara, California. The company designs and develops data
+    infrastructure semiconductor solutions including custom ASICs, data processing
+    units, Ethernet controllers, optical and copper PHYs, switches, and s
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marvell-technology.png
+  member_total: 4
+  member_on_network: 4
+  api_total: 0
+  tags:
+  - Fortune 500
+  - Semiconductors
+  - Data Infrastructure
+  - Networking
+  - ASIC
+  subfamilies: []
+  strength: 0
+  rating: 12.6
+  rating_band: emerging
+  composite_avg: 16.1
+  composite_band: emerging
+  agent_avg: 7.3
+  agent_band: minimal
+  spread: 0.3
   rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
@@ -3030,45 +3303,14 @@ estates:
   - Spotify
   subfamilies: []
   strength: 0
-  rating: 12.3
+  rating: 12.5
   rating_band: emerging
-  composite_avg: 16.0
+  composite_avg: 16.1
   composite_band: emerging
-  agent_avg: 6.8
+  agent_avg: 7.1
   agent_band: minimal
   spread: 30.9
   rating_scored: 6
-  rating_exemplar: 0
-  rating_strong: 0
-  rating_developing: 0
-  rating_agent_native: 0
-  rating_agent_ready: 0
-- slug: marvell-technology
-  name: Marvell Technology
-  description: Marvell Technology, Inc. is a Fortune 500 fabless semiconductor company
-    headquartered in Santa Clara, California. The company designs and develops data
-    infrastructure semiconductor solutions including custom ASICs, data processing
-    units, Ethernet controllers, optical and copper PHYs, switches, and s
-  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marvell-technology.png
-  member_total: 4
-  member_on_network: 4
-  api_total: 0
-  tags:
-  - Fortune 500
-  - Semiconductors
-  - Data Infrastructure
-  - Networking
-  - ASIC
-  subfamilies: []
-  strength: 0
-  rating: 12.3
-  rating_band: emerging
-  composite_avg: 15.9
-  composite_band: emerging
-  agent_avg: 6.9
-  agent_band: minimal
-  spread: 0.3
-  rating_scored: 3
   rating_exemplar: 0
   rating_strong: 0
   rating_developing: 0
@@ -3093,11 +3335,11 @@ estates:
   - Location Data
   subfamilies: []
   strength: 0
-  rating: 12.0
+  rating: 12.2
   rating_band: emerging
-  composite_avg: 15.9
+  composite_avg: 16.0
   composite_band: emerging
-  agent_avg: 6.1
+  agent_avg: 6.4
   agent_band: minimal
   spread: 0.5
   rating_scored: 4
@@ -3122,11 +3364,11 @@ estates:
   - Life Sciences
   subfamilies: []
   strength: 0
-  rating: 11.8
+  rating: 12.0
   rating_band: emerging
-  composite_avg: 15.0
+  composite_avg: 15.1
   composite_band: emerging
-  agent_avg: 6.9
+  agent_avg: 7.3
   agent_band: minimal
   spread: 1.1
   rating_scored: 3
@@ -3148,11 +3390,11 @@ estates:
   - Fortune 100
   subfamilies: []
   strength: 0
-  rating: 11.8
+  rating: 12.0
   rating_band: emerging
-  composite_avg: 15.0
+  composite_avg: 15.2
   composite_band: emerging
-  agent_avg: 6.9
+  agent_avg: 7.3
   agent_band: minimal
   spread: 1.1
   rating_scored: 3
@@ -3180,11 +3422,11 @@ estates:
   - HSDP
   subfamilies: []
   strength: 0
-  rating: 11.8
+  rating: 12.0
   rating_band: emerging
-  composite_avg: 15.0
+  composite_avg: 15.1
   composite_band: emerging
-  agent_avg: 6.9
+  agent_avg: 7.3
   agent_band: minimal
   spread: 1.1
   rating_scored: 3
@@ -3205,11 +3447,11 @@ estates:
   tags: []
   subfamilies: []
   strength: 0
-  rating: 11.4
+  rating: 11.5
   rating_band: emerging
-  composite_avg: 15.2
+  composite_avg: 15.3
   composite_band: emerging
-  agent_avg: 5.6
+  agent_avg: 5.8
   agent_band: minimal
   spread: 23.2
   rating_scored: 8
@@ -3237,11 +3479,11 @@ estates:
   - Fortune 500
   subfamilies: []
   strength: 0
-  rating: 10.5
+  rating: 10.7
   rating_band: emerging
-  composite_avg: 13.5
+  composite_avg: 13.6
   composite_band: emerging
-  agent_avg: 6.1
+  agent_avg: 6.4
   agent_band: minimal
   spread: 2.1
   rating_scored: 4
@@ -3264,11 +3506,11 @@ estates:
   - Medical Devices
   subfamilies: []
   strength: 0
-  rating: 10.2
+  rating: 10.4
   rating_band: emerging
-  composite_avg: 13.3
+  composite_avg: 13.4
   composite_band: emerging
-  agent_avg: 5.5
+  agent_avg: 5.8
   agent_band: minimal
   spread: 8.3
   rating_scored: 5
@@ -3297,11 +3539,11 @@ estates:
   subfamilies:
   - Zynga
   strength: 0
-  rating: 10.1
+  rating: 10.3
   rating_band: emerging
-  composite_avg: 13.7
+  composite_avg: 13.8
   composite_band: emerging
-  agent_avg: 4.8
+  agent_avg: 5.0
   agent_band: minimal
   spread: 9.3
   rating_scored: 7

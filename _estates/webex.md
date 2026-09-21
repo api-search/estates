@@ -7,19 +7,19 @@ description: Cisco Webex is a comprehensive collaboration platform offering APIs
   OAuth 2.0 authentication and provides separate API surfaces for messaging, video conferencing, cloud
   calling, admin management, and more.
 estate_rating:
-  agent_avg: 15.9
+  agent_avg: 16.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 20.7
   agent_ready: 0
   band: thin
   best: 52.0
-  composite_avg: 31.9
+  composite_avg: 32.0
   composite_band: thin
   composite_raw: 41.4
   developing: 3
   exemplar: 0
-  rating: 25.5
+  rating: 25.6
   scored: 5
   spread: 19.8
   strength: 3

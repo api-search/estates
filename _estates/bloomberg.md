@@ -6,11 +6,11 @@ description: Bloomberg delivers business and markets news, data, analysis, and v
   BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise
   services.
 estate_rating:
-  agent_avg: 7.5
+  agent_avg: 8.1
   agent_band: minimal
   agent_native: 0
-  agent_raw: 7.0
-  agent_ready: 0
+  agent_raw: 7.6
+  agent_ready: 1
   band: emerging
   best: 54.5
   composite_avg: 25.4
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 25.8
   developing: 4
   exemplar: 0
-  rating: 18.2
+  rating: 18.5
   scored: 35
   spread: 44.8
   strength: 6
@@ -36,8 +36,8 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-aware
-    agent_score: 25.2
+    agent_band: agent-ready
+    agent_score: 33.5
     api_count: 2
     immediate_parent: bloomberg
     name: Bloomberg Applications
@@ -144,8 +144,8 @@ member_bands:
     source: declared
   - &id009
     acquired: null
-    agent_band: human-only
-    agent_score: 5.0
+    agent_band: agent-aware
+    agent_score: 16.9
     api_count: 2
     immediate_parent: bloomberg
     name: Bloomberg Data
@@ -480,26 +480,8 @@ member_bands:
     source: declared
   label: Minimal
   open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 1
-  items:
-  - &id036
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: bloomberg
-    name: Bloomberg Terminals
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: bloomberg-terminals
-    source: declared
-  label: Unrated
-  open: false
-member_on_network: 36
-member_total: 36
+member_on_network: 35
+member_total: 35
 members:
 - *id001
 - *id002
@@ -536,11 +518,10 @@ members:
 - *id033
 - *id034
 - *id035
-- *id036
 members_unrated: []
 name: Bloomberg
-overview: 'Bloomberg publishes its API surface across 36 provider profiles indexed on the APIs.io network,
-  of which 36 carry a rating. The rated members span 44.8 points, from 54.5 down to 9.7.
+overview: 'Bloomberg publishes its API surface across 35 provider profiles indexed on the APIs.io network,
+  of which 35 carry a rating. The rated members span 44.8 points, from 54.5 down to 9.7.
 
 
   Its highest-rated surfaces are Bloomberg Applications, Bloomberg AIM, Bloomberg Buyside Enterprise Solutions,

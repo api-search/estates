@@ -9,19 +9,19 @@ description: 'ZoomInfo is a B2B go-to-market intelligence platform whose contact
   OAuth-gated Model Context Protocol server at mcp.zoominfo.com and publishes 35 agent skills and a first-party
   CLI that talks to that MCP server rather than to REST.'
 estate_rating:
-  agent_avg: 10.1
+  agent_avg: 10.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 8.5
   agent_ready: 0
   band: emerging
   best: 53.2
-  composite_avg: 22.4
+  composite_avg: 22.6
   composite_band: emerging
   composite_raw: 22.4
   developing: 1
   exemplar: 0
-  rating: 17.5
+  rating: 17.7
   scored: 3
   spread: 47.9
   strength: 1
@@ -48,7 +48,7 @@ member_bands:
     score_band: developing
     score_composite: 53.2
     slug: chorus-ai
-    source: prose
+    source: parent-company-property
   label: Developing
   open: false
 - band: minimal

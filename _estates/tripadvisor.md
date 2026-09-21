@@ -7,19 +7,19 @@ description: Tripadvisor is the world's largest travel guidance platform, helpin
   and 29 languages. Tripadvisor provides APIs for content integration, hotel connectivity, and restaurant
   reservations.
 estate_rating:
-  agent_avg: 16.3
+  agent_avg: 16.6
   agent_band: emerging
   agent_native: 0
   agent_raw: 25.0
   agent_ready: 1
   band: emerging
   best: 51.9
-  composite_avg: 26.4
+  composite_avg: 26.6
   composite_band: thin
   composite_raw: 33.1
   developing: 2
   exemplar: 0
-  rating: 22.4
+  rating: 22.6
   scored: 3
   spread: 46.9
   strength: 2
@@ -58,7 +58,7 @@ member_bands:
     score_band: developing
     score_composite: 42.4
     slug: lafourchette
-    source: prose
+    source: parent-company-property
   label: Developing
   open: false
 - band: minimal
@@ -106,7 +106,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: restorando
-    source: prose
+    source: parent-company-property
   label: Unrated
   open: false
 member_on_network: 5

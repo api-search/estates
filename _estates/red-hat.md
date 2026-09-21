@@ -4,19 +4,19 @@ category: Estates
 description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions
   including Linux, cloud, container, and Kubernetes technologies.
 estate_rating:
-  agent_avg: 13.8
+  agent_avg: 14.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 16.0
   agent_ready: 1
   band: emerging
   best: 63.0
-  composite_avg: 28.8
+  composite_avg: 28.9
   composite_band: thin
   composite_raw: 34.0
   developing: 2
   exemplar: 0
-  rating: 22.8
+  rating: 22.9
   scored: 6
   spread: 58.0
   strength: 4
@@ -149,6 +149,7 @@ source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/apis.yml
 subfamilies: []
 tags:
+- Red Hat
 - Cloud
 - Containers
 - Enterprise

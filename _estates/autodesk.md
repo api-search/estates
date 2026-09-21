@@ -1,5 +1,5 @@
 ---
-api_total: 16
+api_total: 17
 category: Estates
 description: Autodesk is a global leader in design, engineering, and entertainment software, providing
   cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to
@@ -7,20 +7,20 @@ description: Autodesk is a global leader in design, engineering, and entertainme
   projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem
   including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.
 estate_rating:
-  agent_avg: 14.6
+  agent_avg: 12.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 17.1
+  agent_raw: 13.3
   agent_ready: 1
   band: emerging
   best: 50.2
-  composite_avg: 30.5
+  composite_avg: 28.2
   composite_band: thin
-  composite_raw: 36.2
+  composite_raw: 31.3
   developing: 4
   exemplar: 0
-  rating: 24.1
-  scored: 7
+  rating: 22.0
+  scored: 9
   spread: 45.2
   strength: 4
   strong: 0
@@ -100,7 +100,7 @@ member_bands:
     score_band: thin
     score_composite: 36.4
     slug: prodsmart
-    source: prose
+    source: parent-company-property
   - &id006
     acquired: null
     agent_band: agent-aware
@@ -115,11 +115,41 @@ member_bands:
     source: prose
   label: Thin
   open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
+  items:
+  - &id007
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 1
+    immediate_parent: autodesk
+    name: Ediphi
+    relationship: product
+    score_band: emerging
+    score_composite: 15.8
+    slug: ediphi
+    source: parent-company-property
+  - &id008
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: autodesk
+    name: IrisVR
+    relationship: product
+    score_band: emerging
+    score_composite: 12.6
+    slug: irisvr
+    source: parent-company-property
+  label: Emerging
+  open: false
 - band: minimal
   blurb: Almost no public developer surface
   count: 1
   items:
-  - &id007
+  - &id009
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -137,7 +167,7 @@ member_bands:
   blurb: Not yet scored
   count: 1
   items:
-  - &id008
+  - &id010
     acquired: null
     agent_band: null
     agent_score: null
@@ -151,8 +181,8 @@ member_bands:
     source: prose
   label: Unrated
   open: false
-member_on_network: 8
-member_total: 8
+member_on_network: 10
+member_total: 10
 members:
 - *id001
 - *id002
@@ -162,10 +192,12 @@ members:
 - *id006
 - *id007
 - *id008
+- *id009
+- *id010
 members_unrated: []
 name: Autodesk
-overview: 'Autodesk publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 45.2 points, from 50.2 down to 5.0.
+overview: 'Autodesk publishes its API surface across 10 provider profiles indexed on the APIs.io network,
+  of which 10 carry a rating. The rated members span 45.2 points, from 50.2 down to 5.0.
 
 
   Its highest-rated surfaces are Autodesk Construction Cloud, Autodesk PowerMill, Autodesk Fusion, Autodesk
@@ -190,6 +222,8 @@ subfamilies:
   slug: autodesk-construction-cloud
 subfamily_page_count: 0
 tags:
+- Digital Twin
+- Autodesk
 - Fortune 1000
 - 3D Modeling
 - Architecture
@@ -197,10 +231,8 @@ tags:
 - CAD
 - Construction
 - Design
-- Digital Twin
 - Engineering
 - Manufacturing
 - Media and Entertainment
-- Sustainability
 title: Autodesk
 ---

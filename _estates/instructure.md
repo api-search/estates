@@ -9,19 +9,19 @@ description: Instructure is an EdTech company best known for Canvas LMS, a widel
   1.3 integrations. Authentication is handled via OAuth2 with per-token dynamic rate limiting, and all
   API responses are returned in JSON over HTTPS.
 estate_rating:
-  agent_avg: 11.9
+  agent_avg: 12.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 13.2
   agent_ready: 1
   band: emerging
   best: 71.5
-  composite_avg: 28.1
+  composite_avg: 28.3
   composite_band: thin
   composite_raw: 37.6
   developing: 0
   exemplar: 1
-  rating: 21.6
+  rating: 21.9
   scored: 3
   spread: 64.8
   strength: 3
@@ -84,7 +84,7 @@ member_bands:
     score_band: minimal
     score_composite: 6.7
     slug: masteryconnect
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 member_on_network: 3
@@ -109,17 +109,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instructure/re
 subfamilies: []
 subfamily_page_count: 0
 tags:
+- Enrollment
+- Instructure
 - EdTech
 - Education
 - LMS
 - Canvas
 - Courses
-- Enrollment
 - Assignments
 - Grades
 - Discussions
 - GraphQL
 - LTI
-- Learning Management
 title: Instructure
 ---

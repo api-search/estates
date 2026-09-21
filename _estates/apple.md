@@ -3,19 +3,19 @@ api_total: 3
 category: Estates
 description: Collection of Apple's public APIs and developer resources.
 estate_rating:
-  agent_avg: 9.6
+  agent_avg: 9.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.8
   agent_ready: 1
   band: emerging
   best: 65.0
-  composite_avg: 21.6
+  composite_avg: 21.7
   composite_band: emerging
   composite_raw: 21.2
   developing: 1
   exemplar: 0
-  rating: 16.8
+  rating: 16.9
   scored: 9
   spread: 60.0
   strength: 3
@@ -60,7 +60,7 @@ member_bands:
     score_band: developing
     score_composite: 48.2
     slug: shazam
-    source: prose
+    source: parent-company-property
   label: Developing
   open: false
 - band: thin
@@ -204,7 +204,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: pop-up-archive
-    source: prose
+    source: parent-company-property
   - &id013
     acquired: null
     agent_band: null
@@ -264,6 +264,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple/refs/hea
 subfamilies: []
 subfamily_page_count: 0
 tags:
+- Apple
 - Developers
 - iOS
 - macOS

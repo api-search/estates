@@ -4,21 +4,21 @@ category: Estates
 description: The GitHub REST API allows developers to programmatically interact with GitHub resources
   including repositories, users, organizations, pull requests, issues, and more.
 estate_rating:
-  agent_avg: 18.4
+  agent_avg: 19.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.5
+  agent_raw: 23.6
   agent_ready: 2
   band: thin
-  best: 79.8
-  composite_avg: 34.1
+  best: 80.2
+  composite_avg: 34.2
   composite_band: thin
   composite_raw: 40.6
   developing: 2
   exemplar: 1
-  rating: 27.8
+  rating: 28.2
   scored: 9
-  spread: 72.9
+  spread: 73.3
   strength: 7
   strong: 1
   worst: 6.9
@@ -41,7 +41,7 @@ member_bands:
     name: GitHub Actions
     relationship: product
     score_band: exemplar
-    score_composite: 79.8
+    score_composite: 80.2
     slug: github-actions
     source: declared
   label: Exemplar
@@ -53,7 +53,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 38.5
+    agent_score: 48.2
     api_count: 1
     immediate_parent: github
     name: GitHub Copilot
@@ -187,7 +187,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: artillery-games
-    source: prose
+    source: parent-company-property
   - &id011
     acquired: null
     agent_band: null
@@ -199,7 +199,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: lytmus
-    source: prose
+    source: parent-company-property
   label: Unrated
   open: false
 member_on_network: 11
@@ -219,7 +219,7 @@ members:
 members_unrated: []
 name: GitHub
 overview: 'GitHub publishes its API surface across 11 provider profiles indexed on the APIs.io network,
-  of which 11 carry a rating. The rated members span 72.9 points, from 79.8 down to 6.9.
+  of which 11 carry a rating. The rated members span 73.3 points, from 80.2 down to 6.9.
 
 
   Its highest-rated surfaces are GitHub Actions, GitHub Copilot, NuGet, npm, GitHub Container Registry.'

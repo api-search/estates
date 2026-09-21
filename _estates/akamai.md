@@ -1,25 +1,25 @@
 ---
-api_total: 2
+api_total: 6
 category: Estates
 description: Akamai is a global content delivery network (CDN), cloud services, and cybersecurity company
   that helps organizations deliver fast, reliable, and secure digital experiences. Akamai's intelligent
   edge platform spans over 4,000 locations in 130+ countries, enabling customers to accelerate content
   delivery, protect against cyberattacks, and run cloud applications at the edge of the internet.
 estate_rating:
-  agent_avg: 13.0
+  agent_avg: 12.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 16.1
+  agent_raw: 12.7
   agent_ready: 0
   band: emerging
   best: 38.5
-  composite_avg: 23.1
+  composite_avg: 22.1
   composite_band: emerging
-  composite_raw: 24.3
+  composite_raw: 21.4
   developing: 0
   exemplar: 0
-  rating: 19.1
-  scored: 3
+  rating: 18.1
+  scored: 4
   spread: 33.5
   strength: 0
   strong: 0
@@ -60,11 +60,29 @@ member_bands:
     source: prose
   label: Thin
   open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 1
+  items:
+  - &id003
+    acquired: null
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 4
+    immediate_parent: akamai
+    name: Noname Security
+    relationship: product
+    score_band: emerging
+    score_composite: 12.8
+    slug: noname-security
+    source: parent-company-property
+  label: Emerging
+  open: false
 - band: minimal
   blurb: Almost no public developer surface
   count: 1
   items:
-  - &id003
+  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -75,22 +93,23 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: guardicore
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
-member_on_network: 3
-member_total: 3
+member_on_network: 4
+member_total: 4
 members:
 - *id001
 - *id002
 - *id003
+- *id004
 members_unrated: []
 name: Akamai
-overview: 'Akamai publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 33.5 points, from 38.5 down to 5.0.
+overview: 'Akamai publishes its API surface across 4 provider profiles indexed on the APIs.io network,
+  of which 4 carry a rating. The rated members span 33.5 points, from 38.5 down to 5.0.
 
 
-  Its highest-rated surfaces are Akamai API Security, Styra, Guardicore.'
+  Its highest-rated surfaces are Akamai API Security, Styra, Noname Security, Guardicore.'
 parent_provider: akamai
 permalink: /estates/akamai/
 slug: akamai

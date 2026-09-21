@@ -4,19 +4,19 @@ category: Estates
 description: Fiserv is a global provider of financial services technology solutions, offering a wide range
   of products and services to help clients in the banking, payments, and wealth management industries.
 estate_rating:
-  agent_avg: 7.4
+  agent_avg: 7.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.8
   agent_ready: 0
   band: emerging
   best: 18.8
-  composite_avg: 16.2
+  composite_avg: 16.4
   composite_band: emerging
   composite_raw: 8.5
   developing: 0
   exemplar: 0
-  rating: 12.7
+  rating: 12.9
   scored: 4
   spread: 18.7
   strength: 0
@@ -90,7 +90,7 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 1
+  count: 2
   items:
   - &id005
     acquired: null
@@ -104,20 +104,33 @@ member_bands:
     score_composite: null
     slug: corillian
     source: prose
+  - &id006
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: fiserv
+    name: Fincentric
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: fincentric
+    source: parent-company-property
   label: Unrated
   open: false
-member_on_network: 5
-member_total: 5
+member_on_network: 6
+member_total: 6
 members:
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
+- *id006
 members_unrated: []
 name: Fiserv
-overview: 'Fiserv publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 18.7 points, from 18.8 down to 0.1.
+overview: 'Fiserv publishes its API surface across 6 provider profiles indexed on the APIs.io network,
+  of which 6 carry a rating. The rated members span 18.7 points, from 18.8 down to 0.1.
 
 
   Its highest-rated surfaces are First Data (Fiserv), Salido, BentoBox, Clover Networks, Corillian.'

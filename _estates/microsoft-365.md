@@ -7,19 +7,19 @@ description: Microsoft 365 is Microsoft's productivity and collaboration suite, 
   Microsoft Graph, a unified REST API that exposes users, mail, calendar, files, Teams messages, sites,
   devices, and more across the Microsoft cloud.
 estate_rating:
-  agent_avg: 20.9
+  agent_avg: 21.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.9
+  agent_raw: 23.2
   agent_ready: 11
   band: thin
   best: 63.4
-  composite_avg: 38.5
+  composite_avg: 38.7
   composite_band: thin
-  composite_raw: 41.7
+  composite_raw: 41.9
   developing: 6
   exemplar: 0
-  rating: 31.5
+  rating: 31.7
   scored: 25
   spread: 43.2
   strength: 18
@@ -50,7 +50,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 46.0
+    agent_score: 49.6
     api_count: 1
     immediate_parent: microsoft-365
     name: Microsoft Outlook
@@ -62,7 +62,19 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 39.9
+    agent_score: 32.4
+    api_count: 1
+    immediate_parent: microsoft-365
+    name: Microsoft Office 365
+    relationship: product
+    score_band: strong
+    score_composite: 59.3
+    slug: microsoft-office-365
+    source: declared
+  - &id004
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 43.5
     api_count: 21
     immediate_parent: microsoft-365
     name: Microsoft Word
@@ -71,7 +83,7 @@ member_bands:
     score_composite: 58.5
     slug: microsoft-word
     source: declared
-  - &id004
+  - &id005
     acquired: null
     agent_band: agent-ready
     agent_score: 29.9
@@ -83,7 +95,7 @@ member_bands:
     score_composite: 57.8
     slug: microsoft-planner
     source: declared
-  - &id005
+  - &id006
     acquired: null
     agent_band: agent-ready
     agent_score: 33.0
@@ -94,18 +106,6 @@ member_bands:
     score_band: strong
     score_composite: 56.4
     slug: microsoft-exchange
-    source: declared
-  - &id006
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 32.4
-    api_count: 1
-    immediate_parent: microsoft-365
-    name: Microsoft Office 365
-    relationship: product
-    score_band: strong
-    score_composite: 55.6
-    slug: microsoft-office-365
     source: declared
   label: Strong
   open: true
@@ -389,8 +389,8 @@ overview: 'Microsoft 365 publishes its API surface across 25 provider profiles i
   network, of which 25 carry a rating. The rated members span 43.2 points, from 63.4 down to 20.2.
 
 
-  Its highest-rated surfaces are Microsoft Graph, Microsoft Outlook, Microsoft Word, Microsoft Planner,
-  Microsoft Exchange.'
+  Its highest-rated surfaces are Microsoft Graph, Microsoft Outlook, Microsoft Office 365, Microsoft Word,
+  Microsoft Planner.'
 parent_provider: microsoft-365
 permalink: /estates/microsoft-365/
 slug: microsoft-365

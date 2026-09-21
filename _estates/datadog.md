@@ -7,19 +7,19 @@ description: Datadog is a monitoring and analytics platform that helps organizat
   platform enables companies to track performance metrics, troubleshoot issues, and optimize their systems
   for peak efficiency.
 estate_rating:
-  agent_avg: 18.3
+  agent_avg: 18.6
   agent_band: emerging
   agent_native: 0
   agent_raw: 27.4
   agent_ready: 1
   band: thin
   best: 79.3
-  composite_avg: 32.8
+  composite_avg: 33.0
   composite_band: thin
   composite_raw: 45.9
   developing: 1
   exemplar: 1
-  rating: 27.0
+  rating: 27.2
   scored: 4
   spread: 74.3
   strength: 6
@@ -82,7 +82,7 @@ member_bands:
     score_band: developing
     score_composite: 40.4
     slug: adaptive-ml
-    source: prose
+    source: parent-company-property
   label: Developing
   open: false
 - band: minimal
@@ -100,7 +100,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: sqreen
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 member_on_network: 4
@@ -126,11 +126,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/h
 subfamilies: []
 subfamily_page_count: 0
 tags:
+- Visualization
+- Datadog
 - Analytics
 - Dashboards
 - Monitoring
 - Platform
 - T1
-- Visualization
 title: Datadog
 ---

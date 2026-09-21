@@ -9,19 +9,19 @@ description: Marvell Technology, Inc. is a Fortune 500 fabless semiconductor com
   associated with Marvell. Public developer documentation is gated behind a customer support portal and
   is not openly accessible.
 estate_rating:
-  agent_avg: 6.9
+  agent_avg: 7.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.3
-  composite_avg: 15.9
+  composite_avg: 16.1
   composite_band: emerging
   composite_raw: 5.1
   developing: 0
   exemplar: 0
-  rating: 12.3
+  rating: 12.6
   scored: 3
   spread: 0.3
   strength: 0
@@ -48,7 +48,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.3
     slug: aquantia
-    source: prose
+    source: parent-company-property
   - &id002
     acquired: null
     agent_band: human-only
@@ -60,7 +60,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: innovium
-    source: prose
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: human-only
@@ -90,7 +90,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: galileo-technology
-    source: prose
+    source: parent-company-property
   label: Unrated
   open: false
 member_on_network: 4

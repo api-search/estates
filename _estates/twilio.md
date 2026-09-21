@@ -6,19 +6,19 @@ description: Cloud communications platform providing APIs for SMS, voice, video,
   and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python,
   Ruby, Java, PHP, C#, and Go.
 estate_rating:
-  agent_avg: 13.5
+  agent_avg: 13.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 16.5
   agent_ready: 1
   band: emerging
   best: 80.0
-  composite_avg: 28.4
+  composite_avg: 28.6
   composite_band: thin
   composite_raw: 36.0
   developing: 1
   exemplar: 1
-  rating: 22.4
+  rating: 22.7
   scored: 4
   spread: 71.5
   strength: 4
@@ -45,7 +45,7 @@ member_bands:
     score_band: exemplar
     score_composite: 80.0
     slug: sendgrid
-    source: prose
+    source: parent-company-property
   label: Exemplar
   open: true
 - band: developing
@@ -63,7 +63,7 @@ member_bands:
     score_band: developing
     score_composite: 44.3
     slug: segment
-    source: prose
+    source: parent-company-property
   label: Developing
   open: false
 - band: emerging
@@ -81,7 +81,7 @@ member_bands:
     score_band: emerging
     score_composite: 11.0
     slug: authy
-    source: prose
+    source: parent-company-property
   label: Emerging
   open: false
 - band: minimal

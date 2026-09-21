@@ -1,26 +1,26 @@
 ---
-api_total: 113
+api_total: 115
 category: Estates
 description: APIs for Qlik's analytics and data integration platform.
 estate_rating:
-  agent_avg: 15.1
+  agent_avg: 14.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.4
+  agent_raw: 16.3
   agent_ready: 2
   band: emerging
   best: 69.7
-  composite_avg: 29.6
+  composite_avg: 28.9
   composite_band: thin
-  composite_raw: 35.6
-  developing: 0
+  composite_raw: 32.7
+  developing: 1
   exemplar: 1
-  rating: 23.8
-  scored: 6
-  spread: 52.9
-  strength: 3
+  rating: 23.1
+  scored: 8
+  spread: 64.7
+  strength: 4
   strong: 0
-  worst: 16.8
+  worst: 5.0
 estate_root: null
 estate_root_name: null
 image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo.png
@@ -45,11 +45,29 @@ member_bands:
     source: declared
   label: Exemplar
   open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 1
+  items:
+  - &id002
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.8
+    api_count: 2
+    immediate_parent: qlik
+    name: Talend
+    relationship: product
+    score_band: developing
+    score_composite: 42.8
+    slug: talend
+    source: parent-company-property
+  label: Developing
+  open: false
 - band: thin
   blurb: Limited public surface area
   count: 3
   items:
-  - &id002
+  - &id003
     acquired: null
     agent_band: human-only
     agent_score: 5.0
@@ -61,7 +79,7 @@ member_bands:
     score_composite: 39.0
     slug: qlikview
     source: declared
-  - &id003
+  - &id004
     acquired: null
     agent_band: agent-ready
     agent_score: 33.7
@@ -73,7 +91,7 @@ member_bands:
     score_composite: 38.1
     slug: qlik-sense-enterprise
     source: declared
-  - &id004
+  - &id005
     acquired: null
     agent_band: agent-aware
     agent_score: 23.2
@@ -91,7 +109,7 @@ member_bands:
   blurb: Early or largely undocumented
   count: 2
   items:
-  - &id005
+  - &id006
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -102,8 +120,8 @@ member_bands:
     score_band: emerging
     score_composite: 17.1
     slug: upsolver
-    source: prose
-  - &id006
+    source: parent-company-property
+  - &id007
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -117,26 +135,26 @@ member_bands:
     source: declared
   label: Emerging
   open: false
-- band: unrated
-  blurb: Not yet scored
+- band: minimal
+  blurb: Almost no public developer surface
   count: 1
   items:
-  - &id007
+  - &id008
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
-    immediate_parent: qlik
-    name: Qlik Sense
+    immediate_parent: talend
+    name: RJMetrics
     relationship: product
-    score_band: null
-    score_composite: null
-    slug: qlik-sense
-    source: declared
-  label: Unrated
+    score_band: minimal
+    score_composite: 5.0
+    slug: rjmetrics
+    source: parent-company-property
+  label: Minimal
   open: false
-member_on_network: 7
-member_total: 7
+member_on_network: 8
+member_total: 8
 members:
 - *id001
 - *id002
@@ -145,20 +163,32 @@ members:
 - *id005
 - *id006
 - *id007
+- *id008
 members_unrated: []
 name: Qlik
-overview: 'Qlik publishes its API surface across 7 provider profiles indexed on the APIs.io network, of
-  which 7 carry a rating. The rated members span 52.9 points, from 69.7 down to 16.8.
+overview: 'Qlik publishes its API surface across 8 provider profiles indexed on the APIs.io network, of
+  which 8 carry a rating. The rated members span 64.7 points, from 69.7 down to 5.0.
 
 
-  Its highest-rated surfaces are Qlik Sense, QlikView, Qlik Sense Enterprise, Qlik Cloud, Upsolver.'
+  Its highest-rated surfaces are Qlik Sense, Talend, QlikView, Qlik Sense Enterprise, Qlik Cloud.'
 parent_provider: qlik
 permalink: /estates/qlik/
 slug: qlik
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/apis.yml
-subfamilies: []
+subfamilies:
+- has_page: false
+  member_count: 1
+  members:
+  - name: RJMetrics
+    score_band: minimal
+    score_composite: 5.0
+    slug: rjmetrics
+  name: Talend
+  on_network: true
+  permalink: /estates/talend/
+  slug: talend
 subfamily_page_count: 0
 tags:
 - Security

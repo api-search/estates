@@ -1,27 +1,27 @@
 ---
-api_total: 6
+api_total: 7
 category: Estates
 description: Freshworks is a software company that develops cloud-based business software including customer
   support, IT service management, sales force automation, marketing automation, and HR applications.
 estate_rating:
-  agent_avg: 17.6
+  agent_avg: 20.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 24.1
-  agent_ready: 1
+  agent_raw: 27.9
+  agent_ready: 3
   band: thin
   best: 66.1
-  composite_avg: 31.8
+  composite_avg: 31.1
   composite_band: thin
-  composite_raw: 41.2
+  composite_raw: 38.2
   developing: 0
   exemplar: 0
-  rating: 26.1
-  scored: 5
-  spread: 32.7
+  rating: 26.9
+  scored: 6
+  spread: 43.0
   strength: 2
   strong: 1
-  worst: 33.4
+  worst: 23.1
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshworks.png
@@ -88,8 +88,8 @@ member_bands:
     source: declared
   - &id005
     acquired: null
-    agent_band: agent-aware
-    agent_score: 25.9
+    agent_band: agent-ready
+    agent_score: 42.1
     api_count: 1
     immediate_parent: freshworks
     name: Freshservice
@@ -100,11 +100,29 @@ member_bands:
     source: declared
   label: Thin
   open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 1
+  items:
+  - &id006
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 30.6
+    api_count: 1
+    immediate_parent: firehydrant
+    name: Blameless
+    relationship: product
+    score_band: emerging
+    score_composite: 23.1
+    slug: blameless
+    source: parent-company-property
+  label: Emerging
+  open: false
 - band: unrated
   blurb: Not yet scored
   count: 1
   items:
-  - &id006
+  - &id007
     acquired: null
     agent_band: null
     agent_score: null
@@ -118,8 +136,8 @@ member_bands:
     source: prose
   label: Unrated
   open: false
-member_on_network: 6
-member_total: 6
+member_on_network: 7
+member_total: 7
 members:
 - *id001
 - *id002
@@ -127,10 +145,11 @@ members:
 - *id004
 - *id005
 - *id006
+- *id007
 members_unrated: []
 name: Freshworks
-overview: 'Freshworks publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 32.7 points, from 66.1 down to 33.4.
+overview: 'Freshworks publishes its API surface across 7 provider profiles indexed on the APIs.io network,
+  of which 7 carry a rating. The rated members span 43.0 points, from 66.1 down to 23.1.
 
 
   Its highest-rated surfaces are FireHydrant, Freshteam, Freshchat, Freshsales, Freshservice.'
@@ -140,7 +159,18 @@ slug: freshworks
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/apis.yml
-subfamilies: []
+subfamilies:
+- has_page: false
+  member_count: 1
+  members:
+  - name: Blameless
+    score_band: emerging
+    score_composite: 23.1
+    slug: blameless
+  name: FireHydrant
+  on_network: true
+  permalink: /estates/firehydrant/
+  slug: firehydrant
 subfamily_page_count: 0
 tags:
 - Analytics

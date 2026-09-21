@@ -7,19 +7,19 @@ description: LinkedIn is a professional networking platform providing APIs for c
   sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data
   portability.
 estate_rating:
-  agent_avg: 9.9
-  agent_band: minimal
+  agent_avg: 10.2
+  agent_band: emerging
   agent_native: 0
   agent_raw: 8.5
   agent_ready: 1
   band: emerging
   best: 59.5
-  composite_avg: 21.0
+  composite_avg: 21.2
   composite_band: emerging
   composite_raw: 19.2
   developing: 0
   exemplar: 0
-  rating: 16.6
+  rating: 16.8
   scored: 4
   spread: 54.5
   strength: 2
@@ -64,7 +64,7 @@ member_bands:
     score_band: minimal
     score_composite: 7.4
     slug: glint
-    source: prose
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: human-only
@@ -76,7 +76,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: drawbridge
-    source: prose
+    source: parent-company-property
   - &id004
     acquired: null
     agent_band: human-only
@@ -142,7 +142,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: rapportive
-    source: prose
+    source: parent-company-property
   label: Unrated
   open: false
 member_on_network: 8
@@ -171,6 +171,7 @@ source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/apis.yml
 subfamilies: []
 tags:
+- LinkedIn
 - Business
 - Careers
 - Marketing

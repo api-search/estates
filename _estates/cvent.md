@@ -10,19 +10,19 @@ description: Cvent is a leading meetings, events, and hospitality technology pro
   integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads,
   webhooks, SSO, custom widgets, white-label, and integration documentation.
 estate_rating:
-  agent_avg: 20.5
+  agent_avg: 20.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 28.3
   agent_ready: 3
   band: thin
   best: 79.5
-  composite_avg: 37.8
+  composite_avg: 37.9
   composite_band: thin
   composite_raw: 50.5
   developing: 1
   exemplar: 2
-  rating: 30.9
+  rating: 31.0
   scored: 6
   spread: 63.9
   strength: 9
@@ -133,7 +133,7 @@ member_bands:
     score_band: emerging
     score_composite: 15.6
     slug: doubledutch
-    source: prose
+    source: parent-company-property
   label: Emerging
   open: false
 member_on_network: 6

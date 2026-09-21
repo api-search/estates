@@ -13,19 +13,19 @@ description: 'SS&C Technologies Holdings (NASDAQ: SSNC) is a global provider of 
   amendment, pair and basket orders, allocations and trade reports, real-time and historical market data,
   and intraday balances, positions and activity.'
 estate_rating:
-  agent_avg: 14.0
+  agent_avg: 14.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.8
   agent_ready: 1
   band: emerging
   best: 49.2
-  composite_avg: 25.3
+  composite_avg: 25.5
   composite_band: thin
   composite_raw: 30.2
   developing: 2
   exemplar: 0
-  rating: 20.8
+  rating: 21.0
   scored: 3
   spread: 47.9
   strength: 2

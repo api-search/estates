@@ -4,19 +4,19 @@ category: Estates
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases,
   AI services, SaaS applications, and platform services.
 estate_rating:
-  agent_avg: 18.3
+  agent_avg: 18.4
   agent_band: emerging
   agent_native: 1
   agent_raw: 19.6
   agent_ready: 5
   band: thin
   best: 74.7
-  composite_avg: 35.0
+  composite_avg: 35.3
   composite_band: thin
-  composite_raw: 37.3
+  composite_raw: 37.6
   developing: 15
   exemplar: 3
-  rating: 28.3
+  rating: 28.5
   scored: 28
   spread: 69.7
   strength: 26
@@ -179,6 +179,18 @@ member_bands:
   - &id012
     acquired: null
     agent_band: agent-aware
+    agent_score: 24.4
+    api_count: 2
+    immediate_parent: oracle
+    name: Oracle Retail
+    relationship: product
+    score_band: developing
+    score_composite: 46.8
+    slug: oracle-retail
+    source: declared
+  - &id013
+    acquired: null
+    agent_band: agent-aware
     agent_score: 19.8
     api_count: 7
     immediate_parent: oracle
@@ -188,7 +200,19 @@ member_bands:
     score_composite: 45.8
     slug: oracle-fusion
     source: declared
-  - &id013
+  - &id014
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.0
+    api_count: 20
+    immediate_parent: oracle
+    name: Oracle WebLogic Server
+    relationship: product
+    score_band: developing
+    score_composite: 44.6
+    slug: oracle-weblogic
+    source: declared
+  - &id015
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -200,7 +224,7 @@ member_bands:
     score_composite: 43.7
     slug: oracle-primavera
     source: declared
-  - &id014
+  - &id016
     acquired: null
     agent_band: agent-aware
     agent_score: 27.2
@@ -212,19 +236,7 @@ member_bands:
     score_composite: 42.9
     slug: apiary
     source: prose
-  - &id015
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 24.0
-    api_count: 20
-    immediate_parent: oracle
-    name: Oracle WebLogic Server
-    relationship: product
-    score_band: developing
-    score_composite: 42.2
-    slug: oracle-weblogic
-    source: declared
-  - &id016
+  - &id017
     acquired: null
     agent_band: agent-aware
     agent_score: 22.7
@@ -235,18 +247,6 @@ member_bands:
     score_band: developing
     score_composite: 41.6
     slug: oracle-transportation-management
-    source: declared
-  - &id017
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 24.4
-    api_count: 2
-    immediate_parent: oracle
-    name: Oracle Retail
-    relationship: product
-    score_band: developing
-    score_composite: 40.9
-    slug: oracle-retail
     source: declared
   - &id018
     acquired: null
@@ -391,12 +391,12 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: vantus
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 2
+  count: 3
   items:
   - &id029
     acquired: 2017
@@ -411,6 +411,18 @@ member_bands:
     slug: conjectag
     source: declared
   - &id030
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: oracle
+    name: Fuego
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: fuego
+    source: parent-company-property
+  - &id031
     acquired: 2014
     agent_band: null
     agent_score: null
@@ -424,8 +436,8 @@ member_bands:
     source: declared
   label: Unrated
   open: false
-member_on_network: 30
-member_total: 30
+member_on_network: 31
+member_total: 31
 members:
 - *id001
 - *id002
@@ -457,10 +469,11 @@ members:
 - *id028
 - *id029
 - *id030
+- *id031
 members_unrated: []
 name: Oracle
-overview: 'Oracle publishes its API surface across 30 provider profiles indexed on the APIs.io network,
-  of which 30 carry a rating. The rated members span 69.7 points, from 74.7 down to 5.0.
+overview: 'Oracle publishes its API surface across 31 provider profiles indexed on the APIs.io network,
+  of which 31 carry a rating. The rated members span 69.7 points, from 74.7 down to 5.0.
 
 
   Its highest-rated surfaces are Oracle Cloud Infrastructure, Oracle Hospitality, Oracle Siebel, Oracle
@@ -496,6 +509,7 @@ subfamilies:
   slug: oracle-cloud
 subfamily_page_count: 0
 tags:
+- Oracle
 - Cloud
 - Database
 - Enterprise

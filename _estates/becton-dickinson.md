@@ -8,19 +8,19 @@ description: Becton Dickinson (BD) is a global medical technology company that d
   also produces the Pyxis medication management system and integrates with EMRs via HL7 FHIR standards
   for clinical data exchange.
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
   best: 26.0
-  composite_avg: 19.7
+  composite_avg: 19.9
   composite_band: emerging
   composite_raw: 15.2
   developing: 0
   exemplar: 0
-  rating: 14.7
+  rating: 15.0
   scored: 3
   spread: 23.8
   strength: 0

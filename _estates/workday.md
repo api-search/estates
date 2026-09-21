@@ -4,7 +4,7 @@ category: Estates
 description: Collection of Workday REST and SOAP APIs for human capital management, financial management,
   enterprise planning, analytics, and platform extensibility.
 estate_rating:
-  agent_avg: 16.0
+  agent_avg: 16.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 20.1
@@ -13,10 +13,10 @@ estate_rating:
   best: 48.4
   composite_avg: 28.9
   composite_band: thin
-  composite_raw: 34.4
+  composite_raw: 34.0
   developing: 3
   exemplar: 0
-  rating: 23.7
+  rating: 23.8
   scored: 6
   spread: 43.4
   strength: 3
@@ -43,7 +43,7 @@ member_bands:
     score_band: developing
     score_composite: 48.4
     slug: flowise
-    source: prose
+    source: parent-company-property
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -53,9 +53,9 @@ member_bands:
     name: Scout RFP (Workday Strategic Sourcing)
     relationship: product
     score_band: developing
-    score_composite: 45.8
+    score_composite: 43.7
     slug: scoutrfp
-    source: prose
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: agent-aware
@@ -85,7 +85,7 @@ member_bands:
     score_band: thin
     score_composite: 32.1
     slug: peakon
-    source: prose
+    source: parent-company-property
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -97,7 +97,7 @@ member_bands:
     score_band: thin
     score_composite: 31.5
     slug: evisort
-    source: prose
+    source: parent-company-property
   label: Thin
   open: false
 - band: minimal
@@ -115,7 +115,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: vndly
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 member_on_network: 6

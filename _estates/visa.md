@@ -8,19 +8,19 @@ description: Visa is a global payment technology company that facilitates electr
   The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account
   validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.
 estate_rating:
-  agent_avg: 11.7
+  agent_avg: 12.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 12.7
   agent_ready: 1
   band: emerging
   best: 59.4
-  composite_avg: 22.2
+  composite_avg: 22.3
   composite_band: emerging
   composite_raw: 21.7
   developing: 0
   exemplar: 0
-  rating: 18.0
+  rating: 18.2
   scored: 3
   spread: 59.3
   strength: 2
@@ -77,7 +77,7 @@ member_bands:
     score_band: minimal
     score_composite: 0.1
     slug: payworks
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 member_on_network: 3
@@ -102,6 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visa/refs/head
 subfamilies: []
 subfamily_page_count: 0
 tags:
+- Visa
 - Account
 - Banking
 - Credit Cards
@@ -113,6 +114,5 @@ tags:
 - Merchants
 - Money Movement
 - Payments
-- Tokenization
 title: Visa
 ---

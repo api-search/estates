@@ -4,19 +4,19 @@ category: Estates
 description: Medtronic is a major US corporation and Fortune 1000 company. The Medtronic API provides
   programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 estate_rating:
-  agent_avg: 5.5
+  agent_avg: 5.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 10.5
-  composite_avg: 13.3
+  composite_avg: 13.4
   composite_band: emerging
   composite_raw: 4.1
   developing: 0
   exemplar: 0
-  rating: 10.2
+  rating: 10.4
   scored: 5
   spread: 8.3
   strength: 0
@@ -55,7 +55,7 @@ member_bands:
     score_band: minimal
     score_composite: 3.3
     slug: digitalsurgery
-    source: prose
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: human-only
@@ -67,7 +67,7 @@ member_bands:
     score_band: minimal
     score_composite: 2.2
     slug: corventis
-    source: prose
+    source: parent-company-property
   - &id004
     acquired: null
     agent_band: human-only
@@ -91,7 +91,7 @@ member_bands:
     score_band: minimal
     score_composite: 2.2
     slug: kanghui-medical
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 member_on_network: 5

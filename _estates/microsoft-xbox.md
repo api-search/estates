@@ -4,19 +4,19 @@ category: Estates
 description: APIs for Xbox gaming platform including Xbox Live Services and Azure PlayFab backend for
   games.
 estate_rating:
-  agent_avg: 17.5
+  agent_avg: 17.7
   agent_band: emerging
   agent_native: 1
   agent_raw: 22.8
   agent_ready: 1
   band: emerging
   best: 49.2
-  composite_avg: 26.6
+  composite_avg: 26.7
   composite_band: thin
   composite_raw: 30.0
   developing: 2
   exemplar: 0
-  rating: 23.0
+  rating: 23.1
   scored: 6
   spread: 41.6
   strength: 2

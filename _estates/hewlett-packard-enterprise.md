@@ -5,19 +5,19 @@ description: Hewlett Packard Enterprise is a global edge-to-cloud company that p
   servers, storage, networking, software, services, and financial services to help customers capture value
   from data.
 estate_rating:
-  agent_avg: 5.6
+  agent_avg: 5.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.2
   agent_ready: 0
   band: emerging
   best: 28.2
-  composite_avg: 15.2
+  composite_avg: 15.3
   composite_band: emerging
   composite_raw: 10.8
   developing: 0
   exemplar: 0
-  rating: 11.4
+  rating: 11.5
   scored: 8
   spread: 23.2
   strength: 0
@@ -62,7 +62,7 @@ member_bands:
     score_band: emerging
     score_composite: 18.0
     slug: nimble-storage
-    source: prose
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: human-only
@@ -116,7 +116,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: cloudphysics
-    source: prose
+    source: parent-company-property
   - &id007
     acquired: null
     agent_band: human-only

@@ -6,19 +6,19 @@ description: TikTok is a short-form social video platform offering developers RE
   (advertising and campaign management), TikTok Shop API (seller product and order management), and the
   Data Portability API.
 estate_rating:
-  agent_avg: 16.5
+  agent_avg: 16.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 25.6
   agent_ready: 1
   band: emerging
   best: 54.0
-  composite_avg: 28.5
+  composite_avg: 28.7
   composite_band: thin
   composite_raw: 38.6
   developing: 2
   exemplar: 0
-  rating: 23.7
+  rating: 23.9
   scored: 3
   spread: 39.3
   strength: 2
@@ -100,6 +100,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/he
 subfamilies: []
 subfamily_page_count: 0
 tags:
+- TikTok
 - Advertising
 - Commerce
 - Content

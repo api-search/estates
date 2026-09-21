@@ -6,7 +6,7 @@ description: Cisco provides a comprehensive suite of APIs across its networking,
   developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and
   other Cisco products to automate network operations, build integrations, and extend platform capabilities.
 estate_rating:
-  agent_avg: 18.0
+  agent_avg: 18.1
   agent_band: emerging
   agent_native: 1
   agent_raw: 18.7
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 34.5
   developing: 13
   exemplar: 2
-  rating: 27.2
+  rating: 27.3
   scored: 49
   spread: 69.4
   strength: 37
@@ -477,7 +477,7 @@ member_bands:
     score_band: emerging
     score_composite: 15.5
     slug: astrix-security
-    source: prose
+    source: parent-company-property
   - &id036
     acquired: null
     agent_band: agent-aware
@@ -489,7 +489,7 @@ member_bands:
     score_band: emerging
     score_composite: 15.0
     slug: cloudlock
-    source: prose
+    source: parent-company-property
   - &id037
     acquired: null
     agent_band: human-only
@@ -501,7 +501,7 @@ member_bands:
     score_band: emerging
     score_composite: 12.8
     slug: opendns
-    source: prose
+    source: parent-company-property
   - &id038
     acquired: null
     agent_band: human-only
@@ -513,7 +513,7 @@ member_bands:
     score_band: emerging
     score_composite: 12.4
     slug: mindmeld
-    source: prose
+    source: parent-company-property
   label: Emerging
   open: false
 - band: minimal
@@ -579,7 +579,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: metacloud
-    source: prose
+    source: parent-company-property
   - &id044
     acquired: null
     agent_band: human-only
@@ -591,7 +591,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: prism-skylabs
-    source: prose
+    source: parent-company-property
   - &id045
     acquired: null
     agent_band: human-only
@@ -603,7 +603,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: rocana
-    source: prose
+    source: parent-company-property
   - &id046
     acquired:
       announced: '2019-08-06'

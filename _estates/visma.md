@@ -13,19 +13,19 @@ description: 'Visma is a Nordic business-software group headquartered in Oslo, N
   first-party remote MCP servers — Business NXT at mcp.business.visma.net and Spiris at mcp.spiris.se
   — both OAuth-protected and discoverable via RFC 9728.'
 estate_rating:
-  agent_avg: 14.1
+  agent_avg: 14.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 19.1
   agent_ready: 1
   band: emerging
   best: 49.9
-  composite_avg: 25.0
+  composite_avg: 25.2
   composite_band: thin
   composite_raw: 29.3
   developing: 1
   exemplar: 0
-  rating: 20.6
+  rating: 20.9
   scored: 3
   spread: 44.9
   strength: 1

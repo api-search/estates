@@ -4,19 +4,19 @@ category: Estates
 description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data
   via a web-style interface.
 estate_rating:
-  agent_avg: 10.3
+  agent_avg: 10.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 9.7
   agent_ready: 1
   band: emerging
   best: 61.0
-  composite_avg: 25.7
+  composite_avg: 25.8
   composite_band: thin
   composite_raw: 28.5
   developing: 1
   exemplar: 0
-  rating: 19.5
+  rating: 19.7
   scored: 6
   spread: 56.9
   strength: 3
@@ -109,7 +109,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: rocana
-    source: prose
+    source: parent-company-property
   - &id006
     acquired: null
     agent_band: human-only

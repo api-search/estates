@@ -8,19 +8,19 @@ description: Check Point Software Technologies is a global cybersecurity vendor 
   device management APIs, Harmony Email and Collaboration API, Threat Hunting (TH) API, and CloudGuard
   WAF API.
 estate_rating:
-  agent_avg: 15.9
+  agent_avg: 16.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 21.9
   agent_ready: 1
   band: emerging
   best: 53.2
-  composite_avg: 26.9
+  composite_avg: 27.0
   composite_band: thin
   composite_raw: 32.4
   developing: 2
   exemplar: 0
-  rating: 22.5
+  rating: 22.7
   scored: 4
   spread: 48.2
   strength: 2
@@ -77,7 +77,7 @@ member_bands:
     score_band: thin
     score_composite: 30.1
     slug: perimeter-81
-    source: prose
+    source: parent-company-property
   label: Thin
   open: false
 - band: minimal

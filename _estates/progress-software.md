@@ -11,19 +11,19 @@ description: 'Progress Software Corporation (NASDAQ: PRGS) is a Burlington, Mass
   a full Swagger 2.0 contract against the customer''s own installation — alongside SaaS surfaces such
   as the ShareFile OData API and Sitefinity''s headless OData services.'
 estate_rating:
-  agent_avg: 12.4
+  agent_avg: 12.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 14.5
   agent_ready: 0
   band: emerging
   best: 57.0
-  composite_avg: 26.9
+  composite_avg: 27.1
   composite_band: thin
   composite_raw: 34.5
   developing: 0
   exemplar: 0
-  rating: 21.1
+  rating: 21.3
   scored: 3
   spread: 48.1
   strength: 2

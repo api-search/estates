@@ -7,19 +7,19 @@ description: X (formerly Twitter) is a social media platform providing APIs for 
   and subscribe to real-time activity events. Available through pay-per-use credit-based pricing with
   enterprise options for high-volume access.
 estate_rating:
-  agent_avg: 9.2
+  agent_avg: 9.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.0
-  composite_avg: 19.5
+  composite_avg: 19.7
   composite_band: emerging
   composite_raw: 5.0
   developing: 0
   exemplar: 0
-  rating: 15.4
+  rating: 15.7
   scored: 1
   spread: null
   strength: 0
@@ -192,6 +192,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twitter/refs/h
 subfamilies: []
 subfamily_page_count: 0
 tags:
+- X / Twitter
 - Social-Media
 - Microblogging
 - Real-Time Data

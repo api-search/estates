@@ -5,19 +5,19 @@ description: Stream, connect, process, and govern your data with an all-in-one, 
   the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible
   and usable data products with the market leading Data Streaming Platform.
 estate_rating:
-  agent_avg: 18.8
+  agent_avg: 19.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 38.0
   agent_ready: 1
   band: thin
   best: 72.5
-  composite_avg: 31.3
+  composite_avg: 31.5
   composite_band: thin
   composite_raw: 53.6
   developing: 0
   exemplar: 1
-  rating: 26.3
+  rating: 26.5
   scored: 2
   spread: 37.8
   strength: 3

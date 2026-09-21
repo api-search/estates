@@ -13,19 +13,19 @@ description: 'EMC Corporation, acquired by Dell Technologies in 2016 and now ope
   whose specification API returns HTTP 401 to anonymous callers, so this profile is built from EMC''s
   own published client libraries on github.com/EMCECS and github.com/dell.'
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.7
-  composite_avg: 17.6
+  composite_avg: 17.7
   composite_band: emerging
   composite_raw: 5.3
   developing: 0
   exemplar: 0
-  rating: 13.7
+  rating: 13.9
   scored: 2
   spread: 0.7
   strength: 0
@@ -64,7 +64,7 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: scaleio
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated

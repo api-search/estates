@@ -8,19 +8,19 @@ description: Walmart is a multinational retail corporation that operates a chain
   The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory,
   pricing, fulfillment, and reporting on Walmart.com.
 estate_rating:
-  agent_avg: 10.7
+  agent_avg: 11.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.3
   agent_ready: 0
   band: emerging
   best: 34.4
-  composite_avg: 21.8
+  composite_avg: 21.9
   composite_band: emerging
   composite_raw: 20.9
   developing: 0
   exemplar: 0
-  rating: 17.4
+  rating: 17.5
   scored: 4
   spread: 29.4
   strength: 0
@@ -77,7 +77,7 @@ member_bands:
     score_band: emerging
     score_composite: 11.8
     slug: eloquii
-    source: prose
+    source: parent-company-property
   label: Emerging
   open: false
 - band: minimal
@@ -100,9 +100,21 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 1
+  count: 2
   items:
   - &id005
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: walmart
+    name: Jet (Walmart)
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: jet-walmart
+    source: parent-company-property
+  - &id006
     acquired: null
     agent_band: null
     agent_score: null
@@ -113,24 +125,25 @@ member_bands:
     score_band: null
     score_composite: null
     slug: kosmix
-    source: prose
+    source: parent-company-property
   label: Unrated
   open: false
-member_on_network: 5
-member_total: 5
+member_on_network: 6
+member_total: 6
 members:
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
+- *id006
 members_unrated: []
 name: Walmart
-overview: 'Walmart publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 29.4 points, from 34.4 down to 5.0.
+overview: 'Walmart publishes its API surface across 6 provider profiles indexed on the APIs.io network,
+  of which 6 carry a rating. The rated members span 29.4 points, from 34.4 down to 5.0.
 
 
-  Its highest-rated surfaces are Flipkart, PhonePe, Eloquii, Myntra, Kosmix.'
+  Its highest-rated surfaces are Flipkart, PhonePe, Eloquii, Myntra, Jet (Walmart).'
 parent_provider: walmart
 permalink: /estates/walmart/
 slug: walmart
@@ -151,6 +164,7 @@ subfamilies:
   slug: flipkart
 subfamily_page_count: 0
 tags:
+- Walmart
 - Commerce
 - Retail
 - Fortune 100
@@ -162,6 +176,5 @@ tags:
 - Supply Chain
 - Seller APIs
 - Webhook
-- MCP
 title: Walmart
 ---

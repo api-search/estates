@@ -9,19 +9,19 @@ description: ARGUS is the industry-standard suite of commercial real estate soft
   at 200+ universities worldwide. The ARGUS API provides integration capabilities across cloud-enabled
   ARGUS solutions.
 estate_rating:
-  agent_avg: 11.6
+  agent_avg: 11.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 12.5
   agent_ready: 0
   band: emerging
   best: 42.3
-  composite_avg: 23.9
+  composite_avg: 24.0
   composite_band: emerging
   composite_raw: 26.3
   developing: 1
   exemplar: 0
-  rating: 19.0
+  rating: 19.2
   scored: 3
   spread: 32.5
   strength: 1

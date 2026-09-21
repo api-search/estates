@@ -6,19 +6,19 @@ description: Uber is a global technology platform offering transportation, food 
   delivery, voucher programs, and business travel management into third-party applications. APIs use OAuth
   2.0 authentication with scope-based access controls and support both production and sandbox environments.
 estate_rating:
-  agent_avg: 16.4
+  agent_avg: 16.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 23.1
   agent_ready: 2
   band: emerging
   best: 55.2
-  composite_avg: 26.4
+  composite_avg: 26.5
   composite_band: thin
   composite_raw: 31.4
   developing: 0
   exemplar: 0
-  rating: 22.4
+  rating: 22.6
   scored: 4
   spread: 45.8
   strength: 2
@@ -63,7 +63,7 @@ member_bands:
     score_band: thin
     score_composite: 35.1
     slug: spothero
-    source: prose
+    source: parent-company-property
   label: Thin
   open: false
 - band: emerging

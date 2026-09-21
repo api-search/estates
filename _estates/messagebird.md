@@ -12,19 +12,19 @@ description: 'MessageBird, which trades as Bird, is a Dutch cloud communications
   span every channel. The legacy MessageBird REST API at rest.messagebird.com is still served alongside
   it.'
 estate_rating:
-  agent_avg: 12.7
+  agent_avg: 13.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.4
   agent_ready: 0
   band: emerging
   best: 50.1
-  composite_avg: 26.5
+  composite_avg: 26.7
   composite_band: thin
   composite_raw: 33.3
   developing: 2
   exemplar: 0
-  rating: 21.0
+  rating: 21.2
   scored: 3
   spread: 40.4
   strength: 2

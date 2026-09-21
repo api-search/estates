@@ -5,19 +5,19 @@ description: Zendesk provides customer service and engagement software that help
   tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and
   phonethrough a unified platform.
 estate_rating:
-  agent_avg: 16.2
+  agent_avg: 16.6
   agent_band: emerging
   agent_native: 0
   agent_raw: 24.9
   agent_ready: 1
   band: thin
   best: 58.9
-  composite_avg: 33.5
+  composite_avg: 33.7
   composite_band: thin
   composite_raw: 52.1
   developing: 2
   exemplar: 0
-  rating: 26.6
+  rating: 26.9
   scored: 3
   spread: 14.4
   strength: 4
@@ -62,7 +62,7 @@ member_bands:
     score_band: developing
     score_composite: 52.8
     slug: klaus
-    source: prose
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: agent-aware

@@ -11,23 +11,23 @@ description: Westpac Banking Corporation is Australia's oldest bank and company,
   beyond product reference data is available only to accredited data recipients through the CDR's authenticated,
   consent-driven channels.
 estate_rating:
-  agent_avg: 15.5
+  agent_avg: 15.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 22.9
   agent_ready: 0
   band: emerging
-  best: 46.6
-  composite_avg: 28.3
+  best: 55.1
+  composite_avg: 30.6
   composite_band: thin
-  composite_raw: 38.1
+  composite_raw: 43.7
   developing: 1
   exemplar: 0
-  rating: 23.2
+  rating: 24.7
   scored: 3
-  spread: 16.7
-  strength: 1
-  strong: 0
+  spread: 25.2
+  strength: 3
+  strong: 1
   worst: 29.9
 estate_root: null
 estate_root_name: null
@@ -35,8 +35,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/westpac.pn
 is_subfamily: false
 layout: estate
 member_bands:
-- band: developing
-  blurb: Usable, with meaningful gaps to close
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id001
@@ -47,15 +47,15 @@ member_bands:
     immediate_parent: westpac
     name: St.George Bank
     relationship: product
-    score_band: developing
-    score_composite: 46.6
+    score_band: strong
+    score_composite: 55.1
     slug: st-george-bank
     source: prose
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 2
+  label: Strong
+  open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 1
   items:
   - &id002
     acquired: null
@@ -65,10 +65,16 @@ member_bands:
     immediate_parent: westpac
     name: BankSA
     relationship: product
-    score_band: thin
-    score_composite: 37.7
+    score_band: developing
+    score_composite: 46.1
     slug: banksa
     source: prose
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 1
+  items:
   - &id003
     acquired: null
     agent_band: agent-aware
@@ -92,7 +98,7 @@ members:
 members_unrated: []
 name: Westpac Banking Corporation
 overview: 'Westpac Banking Corporation publishes its API surface across 3 provider profiles indexed on
-  the APIs.io network, of which 3 carry a rating. The rated members span 16.7 points, from 46.6 down to
+  the APIs.io network, of which 3 carry a rating. The rated members span 25.2 points, from 55.1 down to
   29.9.
 
 

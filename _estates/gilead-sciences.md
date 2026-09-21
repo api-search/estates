@@ -5,19 +5,19 @@ description: Gilead Sciences is a research-based biopharmaceutical company that 
   commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis,
   oncology, and inflammatory diseases.
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 3.3
-  composite_avg: 16.9
+  composite_avg: 17.1
   composite_band: emerging
   composite_raw: 3.1
   developing: 0
   exemplar: 0
-  rating: 13.3
+  rating: 13.6
   scored: 2
   spread: 0.4
   strength: 0
@@ -56,7 +56,7 @@ member_bands:
     score_band: minimal
     score_composite: 2.9
     slug: arresto-biosciences
-    source: prose
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated
@@ -74,7 +74,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: cell-design-labs
-    source: prose
+    source: parent-company-property
   label: Unrated
   open: false
 member_on_network: 3

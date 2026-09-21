@@ -7,19 +7,19 @@ description: Airbnb is the world's leading home-sharing and short-term rental ma
   — with APIs to manage listings, reservations, calendars, messaging, reviews, and webhook-based event
   notifications. Access is restricted to approved partners.
 estate_rating:
-  agent_avg: 9.6
-  agent_band: minimal
+  agent_avg: 10.1
+  agent_band: emerging
   agent_native: 0
   agent_raw: 2.5
   agent_ready: 0
   band: emerging
   best: 28.5
-  composite_avg: 23.4
+  composite_avg: 23.7
   composite_band: emerging
   composite_raw: 28.5
   developing: 0
   exemplar: 0
-  rating: 17.9
+  rating: 18.3
   scored: 1
   spread: null
   strength: 0

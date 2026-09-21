@@ -1,5 +1,5 @@
 ---
-api_total: 4
+api_total: 10
 category: Estates
 description: Palo Alto Networks is a global cybersecurity leader providing advanced security platforms
   and services across network security, cloud security, and security operations. Its developer platform
@@ -7,23 +7,23 @@ description: Palo Alto Networks is a global cybersecurity leader providing advan
   CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations,
   and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.
 estate_rating:
-  agent_avg: 10.5
+  agent_avg: 13.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 10.1
-  agent_ready: 0
+  agent_raw: 14.3
+  agent_ready: 1
   band: emerging
-  best: 37.4
-  composite_avg: 19.5
+  best: 56.2
+  composite_avg: 23.8
   composite_band: emerging
-  composite_raw: 17.9
-  developing: 0
+  composite_raw: 24.3
+  developing: 1
   exemplar: 0
-  rating: 15.9
-  scored: 9
-  spread: 32.4
-  strength: 0
-  strong: 0
+  rating: 19.7
+  scored: 12
+  spread: 51.2
+  strength: 3
+  strong: 1
   worst: 5.0
 estate_root: null
 estate_root_name: null
@@ -31,11 +31,47 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/palo-alto-
 is_subfamily: false
 layout: estate
 member_bands:
-- band: thin
-  blurb: Limited public surface area
-  count: 3
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 1
   items:
   - &id001
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 27.6
+    api_count: 1
+    immediate_parent: palo-alto-networks
+    name: Descope
+    relationship: product
+    score_band: strong
+    score_composite: 56.2
+    slug: descope
+    source: parent-company-property
+  label: Strong
+  open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 1
+  items:
+  - &id002
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 33.2
+    api_count: 4
+    immediate_parent: palo-alto-networks
+    name: Venafi
+    relationship: product
+    score_band: developing
+    score_composite: 40.7
+    slug: venafi
+    source: parent-company-property
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 4
+  items:
+  - &id003
     acquired: null
     agent_band: agent-aware
     agent_score: 21.0
@@ -46,8 +82,8 @@ member_bands:
     score_band: thin
     score_composite: 37.4
     slug: demisto
-    source: prose
-  - &id002
+    source: parent-company-property
+  - &id004
     acquired: null
     agent_band: agent-aware
     agent_score: 27.2
@@ -58,8 +94,8 @@ member_bands:
     score_band: thin
     score_composite: 35.0
     slug: koi-security
-    source: prose
-  - &id003
+    source: parent-company-property
+  - &id005
     acquired: null
     agent_band: agent-aware
     agent_score: 23.2
@@ -71,13 +107,25 @@ member_bands:
     score_composite: 33.3
     slug: prisma-cloud
     source: declared
+  - &id006
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.8
+    api_count: 1
+    immediate_parent: palo-alto-networks
+    name: Protect AI
+    relationship: product
+    score_band: thin
+    score_composite: 33.1
+    slug: protectai
+    source: parent-company-property
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
   count: 1
   items:
-  - &id004
+  - &id007
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -95,7 +143,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 5
   items:
-  - &id005
+  - &id008
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -106,8 +154,8 @@ member_bands:
     score_band: minimal
     score_composite: 10.6
     slug: prosimo
-    source: prose
-  - &id006
+    source: parent-company-property
+  - &id009
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -119,7 +167,7 @@ member_bands:
     score_composite: 5.0
     slug: aporeto
     source: prose
-  - &id007
+  - &id010
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -131,7 +179,7 @@ member_bands:
     score_composite: 5.0
     slug: cyvera
     source: prose
-  - &id008
+  - &id011
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -142,8 +190,8 @@ member_bands:
     score_band: minimal
     score_composite: 5.0
     slug: expanse
-    source: prose
-  - &id009
+    source: parent-company-property
+  - &id012
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -161,7 +209,7 @@ member_bands:
   blurb: Not yet scored
   count: 1
   items:
-  - &id010
+  - &id013
     acquired: null
     agent_band: null
     agent_score: null
@@ -175,8 +223,8 @@ member_bands:
     source: prose
   label: Unrated
   open: false
-member_on_network: 10
-member_total: 10
+member_on_network: 13
+member_total: 13
 members:
 - *id001
 - *id002
@@ -188,13 +236,16 @@ members:
 - *id008
 - *id009
 - *id010
+- *id011
+- *id012
+- *id013
 members_unrated: []
 name: Palo Alto Networks
-overview: 'Palo Alto Networks publishes its API surface across 10 provider profiles indexed on the APIs.io
-  network, of which 10 carry a rating. The rated members span 32.4 points, from 37.4 down to 5.0.
+overview: 'Palo Alto Networks publishes its API surface across 13 provider profiles indexed on the APIs.io
+  network, of which 13 carry a rating. The rated members span 51.2 points, from 56.2 down to 5.0.
 
 
-  Its highest-rated surfaces are Demisto, Koi Security, Prisma Cloud, Panorama, Prosimo.'
+  Its highest-rated surfaces are Descope, Venafi, Demisto, Koi Security, Prisma Cloud.'
 parent_provider: palo-alto-networks
 permalink: /estates/palo-alto-networks/
 slug: palo-alto-networks

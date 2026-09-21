@@ -4,23 +4,23 @@ category: Estates
 description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management
   services including authentication, authorization, and directory services.
 estate_rating:
-  agent_avg: 20.5
+  agent_avg: 20.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 36.1
   agent_ready: 1
   band: thin
   best: 79.7
-  composite_avg: 34.6
+  composite_avg: 35.6
   composite_band: thin
-  composite_raw: 55.0
-  developing: 1
+  composite_raw: 57.1
+  developing: 0
   exemplar: 1
-  rating: 29.0
+  rating: 29.7
   scored: 3
   spread: 47.8
-  strength: 4
-  strong: 0
+  strength: 5
+  strong: 1
   worst: 31.9
 estate_root: microsoft
 estate_root_name: Microsoft
@@ -46,8 +46,8 @@ member_bands:
     source: declared
   label: Exemplar
   open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id002
@@ -58,12 +58,12 @@ member_bands:
     immediate_parent: microsoft-entra
     name: Microsoft Active Directory
     relationship: product
-    score_band: developing
-    score_composite: 53.4
+    score_band: strong
+    score_composite: 59.8
     slug: active-directory
     source: declared
-  label: Developing
-  open: false
+  label: Strong
+  open: true
 - band: thin
   blurb: Limited public surface area
   count: 1
@@ -82,39 +82,20 @@ member_bands:
     source: declared
   label: Thin
   open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 1
-  items:
-  - &id004
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: microsoft-entra
-    name: Microsoft Azure Active Directory
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: microsoft-azure-active-directory
-    source: declared
-  label: Unrated
-  open: false
-member_on_network: 4
-member_total: 4
+member_on_network: 3
+member_total: 3
 members:
 - *id001
 - *id002
 - *id003
-- *id004
 members_unrated: []
 name: Microsoft Entra
-overview: 'Microsoft Entra publishes its API surface across 4 provider profiles indexed on the APIs.io
-  network, of which 4 carry a rating. The rated members span 47.8 points, from 79.7 down to 31.9.
+overview: 'Microsoft Entra publishes its API surface across 3 provider profiles indexed on the APIs.io
+  network, of which 3 carry a rating. The rated members span 47.8 points, from 79.7 down to 31.9.
 
 
   Its highest-rated surfaces are Microsoft Entra ID (formerly Azure AD), Microsoft Active Directory, Microsoft
-  Intune, Microsoft Azure Active Directory.'
+  Intune.'
 parent_provider: microsoft-entra
 permalink: /estates/microsoft-entra/
 slug: microsoft-entra

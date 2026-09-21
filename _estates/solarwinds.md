@@ -4,19 +4,19 @@ category: Estates
 description: A collection of APIs provided by SolarWinds for IT infrastructure management, monitoring,
   and observability.
 estate_rating:
-  agent_avg: 13.1
+  agent_avg: 13.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.1
   agent_ready: 1
   band: emerging
   best: 52.9
-  composite_avg: 26.2
+  composite_avg: 26.4
   composite_band: thin
   composite_raw: 35.7
   developing: 1
   exemplar: 0
-  rating: 21.0
+  rating: 21.2
   scored: 2
   spread: 34.4
   strength: 1
@@ -61,7 +61,7 @@ member_bands:
     score_band: emerging
     score_composite: 18.5
     slug: librato
-    source: prose
+    source: parent-company-property
   label: Emerging
   open: false
 - band: unrated
@@ -79,7 +79,7 @@ member_bands:
     score_band: null
     score_composite: null
     slug: logicnow
-    source: prose
+    source: parent-company-property
   label: Unrated
   open: false
 member_on_network: 3

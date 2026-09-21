@@ -5,23 +5,23 @@ description: PTC is an industrial technology company providing software platform
   IoT (ThingWorx), Product Lifecycle Management (Windchill, Arena), Augmented Reality (Vuforia), Field
   Service Management (ServiceMax), and industrial connectivity (Kepware) in manufacturing environments.
 estate_rating:
-  agent_avg: 15.8
+  agent_avg: 16.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 23.7
   agent_ready: 1
   band: emerging
-  best: 51.1
-  composite_avg: 26.6
+  best: 57.4
+  composite_avg: 27.6
   composite_band: thin
-  composite_raw: 33.7
-  developing: 1
+  composite_raw: 35.8
+  developing: 0
   exemplar: 0
-  rating: 22.3
+  rating: 23.0
   scored: 3
-  spread: 36.6
-  strength: 1
-  strong: 0
+  spread: 42.9
+  strength: 2
+  strong: 1
   worst: 14.5
 estate_root: null
 estate_root_name: null
@@ -29,8 +29,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ptc.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: developing
-  blurb: Usable, with meaningful gaps to close
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id001
@@ -41,12 +41,12 @@ member_bands:
     immediate_parent: ptc
     name: Onshape
     relationship: product
-    score_band: developing
-    score_composite: 51.1
+    score_band: strong
+    score_composite: 57.4
     slug: onshape
     source: prose
-  label: Developing
-  open: false
+  label: Strong
+  open: true
 - band: thin
   blurb: Limited public surface area
   count: 1
@@ -80,7 +80,7 @@ member_bands:
     score_band: emerging
     score_composite: 14.5
     slug: servicemax
-    source: prose
+    source: parent-company-property
   label: Emerging
   open: false
 member_on_network: 3
@@ -92,7 +92,7 @@ members:
 members_unrated: []
 name: PTC
 overview: 'PTC publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 36.6 points, from 51.1 down to 14.5.
+  which 3 carry a rating. The rated members span 42.9 points, from 57.4 down to 14.5.
 
 
   Its highest-rated surfaces are Onshape, PTC ThingWorx, ServiceMax.'
