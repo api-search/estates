@@ -7,14 +7,14 @@ description: Eli Lilly and Company is a Fortune 500 global pharmaceutical compan
   company exposes selected machine learning models through its Lilly TuneLab platform to partner biotechs
   but does not offer general purpose, self-serve APIs.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 3.3
-  composite_avg: 15.1
+  composite_avg: 15.2
   composite_band: emerging
   composite_raw: 2.6
   developing: 0

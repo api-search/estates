@@ -12,13 +12,13 @@ estate_rating:
   best: 80.5
   composite_avg: 41.0
   composite_band: developing
-  composite_raw: 41.4
-  developing: 51
+  composite_raw: 41.5
+  developing: 52
   exemplar: 16
   rating: 32.8
   scored: 191
   spread: 76.1
-  strength: 169
+  strength: 170
   strong: 35
   worst: 4.4
 estate_root: null
@@ -178,6 +178,18 @@ member_bands:
   - &id013
     acquired: null
     agent_band: agent-ready
+    agent_score: 36.3
+    api_count: 1
+    immediate_parent: microsoft-azure
+    name: Azure Data Factory
+    relationship: product
+    score_band: exemplar
+    score_composite: 68.8
+    slug: microsoft-azure-data-factory
+    source: declared
+  - &id014
+    acquired: null
+    agent_band: agent-ready
     agent_score: 30.0
     api_count: 1
     immediate_parent: microsoft-azure
@@ -187,7 +199,7 @@ member_bands:
     score_composite: 68.8
     slug: microsoft-azure-functions
     source: declared
-  - &id014
+  - &id015
     acquired: null
     agent_band: agent-ready
     agent_score: 39.2
@@ -198,18 +210,6 @@ member_bands:
     score_band: exemplar
     score_composite: 68.4
     slug: microsoft-dynamics-365-sales
-    source: declared
-  - &id015
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 36.3
-    api_count: 1
-    immediate_parent: microsoft-azure
-    name: Azure Data Factory
-    relationship: product
-    score_band: exemplar
-    score_composite: 67.9
-    slug: microsoft-azure-data-factory
     source: declared
   - &id016
     acquired: null
@@ -653,7 +653,7 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 51
+  count: 52
   items:
   - &id052
     acquired: null
@@ -1234,6 +1234,18 @@ member_bands:
   - &id100
     acquired: null
     agent_band: agent-aware
+    agent_score: 26.1
+    api_count: 21
+    immediate_parent: microsoft-365
+    name: Microsoft Project
+    relationship: product
+    score_band: developing
+    score_composite: 42.0
+    slug: microsoft-project
+    source: declared
+  - &id101
+    acquired: null
+    agent_band: agent-aware
     agent_score: 19.8
     api_count: 3
     immediate_parent: microsoft-azure
@@ -1243,7 +1255,7 @@ member_bands:
     score_composite: 40.8
     slug: microsoft-azure-notification-hubs
     source: declared
-  - &id101
+  - &id102
     acquired: null
     agent_band: agent-aware
     agent_score: 26.1
@@ -1255,7 +1267,7 @@ member_bands:
     score_composite: 39.5
     slug: microsoft-excel-advanced
     source: declared
-  - &id102
+  - &id103
     acquired: null
     agent_band: agent-aware
     agent_score: 24.4
@@ -1271,9 +1283,9 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 47
+  count: 46
   items:
-  - &id103
+  - &id104
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -1285,7 +1297,7 @@ member_bands:
     score_composite: 39.2
     slug: microsoft-onenote
     source: declared
-  - &id104
+  - &id105
     acquired: null
     agent_band: agent-aware
     agent_score: 21.5
@@ -1297,7 +1309,7 @@ member_bands:
     score_composite: 39.0
     slug: github-container-registry
     source: declared
-  - &id105
+  - &id106
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -1309,7 +1321,7 @@ member_bands:
     score_composite: 38.9
     slug: microsoft-azure-arc
     source: declared
-  - &id106
+  - &id107
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -1321,7 +1333,7 @@ member_bands:
     score_composite: 38.9
     slug: microsoft-azure-bastion
     source: declared
-  - &id107
+  - &id108
     acquired: null
     agent_band: agent-aware
     agent_score: 17.3
@@ -1333,7 +1345,7 @@ member_bands:
     score_composite: 38.9
     slug: azure-event-grid
     source: declared
-  - &id108
+  - &id109
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -1344,18 +1356,6 @@ member_bands:
     score_band: thin
     score_composite: 38.5
     slug: microsoft-bing
-    source: declared
-  - &id109
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 21
-    immediate_parent: microsoft-365
-    name: Microsoft Project
-    relationship: product
-    score_band: thin
-    score_composite: 38.5
-    slug: microsoft-project
     source: declared
   - &id110
     acquired: null
@@ -2723,14 +2723,14 @@ subfamilies:
     score_band: exemplar
     score_composite: 68.9
     slug: microsoft-azure-cdn
+  - name: Azure Data Factory
+    score_band: exemplar
+    score_composite: 68.8
+    slug: microsoft-azure-data-factory
   - name: Microsoft Azure Functions
     score_band: exemplar
     score_composite: 68.8
     slug: microsoft-azure-functions
-  - name: Azure Data Factory
-    score_band: exemplar
-    score_composite: 67.9
-    slug: microsoft-azure-data-factory
   - name: Microsoft Azure API Management
     score_band: exemplar
     score_composite: 67.3
@@ -3034,14 +3034,14 @@ subfamilies:
     score_band: developing
     score_composite: 47.4
     slug: sharepoint
+  - name: Microsoft Project
+    score_band: developing
+    score_composite: 42.0
+    slug: microsoft-project
   - name: Microsoft OneNote
     score_band: thin
     score_composite: 39.2
     slug: microsoft-onenote
-  - name: Microsoft Project
-    score_band: thin
-    score_composite: 38.5
-    slug: microsoft-project
   - name: Microsoft OneDrive
     score_band: thin
     score_composite: 37.1

@@ -14,9 +14,9 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 56.2
-  composite_avg: 23.8
+  composite_avg: 23.9
   composite_band: emerging
-  composite_raw: 24.3
+  composite_raw: 24.4
   developing: 1
   exemplar: 0
   rating: 19.7
@@ -62,7 +62,7 @@ member_bands:
     name: Venafi
     relationship: product
     score_band: developing
-    score_composite: 40.7
+    score_composite: 42.5
     slug: venafi
     source: parent-company-property
   label: Developing

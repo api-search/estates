@@ -11,12 +11,12 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 48.4
-  composite_avg: 28.9
+  composite_avg: 29.0
   composite_band: thin
-  composite_raw: 34.0
+  composite_raw: 34.3
   developing: 3
   exemplar: 0
-  rating: 23.8
+  rating: 23.9
   scored: 6
   spread: 43.4
   strength: 3
@@ -53,7 +53,7 @@ member_bands:
     name: Scout RFP (Workday Strategic Sourcing)
     relationship: product
     score_band: developing
-    score_composite: 43.7
+    score_composite: 45.5
     slug: scoutrfp
     source: parent-company-property
   - &id003

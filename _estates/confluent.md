@@ -11,15 +11,15 @@ estate_rating:
   agent_raw: 38.0
   agent_ready: 1
   band: thin
-  best: 72.5
-  composite_avg: 31.5
+  best: 74.3
+  composite_avg: 31.8
   composite_band: thin
-  composite_raw: 53.6
+  composite_raw: 54.5
   developing: 0
   exemplar: 1
-  rating: 26.5
+  rating: 26.7
   scored: 2
-  spread: 37.8
+  spread: 39.6
   strength: 3
   strong: 0
   worst: 34.7
@@ -42,7 +42,7 @@ member_bands:
     name: Confluent | the Data Streaming Platform
     relationship: product
     score_band: exemplar
-    score_composite: 72.5
+    score_composite: 74.3
     slug: confluent-the-data-streaming-platform
     source: declared
   label: Exemplar
@@ -92,7 +92,7 @@ members:
 members_unrated: []
 name: Confluent
 overview: 'Confluent publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 37.8 points, from 72.5 down to 34.7.
+  of which 3 carry a rating. The rated members span 39.6 points, from 74.3 down to 34.7.
 
 
   Its highest-rated surfaces are Confluent | the Data Streaming Platform, Confluent Schema Registry, Noteable.'

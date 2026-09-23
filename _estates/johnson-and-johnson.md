@@ -8,7 +8,7 @@ description: Johnson & Johnson is a multinational pharmaceutical and medical dev
   health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked
   in a separate kenvue index.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0

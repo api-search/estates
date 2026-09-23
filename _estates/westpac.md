@@ -11,7 +11,7 @@ description: Westpac Banking Corporation is Australia's oldest bank and company,
   beyond product reference data is available only to accredited data recipients through the CDR's authenticated,
   consent-driven channels.
 estate_rating:
-  agent_avg: 15.9
+  agent_avg: 15.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 22.9

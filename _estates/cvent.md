@@ -16,15 +16,15 @@ estate_rating:
   agent_raw: 28.3
   agent_ready: 3
   band: thin
-  best: 79.5
-  composite_avg: 37.9
+  best: 81.4
+  composite_avg: 38.1
   composite_band: thin
-  composite_raw: 50.5
+  composite_raw: 50.9
   developing: 1
   exemplar: 2
-  rating: 31.0
+  rating: 31.1
   scored: 6
-  spread: 63.9
+  spread: 65.8
   strength: 9
   strong: 1
   worst: 15.6
@@ -47,7 +47,7 @@ member_bands:
     name: Cvent Registration
     relationship: product
     score_band: exemplar
-    score_composite: 79.5
+    score_composite: 81.4
     slug: cvent-registration
     source: declared
   - &id002
@@ -148,7 +148,7 @@ members:
 members_unrated: []
 name: Cvent
 overview: 'Cvent publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 63.9 points, from 79.5 down to 15.6.
+  of which 6 carry a rating. The rated members span 65.8 points, from 81.4 down to 15.6.
 
 
   Its highest-rated surfaces are Cvent Registration, Cvent Event Cloud, Cvent Hospitality Cloud, Cvent

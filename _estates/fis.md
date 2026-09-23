@@ -12,15 +12,15 @@ estate_rating:
   agent_raw: 15.6
   agent_ready: 1
   band: emerging
-  best: 58.4
-  composite_avg: 26.7
+  best: 64.6
+  composite_avg: 27.4
   composite_band: thin
-  composite_raw: 31.8
+  composite_raw: 33.3
   developing: 1
   exemplar: 0
-  rating: 21.4
+  rating: 21.8
   scored: 4
-  spread: 51.3
+  spread: 57.5
   strength: 3
   strong: 1
   worst: 7.1
@@ -43,7 +43,7 @@ member_bands:
     name: Payrix
     relationship: product
     score_band: strong
-    score_composite: 58.4
+    score_composite: 64.6
     slug: payrix
     source: prose
   label: Strong
@@ -106,7 +106,7 @@ members:
 members_unrated: []
 name: FIS Global
 overview: 'FIS Global publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 51.3 points, from 58.4 down to 7.1.
+  of which 4 carry a rating. The rated members span 57.5 points, from 64.6 down to 7.1.
 
 
   Its highest-rated surfaces are Payrix, Bond, SunGard Data Systems, IntelliMatch.'

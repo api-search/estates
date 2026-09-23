@@ -11,12 +11,12 @@ estate_rating:
   agent_ready: 13
   band: thin
   best: 80.5
-  composite_avg: 48.6
+  composite_avg: 48.7
   composite_band: developing
   composite_raw: 50.5
   developing: 28
   exemplar: 8
-  rating: 38.1
+  rating: 38.2
   scored: 69
   spread: 61.5
   strength: 86
@@ -95,6 +95,18 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-ready
+    agent_score: 36.3
+    api_count: 1
+    immediate_parent: microsoft-azure
+    name: Azure Data Factory
+    relationship: product
+    score_band: exemplar
+    score_composite: 68.8
+    slug: microsoft-azure-data-factory
+    source: declared
+  - &id007
+    acquired: null
+    agent_band: agent-ready
     agent_score: 30.0
     api_count: 1
     immediate_parent: microsoft-azure
@@ -103,18 +115,6 @@ member_bands:
     score_band: exemplar
     score_composite: 68.8
     slug: microsoft-azure-functions
-    source: declared
-  - &id007
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 36.3
-    api_count: 1
-    immediate_parent: microsoft-azure
-    name: Azure Data Factory
-    relationship: product
-    score_band: exemplar
-    score_composite: 67.9
-    slug: microsoft-azure-data-factory
     source: declared
   - &id008
     acquired: null

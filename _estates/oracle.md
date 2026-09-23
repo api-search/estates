@@ -53,7 +53,7 @@ member_bands:
     name: Oracle Hospitality
     relationship: product
     score_band: exemplar
-    score_composite: 69.3
+    score_composite: 70.2
     slug: oracle-hospitality
     source: declared
   - &id003

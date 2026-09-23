@@ -15,7 +15,7 @@ description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, in
   the Bell Labs research division, and a broad open-source presence (600+ GitHub repos) including TTCN-3
   tooling (ntt), Corteca CLI, Moler test framework, and YANG models.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -27,7 +27,7 @@ estate_rating:
   composite_raw: 7.7
   developing: 0
   exemplar: 0
-  rating: 13.2
+  rating: 13.1
   scored: 3
   spread: 17.0
   strength: 0

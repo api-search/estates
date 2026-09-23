@@ -12,15 +12,15 @@ estate_rating:
   agent_raw: 4.4
   agent_ready: 0
   band: emerging
-  best: 41.7
-  composite_avg: 15.0
+  best: 43.5
+  composite_avg: 15.2
   composite_band: emerging
-  composite_raw: 10.8
+  composite_raw: 11.0
   developing: 1
   exemplar: 0
-  rating: 11.8
+  rating: 11.9
   scored: 9
-  spread: 36.7
+  spread: 38.5
   strength: 1
   strong: 0
   worst: 5.0
@@ -43,7 +43,7 @@ member_bands:
     name: NVIDIA Run:ai
     relationship: acquisition
     score_band: developing
-    score_composite: 41.7
+    score_composite: 43.5
     slug: runai
     source: declared
   label: Developing
@@ -190,7 +190,7 @@ members:
 members_unrated: []
 name: Nvidia
 overview: 'Nvidia publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 36.7 points, from 41.7 down to 5.0.
+  of which 10 carry a rating. The rated members span 38.5 points, from 43.5 down to 5.0.
 
 
   Its highest-rated surfaces are NVIDIA Run:ai, Lepton AI, Cumulus Networks, Excelero Storage, Deci AI.'

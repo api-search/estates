@@ -15,15 +15,15 @@ estate_rating:
   agent_raw: 13.2
   agent_ready: 1
   band: emerging
-  best: 71.5
-  composite_avg: 28.3
+  best: 73.1
+  composite_avg: 28.5
   composite_band: thin
-  composite_raw: 37.6
+  composite_raw: 38.1
   developing: 0
   exemplar: 1
-  rating: 21.9
+  rating: 22.0
   scored: 3
-  spread: 64.8
+  spread: 66.4
   strength: 3
   strong: 0
   worst: 6.7
@@ -46,7 +46,7 @@ member_bands:
     name: Canvas
     relationship: product
     score_band: exemplar
-    score_composite: 71.5
+    score_composite: 73.1
     slug: canvas
     source: declared
   label: Exemplar
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: Instructure
 overview: 'Instructure publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 64.8 points, from 71.5 down to 6.7.
+  of which 3 carry a rating. The rated members span 66.4 points, from 73.1 down to 6.7.
 
 
   Its highest-rated surfaces are Canvas, LearnPlatform, MasteryConnect.'

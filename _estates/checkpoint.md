@@ -15,12 +15,12 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 53.2
-  composite_avg: 27.0
+  composite_avg: 27.2
   composite_band: thin
-  composite_raw: 32.4
+  composite_raw: 32.9
   developing: 2
   exemplar: 0
-  rating: 22.7
+  rating: 22.8
   scored: 4
   spread: 48.2
   strength: 2
@@ -57,7 +57,7 @@ member_bands:
     name: Dome9
     relationship: acquisition
     score_band: developing
-    score_composite: 41.3
+    score_composite: 43.1
     slug: dome9
     source: declared
   label: Developing

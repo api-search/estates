@@ -14,15 +14,15 @@ estate_rating:
   agent_ready: 11
   band: thin
   best: 63.4
-  composite_avg: 38.7
+  composite_avg: 38.8
   composite_band: thin
-  composite_raw: 41.9
-  developing: 6
+  composite_raw: 42.0
+  developing: 7
   exemplar: 0
-  rating: 31.7
+  rating: 31.8
   scored: 25
   spread: 43.2
-  strength: 18
+  strength: 19
   strong: 6
   worst: 20.2
 estate_root: microsoft
@@ -111,7 +111,7 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 6
+  count: 7
   items:
   - &id007
     acquired: null
@@ -185,13 +185,25 @@ member_bands:
     score_composite: 47.4
     slug: sharepoint
     source: declared
+  - &id013
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.1
+    api_count: 21
+    immediate_parent: microsoft-365
+    name: Microsoft Project
+    relationship: product
+    score_band: developing
+    score_composite: 42.0
+    slug: microsoft-project
+    source: declared
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 7
+  count: 6
   items:
-  - &id013
+  - &id014
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -202,18 +214,6 @@ member_bands:
     score_band: thin
     score_composite: 39.2
     slug: microsoft-onenote
-    source: declared
-  - &id014
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 21
-    immediate_parent: microsoft-365
-    name: Microsoft Project
-    relationship: product
-    score_band: thin
-    score_composite: 38.5
-    slug: microsoft-project
     source: declared
   - &id015
     acquired: null

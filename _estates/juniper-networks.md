@@ -9,15 +9,15 @@ estate_rating:
   agent_raw: 22.8
   agent_ready: 1
   band: emerging
-  best: 59.0
-  composite_avg: 27.3
+  best: 60.8
+  composite_avg: 27.5
   composite_band: thin
-  composite_raw: 38.7
+  composite_raw: 39.6
   developing: 0
   exemplar: 0
-  rating: 22.3
+  rating: 22.4
   scored: 2
-  spread: 40.6
+  spread: 42.4
   strength: 2
   strong: 1
   worst: 18.4
@@ -40,7 +40,7 @@ member_bands:
     name: Mist
     relationship: product
     score_band: strong
-    score_composite: 59.0
+    score_composite: 60.8
     slug: mist
     source: parent-company-property
   label: Strong
@@ -103,7 +103,7 @@ members:
 members_unrated: []
 name: juniper-networks
 overview: 'juniper-networks publishes its API surface across 4 provider profiles indexed on the APIs.io
-  network, of which 4 carry a rating. The rated members span 40.6 points, from 59.0 down to 18.4.
+  network, of which 4 carry a rating. The rated members span 42.4 points, from 60.8 down to 18.4.
 
 
   Its highest-rated surfaces are Mist, Aria Networks, Argon Networks, Peribit.'

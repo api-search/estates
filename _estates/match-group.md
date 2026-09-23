@@ -6,7 +6,7 @@ description: Match Group is a leading provider of digital technologies designed 
   Meetic, OkCupid, Pairs, Plenty Of Fish, Azar, Hakuna, and others. Match Group does not publish a unified
   public developer portal at the corporate level; individual brands manage their own integrations.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0

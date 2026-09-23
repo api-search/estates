@@ -10,15 +10,15 @@ estate_rating:
   agent_raw: 9.7
   agent_ready: 1
   band: emerging
-  best: 61.0
-  composite_avg: 25.8
+  best: 62.9
+  composite_avg: 26.0
   composite_band: thin
-  composite_raw: 28.5
+  composite_raw: 28.8
   developing: 1
   exemplar: 0
-  rating: 19.7
+  rating: 19.8
   scored: 6
-  spread: 56.9
+  spread: 58.8
   strength: 3
   strong: 1
   worst: 4.1
@@ -41,7 +41,7 @@ member_bands:
     name: Splunk Observability Cloud
     relationship: product
     score_band: strong
-    score_composite: 61.0
+    score_composite: 62.9
     slug: splunk-observability
     source: declared
   label: Strong
@@ -136,7 +136,7 @@ members:
 members_unrated: []
 name: Splunk
 overview: 'Splunk publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 56.9 points, from 61.0 down to 4.1.
+  of which 6 carry a rating. The rated members span 58.8 points, from 62.9 down to 4.1.
 
 
   Its highest-rated surfaces are Splunk Observability Cloud, Splunk SOAR, SignalFx, Splunk On-Call (VictorOps),

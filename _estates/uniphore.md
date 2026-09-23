@@ -22,15 +22,15 @@ estate_rating:
   agent_raw: 11.3
   agent_ready: 1
   band: emerging
-  best: 35.8
-  composite_avg: 22.9
+  best: 37.7
+  composite_avg: 23.1
   composite_band: emerging
-  composite_raw: 23.2
+  composite_raw: 23.9
   developing: 0
   exemplar: 0
-  rating: 18.3
+  rating: 18.5
   scored: 3
-  spread: 30.5
+  spread: 32.4
   strength: 0
   strong: 0
   worst: 5.3
@@ -53,7 +53,7 @@ member_bands:
     name: Infoworks
     relationship: product
     score_band: thin
-    score_composite: 35.8
+    score_composite: 37.7
     slug: infoworks
     source: declared
   - &id002
@@ -97,7 +97,7 @@ members:
 members_unrated: []
 name: Uniphore
 overview: 'Uniphore publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 30.5 points, from 35.8 down to 5.3.
+  of which 3 carry a rating. The rated members span 32.4 points, from 37.7 down to 5.3.
 
 
   Its highest-rated surfaces are Infoworks, ActionIQ, Orby AI.'

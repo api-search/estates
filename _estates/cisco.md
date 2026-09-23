@@ -12,15 +12,15 @@ estate_rating:
   agent_raw: 18.7
   agent_ready: 15
   band: thin
-  best: 71.2
-  composite_avg: 33.4
+  best: 72.1
+  composite_avg: 33.6
   composite_band: thin
-  composite_raw: 34.5
+  composite_raw: 34.7
   developing: 13
   exemplar: 2
-  rating: 27.3
+  rating: 27.4
   scored: 49
-  spread: 69.4
+  spread: 70.3
   strength: 37
   strong: 9
   worst: 1.8
@@ -43,7 +43,7 @@ member_bands:
     name: ThousandEyes
     relationship: acquisition
     score_band: exemplar
-    score_composite: 71.2
+    score_composite: 72.1
     slug: thousandeyes
     source: declared
   - &id002
@@ -97,7 +97,7 @@ member_bands:
     name: Cisco XDR
     relationship: product
     score_band: strong
-    score_composite: 61.4
+    score_composite: 63.2
     slug: cisco-xdr
     source: declared
   - &id006
@@ -109,7 +109,7 @@ member_bands:
     name: Splunk Observability Cloud
     relationship: product
     score_band: strong
-    score_composite: 61.0
+    score_composite: 62.9
     slug: splunk-observability
     source: declared
   - &id007
@@ -133,7 +133,7 @@ member_bands:
     name: Cisco Secure Firewall
     relationship: acquisition
     score_band: strong
-    score_composite: 57.4
+    score_composite: 59.2
     slug: cisco-secure-firewall
     source: declared
   - &id009
@@ -145,7 +145,7 @@ member_bands:
     name: Cisco Intersight
     relationship: product
     score_band: strong
-    score_composite: 55.8
+    score_composite: 57.7
     slug: intersight
     source: declared
   - &id010
@@ -204,6 +204,18 @@ member_bands:
     source: declared
   - &id014
     acquired: null
+    agent_band: agent-ready
+    agent_score: 35.1
+    api_count: 50
+    immediate_parent: cisco
+    name: Cisco Crosswork
+    relationship: product
+    score_band: developing
+    score_composite: 52.1
+    slug: cisco-crosswork
+    source: declared
+  - &id015
+    acquired: null
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 2
@@ -213,18 +225,6 @@ member_bands:
     score_band: developing
     score_composite: 52.0
     slug: cisco-expressway
-    source: declared
-  - &id015
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 35.1
-    api_count: 50
-    immediate_parent: cisco
-    name: Cisco Crosswork
-    relationship: product
-    score_band: developing
-    score_composite: 50.2
-    slug: cisco-crosswork
     source: declared
   - &id016
     acquired: null
@@ -733,7 +733,7 @@ members:
 members_unrated: []
 name: Cisco
 overview: 'Cisco publishes its API surface across 50 provider profiles indexed on the APIs.io network,
-  of which 50 carry a rating. The rated members span 69.4 points, from 71.2 down to 1.8.
+  of which 50 carry a rating. The rated members span 70.3 points, from 72.1 down to 1.8.
 
 
   Its highest-rated surfaces are ThousandEyes, Cisco Catalyst SD-WAN, Cisco Identity Services Engine,
@@ -750,7 +750,7 @@ subfamilies:
   members:
   - name: Splunk Observability Cloud
     score_band: strong
-    score_composite: 61.0
+    score_composite: 62.9
     slug: splunk-observability
   - name: Splunk SOAR
     score_band: developing

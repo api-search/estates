@@ -11,15 +11,15 @@ estate_rating:
   agent_raw: 30.4
   agent_ready: 5
   band: thin
-  best: 72.6
-  composite_avg: 39.8
+  best: 73.5
+  composite_avg: 39.9
   composite_band: thin
-  composite_raw: 48.4
+  composite_raw: 48.5
   developing: 3
   exemplar: 4
-  rating: 33.5
+  rating: 33.6
   scored: 10
-  spread: 67.6
+  spread: 68.5
   strength: 15
   strong: 0
   worst: 5.0
@@ -42,7 +42,7 @@ member_bands:
     name: Jira
     relationship: product
     score_band: exemplar
-    score_composite: 72.6
+    score_composite: 73.5
     slug: jira
     source: declared
   - &id002
@@ -195,7 +195,7 @@ members:
 members_unrated: []
 name: Atlassian
 overview: 'Atlassian publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 67.6 points, from 72.6 down to 5.0.
+  of which 10 carry a rating. The rated members span 68.5 points, from 73.5 down to 5.0.
 
 
   Its highest-rated surfaces are Jira, Atlassian Compass, Bitbucket, Confluence, HipChat.'
