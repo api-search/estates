@@ -11,24 +11,24 @@ description: 'Progress Software Corporation (NASDAQ: PRGS) is a Burlington, Mass
   a full Swagger 2.0 contract against the customer''s own installation — alongside SaaS surfaces such
   as the ShareFile OData API and Sitefinity''s headless OData services.'
 estate_rating:
-  agent_avg: 12.7
+  agent_avg: 11.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.5
+  agent_raw: 13.8
   agent_ready: 0
   band: emerging
-  best: 57.0
-  composite_avg: 27.1
+  best: 58.7
+  composite_avg: 25.7
   composite_band: thin
   composite_raw: 34.5
   developing: 0
   exemplar: 0
-  rating: 21.3
+  rating: 20.1
   scored: 3
-  spread: 48.1
+  spread: 51.4
   strength: 2
   strong: 1
-  worst: 8.9
+  worst: 7.3
 estate_root: null
 estate_root_name: null
 image: https://www.progress.com/images/default-source/default-album/progress-album/images-album/social-image.png
@@ -42,13 +42,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.8
+    agent_score: 21.7
     api_count: 24
     immediate_parent: progress-software
     name: Chef Software
     relationship: product
     score_band: strong
-    score_composite: 57.0
+    score_composite: 58.7
     slug: chef-software
     source: prose
   label: Strong
@@ -82,9 +82,9 @@ member_bands:
     api_count: 0
     immediate_parent: progress-software
     name: Kinvey
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 8.9
+    score_composite: 7.3
     slug: kinvey
     source: prose
   label: Minimal
@@ -98,7 +98,7 @@ members:
 members_unrated: []
 name: Progress Software
 overview: 'Progress Software publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 48.1 points, from 57.0 down to 8.9.
+  network, of which 3 carry a rating. The rated members span 51.4 points, from 58.7 down to 7.3.
 
 
   Its highest-rated surfaces are Chef Software, Sitefinity CMS, Kinvey.'

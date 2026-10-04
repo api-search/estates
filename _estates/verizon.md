@@ -6,24 +6,24 @@ description: Verizon is a leading telecommunications company providing wireless,
   5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform
   APIs for contact center and SMS solutions.
 estate_rating:
-  agent_avg: 11.5
-  agent_band: emerging
+  agent_avg: 8.6
+  agent_band: minimal
   agent_native: 0
-  agent_raw: 11.4
+  agent_raw: 6.9
   agent_ready: 1
   band: emerging
-  best: 43.6
-  composite_avg: 22.7
+  best: 45.6
+  composite_avg: 17.2
   composite_band: emerging
-  composite_raw: 22.8
-  developing: 2
+  composite_raw: 14.6
+  developing: 1
   exemplar: 0
-  rating: 18.2
-  scored: 5
-  spread: 38.8
-  strength: 2
+  rating: 13.8
+  scored: 6
+  spread: 45.6
+  strength: 1
   strong: 0
-  worst: 4.8
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verizon.png
@@ -32,7 +32,7 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
@@ -41,29 +41,29 @@ member_bands:
     api_count: 1
     immediate_parent: verizon
     name: AOL
-    relationship: product
+    relationship: acquisition
     score_band: developing
-    score_composite: 43.6
+    score_composite: 45.6
     slug: aol
     source: prose
-  - &id002
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 20.0
-    api_count: 1
-    immediate_parent: aol
-    name: TechCrunch
-    relationship: product
-    score_band: developing
-    score_composite: 40.5
-    slug: techcrunch
-    source: parent-company-property
   label: Developing
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 1
+  count: 2
   items:
+  - &id002
+    acquired: null
+    agent_band: human-only
+    agent_score: 4.3
+    api_count: 1
+    immediate_parent: aol
+    name: TechCrunch
+    relationship: product
+    score_band: emerging
+    score_composite: 21.8
+    slug: techcrunch
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: human-only
@@ -71,82 +71,82 @@ member_bands:
     api_count: 0
     immediate_parent: verizon
     name: Starry
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 19.9
+    score_composite: 20.0
     slug: starry
     source: prose
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 3
   items:
   - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
-    immediate_parent: aol
-    name: Convertro, Inc.
-    relationship: product
+    immediate_parent: verizon
+    name: CloudSwitch
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: convertro-inc
-    source: parent-company-property
+    score_composite: 0.0
+    slug: cloudswitch
+    source: prose
   - &id005
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
-    immediate_parent: verizon
-    name: ProtectWise
+    immediate_parent: aol
+    name: Outside.in
     relationship: product
     score_band: minimal
-    score_composite: 4.8
-    slug: protectwise
+    score_composite: 0.0
+    slug: outsidein
+    source: parent-company-property
+  - &id006
+    acquired: 2010-09
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: aol
+    name: Thing Labs
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: thing-labs
     source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 3
+  count: 2
   items:
-  - &id006
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: verizon
-    name: CloudSwitch
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: cloudswitch
-    source: prose
   - &id007
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: aol
-    name: Outside.in
+    name: Convertro, Inc.
     relationship: product
     score_band: null
     score_composite: null
-    slug: outsidein
+    slug: convertro-inc
     source: parent-company-property
   - &id008
-    acquired: 2010-09
+    acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
-    immediate_parent: aol
-    name: Thing Labs
-    relationship: product
+    immediate_parent: verizon
+    name: ProtectWise
+    relationship: acquisition
     score_band: null
     score_composite: null
-    slug: thing-labs
+    slug: protectwise
     source: prose
   label: Unrated
   open: false
@@ -164,10 +164,10 @@ members:
 members_unrated: []
 name: Verizon
 overview: 'Verizon publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 38.8 points, from 43.6 down to 4.8.
+  of which 8 carry a rating. The rated members span 45.6 points, from 45.6 down to 0.0.
 
 
-  Its highest-rated surfaces are AOL, TechCrunch, Starry, Convertro, Inc., ProtectWise.'
+  Its highest-rated surfaces are AOL, TechCrunch, Starry, CloudSwitch, Outside.in.'
 parent_provider: verizon
 permalink: /estates/verizon/
 slug: verizon
@@ -179,21 +179,21 @@ subfamilies:
   member_count: 4
   members:
   - name: TechCrunch
-    score_band: developing
-    score_composite: 40.5
+    score_band: emerging
+    score_composite: 21.8
     slug: techcrunch
-  - name: Convertro, Inc.
-    score_band: minimal
-    score_composite: 5.0
-    slug: convertro-inc
   - name: Outside.in
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: outsidein
   - name: Thing Labs
+    score_band: minimal
+    score_composite: 0.0
+    slug: thing-labs
+  - name: Convertro, Inc.
     score_band: null
     score_composite: null
-    slug: thing-labs
+    slug: convertro-inc
   name: AOL
   on_network: true
   permalink: /estates/aol/

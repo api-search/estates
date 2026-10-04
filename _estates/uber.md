@@ -6,24 +6,24 @@ description: Uber is a global technology platform offering transportation, food 
   delivery, voucher programs, and business travel management into third-party applications. APIs use OAuth
   2.0 authentication with scope-based access controls and support both production and sandbox environments.
 estate_rating:
-  agent_avg: 16.7
+  agent_avg: 15.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 23.1
+  agent_raw: 22.5
   agent_ready: 2
   band: emerging
-  best: 55.2
-  composite_avg: 26.5
+  best: 54.3
+  composite_avg: 25.0
   composite_band: thin
-  composite_raw: 31.4
+  composite_raw: 30.7
   developing: 0
   exemplar: 0
-  rating: 22.6
+  rating: 21.4
   scored: 4
-  spread: 45.8
+  spread: 44.6
   strength: 2
   strong: 1
-  worst: 9.4
+  worst: 9.7
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uber.png
@@ -37,13 +37,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.7
+    agent_score: 33.3
     api_count: 2
     immediate_parent: uber
     name: Uber Eats
     relationship: product
     score_band: strong
-    score_composite: 55.2
+    score_composite: 54.3
     slug: uber-eats
     source: declared
   label: Strong
@@ -61,7 +61,7 @@ member_bands:
     name: SpotHero
     relationship: product
     score_band: thin
-    score_composite: 35.1
+    score_composite: 33.6
     slug: spothero
     source: parent-company-property
   label: Thin
@@ -73,13 +73,13 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.7
+    agent_score: 20.8
     api_count: 1
     immediate_parent: uber
     name: Uber Direct
     relationship: product
     score_band: emerging
-    score_composite: 25.7
+    score_composite: 25.2
     slug: uber-direct
     source: declared
   label: Emerging
@@ -95,9 +95,9 @@ member_bands:
     api_count: 0
     immediate_parent: uber
     name: Careem
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 9.4
+    score_composite: 9.7
     slug: careem
     source: prose
   label: Minimal
@@ -112,7 +112,7 @@ members:
 members_unrated: []
 name: Uber
 overview: 'Uber publishes its API surface across 4 provider profiles indexed on the APIs.io network, of
-  which 4 carry a rating. The rated members span 45.8 points, from 55.2 down to 9.4.
+  which 4 carry a rating. The rated members span 44.6 points, from 54.3 down to 9.7.
 
 
   Its highest-rated surfaces are Uber Eats, SpotHero, Uber Direct, Careem.'
@@ -132,5 +132,6 @@ tags:
 - Food Delivery
 - Delivery
 - Logistics
+- Mobility
 title: Uber
 ---

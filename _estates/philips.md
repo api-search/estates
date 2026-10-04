@@ -13,24 +13,24 @@ description: A Dutch multinational health technology company focused on diagnost
   IntelliSpace) layered on HSDP. The legacy Philips Hue lighting API is no longer a Philips offering -
   Hue has been spun off into Signify and is published at developers.meethue.com.
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 3.3
-  composite_avg: 15.2
+  best: 3.6
+  composite_avg: 14.0
   composite_band: emerging
-  composite_raw: 2.6
+  composite_raw: 3.2
   developing: 0
   exemplar: 0
-  rating: 12.0
+  rating: 11.0
   scored: 3
-  spread: 1.1
+  spread: 0.6
   strength: 0
   strong: 0
-  worst: 2.2
+  worst: 3.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/philips.png
@@ -50,7 +50,7 @@ member_bands:
     name: Cardiologs
     relationship: product
     score_band: minimal
-    score_composite: 3.3
+    score_composite: 3.6
     slug: cardiologs
     source: parent-company-property
   - &id002
@@ -62,7 +62,7 @@ member_bands:
     name: Heartstream
     relationship: product
     score_band: minimal
-    score_composite: 2.2
+    score_composite: 3.0
     slug: heartstream
     source: declared
   - &id003
@@ -74,7 +74,7 @@ member_bands:
     name: Telcare
     relationship: product
     score_band: minimal
-    score_composite: 2.2
+    score_composite: 3.0
     slug: telcare
     source: prose
   label: Minimal
@@ -88,7 +88,7 @@ members:
 members_unrated: []
 name: Philips
 overview: 'Philips publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 1.1 points, from 3.3 down to 2.2.
+  of which 3 carry a rating. The rated members span 0.6 points, from 3.6 down to 3.0.
 
 
   Its highest-rated surfaces are Cardiologs, Heartstream, Telcare.'

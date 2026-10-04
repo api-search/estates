@@ -14,24 +14,24 @@ description: Yahoo is a consumer internet and advertising-technology company ope
   client-credentials JWT flow. Yahoo publishes no OpenAPI for any of these surfaces, distributing a public
   Postman collection and an llms.txt documentation index instead.
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 4.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
-  band: emerging
-  best: 20.1
-  composite_avg: 19.8
-  composite_band: emerging
-  composite_raw: 12.6
+  band: minimal
+  best: 20.5
+  composite_avg: 9.4
+  composite_band: minimal
+  composite_raw: 2.6
   developing: 0
   exemplar: 0
-  rating: 15.2
-  scored: 2
-  spread: 15.1
+  rating: 7.3
+  scored: 8
+  spread: 20.5
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yahoo.png
@@ -51,14 +51,14 @@ member_bands:
     name: Flurry
     relationship: product
     score_band: emerging
-    score_composite: 20.1
+    score_composite: 20.5
     slug: flurry
     source: parent-company-property
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 1
+  count: 7
   items:
   - &id002
     acquired: null
@@ -66,101 +66,101 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: yahoo
-    name: BrightRoll
+    name: Aviate
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: aviate
+    source: prose
+  - &id003
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: yahoo
+    name: Bix
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: bix
+    source: prose
+  - &id004
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: yahoo
+    name: Dapper
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: dapper
+    source: prose
+  - &id005
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: yahoo
+    name: MessageMe *
     relationship: product
     score_band: minimal
-    score_composite: 5.0
-    slug: brightroll
+    score_composite: 0.0
+    slug: messageme
+    source: parent-company-property
+  - &id006
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: yahoo
+    name: Polyvore
+    relationship: product
+    score_band: minimal
+    score_composite: 0.0
+    slug: polyvore
+    source: parent-company-property
+  - &id007
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: yahoo
+    name: Rockmelt
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: rockmelt
+    source: prose
+  - &id008
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: yahoo
+    name: Tomfoolery
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: tomfoolery
     source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 7
+  count: 1
   items:
-  - &id003
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: yahoo
-    name: Aviate
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: aviate
-    source: prose
-  - &id004
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: yahoo
-    name: Bix
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: bix
-    source: prose
-  - &id005
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: yahoo
-    name: Dapper
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: dapper
-    source: prose
-  - &id006
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: yahoo
-    name: MessageMe *
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: messageme
-    source: parent-company-property
-  - &id007
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: yahoo
-    name: Polyvore
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: polyvore
-    source: parent-company-property
-  - &id008
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: yahoo
-    name: Rockmelt
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: rockmelt
-    source: prose
   - &id009
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: yahoo
-    name: Tomfoolery
-    relationship: product
+    name: BrightRoll
+    relationship: acquisition
     score_band: null
     score_composite: null
-    slug: tomfoolery
+    slug: brightroll
     source: prose
   label: Unrated
   open: false
@@ -179,10 +179,10 @@ members:
 members_unrated: []
 name: Yahoo
 overview: 'Yahoo publishes its API surface across 9 provider profiles indexed on the APIs.io network,
-  of which 9 carry a rating. The rated members span 15.1 points, from 20.1 down to 5.0.
+  of which 9 carry a rating. The rated members span 20.5 points, from 20.5 down to 0.0.
 
 
-  Its highest-rated surfaces are Flurry, BrightRoll, Aviate, Bix, Dapper.'
+  Its highest-rated surfaces are Flurry, Aviate, Bix, Dapper, MessageMe *.'
 parent_provider: yahoo
 permalink: /estates/yahoo/
 slug: yahoo

@@ -6,24 +6,24 @@ description: Cloud communications platform providing APIs for SMS, voice, video,
   and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python,
   Ruby, Java, PHP, C#, and Go.
 estate_rating:
-  agent_avg: 13.8
+  agent_avg: 14.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 16.5
+  agent_raw: 22.0
   agent_ready: 1
   band: emerging
-  best: 80.0
-  composite_avg: 28.6
+  best: 82.9
+  composite_avg: 29.6
   composite_band: thin
-  composite_raw: 36.0
+  composite_raw: 45.0
   developing: 1
   exemplar: 1
-  rating: 22.7
-  scored: 4
-  spread: 71.5
+  rating: 23.7
+  scored: 3
+  spread: 73.5
   strength: 4
   strong: 0
-  worst: 8.5
+  worst: 9.4
 estate_root: null
 estate_root_name: null
 image: https://www.twilio.com/bundles/company-brand/img/logos/red/twilio-logo-red.png
@@ -43,7 +43,7 @@ member_bands:
     name: SendGrid
     relationship: product
     score_band: exemplar
-    score_composite: 80.0
+    score_composite: 82.9
     slug: sendgrid
     source: parent-company-property
   label: Exemplar
@@ -61,13 +61,13 @@ member_bands:
     name: Twilio Segment
     relationship: product
     score_band: developing
-    score_composite: 44.3
+    score_composite: 42.7
     slug: segment
     source: parent-company-property
   label: Developing
   open: false
-- band: emerging
-  blurb: Early or largely undocumented
+- band: minimal
+  blurb: Almost no public developer surface
   count: 1
   items:
   - &id003
@@ -78,29 +78,29 @@ member_bands:
     immediate_parent: twilio
     name: Authy
     relationship: product
-    score_band: emerging
-    score_composite: 11.0
+    score_band: minimal
+    score_composite: 9.4
     slug: authy
     source: parent-company-property
-  label: Emerging
+  label: Minimal
   open: false
-- band: minimal
-  blurb: Almost no public developer surface
+- band: unrated
+  blurb: Not yet scored
   count: 1
   items:
   - &id004
     acquired: null
-    agent_band: human-only
-    agent_score: 0.0
+    agent_band: null
+    agent_score: null
     api_count: 0
     immediate_parent: twilio
     name: Ionic Security
-    relationship: product
-    score_band: minimal
-    score_composite: 8.5
+    relationship: acquisition
+    score_band: null
+    score_composite: null
     slug: ionic-security
     source: prose
-  label: Minimal
+  label: Unrated
   open: false
 member_on_network: 4
 member_total: 4
@@ -112,7 +112,7 @@ members:
 members_unrated: []
 name: Twilio
 overview: 'Twilio publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 71.5 points, from 80.0 down to 8.5.
+  of which 4 carry a rating. The rated members span 73.5 points, from 82.9 down to 9.4.
 
 
   Its highest-rated surfaces are SendGrid, Twilio Segment, Authy, Ionic Security.'

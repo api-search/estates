@@ -5,24 +5,24 @@ description: Marathon Petroleum is one of the largest petroleum product refiners
   in the United States, with operations including refineries, pipelines, terminals, and retail outlets.
   No public developer APIs have been identified at this time.
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 8.9
-  composite_avg: 18.4
+  best: 8.8
+  composite_avg: 14.5
   composite_band: emerging
-  composite_raw: 7.6
+  composite_raw: 4.7
   developing: 0
   exemplar: 0
-  rating: 14.4
-  scored: 2
-  spread: 2.7
+  rating: 11.3
+  scored: 3
+  spread: 8.8
   strength: 0
   strong: 0
-  worst: 6.2
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marathon-petroleum.png
@@ -31,7 +31,7 @@ layout: estate
 member_bands:
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 3
   items:
   - &id001
     acquired: null
@@ -42,7 +42,7 @@ member_bands:
     name: Tesoro
     relationship: acquisition
     score_band: minimal
-    score_composite: 8.9
+    score_composite: 8.8
     slug: tesoro
     source: declared
   - &id002
@@ -54,28 +54,22 @@ member_bands:
     name: Western Refining
     relationship: product
     score_band: minimal
-    score_composite: 6.2
+    score_composite: 5.3
     slug: western-refining
     source: parent-company-property
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 1
-  items:
   - &id003
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: western-refining
     name: Northern Tier Energy
     relationship: product
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: northern-tier-energy
     source: parent-company-property
-  label: Unrated
+  label: Minimal
   open: false
 member_on_network: 3
 member_total: 3
@@ -86,7 +80,7 @@ members:
 members_unrated: []
 name: Marathon Petroleum
 overview: 'Marathon Petroleum publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 2.7 points, from 8.9 down to 6.2.
+  network, of which 3 carry a rating. The rated members span 8.8 points, from 8.8 down to 0.0.
 
 
   Its highest-rated surfaces are Tesoro, Western Refining, Northern Tier Energy.'
@@ -101,8 +95,8 @@ subfamilies:
   member_count: 1
   members:
   - name: Northern Tier Energy
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: northern-tier-energy
   name: Western Refining
   on_network: true

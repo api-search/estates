@@ -13,24 +13,24 @@ description: 'EMC Corporation, acquired by Dell Technologies in 2016 and now ope
   whose specification API returns HTTP 401 to anonymous callers, so this profile is built from EMC''s
   own published client libraries on github.com/EMCECS and github.com/dell.'
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 5.7
-  composite_avg: 17.7
+  best: 3.4
+  composite_avg: 13.2
   composite_band: emerging
-  composite_raw: 5.3
+  composite_raw: 1.1
   developing: 0
   exemplar: 0
-  rating: 13.9
-  scored: 2
-  spread: 0.7
+  rating: 10.6
+  scored: 3
+  spread: 3.4
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: dell-technologies
 estate_root_name: Dell Technologies
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emc.png
@@ -39,21 +39,9 @@ layout: estate
 member_bands:
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 3
   items:
   - &id001
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: emc
-    name: XtremIO
-    relationship: product
-    score_band: minimal
-    score_composite: 5.7
-    slug: xtremio
-    source: prose
-  - &id002
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -62,42 +50,67 @@ member_bands:
     name: Scaleio
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: scaleio
     source: parent-company-property
+  - &id002
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: emc
+    name: Kashya
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: kashya
+    source: prose
+  - &id003
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: emc
+    name: Voyence
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: voyence
+    source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
   count: 1
   items:
-  - &id003
+  - &id004
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: emc
-    name: Voyence
-    relationship: product
+    name: XtremIO
+    relationship: acquisition
     score_band: null
     score_composite: null
-    slug: voyence
+    slug: xtremio
     source: prose
   label: Unrated
   open: false
-member_on_network: 3
-member_total: 3
+member_on_network: 4
+member_total: 4
 members:
 - *id001
 - *id002
 - *id003
+- *id004
 members_unrated: []
 name: EMC
-overview: 'EMC publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 0.7 points, from 5.7 down to 5.0.
+overview: 'EMC publishes its API surface across 4 provider profiles indexed on the APIs.io network, of
+  which 4 carry a rating. The rated members span 3.4 points, from 3.4 down to 0.0.
 
 
-  Its highest-rated surfaces are XtremIO, Scaleio, Voyence.'
+  Its highest-rated surfaces are Scaleio, Kashya, Voyence, XtremIO.'
 parent_provider: emc
 permalink: /estates/emc/
 slug: emc

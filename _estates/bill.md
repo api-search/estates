@@ -8,24 +8,24 @@ description: BILL (formerly Bill.com) is a cloud-based financial operations plat
   event notifications via webhooks. The API uses session-based authentication with API keys and developer
   keys against production and sandbox gateways.
 estate_rating:
-  agent_avg: 10.4
-  agent_band: emerging
+  agent_avg: 9.8
+  agent_band: minimal
   agent_native: 0
   agent_raw: 8.4
   agent_ready: 0
   band: emerging
-  best: 41.1
-  composite_avg: 22.2
+  best: 40.2
+  composite_avg: 20.4
   composite_band: emerging
-  composite_raw: 21.2
+  composite_raw: 20.3
   developing: 1
   exemplar: 0
-  rating: 17.5
+  rating: 16.2
   scored: 3
-  spread: 36.1
+  spread: 36.8
   strength: 1
   strong: 0
-  worst: 5.0
+  worst: 3.4
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bill.png
@@ -45,7 +45,7 @@ member_bands:
     name: Divvy
     relationship: product
     score_band: developing
-    score_composite: 41.1
+    score_composite: 40.2
     slug: divvy
     source: declared
   label: Developing
@@ -63,7 +63,7 @@ member_bands:
     name: Invoice2go
     relationship: product
     score_band: emerging
-    score_composite: 17.6
+    score_composite: 17.3
     slug: invoice2go
     source: parent-company-property
   label: Emerging
@@ -79,9 +79,9 @@ member_bands:
     api_count: 0
     immediate_parent: bill
     name: Finmark
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: finmark
     source: prose
   label: Minimal
@@ -95,7 +95,7 @@ members:
 members_unrated: []
 name: BILL
 overview: 'BILL publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 36.1 points, from 41.1 down to 5.0.
+  which 3 carry a rating. The rated members span 36.8 points, from 40.2 down to 3.4.
 
 
   Its highest-rated surfaces are Divvy, Invoice2go, Finmark.'
@@ -116,5 +116,6 @@ tags:
 - Bill Pay
 - Financial Operations
 - Fintech
+- Accounting
 title: BILL
 ---

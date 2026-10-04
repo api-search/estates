@@ -5,24 +5,24 @@ description: A multinational semiconductor company designing high-performance pr
   and adaptive computing solutions. Competes in data center, gaming, and embedded markets with its Ryzen,
   EPYC, and Radeon product lines.
 estate_rating:
-  agent_avg: 9.9
+  agent_avg: 9.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.0
   agent_ready: 0
   band: emerging
-  best: 27.4
-  composite_avg: 20.1
+  best: 26.3
+  composite_avg: 18.2
   composite_band: emerging
-  composite_raw: 15.8
+  composite_raw: 14.6
   developing: 0
   exemplar: 0
-  rating: 16.0
+  rating: 14.6
   scored: 3
-  spread: 22.1
+  spread: 22.7
   strength: 0
   strong: 0
-  worst: 5.3
+  worst: 3.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amd.png
@@ -42,7 +42,7 @@ member_bands:
     name: Xilinx
     relationship: product
     score_band: thin
-    score_composite: 27.4
+    score_composite: 26.3
     slug: xilinx
     source: parent-company-property
   label: Thin
@@ -60,7 +60,7 @@ member_bands:
     name: Pensando *
     relationship: acquisition
     score_band: emerging
-    score_composite: 14.8
+    score_composite: 14.0
     slug: pensando
     source: declared
   label: Emerging
@@ -78,7 +78,7 @@ member_bands:
     name: Mipsology
     relationship: product
     score_band: minimal
-    score_composite: 5.3
+    score_composite: 3.6
     slug: mipsology
     source: parent-company-property
   label: Minimal
@@ -92,7 +92,7 @@ members:
 members_unrated: []
 name: AMD
 overview: 'AMD publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 22.1 points, from 27.4 down to 5.3.
+  which 3 carry a rating. The rated members span 22.7 points, from 26.3 down to 3.6.
 
 
   Its highest-rated surfaces are Xilinx, Pensando *, Mipsology.'

@@ -7,24 +7,24 @@ description: Dell Technologies is a global Fortune 500 technology company that d
   servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling
   automation of IT operations and integration into enterprise tooling.
 estate_rating:
-  agent_avg: 13.8
+  agent_avg: 11.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 16.0
+  agent_raw: 13.0
   agent_ready: 1
   band: emerging
-  best: 61.1
-  composite_avg: 26.6
-  composite_band: thin
-  composite_raw: 30.4
+  best: 63.0
+  composite_avg: 22.9
+  composite_band: emerging
+  composite_raw: 24.9
   developing: 1
   exemplar: 0
-  rating: 21.5
-  scored: 5
-  spread: 56.1
+  rating: 18.5
+  scored: 6
+  spread: 63.0
   strength: 3
   strong: 1
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dell-technologies.png
@@ -42,9 +42,9 @@ member_bands:
     api_count: 17
     immediate_parent: dell-technologies
     name: Moogsoft
-    relationship: product
+    relationship: acquisition
     score_band: strong
-    score_composite: 61.1
+    score_composite: 63.0
     slug: moogsoft
     source: prose
   label: Strong
@@ -56,13 +56,13 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
+    agent_score: 24.0
     api_count: 1
     immediate_parent: dell-technologies
     name: DataLoop
-    relationship: product
+    relationship: acquisition
     score_band: developing
-    score_composite: 49.7
+    score_composite: 51.2
     slug: dataloop
     source: prose
   label: Developing
@@ -80,28 +80,16 @@ member_bands:
     name: EMC
     relationship: product
     score_band: thin
-    score_composite: 30.6
+    score_composite: 31.9
     slug: emc
     source: parent-company-property
   label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 3
   items:
   - &id004
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: emc
-    name: XtremIO
-    relationship: product
-    score_band: minimal
-    score_composite: 5.7
-    slug: xtremio
-    source: prose
-  - &id005
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -110,31 +98,55 @@ member_bands:
     name: Scaleio
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: scaleio
     source: parent-company-property
+  - &id005
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: emc
+    name: Kashya
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: kashya
+    source: prose
+  - &id006
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: emc
+    name: Voyence
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: voyence
+    source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
   count: 1
   items:
-  - &id006
+  - &id007
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: emc
-    name: Voyence
-    relationship: product
+    name: XtremIO
+    relationship: acquisition
     score_band: null
     score_composite: null
-    slug: voyence
+    slug: xtremio
     source: prose
   label: Unrated
   open: false
-member_on_network: 6
-member_total: 6
+member_on_network: 7
+member_total: 7
 members:
 - *id001
 - *id002
@@ -142,13 +154,14 @@ members:
 - *id004
 - *id005
 - *id006
+- *id007
 members_unrated: []
 name: Dell Technologies
-overview: 'Dell Technologies publishes its API surface across 6 provider profiles indexed on the APIs.io
-  network, of which 6 carry a rating. The rated members span 56.1 points, from 61.1 down to 5.0.
+overview: 'Dell Technologies publishes its API surface across 7 provider profiles indexed on the APIs.io
+  network, of which 7 carry a rating. The rated members span 63.0 points, from 63.0 down to 0.0.
 
 
-  Its highest-rated surfaces are Moogsoft, DataLoop, EMC, XtremIO, Scaleio.'
+  Its highest-rated surfaces are Moogsoft, DataLoop, EMC, Scaleio, Kashya.'
 parent_provider: dell-technologies
 permalink: /estates/dell-technologies/
 slug: dell-technologies
@@ -157,20 +170,24 @@ source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/apis.yml
 subfamilies:
 - has_page: true
-  member_count: 3
+  member_count: 4
   members:
-  - name: XtremIO
-    score_band: minimal
-    score_composite: 5.7
-    slug: xtremio
   - name: Scaleio
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: scaleio
+  - name: Kashya
+    score_band: minimal
+    score_composite: 0.0
+    slug: kashya
   - name: Voyence
+    score_band: minimal
+    score_composite: 0.0
+    slug: voyence
+  - name: XtremIO
     score_band: null
     score_composite: null
-    slug: voyence
+    slug: xtremio
   name: EMC
   on_network: true
   permalink: /estates/emc/

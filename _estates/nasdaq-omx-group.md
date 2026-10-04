@@ -5,24 +5,24 @@ description: Nasdaq is a global technology company serving capital markets and o
   trading, clearing, exchange technology, listing, information, and public company services. Nasdaq Data
   Link offers REST APIs for accessing financial, economic, and alternative data.
 estate_rating:
-  agent_avg: 10.6
-  agent_band: emerging
+  agent_avg: 9.9
+  agent_band: minimal
   agent_native: 0
   agent_raw: 8.9
   agent_ready: 0
   band: emerging
-  best: 16.9
-  composite_avg: 18.8
+  best: 15.4
+  composite_avg: 16.8
   composite_band: emerging
-  composite_raw: 12.2
+  composite_raw: 10.7
   developing: 0
   exemplar: 0
-  rating: 15.5
+  rating: 14.0
   scored: 3
-  spread: 11.9
+  spread: 12.0
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 3.4
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nasdaq-omx-group.png
@@ -42,7 +42,7 @@ member_bands:
     name: Calypso Workstation
     relationship: acquisition
     score_band: emerging
-    score_composite: 16.9
+    score_composite: 15.4
     slug: calypso-workstation
     source: declared
   - &id002
@@ -54,7 +54,7 @@ member_bands:
     name: Calypso Migration
     relationship: acquisition
     score_band: emerging
-    score_composite: 14.6
+    score_composite: 13.4
     slug: calypso-migration
     source: declared
   label: Emerging
@@ -72,7 +72,7 @@ member_bands:
     name: eVestment Alliance
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: evestment-alliance
     source: parent-company-property
   label: Minimal
@@ -86,7 +86,7 @@ members:
 members_unrated: []
 name: Nasdaq
 overview: 'Nasdaq publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 11.9 points, from 16.9 down to 5.0.
+  of which 3 carry a rating. The rated members span 12.0 points, from 15.4 down to 3.4.
 
 
   Its highest-rated surfaces are Calypso Workstation, Calypso Migration, eVestment Alliance.'
@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasdaq-omx-gro
 subfamilies: []
 subfamily_page_count: 0
 tags:
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Stock Exchange
 - Market Data

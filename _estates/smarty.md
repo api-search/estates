@@ -9,24 +9,24 @@ description: Smarty (formerly SmartyStreets) is an address intelligence company 
   for high-throughput workloads, with US address lookups reaching up to 25,000 per second, making Smarty
   suitable for enterprise address validation pipelines and real-time checkout address autocomplete.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 8.1
-  composite_avg: 16.0
+  best: 5.6
+  composite_avg: 13.7
   composite_band: emerging
-  composite_raw: 7.7
+  composite_raw: 5.2
   developing: 0
   exemplar: 0
-  rating: 12.2
+  rating: 10.6
   scored: 4
   spread: 0.5
   strength: 0
   strong: 0
-  worst: 7.6
+  worst: 5.1
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smarty.png
@@ -46,7 +46,7 @@ member_bands:
     name: US Autocomplete
     relationship: product
     score_band: minimal
-    score_composite: 8.1
+    score_composite: 5.6
     slug: us-autocomplete
     source: declared
   - &id002
@@ -58,7 +58,7 @@ member_bands:
     name: US Extract
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: us-extract
     source: declared
   - &id003
@@ -70,7 +70,7 @@ member_bands:
     name: US Street Address
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: us-street-address
     source: declared
   - &id004
@@ -82,7 +82,7 @@ member_bands:
     name: US ZipCode
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: us-zipcode
     source: declared
   label: Minimal
@@ -97,7 +97,7 @@ members:
 members_unrated: []
 name: Smarty
 overview: 'Smarty publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 0.5 points, from 8.1 down to 7.6.
+  of which 4 carry a rating. The rated members span 0.5 points, from 5.6 down to 5.1.
 
 
   Its highest-rated surfaces are US Autocomplete, US Extract, US Street Address, US ZipCode.'
@@ -118,5 +118,6 @@ tags:
 - Location Data
 - International Address
 - US Address
+- Geospatial
 title: Smarty
 ---

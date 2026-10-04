@@ -9,24 +9,24 @@ description: Instructure is an EdTech company best known for Canvas LMS, a widel
   1.3 integrations. Authentication is handled via OAuth2 with per-token dynamic rate limiting, and all
   API responses are returned in JSON over HTTPS.
 estate_rating:
-  agent_avg: 12.2
+  agent_avg: 11.6
   agent_band: emerging
   agent_native: 0
   agent_raw: 13.2
   agent_ready: 1
   band: emerging
-  best: 73.1
-  composite_avg: 28.5
+  best: 68.7
+  composite_avg: 26.2
   composite_band: thin
-  composite_raw: 38.1
+  composite_raw: 35.9
   developing: 0
   exemplar: 1
-  rating: 22.0
+  rating: 20.4
   scored: 3
-  spread: 66.4
+  spread: 61.6
   strength: 3
   strong: 0
-  worst: 6.7
+  worst: 7.1
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instructure.png
@@ -46,7 +46,7 @@ member_bands:
     name: Canvas
     relationship: product
     score_band: exemplar
-    score_composite: 73.1
+    score_composite: 68.7
     slug: canvas
     source: declared
   label: Exemplar
@@ -62,9 +62,9 @@ member_bands:
     api_count: 0
     immediate_parent: instructure
     name: LearnPlatform
-    relationship: product
+    relationship: acquisition
     score_band: thin
-    score_composite: 34.6
+    score_composite: 31.8
     slug: learnplatform
     source: prose
   label: Thin
@@ -82,7 +82,7 @@ member_bands:
     name: MasteryConnect
     relationship: product
     score_band: minimal
-    score_composite: 6.7
+    score_composite: 7.1
     slug: masteryconnect
     source: parent-company-property
   label: Minimal
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: Instructure
 overview: 'Instructure publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 66.4 points, from 73.1 down to 6.7.
+  of which 3 carry a rating. The rated members span 61.6 points, from 68.7 down to 7.1.
 
 
   Its highest-rated surfaces are Canvas, LearnPlatform, MasteryConnect.'

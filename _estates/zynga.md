@@ -12,24 +12,24 @@ description: 'Zynga is a mobile and social game developer and publisher, founded
   "Zynga API" announced at Zynga Unleashed in 2011-2012 was retired with the zynga.com third-party publishing
   platform, and developers.zynga.com no longer resolves.'
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 5.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
-  band: emerging
-  best: 5.0
-  composite_avg: 14.8
+  band: minimal
+  best: 3.5
+  composite_avg: 11.5
   composite_band: emerging
-  composite_raw: 5.0
+  composite_raw: 2.6
   developing: 0
   exemplar: 0
-  rating: 11.4
-  scored: 4
-  spread: 0.0
+  rating: 9.0
+  scored: 5
+  spread: 3.5
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: take-two-interactive
 estate_root_name: Take-Two Interactive Software
 image: https://www.zynga.com/storage/2018/09/logo.png
@@ -38,9 +38,21 @@ layout: estate
 member_bands:
 - band: minimal
   blurb: Almost no public developer surface
-  count: 4
+  count: 5
   items:
   - &id001
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: zynga
+    name: Peak Games
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 3.5
+    slug: peak-games
+    source: prose
+  - &id002
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -49,20 +61,8 @@ member_bands:
     name: naturalmotion
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: naturalmotion
-    source: prose
-  - &id002
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: zynga
-    name: Peak Games
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: peak-games
     source: prose
   - &id003
     acquired: null
@@ -71,9 +71,9 @@ member_bands:
     api_count: 0
     immediate_parent: zynga
     name: Small Giant Games
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: small-giant-games
     source: prose
   - &id004
@@ -83,30 +83,24 @@ member_bands:
     api_count: 0
     immediate_parent: zynga
     name: Storemaven
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 2.5
     slug: storemaven
     source: prose
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 1
-  items:
   - &id005
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: zynga
     name: DNA Games
-    relationship: product
-    score_band: null
-    score_composite: null
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
     slug: dna-games
     source: prose
-  label: Unrated
+  label: Minimal
   open: false
 member_on_network: 5
 member_total: 5
@@ -119,10 +113,10 @@ members:
 members_unrated: []
 name: Zynga
 overview: 'Zynga publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 0.0 points, from 5.0 down to 5.0.
+  of which 5 carry a rating. The rated members span 3.5 points, from 3.5 down to 0.0.
 
 
-  Its highest-rated surfaces are naturalmotion, Peak Games, Small Giant Games, Storemaven, DNA Games.'
+  Its highest-rated surfaces are Peak Games, naturalmotion, Small Giant Games, Storemaven, DNA Games.'
 parent_provider: zynga
 permalink: /estates/zynga/
 slug: zynga

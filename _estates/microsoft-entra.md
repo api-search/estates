@@ -4,24 +4,24 @@ category: Estates
 description: Microsoft Entra (formerly Azure Active Directory) provides identity and access management
   services including authentication, authorization, and directory services.
 estate_rating:
-  agent_avg: 20.8
+  agent_avg: 20.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 36.1
   agent_ready: 1
   band: thin
-  best: 79.7
-  composite_avg: 35.6
+  best: 83.3
+  composite_avg: 35.0
   composite_band: thin
-  composite_raw: 57.1
+  composite_raw: 59.3
   developing: 0
   exemplar: 1
-  rating: 29.7
+  rating: 29.1
   scored: 3
-  spread: 47.8
+  spread: 50.6
   strength: 5
   strong: 1
-  worst: 31.9
+  worst: 32.7
 estate_root: microsoft
 estate_root_name: Microsoft
 image: https://www.microsoft.com/en-us/security/content/dam/microsoft/final/security/includes/microsoft-entra-logo.svg
@@ -41,7 +41,7 @@ member_bands:
     name: Microsoft Entra ID (formerly Azure AD)
     relationship: product
     score_band: exemplar
-    score_composite: 79.7
+    score_composite: 83.3
     slug: azure-ad
     source: declared
   label: Exemplar
@@ -59,7 +59,7 @@ member_bands:
     name: Microsoft Active Directory
     relationship: product
     score_band: strong
-    score_composite: 59.8
+    score_composite: 62.0
     slug: active-directory
     source: declared
   label: Strong
@@ -77,7 +77,7 @@ member_bands:
     name: Microsoft Intune
     relationship: product
     score_band: thin
-    score_composite: 31.9
+    score_composite: 32.7
     slug: microsoft-intune
     source: declared
   label: Thin
@@ -91,7 +91,7 @@ members:
 members_unrated: []
 name: Microsoft Entra
 overview: 'Microsoft Entra publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 47.8 points, from 79.7 down to 31.9.
+  network, of which 3 carry a rating. The rated members span 50.6 points, from 83.3 down to 32.7.
 
 
   Its highest-rated surfaces are Microsoft Entra ID (formerly Azure AD), Microsoft Active Directory, Microsoft

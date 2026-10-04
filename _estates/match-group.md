@@ -6,24 +6,24 @@ description: Match Group is a leading provider of digital technologies designed 
   Meetic, OkCupid, Pairs, Plenty Of Fish, Azar, Hakuna, and others. Match Group does not publish a unified
   public developer portal at the corporate level; individual brands manage their own integrations.
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 10.2
-  composite_avg: 17.0
+  best: 7.5
+  composite_avg: 14.1
   composite_band: emerging
-  composite_raw: 7.6
+  composite_raw: 3.6
   developing: 0
   exemplar: 0
-  rating: 13.1
+  rating: 11.1
   scored: 3
-  spread: 5.2
+  spread: 7.5
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://www.mtch.com/favicon.ico
@@ -40,25 +40,13 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: match-group
-    name: Hawaya
-    relationship: product
-    score_band: minimal
-    score_composite: 10.2
-    slug: hawaya
-    source: parent-company-property
-  - &id002
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: match-group
     name: Hinge
-    relationship: product
+    relationship: acquisition
     score_band: minimal
     score_composite: 7.5
     slug: hinge
     source: prose
-  - &id003
+  - &id002
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -67,8 +55,20 @@ member_bands:
     name: The League
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: the-league
+    source: parent-company-property
+  - &id003
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: match-group
+    name: Hawaya
+    relationship: product
+    score_band: minimal
+    score_composite: 0.0
+    slug: hawaya
     source: parent-company-property
   label: Minimal
   open: false
@@ -81,10 +81,10 @@ members:
 members_unrated: []
 name: Match Group
 overview: 'Match Group publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 5.2 points, from 10.2 down to 5.0.
+  of which 3 carry a rating. The rated members span 7.5 points, from 7.5 down to 0.0.
 
 
-  Its highest-rated surfaces are Hawaya, Hinge, The League.'
+  Its highest-rated surfaces are Hinge, The League, Hawaya.'
 parent_provider: match-group
 permalink: /estates/match-group/
 slug: match-group

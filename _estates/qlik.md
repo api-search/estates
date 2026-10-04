@@ -1,26 +1,26 @@
 ---
-api_total: 115
+api_total: 130
 category: Estates
 description: APIs for Qlik's analytics and data integration platform.
 estate_rating:
-  agent_avg: 14.5
+  agent_avg: 17.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 16.3
-  agent_ready: 2
-  band: emerging
-  best: 69.7
-  composite_avg: 28.9
+  agent_raw: 23.1
+  agent_ready: 3
+  band: thin
+  best: 72.5
+  composite_avg: 31.8
   composite_band: thin
-  composite_raw: 32.7
+  composite_raw: 40.0
   developing: 1
   exemplar: 1
-  rating: 23.1
-  scored: 8
-  spread: 64.7
-  strength: 4
-  strong: 0
-  worst: 5.0
+  rating: 26.2
+  scored: 7
+  spread: 56.6
+  strength: 6
+  strong: 1
+  worst: 15.9
 estate_root: null
 estate_root_name: null
 image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo.png
@@ -40,32 +40,32 @@ member_bands:
     name: Qlik Sense
     relationship: product
     score_band: exemplar
-    score_composite: 69.7
+    score_composite: 72.5
     slug: qliksense
     source: declared
   label: Exemplar
   open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id002
     acquired: null
-    agent_band: agent-aware
-    agent_score: 19.8
-    api_count: 2
+    agent_band: agent-ready
+    agent_score: 51.9
+    api_count: 17
     immediate_parent: qlik
     name: Talend
     relationship: product
-    score_band: developing
-    score_composite: 42.8
+    score_band: strong
+    score_composite: 64.1
     slug: talend
     source: parent-company-property
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 3
+  label: Strong
+  open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 1
   items:
   - &id003
     acquired: null
@@ -75,32 +75,38 @@ member_bands:
     immediate_parent: qlik
     name: QlikView
     relationship: product
-    score_band: thin
-    score_composite: 39.0
+    score_band: developing
+    score_composite: 41.7
     slug: qlikview
     source: declared
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 2
+  items:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.7
+    agent_score: 33.3
     api_count: 6
     immediate_parent: qlik
     name: Qlik Sense Enterprise
     relationship: product
     score_band: thin
-    score_composite: 38.1
+    score_composite: 37.8
     slug: qlik-sense-enterprise
     source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.2
+    agent_score: 22.9
     api_count: 13
     immediate_parent: qlik
     name: Qlik Cloud
     relationship: product
     score_band: thin
-    score_composite: 33.2
+    score_composite: 31.8
     slug: qlik-cloud
     source: declared
   label: Thin
@@ -118,7 +124,7 @@ member_bands:
     name: Upsolver
     relationship: product
     score_band: emerging
-    score_composite: 17.1
+    score_composite: 16.3
     slug: upsolver
     source: parent-company-property
   - &id007
@@ -130,28 +136,28 @@ member_bands:
     name: Qlik Mashups
     relationship: product
     score_band: emerging
-    score_composite: 16.8
+    score_composite: 15.9
     slug: qlik-mashups
     source: declared
   label: Emerging
   open: false
-- band: minimal
-  blurb: Almost no public developer surface
+- band: unrated
+  blurb: Not yet scored
   count: 1
   items:
   - &id008
     acquired: null
-    agent_band: human-only
-    agent_score: 0.0
+    agent_band: null
+    agent_score: null
     api_count: 0
     immediate_parent: talend
     name: RJMetrics
     relationship: product
-    score_band: minimal
-    score_composite: 5.0
+    score_band: null
+    score_composite: null
     slug: rjmetrics
     source: parent-company-property
-  label: Minimal
+  label: Unrated
   open: false
 member_on_network: 8
 member_total: 8
@@ -167,7 +173,7 @@ members:
 members_unrated: []
 name: Qlik
 overview: 'Qlik publishes its API surface across 8 provider profiles indexed on the APIs.io network, of
-  which 8 carry a rating. The rated members span 64.7 points, from 69.7 down to 5.0.
+  which 8 carry a rating. The rated members span 56.6 points, from 72.5 down to 15.9.
 
 
   Its highest-rated surfaces are Qlik Sense, Talend, QlikView, Qlik Sense Enterprise, Qlik Cloud.'
@@ -182,8 +188,8 @@ subfamilies:
   member_count: 1
   members:
   - name: RJMetrics
-    score_band: minimal
-    score_composite: 5.0
+    score_band: null
+    score_composite: null
     slug: rjmetrics
   name: Talend
   on_network: true
@@ -193,7 +199,7 @@ subfamily_page_count: 0
 tags:
 - Security
 - Access Control
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 title: Qlik
 ---

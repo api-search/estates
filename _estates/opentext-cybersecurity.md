@@ -14,24 +14,24 @@ description: OpenText Cybersecurity is the security business of OpenText, assemb
   CLI (fcli), a first-party MCP server inside that CLI, and a published set of Agent Skills for Claude
   Code, GitHub Copilot, Codex and Gemini CLI.
 estate_rating:
-  agent_avg: 11.4
+  agent_avg: 10.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.2
   agent_ready: 0
   band: emerging
-  best: 55.4
-  composite_avg: 26.0
-  composite_band: thin
+  best: 56.5
+  composite_avg: 24.7
+  composite_band: emerging
   composite_raw: 30.0
   developing: 0
   exemplar: 0
-  rating: 20.2
+  rating: 19.2
   scored: 4
-  spread: 47.5
+  spread: 50.3
   strength: 2
   strong: 1
-  worst: 7.9
+  worst: 6.2
 estate_root: null
 estate_root_name: null
 image: https://cari01mstrop62eprod.dxcloud.episerver.net/globalassets/smb-media/images/banners/csot-homepage-hero-2.webp
@@ -51,7 +51,7 @@ member_bands:
     name: Fortify
     relationship: product
     score_band: strong
-    score_composite: 55.4
+    score_composite: 56.5
     slug: fortify
     source: declared
   label: Strong
@@ -69,7 +69,7 @@ member_bands:
     name: CloudAlly
     relationship: acquisition
     score_band: thin
-    score_composite: 32.4
+    score_composite: 31.7
     slug: cloudally
     source: declared
   label: Thin
@@ -87,7 +87,7 @@ member_bands:
     name: Webroot
     relationship: product
     score_band: emerging
-    score_composite: 24.4
+    score_composite: 25.5
     slug: webroot
     source: prose
   label: Emerging
@@ -105,7 +105,7 @@ member_bands:
     name: ArcSight
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.9
+    score_composite: 6.2
     slug: arcsight
     source: declared
   label: Minimal
@@ -120,7 +120,7 @@ members:
 members_unrated: []
 name: OpenText Cybersecurity
 overview: 'OpenText Cybersecurity publishes its API surface across 4 provider profiles indexed on the
-  APIs.io network, of which 4 carry a rating. The rated members span 47.5 points, from 55.4 down to 7.9.
+  APIs.io network, of which 4 carry a rating. The rated members span 50.3 points, from 56.5 down to 6.2.
 
 
   Its highest-rated surfaces are Fortify, CloudAlly, Webroot, ArcSight.'
@@ -144,6 +144,6 @@ tags:
 - Backup and Recovery
 - Managed Service Providers
 - Identity and Access
-- Data Privacy
+- Privacy
 title: OpenText Cybersecurity
 ---

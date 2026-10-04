@@ -12,24 +12,24 @@ description: Life360 is a family safety platform built around a location-sharing
   ai-plugin manifest whose advertised OpenAPI does not resolve, and Content-Signal directives in robots.txt).
   This profile is maintained in the API Evangelist network for company discovery and monitoring.
 estate_rating:
-  agent_avg: 8.4
+  agent_avg: 7.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.1
   agent_ready: 0
   band: emerging
-  best: 40.9
-  composite_avg: 22.2
+  best: 43.5
+  composite_avg: 21.1
   composite_band: emerging
-  composite_raw: 21.3
+  composite_raw: 22.1
   developing: 1
   exemplar: 0
-  rating: 16.7
+  rating: 15.8
   scored: 3
-  spread: 30.3
+  spread: 33.3
   strength: 1
   strong: 0
-  worst: 10.6
+  worst: 10.2
 estate_root: null
 estate_root_name: null
 image: https://www.life360.com/svgs/life360-logo-dark.svg
@@ -49,7 +49,7 @@ member_bands:
     name: Nativo
     relationship: product
     score_band: developing
-    score_composite: 40.9
+    score_composite: 43.5
     slug: nativo
     source: parent-company-property
   label: Developing
@@ -67,7 +67,7 @@ member_bands:
     name: Tile (thetileapp)
     relationship: product
     score_band: emerging
-    score_composite: 12.3
+    score_composite: 12.7
     slug: thetileapp
     source: parent-company-property
   label: Emerging
@@ -83,9 +83,9 @@ member_bands:
     api_count: 0
     immediate_parent: life360
     name: Jiobit
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 10.6
+    score_composite: 10.2
     slug: jiobit
     source: prose
   label: Minimal
@@ -99,7 +99,7 @@ members:
 members_unrated: []
 name: Life360
 overview: 'Life360 publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 30.3 points, from 40.9 down to 10.6.
+  of which 3 carry a rating. The rated members span 33.3 points, from 43.5 down to 10.2.
 
 
   Its highest-rated surfaces are Nativo, Tile (thetileapp), Jiobit.'

@@ -10,24 +10,24 @@ description: 'Moody''s Corporation (NYSE: MCO) is a global integrated risk-asses
   subsidiary brands including Bureau van Dijk (Orbis), RMS (catastrophe risk), Kompany / Passfort (KYC),
   and Four Twenty Seven (climate).'
 estate_rating:
-  agent_avg: 11.6
+  agent_avg: 11.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.6
   agent_ready: 1
   band: emerging
-  best: 35.9
-  composite_avg: 19.9
+  best: 34.4
+  composite_avg: 17.7
   composite_band: emerging
-  composite_raw: 15.3
+  composite_raw: 13.1
   developing: 0
   exemplar: 0
-  rating: 16.6
+  rating: 15.0
   scored: 3
-  spread: 30.9
+  spread: 31.9
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 2.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moodys-corporation.png
@@ -47,7 +47,7 @@ member_bands:
     name: Moody's RMS
     relationship: product
     score_band: thin
-    score_composite: 35.9
+    score_composite: 34.4
     slug: moodys-rms
     source: declared
   label: Thin
@@ -65,7 +65,7 @@ member_bands:
     name: Cortera
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 2.5
     slug: cortera
     source: declared
   - &id003
@@ -77,7 +77,7 @@ member_bands:
     name: Regulatory DataCorp
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 2.5
     slug: regulatory-datacorp
     source: parent-company-property
   label: Minimal
@@ -89,9 +89,9 @@ members:
 - *id002
 - *id003
 members_unrated: []
-name: Moody's Corporation
-overview: 'Moody''s Corporation publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 30.9 points, from 35.9 down to 5.0.
+name: Moody's
+overview: 'Moody''s publishes its API surface across 3 provider profiles indexed on the APIs.io network,
+  of which 3 carry a rating. The rated members span 31.9 points, from 34.4 down to 2.5.
 
 
   Its highest-rated surfaces are Moody''s RMS, Cortera, Regulatory DataCorp.'
@@ -113,7 +113,7 @@ tags:
 - ESG
 - Financial Data
 - KYC
-- Risk
+- Risk Management
 - Fortune 1000
-title: Moody's Corporation
+title: Moody's
 ---

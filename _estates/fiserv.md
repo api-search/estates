@@ -4,24 +4,24 @@ category: Estates
 description: Fiserv is a global provider of financial services technology solutions, offering a wide range
   of products and services to help clients in the banking, payments, and wealth management industries.
 estate_rating:
-  agent_avg: 7.7
+  agent_avg: 6.0
   agent_band: minimal
   agent_native: 0
-  agent_raw: 2.8
+  agent_raw: 1.4
   agent_ready: 0
   band: emerging
-  best: 18.8
-  composite_avg: 16.4
+  best: 18.2
+  composite_avg: 13.7
   composite_band: emerging
-  composite_raw: 8.5
+  composite_raw: 7.0
   developing: 0
   exemplar: 0
-  rating: 12.9
-  scored: 4
-  spread: 18.7
+  rating: 10.6
+  scored: 5
+  spread: 18.2
   strength: 0
   strong: 0
-  worst: 0.1
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fiserv.png
@@ -35,20 +35,20 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 11.2
+    agent_score: 7.1
     api_count: 2
     immediate_parent: fiserv
     name: First Data (Fiserv)
     relationship: acquisition
     score_band: emerging
-    score_composite: 18.8
+    score_composite: 18.2
     slug: first-data
     source: declared
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 3
+  count: 4
   items:
   - &id002
     acquired: null
@@ -57,9 +57,9 @@ member_bands:
     api_count: 0
     immediate_parent: first-data
     name: Salido
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 10.4
+    score_composite: 10.7
     slug: salido
     source: prose
   - &id003
@@ -71,7 +71,7 @@ member_bands:
     name: BentoBox
     relationship: product
     score_band: minimal
-    score_composite: 4.7
+    score_composite: 5.9
     slug: bentobox
     source: prose
   - &id004
@@ -79,43 +79,43 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
-    immediate_parent: first-data
-    name: Clover Networks
+    immediate_parent: fiserv
+    name: Corillian
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: corillian
+    source: prose
+  - &id005
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: fiserv
+    name: Fincentric
     relationship: product
     score_band: minimal
-    score_composite: 0.1
-    slug: clover-networks
-    source: prose
+    score_composite: 0.0
+    slug: fincentric
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 2
+  count: 1
   items:
-  - &id005
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: fiserv
-    name: Corillian
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: corillian
-    source: prose
   - &id006
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
-    immediate_parent: fiserv
-    name: Fincentric
-    relationship: product
+    immediate_parent: first-data
+    name: Clover Networks
+    relationship: acquisition
     score_band: null
     score_composite: null
-    slug: fincentric
-    source: parent-company-property
+    slug: clover-networks
+    source: prose
   label: Unrated
   open: false
 member_on_network: 6
@@ -130,10 +130,10 @@ members:
 members_unrated: []
 name: Fiserv
 overview: 'Fiserv publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 18.7 points, from 18.8 down to 0.1.
+  of which 6 carry a rating. The rated members span 18.2 points, from 18.2 down to 0.0.
 
 
-  Its highest-rated surfaces are First Data (Fiserv), Salido, BentoBox, Clover Networks, Corillian.'
+  Its highest-rated surfaces are First Data (Fiserv), Salido, BentoBox, Corillian, Fincentric.'
 parent_provider: fiserv
 permalink: /estates/fiserv/
 slug: fiserv
@@ -146,11 +146,11 @@ subfamilies:
   members:
   - name: Salido
     score_band: minimal
-    score_composite: 10.4
+    score_composite: 10.7
     slug: salido
   - name: Clover Networks
-    score_band: minimal
-    score_composite: 0.1
+    score_band: null
+    score_composite: null
     slug: clover-networks
   name: First Data (Fiserv)
   on_network: true
@@ -159,7 +159,7 @@ subfamilies:
 subfamily_page_count: 0
 tags:
 - Banking
-- Financial
+- Finance
 - Payments
 - Wealth Management
 - Fortune 500

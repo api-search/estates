@@ -1,5 +1,5 @@
 ---
-api_total: 4
+api_total: 5
 category: Estates
 description: Datadog is a monitoring and analytics platform that helps organizations gain insight into
   their infrastructure, applications, and services. It allows users to collect, visualize, and analyze
@@ -7,24 +7,24 @@ description: Datadog is a monitoring and analytics platform that helps organizat
   platform enables companies to track performance metrics, troubleshoot issues, and optimize their systems
   for peak efficiency.
 estate_rating:
-  agent_avg: 18.6
+  agent_avg: 17.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 27.4
+  agent_raw: 24.9
   agent_ready: 1
   band: thin
-  best: 79.3
-  composite_avg: 33.0
+  best: 81.9
+  composite_avg: 32.5
   composite_band: thin
-  composite_raw: 45.9
-  developing: 1
+  composite_raw: 44.6
+  developing: 2
   exemplar: 1
-  rating: 27.2
-  scored: 4
-  spread: 74.3
-  strength: 6
+  rating: 26.6
+  scored: 5
+  spread: 81.9
+  strength: 7
   strong: 1
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png
@@ -38,13 +38,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 56.3
+    agent_score: 56.0
     api_count: 2
     immediate_parent: datadog
     name: Datadog APM
     relationship: product
     score_band: exemplar
-    score_composite: 79.3
+    score_composite: 81.9
     slug: datadog-apm
     source: declared
   label: Exemplar
@@ -56,31 +56,43 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 27.9
+    agent_score: 25.7
     api_count: 1
     immediate_parent: datadog
     name: Metaplane
-    relationship: product
+    relationship: acquisition
     score_band: strong
-    score_composite: 58.7
+    score_composite: 59.2
     slug: metaplane
     source: prose
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 1
+  count: 2
   items:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.4
+    agent_score: 19.8
+    api_count: 1
+    immediate_parent: datadog
+    name: Quickwit
+    relationship: acquisition
+    score_band: developing
+    score_composite: 42.1
+    slug: quickwit
+    source: prose
+  - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 23.2
     api_count: 1
     immediate_parent: datadog
     name: Adaptive ML
     relationship: product
     score_band: developing
-    score_composite: 40.4
+    score_composite: 39.6
     slug: adaptive-ml
     source: parent-company-property
   label: Developing
@@ -89,7 +101,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 1
   items:
-  - &id004
+  - &id005
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -98,25 +110,26 @@ member_bands:
     name: Sqreen
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 0.0
     slug: sqreen
     source: parent-company-property
   label: Minimal
   open: false
-member_on_network: 4
-member_total: 4
+member_on_network: 5
+member_total: 5
 members:
 - *id001
 - *id002
 - *id003
 - *id004
+- *id005
 members_unrated: []
 name: Datadog
-overview: 'Datadog publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 74.3 points, from 79.3 down to 5.0.
+overview: 'Datadog publishes its API surface across 5 provider profiles indexed on the APIs.io network,
+  of which 5 carry a rating. The rated members span 81.9 points, from 81.9 down to 0.0.
 
 
-  Its highest-rated surfaces are Datadog APM, Metaplane, Adaptive ML, Sqreen.'
+  Its highest-rated surfaces are Datadog APM, Metaplane, Quickwit, Adaptive ML, Sqreen.'
 parent_provider: datadog
 permalink: /estates/datadog/
 slug: datadog

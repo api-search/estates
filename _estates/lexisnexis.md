@@ -7,51 +7,51 @@ description: LexisNexis is a global provider of legal, regulatory, and business 
   applications. Most LexisNexis APIs are partner-access only and require contractual agreements before
   credentials and OpenAPI specifications are released.
 estate_rating:
-  agent_avg: 15.3
+  agent_avg: 14.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 19.1
-  agent_ready: 2
+  agent_raw: 18.7
+  agent_ready: 1
   band: emerging
-  best: 55.7
-  composite_avg: 27.1
-  composite_band: thin
-  composite_raw: 31.6
-  developing: 0
+  best: 51.7
+  composite_avg: 24.6
+  composite_band: emerging
+  composite_raw: 28.7
+  developing: 1
   exemplar: 0
-  rating: 22.4
+  rating: 20.6
   scored: 5
-  spread: 50.0
-  strength: 2
-  strong: 1
-  worst: 5.7
+  spread: 47.6
+  strength: 1
+  strong: 0
+  worst: 4.1
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lexisnexis.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
+- band: developing
+  blurb: Usable, with meaningful gaps to close
   count: 1
   items:
   - &id001
     acquired: null
-    agent_band: agent-ready
-    agent_score: 30.4
+    agent_band: agent-aware
+    agent_score: 28.2
     api_count: 15
     immediate_parent: lexisnexis-risk-solutions
     name: Human API
     relationship: product
-    score_band: strong
-    score_composite: 55.7
+    score_band: developing
+    score_composite: 51.7
     slug: human-api
     source: parent-company-property
-  label: Strong
-  open: true
+  label: Developing
+  open: false
 - band: thin
   blurb: Limited public surface area
-  count: 3
+  count: 2
   items:
   - &id002
     acquired: null
@@ -62,7 +62,7 @@ member_bands:
     name: LexisNexis Risk Solutions
     relationship: product
     score_band: thin
-    score_composite: 37.1
+    score_composite: 35.0
     slug: lexisnexis-risk-solutions
     source: declared
   - &id003
@@ -74,9 +74,15 @@ member_bands:
     name: Lex Machina
     relationship: acquisition
     score_band: thin
-    score_composite: 32.9
+    score_composite: 29.9
     slug: lex-machina
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 1
+  items:
   - &id004
     acquired: null
     agent_band: agent-aware
@@ -85,11 +91,11 @@ member_bands:
     immediate_parent: lexisnexis
     name: Henchman
     relationship: product
-    score_band: thin
-    score_composite: 26.4
+    score_band: emerging
+    score_composite: 22.9
     slug: henchman
     source: parent-company-property
-  label: Thin
+  label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
@@ -104,7 +110,7 @@ member_bands:
     name: BehavioSec
     relationship: product
     score_band: minimal
-    score_composite: 5.7
+    score_composite: 4.1
     slug: behaviosec
     source: parent-company-property
   label: Minimal
@@ -120,7 +126,7 @@ members:
 members_unrated: []
 name: LexisNexis
 overview: 'LexisNexis publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 50.0 points, from 55.7 down to 5.7.
+  of which 5 carry a rating. The rated members span 47.6 points, from 51.7 down to 4.1.
 
 
   Its highest-rated surfaces are Human API, LexisNexis Risk Solutions, Lex Machina, Henchman, BehavioSec.'
@@ -135,12 +141,12 @@ subfamilies:
   member_count: 2
   members:
   - name: Human API
-    score_band: strong
-    score_composite: 55.7
+    score_band: developing
+    score_composite: 51.7
     slug: human-api
   - name: BehavioSec
     score_band: minimal
-    score_composite: 5.7
+    score_composite: 4.1
     slug: behaviosec
   name: LexisNexis Risk Solutions
   on_network: true
@@ -149,9 +155,9 @@ subfamilies:
 subfamily_page_count: 0
 tags:
 - Legal
-- Risk
+- Risk Management
 - Identity Verification
-- Fraud Detection
+- Fraud Prevention
 - Compliance
 - Analytics
 - Data

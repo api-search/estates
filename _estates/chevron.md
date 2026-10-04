@@ -10,24 +10,24 @@ description: Chevron Corporation is one of the world's largest integrated energy
   Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability,
   and IR websites.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
-  band: emerging
-  best: 3.3
-  composite_avg: 13.6
+  band: minimal
+  best: 3.7
+  composite_avg: 12.6
   composite_band: emerging
-  composite_raw: 2.2
+  composite_raw: 2.8
   developing: 0
   exemplar: 0
-  rating: 10.7
+  rating: 9.9
   scored: 4
-  spread: 2.1
+  spread: 1.8
   strength: 0
   strong: 0
-  worst: 1.2
+  worst: 1.9
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chevron.png
@@ -44,10 +44,10 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: chevron
-    name: Hess Corporation
-    relationship: product
+    name: Hess
+    relationship: subsidiary
     score_band: minimal
-    score_composite: 3.3
+    score_composite: 3.7
     slug: hess-corporation
     source: prose
   - &id002
@@ -56,23 +56,23 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: chevron
-    name: Texaco
+    name: Renewable Energy Group
     relationship: product
     score_band: minimal
-    score_composite: 2.4
-    slug: texaco
-    source: prose
+    score_composite: 2.9
+    slug: renewable-energy-group
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: chevron
-    name: Renewable Energy Group
-    relationship: product
+    name: Texaco
+    relationship: acquisition
     score_band: minimal
-    score_composite: 2.1
-    slug: renewable-energy-group
+    score_composite: 2.7
+    slug: texaco
     source: prose
   - &id004
     acquired: null
@@ -83,7 +83,7 @@ member_bands:
     name: Noble Energy
     relationship: product
     score_band: minimal
-    score_composite: 1.2
+    score_composite: 1.9
     slug: noble-energy
     source: parent-company-property
   label: Minimal
@@ -98,10 +98,10 @@ members:
 members_unrated: []
 name: Chevron
 overview: 'Chevron publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 2.1 points, from 3.3 down to 1.2.
+  of which 4 carry a rating. The rated members span 1.8 points, from 3.7 down to 1.9.
 
 
-  Its highest-rated surfaces are Hess Corporation, Texaco, Renewable Energy Group, Noble Energy.'
+  Its highest-rated surfaces are Hess, Renewable Energy Group, Texaco, Noble Energy.'
 parent_provider: chevron
 permalink: /estates/chevron/
 slug: chevron

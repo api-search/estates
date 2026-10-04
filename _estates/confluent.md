@@ -5,24 +5,24 @@ description: Stream, connect, process, and govern your data with an all-in-one, 
   the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible
   and usable data products with the market leading Data Streaming Platform.
 estate_rating:
-  agent_avg: 19.1
+  agent_avg: 14.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 38.0
+  agent_raw: 18.9
   agent_ready: 1
-  band: thin
-  best: 74.3
-  composite_avg: 31.8
-  composite_band: thin
-  composite_raw: 54.5
+  band: emerging
+  best: 77.8
+  composite_avg: 23.7
+  composite_band: emerging
+  composite_raw: 27.8
   developing: 0
   exemplar: 1
-  rating: 26.7
-  scored: 2
-  spread: 39.6
+  rating: 19.9
+  scored: 4
+  spread: 77.8
   strength: 3
   strong: 0
-  worst: 34.7
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confluent.png
@@ -42,7 +42,7 @@ member_bands:
     name: Confluent | the Data Streaming Platform
     relationship: product
     score_band: exemplar
-    score_composite: 74.3
+    score_composite: 77.8
     slug: confluent-the-data-streaming-platform
     source: declared
   label: Exemplar
@@ -54,48 +54,62 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.6
+    agent_score: 26.3
     api_count: 1
     immediate_parent: confluent
     name: Confluent Schema Registry
     relationship: product
     score_band: thin
-    score_composite: 34.7
+    score_composite: 33.4
     slug: confluent-schema-registry
     source: declared
   label: Thin
   open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 1
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 2
   items:
   - &id003
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: confluent
     name: Noteable
-    relationship: product
-    score_band: null
-    score_composite: null
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
     slug: noteable
     source: prose
-  label: Unrated
+  - &id004
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: confluent
+    name: Pipelinedb
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: pipelinedb
+    source: prose
+  label: Minimal
   open: false
-member_on_network: 3
-member_total: 3
+member_on_network: 4
+member_total: 4
 members:
 - *id001
 - *id002
 - *id003
+- *id004
 members_unrated: []
 name: Confluent
-overview: 'Confluent publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 39.6 points, from 74.3 down to 34.7.
+overview: 'Confluent publishes its API surface across 4 provider profiles indexed on the APIs.io network,
+  of which 4 carry a rating. The rated members span 77.8 points, from 77.8 down to 0.0.
 
 
-  Its highest-rated surfaces are Confluent | the Data Streaming Platform, Confluent Schema Registry, Noteable.'
+  Its highest-rated surfaces are Confluent | the Data Streaming Platform, Confluent Schema Registry, Noteable,
+  Pipelinedb.'
 parent_provider: confluent
 permalink: /estates/confluent/
 slug: confluent

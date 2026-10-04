@@ -9,24 +9,24 @@ description: Snowflake is a cloud-based data platform delivering data warehousin
   Snowflake also serves a SCIM 2.0 identity endpoint, an Apache Iceberg REST Catalog, and an account-hosted
   Model Context Protocol server that exposes Cortex tools to agents under Snowflake RBAC.
 estate_rating:
-  agent_avg: 6.7
+  agent_avg: 6.0
   agent_band: minimal
   agent_native: 0
-  agent_raw: 0.6
+  agent_raw: 0.1
   agent_ready: 0
   band: emerging
-  best: 19.4
-  composite_avg: 17.3
+  best: 19.6
+  composite_avg: 15.1
   composite_band: emerging
-  composite_raw: 10.5
+  composite_raw: 8.5
   developing: 0
   exemplar: 0
-  rating: 13.1
+  rating: 11.5
   scored: 4
-  spread: 14.4
+  spread: 19.6
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://www.snowflake.com/wp-content/themes/snowflake/assets/img/brand-guidelines/logo-sno-blue-example.svg
@@ -35,7 +35,7 @@ layout: estate
 member_bands:
 - band: emerging
   blurb: Early or largely undocumented
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
@@ -44,29 +44,29 @@ member_bands:
     api_count: 0
     immediate_parent: snowflake
     name: Datavolo
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 19.4
+    score_composite: 19.6
     slug: datavolo
-    source: prose
-  - &id002
-    acquired: null
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 1
-    immediate_parent: snowflake
-    name: TruEra (Snowflake)
-    relationship: product
-    score_band: emerging
-    score_composite: 12.3
-    slug: truera
     source: prose
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 3
   items:
+  - &id002
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.6
+    api_count: 1
+    immediate_parent: snowflake
+    name: TruEra (Snowflake)
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 10.6
+    slug: truera
+    source: prose
   - &id003
     acquired: null
     agent_band: human-only
@@ -74,9 +74,9 @@ member_bands:
     api_count: 0
     immediate_parent: snowflake
     name: Ponder
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.3
+    score_composite: 3.6
     slug: ponder
     source: prose
   - &id004
@@ -85,11 +85,11 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: snowflake
-    name: Sisu Data
-    relationship: product
+    name: Neeva
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: sisu-data
+    score_composite: 0.0
+    slug: neeva
     source: prose
   label: Minimal
   open: false
@@ -103,11 +103,11 @@ member_bands:
     agent_score: null
     api_count: 0
     immediate_parent: snowflake
-    name: Neeva
-    relationship: product
+    name: Sisu Data
+    relationship: acquisition
     score_band: null
     score_composite: null
-    slug: neeva
+    slug: sisu-data
     source: prose
   label: Unrated
   open: false
@@ -122,10 +122,10 @@ members:
 members_unrated: []
 name: Snowflake
 overview: 'Snowflake publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 14.4 points, from 19.4 down to 5.0.
+  of which 5 carry a rating. The rated members span 19.6 points, from 19.6 down to 0.0.
 
 
-  Its highest-rated surfaces are Datavolo, TruEra (Snowflake), Ponder, Sisu Data, Neeva.'
+  Its highest-rated surfaces are Datavolo, TruEra (Snowflake), Ponder, Neeva, Sisu Data.'
 parent_provider: snowflake
 permalink: /estates/snowflake/
 slug: snowflake

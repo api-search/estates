@@ -7,24 +7,24 @@ description: Cloudmersive provides a portfolio of utility APIs covering virus an
   2.0 / OpenAPI specification, has SDKs in multiple languages, and is consumable on api.cloudmersive.com
   behind an API key (`Apikey` header).
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 7.6
-  composite_avg: 17.0
+  best: 5.1
+  composite_avg: 14.7
   composite_band: emerging
-  composite_raw: 7.6
+  composite_raw: 5.1
   developing: 0
   exemplar: 0
-  rating: 13.1
+  rating: 11.5
   scored: 3
   spread: 0.0
   strength: 0
   strong: 0
-  worst: 7.6
+  worst: 5.1
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudmersive.png
@@ -44,7 +44,7 @@ member_bands:
     name: Cloudmersive Document and Data Conversion
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: cloudmersive-document-and-data-conversion
     source: declared
   - &id002
@@ -56,7 +56,7 @@ member_bands:
     name: Cloudmersive Natural Language Processing
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: cloudmersive-natural-language-processing
     source: declared
   - &id003
@@ -68,7 +68,7 @@ member_bands:
     name: Cloudmersive Validate
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: cloudmersive-validate
     source: declared
   label: Minimal
@@ -82,7 +82,7 @@ members:
 members_unrated: []
 name: Cloudmersive
 overview: 'Cloudmersive publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 0.0 points, from 7.6 down to 7.6.
+  of which 3 carry a rating. The rated members span 0.0 points, from 5.1 down to 5.1.
 
 
   Its highest-rated surfaces are Cloudmersive Document and Data Conversion, Cloudmersive Natural Language

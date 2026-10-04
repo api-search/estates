@@ -5,24 +5,24 @@ description: Dropbox is a file hosting service operated by the American company 
   in San Francisco, California, U.S. that offers cloud storage, file synchronization, personal cloud,
   and client software.
 estate_rating:
-  agent_avg: 18.7
+  agent_avg: 13.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 30.6
+  agent_raw: 15.3
   agent_ready: 2
   band: emerging
-  best: 56.7
-  composite_avg: 27.5
-  composite_band: thin
-  composite_raw: 35.5
+  best: 59.6
+  composite_avg: 19.3
+  composite_band: emerging
+  composite_raw: 18.4
   developing: 1
   exemplar: 0
-  rating: 24.0
-  scored: 3
-  spread: 51.7
+  rating: 16.9
+  scored: 6
+  spread: 59.6
   strength: 3
   strong: 1
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dropbox.png
@@ -42,7 +42,7 @@ member_bands:
     name: Dropbox Sign (HelloSign)
     relationship: product
     score_band: strong
-    score_composite: 56.7
+    score_composite: 59.6
     slug: hellosign
     source: parent-company-property
   label: Strong
@@ -60,14 +60,14 @@ member_bands:
     name: DocSend
     relationship: product
     score_band: developing
-    score_composite: 44.8
+    score_composite: 48.5
     slug: docsend
     source: prose
   label: Developing
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 1
+  count: 4
   items:
   - &id003
     acquired: null
@@ -78,52 +78,46 @@ member_bands:
     name: Command E
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 2.5
     slug: command-e
     source: parent-company-property
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 3
-  items:
   - &id004
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: dropbox
     name: Clementine
-    relationship: product
-    score_band: null
-    score_composite: null
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
     slug: clementine
     source: prose
   - &id005
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: dropbox
     name: Hackpad
-    relationship: product
-    score_band: null
-    score_composite: null
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
     slug: hackpad
     source: prose
   - &id006
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: dropbox
     name: PiCloud
-    relationship: product
-    score_band: null
-    score_composite: null
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
     slug: picloud
     source: prose
-  label: Unrated
+  label: Minimal
   open: false
 member_on_network: 6
 member_total: 6
@@ -137,7 +131,7 @@ members:
 members_unrated: []
 name: Dropbox
 overview: 'Dropbox publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 51.7 points, from 56.7 down to 5.0.
+  of which 6 carry a rating. The rated members span 59.6 points, from 59.6 down to 0.0.
 
 
   Its highest-rated surfaces are Dropbox Sign (HelloSign), DocSend, Command E, Clementine, Hackpad.'
@@ -151,5 +145,9 @@ subfamilies: []
 subfamily_page_count: 0
 tags:
 - Documents
+- Collaboration
+- Storage
+- Cloud Storage
+- File Sharing
 title: Dropbox
 ---

@@ -4,24 +4,24 @@ category: Estates
 description: APIs for Xbox gaming platform including Xbox Live Services and Azure PlayFab backend for
   games.
 estate_rating:
-  agent_avg: 17.7
+  agent_avg: 17.2
   agent_band: emerging
   agent_native: 1
   agent_raw: 22.8
   agent_ready: 1
   band: emerging
-  best: 49.2
-  composite_avg: 26.7
+  best: 46.1
+  composite_avg: 25.0
   composite_band: thin
-  composite_raw: 30.0
+  composite_raw: 28.9
   developing: 2
   exemplar: 0
-  rating: 23.1
+  rating: 21.9
   scored: 6
-  spread: 41.6
+  spread: 41.0
   strength: 2
   strong: 0
-  worst: 7.6
+  worst: 5.1
 estate_root: microsoft
 estate_root_name: Microsoft
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-xbox.png
@@ -41,7 +41,7 @@ member_bands:
     name: PlayFab
     relationship: product
     score_band: developing
-    score_composite: 49.2
+    score_composite: 46.1
     slug: playfab
     source: declared
   - &id002
@@ -53,7 +53,7 @@ member_bands:
     name: Blizzard Entertainment
     relationship: product
     score_band: developing
-    score_composite: 47.4
+    score_composite: 46.0
     slug: blizzard-entertainment
     source: declared
   label: Developing
@@ -71,7 +71,7 @@ member_bands:
     name: Battle.net
     relationship: product
     score_band: thin
-    score_composite: 27.0
+    score_composite: 28.3
     slug: battle-net
     source: declared
   - &id004
@@ -83,7 +83,7 @@ member_bands:
     name: Mojang
     relationship: product
     score_band: thin
-    score_composite: 26.9
+    score_composite: 26.3
     slug: mojang
     source: declared
   label: Thin
@@ -93,15 +93,15 @@ member_bands:
   count: 1
   items:
   - &id005
-    acquired: null
+    acquired: 2023
     agent_band: agent-ready
     agent_score: 30.2
     api_count: 1
     immediate_parent: microsoft-xbox
     name: Activision Blizzard
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 21.8
+    score_composite: 21.6
     slug: activision-blizzard
     source: declared
   label: Emerging
@@ -119,7 +119,7 @@ member_bands:
     name: Halo
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: halo
     source: declared
   label: Minimal
@@ -136,7 +136,7 @@ members:
 members_unrated: []
 name: Microsoft Xbox
 overview: 'Microsoft Xbox publishes its API surface across 6 provider profiles indexed on the APIs.io
-  network, of which 6 carry a rating. The rated members span 41.6 points, from 49.2 down to 7.6.
+  network, of which 6 carry a rating. The rated members span 41.0 points, from 46.1 down to 5.1.
 
 
   Its highest-rated surfaces are PlayFab, Blizzard Entertainment, Battle.net, Mojang, Activision Blizzard.'

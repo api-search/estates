@@ -8,24 +8,24 @@ description: Check Point Software Technologies is a global cybersecurity vendor 
   device management APIs, Harmony Email and Collaboration API, Threat Hunting (TH) API, and CloudGuard
   WAF API.
 estate_rating:
-  agent_avg: 16.2
+  agent_avg: 14.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.9
+  agent_raw: 20.3
   agent_ready: 1
   band: emerging
-  best: 53.2
-  composite_avg: 27.2
+  best: 52.4
+  composite_avg: 25.6
   composite_band: thin
-  composite_raw: 32.9
+  composite_raw: 32.0
   developing: 2
   exemplar: 0
-  rating: 22.8
+  rating: 21.3
   scored: 4
-  spread: 48.2
+  spread: 49.0
   strength: 2
   strong: 0
-  worst: 5.0
+  worst: 3.4
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/checkpoint.png
@@ -39,25 +39,25 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.5
+    agent_score: 31.3
     api_count: 46
     immediate_parent: checkpoint
     name: CloudGuard
     relationship: product
     score_band: developing
-    score_composite: 53.2
+    score_composite: 52.4
     slug: cloudguard
     source: declared
   - &id002
     acquired: 2018
     agent_band: agent-aware
-    agent_score: 28.2
+    agent_score: 26.1
     api_count: 1
     immediate_parent: checkpoint
     name: Dome9
     relationship: acquisition
     score_band: developing
-    score_composite: 43.1
+    score_composite: 43.6
     slug: dome9
     source: declared
   label: Developing
@@ -69,13 +69,13 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
+    agent_score: 23.9
     api_count: 1
     immediate_parent: checkpoint
     name: Perimeter 81
     relationship: product
     score_band: thin
-    score_composite: 30.1
+    score_composite: 28.6
     slug: perimeter-81
     source: parent-company-property
   label: Thin
@@ -91,9 +91,9 @@ member_bands:
     api_count: 0
     immediate_parent: checkpoint
     name: Veriti.ai
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: veritiai
     source: prose
   label: Minimal
@@ -108,7 +108,7 @@ members:
 members_unrated: []
 name: Check Point
 overview: 'Check Point publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 48.2 points, from 53.2 down to 5.0.
+  of which 4 carry a rating. The rated members span 49.0 points, from 52.4 down to 3.4.
 
 
   Its highest-rated surfaces are CloudGuard, Dome9, Perimeter 81, Veriti.ai.'

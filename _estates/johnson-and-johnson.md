@@ -8,24 +8,24 @@ description: Johnson & Johnson is a multinational pharmaceutical and medical dev
   health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked
   in a separate kenvue index.
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 11.3
-  composite_avg: 16.2
+  best: 11.1
+  composite_avg: 14.5
   composite_band: emerging
-  composite_raw: 5.3
+  composite_raw: 4.6
   developing: 0
   exemplar: 0
-  rating: 12.6
+  rating: 11.3
   scored: 3
-  spread: 9.1
+  spread: 11.1
   strength: 0
   strong: 0
-  worst: 2.2
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/johnson-and-johnson.png
@@ -45,7 +45,7 @@ member_bands:
     name: Abiomed
     relationship: product
     score_band: emerging
-    score_composite: 11.3
+    score_composite: 11.1
     slug: abiomed
     source: x-parent-company
   label: Emerging
@@ -63,7 +63,7 @@ member_bands:
     name: Janssen Pharmaceuticals
     relationship: product
     score_band: minimal
-    score_composite: 2.4
+    score_composite: 2.8
     slug: janssen
     source: declared
   - &id003
@@ -72,11 +72,11 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: johnson-and-johnson
-    name: Halda Therapeutics
+    name: Vineti
     relationship: product
     score_band: minimal
-    score_composite: 2.2
-    slug: halda-therapeutics
+    score_composite: 0.0
+    slug: vineti
     source: parent-company-property
   label: Minimal
   open: false
@@ -90,11 +90,11 @@ member_bands:
     agent_score: null
     api_count: 0
     immediate_parent: johnson-and-johnson
-    name: Vineti
+    name: Halda Therapeutics
     relationship: product
     score_band: null
     score_composite: null
-    slug: vineti
+    slug: halda-therapeutics
     source: parent-company-property
   label: Unrated
   open: false
@@ -108,10 +108,10 @@ members:
 members_unrated: []
 name: Johnson & Johnson
 overview: 'Johnson & Johnson publishes its API surface across 4 provider profiles indexed on the APIs.io
-  network, of which 4 carry a rating. The rated members span 9.1 points, from 11.3 down to 2.2.
+  network, of which 4 carry a rating. The rated members span 11.1 points, from 11.1 down to 0.0.
 
 
-  Its highest-rated surfaces are Abiomed, Janssen Pharmaceuticals, Halda Therapeutics, Vineti.'
+  Its highest-rated surfaces are Abiomed, Janssen Pharmaceuticals, Vineti, Halda Therapeutics.'
 parent_provider: johnson-and-johnson
 permalink: /estates/johnson-and-johnson/
 slug: johnson-and-johnson

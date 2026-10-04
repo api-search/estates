@@ -9,24 +9,24 @@ description: RealPage is a multifamily and rental-housing software company offer
   the RPX integration marketplace and provisioned under contract rather than via a public self-serve developer
   portal.
 estate_rating:
-  agent_avg: 7.6
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
-  agent_raw: 0.8
+  agent_raw: 1.2
   agent_ready: 0
   band: emerging
-  best: 16.4
-  composite_avg: 17.5
+  best: 14.0
+  composite_avg: 16.9
   composite_band: emerging
-  composite_raw: 8.8
+  composite_raw: 8.2
   developing: 0
   exemplar: 0
-  rating: 13.5
-  scored: 3
-  spread: 11.4
+  rating: 13.3
+  scored: 2
+  spread: 11.5
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 2.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realpage.png
@@ -46,14 +46,14 @@ member_bands:
     name: Buildium
     relationship: product
     score_band: emerging
-    score_composite: 16.4
+    score_composite: 14.0
     slug: buildium
     source: prose
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 1
   items:
   - &id002
     acquired: null
@@ -61,25 +61,31 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: realpage
-    name: Rentlytics
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: rentlytics
-    source: parent-company-property
-  - &id003
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: realpage
     name: RentMineOnline
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 2.5
     slug: rentmineonline
     source: prose
   label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id003
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: realpage
+    name: Rentlytics
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: rentlytics
+    source: parent-company-property
+  label: Unrated
   open: false
 member_on_network: 3
 member_total: 3
@@ -90,10 +96,10 @@ members:
 members_unrated: []
 name: RealPage
 overview: 'RealPage publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 11.4 points, from 16.4 down to 5.0.
+  of which 3 carry a rating. The rated members span 11.5 points, from 14.0 down to 2.5.
 
 
-  Its highest-rated surfaces are Buildium, Rentlytics, RentMineOnline.'
+  Its highest-rated surfaces are Buildium, RentMineOnline, Rentlytics.'
 parent_provider: realpage
 permalink: /estates/realpage/
 slug: realpage

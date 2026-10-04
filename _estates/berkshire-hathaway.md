@@ -9,24 +9,24 @@ description: Berkshire Hathaway is a multinational conglomerate holding company 
   a public API Center providing customer APIs for shipment tracking, pricing, scheduling, and waybill
   management.
 estate_rating:
-  agent_avg: 11.4
-  agent_band: emerging
+  agent_avg: 8.3
+  agent_band: minimal
   agent_native: 0
-  agent_raw: 11.2
+  agent_raw: 6.0
   agent_ready: 1
   band: emerging
   best: 49.1
-  composite_avg: 21.2
+  composite_avg: 17.0
   composite_band: emerging
-  composite_raw: 19.3
+  composite_raw: 13.6
   developing: 1
   exemplar: 0
-  rating: 17.3
-  scored: 4
-  spread: 46.1
+  rating: 13.5
+  scored: 5
+  spread: 46.6
   strength: 1
   strong: 0
-  worst: 3.0
+  worst: 2.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/berkshire-hathaway.png
@@ -40,7 +40,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.1
+    agent_score: 30.0
     api_count: 16
     immediate_parent: berkshire-hathaway
     name: BNSF
@@ -51,68 +51,75 @@ member_bands:
     source: declared
   label: Developing
   open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 4
   items:
   - &id002
     acquired: null
-    agent_band: agent-aware
-    agent_score: 12.9
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: berkshire-hathaway
     name: GEICO
-    relationship: product
-    score_band: emerging
-    score_composite: 20.2
+    relationship: subsidiary
+    score_band: minimal
+    score_composite: 9.4
     slug: geico
     source: prose
-  label: Emerging
-  open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 2
-  items:
   - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: berkshire-hathaway
-    name: Precision Castparts
-    relationship: product
+    name: Alleghany
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: precision-castparts
-    source: prose
+    score_composite: 3.8
+    slug: alleghany
+    source: declared
   - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: berkshire-hathaway
-    name: Alleghany Corporation
+    name: Dairyqueen
+    relationship: subsidiary
+    score_band: minimal
+    score_composite: 3.4
+    slug: dairyqueen
+    source: prose
+  - &id005
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: berkshire-hathaway
+    name: Precision Castparts
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.0
-    slug: alleghany
-    source: declared
+    score_composite: 2.5
+    slug: precision-castparts
+    source: prose
   label: Minimal
   open: false
-member_on_network: 4
-member_total: 4
+member_on_network: 5
+member_total: 5
 members:
 - *id001
 - *id002
 - *id003
 - *id004
+- *id005
 members_unrated: []
 name: Berkshire Hathaway
-overview: 'Berkshire Hathaway publishes its API surface across 4 provider profiles indexed on the APIs.io
-  network, of which 4 carry a rating. The rated members span 46.1 points, from 49.1 down to 3.0.
+overview: 'Berkshire Hathaway publishes its API surface across 5 provider profiles indexed on the APIs.io
+  network, of which 5 carry a rating. The rated members span 46.6 points, from 49.1 down to 2.5.
 
 
-  Its highest-rated surfaces are BNSF, GEICO, Precision Castparts, Alleghany Corporation.'
+  Its highest-rated surfaces are BNSF, GEICO, Alleghany, Dairyqueen, Precision Castparts.'
 parent_provider: berkshire-hathaway
 permalink: /estates/berkshire-hathaway/
 slug: berkshire-hathaway

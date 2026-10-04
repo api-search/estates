@@ -8,24 +8,24 @@ description: Becton Dickinson (BD) is a global medical technology company that d
   also produces the Pyxis medication management system and integrates with EMRs via HL7 FHIR standards
   for clinical data exchange.
 estate_rating:
-  agent_avg: 7.6
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
-  best: 26.0
-  composite_avg: 19.9
+  best: 24.1
+  composite_avg: 18.2
   composite_band: emerging
-  composite_raw: 15.2
+  composite_raw: 14.5
   developing: 0
   exemplar: 0
-  rating: 15.0
+  rating: 13.7
   scored: 3
-  spread: 23.8
+  spread: 21.1
   strength: 0
   strong: 0
-  worst: 2.2
+  worst: 3.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/becton-dickinson.png
@@ -45,7 +45,7 @@ member_bands:
     name: CareFusion (BD)
     relationship: acquisition
     score_band: emerging
-    score_composite: 26.0
+    score_composite: 24.1
     slug: carefusion
     source: declared
   - &id002
@@ -57,7 +57,7 @@ member_bands:
     name: C. R. Bard
     relationship: acquisition
     score_band: emerging
-    score_composite: 17.3
+    score_composite: 16.4
     slug: cr-bard
     source: declared
   label: Emerging
@@ -73,9 +73,9 @@ member_bands:
     api_count: 0
     immediate_parent: becton-dickinson
     name: Cellular Research
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 2.2
+    score_composite: 3.0
     slug: cellular-research
     source: prose
   label: Minimal
@@ -89,7 +89,7 @@ members:
 members_unrated: []
 name: Becton Dickinson
 overview: 'Becton Dickinson publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 23.8 points, from 26.0 down to 2.2.
+  network, of which 3 carry a rating. The rated members span 21.1 points, from 24.1 down to 3.0.
 
 
   Its highest-rated surfaces are CareFusion (BD), C. R. Bard, Cellular Research.'

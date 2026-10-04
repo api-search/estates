@@ -11,24 +11,24 @@ description: 'Groupon is a local-commerce marketplace, founded in Chicago in 200
   API gateway runs at api.groupon.com and requires a client_id on every request. The Groupon Partner Network
   affiliate reporting APIs were permanently closed on 2022-06-15.'
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 7.6
-  composite_avg: 18.0
+  best: 8.0
+  composite_avg: 15.7
   composite_band: emerging
-  composite_raw: 6.3
+  composite_raw: 4.0
   developing: 0
   exemplar: 0
-  rating: 14.1
+  rating: 12.5
   scored: 2
-  spread: 2.6
+  spread: 8.0
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groupon.png
@@ -46,9 +46,9 @@ member_bands:
     api_count: 0
     immediate_parent: groupon
     name: TransFS
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 8.0
     slug: transfs
     source: prose
   - &id002
@@ -57,11 +57,11 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: groupon
-    name: Adku
-    relationship: product
+    name: Loku
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: adku
+    score_composite: 0.0
+    slug: loku
     source: prose
   label: Minimal
   open: false
@@ -75,11 +75,11 @@ member_bands:
     agent_score: null
     api_count: 0
     immediate_parent: groupon
-    name: Loku
-    relationship: product
+    name: Adku
+    relationship: acquisition
     score_band: null
     score_composite: null
-    slug: loku
+    slug: adku
     source: prose
   label: Unrated
   open: false
@@ -92,10 +92,10 @@ members:
 members_unrated: []
 name: Groupon
 overview: 'Groupon publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 2.6 points, from 7.6 down to 5.0.
+  of which 3 carry a rating. The rated members span 8.0 points, from 8.0 down to 0.0.
 
 
-  Its highest-rated surfaces are TransFS, Adku, Loku.'
+  Its highest-rated surfaces are TransFS, Loku, Adku.'
 parent_provider: groupon
 permalink: /estates/groupon/
 slug: groupon

@@ -7,24 +7,24 @@ description: LinkedIn is a professional networking platform providing APIs for c
   sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data
   portability.
 estate_rating:
-  agent_avg: 10.2
-  agent_band: emerging
+  agent_avg: 7.9
+  agent_band: minimal
   agent_native: 0
-  agent_raw: 8.5
+  agent_raw: 5.7
   agent_ready: 1
   band: emerging
-  best: 59.5
-  composite_avg: 21.2
+  best: 61.7
+  composite_avg: 15.6
   composite_band: emerging
-  composite_raw: 19.2
+  composite_raw: 11.6
   developing: 0
   exemplar: 0
-  rating: 16.8
-  scored: 4
-  spread: 54.5
+  rating: 12.5
+  scored: 6
+  spread: 61.7
   strength: 2
   strong: 1
-  worst: 5.0
+  worst: 0.0
 estate_root: microsoft
 estate_root_name: Microsoft
 image: https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg
@@ -44,14 +44,14 @@ member_bands:
     name: LinkedIn Marketing API
     relationship: product
     score_band: strong
-    score_composite: 59.5
+    score_composite: 61.7
     slug: linkedin-ads
     source: declared
   label: Strong
   open: true
 - band: minimal
   blurb: Almost no public developer surface
-  count: 3
+  count: 5
   items:
   - &id002
     acquired: null
@@ -62,7 +62,7 @@ member_bands:
     name: Glint
     relationship: product
     score_band: minimal
-    score_composite: 7.4
+    score_composite: 7.7
     slug: glint
     source: parent-company-property
   - &id003
@@ -71,78 +71,78 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: linkedin
-    name: Drawbridge
-    relationship: product
+    name: Cardmunch
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: drawbridge
-    source: parent-company-property
+    score_composite: 0.0
+    slug: cardmunch
+    source: prose
   - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: linkedin
-    name: Fliptop
+    name: Connected
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: connected
+    source: prose
+  - &id005
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: linkedin
+    name: Newsle
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: newsle
+    source: prose
+  - &id006
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: linkedin
+    name: Rapportive
     relationship: product
     score_band: minimal
-    score_composite: 5.0
-    slug: fliptop
-    source: prose
+    score_composite: 0.0
+    slug: rapportive
+    source: parent-company-property
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 4
+  count: 2
   items:
-  - &id005
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: linkedin
-    name: Cardmunch
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: cardmunch
-    source: prose
-  - &id006
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: linkedin
-    name: Connected
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: connected
-    source: prose
   - &id007
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: linkedin
-    name: Newsle
+    name: Drawbridge
     relationship: product
     score_band: null
     score_composite: null
-    slug: newsle
-    source: prose
+    slug: drawbridge
+    source: parent-company-property
   - &id008
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: linkedin
-    name: Rapportive
-    relationship: product
+    name: Fliptop
+    relationship: acquisition
     score_band: null
     score_composite: null
-    slug: rapportive
-    source: parent-company-property
+    slug: fliptop
+    source: prose
   label: Unrated
   open: false
 member_on_network: 8
@@ -159,10 +159,10 @@ members:
 members_unrated: []
 name: LinkedIn
 overview: 'LinkedIn publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 54.5 points, from 59.5 down to 5.0.
+  of which 8 carry a rating. The rated members span 61.7 points, from 61.7 down to 0.0.
 
 
-  Its highest-rated surfaces are LinkedIn Marketing API, Glint, Drawbridge, Fliptop, Cardmunch.'
+  Its highest-rated surfaces are LinkedIn Marketing API, Glint, Cardmunch, Connected, Newsle.'
 parent_provider: linkedin
 permalink: /estates/linkedin/
 slug: linkedin
@@ -177,7 +177,8 @@ tags:
 - Marketing
 - Professional Networking
 - Recruiting
-- Social-Media
+- Social Media
 - Fortune 1000
+- Social
 title: LinkedIn
 ---

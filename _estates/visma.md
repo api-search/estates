@@ -13,24 +13,24 @@ description: 'Visma is a Nordic business-software group headquartered in Oslo, N
   first-party remote MCP servers — Business NXT at mcp.business.visma.net and Spiris at mcp.spiris.se
   — both OAuth-protected and discoverable via RFC 9728.'
 estate_rating:
-  agent_avg: 14.4
+  agent_avg: 13.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 19.1
   agent_ready: 1
   band: emerging
-  best: 49.9
-  composite_avg: 25.2
-  composite_band: thin
-  composite_raw: 29.3
+  best: 45.7
+  composite_avg: 23.1
+  composite_band: emerging
+  composite_raw: 27.6
   developing: 1
   exemplar: 0
-  rating: 20.9
+  rating: 19.4
   scored: 3
-  spread: 44.9
+  spread: 42.3
   strength: 1
   strong: 0
-  worst: 5.0
+  worst: 3.4
 estate_root: null
 estate_root_name: null
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -50,7 +50,7 @@ member_bands:
     name: Bokio
     relationship: product
     score_band: developing
-    score_composite: 49.9
+    score_composite: 45.7
     slug: bokio
     source: x-parent-company
   label: Developing
@@ -68,7 +68,7 @@ member_bands:
     name: Silverfin
     relationship: product
     score_band: thin
-    score_composite: 32.9
+    score_composite: 33.6
     slug: silverfin
     source: prose
   label: Thin
@@ -84,9 +84,9 @@ member_bands:
     api_count: 0
     immediate_parent: visma
     name: Mamut
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: mamut
     source: prose
   label: Minimal
@@ -100,7 +100,7 @@ members:
 members_unrated: []
 name: Visma
 overview: 'Visma publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 44.9 points, from 49.9 down to 5.0.
+  of which 3 carry a rating. The rated members span 42.3 points, from 45.7 down to 3.4.
 
 
   Its highest-rated surfaces are Bokio, Silverfin, Mamut.'
@@ -117,7 +117,7 @@ tags:
 - Business Software
 - ERP
 - Enterprise
-- Financial-Services
+- Financial Services
 - Human Resources
 - Invoicing
 - Nordic

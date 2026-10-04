@@ -11,24 +11,24 @@ description: 'Proofpoint is an enterprise cybersecurity company focused on human
   public HTML and every one of them is credential-gated at runtime; Proofpoint publishes no OpenAPI, AsyncAPI,
   GraphQL or MCP contract for any of them.'
 estate_rating:
-  agent_avg: 9.3
+  agent_avg: 8.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.5
+  agent_raw: 6.0
   agent_ready: 0
   band: emerging
-  best: 31.7
-  composite_avg: 18.5
+  best: 31.0
+  composite_avg: 16.7
   composite_band: emerging
-  composite_raw: 13.2
+  composite_raw: 12.1
   developing: 0
   exemplar: 0
-  rating: 14.8
+  rating: 13.4
   scored: 4
-  spread: 26.7
+  spread: 28.5
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 2.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company-logos/proofpoint.png
@@ -42,13 +42,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
+    agent_score: 23.9
     api_count: 1
     immediate_parent: proofpoint
     name: Tessian
     relationship: product
     score_band: thin
-    score_composite: 31.7
+    score_composite: 31.0
     slug: tessian
     source: prose
   label: Thin
@@ -66,7 +66,7 @@ member_bands:
     name: ObserveIT (Proofpoint)
     relationship: acquisition
     score_band: emerging
-    score_composite: 11.1
+    score_composite: 11.5
     slug: observeit-proofpoint
     source: declared
   label: Emerging
@@ -81,24 +81,24 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: proofpoint
-    name: Illusive Networks
+    name: Normalyze
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: illusive-networks
-    source: declared
+    score_composite: 3.4
+    slug: normalyze
+    source: prose
   - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: proofpoint
-    name: Normalyze
-    relationship: product
+    name: Illusive Networks
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: normalyze
-    source: prose
+    score_composite: 2.5
+    slug: illusive-networks
+    source: declared
   label: Minimal
   open: false
 member_on_network: 4
@@ -111,10 +111,10 @@ members:
 members_unrated: []
 name: Proofpoint
 overview: 'Proofpoint publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 26.7 points, from 31.7 down to 5.0.
+  of which 4 carry a rating. The rated members span 28.5 points, from 31.0 down to 2.5.
 
 
-  Its highest-rated surfaces are Tessian, ObserveIT (Proofpoint), Illusive Networks, Normalyze.'
+  Its highest-rated surfaces are Tessian, ObserveIT (Proofpoint), Normalyze, Illusive Networks.'
 parent_provider: proofpoint
 permalink: /estates/proofpoint/
 slug: proofpoint

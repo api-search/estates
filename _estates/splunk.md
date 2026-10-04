@@ -1,27 +1,27 @@
 ---
-api_total: 52
+api_total: 51
 category: Estates
 description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data
   via a web-style interface.
 estate_rating:
-  agent_avg: 10.5
+  agent_avg: 10.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 9.7
+  agent_raw: 10.1
   agent_ready: 1
   band: emerging
-  best: 62.9
-  composite_avg: 26.0
+  best: 66.2
+  composite_avg: 25.7
   composite_band: thin
-  composite_raw: 28.8
+  composite_raw: 32.2
   developing: 1
   exemplar: 0
-  rating: 19.8
-  scored: 6
-  spread: 58.8
+  rating: 19.6
+  scored: 4
+  spread: 64.6
   strength: 3
   strong: 1
-  worst: 4.1
+  worst: 1.6
 estate_root: cisco
 estate_root_name: Cisco
 image: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
@@ -35,13 +35,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.6
+    agent_score: 32.4
     api_count: 48
     immediate_parent: splunk
     name: Splunk Observability Cloud
     relationship: product
     score_band: strong
-    score_composite: 62.9
+    score_composite: 66.2
     slug: splunk-observability
     source: declared
   label: Strong
@@ -59,88 +59,81 @@ member_bands:
     name: Splunk SOAR
     relationship: acquisition
     score_band: developing
-    score_composite: 42.0
+    score_composite: 44.7
     slug: splunk-soar
     source: declared
   label: Developing
   open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 2
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 1
   items:
   - &id003
-    acquired: 2019
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 1
-    immediate_parent: splunk
-    name: SignalFx
-    relationship: acquisition
-    score_band: thin
-    score_composite: 31.9
-    slug: signalfx
-    source: declared
-  - &id004
     acquired: 2018
-    agent_band: agent-aware
-    agent_score: 12.9
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 2
     immediate_parent: splunk
     name: Splunk On-Call (VictorOps)
     relationship: acquisition
-    score_band: thin
-    score_composite: 26.8
+    score_band: emerging
+    score_composite: 16.4
     slug: victorops
     source: declared
-  label: Thin
+  label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 1
   items:
-  - &id005
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: splunk
-    name: Rocana
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: rocana
-    source: parent-company-property
-  - &id006
+  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: splunk
     name: Streamlio
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 4.1
+    score_composite: 1.6
     slug: streamlio
     source: prose
   label: Minimal
   open: false
-member_on_network: 6
-member_total: 6
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id005
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: splunk
+    name: Rocana
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: rocana
+    source: parent-company-property
+  label: Unrated
+  open: false
+member_on_network: 5
+member_total: 5
 members:
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
-- *id006
 members_unrated: []
 name: Splunk
-overview: 'Splunk publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 58.8 points, from 62.9 down to 4.1.
+overview: 'Splunk publishes its API surface across 5 provider profiles indexed on the APIs.io network,
+  of which 5 carry a rating. The rated members span 64.6 points, from 66.2 down to 1.6.
 
 
-  Its highest-rated surfaces are Splunk Observability Cloud, Splunk SOAR, SignalFx, Splunk On-Call (VictorOps),
-  Rocana.'
+  Its highest-rated surfaces are Splunk Observability Cloud, Splunk SOAR, Splunk On-Call (VictorOps),
+  Streamlio, Rocana.'
 parent_provider: splunk
 permalink: /estates/splunk/
 slug: splunk

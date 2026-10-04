@@ -1,5 +1,5 @@
 ---
-api_total: 6
+api_total: 4
 category: Estates
 description: Tricentis is an enterprise continuous testing and quality engineering company, founded in
   Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans
@@ -12,46 +12,52 @@ description: Tricentis is an enterprise continuous testing and quality engineeri
   Protocol (MCP) servers plus an open-source, Apache-2.0 catalog of agent skills for driving Tosca and
   qTest from AI coding assistants.
 estate_rating:
-  agent_avg: 8.5
-  agent_band: minimal
+  agent_avg: 10.0
+  agent_band: emerging
   agent_native: 0
-  agent_raw: 3.3
+  agent_raw: 9.0
   agent_ready: 0
   band: emerging
-  best: 22.4
-  composite_avg: 21.4
+  best: 40.2
+  composite_avg: 21.9
   composite_band: emerging
-  composite_raw: 19.1
-  developing: 0
+  composite_raw: 24.4
+  developing: 1
   exemplar: 0
-  rating: 16.2
+  rating: 17.1
   scored: 3
-  spread: 5.4
-  strength: 0
+  spread: 24.1
+  strength: 1
   strong: 0
-  worst: 17.0
+  worst: 16.1
 estate_root: null
 estate_root_name: null
 image: https://be.tricentis.com/media-assets/2022/08/Tricentis-Logo-1-1120x446-1.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 3
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 1
   items:
   - &id001
-    acquired: null
-    agent_band: human-only
-    agent_score: 5.0
-    api_count: 3
+    acquired: 2022
+    agent_band: agent-aware
+    agent_score: 22.1
+    api_count: 1
     immediate_parent: tricentis
     name: Testim
-    relationship: product
-    score_band: emerging
-    score_composite: 22.4
-    slug: testim
-    source: parent-company-property
+    relationship: acquisition
+    score_band: developing
+    score_composite: 40.2
+    slug: testim-io
+    source: declared
+  label: Developing
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
+  items:
   - &id002
     acquired: null
     agent_band: human-only
@@ -59,9 +65,9 @@ member_bands:
     api_count: 1
     immediate_parent: tricentis
     name: Waldo
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 17.9
+    score_composite: 16.9
     slug: waldo
     source: prose
   - &id003
@@ -73,7 +79,7 @@ member_bands:
     name: SpecFlow
     relationship: product
     score_band: emerging
-    score_composite: 17.0
+    score_composite: 16.1
     slug: specflow
     source: parent-company-property
   label: Emerging
@@ -87,7 +93,7 @@ members:
 members_unrated: []
 name: Tricentis
 overview: 'Tricentis publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 5.4 points, from 22.4 down to 17.0.
+  of which 3 carry a rating. The rated members span 24.1 points, from 40.2 down to 16.1.
 
 
   Its highest-rated surfaces are Testim, Waldo, SpecFlow.'

@@ -6,33 +6,33 @@ description: Bloomberg delivers business and markets news, data, analysis, and v
   BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise
   services.
 estate_rating:
-  agent_avg: 8.1
+  agent_avg: 8.0
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.6
   agent_ready: 1
   band: emerging
-  best: 54.5
-  composite_avg: 25.4
-  composite_band: thin
-  composite_raw: 25.8
-  developing: 4
+  best: 50.5
+  composite_avg: 24.1
+  composite_band: emerging
+  composite_raw: 24.6
+  developing: 2
   exemplar: 0
-  rating: 18.5
+  rating: 17.7
   scored: 35
-  spread: 44.8
-  strength: 6
-  strong: 1
-  worst: 9.7
+  spread: 41.3
+  strength: 2
+  strong: 0
+  worst: 9.2
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 2
   items:
   - &id001
     acquired: null
@@ -42,16 +42,10 @@ member_bands:
     immediate_parent: bloomberg
     name: Bloomberg Applications
     relationship: product
-    score_band: strong
-    score_composite: 54.5
+    score_band: developing
+    score_composite: 50.5
     slug: bloomberg-applications
     source: declared
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 4
-  items:
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -61,22 +55,16 @@ member_bands:
     name: Bloomberg AIM
     relationship: product
     score_band: developing
-    score_composite: 49.7
+    score_composite: 45.1
     slug: bloomberg-aim
     source: declared
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 9
+  items:
   - &id003
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 27.3
-    api_count: 4
-    immediate_parent: bloomberg
-    name: Bloomberg Buyside Enterprise Solutions
-    relationship: product
-    score_band: developing
-    score_composite: 42.4
-    slug: bloomberg-buyside-enterprise-solutions
-    source: declared
-  - &id004
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
@@ -84,9 +72,21 @@ member_bands:
     immediate_parent: bloomberg
     name: Bloomberg EMSX
     relationship: product
-    score_band: developing
-    score_composite: 42.4
+    score_band: thin
+    score_composite: 38.8
     slug: bloomberg-emsx
+    source: declared
+  - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 27.3
+    api_count: 4
+    immediate_parent: bloomberg
+    name: Bloomberg Buyside Enterprise Solutions
+    relationship: product
+    score_band: thin
+    score_composite: 38.7
+    slug: bloomberg-buyside-enterprise-solutions
     source: declared
   - &id005
     acquired: null
@@ -96,16 +96,10 @@ member_bands:
     immediate_parent: bloomberg
     name: Bloomberg Data Sets
     relationship: product
-    score_band: developing
-    score_composite: 39.5
+    score_band: thin
+    score_composite: 36.2
     slug: bloomberg-data-sets
     source: declared
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 7
-  items:
   - &id006
     acquired: null
     agent_band: agent-aware
@@ -115,7 +109,7 @@ member_bands:
     name: Bloomberg APIs
     relationship: product
     score_band: thin
-    score_composite: 37.7
+    score_composite: 34.8
     slug: bloomberg-apis
     source: declared
   - &id007
@@ -127,7 +121,7 @@ member_bands:
     name: Bloomberg News
     relationship: product
     score_band: thin
-    score_composite: 36.4
+    score_composite: 34.8
     slug: bloomberg-news
     source: declared
   - &id008
@@ -139,22 +133,10 @@ member_bands:
     name: Bloomberg Data Workflows
     relationship: product
     score_band: thin
-    score_composite: 36.2
+    score_composite: 32.9
     slug: bloomberg-data-workflows
     source: declared
   - &id009
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 16.9
-    api_count: 2
-    immediate_parent: bloomberg
-    name: Bloomberg Data
-    relationship: product
-    score_band: thin
-    score_composite: 33.4
-    slug: bloomberg-data
-    source: declared
-  - &id010
     acquired: null
     agent_band: human-only
     agent_score: 3.8
@@ -163,8 +145,20 @@ member_bands:
     name: Bloomberg Professional Service
     relationship: product
     score_band: thin
-    score_composite: 31.5
+    score_composite: 31.1
     slug: bloomberg-professional-service
+    source: declared
+  - &id010
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 16.9
+    api_count: 2
+    immediate_parent: bloomberg
+    name: Bloomberg Data
+    relationship: product
+    score_band: thin
+    score_composite: 30.1
+    slug: bloomberg-data
     source: declared
   - &id011
     acquired: null
@@ -175,9 +169,15 @@ member_bands:
     name: Bloomberg Intelligence
     relationship: product
     score_band: thin
-    score_composite: 28.2
+    score_composite: 27.5
     slug: bloomberg-intelligence
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 23
+  items:
   - &id012
     acquired: null
     agent_band: agent-aware
@@ -186,16 +186,10 @@ member_bands:
     immediate_parent: bloomberg
     name: Bloomberg Proprietary Technologies
     relationship: product
-    score_band: thin
-    score_composite: 26.6
+    score_band: emerging
+    score_composite: 25.5
     slug: bloomberg-proprietary-technologies
     source: declared
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 22
-  items:
   - &id013
     acquired: null
     agent_band: human-only
@@ -205,7 +199,7 @@ member_bands:
     name: Bloomberg Terminal
     relationship: product
     score_band: emerging
-    score_composite: 23.5
+    score_composite: 23.2
     slug: bloomberg-terminal
     source: declared
   - &id014
@@ -217,46 +211,10 @@ member_bands:
     name: Bloomberg Enterprise
     relationship: product
     score_band: emerging
-    score_composite: 21.1
+    score_composite: 20.8
     slug: bloomberg-enterprise
     source: declared
   - &id015
-    acquired: null
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 2
-    immediate_parent: bloomberg
-    name: Bloomberg Government (BGOV)
-    relationship: product
-    score_band: emerging
-    score_composite: 20.6
-    slug: bloomberg-government-bgov
-    source: declared
-  - &id016
-    acquired: null
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 3
-    immediate_parent: bloomberg
-    name: Bloomberg Valuation Service (BVAL)
-    relationship: product
-    score_band: emerging
-    score_composite: 20.3
-    slug: bloomberg-valuation-service-bval
-    source: declared
-  - &id017
-    acquired: null
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 3
-    immediate_parent: bloomberg
-    name: Bloomberg Platform
-    relationship: product
-    score_band: emerging
-    score_composite: 20.0
-    slug: bloomberg-platform
-    source: declared
-  - &id018
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -265,10 +223,22 @@ member_bands:
     name: Bloomberg Products and Platforms
     relationship: product
     score_band: emerging
-    score_composite: 20.0
+    score_composite: 20.3
     slug: bloomberg-products-and-platforms
     source: declared
-  - &id019
+  - &id016
+    acquired: null
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 2
+    immediate_parent: bloomberg
+    name: Bloomberg Government (BGOV)
+    relationship: product
+    score_band: emerging
+    score_composite: 19.8
+    slug: bloomberg-government-bgov
+    source: declared
+  - &id017
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -277,10 +247,10 @@ member_bands:
     name: Bloomberg Television and Radio
     relationship: product
     score_band: emerging
-    score_composite: 20.0
+    score_composite: 19.5
     slug: bloomberg-television-and-radio
     source: declared
-  - &id020
+  - &id018
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -289,10 +259,22 @@ member_bands:
     name: Bloomberg TV
     relationship: product
     score_band: emerging
-    score_composite: 20.0
+    score_composite: 19.5
     slug: bloomberg-tv
     source: declared
-  - &id021
+  - &id019
+    acquired: null
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 3
+    immediate_parent: bloomberg
+    name: Bloomberg Valuation Service (BVAL)
+    relationship: product
+    score_band: emerging
+    score_composite: 19.5
+    slug: bloomberg-valuation-service-bval
+    source: declared
+  - &id020
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -301,10 +283,10 @@ member_bands:
     name: Bloomberg Excel Plug-ins
     relationship: product
     score_band: emerging
-    score_composite: 19.7
+    score_composite: 19.4
     slug: bloomberg-excel-plug-ins
     source: declared
-  - &id022
+  - &id021
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -313,8 +295,20 @@ member_bands:
     name: Bloomberg Financial Solutions
     relationship: product
     score_band: emerging
-    score_composite: 19.7
+    score_composite: 19.4
     slug: bloomberg-financial-solutions
+    source: declared
+  - &id022
+    acquired: null
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 3
+    immediate_parent: bloomberg
+    name: Bloomberg Platform
+    relationship: product
+    score_band: emerging
+    score_composite: 19.4
+    slug: bloomberg-platform
     source: declared
   - &id023
     acquired: null
@@ -325,22 +319,10 @@ member_bands:
     name: Bloomberg Product Suite
     relationship: product
     score_band: emerging
-    score_composite: 19.7
+    score_composite: 19.4
     slug: bloomberg-product-suite
     source: declared
   - &id024
-    acquired: null
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 2
-    immediate_parent: bloomberg
-    name: Bloomberg Tax (BTAX)
-    relationship: product
-    score_band: emerging
-    score_composite: 19.7
-    slug: bloomberg-tax-btax
-    source: declared
-  - &id025
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -349,10 +331,10 @@ member_bands:
     name: Bloomberg ESG Products
     relationship: product
     score_band: emerging
-    score_composite: 19.6
+    score_composite: 19.1
     slug: bloomberg-esg-products
     source: declared
-  - &id026
+  - &id025
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -361,10 +343,10 @@ member_bands:
     name: Bloomberg Indices
     relationship: product
     score_band: emerging
-    score_composite: 19.6
+    score_composite: 19.1
     slug: bloomberg-indices
     source: declared
-  - &id027
+  - &id026
     acquired: null
     agent_band: human-only
     agent_score: 2.5
@@ -373,8 +355,20 @@ member_bands:
     name: Bloomberg Sustainable Finance Products
     relationship: product
     score_band: emerging
-    score_composite: 19.6
+    score_composite: 19.1
     slug: bloomberg-sustainable-finance-products
+    source: declared
+  - &id027
+    acquired: null
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 3
+    immediate_parent: bloomberg
+    name: Bloomberg Tradebook
+    relationship: product
+    score_band: emerging
+    score_composite: 19.0
+    slug: bloomberg-tradebook
     source: declared
   - &id028
     acquired: null
@@ -385,20 +379,20 @@ member_bands:
     name: Bloomberg Media Platforms
     relationship: product
     score_band: emerging
-    score_composite: 19.4
+    score_composite: 18.9
     slug: bloomberg-media-platforms
     source: declared
   - &id029
     acquired: null
     agent_band: human-only
     agent_score: 2.5
-    api_count: 3
+    api_count: 2
     immediate_parent: bloomberg
-    name: Bloomberg Tradebook
+    name: Bloomberg Tax (BTAX)
     relationship: product
     score_band: emerging
-    score_composite: 19.3
-    slug: bloomberg-tradebook
+    score_composite: 18.9
+    slug: bloomberg-tax-btax
     source: declared
   - &id030
     acquired: null
@@ -409,7 +403,7 @@ member_bands:
     name: Bloomberg Index Solutions Limited (BISL)
     relationship: product
     score_band: emerging
-    score_composite: 19.1
+    score_composite: 18.6
     slug: bloomberg-index-solutions-limited-bisl
     source: declared
   - &id031
@@ -421,7 +415,7 @@ member_bands:
     name: Bloomberg Instant Messaging
     relationship: product
     score_band: emerging
-    score_composite: 19.1
+    score_composite: 18.6
     slug: bloomberg-instant-messaging
     source: declared
   - &id032
@@ -433,7 +427,7 @@ member_bands:
     name: Bloomberg Message
     relationship: product
     score_band: emerging
-    score_composite: 19.1
+    score_composite: 18.6
     slug: bloomberg-message
     source: declared
   - &id033
@@ -445,7 +439,7 @@ member_bands:
     name: Bloomberg Query Language (BQL)
     relationship: product
     score_band: emerging
-    score_composite: 19.1
+    score_composite: 18.6
     slug: bloomberg-query-language-bql
     source: declared
   - &id034
@@ -457,7 +451,7 @@ member_bands:
     name: Bloomberg Tax Research
     relationship: product
     score_band: emerging
-    score_composite: 17.8
+    score_composite: 17.0
     slug: bloomberg-tax-research
     source: declared
   label: Emerging
@@ -475,7 +469,7 @@ member_bands:
     name: Second Measure
     relationship: acquisition
     score_band: minimal
-    score_composite: 9.7
+    score_composite: 9.2
     slug: second-measure
     source: declared
   label: Minimal
@@ -521,11 +515,11 @@ members:
 members_unrated: []
 name: Bloomberg
 overview: 'Bloomberg publishes its API surface across 35 provider profiles indexed on the APIs.io network,
-  of which 35 carry a rating. The rated members span 44.8 points, from 54.5 down to 9.7.
+  of which 35 carry a rating. The rated members span 41.3 points, from 50.5 down to 9.2.
 
 
-  Its highest-rated surfaces are Bloomberg Applications, Bloomberg AIM, Bloomberg Buyside Enterprise Solutions,
-  Bloomberg EMSX, Bloomberg Data Sets.'
+  Its highest-rated surfaces are Bloomberg Applications, Bloomberg AIM, Bloomberg EMSX, Bloomberg Buyside
+  Enterprise Solutions, Bloomberg Data Sets.'
 parent_provider: bloomberg
 permalink: /estates/bloomberg/
 slug: bloomberg
@@ -540,11 +534,12 @@ tags:
 - Data License
 - Enterprise
 - Execution Management
-- Financial-Services
+- Financial Services
 - Market Data
 - News
 - Quantitative Analysis
 - Trading
 - Transaction Cost Analysis
+- Financial Data
 title: Bloomberg
 ---

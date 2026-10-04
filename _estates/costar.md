@@ -10,24 +10,24 @@ description: CoStar Group is the dominant commercial and residential real estate
   Group (Australia). Distribution to partners is via enterprise data licensing, syndication feeds, and
   brand-specific marketplace tooling rather than a public self-serve developer portal.
 estate_rating:
-  agent_avg: 11.5
+  agent_avg: 11.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.4
   agent_ready: 1
   band: emerging
-  best: 48.0
-  composite_avg: 25.1
-  composite_band: thin
-  composite_raw: 28.1
+  best: 49.1
+  composite_avg: 23.6
+  composite_band: emerging
+  composite_raw: 27.6
   developing: 1
   exemplar: 0
-  rating: 19.7
+  rating: 18.6
   scored: 4
-  spread: 30.8
+  spread: 31.6
   strength: 1
   strong: 0
-  worst: 17.2
+  worst: 17.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/costar.png
@@ -45,9 +45,9 @@ member_bands:
     api_count: 3
     immediate_parent: costar
     name: Domain Group
-    relationship: product
+    relationship: subsidiary
     score_band: developing
-    score_composite: 48.0
+    score_composite: 49.1
     slug: domain-group
     source: prose
   label: Developing
@@ -63,9 +63,9 @@ member_bands:
     api_count: 0
     immediate_parent: costar
     name: Homes.com
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 25.4
+    score_composite: 24.0
     slug: homes-com
     source: prose
   - &id003
@@ -75,9 +75,9 @@ member_bands:
     api_count: 1
     immediate_parent: costar
     name: LoopNet
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 22.0
+    score_composite: 19.6
     slug: loopnet
     source: prose
   - &id004
@@ -87,9 +87,9 @@ member_bands:
     api_count: 0
     immediate_parent: costar
     name: Apartments.com
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 17.2
+    score_composite: 17.5
     slug: apartments-com
     source: prose
   label: Emerging
@@ -104,7 +104,7 @@ members:
 members_unrated: []
 name: CoStar Group
 overview: 'CoStar Group publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 30.8 points, from 48.0 down to 17.2.
+  of which 4 carry a rating. The rated members span 31.6 points, from 49.1 down to 17.5.
 
 
   Its highest-rated surfaces are Domain Group, Homes.com, LoopNet, Apartments.com.'

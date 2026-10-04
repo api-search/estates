@@ -10,33 +10,33 @@ description: Niantic Spatial, Inc. (spun out of Niantic, Inc. in 2025 after the 
   Android, and ROS 2, connecting to Scaniverse and VPS 2.0. Enterprise focus areas include robotics, defense
   and intelligence, and oil and gas.
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 11.4
-  composite_avg: 18.7
+  best: 9.8
+  composite_avg: 12.9
   composite_band: emerging
-  composite_raw: 8.8
+  composite_raw: 3.6
   developing: 0
   exemplar: 0
-  rating: 14.5
-  scored: 2
-  spread: 5.2
+  rating: 10.1
+  scored: 4
+  spread: 9.8
   strength: 0
   strong: 0
-  worst: 6.2
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/niantic.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 4
   items:
   - &id001
     acquired: null
@@ -45,17 +45,11 @@ member_bands:
     api_count: 0
     immediate_parent: niantic
     name: 8th Wall
-    relationship: product
-    score_band: emerging
-    score_composite: 11.4
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 9.8
     slug: niantic-8thwall
     source: prose
-  label: Emerging
-  open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 1
-  items:
   - &id002
     acquired: null
     agent_band: human-only
@@ -65,40 +59,34 @@ member_bands:
     name: Fantasmo
     relationship: product
     score_band: minimal
-    score_composite: 6.2
+    score_composite: 4.5
     slug: fantasmo
     source: parent-company-property
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 2
-  items:
   - &id003
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: niantic
     name: Escher Reality
-    relationship: product
-    score_band: null
-    score_composite: null
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
     slug: escher-reality
     source: prose
   - &id004
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: niantic
     name: Lowkey
-    relationship: product
-    score_band: null
-    score_composite: null
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
     slug: lowkey
     source: prose
-  label: Unrated
+  label: Minimal
   open: false
 member_on_network: 4
 member_total: 4
@@ -110,7 +98,7 @@ members:
 members_unrated: []
 name: Niantic
 overview: 'Niantic publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 5.2 points, from 11.4 down to 6.2.
+  of which 4 carry a rating. The rated members span 9.8 points, from 9.8 down to 0.0.
 
 
   Its highest-rated surfaces are 8th Wall, Fantasmo, Escher Reality, Lowkey.'
@@ -126,7 +114,7 @@ tags:
 - Company
 - Geospatial
 - Augmented Reality
-- Computer-Vision
+- Computer Vision
 - Visual Positioning
 - Spatial Computing
 - SDK

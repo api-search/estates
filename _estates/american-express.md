@@ -10,24 +10,24 @@ description: American Express is a globally integrated payments company and card
   Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated
   for registered issuers, merchants, acquirers, and partners rather than open self-service.
 estate_rating:
-  agent_avg: 7.7
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
-  agent_raw: 1.3
+  agent_raw: 0.6
   agent_ready: 0
   band: emerging
-  best: 16.1
-  composite_avg: 18.3
+  best: 14.4
+  composite_avg: 16.4
   composite_band: emerging
-  composite_raw: 10.9
+  composite_raw: 9.6
   developing: 0
   exemplar: 0
-  rating: 14.1
+  rating: 12.6
   scored: 3
-  spread: 7.9
+  spread: 8.6
   strength: 0
   strong: 0
-  worst: 8.2
+  worst: 5.8
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/american-express.png
@@ -41,13 +41,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: human-only
-    agent_score: 3.8
+    agent_score: 1.9
     api_count: 3
     immediate_parent: american-express
     name: Resy
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 16.1
+    score_composite: 14.4
     slug: resy
     source: prose
   label: Emerging
@@ -62,24 +62,24 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: american-express
-    name: InAuth (American Express)
+    name: Amex Bank of Canada
     relationship: product
     score_band: minimal
-    score_composite: 8.3
-    slug: inauth-american-express
-    source: parent-company-property
+    score_composite: 8.6
+    slug: amex-bank-of-canada
+    source: declared
   - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: american-express
-    name: Amex Bank of Canada
+    name: InAuth (American Express)
     relationship: product
     score_band: minimal
-    score_composite: 8.2
-    slug: amex-bank-of-canada
-    source: declared
+    score_composite: 5.8
+    slug: inauth-american-express
+    source: parent-company-property
   label: Minimal
   open: false
 member_on_network: 3
@@ -91,10 +91,10 @@ members:
 members_unrated: []
 name: American Express
 overview: 'American Express publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 7.9 points, from 16.1 down to 8.2.
+  network, of which 3 carry a rating. The rated members span 8.6 points, from 14.4 down to 5.8.
 
 
-  Its highest-rated surfaces are Resy, InAuth (American Express), Amex Bank of Canada.'
+  Its highest-rated surfaces are Resy, Amex Bank of Canada, InAuth (American Express).'
 parent_provider: american-express
 permalink: /estates/american-express/
 slug: american-express
@@ -105,7 +105,7 @@ subfamilies: []
 subfamily_page_count: 0
 tags:
 - Credit Cards
-- Financial-Services
+- Financial Services
 - Payments
 - Card Network
 - Tokenization

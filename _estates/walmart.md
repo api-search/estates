@@ -8,24 +8,24 @@ description: Walmart is a multinational retail corporation that operates a chain
   The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory,
   pricing, fulfillment, and reporting on Walmart.com.
 estate_rating:
-  agent_avg: 11.0
-  agent_band: emerging
+  agent_avg: 8.6
+  agent_band: minimal
   agent_native: 0
-  agent_raw: 10.3
+  agent_raw: 6.9
   agent_ready: 0
   band: emerging
-  best: 34.4
-  composite_avg: 21.9
+  best: 35.6
+  composite_avg: 16.6
   composite_band: emerging
-  composite_raw: 20.9
+  composite_raw: 13.5
   developing: 0
   exemplar: 0
-  rating: 17.5
-  scored: 4
-  spread: 29.4
+  rating: 13.4
+  scored: 6
+  spread: 35.6
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walmart.png
@@ -43,9 +43,9 @@ member_bands:
     api_count: 1
     immediate_parent: walmart
     name: Flipkart
-    relationship: product
+    relationship: acquisition
     score_band: thin
-    score_composite: 34.4
+    score_composite: 35.6
     slug: flipkart
     source: prose
   - &id002
@@ -55,9 +55,9 @@ member_bands:
     api_count: 1
     immediate_parent: walmart
     name: PhonePe
-    relationship: product
+    relationship: acquisition
     score_band: thin
-    score_composite: 32.5
+    score_composite: 30.3
     slug: phonepe
     source: prose
   label: Thin
@@ -75,14 +75,14 @@ member_bands:
     name: Eloquii
     relationship: product
     score_band: emerging
-    score_composite: 11.8
+    score_composite: 11.4
     slug: eloquii
     source: parent-company-property
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 1
+  count: 3
   items:
   - &id004
     acquired: null
@@ -91,42 +91,36 @@ member_bands:
     api_count: 0
     immediate_parent: flipkart
     name: Myntra
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: myntra
     source: prose
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 2
-  items:
   - &id005
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: walmart
     name: Jet (Walmart)
     relationship: product
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: jet-walmart
     source: parent-company-property
   - &id006
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: walmart
     name: Kosmix
     relationship: product
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: kosmix
     source: parent-company-property
-  label: Unrated
+  label: Minimal
   open: false
 member_on_network: 6
 member_total: 6
@@ -140,7 +134,7 @@ members:
 members_unrated: []
 name: Walmart
 overview: 'Walmart publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 29.4 points, from 34.4 down to 5.0.
+  of which 6 carry a rating. The rated members span 35.6 points, from 35.6 down to 0.0.
 
 
   Its highest-rated surfaces are Flipkart, PhonePe, Eloquii, Myntra, Jet (Walmart).'
@@ -156,7 +150,7 @@ subfamilies:
   members:
   - name: Myntra
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: myntra
   name: Flipkart
   on_network: true

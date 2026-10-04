@@ -9,24 +9,24 @@ description: A connected fitness company offering stationary bikes, treadmills, 
   surfaces are internal and only reachable through the consumer apps. Reverse-engineered community libraries
   exist on GitHub but are unsupported by Peloton.
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 10.5
-  composite_avg: 18.2
+  best: 10.2
+  composite_avg: 14.5
   composite_band: emerging
-  composite_raw: 7.0
+  composite_raw: 4.6
   developing: 0
   exemplar: 0
-  rating: 14.2
-  scored: 2
-  spread: 7.0
+  rating: 11.3
+  scored: 3
+  spread: 10.2
   strength: 0
   strong: 0
-  worst: 3.5
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peloton.png
@@ -35,7 +35,7 @@ layout: estate
 member_bands:
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 3
   items:
   - &id001
     acquired: null
@@ -46,7 +46,7 @@ member_bands:
     name: Breathwrk
     relationship: product
     score_band: minimal
-    score_composite: 10.5
+    score_composite: 10.2
     slug: breathwrk
     source: prose
   - &id002
@@ -61,25 +61,19 @@ member_bands:
     score_composite: 3.5
     slug: peloton-interactive
     source: declared
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 1
-  items:
   - &id003
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: peloton-interactive
     name: Atlas Wearables
-    relationship: product
-    score_band: null
-    score_composite: null
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
     slug: atlas-wearables
     source: prose
-  label: Unrated
+  label: Minimal
   open: false
 member_on_network: 3
 member_total: 3
@@ -90,7 +84,7 @@ members:
 members_unrated: []
 name: Peloton
 overview: 'Peloton publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 7.0 points, from 10.5 down to 3.5.
+  of which 3 carry a rating. The rated members span 10.2 points, from 10.2 down to 0.0.
 
 
   Its highest-rated surfaces are Breathwrk, Peloton Interactive, Atlas Wearables.'
@@ -105,8 +99,8 @@ subfamilies:
   member_count: 1
   members:
   - name: Atlas Wearables
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: atlas-wearables
   name: Peloton Interactive
   on_network: true

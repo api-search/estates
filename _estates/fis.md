@@ -6,24 +6,24 @@ description: FIS (Fidelity National Information Services) is a global leader in 
   marketplace. APIs connect financial institutions, fintechs, and enterprises to FIS banking and payment
   infrastructure.
 estate_rating:
-  agent_avg: 13.4
+  agent_avg: 12.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.6
   agent_ready: 1
   band: emerging
-  best: 64.6
-  composite_avg: 27.4
+  best: 61.2
+  composite_avg: 25.3
   composite_band: thin
-  composite_raw: 33.3
+  composite_raw: 31.4
   developing: 1
   exemplar: 0
-  rating: 21.8
+  rating: 20.3
   scored: 4
-  spread: 57.5
+  spread: 53.9
   strength: 3
   strong: 1
-  worst: 7.1
+  worst: 7.3
 estate_root: null
 estate_root_name: null
 image: https://codeconnect.fisglobal.com/assets/FIS_codeConnect_logo_white.svg
@@ -41,9 +41,9 @@ member_bands:
     api_count: 4
     immediate_parent: fis
     name: Payrix
-    relationship: product
+    relationship: acquisition
     score_band: strong
-    score_composite: 64.6
+    score_composite: 61.2
     slug: payrix
     source: prose
   label: Strong
@@ -59,9 +59,9 @@ member_bands:
     api_count: 9
     immediate_parent: fis
     name: Bond
-    relationship: product
+    relationship: acquisition
     score_band: developing
-    score_composite: 51.0
+    score_composite: 48.2
     slug: bond
     source: prose
   label: Developing
@@ -79,7 +79,7 @@ member_bands:
     name: SunGard Data Systems
     relationship: acquisition
     score_band: minimal
-    score_composite: 10.5
+    score_composite: 8.8
     slug: sungard-data-systems
     source: declared
   - &id004
@@ -91,7 +91,7 @@ member_bands:
     name: IntelliMatch
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.1
+    score_composite: 7.3
     slug: intellimatch
     source: declared
   label: Minimal
@@ -106,7 +106,7 @@ members:
 members_unrated: []
 name: FIS Global
 overview: 'FIS Global publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 57.5 points, from 64.6 down to 7.1.
+  of which 4 carry a rating. The rated members span 53.9 points, from 61.2 down to 7.3.
 
 
   Its highest-rated surfaces are Payrix, Bond, SunGard Data Systems, IntelliMatch.'
@@ -121,7 +121,7 @@ subfamily_page_count: 0
 tags:
 - Banking
 - Core Banking
-- Financial-Services
+- Financial Services
 - Payments
 - Fintech
 title: FIS Global

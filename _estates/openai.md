@@ -12,24 +12,24 @@ description: OpenAI publishes a single unversioned REST API at https://api.opena
   Python, JavaScript, Go, Java, .NET and Ruby, alongside the Codex CLI and an anonymous documentation
   MCP server at developers.openai.com/mcp.
 estate_rating:
-  agent_avg: 7.6
+  agent_avg: 6.7
   agent_band: minimal
   agent_native: 0
-  agent_raw: 0.8
+  agent_raw: 0.2
   agent_ready: 0
   band: emerging
-  best: 18.1
-  composite_avg: 17.7
+  best: 16.4
+  composite_avg: 14.8
   composite_band: emerging
-  composite_raw: 9.3
+  composite_raw: 5.5
   developing: 0
   exemplar: 0
-  rating: 13.7
+  rating: 11.6
   scored: 3
-  spread: 14.0
+  spread: 16.4
   strength: 0
   strong: 0
-  worst: 4.1
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://openai.com/favicon.ico
@@ -43,13 +43,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     immediate_parent: openai
     name: Neptune.ai
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 18.1
+    score_composite: 16.4
     slug: neptune-ai
     source: prose
   label: Emerging
@@ -64,24 +64,24 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: openai
-    name: Vegafund
-    relationship: product
+    name: Rockset
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.7
-    slug: vegafund
-    source: parent-company-property
+    score_composite: 0.0
+    slug: rockset
+    source: prose
   - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: openai
-    name: Rockset
+    name: Vegafund
     relationship: product
     score_band: minimal
-    score_composite: 4.1
-    slug: rockset
-    source: prose
+    score_composite: 0.0
+    slug: vegafund
+    source: parent-company-property
   label: Minimal
   open: false
 member_on_network: 3
@@ -93,10 +93,10 @@ members:
 members_unrated: []
 name: OpenAI
 overview: 'OpenAI publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 14.0 points, from 18.1 down to 4.1.
+  of which 3 carry a rating. The rated members span 16.4 points, from 16.4 down to 0.0.
 
 
-  Its highest-rated surfaces are Neptune.ai, Vegafund, Rockset.'
+  Its highest-rated surfaces are Neptune.ai, Rockset, Vegafund.'
 parent_provider: openai
 permalink: /estates/openai/
 slug: openai
@@ -110,5 +110,6 @@ tags:
 - OpenAI
 - Artificial Intelligence
 - T1
+- Agentic Commerce
 title: OpenAI
 ---

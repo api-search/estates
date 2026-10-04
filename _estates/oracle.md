@@ -1,27 +1,27 @@
 ---
-api_total: 206
+api_total: 213
 category: Estates
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases,
   AI services, SaaS applications, and platform services.
 estate_rating:
-  agent_avg: 18.4
+  agent_avg: 15.8
   agent_band: emerging
   agent_native: 1
-  agent_raw: 19.6
+  agent_raw: 16.6
   agent_ready: 5
-  band: thin
-  best: 74.7
-  composite_avg: 35.3
+  band: emerging
+  best: 76.9
+  composite_avg: 30.0
   composite_band: thin
-  composite_raw: 37.6
-  developing: 15
+  composite_raw: 31.5
+  developing: 14
   exemplar: 3
-  rating: 28.5
-  scored: 28
-  spread: 69.7
-  strength: 26
-  strong: 1
-  worst: 5.0
+  rating: 24.3
+  scored: 31
+  spread: 76.9
+  strength: 23
+  strong: 0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle.png
@@ -41,7 +41,7 @@ member_bands:
     name: Oracle Cloud Infrastructure
     relationship: product
     score_band: exemplar
-    score_composite: 74.7
+    score_composite: 76.9
     slug: oracle-cloud
     source: declared
   - &id002
@@ -53,7 +53,7 @@ member_bands:
     name: Oracle Hospitality
     relationship: product
     score_band: exemplar
-    score_composite: 70.2
+    score_composite: 74.0
     slug: oracle-hospitality
     source: declared
   - &id003
@@ -65,82 +65,28 @@ member_bands:
     name: Oracle Siebel
     relationship: product
     score_band: exemplar
-    score_composite: 67.6
+    score_composite: 70.4
     slug: oracle-siebel
     source: declared
   label: Exemplar
   open: true
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 14
   items:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 41.8
-    api_count: 1
-    immediate_parent: oracle
-    name: Oracle Partitioning
-    relationship: product
-    score_band: strong
-    score_composite: 59.0
-    slug: oracle-partitioning
-    source: declared
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 15
-  items:
-  - &id005
-    acquired: 2014
-    agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 2
-    immediate_parent: oracle
-    name: Responsys
-    relationship: acquisition
-    score_band: developing
-    score_composite: 51.8
-    slug: responsys
-    source: declared
-  - &id006
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 27.3
-    api_count: 1
-    immediate_parent: oracle
-    name: Oracle Health Data Intelligence
-    relationship: product
-    score_band: developing
-    score_composite: 51.5
-    slug: oracle-health-data-intelligence
-    source: declared
-  - &id007
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 27.6
+    agent_score: 35.9
     api_count: 3
     immediate_parent: oracle
     name: Oracle Database
     relationship: product
     score_band: developing
-    score_composite: 50.6
+    score_composite: 51.4
     slug: oracle-database
     source: declared
-  - &id008
-    acquired: 2022
-    agent_band: agent-ready
-    agent_score: 28.6
-    api_count: 54
-    immediate_parent: oracle
-    name: Oracle Health (Cerner)
-    relationship: acquisition
-    score_band: developing
-    score_composite: 50.3
-    slug: cerner
-    source: declared
-  - &id009
+  - &id005
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
@@ -149,22 +95,10 @@ member_bands:
     name: PeopleSoft
     relationship: acquisition
     score_band: developing
-    score_composite: 50.1
+    score_composite: 51.4
     slug: peoplesoft
     source: declared
-  - &id010
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 25.5
-    api_count: 1
-    immediate_parent: oracle
-    name: Oracle Essbase
-    relationship: product
-    score_band: developing
-    score_composite: 49.4
-    slug: oracle-essbase
-    source: declared
-  - &id011
+  - &id006
     acquired: null
     agent_band: agent-ready
     agent_score: 31.1
@@ -173,10 +107,34 @@ member_bands:
     name: Oracle Eloqua
     relationship: acquisition
     score_band: developing
-    score_composite: 49.1
+    score_composite: 51.1
     slug: eloqua
     source: declared
-  - &id012
+  - &id007
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.5
+    api_count: 1
+    immediate_parent: oracle
+    name: Oracle Essbase
+    relationship: product
+    score_band: developing
+    score_composite: 49.6
+    slug: oracle-essbase
+    source: declared
+  - &id008
+    acquired: 2014
+    agent_band: agent-aware
+    agent_score: 26.1
+    api_count: 2
+    immediate_parent: oracle
+    name: Responsys
+    relationship: acquisition
+    score_band: developing
+    score_composite: 49.2
+    slug: responsys
+    source: declared
+  - &id009
     acquired: null
     agent_band: agent-aware
     agent_score: 24.4
@@ -185,10 +143,34 @@ member_bands:
     name: Oracle Retail
     relationship: product
     score_band: developing
-    score_composite: 46.8
+    score_composite: 48.0
     slug: oracle-retail
     source: declared
-  - &id013
+  - &id010
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 27.3
+    api_count: 1
+    immediate_parent: oracle
+    name: Oracle Health Data Intelligence
+    relationship: product
+    score_band: developing
+    score_composite: 47.9
+    slug: oracle-health-data-intelligence
+    source: declared
+  - &id011
+    acquired: 2022
+    agent_band: agent-ready
+    agent_score: 28.6
+    api_count: 50
+    immediate_parent: oracle
+    name: Oracle Health (Cerner)
+    relationship: acquisition
+    score_band: developing
+    score_composite: 46.2
+    slug: oracle-health
+    source: declared
+  - &id012
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -197,8 +179,20 @@ member_bands:
     name: Oracle Fusion Cloud Applications
     relationship: product
     score_band: developing
-    score_composite: 45.8
+    score_composite: 45.5
     slug: oracle-fusion
+    source: declared
+  - &id013
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.8
+    api_count: 1
+    immediate_parent: oracle
+    name: Oracle Primavera
+    relationship: product
+    score_band: developing
+    score_composite: 44.9
+    slug: oracle-primavera
     source: declared
   - &id014
     acquired: null
@@ -209,22 +203,10 @@ member_bands:
     name: Oracle WebLogic Server
     relationship: product
     score_band: developing
-    score_composite: 44.6
+    score_composite: 44.8
     slug: oracle-weblogic
     source: declared
   - &id015
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
-    api_count: 1
-    immediate_parent: oracle
-    name: Oracle Primavera
-    relationship: product
-    score_band: developing
-    score_composite: 43.7
-    slug: oracle-primavera
-    source: declared
-  - &id016
     acquired: null
     agent_band: agent-aware
     agent_score: 27.2
@@ -233,10 +215,10 @@ member_bands:
     name: Apiary
     relationship: product
     score_band: developing
-    score_composite: 42.9
+    score_composite: 43.9
     slug: apiary
     source: prose
-  - &id017
+  - &id016
     acquired: null
     agent_band: agent-aware
     agent_score: 22.7
@@ -245,22 +227,28 @@ member_bands:
     name: Oracle Transportation Management
     relationship: product
     score_band: developing
-    score_composite: 41.6
+    score_composite: 42.9
     slug: oracle-transportation-management
     source: declared
-  - &id018
+  - &id017
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
-    api_count: 1
+    api_count: 13
     immediate_parent: oracle
-    name: Oracle General Ledger
+    name: Oracle Financials
     relationship: product
     score_band: developing
-    score_composite: 40.8
-    slug: oracle-general-ledger
+    score_composite: 41.2
+    slug: oracle-financials
     source: declared
-  - &id019
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 2
+  items:
+  - &id018
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -268,17 +256,11 @@ member_bands:
     immediate_parent: oracle
     name: Oracle Container Engine for Kubernetes
     relationship: product
-    score_band: developing
-    score_composite: 39.6
+    score_band: thin
+    score_composite: 37.5
     slug: oracle-container-engine
     source: declared
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 1
-  items:
-  - &id020
+  - &id019
     acquired: null
     agent_band: agent-aware
     agent_score: 18.0
@@ -287,16 +269,16 @@ member_bands:
     name: Oracle Planning
     relationship: product
     score_band: thin
-    score_composite: 36.9
+    score_composite: 36.6
     slug: oracle-planning
     source: declared
   label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 8
+  count: 12
   items:
-  - &id021
+  - &id020
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -305,10 +287,10 @@ member_bands:
     name: TimesTen
     relationship: acquisition
     score_band: minimal
-    score_composite: 10.0
+    score_composite: 8.4
     slug: timesten
     source: declared
-  - &id022
+  - &id021
     acquired: 2016
     agent_band: human-only
     agent_score: 0.0
@@ -317,22 +299,10 @@ member_bands:
     name: Palerra
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.3
+    score_composite: 3.7
     slug: palerra
     source: declared
-  - &id023
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: oracle
-    name: Agile Software
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: agile-software
-    source: declared
-  - &id024
+  - &id022
     acquired: 2010
     agent_band: human-only
     agent_score: 0.0
@@ -341,10 +311,10 @@ member_bands:
     name: Amberpoint
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: amberpoint
     source: declared
-  - &id025
+  - &id023
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -353,34 +323,22 @@ member_bands:
     name: DataFox
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.3
     slug: datafox
     source: declared
-  - &id026
-    acquired: 2014
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: oracle
-    name: Datalogix
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: datalogix
-    source: declared
-  - &id027
+  - &id024
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
-    immediate_parent: agile-software
-    name: Digital Market
+    immediate_parent: oracle
+    name: Agile Software
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: digital-market
+    score_composite: 2.5
+    slug: agile-software
     source: declared
-  - &id028
+  - &id025
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -389,55 +347,103 @@ member_bands:
     name: Vantus
     relationship: product
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 2.5
     slug: vantus
     source: parent-company-property
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 3
-  items:
-  - &id029
+  - &id026
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: oracle
+    name: CES International
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: ces-international
+    source: prose
+  - &id027
     acquired: 2017
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: oracle
     name: Conjectag
     relationship: acquisition
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: conjectag
     source: declared
+  - &id028
+    acquired: 2014
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: oracle
+    name: Datalogix
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: datalogix
+    source: declared
+  - &id029
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: agile-software
+    name: Digital Market
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: digital-market
+    source: declared
   - &id030
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: oracle
+    name: Fuego
+    relationship: product
+    score_band: minimal
+    score_composite: 0.0
+    slug: fuego
+    source: parent-company-property
+  - &id031
+    acquired: 2014
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: oracle
+    name: GreenBytes
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: greenbytes
+    source: declared
+  label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id032
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: oracle
-    name: Fuego
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: fuego
-    source: parent-company-property
-  - &id031
-    acquired: 2014
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: oracle
-    name: GreenBytes
+    name: Primavera Systems
     relationship: acquisition
     score_band: null
     score_composite: null
-    slug: greenbytes
-    source: declared
+    slug: primavera-systems
+    source: prose
   label: Unrated
   open: false
-member_on_network: 31
-member_total: 31
+member_on_network: 32
+member_total: 32
 members:
 - *id001
 - *id002
@@ -470,14 +476,15 @@ members:
 - *id029
 - *id030
 - *id031
+- *id032
 members_unrated: []
 name: Oracle
-overview: 'Oracle publishes its API surface across 31 provider profiles indexed on the APIs.io network,
-  of which 31 carry a rating. The rated members span 69.7 points, from 74.7 down to 5.0.
+overview: 'Oracle publishes its API surface across 32 provider profiles indexed on the APIs.io network,
+  of which 32 carry a rating. The rated members span 76.9 points, from 76.9 down to 0.0.
 
 
   Its highest-rated surfaces are Oracle Cloud Infrastructure, Oracle Hospitality, Oracle Siebel, Oracle
-  Partitioning, Responsys.'
+  Database, PeopleSoft.'
 parent_provider: oracle
 permalink: /estates/oracle/
 slug: oracle
@@ -490,7 +497,7 @@ subfamilies:
   members:
   - name: Digital Market
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 0.0
     slug: digital-market
   name: Agile Software
   on_network: true
@@ -501,7 +508,7 @@ subfamilies:
   members:
   - name: Apiary
     score_band: developing
-    score_composite: 42.9
+    score_composite: 43.9
     slug: apiary
   name: Oracle Cloud Infrastructure
   on_network: true

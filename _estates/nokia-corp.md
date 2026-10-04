@@ -1,5 +1,5 @@
 ---
-api_total: 0
+api_total: 8
 category: Estates
 description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, information technology,
   and consumer electronics corporation headquartered in Espoo, Finland. Nokia is a leading vendor of carrier-grade
@@ -15,75 +15,123 @@ description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, in
   the Bell Labs research division, and a broad open-source presence (600+ GitHub repos) including TTCN-3
   tooling (ntt), Corteca CLI, Moler test framework, and YANG models.
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 9.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 0.0
-  agent_ready: 0
+  agent_raw: 8.7
+  agent_ready: 1
   band: emerging
-  best: 17.6
-  composite_avg: 17.1
+  best: 41.0
+  composite_avg: 17.6
   composite_band: emerging
-  composite_raw: 7.7
-  developing: 0
+  composite_raw: 15.3
+  developing: 1
   exemplar: 0
-  rating: 13.1
-  scored: 3
-  spread: 17.0
-  strength: 0
+  rating: 14.4
+  scored: 6
+  spread: 41.0
+  strength: 1
   strong: 0
-  worst: 0.6
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nokia-corp.png
 is_subfamily: false
 layout: estate
 member_bands:
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 1
+  items:
+  - &id001
+    acquired: 2024
+    agent_band: agent-ready
+    agent_score: 29.7
+    api_count: 6
+    immediate_parent: nokia-corp
+    name: RapidAPI
+    relationship: acquisition
+    score_band: developing
+    score_composite: 41.0
+    slug: rapidapi
+    source: declared
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 1
+  items:
+  - &id002
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.3
+    api_count: 1
+    immediate_parent: nokia-corp
+    name: Nokia NetAct
+    relationship: product
+    score_band: thin
+    score_composite: 31.0
+    slug: nokia-netact
+    source: declared
+  label: Thin
+  open: false
 - band: emerging
   blurb: Early or largely undocumented
   count: 1
   items:
-  - &id001
-    acquired: null
+  - &id003
+    acquired: 2025
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: nokia-corp
     name: Infinera
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 17.6
+    score_composite: 17.2
     slug: infinera
-    source: prose
+    source: declared
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 3
   items:
-  - &id002
-    acquired: null
+  - &id004
+    acquired: 2016
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: nokia-corp
-    name: Luminous Computing
-    relationship: product
+    name: Alcatel-lucent
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: luminous-computing
-    source: parent-company-property
-  - &id003
-    acquired: null
+    score_composite: 2.5
+    slug: alcatel-lucent
+    source: declared
+  - &id005
+    acquired: 2000
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: nokia-corp
-    name: Gainspeed
+    name: Network Alchemy
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: network-alchemy
+    source: declared
+  - &id006
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 1
+    immediate_parent: alcatel-lucent
+    name: ProgrammableWeb
     relationship: product
     score_band: minimal
-    score_composite: 0.6
-    slug: gainspeed
+    score_composite: 0.0
+    slug: programmableweb
     source: parent-company-property
   label: Minimal
   open: false
@@ -91,45 +139,58 @@ member_bands:
   blurb: Not yet scored
   count: 1
   items:
-  - &id004
-    acquired: null
+  - &id007
+    acquired: 2016
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: nokia-corp
-    name: Network Alchemy
-    relationship: product
+    name: Gainspeed
+    relationship: acquisition
     score_band: null
     score_composite: null
-    slug: network-alchemy
-    source: prose
+    slug: gainspeed
+    source: declared
   label: Unrated
   open: false
-member_on_network: 4
-member_total: 4
+member_on_network: 7
+member_total: 7
 members:
 - *id001
 - *id002
 - *id003
 - *id004
+- *id005
+- *id006
+- *id007
 members_unrated: []
 name: Nokia
-overview: 'Nokia publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 17.0 points, from 17.6 down to 0.6.
+overview: 'Nokia publishes its API surface across 7 provider profiles indexed on the APIs.io network,
+  of which 7 carry a rating. The rated members span 41.0 points, from 41.0 down to 0.0.
 
 
-  Its highest-rated surfaces are Infinera, Luminous Computing, Gainspeed, Network Alchemy.'
+  Its highest-rated surfaces are RapidAPI, Nokia NetAct, Infinera, Alcatel-lucent, Network Alchemy.'
 parent_provider: nokia-corp
 permalink: /estates/nokia-corp/
 slug: nokia-corp
 source_filename: apis.yml
 source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/apis.yml
-subfamilies: []
+subfamilies:
+- has_page: false
+  member_count: 1
+  members:
+  - name: ProgrammableWeb
+    score_band: minimal
+    score_composite: 0.0
+    slug: programmableweb
+  name: Alcatel-lucent
+  on_network: true
+  permalink: /estates/alcatel-lucent/
+  slug: alcatel-lucent
 subfamily_page_count: 0
 tags:
 - Telecommunications
-- Telecom
 - 5G
 - 6G
 - Mobile Network
@@ -140,5 +201,6 @@ tags:
 - Broadband
 - Service Router
 - SR OS
+- SR Linux
 title: Nokia
 ---

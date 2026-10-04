@@ -4,24 +4,24 @@ category: Estates
 description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions
   including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
 estate_rating:
-  agent_avg: 9.6
+  agent_avg: 7.0
   agent_band: minimal
   agent_native: 0
-  agent_raw: 8.3
+  agent_raw: 5.5
   agent_ready: 1
   band: emerging
-  best: 56.3
-  composite_avg: 21.2
+  best: 57.2
+  composite_avg: 14.9
   composite_band: emerging
-  composite_raw: 20.2
+  composite_raw: 12.7
   developing: 0
   exemplar: 0
-  rating: 16.6
-  scored: 8
-  spread: 51.3
+  rating: 11.7
+  scored: 12
+  spread: 57.2
   strength: 2
   strong: 1
-  worst: 5.0
+  worst: 0.0
 estate_root: broadcom
 estate_root_name: Broadcom
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vmware.png
@@ -41,7 +41,7 @@ member_bands:
     name: CloudHealth
     relationship: acquisition
     score_band: strong
-    score_composite: 56.3
+    score_composite: 57.2
     slug: cloudhealth
     source: declared
   label: Strong
@@ -59,7 +59,7 @@ member_bands:
     name: VMware Tanzu
     relationship: product
     score_band: thin
-    score_composite: 36.4
+    score_composite: 35.0
     slug: vmware-tanzu
     source: declared
   label: Thin
@@ -77,7 +77,7 @@ member_bands:
     name: Lastline
     relationship: acquisition
     score_band: emerging
-    score_composite: 23.5
+    score_composite: 23.4
     slug: lastline
     source: declared
   - &id004
@@ -89,14 +89,14 @@ member_bands:
     name: Carbon Black
     relationship: acquisition
     score_band: emerging
-    score_composite: 19.8
+    score_composite: 19.0
     slug: carbon-black
     source: declared
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 4
+  count: 8
   items:
   - &id005
     acquired: 2019
@@ -107,7 +107,7 @@ member_bands:
     name: AVI Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 8.7
+    score_composite: 7.0
     slug: avi-networks
     source: declared
   - &id006
@@ -119,7 +119,7 @@ member_bands:
     name: SpringSource
     relationship: acquisition
     score_band: minimal
-    score_composite: 6.9
+    score_composite: 5.3
     slug: springsource
     source: declared
   - &id007
@@ -131,7 +131,7 @@ member_bands:
     name: Nicira Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 2.5
     slug: nicira-networks
     source: declared
   - &id008
@@ -143,64 +143,58 @@ member_bands:
     name: Octarine
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 2.5
     slug: octarine
     source: declared
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 4
-  items:
   - &id009
     acquired: 2017
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: vmware
     name: Apteligent
     relationship: acquisition
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: apteligent
     source: declared
   - &id010
     acquired: 2016
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: carbon-black
     name: Confer Technologies
     relationship: acquisition
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: confer
     source: declared
   - &id011
     acquired: 2020
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: vmware
     name: Datrium
     relationship: acquisition
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: datrium
     source: declared
   - &id012
     acquired: 2018
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: vmware
     name: Heptio
     relationship: acquisition
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: heptio
     source: declared
-  label: Unrated
+  label: Minimal
   open: false
 member_on_network: 12
 member_total: 12
@@ -220,7 +214,7 @@ members:
 members_unrated: []
 name: VMware
 overview: 'VMware publishes its API surface across 12 provider profiles indexed on the APIs.io network,
-  of which 12 carry a rating. The rated members span 51.3 points, from 56.3 down to 5.0.
+  of which 12 carry a rating. The rated members span 57.2 points, from 57.2 down to 0.0.
 
 
   Its highest-rated surfaces are CloudHealth, VMware Tanzu, Lastline, Carbon Black, AVI Networks.'
@@ -235,8 +229,8 @@ subfamilies:
   member_count: 1
   members:
   - name: Confer Technologies
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: confer
   name: Carbon Black
   on_network: true
@@ -249,5 +243,6 @@ tags:
 - Infrastructure
 - Virtualization
 - VMware
+- Data Center
 title: VMware
 ---

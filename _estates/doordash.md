@@ -11,24 +11,24 @@ description: DoorDash is an on-demand local commerce platform whose developer pr
   HS256 JSON Web Token the caller signs itself, and DoorDash serves each OpenAPI definition as plain YAML
   from developer.doordash.com.
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 7.3
-  composite_avg: 16.4
+  best: 5.6
+  composite_avg: 14.3
   composite_band: emerging
-  composite_raw: 5.8
+  composite_raw: 4.1
   developing: 0
   exemplar: 0
-  rating: 12.7
+  rating: 11.2
   scored: 3
-  spread: 2.3
+  spread: 2.2
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 3.4
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/doordash.png
@@ -46,9 +46,9 @@ member_bands:
     api_count: 0
     immediate_parent: doordash
     name: Bbot
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 7.3
+    score_composite: 5.6
     slug: bbot
     source: prose
   - &id002
@@ -58,9 +58,9 @@ member_bands:
     api_count: 0
     immediate_parent: doordash
     name: Caviar
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: caviar
     source: prose
   - &id003
@@ -70,9 +70,9 @@ member_bands:
     api_count: 0
     immediate_parent: doordash
     name: chowbotics
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: chowbotics
     source: prose
   label: Minimal
@@ -86,7 +86,7 @@ members:
 members_unrated: []
 name: Doordash
 overview: 'Doordash publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 2.3 points, from 7.3 down to 5.0.
+  of which 3 carry a rating. The rated members span 2.2 points, from 5.6 down to 3.4.
 
 
   Its highest-rated surfaces are Bbot, Caviar, chowbotics.'
@@ -101,7 +101,7 @@ subfamily_page_count: 0
 tags:
 - Delivery
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - On-Demand
 - Food Delivery
 - Local Commerce

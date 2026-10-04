@@ -16,24 +16,24 @@ description: 'Uniphore is an enterprise AI company — "The Business AI Company"
   which documents fifteen REST API families plus a webhook/SNMP health-alert surface without publishing
   a machine-readable contract.'
 estate_rating:
-  agent_avg: 11.5
+  agent_avg: 10.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.3
+  agent_raw: 10.6
   agent_ready: 1
   band: emerging
-  best: 37.7
-  composite_avg: 23.1
+  best: 39.2
+  composite_avg: 21.8
   composite_band: emerging
-  composite_raw: 23.9
+  composite_raw: 24.1
   developing: 0
   exemplar: 0
-  rating: 18.5
+  rating: 17.3
   scored: 3
-  spread: 32.4
+  spread: 36.4
   strength: 0
   strong: 0
-  worst: 5.3
+  worst: 2.8
 estate_root: null
 estate_root_name: null
 image: https://www.uniphore.com/wp-content/uploads/2025/12/cropped-Uniphore–Bug–Gradient–Light-192x192.webp
@@ -47,13 +47,13 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.4
+    agent_score: 29.2
     api_count: 1
     immediate_parent: uniphore
     name: Infoworks
     relationship: product
     score_band: thin
-    score_composite: 37.7
+    score_composite: 39.2
     slug: infoworks
     source: declared
   - &id002
@@ -63,9 +63,9 @@ member_bands:
     api_count: 2
     immediate_parent: uniphore
     name: ActionIQ
-    relationship: product
+    relationship: acquisition
     score_band: thin
-    score_composite: 28.6
+    score_composite: 30.4
     slug: actioniq
     source: prose
   label: Thin
@@ -81,9 +81,9 @@ member_bands:
     api_count: 0
     immediate_parent: uniphore
     name: Orby AI
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.3
+    score_composite: 2.8
     slug: orby-ai
     source: prose
   label: Minimal
@@ -97,7 +97,7 @@ members:
 members_unrated: []
 name: Uniphore
 overview: 'Uniphore publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 32.4 points, from 37.7 down to 5.3.
+  of which 3 carry a rating. The rated members span 36.4 points, from 39.2 down to 2.8.
 
 
   Its highest-rated surfaces are Infoworks, ActionIQ, Orby AI.'
@@ -116,11 +116,11 @@ tags:
 - Conversational AI
 - Customer Data Platform
 - Contact Center
-- Machine-Learning
+- Machine Learning
 - LLM
 - Enterprise Software
 - Automation
 - Customer Experience
-- Knowledge-Management
+- Knowledge Management
 title: Uniphore
 ---

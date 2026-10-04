@@ -7,24 +7,24 @@ description: Siemens is a global powerhouse in the fields of electrification, au
   infrastructure, and industry. With a focus on innovation and technology, Siemens is constantly pushing
   the boundaries to create a better future for society and the environment.
 estate_rating:
-  agent_avg: 12.7
+  agent_avg: 12.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 14.1
   agent_ready: 0
   band: emerging
-  best: 47.9
-  composite_avg: 23.7
+  best: 47.5
+  composite_avg: 21.9
   composite_band: emerging
-  composite_raw: 24.9
+  composite_raw: 23.9
   developing: 2
   exemplar: 0
-  rating: 19.3
+  rating: 18.0
   scored: 4
-  spread: 44.3
+  spread: 45.0
   strength: 2
   strong: 0
-  worst: 3.6
+  worst: 2.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siemens.png
@@ -44,7 +44,7 @@ member_bands:
     name: Siemens PLM
     relationship: product
     score_band: developing
-    score_composite: 47.9
+    score_composite: 47.5
     slug: siemens-plm
     source: declared
   - &id002
@@ -53,10 +53,10 @@ member_bands:
     agent_score: 28.1
     api_count: 2
     immediate_parent: siemens
-    name: Siemens MindSphere
+    name: Siemens Insights Hub (MindSphere)
     relationship: product
     score_band: developing
-    score_composite: 43.1
+    score_composite: 42.0
     slug: siemens-mindsphere
     source: declared
   label: Developing
@@ -71,24 +71,24 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: siemens
-    name: Mentor Graphics
+    name: Dresser-Rand Group
     relationship: product
     score_band: minimal
-    score_composite: 5.0
-    slug: mentor-graphics
-    source: declared
+    score_composite: 3.4
+    slug: dresser-rand-group
+    source: parent-company-property
   - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: siemens
-    name: Dresser-Rand Group
+    name: Mentor Graphics
     relationship: product
     score_band: minimal
-    score_composite: 3.6
-    slug: dresser-rand-group
-    source: parent-company-property
+    score_composite: 2.5
+    slug: mentor-graphics
+    source: declared
   label: Minimal
   open: false
 member_on_network: 4
@@ -101,10 +101,11 @@ members:
 members_unrated: []
 name: Siemens
 overview: 'Siemens publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 44.3 points, from 47.9 down to 3.6.
+  of which 4 carry a rating. The rated members span 45.0 points, from 47.5 down to 2.5.
 
 
-  Its highest-rated surfaces are Siemens PLM, Siemens MindSphere, Mentor Graphics, Dresser-Rand Group.'
+  Its highest-rated surfaces are Siemens PLM, Siemens Insights Hub (MindSphere), Dresser-Rand Group, Mentor
+  Graphics.'
 parent_provider: siemens
 permalink: /estates/siemens/
 slug: siemens
@@ -122,5 +123,6 @@ tags:
 - Industrial IoT
 - Smart Buildings
 - Digital Twin
+- Industrial
 title: Siemens
 ---

@@ -5,24 +5,24 @@ description: Gilead Sciences is a research-based biopharmaceutical company that 
   commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis,
   oncology, and inflammatory diseases.
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 3.3
-  composite_avg: 17.1
+  best: 3.7
+  composite_avg: 15.1
   composite_band: emerging
-  composite_raw: 3.1
+  composite_raw: 1.9
   developing: 0
   exemplar: 0
-  rating: 13.6
+  rating: 12.1
   scored: 2
-  spread: 0.4
+  spread: 3.7
   strength: 0
   strong: 0
-  worst: 2.9
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gilead-sciences.png
@@ -42,7 +42,7 @@ member_bands:
     name: Forty Seven *
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.3
+    score_composite: 3.7
     slug: forty-seven
     source: declared
   - &id002
@@ -51,11 +51,11 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: gilead-sciences
-    name: Arresto Biosciences
+    name: Cell Design Labs
     relationship: product
     score_band: minimal
-    score_composite: 2.9
-    slug: arresto-biosciences
+    score_composite: 0.0
+    slug: cell-design-labs
     source: parent-company-property
   label: Minimal
   open: false
@@ -69,11 +69,11 @@ member_bands:
     agent_score: null
     api_count: 0
     immediate_parent: gilead-sciences
-    name: Cell Design Labs
+    name: Arresto Biosciences
     relationship: product
     score_band: null
     score_composite: null
-    slug: cell-design-labs
+    slug: arresto-biosciences
     source: parent-company-property
   label: Unrated
   open: false
@@ -86,10 +86,10 @@ members:
 members_unrated: []
 name: Gilead Sciences
 overview: 'Gilead Sciences publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 0.4 points, from 3.3 down to 2.9.
+  network, of which 3 carry a rating. The rated members span 3.7 points, from 3.7 down to 0.0.
 
 
-  Its highest-rated surfaces are Forty Seven *, Arresto Biosciences, Cell Design Labs.'
+  Its highest-rated surfaces are Forty Seven *, Cell Design Labs, Arresto Biosciences.'
 parent_provider: gilead-sciences
 permalink: /estates/gilead-sciences/
 slug: gilead-sciences
@@ -104,7 +104,7 @@ tags:
 - Healthcare
 - Life Sciences
 - Clinical Trials
-- Open-Source
+- Open Source
 - Fortune 500
 title: Gilead Sciences
 ---

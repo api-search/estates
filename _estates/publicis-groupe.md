@@ -14,24 +14,24 @@ description: Publicis Groupe is the French-headquartered global marketing, commu
   the Block SDK for building iframe Blocks on Publicis Groupe's CoreAI platform. Epsilon and CJ Affiliate,
   which do publish hosted API contracts, are profiled in their own API Evangelist repositories.
 estate_rating:
-  agent_avg: 8.5
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.5
   agent_ready: 0
   band: emerging
-  best: 26.7
-  composite_avg: 20.6
+  best: 28.5
+  composite_avg: 19.3
   composite_band: emerging
-  composite_raw: 17.0
+  composite_raw: 17.3
   developing: 0
   exemplar: 0
-  rating: 15.8
+  rating: 14.7
   scored: 3
-  spread: 16.5
+  spread: 19.4
   strength: 0
   strong: 0
-  worst: 10.2
+  worst: 9.1
 estate_root: null
 estate_root_name: null
 image: https://www.publicisgroupe.com/themes/custom/publicis/front/src/images/theme/share.jpg
@@ -49,9 +49,9 @@ member_bands:
     api_count: 2
     immediate_parent: publicis-groupe
     name: Lotame Solutions
-    relationship: product
+    relationship: acquisition
     score_band: thin
-    score_composite: 26.7
+    score_composite: 28.5
     slug: lotame-solutions
     source: prose
   label: Thin
@@ -67,9 +67,9 @@ member_bands:
     api_count: 0
     immediate_parent: publicis-groupe
     name: Yieldify *
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 14.1
+    score_composite: 14.4
     slug: yieldify
     source: prose
   label: Emerging
@@ -85,9 +85,9 @@ member_bands:
     api_count: 0
     immediate_parent: publicis-groupe
     name: Profitero
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 10.2
+    score_composite: 9.1
     slug: profitero
     source: prose
   label: Minimal
@@ -101,7 +101,7 @@ members:
 members_unrated: []
 name: Publicis Groupe
 overview: 'Publicis Groupe publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 16.5 points, from 26.7 down to 10.2.
+  network, of which 3 carry a rating. The rated members span 19.4 points, from 28.5 down to 9.1.
 
 
   Its highest-rated surfaces are Lotame Solutions, Yieldify *, Profitero.'
@@ -123,7 +123,7 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - Engineering Metrics
-- Open-Source
+- Open Source
 - MCP
 - Agency Holding Company
 title: Publicis Groupe

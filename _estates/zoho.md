@@ -5,24 +5,24 @@ description: Zoho is a comprehensive cloud software suite offering 55+ integrate
   for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by
   over 130 million users worldwide.
 estate_rating:
-  agent_avg: 21.7
+  agent_avg: 21.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 24.5
+  agent_raw: 24.4
   agent_ready: 7
   band: thin
-  best: 75.7
-  composite_avg: 37.1
+  best: 78.6
+  composite_avg: 35.9
   composite_band: thin
-  composite_raw: 41.1
-  developing: 8
-  exemplar: 2
-  rating: 30.9
+  composite_raw: 40.2
+  developing: 6
+  exemplar: 1
+  rating: 30.1
   scored: 18
-  spread: 57.6
-  strength: 14
-  strong: 0
-  worst: 18.1
+  spread: 60.4
+  strength: 11
+  strong: 1
+  worst: 18.2
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
@@ -31,7 +31,7 @@ layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
@@ -42,9 +42,15 @@ member_bands:
     name: Zoho CRM
     relationship: product
     score_band: exemplar
-    score_composite: 75.7
+    score_composite: 78.6
     slug: zoho-crm
     source: declared
+  label: Exemplar
+  open: true
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 1
+  items:
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -53,15 +59,15 @@ member_bands:
     immediate_parent: zoho
     name: Zoho Campaigns
     relationship: product
-    score_band: exemplar
-    score_composite: 68.9
+    score_band: strong
+    score_composite: 65.0
     slug: zoho-campaigns
     source: declared
-  label: Exemplar
+  label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 8
+  count: 6
   items:
   - &id003
     acquired: null
@@ -72,7 +78,7 @@ member_bands:
     name: Zoho Inventory
     relationship: product
     score_band: developing
-    score_composite: 48.8
+    score_composite: 49.1
     slug: zoho-inventory
     source: declared
   - &id004
@@ -84,7 +90,7 @@ member_bands:
     name: Zoho People
     relationship: product
     score_band: developing
-    score_composite: 46.9
+    score_composite: 46.2
     slug: zoho-people
     source: declared
   - &id005
@@ -108,7 +114,7 @@ member_bands:
     name: Zoho Cliq
     relationship: product
     score_band: developing
-    score_composite: 45.7
+    score_composite: 45.6
     slug: zoho-cliq
     source: declared
   - &id007
@@ -120,7 +126,7 @@ member_bands:
     name: Zoho Sheet
     relationship: product
     score_band: developing
-    score_composite: 42.7
+    score_composite: 41.8
     slug: zoho-sheet
     source: declared
   - &id008
@@ -132,32 +138,8 @@ member_bands:
     name: Zoho Books
     relationship: product
     score_band: developing
-    score_composite: 42.6
+    score_composite: 40.9
     slug: zoho-books
-    source: declared
-  - &id009
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
-    api_count: 1
-    immediate_parent: zoho
-    name: Zoho Mail
-    relationship: product
-    score_band: developing
-    score_composite: 40.8
-    slug: zoho-mail
-    source: declared
-  - &id010
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 31.6
-    api_count: 7
-    immediate_parent: zoho
-    name: Zoho Analytics
-    relationship: product
-    score_band: developing
-    score_composite: 40.0
-    slug: zoho-analytics
     source: declared
   label: Developing
   open: false
@@ -165,7 +147,43 @@ member_bands:
   blurb: Limited public surface area
   count: 6
   items:
+  - &id009
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 31.6
+    api_count: 7
+    immediate_parent: zoho
+    name: Zoho Analytics
+    relationship: product
+    score_band: thin
+    score_composite: 39.1
+    slug: zoho-analytics
+    source: declared
+  - &id010
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.8
+    api_count: 1
+    immediate_parent: zoho
+    name: Zoho Mail
+    relationship: product
+    score_band: thin
+    score_composite: 39.0
+    slug: zoho-mail
+    source: declared
   - &id011
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 34.5
+    api_count: 1
+    immediate_parent: zoho
+    name: Zoho Writer
+    relationship: product
+    score_band: thin
+    score_composite: 38.3
+    slug: zoho-writer
+    source: declared
+  - &id012
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -174,20 +192,8 @@ member_bands:
     name: Zoho Creator
     relationship: product
     score_band: thin
-    score_composite: 38.0
+    score_composite: 38.2
     slug: zoho-creator
-    source: declared
-  - &id012
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 34.9
-    api_count: 1
-    immediate_parent: zoho
-    name: Zoho Writer
-    relationship: product
-    score_band: thin
-    score_composite: 38.0
-    slug: zoho-writer
     source: declared
   - &id013
     acquired: null
@@ -198,7 +204,7 @@ member_bands:
     name: Zoho Forms
     relationship: product
     score_band: thin
-    score_composite: 35.1
+    score_composite: 33.5
     slug: zoho-forms
     source: declared
   - &id014
@@ -210,9 +216,15 @@ member_bands:
     name: Zoho Projects
     relationship: product
     score_band: thin
-    score_composite: 32.7
+    score_composite: 30.2
     slug: zoho-projects
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 4
+  items:
   - &id015
     acquired: null
     agent_band: agent-aware
@@ -221,8 +233,8 @@ member_bands:
     immediate_parent: zoho
     name: Zoho Invoice
     relationship: product
-    score_band: thin
-    score_composite: 27.8
+    score_band: emerging
+    score_composite: 25.8
     slug: zoho-invoice
     source: declared
   - &id016
@@ -231,29 +243,23 @@ member_bands:
     agent_score: 15.5
     api_count: 1
     immediate_parent: zoho
-    name: Zoho Recruit
+    name: Zoho Desk
     relationship: product
-    score_band: thin
-    score_composite: 26.5
-    slug: zoho-recruit
+    score_band: emerging
+    score_composite: 24.2
+    slug: zoho-desk
     source: declared
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 2
-  items:
   - &id017
     acquired: null
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 1
     immediate_parent: zoho
-    name: Zoho Desk
+    name: Zoho Recruit
     relationship: product
     score_band: emerging
-    score_composite: 26.1
-    slug: zoho-desk
+    score_composite: 23.9
+    slug: zoho-recruit
     source: declared
   - &id018
     acquired: null
@@ -264,7 +270,7 @@ member_bands:
     name: Zoho Meeting
     relationship: product
     score_band: emerging
-    score_composite: 18.1
+    score_composite: 18.2
     slug: zoho-meeting
     source: declared
   label: Emerging
@@ -293,7 +299,7 @@ members:
 members_unrated: []
 name: Zoho
 overview: 'Zoho publishes its API surface across 18 provider profiles indexed on the APIs.io network,
-  of which 18 carry a rating. The rated members span 57.6 points, from 75.7 down to 18.1.
+  of which 18 carry a rating. The rated members span 60.4 points, from 78.6 down to 18.2.
 
 
   Its highest-rated surfaces are Zoho CRM, Zoho Campaigns, Zoho Inventory, Zoho People, Zoho Sign.'

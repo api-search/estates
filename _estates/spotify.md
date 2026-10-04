@@ -7,24 +7,24 @@ description: Spotify is the world's leading music streaming platform with 600M+ 
   OAuth 2.0 with scopes for user-authorized access. The API underwent significant changes in February
   2026 with new generic library endpoints and streamlined playlist management.
 estate_rating:
-  agent_avg: 7.1
+  agent_avg: 8.1
   agent_band: minimal
   agent_native: 0
-  agent_raw: 3.3
+  agent_raw: 5.0
   agent_ready: 0
   band: emerging
-  best: 35.9
-  composite_avg: 16.1
+  best: 33.9
+  composite_avg: 16.3
   composite_band: emerging
-  composite_raw: 10.7
+  composite_raw: 11.1
   developing: 0
   exemplar: 0
-  rating: 12.5
-  scored: 6
-  spread: 30.9
+  rating: 13.0
+  scored: 4
+  spread: 33.9
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spotify.png
@@ -42,16 +42,16 @@ member_bands:
     api_count: 1
     immediate_parent: spotify
     name: Megaphone
-    relationship: product
+    relationship: acquisition
     score_band: thin
-    score_composite: 35.9
+    score_composite: 33.9
     slug: megaphone
     source: prose
   label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 5
+  count: 3
   items:
   - &id002
     acquired: null
@@ -62,7 +62,7 @@ member_bands:
     name: SoundBetter
     relationship: product
     score_band: minimal
-    score_composite: 8.1
+    score_composite: 7.0
     slug: soundbetter
     source: parent-company-property
   - &id003
@@ -71,70 +71,58 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: spotify
-    name: Betty Labs
-    relationship: product
+    name: Cord Project
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: betty-labs
-    source: parent-company-property
+    score_composite: 3.4
+    slug: cordproject
+    source: prose
   - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: spotify
-    name: Cord *
-    relationship: product
+    name: The Echo Nest
+    relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
-    slug: cord
-    source: parent-company-property
-  - &id005
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: spotify
-    name: cordproject
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: cordproject
-    source: prose
-  - &id006
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: spotify
-    name: Locker Room *
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
-    slug: locker-room
+    score_composite: 0.0
+    slug: the-echo-nest
     source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 1
+  count: 2
   items:
-  - &id007
+  - &id005
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: spotify
-    name: The Echo Nest
+    name: Betty Labs
     relationship: product
     score_band: null
     score_composite: null
-    slug: the-echo-nest
+    slug: betty-labs
+    source: parent-company-property
+  - &id006
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: spotify
+    name: Locker Room *
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: locker-room
     source: prose
   label: Unrated
   open: false
-member_on_network: 7
-member_total: 7
+member_on_network: 6
+member_total: 6
 members:
 - *id001
 - *id002
@@ -142,14 +130,13 @@ members:
 - *id004
 - *id005
 - *id006
-- *id007
 members_unrated: []
 name: Spotify
-overview: 'Spotify publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 30.9 points, from 35.9 down to 5.0.
+overview: 'Spotify publishes its API surface across 6 provider profiles indexed on the APIs.io network,
+  of which 6 carry a rating. The rated members span 33.9 points, from 33.9 down to 0.0.
 
 
-  Its highest-rated surfaces are Megaphone, SoundBetter, Betty Labs, Cord *, cordproject.'
+  Its highest-rated surfaces are Megaphone, SoundBetter, Cord Project, The Echo Nest, Betty Labs.'
 parent_provider: spotify
 permalink: /estates/spotify/
 slug: spotify

@@ -9,24 +9,24 @@ description: ARGUS is the industry-standard suite of commercial real estate soft
   at 200+ universities worldwide. The ARGUS API provides integration capabilities across cloud-enabled
   ARGUS solutions.
 estate_rating:
-  agent_avg: 11.9
+  agent_avg: 11.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 12.5
   agent_ready: 0
   band: emerging
-  best: 42.3
-  composite_avg: 24.0
+  best: 41.2
+  composite_avg: 22.4
   composite_band: emerging
-  composite_raw: 26.3
+  composite_raw: 25.8
   developing: 1
   exemplar: 0
-  rating: 19.2
+  rating: 18.0
   scored: 3
-  spread: 32.5
+  spread: 33.1
   strength: 1
   strong: 0
-  worst: 9.8
+  worst: 8.1
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/argus.png
@@ -46,7 +46,7 @@ member_bands:
     name: ARGUS Enterprise
     relationship: product
     score_band: developing
-    score_composite: 42.3
+    score_composite: 41.2
     slug: argus-enterprise
     source: declared
   label: Developing
@@ -64,7 +64,7 @@ member_bands:
     name: ARGUS Developer
     relationship: product
     score_band: thin
-    score_composite: 26.7
+    score_composite: 28.0
     slug: argus-developer
     source: declared
   label: Thin
@@ -82,7 +82,7 @@ member_bands:
     name: Argus Software
     relationship: rebrand-predecessor
     score_band: minimal
-    score_composite: 9.8
+    score_composite: 8.1
     slug: argus-software
     source: declared
   label: Minimal
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: ARGUS
 overview: 'ARGUS publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 32.5 points, from 42.3 down to 9.8.
+  of which 3 carry a rating. The rated members span 33.1 points, from 41.2 down to 8.1.
 
 
   Its highest-rated surfaces are ARGUS Enterprise, ARGUS Developer, Argus Software.'
@@ -113,7 +113,7 @@ tags:
 - Asset Management
 - Commercial Real Estate
 - Fund Management
-- Portfolio-Management
+- Portfolio Management
 - Real Estate Software
 - Valuation
 title: ARGUS

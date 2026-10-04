@@ -5,24 +5,24 @@ description: Adobe provides APIs and developer resources for its creative, docum
   platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics,
   e-commerce, e-signatures, and many other Adobe products and services.
 estate_rating:
-  agent_avg: 14.9
+  agent_avg: 14.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.2
   agent_ready: 2
   band: emerging
-  best: 61.8
-  composite_avg: 26.1
-  composite_band: thin
-  composite_raw: 29.4
+  best: 62.6
+  composite_avg: 24.9
+  composite_band: emerging
+  composite_raw: 29.5
   developing: 0
   exemplar: 0
-  rating: 21.6
+  rating: 20.7
   scored: 5
-  spread: 56.5
+  spread: 58.9
   strength: 4
   strong: 2
-  worst: 5.3
+  worst: 3.7
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adobe.png
@@ -42,7 +42,7 @@ member_bands:
     name: Frame.io
     relationship: product
     score_band: strong
-    score_composite: 61.8
+    score_composite: 62.6
     slug: frameio
     source: prose
   - &id002
@@ -54,7 +54,7 @@ member_bands:
     name: Adobe Premiere Pro
     relationship: product
     score_band: strong
-    score_composite: 58.3
+    score_composite: 60.2
     slug: adobe-premiere
     source: declared
   label: Strong
@@ -70,9 +70,9 @@ member_bands:
     api_count: 1
     immediate_parent: adobe
     name: Rephrase.ai
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 11.6
+    score_composite: 11.2
     slug: rephraseai
     source: prose
   label: Emerging
@@ -90,7 +90,7 @@ member_bands:
     name: Behance
     relationship: product
     score_band: minimal
-    score_composite: 10.2
+    score_composite: 9.7
     slug: behance
     source: parent-company-property
   - &id005
@@ -102,23 +102,55 @@ member_bands:
     name: TubeMogul
     relationship: product
     score_band: minimal
-    score_composite: 5.3
+    score_composite: 3.7
     slug: tubemogul
     source: parent-company-property
   label: Minimal
   open: false
-member_on_network: 5
-member_total: 5
+- band: unrated
+  blurb: Not yet scored
+  count: 2
+  items:
+  - &id006
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: adobe
+    name: Frame
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: frame
+    source: prose
+  - &id007
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: adobe
+    name: Omniture
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: omniture
+    source: prose
+  label: Unrated
+  open: false
+member_on_network: 7
+member_total: 7
 members:
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
+- *id006
+- *id007
 members_unrated: []
 name: Adobe
-overview: 'Adobe publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 56.5 points, from 61.8 down to 5.3.
+overview: 'Adobe publishes its API surface across 7 provider profiles indexed on the APIs.io network,
+  of which 7 carry a rating. The rated members span 58.9 points, from 62.6 down to 3.7.
 
 
   Its highest-rated surfaces are Frame.io, Adobe Premiere Pro, Rephrase.ai, Behance, TubeMogul.'

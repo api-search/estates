@@ -7,24 +7,24 @@ description: Cisco Webex is a comprehensive collaboration platform offering APIs
   OAuth 2.0 authentication and provides separate API surfaces for messaging, video conferencing, cloud
   calling, admin management, and more.
 estate_rating:
-  agent_avg: 16.1
+  agent_avg: 15.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 20.7
+  agent_raw: 20.6
   agent_ready: 0
-  band: thin
-  best: 52.0
-  composite_avg: 32.0
+  band: emerging
+  best: 53.0
+  composite_avg: 30.5
   composite_band: thin
-  composite_raw: 41.4
+  composite_raw: 40.6
   developing: 3
   exemplar: 0
-  rating: 25.6
+  rating: 24.5
   scored: 5
-  spread: 19.8
+  spread: 22.1
   strength: 3
   strong: 0
-  worst: 32.2
+  worst: 30.9
 estate_root: cisco
 estate_root_name: Cisco
 image: https://developer.webex.com/images/webex-logo.png
@@ -44,19 +44,19 @@ member_bands:
     name: Cisco Expressway
     relationship: product
     score_band: developing
-    score_composite: 52.0
+    score_composite: 53.0
     slug: cisco-expressway
     source: declared
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.1
+    agent_score: 23.7
     api_count: 1
     immediate_parent: webex
     name: Cisco Webex Meetings
     relationship: product
     score_band: developing
-    score_composite: 46.4
+    score_composite: 45.1
     slug: cisco-webex-meetings
     source: declared
   - &id003
@@ -68,7 +68,7 @@ member_bands:
     name: Cisco Directory Connector
     relationship: product
     score_band: developing
-    score_composite: 40.3
+    score_composite: 40.2
     slug: cisco-directory-connector
     source: declared
   label: Developing
@@ -86,7 +86,7 @@ member_bands:
     name: Cisco Control Hub
     relationship: product
     score_band: thin
-    score_composite: 35.9
+    score_composite: 33.9
     slug: cisco-control-hub
     source: declared
   - &id005
@@ -98,7 +98,7 @@ member_bands:
     name: Cisco Collaboration Hybrid Solutions
     relationship: product
     score_band: thin
-    score_composite: 32.2
+    score_composite: 30.9
     slug: cisco-collaboration-hybrid-solutions
     source: declared
   label: Thin
@@ -114,7 +114,7 @@ members:
 members_unrated: []
 name: Webex
 overview: 'Webex publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 19.8 points, from 52.0 down to 32.2.
+  of which 5 carry a rating. The rated members span 22.1 points, from 53.0 down to 30.9.
 
 
   Its highest-rated surfaces are Cisco Expressway, Cisco Webex Meetings, Cisco Directory Connector, Cisco

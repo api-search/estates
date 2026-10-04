@@ -6,24 +6,24 @@ description: Nvidia is a Fortune 500 company that provides developer APIs and in
   and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU
   services.
 estate_rating:
-  agent_avg: 7.0
+  agent_avg: 6.1
   agent_band: minimal
   agent_native: 0
-  agent_raw: 4.4
+  agent_raw: 3.8
   agent_ready: 0
-  band: emerging
+  band: minimal
   best: 43.5
-  composite_avg: 15.2
+  composite_avg: 12.1
   composite_band: emerging
-  composite_raw: 11.0
+  composite_raw: 8.0
   developing: 1
   exemplar: 0
-  rating: 11.9
-  scored: 9
-  spread: 38.5
+  rating: 9.7
+  scored: 10
+  spread: 43.5
   strength: 1
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nvidia.png
@@ -55,20 +55,20 @@ member_bands:
   - &id002
     acquired: 2025
     agent_band: human-only
-    agent_score: 3.8
+    agent_score: 1.9
     api_count: 1
     immediate_parent: nvidia
     name: Lepton AI
     relationship: acquisition
     score_band: emerging
-    score_composite: 14.1
+    score_composite: 12.3
     slug: lepton-ai
     source: declared
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 7
+  count: 8
   items:
   - &id003
     acquired: null
@@ -79,7 +79,7 @@ member_bands:
     name: Cumulus Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.2
+    score_composite: 6.0
     slug: cumulus-networks
     source: declared
   - &id004
@@ -91,7 +91,7 @@ member_bands:
     name: Excelero Storage
     relationship: acquisition
     score_band: minimal
-    score_composite: 6.9
+    score_composite: 4.4
     slug: excelero-storage
     source: declared
   - &id005
@@ -103,7 +103,7 @@ member_bands:
     name: Deci AI
     relationship: acquisition
     score_band: minimal
-    score_composite: 6.8
+    score_composite: 4.2
     slug: deci-ai
     source: declared
   - &id006
@@ -115,7 +115,7 @@ member_bands:
     name: Augtera Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.3
+    score_composite: 3.6
     slug: augtera-networks
     source: declared
   - &id007
@@ -127,22 +127,10 @@ member_bands:
     name: DeepMap
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 3.4
     slug: deepmap
     source: declared
   - &id008
-    acquired: 2011
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: nvidia
-    name: icerasemi
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 5.0
-    slug: icerasemi
-    source: declared
-  - &id009
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -151,28 +139,34 @@ member_bands:
     name: SwiftStack
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.0
+    score_composite: 2.5
     slug: swiftstack
     source: declared
-  label: Minimal
-  open: false
-- band: unrated
-  blurb: Not yet scored
-  count: 1
-  items:
+  - &id009
+    acquired: 2011
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: nvidia
+    name: icerasemi
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: icerasemi
+    source: declared
   - &id010
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 1
     immediate_parent: nvidia
     name: Shoreline
     relationship: acquisition
-    score_band: null
-    score_composite: null
+    score_band: minimal
+    score_composite: 0.0
     slug: shoreline
     source: declared
-  label: Unrated
+  label: Minimal
   open: false
 member_on_network: 10
 member_total: 10
@@ -190,7 +184,7 @@ members:
 members_unrated: []
 name: Nvidia
 overview: 'Nvidia publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 38.5 points, from 43.5 down to 5.0.
+  of which 10 carry a rating. The rated members span 43.5 points, from 43.5 down to 0.0.
 
 
   Its highest-rated surfaces are NVIDIA Run:ai, Lepton AI, Cumulus Networks, Excelero Storage, Deci AI.'
@@ -205,7 +199,7 @@ subfamily_page_count: 0
 tags:
 - GPU
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Computing
 - Graphics
 - Fortune 1000

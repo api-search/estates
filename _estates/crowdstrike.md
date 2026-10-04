@@ -11,24 +11,24 @@ description: 'CrowdStrike is a US cybersecurity company and Fortune 1000 constit
   for building Foundry apps. CrowdStrike does not publish an OpenAPI document, and API access requires
   a Falcon subscription — the API itself is included in every paid bundle.'
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
   agent_native: 0
-  agent_raw: 1.7
+  agent_raw: 2.5
   agent_ready: 0
   band: emerging
-  best: 27.2
-  composite_avg: 20.2
+  best: 29.9
+  composite_avg: 21.0
   composite_band: emerging
-  composite_raw: 16.1
+  composite_raw: 22.5
   developing: 0
   exemplar: 0
-  rating: 15.3
-  scored: 3
-  spread: 22.2
+  rating: 15.9
+  scored: 2
+  spread: 14.8
   strength: 0
   strong: 0
-  worst: 5.0
+  worst: 15.1
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crowdstrike.png
@@ -48,7 +48,7 @@ member_bands:
     name: Adaptive Shield
     relationship: acquisition
     score_band: thin
-    score_composite: 27.2
+    score_composite: 29.9
     slug: adaptive-shield
     source: declared
   label: Thin
@@ -66,28 +66,28 @@ member_bands:
     name: Humio
     relationship: product
     score_band: emerging
-    score_composite: 16.0
+    score_composite: 15.1
     slug: humio
     source: parent-company-property
   label: Emerging
   open: false
-- band: minimal
-  blurb: Almost no public developer surface
+- band: unrated
+  blurb: Not yet scored
   count: 1
   items:
   - &id003
     acquired: null
-    agent_band: human-only
-    agent_score: 0.0
+    agent_band: null
+    agent_score: null
     api_count: 0
     immediate_parent: crowdstrike
     name: Bionic Stork
     relationship: product
-    score_band: minimal
-    score_composite: 5.0
+    score_band: null
+    score_composite: null
     slug: bionic-stork
     source: parent-company-property
-  label: Minimal
+  label: Unrated
   open: false
 member_on_network: 3
 member_total: 3
@@ -98,7 +98,7 @@ members:
 members_unrated: []
 name: CrowdStrike
 overview: 'CrowdStrike publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 22.2 points, from 27.2 down to 5.0.
+  of which 3 carry a rating. The rated members span 14.8 points, from 29.9 down to 15.1.
 
 
   Its highest-rated surfaces are Adaptive Shield, Humio, Bionic Stork.'

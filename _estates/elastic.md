@@ -1,5 +1,5 @@
 ---
-api_total: 14
+api_total: 15
 category: Estates
 description: Elastic is a software company that builds search-powered solutions for observability, security,
   and search use cases. The Elastic Stack (Elasticsearch, Kibana, and related tools) lets organizations
@@ -7,24 +7,24 @@ description: Elastic is a software company that builds search-powered solutions 
   delivers managed Elasticsearch and Kibana deployments with REST APIs for both data operations and deployment
   management.
 estate_rating:
-  agent_avg: 18.5
+  agent_avg: 19.5
   agent_band: emerging
-  agent_native: 1
-  agent_raw: 23.4
-  agent_ready: 2
+  agent_native: 0
+  agent_raw: 28.4
+  agent_ready: 3
   band: thin
-  best: 76.7
-  composite_avg: 31.3
+  best: 78.5
+  composite_avg: 33.8
   composite_band: thin
-  composite_raw: 37.5
+  composite_raw: 47.1
   developing: 1
   exemplar: 1
-  rating: 26.2
-  scored: 7
-  spread: 71.7
+  rating: 28.1
+  scored: 5
+  spread: 58.1
   strength: 6
   strong: 1
-  worst: 5.0
+  worst: 20.4
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastic.png
@@ -37,14 +37,14 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-native
-    agent_score: 48.8
-    api_count: 3
+    agent_band: agent-ready
+    agent_score: 46.4
+    api_count: 11
     immediate_parent: elastic
-    name: Elastic Stack (ELK Stack)
+    name: Elastic Stack
     relationship: product
     score_band: exemplar
-    score_composite: 76.7
+    score_composite: 78.5
     slug: elk-stack
     source: declared
   label: Exemplar
@@ -56,13 +56,13 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.3
+    agent_score: 29.1
     api_count: 1
     immediate_parent: elastic
     name: Elastic Observability
     relationship: product
     score_band: strong
-    score_composite: 58.4
+    score_composite: 59.5
     slug: elastic-observability
     source: declared
   label: Strong
@@ -80,7 +80,7 @@ member_bands:
     name: Elasticsearch
     relationship: product
     score_band: developing
-    score_composite: 41.8
+    score_composite: 42.7
     slug: elasticsearch
     source: declared
   label: Developing
@@ -98,28 +98,16 @@ member_bands:
     name: Kibana
     relationship: product
     score_band: thin
-    score_composite: 34.8
+    score_composite: 34.6
     slug: kibana
     source: declared
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 2
+  count: 1
   items:
   - &id005
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 17.3
-    api_count: 7
-    immediate_parent: elastic
-    name: Elastic Stack
-    relationship: product
-    score_band: emerging
-    score_composite: 25.1
-    slug: elastic-stack
-    source: declared
-  - &id006
     acquired: null
     agent_band: human-only
     agent_score: 5.0
@@ -128,31 +116,31 @@ member_bands:
     name: Swiftype
     relationship: product
     score_band: emerging
-    score_composite: 20.5
+    score_composite: 20.4
     slug: swiftype
     source: parent-company-property
   label: Emerging
   open: false
-- band: minimal
-  blurb: Almost no public developer surface
+- band: unrated
+  blurb: Not yet scored
   count: 1
   items:
-  - &id007
+  - &id006
     acquired: null
-    agent_band: human-only
-    agent_score: 0.0
+    agent_band: null
+    agent_score: null
     api_count: 0
     immediate_parent: elastic
     name: Cmd *
-    relationship: product
-    score_band: minimal
-    score_composite: 5.0
+    relationship: acquisition
+    score_band: null
+    score_composite: null
     slug: cmd
     source: prose
-  label: Minimal
+  label: Unrated
   open: false
-member_on_network: 7
-member_total: 7
+member_on_network: 6
+member_total: 6
 members:
 - *id001
 - *id002
@@ -160,15 +148,13 @@ members:
 - *id004
 - *id005
 - *id006
-- *id007
 members_unrated: []
 name: Elastic
-overview: 'Elastic publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 71.7 points, from 76.7 down to 5.0.
+overview: 'Elastic publishes its API surface across 6 provider profiles indexed on the APIs.io network,
+  of which 6 carry a rating. The rated members span 58.1 points, from 78.5 down to 20.4.
 
 
-  Its highest-rated surfaces are Elastic Stack (ELK Stack), Elastic Observability, Elasticsearch, Kibana,
-  Elastic Stack.'
+  Its highest-rated surfaces are Elastic Stack, Elastic Observability, Elasticsearch, Kibana, Swiftype.'
 parent_provider: elastic
 permalink: /estates/elastic/
 slug: elastic
@@ -184,5 +170,6 @@ tags:
 - Security
 - Visualization
 - Cloud
+- Monitoring
 title: Elastic
 ---

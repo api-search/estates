@@ -8,24 +8,24 @@ description: Abstract API is a platform that offers a wide range of API services
   generation. Abstract API provides a seamless way for developers to access powerful features without
   having to build them from scratch.
 estate_rating:
-  agent_avg: 10.4
-  agent_band: emerging
+  agent_avg: 9.8
+  agent_band: minimal
   agent_native: 0
   agent_raw: 8.8
   agent_ready: 1
   band: emerging
-  best: 35.8
-  composite_avg: 19.1
+  best: 33.6
+  composite_avg: 16.8
   composite_band: emerging
-  composite_raw: 14.6
+  composite_raw: 12.2
   developing: 0
   exemplar: 0
-  rating: 15.6
+  rating: 14.0
   scored: 4
-  spread: 28.2
+  spread: 28.5
   strength: 0
   strong: 0
-  worst: 7.6
+  worst: 5.1
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abstract-api.png
@@ -45,7 +45,7 @@ member_bands:
     name: Abstract API Phone Validation
     relationship: product
     score_band: thin
-    score_composite: 35.8
+    score_composite: 33.6
     slug: abstractapi-phone
     source: declared
   label: Thin
@@ -63,7 +63,7 @@ member_bands:
     name: Email Validation
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: email-validation
     source: declared
   - &id003
@@ -75,7 +75,7 @@ member_bands:
     name: IP Geolocation
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: ip-geolocation
     source: declared
   - &id004
@@ -87,7 +87,7 @@ member_bands:
     name: Phone Validation
     relationship: product
     score_band: minimal
-    score_composite: 7.6
+    score_composite: 5.1
     slug: phone-validation
     source: declared
   label: Minimal
@@ -102,7 +102,7 @@ members:
 members_unrated: []
 name: Abstract API
 overview: 'Abstract API publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 28.2 points, from 35.8 down to 7.6.
+  of which 4 carry a rating. The rated members span 28.5 points, from 33.6 down to 5.1.
 
 
   Its highest-rated surfaces are Abstract API Phone Validation, Email Validation, IP Geolocation, Phone
@@ -120,7 +120,7 @@ tags:
 - Company Enrichment
 - Contacts
 - Currency
-- Email Validation
+- Email Verification
 - Exchange Rates
 - IBAN Validation
 - Image Processing

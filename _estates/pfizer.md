@@ -4,24 +4,24 @@ category: Estates
 description: Pfizer is a Fortune 500 American multinational pharmaceutical and biotechnology corporation
   that researches, develops, and manufactures medicines and vaccines for a wide range of medical disciplines.
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 3.3
-  composite_avg: 15.2
+  best: 3.7
+  composite_avg: 13.9
   composite_band: emerging
-  composite_raw: 2.6
+  composite_raw: 3.2
   developing: 0
   exemplar: 0
-  rating: 12.0
+  rating: 11.0
   scored: 3
-  spread: 1.1
+  spread: 0.9
   strength: 0
   strong: 0
-  worst: 2.2
+  worst: 2.8
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pfizer.png
@@ -39,9 +39,9 @@ member_bands:
     api_count: 0
     immediate_parent: pfizer
     name: Lucira Health
-    relationship: product
+    relationship: acquisition
     score_band: minimal
-    score_composite: 3.3
+    score_composite: 3.7
     slug: lucira-health
     source: prose
   - &id002
@@ -50,11 +50,11 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: pfizer
-    name: Hospira
-    relationship: product
+    name: Trillium Therapeutics
+    relationship: acquisition
     score_band: minimal
-    score_composite: 2.4
-    slug: hospira
+    score_composite: 3.0
+    slug: trillium-therapeutics
     source: prose
   - &id003
     acquired: null
@@ -62,11 +62,11 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: pfizer
-    name: Trillium Therapeutics
-    relationship: product
+    name: Hospira
+    relationship: acquisition
     score_band: minimal
-    score_composite: 2.2
-    slug: trillium-therapeutics
+    score_composite: 2.8
+    slug: hospira
     source: prose
   label: Minimal
   open: false
@@ -79,10 +79,10 @@ members:
 members_unrated: []
 name: Pfizer
 overview: 'Pfizer publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 1.1 points, from 3.3 down to 2.2.
+  of which 3 carry a rating. The rated members span 0.9 points, from 3.7 down to 2.8.
 
 
-  Its highest-rated surfaces are Lucira Health, Hospira, Trillium Therapeutics.'
+  Its highest-rated surfaces are Lucira Health, Trillium Therapeutics, Hospira.'
 parent_provider: pfizer
 permalink: /estates/pfizer/
 slug: pfizer

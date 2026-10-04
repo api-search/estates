@@ -4,24 +4,24 @@ category: Estates
 description: Freshworks is a software company that develops cloud-based business software including customer
   support, IT service management, sales force automation, marketing automation, and HR applications.
 estate_rating:
-  agent_avg: 20.5
+  agent_avg: 17.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 27.9
-  agent_ready: 3
-  band: thin
-  best: 66.1
-  composite_avg: 31.1
+  agent_raw: 22.0
+  agent_ready: 2
+  band: emerging
+  best: 66.4
+  composite_avg: 26.4
   composite_band: thin
-  composite_raw: 38.2
+  composite_raw: 30.7
   developing: 0
   exemplar: 0
-  rating: 26.9
-  scored: 6
-  spread: 43.0
+  rating: 22.7
+  scored: 7
+  spread: 66.4
   strength: 2
   strong: 1
-  worst: 23.1
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshworks.png
@@ -41,7 +41,7 @@ member_bands:
     name: FireHydrant
     relationship: product
     score_band: strong
-    score_composite: 66.1
+    score_composite: 66.4
     slug: firehydrant
     source: prose
   label: Strong
@@ -53,26 +53,26 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.5
-    api_count: 1
-    immediate_parent: freshworks
-    name: Freshteam
-    relationship: product
-    score_band: thin
-    score_composite: 37.0
-    slug: freshteam
-    source: declared
-  - &id003
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 21.6
+    agent_score: 21.2
     api_count: 1
     immediate_parent: freshworks
     name: Freshchat
     relationship: product
     score_band: thin
-    score_composite: 35.2
+    score_composite: 34.7
     slug: freshchat
+    source: declared
+  - &id003
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 42.1
+    api_count: 1
+    immediate_parent: freshworks
+    name: Freshservice
+    relationship: product
+    score_band: thin
+    score_composite: 33.1
+    slug: freshservice
     source: declared
   - &id004
     acquired: null
@@ -83,20 +83,20 @@ member_bands:
     name: Freshsales
     relationship: product
     score_band: thin
-    score_composite: 34.2
+    score_composite: 33.0
     slug: freshsales
     source: declared
   - &id005
     acquired: null
-    agent_band: agent-ready
-    agent_score: 42.1
+    agent_band: agent-aware
+    agent_score: 21.5
     api_count: 1
     immediate_parent: freshworks
-    name: Freshservice
+    name: Freshteam
     relationship: product
     score_band: thin
-    score_composite: 33.4
-    slug: freshservice
+    score_composite: 32.5
+    slug: freshteam
     source: declared
   label: Thin
   open: false
@@ -106,35 +106,35 @@ member_bands:
   items:
   - &id006
     acquired: null
-    agent_band: agent-ready
-    agent_score: 30.6
+    agent_band: agent-aware
+    agent_score: 17.6
     api_count: 1
     immediate_parent: firehydrant
     name: Blameless
     relationship: product
     score_band: emerging
-    score_composite: 23.1
+    score_composite: 15.2
     slug: blameless
     source: parent-company-property
   label: Emerging
   open: false
-- band: unrated
-  blurb: Not yet scored
+- band: minimal
+  blurb: Almost no public developer surface
   count: 1
   items:
   - &id007
     acquired: null
-    agent_band: null
-    agent_score: null
+    agent_band: human-only
+    agent_score: 0.0
     api_count: 0
     immediate_parent: freshworks
     name: Natero
-    relationship: product
-    score_band: null
-    score_composite: null
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
     slug: natero
     source: prose
-  label: Unrated
+  label: Minimal
   open: false
 member_on_network: 7
 member_total: 7
@@ -149,10 +149,10 @@ members:
 members_unrated: []
 name: Freshworks
 overview: 'Freshworks publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 43.0 points, from 66.1 down to 23.1.
+  of which 7 carry a rating. The rated members span 66.4 points, from 66.4 down to 0.0.
 
 
-  Its highest-rated surfaces are FireHydrant, Freshteam, Freshchat, Freshsales, Freshservice.'
+  Its highest-rated surfaces are FireHydrant, Freshchat, Freshservice, Freshsales, Freshteam.'
 parent_provider: freshworks
 permalink: /estates/freshworks/
 slug: freshworks
@@ -165,7 +165,7 @@ subfamilies:
   members:
   - name: Blameless
     score_band: emerging
-    score_composite: 23.1
+    score_composite: 15.2
     slug: blameless
   name: FireHydrant
   on_network: true

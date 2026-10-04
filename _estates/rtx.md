@@ -8,24 +8,24 @@ description: 'RTX Corporation is a leading American aerospace and defense compan
   software including SPARQL triple stores, NLP frameworks, and TAK ecosystem plugins for government and
   military situational awareness platforms.'
 estate_rating:
-  agent_avg: 10.7
-  agent_band: emerging
+  agent_avg: 9.4
+  agent_band: minimal
   agent_native: 0
-  agent_raw: 10.0
+  agent_raw: 8.5
   agent_ready: 2
   band: emerging
-  best: 38.1
-  composite_avg: 18.2
+  best: 36.6
+  composite_avg: 15.5
   composite_band: emerging
-  composite_raw: 14.5
+  composite_raw: 12.0
   developing: 0
   exemplar: 0
-  rating: 15.2
-  scored: 6
-  spread: 34.7
+  rating: 13.1
+  scored: 7
+  spread: 34.1
   strength: 0
   strong: 0
-  worst: 3.4
+  worst: 2.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rtx.png
@@ -45,7 +45,7 @@ member_bands:
     name: Rockwell Collins
     relationship: product
     score_band: thin
-    score_composite: 38.1
+    score_composite: 36.6
     slug: rockwell-collins
     source: parent-company-property
   - &id002
@@ -57,14 +57,14 @@ member_bands:
     name: United Technologies
     relationship: product
     score_band: thin
-    score_composite: 28.8
+    score_composite: 28.4
     slug: united-technologies
     source: declared
   label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 4
+  count: 5
   items:
   - &id003
     acquired: null
@@ -75,7 +75,7 @@ member_bands:
     name: B/E Aerospace
     relationship: product
     score_band: minimal
-    score_composite: 7.2
+    score_composite: 4.7
     slug: b-e-aerospace
     source: parent-company-property
   - &id004
@@ -84,11 +84,11 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: rtx
-    name: BBN
+    name: Raytheon
     relationship: product
     score_band: minimal
-    score_composite: 5.0
-    slug: bbn
+    score_composite: 4.6
+    slug: raytheon
     source: declared
   - &id005
     acquired: null
@@ -96,28 +96,40 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: rtx
-    name: Raytheon
-    relationship: product
+    name: BBN Technologies
+    relationship: subsidiary
     score_band: minimal
-    score_composite: 4.2
-    slug: raytheon
-    source: declared
+    score_composite: 3.7
+    slug: bbn-technologies
+    source: prose
   - &id006
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
     immediate_parent: rtx
-    name: BBN Technologies
-    relationship: product
+    name: Pratt & Whitney
+    relationship: subsidiary
     score_band: minimal
     score_composite: 3.4
-    slug: bbn-technologies
+    slug: pratt-and-whitney
     source: prose
+  - &id007
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: rtx
+    name: BBN
+    relationship: product
+    score_band: minimal
+    score_composite: 2.5
+    slug: bbn
+    source: declared
   label: Minimal
   open: false
-member_on_network: 6
-member_total: 6
+member_on_network: 7
+member_total: 7
 members:
 - *id001
 - *id002
@@ -125,13 +137,14 @@ members:
 - *id004
 - *id005
 - *id006
+- *id007
 members_unrated: []
 name: RTX
-overview: 'RTX publishes its API surface across 6 provider profiles indexed on the APIs.io network, of
-  which 6 carry a rating. The rated members span 34.7 points, from 38.1 down to 3.4.
+overview: 'RTX publishes its API surface across 7 provider profiles indexed on the APIs.io network, of
+  which 7 carry a rating. The rated members span 34.1 points, from 36.6 down to 2.5.
 
 
-  Its highest-rated surfaces are Rockwell Collins, United Technologies, B/E Aerospace, BBN, Raytheon.'
+  Its highest-rated surfaces are Rockwell Collins, United Technologies, B/E Aerospace, Raytheon, BBN Technologies.'
 parent_provider: rtx
 permalink: /estates/rtx/
 slug: rtx
@@ -144,11 +157,11 @@ subfamilies:
   members:
   - name: Rockwell Collins
     score_band: thin
-    score_composite: 38.1
+    score_composite: 36.6
     slug: rockwell-collins
   - name: B/E Aerospace
     score_band: minimal
-    score_composite: 7.2
+    score_composite: 4.7
     slug: b-e-aerospace
   name: United Technologies
   on_network: true

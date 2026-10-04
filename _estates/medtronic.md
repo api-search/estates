@@ -4,24 +4,24 @@ category: Estates
 description: Medtronic is a major US corporation and Fortune 1000 company. The Medtronic API provides
   programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 estate_rating:
-  agent_avg: 5.8
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 10.5
-  composite_avg: 13.4
+  best: 10.2
+  composite_avg: 13.5
   composite_band: emerging
-  composite_raw: 4.1
+  composite_raw: 5.0
   developing: 0
   exemplar: 0
-  rating: 10.4
-  scored: 5
-  spread: 8.3
+  rating: 10.5
+  scored: 4
+  spread: 7.2
   strength: 0
   strong: 0
-  worst: 2.2
+  worst: 3.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medtronic.png
@@ -30,7 +30,7 @@ layout: estate
 member_bands:
 - band: minimal
   blurb: Almost no public developer surface
-  count: 5
+  count: 4
   items:
   - &id001
     acquired: '2026-07-16'
@@ -41,7 +41,7 @@ member_bands:
     name: SPR Therapeutics
     relationship: acquisition
     score_band: minimal
-    score_composite: 10.5
+    score_composite: 10.2
     slug: spr-therapeutics
     source: declared
   - &id002
@@ -53,7 +53,7 @@ member_bands:
     name: digitalsurgery
     relationship: product
     score_band: minimal
-    score_composite: 3.3
+    score_composite: 3.6
     slug: digitalsurgery
     source: parent-company-property
   - &id003
@@ -62,25 +62,13 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: medtronic
-    name: Corventis
-    relationship: product
-    score_band: minimal
-    score_composite: 2.2
-    slug: corventis
-    source: parent-company-property
-  - &id004
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    immediate_parent: medtronic
     name: Intersect ENT
     relationship: product
     score_band: minimal
-    score_composite: 2.2
+    score_composite: 3.0
     slug: intersect-ent
     source: declared
-  - &id005
+  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -89,10 +77,28 @@ member_bands:
     name: Kanghui Medical
     relationship: product
     score_band: minimal
-    score_composite: 2.2
+    score_composite: 3.0
     slug: kanghui-medical
     source: parent-company-property
   label: Minimal
+  open: false
+- band: unrated
+  blurb: Not yet scored
+  count: 1
+  items:
+  - &id005
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    immediate_parent: medtronic
+    name: Corventis
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: corventis
+    source: parent-company-property
+  label: Unrated
   open: false
 member_on_network: 5
 member_total: 5
@@ -105,10 +111,10 @@ members:
 members_unrated: []
 name: Medtronic
 overview: 'Medtronic publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 8.3 points, from 10.5 down to 2.2.
+  of which 5 carry a rating. The rated members span 7.2 points, from 10.2 down to 3.0.
 
 
-  Its highest-rated surfaces are SPR Therapeutics, digitalsurgery, Corventis, Intersect ENT, Kanghui Medical.'
+  Its highest-rated surfaces are SPR Therapeutics, digitalsurgery, Intersect ENT, Kanghui Medical, Corventis.'
 parent_provider: medtronic
 permalink: /estates/medtronic/
 slug: medtronic

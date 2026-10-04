@@ -11,51 +11,51 @@ description: AOL is a consumer internet media and communications brand — AOL.c
   for that identity stack is hosted by Yahoo Inc., which runs a sibling deployment of the same Oath-era
   OAuth 2.0 / OIDC platform.
 estate_rating:
-  agent_avg: 11.1
-  agent_band: emerging
+  agent_avg: 7.2
+  agent_band: minimal
   agent_native: 0
-  agent_raw: 10.0
+  agent_raw: 1.4
   agent_ready: 0
   band: emerging
-  best: 40.5
-  composite_avg: 22.7
+  best: 21.8
+  composite_avg: 15.5
   composite_band: emerging
-  composite_raw: 22.8
-  developing: 1
+  composite_raw: 7.3
+  developing: 0
   exemplar: 0
-  rating: 18.1
-  scored: 2
-  spread: 35.5
-  strength: 1
+  rating: 12.2
+  scored: 3
+  spread: 21.8
+  strength: 0
   strong: 0
-  worst: 5.0
+  worst: 0.0
 estate_root: verizon
 estate_root_name: Verizon
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aol.png
 is_subfamily: true
 layout: estate
 member_bands:
-- band: developing
-  blurb: Usable, with meaningful gaps to close
+- band: emerging
+  blurb: Early or largely undocumented
   count: 1
   items:
   - &id001
     acquired: null
-    agent_band: agent-aware
-    agent_score: 20.0
+    agent_band: human-only
+    agent_score: 4.3
     api_count: 1
     immediate_parent: aol
     name: TechCrunch
     relationship: product
-    score_band: developing
-    score_composite: 40.5
+    score_band: emerging
+    score_composite: 21.8
     slug: techcrunch
     source: parent-company-property
-  label: Developing
+  label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 1
+  count: 2
   items:
   - &id002
     acquired: null
@@ -63,42 +63,42 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     immediate_parent: aol
-    name: Convertro, Inc.
+    name: Outside.in
     relationship: product
     score_band: minimal
-    score_composite: 5.0
-    slug: convertro-inc
+    score_composite: 0.0
+    slug: outsidein
     source: parent-company-property
+  - &id003
+    acquired: 2010-09
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    immediate_parent: aol
+    name: Thing Labs
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: thing-labs
+    source: prose
   label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 2
+  count: 1
   items:
-  - &id003
+  - &id004
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
     immediate_parent: aol
-    name: Outside.in
+    name: Convertro, Inc.
     relationship: product
     score_band: null
     score_composite: null
-    slug: outsidein
+    slug: convertro-inc
     source: parent-company-property
-  - &id004
-    acquired: 2010-09
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: aol
-    name: Thing Labs
-    relationship: product
-    score_band: null
-    score_composite: null
-    slug: thing-labs
-    source: prose
   label: Unrated
   open: false
 member_on_network: 4
@@ -111,10 +111,10 @@ members:
 members_unrated: []
 name: AOL
 overview: 'AOL publishes its API surface across 4 provider profiles indexed on the APIs.io network, of
-  which 4 carry a rating. The rated members span 35.5 points, from 40.5 down to 5.0.
+  which 4 carry a rating. The rated members span 21.8 points, from 21.8 down to 0.0.
 
 
-  Its highest-rated surfaces are TechCrunch, Convertro, Inc., Outside.in, Thing Labs.'
+  Its highest-rated surfaces are TechCrunch, Outside.in, Thing Labs, Convertro, Inc..'
 parent_provider: aol
 permalink: /estates/aol/
 slug: aol

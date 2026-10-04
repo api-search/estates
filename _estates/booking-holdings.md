@@ -1,52 +1,52 @@
 ---
-api_total: 17
+api_total: 18
 category: Estates
 description: Booking Holdings is the world's leading provider of online travel and related services, operating
   a portfolio of brands including Booking.com, Priceline, Agoda, KAYAK, OpenTable, Rentalcars.com, Rocketmiles,
   FareHarbor, HotelsCombined, Cheapflights, and Momondo. The company connects travelers with accommodations,
   flights, rental cars, restaurant reservations, and travel experiences worldwide.
 estate_rating:
-  agent_avg: 13.6
+  agent_avg: 12.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 17.0
+  agent_raw: 16.4
   agent_ready: 1
   band: emerging
-  best: 70.3
-  composite_avg: 28.3
+  best: 66.3
+  composite_avg: 26.4
   composite_band: thin
-  composite_raw: 37.6
+  composite_raw: 36.4
   developing: 0
-  exemplar: 1
-  rating: 22.4
+  exemplar: 0
+  rating: 21.0
   scored: 3
-  spread: 51.0
-  strength: 3
-  strong: 0
-  worst: 19.3
+  spread: 45.9
+  strength: 2
+  strong: 1
+  worst: 20.4
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/booking-holdings.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: exemplar
-  blurb: Complete, well-documented, and agent-ready
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id001
     acquired: null
     agent_band: agent-ready
     agent_score: 46.1
-    api_count: 15
+    api_count: 16
     immediate_parent: booking-holdings
     name: Booking.com
     relationship: product
-    score_band: exemplar
-    score_composite: 70.3
+    score_band: strong
+    score_composite: 66.3
     slug: booking-com
     source: prose
-  label: Exemplar
+  label: Strong
   open: true
 - band: emerging
   blurb: Early or largely undocumented
@@ -55,13 +55,13 @@ member_bands:
   - &id002
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 2
     immediate_parent: booking-holdings
     name: OpenTable
-    relationship: product
+    relationship: acquisition
     score_band: emerging
-    score_composite: 23.2
+    score_composite: 22.5
     slug: opentable
     source: prose
   - &id003
@@ -73,7 +73,7 @@ member_bands:
     name: Kayak
     relationship: product
     score_band: emerging
-    score_composite: 19.3
+    score_composite: 20.4
     slug: kayak
     source: prose
   label: Emerging
@@ -87,7 +87,7 @@ members:
 members_unrated: []
 name: Booking Holdings
 overview: 'Booking Holdings publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 51.0 points, from 70.3 down to 19.3.
+  network, of which 3 carry a rating. The rated members span 45.9 points, from 66.3 down to 20.4.
 
 
   Its highest-rated surfaces are Booking.com, OpenTable, Kayak.'
