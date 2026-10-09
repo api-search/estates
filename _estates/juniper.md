@@ -6,19 +6,19 @@ description: Juniper Networks (an HPE company since 2025) builds AI-native netwo
   spans the Mist cloud API (1,059 REST operations), Apstra data-center automation, Junos device automation
   over NETCONF/YANG, Junos Telemetry Interface gRPC streaming, and three first-party MCP servers.
 estate_rating:
-  agent_avg: 12.4
+  agent_avg: 12.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 13.8
   agent_ready: 1
   band: emerging
   best: 60.2
-  composite_avg: 23.1
+  composite_avg: 23.0
   composite_band: emerging
   composite_raw: 25.3
   developing: 1
   exemplar: 0
-  rating: 18.8
+  rating: 18.7
   scored: 6
   spread: 60.2
   strength: 3
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: juniper
     name: Mist
     relationship: product
@@ -57,6 +58,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: juniper
     name: Juniper Mist AI
     relationship: acquisition
@@ -75,6 +77,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.2
     api_count: 1
+    api_count_basis: split
     immediate_parent: juniper
     name: 128 Technology
     relationship: acquisition
@@ -93,6 +96,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: juniper
     name: BTI Systems (Juniper)
     relationship: product
@@ -105,6 +109,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: juniper
     name: Argon Networks
     relationship: product
@@ -117,6 +122,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: juniper
     name: Peribit
     relationship: product

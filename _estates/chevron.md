@@ -10,7 +10,7 @@ description: Chevron Corporation is one of the world's largest integrated energy
   Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability,
   and IR websites.
 estate_rating:
-  agent_avg: 5.9
+  agent_avg: 5.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -43,18 +43,20 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: chevron
     name: Hess
-    relationship: subsidiary
+    relationship: product
     score_band: minimal
     score_composite: 3.7
     slug: hess-corporation
-    source: prose
+    source: declared
   - &id002
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: chevron
     name: Renewable Energy Group
     relationship: product
@@ -67,6 +69,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: chevron
     name: Texaco
     relationship: acquisition
@@ -79,13 +82,14 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: chevron
     name: Noble Energy
     relationship: product
     score_band: minimal
     score_composite: 1.9
     slug: noble-energy
-    source: parent-company-property
+    source: declared
   label: Minimal
   open: false
 member_on_network: 4

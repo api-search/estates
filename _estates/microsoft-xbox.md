@@ -37,6 +37,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: microsoft-xbox
     name: PlayFab
     relationship: product
@@ -49,6 +50,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 5
+    api_count_basis: published
     immediate_parent: microsoft-xbox
     name: Blizzard Entertainment
     relationship: product
@@ -67,6 +69,7 @@ member_bands:
     agent_band: agent-native
     agent_score: 38.8
     api_count: 12
+    api_count_basis: split
     immediate_parent: microsoft-xbox
     name: Battle.net
     relationship: product
@@ -79,6 +82,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 14
+    api_count_basis: split
     immediate_parent: microsoft-xbox
     name: Mojang
     relationship: product
@@ -97,6 +101,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: microsoft-xbox
     name: Activision Blizzard
     relationship: acquisition
@@ -115,6 +120,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: microsoft-xbox
     name: Halo
     relationship: product
@@ -153,5 +159,6 @@ tags:
 - PlayFab
 - Xbox
 - Xbox Live
+- Video Games
 title: Microsoft Xbox
 ---

@@ -10,19 +10,19 @@ description: American Express is a globally integrated payments company and card
   Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated
   for registered issuers, merchants, acquirers, and partners rather than open self-service.
 estate_rating:
-  agent_avg: 6.9
+  agent_avg: 6.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.6
   agent_ready: 0
   band: emerging
   best: 14.4
-  composite_avg: 16.4
+  composite_avg: 16.3
   composite_band: emerging
   composite_raw: 9.6
   developing: 0
   exemplar: 0
-  rating: 12.6
+  rating: 12.5
   scored: 3
   spread: 8.6
   strength: 0
@@ -43,6 +43,7 @@ member_bands:
     agent_band: human-only
     agent_score: 1.9
     api_count: 3
+    api_count_basis: split
     immediate_parent: american-express
     name: Resy
     relationship: acquisition
@@ -61,6 +62,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: american-express
     name: Amex Bank of Canada
     relationship: product
@@ -73,6 +75,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: american-express
     name: InAuth (American Express)
     relationship: product

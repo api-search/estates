@@ -5,7 +5,7 @@ description: Adobe provides APIs and developer resources for its creative, docum
   platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics,
   e-commerce, e-signatures, and many other Adobe products and services.
 estate_rating:
-  agent_avg: 14.4
+  agent_avg: 14.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.2
@@ -38,6 +38,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 48.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: adobe
     name: Frame.io
     relationship: product
@@ -50,6 +51,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 40.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: adobe
     name: Adobe Premiere Pro
     relationship: product
@@ -68,6 +70,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: adobe
     name: Rephrase.ai
     relationship: acquisition
@@ -86,6 +89,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: adobe
     name: Behance
     relationship: product
@@ -98,6 +102,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: adobe
     name: TubeMogul
     relationship: product
@@ -116,6 +121,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: adobe
     name: Frame
     relationship: acquisition
@@ -128,6 +134,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: adobe
     name: Omniture
     relationship: acquisition

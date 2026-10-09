@@ -36,6 +36,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.8
     api_count: 9
+    api_count_basis: published
     immediate_parent: servicenow
     name: Moveworks
     relationship: acquisition
@@ -54,6 +55,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.3
     api_count: 2
+    api_count_basis: published
     immediate_parent: servicenow
     name: Cuein
     relationship: acquisition
@@ -66,6 +68,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.0
     api_count: 4
+    api_count_basis: published
     immediate_parent: servicenow
     name: Logik.io
     relationship: product
@@ -84,6 +87,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: servicenow
     name: ServiceNow Flow Designer
     relationship: product
@@ -96,6 +100,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: servicenow
     name: Element AI
     relationship: acquisition
@@ -108,6 +113,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: servicenow
     name: SkyGiraffe
     relationship: acquisition
@@ -120,6 +126,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: servicenow
     name: VendorHawk
     relationship: acquisition

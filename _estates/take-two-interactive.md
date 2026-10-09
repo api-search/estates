@@ -10,19 +10,19 @@ description: 'Take-Two Interactive Software, Inc. (NASDAQ: TTWO) is a US interac
   Its developer-surface hosts (docs.take2games.com, dev.take2games.com) redirect every request to a FusionAuth
   SSO login.'
 estate_rating:
-  agent_avg: 4.3
+  agent_avg: 4.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.3
   agent_ready: 0
   band: minimal
   best: 15.6
-  composite_avg: 11.3
+  composite_avg: 11.2
   composite_band: emerging
   composite_raw: 5.5
   developing: 0
   exemplar: 0
-  rating: 8.5
+  rating: 8.4
   scored: 8
   spread: 15.6
   strength: 0
@@ -43,6 +43,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: take-two-interactive
     name: Rockstar Games
     relationship: subsidiary
@@ -55,6 +56,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: take-two-interactive
     name: Zynga
     relationship: product
@@ -73,6 +75,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: Peak Games
     relationship: acquisition
@@ -85,6 +88,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: naturalmotion
     relationship: product
@@ -97,6 +101,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: Small Giant Games
     relationship: acquisition
@@ -109,6 +114,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: take-two-interactive
     name: Dots
     relationship: acquisition
@@ -121,6 +127,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: Storemaven
     relationship: acquisition
@@ -133,6 +140,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: DNA Games
     relationship: acquisition

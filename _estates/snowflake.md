@@ -9,7 +9,7 @@ description: Snowflake is a cloud-based data platform delivering data warehousin
   Snowflake also serves a SCIM 2.0 identity endpoint, an Apache Iceberg REST Catalog, and an account-hosted
   Model Context Protocol server that exposes Cortex tools to agents under Snowflake RBAC.
 estate_rating:
-  agent_avg: 6.0
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.1
@@ -21,7 +21,7 @@ estate_rating:
   composite_raw: 8.5
   developing: 0
   exemplar: 0
-  rating: 11.5
+  rating: 11.4
   scored: 4
   spread: 19.6
   strength: 0
@@ -42,6 +42,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: snowflake
     name: Datavolo
     relationship: acquisition
@@ -60,6 +61,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.6
     api_count: 1
+    api_count_basis: split
     immediate_parent: snowflake
     name: TruEra (Snowflake)
     relationship: acquisition
@@ -72,6 +74,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: snowflake
     name: Ponder
     relationship: acquisition
@@ -84,6 +87,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: snowflake
     name: Neeva
     relationship: acquisition
@@ -102,6 +106,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: snowflake
     name: Sisu Data
     relationship: acquisition

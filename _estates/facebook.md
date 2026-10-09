@@ -6,7 +6,7 @@ description: Facebook is Meta's social networking platform providing APIs for de
   social graph. Meta also provides APIs for marketing and advertising, Instagram content management, Messenger
   bots, Threads publishing, and WhatsApp business messaging.
 estate_rating:
-  agent_avg: 6.3
+  agent_avg: 6.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.5
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 9.0
   developing: 0
   exemplar: 0
-  rating: 10.6
+  rating: 10.5
   scored: 8
   spread: 37.3
   strength: 0
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.9
     api_count: 1
+    api_count_basis: split
     immediate_parent: facebook
     name: Parse
     relationship: product
@@ -57,6 +58,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: facebook
     name: Wit.AI
     relationship: acquisition
@@ -75,6 +77,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: facebook
     name: Bloomsbury
     relationship: product
@@ -87,6 +90,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: facebook
     name: Gowalla
     relationship: product
@@ -99,6 +103,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: facebook
     name: CTRL-labs *
     relationship: product
@@ -111,6 +116,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: facebook
     name: Friend.ly
     relationship: acquisition
@@ -123,6 +129,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: facebook
     name: Grokstyle
     relationship: acquisition
@@ -135,6 +142,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: facebook
     name: Little Eye
     relationship: acquisition

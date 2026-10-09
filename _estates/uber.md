@@ -6,7 +6,7 @@ description: Uber is a global technology platform offering transportation, food 
   delivery, voucher programs, and business travel management into third-party applications. APIs use OAuth
   2.0 authentication with scope-based access controls and support both production and sandbox environments.
 estate_rating:
-  agent_avg: 15.9
+  agent_avg: 15.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 22.5
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 30.7
   developing: 0
   exemplar: 0
-  rating: 21.4
+  rating: 21.3
   scored: 4
   spread: 44.6
   strength: 2
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.3
     api_count: 2
+    api_count_basis: published
     immediate_parent: uber
     name: Uber Eats
     relationship: product
@@ -57,6 +58,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: uber
     name: SpotHero
     relationship: product
@@ -75,6 +77,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 20.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: uber
     name: Uber Direct
     relationship: product
@@ -93,6 +96,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: uber
     name: Careem
     relationship: acquisition
@@ -126,7 +130,6 @@ subfamilies: []
 subfamily_page_count: 0
 tags:
 - Ridesharing
-- Rides
 - Taxis
 - Transportation
 - Food Delivery

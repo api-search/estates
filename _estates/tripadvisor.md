@@ -14,12 +14,12 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 46.5
-  composite_avg: 15.4
+  composite_avg: 15.3
   composite_band: emerging
   composite_raw: 10.3
   developing: 1
   exemplar: 0
-  rating: 12.6
+  rating: 12.5
   scored: 5
   spread: 46.5
   strength: 1
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.4
     api_count: 7
+    api_count_basis: published
     immediate_parent: tripadvisor
     name: TheFork
     relationship: product
@@ -58,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: tripadvisor
     name: Oyster.com (TripAdvisor)
     relationship: acquisition
@@ -70,6 +72,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: thefork
     name: bookatable
     relationship: product
@@ -82,6 +85,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: tripadvisor
     name: HouseTrip
     relationship: acquisition
@@ -94,6 +98,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: tripadvisor
     name: Restorando
     relationship: product

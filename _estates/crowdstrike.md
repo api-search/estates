@@ -11,7 +11,7 @@ description: 'CrowdStrike is a US cybersecurity company and Fortune 1000 constit
   for building Foundry apps. CrowdStrike does not publish an OpenAPI document, and API access requires
   a Falcon subscription — the API itself is included in every paid bundle.'
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 8.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.5
@@ -44,6 +44,7 @@ member_bands:
     agent_band: human-only
     agent_score: 5.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: crowdstrike
     name: Adaptive Shield
     relationship: acquisition
@@ -62,6 +63,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: crowdstrike
     name: Humio
     relationship: product
@@ -80,6 +82,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: crowdstrike
     name: Bionic Stork
     relationship: product

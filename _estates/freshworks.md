@@ -37,6 +37,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.2
     api_count: 2
+    api_count_basis: published
     immediate_parent: freshworks
     name: FireHydrant
     relationship: product
@@ -55,6 +56,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: freshworks
     name: Freshchat
     relationship: product
@@ -67,6 +69,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 42.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: freshworks
     name: Freshservice
     relationship: product
@@ -79,6 +82,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: freshworks
     name: Freshsales
     relationship: product
@@ -91,6 +95,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: freshworks
     name: Freshteam
     relationship: product
@@ -109,6 +114,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.6
     api_count: 1
+    api_count_basis: split
     immediate_parent: firehydrant
     name: Blameless
     relationship: product
@@ -127,6 +133,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: freshworks
     name: Natero
     relationship: acquisition

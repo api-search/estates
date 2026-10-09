@@ -9,17 +9,17 @@ estate_rating:
   agent_raw: 21.2
   agent_ready: 7
   band: thin
-  best: 66.5
-  composite_avg: 31.9
+  best: 66.0
+  composite_avg: 31.8
   composite_band: thin
   composite_raw: 34.2
   developing: 11
-  exemplar: 1
-  rating: 26.9
+  exemplar: 0
+  rating: 26.8
   scored: 24
-  spread: 66.5
-  strength: 14
-  strong: 0
+  spread: 66.0
+  strength: 13
+  strong: 1
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -27,8 +27,8 @@ image: ''
 is_subfamily: false
 layout: estate
 member_bands:
-- band: exemplar
-  blurb: Complete, well-documented, and agent-ready
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id001
@@ -36,14 +36,15 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.8
     api_count: 25
+    api_count_basis: published
     immediate_parent: sap
     name: SAP Emarsys
     relationship: product
-    score_band: exemplar
-    score_composite: 66.5
+    score_band: strong
+    score_composite: 66.0
     slug: emarsys
     source: parent-company-property
-  label: Exemplar
+  label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
@@ -54,6 +55,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.1
     api_count: 2
+    api_count_basis: published
     immediate_parent: sap
     name: SAP BRIM (Billing and Revenue Innovation Management)
     relationship: product
@@ -66,6 +68,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.1
     api_count: 4
+    api_count_basis: published
     immediate_parent: sap
     name: SAP BI Tools
     relationship: product
@@ -78,6 +81,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.6
     api_count: 17
+    api_count_basis: published
     immediate_parent: sap
     name: SAP Sales and Distribution (SD)
     relationship: product
@@ -90,6 +94,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.7
     api_count: 2
+    api_count_basis: published
     immediate_parent: sap
     name: SAP Integration Suite
     relationship: product
@@ -102,6 +107,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 36.4
     api_count: 6
+    api_count_basis: published
     immediate_parent: sap
     name: Ariba
     relationship: product
@@ -114,6 +120,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.4
     api_count: 5
+    api_count_basis: published
     immediate_parent: sap
     name: SAP Commerce Cloud
     relationship: product
@@ -126,6 +133,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 53.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: sap
     name: Prior Labs
     relationship: product
@@ -138,6 +146,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.5
     api_count: 5
+    api_count_basis: published
     immediate_parent: sap
     name: SAP Fieldglass
     relationship: product
@@ -150,6 +159,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: sap
     name: Sybase
     relationship: acquisition
@@ -162,6 +172,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: sap
     name: SAP Business ByDesign
     relationship: product
@@ -174,6 +185,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: sap
     name: SAP API Management
     relationship: product
@@ -192,6 +204,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 7.9
     api_count: 4
+    api_count_basis: split
     immediate_parent: sap
     name: SAP BW
     relationship: product
@@ -204,6 +217,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: ariba
     name: Ariba Sourcing
     relationship: product
@@ -216,6 +230,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: sap
     name: Ariba Guided Buying
     relationship: acquisition
@@ -228,6 +243,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 13.3
     api_count: 2
+    api_count_basis: split
     immediate_parent: sap
     name: Taulia
     relationship: acquisition
@@ -240,6 +256,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: sap
     name: SAP Business One
     relationship: product
@@ -252,6 +269,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 7
+    api_count_basis: split
     immediate_parent: sap
     name: SAP Business Technology Platform
     relationship: product
@@ -270,6 +288,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: sap
     name: SAP SuccessFactors
     relationship: product
@@ -282,6 +301,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 6.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: sap
     name: Gigya
     relationship: product
@@ -294,6 +314,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: sap
     name: SAP America
     relationship: product
@@ -312,6 +333,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: sap-successfactors
     name: CubeTree
     relationship: product
@@ -324,6 +346,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: sap
     name: OutlookSoft
     relationship: product
@@ -336,6 +359,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: sap
     name: Virsa Systems
     relationship: product
@@ -375,7 +399,7 @@ members:
 members_unrated: []
 name: SAP
 overview: 'SAP publishes its API surface across 24 provider profiles indexed on the APIs.io network, of
-  which 24 carry a rating. The rated members span 66.5 points, from 66.5 down to 0.0.
+  which 24 carry a rating. The rated members span 66.0 points, from 66.0 down to 0.0.
 
 
   Its highest-rated surfaces are SAP Emarsys, SAP BRIM (Billing and Revenue Innovation Management), SAP

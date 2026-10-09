@@ -4,16 +4,16 @@ category: Estates
 description: Collection of Workday REST and SOAP APIs for human capital management, financial management,
   enterprise planning, analytics, and platform extensibility.
 estate_rating:
-  agent_avg: 17.2
+  agent_avg: 17.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 20.8
   agent_ready: 1
   band: thin
   best: 48.1
-  composite_avg: 30.9
+  composite_avg: 31.0
   composite_band: thin
-  composite_raw: 36.8
+  composite_raw: 36.9
   developing: 6
   exemplar: 0
   rating: 25.4
@@ -37,6 +37,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: workday
     name: Workday Studio
     relationship: product
@@ -49,6 +50,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 54
+    api_count_basis: published
     immediate_parent: workday
     name: Workday Integration
     relationship: product
@@ -61,6 +63,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: workday
     name: Flowise
     relationship: product
@@ -73,6 +76,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: workday
     name: Workday Finance
     relationship: product
@@ -85,6 +89,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 31.5
     api_count: 11
+    api_count_basis: published
     immediate_parent: workday
     name: Scout RFP (Workday Strategic Sourcing)
     relationship: product
@@ -97,6 +102,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: workday
     name: Sana
     relationship: product
@@ -115,6 +121,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: workday
     name: Peakon
     relationship: product
@@ -127,11 +134,12 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: workday
     name: Evisort
     relationship: product
     score_band: thin
-    score_composite: 28.6
+    score_composite: 29.5
     slug: evisort
     source: parent-company-property
   label: Thin
@@ -145,6 +153,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: workday
     name: VNDLY
     relationship: product

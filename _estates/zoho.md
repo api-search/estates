@@ -14,13 +14,13 @@ estate_rating:
   best: 78.6
   composite_avg: 35.9
   composite_band: thin
-  composite_raw: 40.2
-  developing: 6
+  composite_raw: 40.3
+  developing: 7
   exemplar: 1
   rating: 30.1
   scored: 18
   spread: 60.4
-  strength: 11
+  strength: 12
   strong: 1
   worst: 18.2
 estate_root: null
@@ -38,6 +38,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 43.5
     api_count: 105
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho CRM
     relationship: product
@@ -56,6 +57,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: zoho
     name: Zoho Campaigns
     relationship: product
@@ -67,13 +69,14 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 6
+  count: 7
   items:
   - &id003
     acquired: null
     agent_band: agent-aware
     agent_score: 24.0
     api_count: 37
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Inventory
     relationship: product
@@ -86,6 +89,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho People
     relationship: product
@@ -98,6 +102,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Sign
     relationship: product
@@ -110,6 +115,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.6
     api_count: 22
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Cliq
     relationship: product
@@ -122,6 +128,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Sheet
     relationship: product
@@ -134,6 +141,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Books
     relationship: product
@@ -141,17 +149,31 @@ member_bands:
     score_composite: 40.9
     slug: zoho-books
     source: declared
+  - &id009
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 34.5
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: zoho
+    name: Zoho Writer
+    relationship: product
+    score_band: developing
+    score_composite: 39.8
+    slug: zoho-writer
+    source: declared
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 6
+  count: 5
   items:
-  - &id009
+  - &id010
     acquired: null
     agent_band: agent-ready
     agent_score: 31.6
     api_count: 7
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Analytics
     relationship: product
@@ -159,11 +181,12 @@ member_bands:
     score_composite: 39.1
     slug: zoho-analytics
     source: declared
-  - &id010
+  - &id011
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Mail
     relationship: product
@@ -171,23 +194,12 @@ member_bands:
     score_composite: 39.0
     slug: zoho-mail
     source: declared
-  - &id011
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 34.5
-    api_count: 1
-    immediate_parent: zoho
-    name: Zoho Writer
-    relationship: product
-    score_band: thin
-    score_composite: 38.3
-    slug: zoho-writer
-    source: declared
   - &id012
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Creator
     relationship: product
@@ -200,6 +212,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 18.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: zoho
     name: Zoho Forms
     relationship: product
@@ -212,6 +225,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: zoho
     name: Zoho Projects
     relationship: product
@@ -230,6 +244,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Invoice
     relationship: product
@@ -242,6 +257,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Desk
     relationship: product
@@ -254,6 +270,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: zoho
     name: Zoho Recruit
     relationship: product
@@ -266,6 +283,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: zoho
     name: Zoho Meeting
     relationship: product

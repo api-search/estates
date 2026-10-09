@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.2
     api_count: 2
+    api_count_basis: published
     immediate_parent: autodesk
     name: Autodesk Construction Cloud
     relationship: product
@@ -52,6 +53,7 @@ member_bands:
     agent_band: human-only
     agent_score: 3.8
     api_count: 2
+    api_count_basis: split
     immediate_parent: autodesk
     name: Autodesk PowerMill
     relationship: product
@@ -64,6 +66,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.1
     api_count: 8
+    api_count_basis: published
     immediate_parent: autodesk
     name: Autodesk Fusion
     relationship: product
@@ -76,6 +79,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: autodesk
     name: Autodesk BIM 360
     relationship: product
@@ -94,6 +98,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: autodesk
     name: Prodsmart
     relationship: product
@@ -106,6 +111,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 10.8
     api_count: 1
+    api_count_basis: split
     immediate_parent: autodesk-construction-cloud
     name: Buildingconnected
     relationship: product
@@ -124,6 +130,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: autodesk
     name: IrisVR
     relationship: product
@@ -142,6 +149,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: autodesk
     name: Spacemaker
     relationship: acquisition
@@ -154,6 +162,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: autodesk
     name: Socialcam
     relationship: acquisition

@@ -5,7 +5,7 @@ description: Gilead Sciences is a research-based biopharmaceutical company that 
   commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis,
   oncology, and inflammatory diseases.
 estate_rating:
-  agent_avg: 7.6
+  agent_avg: 7.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -38,6 +38,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: gilead-sciences
     name: Forty Seven *
     relationship: acquisition
@@ -50,6 +51,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: gilead-sciences
     name: Cell Design Labs
     relationship: product
@@ -68,6 +70,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: gilead-sciences
     name: Arresto Biosciences
     relationship: product

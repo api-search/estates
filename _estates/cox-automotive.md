@@ -15,19 +15,19 @@ description: 'Cox Automotive is one of the world''s largest providers of product
   Access to every environment is granted after a review by a Cox Automotive account representative, with
   keys issued through the Boomi/Mashery gateway.'
 estate_rating:
-  agent_avg: 11.1
+  agent_avg: 11.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.9
   agent_ready: 1
   band: emerging
   best: 51.9
-  composite_avg: 21.5
+  composite_avg: 21.4
   composite_band: emerging
   composite_raw: 23.2
   developing: 1
   exemplar: 0
-  rating: 17.3
+  rating: 17.2
   scored: 3
   spread: 48.5
   strength: 1
@@ -48,6 +48,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.6
     api_count: 2
+    api_count_basis: published
     immediate_parent: cox-automotive
     name: AutoLeadStar
     relationship: acquisition
@@ -66,6 +67,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: cox-automotive
     name: Xtime
     relationship: product
@@ -84,6 +86,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: cox-automotive
     name: AutoTrader.com
     relationship: acquisition

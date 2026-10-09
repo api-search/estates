@@ -12,8 +12,8 @@ description: Tricentis is an enterprise continuous testing and quality engineeri
   Protocol (MCP) servers plus an open-source, Apache-2.0 catalog of agent skills for driving Tosca and
   qTest from AI coding assistants.
 estate_rating:
-  agent_avg: 10.0
-  agent_band: emerging
+  agent_avg: 9.9
+  agent_band: minimal
   agent_native: 0
   agent_raw: 9.0
   agent_ready: 0
@@ -45,6 +45,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: tricentis
     name: Testim
     relationship: acquisition
@@ -63,6 +64,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: tricentis
     name: Waldo
     relationship: acquisition
@@ -75,6 +77,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: tricentis
     name: SpecFlow
     relationship: product

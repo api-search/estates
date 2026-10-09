@@ -44,6 +44,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: doordash
     name: Bbot
     relationship: acquisition
@@ -56,6 +57,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: doordash
     name: Caviar
     relationship: acquisition
@@ -68,6 +70,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: doordash
     name: chowbotics
     relationship: acquisition

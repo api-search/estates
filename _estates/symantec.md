@@ -40,6 +40,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: symantec
     name: Bluecoat (Symantec)
     relationship: acquisition
@@ -58,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: symantec
     name: Brightmail
     relationship: acquisition
@@ -70,6 +72,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: symantec
     name: Fireglass
     relationship: acquisition
@@ -88,6 +91,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: symantec
     name: Elastica
     relationship: product

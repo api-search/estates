@@ -4,7 +4,7 @@ category: Estates
 description: Medtronic is a major US corporation and Fortune 1000 company. The Medtronic API provides
   programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 estate_rating:
-  agent_avg: 5.9
+  agent_avg: 5.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 5.0
   developing: 0
   exemplar: 0
-  rating: 10.5
+  rating: 10.4
   scored: 4
   spread: 7.2
   strength: 0
@@ -37,6 +37,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: medtronic
     name: SPR Therapeutics
     relationship: acquisition
@@ -49,6 +50,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: medtronic
     name: digitalsurgery
     relationship: product
@@ -61,6 +63,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: medtronic
     name: Intersect ENT
     relationship: product
@@ -73,6 +76,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: medtronic
     name: Kanghui Medical
     relationship: product
@@ -91,6 +95,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: medtronic
     name: Corventis
     relationship: product

@@ -14,12 +14,12 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 43.1
-  composite_avg: 22.4
+  composite_avg: 22.3
   composite_band: emerging
   composite_raw: 23.4
   developing: 1
   exemplar: 0
-  rating: 19.0
+  rating: 18.9
   scored: 9
   spread: 43.1
   strength: 1
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.2
     api_count: 4
+    api_count_basis: published
     immediate_parent: palo-alto-networks
     name: Venafi
     relationship: product
@@ -58,6 +59,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 18.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: palo-alto-networks
     name: Demisto
     relationship: product
@@ -70,6 +72,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: palo-alto-networks
     name: Koi Security
     relationship: product
@@ -82,6 +85,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: palo-alto-networks
     name: Prisma Cloud
     relationship: product
@@ -94,6 +98,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: palo-alto-networks
     name: Protect AI
     relationship: product
@@ -112,6 +117,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: palo-alto-networks
     name: Panorama
     relationship: product
@@ -130,6 +136,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: palo-alto-networks
     name: Prosimo
     relationship: product
@@ -142,6 +149,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: palo-alto-networks
     name: Expanse
     relationship: product
@@ -154,6 +162,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: palo-alto-networks
     name: Morta Security
     relationship: acquisition
@@ -172,6 +181,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: palo-alto-networks
     name: Aporeto
     relationship: acquisition
@@ -184,6 +194,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: palo-alto-networks
     name: Cyvera
     relationship: acquisition
@@ -196,6 +207,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: palo-alto-networks
     name: Talon
     relationship: acquisition

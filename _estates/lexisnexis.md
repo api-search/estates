@@ -14,12 +14,12 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 51.7
-  composite_avg: 24.6
+  composite_avg: 24.5
   composite_band: emerging
   composite_raw: 28.7
   developing: 1
   exemplar: 0
-  rating: 20.6
+  rating: 20.5
   scored: 5
   spread: 47.6
   strength: 1
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.2
     api_count: 15
+    api_count_basis: published
     immediate_parent: lexisnexis-risk-solutions
     name: Human API
     relationship: product
@@ -58,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 7
+    api_count_basis: split
     immediate_parent: lexisnexis
     name: LexisNexis Risk Solutions
     relationship: product
@@ -70,6 +72,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 47.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: lexisnexis
     name: Lex Machina
     relationship: acquisition
@@ -88,6 +91,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: lexisnexis
     name: Henchman
     relationship: product
@@ -106,6 +110,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: lexisnexis-risk-solutions
     name: BehavioSec
     relationship: product

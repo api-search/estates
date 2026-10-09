@@ -1,22 +1,25 @@
 ---
 api_total: 51
 category: Estates
-description: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data
-  via a web-style interface.
+description: Splunk is a data platform that enables organizations to search, monitor, analyze, and visualize
+  massive streams of machine-generated data across security, observability, and AI use cases. It offers
+  solutions for security information and event management (SIEM), infrastructure monitoring, application
+  performance monitoring, and AI-driven analytics, helping enterprises turn data into actionable insights
+  and operational intelligence.
 estate_rating:
-  agent_avg: 10.4
+  agent_avg: 10.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.1
   agent_ready: 1
   band: emerging
   best: 66.2
-  composite_avg: 25.7
+  composite_avg: 25.6
   composite_band: thin
   composite_raw: 32.2
   developing: 1
   exemplar: 0
-  rating: 19.6
+  rating: 19.5
   scored: 4
   spread: 64.6
   strength: 3
@@ -37,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.4
     api_count: 48
+    api_count_basis: published
     immediate_parent: splunk
     name: Splunk Observability Cloud
     relationship: product
@@ -55,6 +59,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 7.9
     api_count: 1
+    api_count_basis: split
     immediate_parent: splunk
     name: Splunk SOAR
     relationship: acquisition
@@ -73,6 +78,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 2
+    api_count_basis: split
     immediate_parent: splunk
     name: Splunk On-Call (VictorOps)
     relationship: acquisition
@@ -91,6 +97,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: splunk
     name: Streamlio
     relationship: acquisition
@@ -109,6 +116,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: splunk
     name: Rocana
     relationship: product

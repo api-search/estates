@@ -6,7 +6,7 @@ description: FIS (Fidelity National Information Services) is a global leader in 
   marketplace. APIs connect financial institutions, fintechs, and enterprises to FIS banking and payment
   infrastructure.
 estate_rating:
-  agent_avg: 12.8
+  agent_avg: 12.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.6
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.6
     api_count: 4
+    api_count_basis: published
     immediate_parent: fis
     name: Payrix
     relationship: acquisition
@@ -57,6 +58,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.7
     api_count: 9
+    api_count_basis: split
     immediate_parent: fis
     name: Bond
     relationship: acquisition
@@ -75,6 +77,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: fis
     name: SunGard Data Systems
     relationship: acquisition
@@ -87,6 +90,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 0
+    api_count_basis: split
     immediate_parent: fis
     name: IntelliMatch
     relationship: acquisition

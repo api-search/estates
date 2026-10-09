@@ -10,7 +10,7 @@ description: Niantic Spatial, Inc. (spun out of Niantic, Inc. in 2025 after the 
   Android, and ROS 2, connecting to Scaniverse and VPS 2.0. Enterprise focus areas include robotics, defense
   and intelligence, and oil and gas.
 estate_rating:
-  agent_avg: 5.9
+  agent_avg: 5.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -43,6 +43,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: niantic
     name: 8th Wall
     relationship: acquisition
@@ -55,6 +56,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: niantic
     name: Fantasmo
     relationship: product
@@ -67,6 +69,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: niantic
     name: Escher Reality
     relationship: acquisition
@@ -79,6 +82,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: niantic
     name: Lowkey
     relationship: acquisition

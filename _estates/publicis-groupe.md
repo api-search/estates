@@ -21,7 +21,7 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 28.5
-  composite_avg: 19.3
+  composite_avg: 19.2
   composite_band: emerging
   composite_raw: 17.3
   developing: 0
@@ -47,6 +47,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 7.9
     api_count: 2
+    api_count_basis: split
     immediate_parent: publicis-groupe
     name: Lotame Solutions
     relationship: acquisition
@@ -65,6 +66,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: publicis-groupe
     name: Yieldify *
     relationship: acquisition
@@ -83,6 +85,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 0
+    api_count_basis: split
     immediate_parent: publicis-groupe
     name: Profitero
     relationship: acquisition

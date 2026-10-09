@@ -9,19 +9,19 @@ description: Coinbase is a leading cryptocurrency platform providing trading, cu
   using API keys with HMAC-SHA256 signatures (Advanced Trade, Exchange) or JWT bearer tokens (Prime, CDP),
   with WebSocket and FIX feeds available for low-latency market data and order management.
 estate_rating:
-  agent_avg: 8.4
+  agent_avg: 8.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 4.7
   agent_ready: 0
   band: emerging
   best: 16.4
-  composite_avg: 15.6
+  composite_avg: 15.5
   composite_band: emerging
   composite_raw: 7.5
   developing: 0
   exemplar: 0
-  rating: 12.7
+  rating: 12.6
   scored: 3
   spread: 13.7
   strength: 0
@@ -42,6 +42,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 14.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: coinbase
     name: Coinbase Pro
     relationship: product
@@ -60,6 +61,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: coinbase
     name: Bison Trails
     relationship: acquisition
@@ -72,6 +74,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: coinbase
     name: Earn
     relationship: acquisition
@@ -90,6 +93,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: coinbase
     name: Azarus
     relationship: acquisition

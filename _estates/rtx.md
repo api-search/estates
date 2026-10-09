@@ -8,7 +8,7 @@ description: 'RTX Corporation is a leading American aerospace and defense compan
   software including SPARQL triple stores, NLP frameworks, and TAK ecosystem plugins for government and
   military situational awareness platforms.'
 estate_rating:
-  agent_avg: 9.4
+  agent_avg: 9.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.5
@@ -20,7 +20,7 @@ estate_rating:
   composite_raw: 12.0
   developing: 0
   exemplar: 0
-  rating: 13.1
+  rating: 13.0
   scored: 7
   spread: 34.1
   strength: 0
@@ -41,6 +41,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: united-technologies
     name: Rockwell Collins
     relationship: product
@@ -53,6 +54,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 3
+    api_count_basis: split
     immediate_parent: rtx
     name: United Technologies
     relationship: product
@@ -71,6 +73,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: rockwell-collins
     name: B/E Aerospace
     relationship: product
@@ -83,6 +86,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: rtx
     name: Raytheon
     relationship: product
@@ -95,6 +99,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: rtx
     name: BBN Technologies
     relationship: subsidiary
@@ -107,6 +112,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: rtx
     name: Pratt & Whitney
     relationship: subsidiary
@@ -119,6 +125,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: rtx
     name: BBN
     relationship: product

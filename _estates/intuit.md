@@ -10,12 +10,12 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 79.7
-  composite_avg: 25.7
+  composite_avg: 25.6
   composite_band: thin
   composite_raw: 30.9
   developing: 0
   exemplar: 1
-  rating: 20.1
+  rating: 20.0
   scored: 5
   spread: 77.0
   strength: 3
@@ -36,6 +36,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 42.6
     api_count: 4
+    api_count_basis: published
     immediate_parent: intuit
     name: Mailchimp
     relationship: product
@@ -54,6 +55,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.7
     api_count: 4
+    api_count_basis: split
     immediate_parent: intuit
     name: QuickBooks
     relationship: product
@@ -66,6 +68,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: mailchimp
     name: Reaction Commerce
     relationship: product
@@ -84,6 +87,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.2
     api_count: 0
+    api_count_basis: split
     immediate_parent: intuit
     name: Credit Karma
     relationship: product
@@ -96,6 +100,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: intuit
     name: Deserve
     relationship: acquisition

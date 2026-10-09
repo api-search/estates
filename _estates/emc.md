@@ -20,12 +20,12 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 3.4
-  composite_avg: 13.2
+  composite_avg: 13.1
   composite_band: emerging
   composite_raw: 1.1
   developing: 0
   exemplar: 0
-  rating: 10.6
+  rating: 10.5
   scored: 3
   spread: 3.4
   strength: 0
@@ -46,6 +46,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: emc
     name: Scaleio
     relationship: product
@@ -58,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: emc
     name: Kashya
     relationship: acquisition
@@ -70,6 +72,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: emc
     name: Voyence
     relationship: acquisition
@@ -88,6 +91,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: emc
     name: XtremIO
     relationship: acquisition

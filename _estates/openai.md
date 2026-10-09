@@ -12,7 +12,7 @@ description: OpenAI publishes a single unversioned REST API at https://api.opena
   Python, JavaScript, Go, Java, .NET and Ruby, alongside the Codex CLI and an anonymous documentation
   MCP server at developers.openai.com/mcp.
 estate_rating:
-  agent_avg: 6.7
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.2
@@ -24,7 +24,7 @@ estate_rating:
   composite_raw: 5.5
   developing: 0
   exemplar: 0
-  rating: 11.6
+  rating: 11.5
   scored: 3
   spread: 16.4
   strength: 0
@@ -45,6 +45,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.6
     api_count: 2
+    api_count_basis: split
     immediate_parent: openai
     name: Neptune.ai
     relationship: acquisition
@@ -63,6 +64,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: openai
     name: Rockset
     relationship: acquisition
@@ -75,6 +77,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: openai
     name: Vegafund
     relationship: product
@@ -109,7 +112,9 @@ tags:
 - LLM
 - OpenAI
 - Artificial Intelligence
+- Generative AI
+- Chatbot
+- Foundation Models
 - T1
-- Agentic Commerce
 title: OpenAI
 ---

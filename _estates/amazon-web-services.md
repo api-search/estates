@@ -12,9 +12,9 @@ estate_rating:
   agent_ready: 92
   band: developing
   best: 80.5
-  composite_avg: 51.0
+  composite_avg: 50.9
   composite_band: developing
-  composite_raw: 51.7
+  composite_raw: 51.6
   developing: 80
   exemplar: 16
   rating: 41.0
@@ -38,6 +38,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 38.1
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon SES
     relationship: product
@@ -50,6 +51,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 36.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon DynamoDB
     relationship: product
@@ -62,6 +64,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.3
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Pinpoint
     relationship: product
@@ -74,6 +77,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.1
     api_count: 4
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Lex
     relationship: product
@@ -86,6 +90,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 31.2
     api_count: 3
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Lightsail
     relationship: product
@@ -98,6 +103,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon VPN
     relationship: product
@@ -110,6 +116,7 @@ member_bands:
     agent_band: agent-native
     agent_score: 39.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CodeGuru Profiler
     relationship: product
@@ -122,6 +129,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.4
     api_count: 13
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon API Gateway
     relationship: product
@@ -134,6 +142,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon S3
     relationship: product
@@ -146,6 +155,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.1
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS Lambda
     relationship: product
@@ -155,21 +165,10 @@ member_bands:
     source: declared
   - &id011
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.0
-    api_count: 9
-    immediate_parent: amazon-web-services
-    name: Amazon Neptune
-    relationship: product
-    score_band: exemplar
-    score_composite: 68.4
-    slug: amazon-neptune
-    source: declared
-  - &id012
-    acquired: null
     agent_band: agent-ready
     agent_score: 29.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Secrets Manager
     relationship: product
@@ -177,11 +176,25 @@ member_bands:
     score_composite: 67.9
     slug: amazon-secrets-manager
     source: declared
+  - &id012
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.0
+    api_count: 9
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: Amazon Neptune
+    relationship: product
+    score_band: exemplar
+    score_composite: 67.8
+    slug: amazon-neptune
+    source: declared
   - &id013
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon FreeRTOS
     relationship: product
@@ -194,6 +207,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon SageMaker
     relationship: product
@@ -206,6 +220,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: CloudFront
     relationship: product
@@ -218,6 +233,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Cognito
     relationship: product
@@ -236,6 +252,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Elastic Load Balancing
     relationship: product
@@ -248,6 +265,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 37.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon GameLift
     relationship: product
@@ -260,6 +278,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon VPC
     relationship: product
@@ -272,6 +291,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 38.5
     api_count: 4
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Clean Rooms
     relationship: product
@@ -284,6 +304,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EC2
     relationship: product
@@ -296,6 +317,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EC2 Auto Scaling
     relationship: product
@@ -308,6 +330,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Keyspaces
     relationship: product
@@ -320,6 +343,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon KMS
     relationship: product
@@ -332,6 +356,7 @@ member_bands:
     agent_band: agent-native
     agent_score: 49.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Nova
     relationship: product
@@ -344,6 +369,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EventBridge Pipes
     relationship: product
@@ -356,6 +382,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 37.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EventBridge Scheduler
     relationship: product
@@ -368,6 +395,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Kendra
     relationship: product
@@ -380,6 +408,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon RDS
     relationship: product
@@ -392,6 +421,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.3
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon X-Ray
     relationship: product
@@ -404,6 +434,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Polly
     relationship: product
@@ -416,6 +447,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Entity Resolution
     relationship: product
@@ -428,6 +460,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EventBridge
     relationship: product
@@ -440,6 +473,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Lake Formation
     relationship: product
@@ -452,6 +486,7 @@ member_bands:
     agent_band: agent-native
     agent_score: 38.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EC2 Image Builder
     relationship: product
@@ -464,6 +499,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon DocumentDB
     relationship: product
@@ -476,6 +512,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Direct Connect
     relationship: product
@@ -488,6 +525,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Transit Gateway
     relationship: product
@@ -500,6 +538,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IoT Core
     relationship: product
@@ -512,6 +551,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EBS
     relationship: product
@@ -524,6 +564,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon ElastiCache
     relationship: product
@@ -536,6 +577,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IoT Device Management
     relationship: product
@@ -548,6 +590,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.4
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CloudWatch
     relationship: product
@@ -560,6 +603,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Location Service
     relationship: product
@@ -572,6 +616,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Glue DataBrew
     relationship: product
@@ -584,6 +629,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.7
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Redshift
     relationship: product
@@ -596,6 +642,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Ground Station
     relationship: product
@@ -608,6 +655,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon SQS
     relationship: product
@@ -620,6 +668,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IoT Device Defender
     relationship: product
@@ -632,6 +681,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Q
     relationship: product
@@ -644,6 +694,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Transcribe
     relationship: product
@@ -656,6 +707,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon MSK
     relationship: product
@@ -668,6 +720,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon SNS
     relationship: product
@@ -680,6 +733,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon ECR
     relationship: product
@@ -692,6 +746,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 31.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon ECS
     relationship: product
@@ -704,6 +759,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EFS
     relationship: product
@@ -716,6 +772,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 20.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CloudSearch
     relationship: product
@@ -728,6 +785,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Storage Gateway
     relationship: product
@@ -740,6 +798,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CloudFormation
     relationship: product
@@ -752,6 +811,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon QuickSight
     relationship: product
@@ -764,6 +824,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Well-Architected Tool
     relationship: product
@@ -776,6 +837,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 37.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Global Accelerator
     relationship: product
@@ -788,6 +850,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Translate
     relationship: product
@@ -797,21 +860,10 @@ member_bands:
     source: declared
   - &id064
     acquired: null
-    agent_band: agent-aware
-    agent_score: 27.3
-    api_count: 1
-    immediate_parent: amazon-web-services
-    name: Amazon WorkMail
-    relationship: product
-    score_band: strong
-    score_composite: 57.8
-    slug: amazon-workmail
-    source: declared
-  - &id065
-    acquired: null
     agent_band: agent-ready
     agent_score: 37.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon GuardDuty
     relationship: product
@@ -819,11 +871,12 @@ member_bands:
     score_composite: 57.7
     slug: amazon-guardduty
     source: declared
-  - &id066
+  - &id065
     acquired: null
     agent_band: agent-ready
     agent_score: 33.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon HealthOmics
     relationship: product
@@ -831,11 +884,12 @@ member_bands:
     score_composite: 57.7
     slug: amazon-healthomics
     source: declared
-  - &id067
+  - &id066
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Firewall Manager
     relationship: product
@@ -843,11 +897,12 @@ member_bands:
     score_composite: 57.6
     slug: amazon-firewall-manager
     source: declared
-  - &id068
+  - &id067
     acquired: null
     agent_band: agent-aware
     agent_score: 24.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IAM
     relationship: product
@@ -855,11 +910,12 @@ member_bands:
     score_composite: 57.4
     slug: amazon-iam
     source: declared
-  - &id069
+  - &id068
     acquired: null
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Comprehend
     relationship: product
@@ -867,11 +923,12 @@ member_bands:
     score_composite: 57.3
     slug: amazon-comprehend
     source: declared
-  - &id070
+  - &id069
     acquired: null
     agent_band: agent-aware
     agent_score: 26.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Route 53 Resolver
     relationship: product
@@ -879,23 +936,25 @@ member_bands:
     score_composite: 57.2
     slug: amazon-route53-resolver
     source: declared
-  - &id071
+  - &id070
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.0
-    api_count: 16
+    agent_score: 27.3
+    api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
-    name: AWS App Runner
+    name: Amazon WorkMail
     relationship: product
     score_band: strong
     score_composite: 57.1
-    slug: aws-app-runner
+    slug: amazon-workmail
     source: declared
-  - &id072
+  - &id071
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon DataZone
     relationship: product
@@ -903,11 +962,12 @@ member_bands:
     score_composite: 56.9
     slug: amazon-datazone
     source: declared
-  - &id073
+  - &id072
     acquired: null
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CodeDeploy
     relationship: product
@@ -915,11 +975,12 @@ member_bands:
     score_composite: 56.8
     slug: amazon-codedeploy
     source: declared
-  - &id074
+  - &id073
     acquired: null
     agent_band: agent-ready
     agent_score: 32.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon WorkSpaces Web
     relationship: product
@@ -927,11 +988,12 @@ member_bands:
     score_composite: 56.8
     slug: amazon-workspaces-web
     source: declared
-  - &id075
+  - &id074
     acquired: null
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Config
     relationship: product
@@ -939,11 +1001,12 @@ member_bands:
     score_composite: 56.7
     slug: amazon-config
     source: declared
-  - &id076
+  - &id075
     acquired: null
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IoT TwinMaker
     relationship: product
@@ -951,11 +1014,12 @@ member_bands:
     score_composite: 56.3
     slug: amazon-iot-twinmaker
     source: declared
-  - &id077
+  - &id076
     acquired: null
     agent_band: agent-ready
     agent_score: 32.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Certificate Manager
     relationship: product
@@ -963,11 +1027,12 @@ member_bands:
     score_composite: 56.2
     slug: amazon-certificate-manager
     source: declared
-  - &id078
+  - &id077
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Forecast
     relationship: product
@@ -975,11 +1040,12 @@ member_bands:
     score_composite: 56.2
     slug: amazon-forecast
     source: declared
-  - &id079
+  - &id078
     acquired: null
     agent_band: agent-ready
     agent_score: 33.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Mainframe Modernization
     relationship: product
@@ -987,11 +1053,12 @@ member_bands:
     score_composite: 56.2
     slug: amazon-mainframe-modernization
     source: declared
-  - &id080
+  - &id079
     acquired: null
     agent_band: agent-ready
     agent_score: 35.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Private CA
     relationship: product
@@ -999,11 +1066,12 @@ member_bands:
     score_composite: 56.2
     slug: amazon-private-ca
     source: declared
-  - &id081
+  - &id080
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon DataSync
     relationship: product
@@ -1011,11 +1079,12 @@ member_bands:
     score_composite: 56.1
     slug: amazon-datasync
     source: declared
-  - &id082
+  - &id081
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Fraud Detector
     relationship: product
@@ -1023,11 +1092,12 @@ member_bands:
     score_composite: 56.0
     slug: amazon-fraud-detector
     source: declared
-  - &id083
+  - &id082
     acquired: null
     agent_band: agent-aware
     agent_score: 28.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Proton
     relationship: product
@@ -1035,11 +1105,25 @@ member_bands:
     score_composite: 56.0
     slug: amazon-proton
     source: declared
+  - &id083
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.3
+    api_count: 16
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: AWS App Runner
+    relationship: product
+    score_band: strong
+    score_composite: 56.0
+    slug: aws-app-runner
+    source: declared
   - &id084
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon MediaConnect
     relationship: product
@@ -1052,6 +1136,7 @@ member_bands:
     agent_band: agent-native
     agent_score: 38.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon MediaConvert
     relationship: product
@@ -1064,6 +1149,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.0
     api_count: 10
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Rekognition
     relationship: product
@@ -1076,6 +1162,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CodeArtifact
     relationship: product
@@ -1088,6 +1175,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 37.1
     api_count: 22
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Connect
     relationship: product
@@ -1100,6 +1188,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IoT SiteWise
     relationship: product
@@ -1112,6 +1201,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 36.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IoT Greengrass
     relationship: product
@@ -1124,6 +1214,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Managed Blockchain
     relationship: product
@@ -1136,6 +1227,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS HealthLake
     relationship: product
@@ -1148,6 +1240,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Data Exchange
     relationship: product
@@ -1160,6 +1253,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Health Dashboard
     relationship: product
@@ -1172,6 +1266,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.7
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Inspector
     relationship: product
@@ -1184,6 +1279,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon MediaPackage
     relationship: product
@@ -1196,6 +1292,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 3
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Security Lake
     relationship: product
@@ -1208,6 +1305,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 37.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS App Mesh
     relationship: product
@@ -1220,6 +1318,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.0
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Bedrock
     relationship: product
@@ -1232,6 +1331,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EMR
     relationship: product
@@ -1244,6 +1344,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon MediaTailor
     relationship: product
@@ -1256,6 +1357,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Outposts
     relationship: product
@@ -1268,6 +1370,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Data Lifecycle Manager
     relationship: product
@@ -1280,6 +1383,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon MediaLive
     relationship: product
@@ -1292,6 +1396,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.5
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Macie
     relationship: product
@@ -1304,6 +1409,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 36.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IAM Access Analyzer
     relationship: product
@@ -1316,6 +1422,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 20.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CloudTrail
     relationship: product
@@ -1328,6 +1435,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IoT FleetWise
     relationship: product
@@ -1340,6 +1448,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Compute Optimizer
     relationship: product
@@ -1352,6 +1461,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Device Farm
     relationship: product
@@ -1370,6 +1480,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.5
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IAM Identity Center
     relationship: product
@@ -1382,6 +1493,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Organizations
     relationship: product
@@ -1394,6 +1506,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Managed Service for Apache Flink
     relationship: product
@@ -1406,6 +1519,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon DevOps Guru
     relationship: product
@@ -1418,6 +1532,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Kinesis Video Streams
     relationship: product
@@ -1428,8 +1543,22 @@ member_bands:
   - &id116
     acquired: null
     agent_band: agent-ready
+    agent_score: 34.5
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: Amazon Managed Grafana
+    relationship: product
+    score_band: developing
+    score_composite: 53.9
+    slug: amazon-managed-grafana
+    source: declared
+  - &id117
+    acquired: null
+    agent_band: agent-ready
     agent_score: 32.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon HealthImaging
     relationship: product
@@ -1437,11 +1566,12 @@ member_bands:
     score_composite: 53.8
     slug: amazon-healthimaging
     source: declared
-  - &id117
+  - &id118
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Deadline Cloud
     relationship: product
@@ -1449,11 +1579,12 @@ member_bands:
     score_composite: 53.7
     slug: amazon-deadline-cloud
     source: declared
-  - &id118
+  - &id119
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Kinesis Data Firehose
     relationship: product
@@ -1461,11 +1592,12 @@ member_bands:
     score_composite: 53.6
     slug: amazon-kinesis-firehose
     source: declared
-  - &id119
+  - &id120
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Personalize
     relationship: product
@@ -1473,11 +1605,12 @@ member_bands:
     score_composite: 53.6
     slug: amazon-personalize
     source: declared
-  - &id120
+  - &id121
     acquired: null
     agent_band: agent-aware
     agent_score: 25.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Interactive Video Service
     relationship: product
@@ -1485,11 +1618,12 @@ member_bands:
     score_composite: 53.5
     slug: amazon-interactive-video-service
     source: declared
-  - &id121
+  - &id122
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Network Firewall
     relationship: product
@@ -1497,11 +1631,12 @@ member_bands:
     score_composite: 53.5
     slug: amazon-network-firewall
     source: declared
-  - &id122
+  - &id123
     acquired: null
     agent_band: agent-native
     agent_score: 41.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon OpenSearch Service API
     relationship: product
@@ -1509,11 +1644,12 @@ member_bands:
     score_composite: 53.2
     slug: amazon-opensearch
     source: declared
-  - &id123
+  - &id124
     acquired: null
     agent_band: agent-ready
     agent_score: 32.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Simple Workflow Service
     relationship: product
@@ -1521,11 +1657,12 @@ member_bands:
     score_composite: 53.2
     slug: amazon-swf
     source: declared
-  - &id124
+  - &id125
     acquired: null
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CodePipeline
     relationship: product
@@ -1533,11 +1670,12 @@ member_bands:
     score_composite: 53.1
     slug: amazon-codepipeline
     source: declared
-  - &id125
+  - &id126
     acquired: null
     agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Incident Manager
     relationship: product
@@ -1545,11 +1683,12 @@ member_bands:
     score_composite: 53.1
     slug: amazon-incident-manager
     source: declared
-  - &id126
+  - &id127
     acquired: null
     agent_band: agent-aware
     agent_score: 25.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon IoT Events
     relationship: product
@@ -1557,23 +1696,12 @@ member_bands:
     score_composite: 53.0
     slug: amazon-iot-events
     source: declared
-  - &id127
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 34.5
-    api_count: 1
-    immediate_parent: amazon-web-services
-    name: Amazon Managed Grafana
-    relationship: product
-    score_band: developing
-    score_composite: 53.0
-    slug: amazon-managed-grafana
-    source: declared
   - &id128
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon WorkSpaces
     relationship: product
@@ -1586,6 +1714,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Route 53
     relationship: product
@@ -1598,6 +1727,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Snow Family
     relationship: product
@@ -1610,6 +1740,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Payment Cryptography
     relationship: product
@@ -1622,6 +1753,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Data Pipeline
     relationship: product
@@ -1634,6 +1766,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Migration Hub
     relationship: product
@@ -1646,6 +1779,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Shield
     relationship: product
@@ -1658,6 +1792,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon SimpleDB
     relationship: product
@@ -1670,6 +1805,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Directory Service
     relationship: product
@@ -1682,6 +1818,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 18.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon FSx
     relationship: product
@@ -1694,6 +1831,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon License Manager
     relationship: product
@@ -1706,6 +1844,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Managed Service for Prometheus
     relationship: product
@@ -1718,6 +1857,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 10
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS Step Functions
     relationship: product
@@ -1730,6 +1870,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 20.1
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Amplify
     relationship: product
@@ -1742,6 +1883,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 71
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Transfer Family
     relationship: product
@@ -1754,6 +1896,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 34
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Verified Permissions
     relationship: product
@@ -1766,6 +1909,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 73
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon VPC Lattice
     relationship: product
@@ -1778,6 +1922,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon DeepRacer
     relationship: product
@@ -1790,6 +1935,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Lookout for Equipment
     relationship: product
@@ -1802,6 +1948,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon S3 Glacier
     relationship: product
@@ -1814,6 +1961,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 37.1
     api_count: 6
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon FinSpace
     relationship: product
@@ -1826,6 +1974,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS X-Ray
     relationship: product
@@ -1838,6 +1987,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 7
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Detective
     relationship: product
@@ -1850,6 +2000,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Mechanical Turk
     relationship: product
@@ -1862,6 +2013,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Panorama
     relationship: product
@@ -1874,6 +2026,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon DMS
     relationship: product
@@ -1886,6 +2039,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 36.3
     api_count: 3
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon AppFlow
     relationship: product
@@ -1898,6 +2052,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 6
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Fargate
     relationship: product
@@ -1910,6 +2065,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Signer
     relationship: product
@@ -1919,21 +2075,10 @@ member_bands:
     source: declared
   - &id157
     acquired: null
-    agent_band: agent-ready
-    agent_score: 29.8
-    api_count: 4
-    immediate_parent: amazon-web-services
-    name: AWS Kinesis
-    relationship: product
-    score_band: developing
-    score_composite: 49.2
-    slug: kinesis
-    source: declared
-  - &id158
-    acquired: null
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Braket
     relationship: product
@@ -1941,11 +2086,12 @@ member_bands:
     score_composite: 49.1
     slug: amazon-braket
     source: declared
-  - &id159
+  - &id158
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Launch Wizard
     relationship: product
@@ -1953,11 +2099,25 @@ member_bands:
     score_composite: 48.8
     slug: amazon-launch-wizard
     source: declared
+  - &id159
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 29.8
+    api_count: 4
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: AWS Kinesis
+    relationship: product
+    score_band: developing
+    score_composite: 48.7
+    slug: kinesis
+    source: declared
   - &id160
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon MQ
     relationship: product
@@ -1970,6 +2130,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 37.1
     api_count: 6
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Fault Injection Simulator
     relationship: product
@@ -1982,6 +2143,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CodeCatalyst
     relationship: product
@@ -1994,6 +2156,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Resource Explorer
     relationship: product
@@ -2006,6 +2169,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 2
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Cloud9
     relationship: product
@@ -2018,6 +2182,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Systems Manager
     relationship: product
@@ -2030,6 +2195,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon EKS
     relationship: product
@@ -2042,6 +2208,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon QLDB
     relationship: product
@@ -2054,6 +2221,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 16
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Trusted Advisor
     relationship: product
@@ -2066,6 +2234,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Timestream
     relationship: product
@@ -2078,6 +2247,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CodeGuru Reviewer
     relationship: product
@@ -2090,6 +2260,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon MemoryDB
     relationship: product
@@ -2102,6 +2273,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 4
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Serverless Application Repository
     relationship: product
@@ -2114,6 +2286,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 4
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Control Tower
     relationship: product
@@ -2126,6 +2299,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 20.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon App Studio
     relationship: product
@@ -2138,6 +2312,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 26
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Verified Access
     relationship: product
@@ -2150,6 +2325,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CodeStar
     relationship: product
@@ -2162,6 +2338,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 4
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon PrivateLink
     relationship: product
@@ -2174,6 +2351,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon B2B Data Interchange
     relationship: product
@@ -2186,6 +2364,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 18.0
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Billing And Cost Management
     relationship: product
@@ -2198,6 +2377,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.8
     api_count: 3
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Monitron
     relationship: product
@@ -2210,6 +2390,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 2
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Cloud WAN
     relationship: product
@@ -2222,6 +2403,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Textract
     relationship: product
@@ -2234,6 +2416,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 3
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Cloud Map
     relationship: product
@@ -2246,6 +2429,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 19
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Parallel Computing Service
     relationship: product
@@ -2255,33 +2439,10 @@ member_bands:
     source: declared
   - &id185
     acquired: null
-    agent_band: agent-aware
-    agent_score: 17.3
-    api_count: 4
-    immediate_parent: amazon-web-services
-    name: AWS WAF
-    relationship: product
-    score_band: developing
-    score_composite: 43.4
-    slug: aws-waf
-    source: declared
-  - &id186
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 29.8
-    api_count: 203
-    immediate_parent: amazon-web-services
-    name: AWS Glue
-    relationship: product
-    score_band: developing
-    score_composite: 43.2
-    slug: aws-glue
-    source: declared
-  - &id187
-    acquired: null
     agent_band: agent-ready
     agent_score: 31.3
     api_count: 3
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Service Catalog
     relationship: product
@@ -2289,11 +2450,12 @@ member_bands:
     score_composite: 43.1
     slug: amazon-service-catalog
     source: declared
-  - &id188
+  - &id186
     acquired: null
     agent_band: human-only
     agent_score: 2.9
     api_count: 1
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon CloudHSM
     relationship: product
@@ -2301,11 +2463,38 @@ member_bands:
     score_composite: 42.2
     slug: amazon-cloudhsm
     source: declared
+  - &id187
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.3
+    api_count: 4
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: AWS WAF
+    relationship: product
+    score_band: developing
+    score_composite: 41.3
+    slug: aws-waf
+    source: declared
+  - &id188
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 29.8
+    api_count: 203
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: AWS Glue
+    relationship: product
+    score_band: developing
+    score_composite: 40.1
+    slug: aws-glue
+    source: declared
   - &id189
     acquired: null
     agent_band: agent-ready
     agent_score: 28.8
     api_count: 6
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Supply Chain
     relationship: product
@@ -2318,6 +2507,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 48
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS CodeBuild
     relationship: product
@@ -2334,20 +2524,9 @@ member_bands:
   - &id191
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.3
-    api_count: 5
-    immediate_parent: amazon-web-services
-    name: AWS Elastic Beanstalk
-    relationship: product
-    score_band: thin
-    score_composite: 38.4
-    slug: aws-elastic-beanstalk
-    source: declared
-  - &id192
-    acquired: null
-    agent_band: agent-aware
     agent_score: 19.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS Marketplace
     relationship: product
@@ -2355,11 +2534,12 @@ member_bands:
     score_composite: 37.9
     slug: aws-marketplace
     source: declared
-  - &id193
+  - &id192
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon CloudShell
     relationship: product
@@ -2367,11 +2547,25 @@ member_bands:
     score_composite: 37.5
     slug: amazon-cloudshell
     source: declared
+  - &id193
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.3
+    api_count: 5
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: AWS Elastic Beanstalk
+    relationship: product
+    score_band: thin
+    score_composite: 36.8
+    slug: aws-elastic-beanstalk
+    source: declared
   - &id194
     acquired: null
     agent_band: agent-ready
     agent_score: 31.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Athena
     relationship: product
@@ -2384,6 +2578,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 6
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Resilience Hub
     relationship: product
@@ -2396,6 +2591,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Aurora
     relationship: product
@@ -2408,6 +2604,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS Security Hub
     relationship: product
@@ -2420,6 +2617,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Audit Manager
     relationship: product
@@ -2432,6 +2630,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 31.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon AppSync
     relationship: product
@@ -2444,6 +2643,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Aurora DSQL
     relationship: product
@@ -2456,6 +2656,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS Backup
     relationship: product
@@ -2468,6 +2669,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Augmented AI
     relationship: product
@@ -2480,6 +2682,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Application Migration Service
     relationship: product
@@ -2492,6 +2695,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: AWS Batch
     relationship: product
@@ -2510,6 +2714,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: AWS CLI
     relationship: product
@@ -2522,6 +2727,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 6
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Amazon Application Discovery Service
     relationship: product
@@ -2540,6 +2746,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: amazon-web-services
     name: Elemental
     relationship: product
@@ -2552,6 +2759,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon CodeGuru Security
     relationship: product
@@ -2564,6 +2772,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Elastic Transcoder
     relationship: product
@@ -2576,6 +2785,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Lookout for Metrics
     relationship: product
@@ -2588,6 +2798,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon Lookout for Vision
     relationship: product
@@ -2600,6 +2811,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon MediaStore
     relationship: product
@@ -2612,6 +2824,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon RoboMaker
     relationship: product
@@ -2624,6 +2837,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: amazon-web-services
     name: Amazon SimSpace Weaver
     relationship: product

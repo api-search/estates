@@ -13,7 +13,7 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 37.6
-  composite_avg: 16.9
+  composite_avg: 16.8
   composite_band: emerging
   composite_raw: 13.9
   developing: 0
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: akamai
     name: Akamai API Security
     relationship: product
@@ -51,6 +52,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 18.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: akamai
     name: Styra
     relationship: acquisition
@@ -69,6 +71,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 4
+    api_count_basis: split
     immediate_parent: akamai
     name: Noname Security
     relationship: product
@@ -87,6 +90,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: akamai
     name: Guardicore
     relationship: product
@@ -99,6 +103,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: akamai
     name: Soha Systems
     relationship: acquisition
@@ -111,6 +116,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: akamai
     name: Instart Logic
     relationship: acquisition
@@ -129,6 +135,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: akamai
     name: Soasta
     relationship: acquisition

@@ -6,23 +6,23 @@ description: WSO2 API Manager is an open-source API management platform supporti
   agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forrester
   Wave API Management Q3 2024 report.
 estate_rating:
-  agent_avg: 18.2
+  agent_avg: 19.4
   agent_band: emerging
   agent_native: 1
-  agent_raw: 30.9
+  agent_raw: 34.2
   agent_ready: 1
   band: thin
-  best: 54.7
-  composite_avg: 32.6
+  best: 66.9
+  composite_avg: 34.1
   composite_band: thin
-  composite_raw: 53.0
+  composite_raw: 57.0
   developing: 2
-  exemplar: 0
-  rating: 26.8
+  exemplar: 1
+  rating: 28.2
   scored: 3
-  spread: 4.4
-  strength: 4
-  strong: 1
+  spread: 16.6
+  strength: 5
+  strong: 0
   worst: 50.3
 estate_root: null
 estate_root_name: null
@@ -30,23 +30,24 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wso2.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
+- band: exemplar
+  blurb: Complete, well-documented, and agent-ready
   count: 1
   items:
   - &id001
     acquired: 2025
     agent_band: agent-ready
-    agent_score: 30.1
+    agent_score: 40.0
     api_count: 2
+    api_count_basis: published
     immediate_parent: wso2
     name: Moesif
     relationship: acquisition
-    score_band: strong
-    score_composite: 54.7
+    score_band: exemplar
+    score_composite: 66.9
     slug: moesif
     source: declared
-  label: Strong
+  label: Exemplar
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
@@ -57,6 +58,7 @@ member_bands:
     agent_band: agent-native
     agent_score: 40.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: wso2
     name: Ballerina
     relationship: product
@@ -69,6 +71,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.9
     api_count: 3
+    api_count_basis: published
     immediate_parent: wso2
     name: Choreo
     relationship: product
@@ -87,7 +90,7 @@ members:
 members_unrated: []
 name: WSO2
 overview: 'WSO2 publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 4.4 points, from 54.7 down to 50.3.
+  which 3 carry a rating. The rated members span 16.6 points, from 66.9 down to 50.3.
 
 
   Its highest-rated surfaces are Moesif, Ballerina, Choreo.'

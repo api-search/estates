@@ -5,7 +5,7 @@ description: Zendesk provides customer service and engagement software that help
   tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and
   phonethrough a unified platform.
 estate_rating:
-  agent_avg: 15.7
+  agent_avg: 15.6
   agent_band: emerging
   agent_native: 0
   agent_raw: 24.1
@@ -38,6 +38,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: zendesk
     name: Zendesk Sell
     relationship: product
@@ -56,6 +57,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: zendesk
     name: Klaus
     relationship: product
@@ -68,6 +70,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 2
+    api_count_basis: published
     immediate_parent: zendesk
     name: Forethought
     relationship: product
@@ -108,5 +111,7 @@ tags:
 - Talk
 - Ticketing
 - Zendesk
+- Customer Service
+- Help Desk
 title: Zendesk
 ---

@@ -12,19 +12,19 @@ description: OneTrust is an enterprise trust, privacy, and AI-governance platfor
   against a per-tenant environment host, and the portal also serves an RFC 9727 /.well-known/api-catalog,
   an llms.txt, and a public remote MCP server.
 estate_rating:
-  agent_avg: 7.0
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.0
   agent_ready: 0
   band: emerging
   best: 26.0
-  composite_avg: 17.7
+  composite_avg: 17.6
   composite_band: emerging
   composite_raw: 13.1
   developing: 0
   exemplar: 0
-  rating: 13.4
+  rating: 13.3
   scored: 3
   spread: 23.5
   strength: 0
@@ -45,6 +45,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: onetrust
     name: Convercent
     relationship: acquisition
@@ -63,6 +64,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.6
     api_count: 1
+    api_count_basis: split
     immediate_parent: onetrust
     name: Tugboat Logic
     relationship: product
@@ -75,6 +77,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: onetrust
     name: Planetly
     relationship: product

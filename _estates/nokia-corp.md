@@ -15,21 +15,21 @@ description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, in
   the Bell Labs research division, and a broad open-source presence (600+ GitHub repos) including TTCN-3
   tooling (ntt), Corteca CLI, Moler test framework, and YANG models.
 estate_rating:
-  agent_avg: 9.5
+  agent_avg: 8.7
   agent_band: minimal
   agent_native: 0
-  agent_raw: 8.7
-  agent_ready: 1
+  agent_raw: 7.2
+  agent_ready: 0
   band: emerging
-  best: 41.0
-  composite_avg: 17.6
+  best: 41.7
+  composite_avg: 17.7
   composite_band: emerging
-  composite_raw: 15.3
+  composite_raw: 15.4
   developing: 1
   exemplar: 0
-  rating: 14.4
+  rating: 14.1
   scored: 6
-  spread: 41.0
+  spread: 41.7
   strength: 1
   strong: 0
   worst: 0.0
@@ -45,14 +45,15 @@ member_bands:
   items:
   - &id001
     acquired: 2024
-    agent_band: agent-ready
-    agent_score: 29.7
+    agent_band: agent-aware
+    agent_score: 20.8
     api_count: 6
+    api_count_basis: published
     immediate_parent: nokia-corp
     name: RapidAPI
     relationship: acquisition
     score_band: developing
-    score_composite: 41.0
+    score_composite: 41.7
     slug: rapidapi
     source: declared
   label: Developing
@@ -66,6 +67,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: nokia-corp
     name: Nokia NetAct
     relationship: product
@@ -84,6 +86,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nokia-corp
     name: Infinera
     relationship: acquisition
@@ -102,6 +105,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nokia-corp
     name: Alcatel-lucent
     relationship: acquisition
@@ -114,6 +118,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nokia-corp
     name: Network Alchemy
     relationship: acquisition
@@ -126,6 +131,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: alcatel-lucent
     name: ProgrammableWeb
     relationship: product
@@ -144,6 +150,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: nokia-corp
     name: Gainspeed
     relationship: acquisition
@@ -166,7 +173,7 @@ members:
 members_unrated: []
 name: Nokia
 overview: 'Nokia publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 41.0 points, from 41.0 down to 0.0.
+  of which 7 carry a rating. The rated members span 41.7 points, from 41.7 down to 0.0.
 
 
   Its highest-rated surfaces are RapidAPI, Nokia NetAct, Infinera, Alcatel-lucent, Network Alchemy.'

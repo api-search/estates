@@ -9,7 +9,7 @@ description: RealPage is a multifamily and rental-housing software company offer
   the RPX integration marketplace and provisioned under contract rather than via a public self-serve developer
   portal.
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 7.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.2
@@ -42,6 +42,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 13
+    api_count_basis: split
     immediate_parent: realpage
     name: Buildium
     relationship: product
@@ -60,6 +61,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: realpage
     name: RentMineOnline
     relationship: acquisition
@@ -78,6 +80,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: realpage
     name: Rentlytics
     relationship: product

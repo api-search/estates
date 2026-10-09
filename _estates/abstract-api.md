@@ -15,12 +15,12 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 33.6
-  composite_avg: 16.8
+  composite_avg: 16.7
   composite_band: emerging
   composite_raw: 12.2
   developing: 0
   exemplar: 0
-  rating: 14.0
+  rating: 13.9
   scored: 4
   spread: 28.5
   strength: 0
@@ -41,6 +41,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: abstract-api
     name: Abstract API Phone Validation
     relationship: product
@@ -59,6 +60,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: abstract-api
     name: Email Validation
     relationship: product
@@ -71,6 +73,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: abstract-api
     name: IP Geolocation
     relationship: product
@@ -83,6 +86,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: abstract-api
     name: Phone Validation
     relationship: product

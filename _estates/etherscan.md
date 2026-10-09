@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: etherscan
     name: Optimism Etherscan
     relationship: product
@@ -52,6 +53,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: etherscan
     name: Arbiscan
     relationship: product
@@ -64,6 +66,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: etherscan
     name: Basescan
     relationship: product
@@ -76,6 +79,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: etherscan
     name: BscScan
     relationship: product
@@ -94,6 +98,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: etherscan
     name: PolygonScan
     relationship: product
@@ -106,6 +111,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: etherscan
     name: Solscan
     relationship: acquisition

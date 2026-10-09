@@ -14,7 +14,7 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 38.7
-  composite_avg: 19.8
+  composite_avg: 19.7
   composite_band: emerging
   composite_raw: 18.7
   developing: 0
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: paylocity
     name: VidGrid
     relationship: product
@@ -58,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 9
+    api_count_basis: split
     immediate_parent: paylocity
     name: Airbase
     relationship: acquisition
@@ -76,6 +78,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: paylocity
     name: Trace
     relationship: acquisition

@@ -13,12 +13,12 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 7.8
-  composite_avg: 14.2
+  composite_avg: 14.1
   composite_band: emerging
   composite_raw: 3.7
   developing: 0
   exemplar: 0
-  rating: 11.2
+  rating: 11.1
   scored: 3
   spread: 7.8
   strength: 0
@@ -39,6 +39,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: lennar
     name: Ryland Group
     relationship: product
@@ -51,6 +52,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: lennar
     name: Modsy *
     relationship: product
@@ -63,6 +65,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: lennar
     name: CalAtlantic Group
     relationship: acquisition

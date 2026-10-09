@@ -16,7 +16,7 @@ description: 'Uniphore is an enterprise AI company — "The Business AI Company"
   which documents fifteen REST API families plus a webhook/SNMP health-alert surface without publishing
   a machine-readable contract.'
 estate_rating:
-  agent_avg: 10.6
+  agent_avg: 10.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.6
@@ -49,6 +49,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: uniphore
     name: Infoworks
     relationship: product
@@ -61,6 +62,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: uniphore
     name: ActionIQ
     relationship: acquisition
@@ -79,6 +81,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: uniphore
     name: Orby AI
     relationship: acquisition

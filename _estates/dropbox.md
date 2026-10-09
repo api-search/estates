@@ -5,7 +5,7 @@ description: Dropbox is a file hosting service operated by the American company 
   in San Francisco, California, U.S. that offers cloud storage, file synchronization, personal cloud,
   and client software.
 estate_rating:
-  agent_avg: 13.2
+  agent_avg: 13.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.3
@@ -17,7 +17,7 @@ estate_rating:
   composite_raw: 18.4
   developing: 1
   exemplar: 0
-  rating: 16.9
+  rating: 16.8
   scored: 6
   spread: 59.6
   strength: 3
@@ -38,6 +38,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 44.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: dropbox
     name: Dropbox Sign (HelloSign)
     relationship: product
@@ -56,6 +57,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 47.1
     api_count: 1
+    api_count_basis: split
     immediate_parent: dropbox
     name: DocSend
     relationship: product
@@ -74,6 +76,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: dropbox
     name: Command E
     relationship: product
@@ -86,6 +89,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: dropbox
     name: Clementine
     relationship: acquisition
@@ -98,6 +102,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: dropbox
     name: Hackpad
     relationship: acquisition
@@ -110,6 +115,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: dropbox
     name: PiCloud
     relationship: acquisition

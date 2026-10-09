@@ -7,7 +7,7 @@ description: Airbnb is the world's leading home-sharing and short-term rental ma
   — with APIs to manage listings, reservations, calendars, messaging, reviews, and webhook-based event
   notifications. Access is restricted to approved partners.
 estate_rating:
-  agent_avg: 6.2
+  agent_avg: 6.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.6
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 7.8
   developing: 0
   exemplar: 0
-  rating: 11.4
+  rating: 11.3
   scored: 4
   spread: 31.2
   strength: 0
@@ -40,6 +40,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: airbnb
     name: Hotel Tonight
     relationship: acquisition
@@ -58,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: airbnb
     name: ChangeTip
     relationship: acquisition
@@ -70,6 +72,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: airbnb
     name: Trooly (Airbnb)
     relationship: acquisition
@@ -82,6 +85,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: airbnb
     name: Vamo
     relationship: acquihire

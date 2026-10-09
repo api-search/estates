@@ -14,9 +14,9 @@ estate_rating:
   agent_ready: 2
   band: emerging
   best: 60.2
-  composite_avg: 19.8
+  composite_avg: 19.7
   composite_band: emerging
-  composite_raw: 19.6
+  composite_raw: 19.5
   developing: 1
   exemplar: 0
   rating: 15.9
@@ -38,20 +38,9 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.3
-    api_count: 6
-    immediate_parent: hpe
-    name: Juniper Networks
-    relationship: product
-    score_band: strong
-    score_composite: 60.2
-    slug: juniper
-    source: declared
-  - &id002
-    acquired: null
-    agent_band: agent-ready
     agent_score: 29.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: juniper
     name: Mist
     relationship: product
@@ -59,6 +48,19 @@ member_bands:
     score_composite: 60.2
     slug: mist
     source: parent-company-property
+  - &id002
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 35.3
+    api_count: 6
+    api_count_basis: published
+    immediate_parent: hpe
+    name: Juniper Networks
+    relationship: product
+    score_band: strong
+    score_composite: 59.7
+    slug: juniper
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -70,6 +72,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: juniper
     name: Juniper Mist AI
     relationship: acquisition
@@ -88,6 +91,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.2
     api_count: 1
+    api_count_basis: split
     immediate_parent: juniper
     name: 128 Technology
     relationship: acquisition
@@ -100,6 +104,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: hpe
     name: SimpliVity
     relationship: product
@@ -112,6 +117,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: hpe
     name: Pachyderm
     relationship: acquisition
@@ -130,6 +136,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: hpe
     name: Nimble Storage
     relationship: product
@@ -142,6 +149,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: hpe
     name: 3PAR (HPE 3PAR StoreServ)
     relationship: product
@@ -160,6 +168,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: juniper
     name: BTI Systems (Juniper)
     relationship: product
@@ -172,6 +181,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: hpe
     name: Axis Security
     relationship: acquisition
@@ -184,6 +194,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: hpe
     name: CloudPhysics
     relationship: product
@@ -196,6 +207,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: hpe
     name: Cray
     relationship: product
@@ -208,6 +220,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: hpe
     name: TidalScale
     relationship: acquisition
@@ -220,6 +233,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: juniper
     name: Argon Networks
     relationship: product
@@ -232,6 +246,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: juniper
     name: Peribit
     relationship: product
@@ -244,6 +259,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: hpe
     name: SGI (Silicon Graphics)
     relationship: acquisition
@@ -262,6 +278,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: hpe
     name: Bluedata Software Inc
     relationship: acquisition
@@ -298,7 +315,7 @@ overview: 'Hewlett Packard Enterprise publishes its API surface across 17 provid
   to 0.0.
 
 
-  Its highest-rated surfaces are Juniper Networks, Mist, Juniper Mist AI, 128 Technology, SimpliVity.'
+  Its highest-rated surfaces are Mist, Juniper Networks, Juniper Mist AI, 128 Technology, SimpliVity.'
 parent_provider: hpe
 permalink: /estates/hpe/
 slug: hpe

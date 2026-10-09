@@ -19,7 +19,7 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 19.0
-  composite_avg: 18.3
+  composite_avg: 18.2
   composite_band: emerging
   composite_raw: 14.7
   developing: 0
@@ -45,6 +45,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: renaissance
     name: Nearpod
     relationship: product
@@ -57,6 +58,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: renaissance
     name: Lalilo
     relationship: acquisition
@@ -69,6 +71,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: renaissance
     name: Freckle Education
     relationship: acquisition

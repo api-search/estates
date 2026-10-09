@@ -10,7 +10,7 @@ description: Quest Software Inc. is a privately held IT management and cybersecu
   Support portal. Surfaced as a portfolio-lead stub and processed by the API Evangelist enrichment pipeline;
   no public, first-party developer API portal or OpenAPI surface was discoverable at enrichment time.
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 7.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.2
@@ -43,6 +43,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: quest-software-inc
     name: Kace
     relationship: product
@@ -55,6 +56,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: quest-software-inc
     name: Aelita Software
     relationship: acquisition
@@ -73,6 +75,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: quest-software-inc
     name: Scriptlogic
     relationship: acquisition

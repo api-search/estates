@@ -1,22 +1,25 @@
 ---
 api_total: 2
 category: Estates
-description: MongoDB is a source-available cross-platform document-oriented database program. Classified
-  as a NoSQL database, MongoDB uses JSON-like documents with optional schemas.
+description: MongoDB provides a document‑model database platform that can be deployed on any cloud or
+  on‑premises infrastructure. It offers services such as MongoDB Atlas for multi‑cloud data management,
+  vector search, real‑time operational workloads, and tools like Compass for GUI access. The platform
+  is used by developers and enterprises building applications that require scalable, searchable, and AI‑enabled
+  data handling.
 estate_rating:
-  agent_avg: 13.1
+  agent_avg: 13.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 19.2
   agent_ready: 0
   band: emerging
   best: 34.3
-  composite_avg: 23.7
+  composite_avg: 23.6
   composite_band: emerging
   composite_raw: 31.8
   developing: 0
   exemplar: 0
-  rating: 19.5
+  rating: 19.4
   scored: 2
   spread: 4.9
   strength: 0
@@ -37,6 +40,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 20.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: mongodb
     name: MongoDB Atlas
     relationship: product
@@ -49,6 +53,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 18.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: mongodb
     name: Voyage AI
     relationship: acquisition
@@ -67,6 +72,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: null
     immediate_parent: mongodb
     name: Schema Free
     relationship: product

@@ -14,12 +14,12 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 5.1
-  composite_avg: 14.7
+  composite_avg: 14.6
   composite_band: emerging
   composite_raw: 5.1
   developing: 0
   exemplar: 0
-  rating: 11.5
+  rating: 11.4
   scored: 3
   spread: 0.0
   strength: 0
@@ -40,6 +40,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: cloudmersive
     name: Cloudmersive Document and Data Conversion
     relationship: product
@@ -52,6 +53,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: cloudmersive
     name: Cloudmersive Natural Language Processing
     relationship: product
@@ -64,6 +66,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 2
+    api_count_basis: split
     immediate_parent: cloudmersive
     name: Cloudmersive Validate
     relationship: product

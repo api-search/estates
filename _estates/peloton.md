@@ -16,7 +16,7 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 10.2
-  composite_avg: 14.5
+  composite_avg: 14.4
   composite_band: emerging
   composite_raw: 4.6
   developing: 0
@@ -42,6 +42,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: peloton
     name: Breathwrk
     relationship: product
@@ -54,6 +55,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: peloton
     name: Peloton Interactive
     relationship: product
@@ -66,6 +68,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: peloton-interactive
     name: Atlas Wearables
     relationship: acquisition

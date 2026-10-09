@@ -12,7 +12,7 @@ description: 'Zynga is a mobile and social game developer and publisher, founded
   "Zynga API" announced at Zynga Unleashed in 2011-2012 was retired with the zynga.com third-party publishing
   platform, and developers.zynga.com no longer resolves.'
 estate_rating:
-  agent_avg: 5.3
+  agent_avg: 5.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -45,6 +45,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: Peak Games
     relationship: acquisition
@@ -57,6 +58,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: naturalmotion
     relationship: product
@@ -69,6 +71,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: Small Giant Games
     relationship: acquisition
@@ -81,6 +84,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: Storemaven
     relationship: acquisition
@@ -93,6 +97,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zynga
     name: DNA Games
     relationship: acquisition

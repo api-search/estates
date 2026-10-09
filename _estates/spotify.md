@@ -7,19 +7,19 @@ description: Spotify is the world's leading music streaming platform with 600M+ 
   OAuth 2.0 with scopes for user-authorized access. The API underwent significant changes in February
   2026 with new generic library endpoints and streamlined playlist management.
 estate_rating:
-  agent_avg: 8.1
+  agent_avg: 8.0
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.0
   agent_ready: 0
   band: emerging
   best: 33.9
-  composite_avg: 16.3
+  composite_avg: 16.2
   composite_band: emerging
   composite_raw: 11.1
   developing: 0
   exemplar: 0
-  rating: 13.0
+  rating: 12.9
   scored: 4
   spread: 33.9
   strength: 0
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: spotify
     name: Megaphone
     relationship: acquisition
@@ -58,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: spotify
     name: SoundBetter
     relationship: product
@@ -70,6 +72,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: spotify
     name: Cord Project
     relationship: acquisition
@@ -82,6 +85,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: spotify
     name: The Echo Nest
     relationship: acquisition
@@ -100,6 +104,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: spotify
     name: Betty Labs
     relationship: product
@@ -112,6 +117,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: spotify
     name: Locker Room *
     relationship: acquisition

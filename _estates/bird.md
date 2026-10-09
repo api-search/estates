@@ -13,12 +13,12 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 50.9
-  composite_avg: 25.1
+  composite_avg: 25.0
   composite_band: thin
   composite_raw: 32.8
   developing: 1
   exemplar: 0
-  rating: 19.9
+  rating: 19.8
   scored: 3
   spread: 42.1
   strength: 1
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.2
     api_count: 1
+    api_count_basis: split
     immediate_parent: bird
     name: Hull
     relationship: acquisition
@@ -57,6 +58,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: bird
     name: Pusher
     relationship: acquisition
@@ -75,6 +77,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: pusher
     name: Pusher Beams
     relationship: product

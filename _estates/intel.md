@@ -11,12 +11,12 @@ estate_rating:
   agent_ready: 0
   band: minimal
   best: 26.0
-  composite_avg: 12.1
+  composite_avg: 12.0
   composite_band: emerging
   composite_raw: 6.8
   developing: 0
   exemplar: 0
-  rating: 9.5
+  rating: 9.4
   scored: 8
   spread: 26.0
   strength: 0
@@ -37,6 +37,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 20.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: intel
     name: Moovit
     relationship: acquisition
@@ -49,6 +50,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: intel
     name: Granulate
     relationship: acquisition
@@ -67,6 +69,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: intel
     name: Habana Labs
     relationship: acquisition
@@ -79,6 +82,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: intel
     name: Mobileye
     relationship: acquisition
@@ -91,6 +95,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: intel
     name: Aepona
     relationship: acquisition
@@ -103,6 +108,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: intel
     name: KNO
     relationship: acquisition
@@ -115,6 +121,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: intel
     name: Nervana Systems
     relationship: acquisition
@@ -127,6 +134,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: intel
     name: SigOpt
     relationship: acquisition

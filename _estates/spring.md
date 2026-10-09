@@ -7,19 +7,19 @@ description: Spring is the leading open-source application framework for Java. T
   rapid application development with embedded servers and auto-configuration. Spring is maintained by
   VMware and hosted under the Spring Projects GitHub organization.
 estate_rating:
-  agent_avg: 13.5
+  agent_avg: 13.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.9
   agent_ready: 0
   band: emerging
   best: 38.1
-  composite_avg: 28.1
+  composite_avg: 28.0
   composite_band: thin
   composite_raw: 34.4
   developing: 0
   exemplar: 0
-  rating: 22.3
+  rating: 22.2
   scored: 6
   spread: 7.9
   strength: 0
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: spring
     name: Spring Boot
     relationship: product
@@ -52,6 +53,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: spring
     name: Spring Cloud Config
     relationship: product
@@ -64,6 +66,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: spring
     name: Spring Cloud Gateway
     relationship: product
@@ -76,6 +79,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: spring
     name: Spring Integration
     relationship: product
@@ -88,6 +92,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: spring
     name: Spring Data
     relationship: product
@@ -100,6 +105,7 @@ member_bands:
     agent_band: human-only
     agent_score: 3.8
     api_count: 3
+    api_count_basis: split
     immediate_parent: spring
     name: Spring Cloud Stream
     relationship: product

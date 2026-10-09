@@ -37,6 +37,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: pfizer
     name: Lucira Health
     relationship: acquisition
@@ -49,6 +50,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: pfizer
     name: Trillium Therapeutics
     relationship: acquisition
@@ -61,6 +63,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: pfizer
     name: Hospira
     relationship: acquisition

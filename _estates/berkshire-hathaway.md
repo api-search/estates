@@ -9,7 +9,7 @@ description: Berkshire Hathaway is a multinational conglomerate holding company 
   a public API Center providing customer APIs for shipment tracking, pricing, scheduling, and waybill
   management.
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 8.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.0
@@ -42,6 +42,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.0
     api_count: 16
+    api_count_basis: published
     immediate_parent: berkshire-hathaway
     name: BNSF
     relationship: subsidiary
@@ -60,6 +61,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: berkshire-hathaway
     name: GEICO
     relationship: subsidiary
@@ -72,6 +74,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: berkshire-hathaway
     name: Alleghany
     relationship: acquisition
@@ -84,6 +87,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: berkshire-hathaway
     name: Dairyqueen
     relationship: subsidiary
@@ -96,6 +100,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: berkshire-hathaway
     name: Precision Castparts
     relationship: acquisition

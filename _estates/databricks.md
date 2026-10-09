@@ -3,19 +3,19 @@ api_total: 1
 category: Estates
 description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
 estate_rating:
-  agent_avg: 8.0
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.3
   agent_ready: 0
   band: emerging
   best: 66.5
-  composite_avg: 19.8
+  composite_avg: 19.7
   composite_band: emerging
   composite_raw: 19.1
   developing: 0
   exemplar: 1
-  rating: 15.1
+  rating: 15.0
   scored: 5
   spread: 66.5
   strength: 3
@@ -36,6 +36,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.3
     api_count: 1
+    api_count_basis: split
     immediate_parent: databricks
     name: Databricks Asset Bundles
     relationship: product
@@ -54,6 +55,7 @@ member_bands:
     agent_band: human-only
     agent_score: 1.3
     api_count: 0
+    api_count_basis: split
     immediate_parent: databricks
     name: MosaicML
     relationship: acquisition
@@ -72,6 +74,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: databricks
     name: Arcion Labs
     relationship: acquisition
@@ -84,6 +87,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: databricks
     name: Okera
     relationship: acquisition
@@ -96,6 +100,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: databricks
     name: Bit.io
     relationship: acquisition

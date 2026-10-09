@@ -6,7 +6,7 @@ description: Nvidia is a Fortune 500 company that provides developer APIs and in
   and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU
   services.
 estate_rating:
-  agent_avg: 6.1
+  agent_avg: 6.0
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.8
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: nvidia
     name: NVIDIA Run:ai
     relationship: acquisition
@@ -57,6 +58,7 @@ member_bands:
     agent_band: human-only
     agent_score: 1.9
     api_count: 1
+    api_count_basis: split
     immediate_parent: nvidia
     name: Lepton AI
     relationship: acquisition
@@ -75,6 +77,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 8.6
     api_count: 0
+    api_count_basis: split
     immediate_parent: nvidia
     name: Cumulus Networks
     relationship: acquisition
@@ -87,6 +90,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nvidia
     name: Excelero Storage
     relationship: acquisition
@@ -99,6 +103,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nvidia
     name: Deci AI
     relationship: acquisition
@@ -111,6 +116,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nvidia
     name: Augtera Networks
     relationship: acquisition
@@ -123,6 +129,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nvidia
     name: DeepMap
     relationship: acquisition
@@ -135,6 +142,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nvidia
     name: SwiftStack
     relationship: acquisition
@@ -147,6 +155,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nvidia
     name: icerasemi
     relationship: acquisition
@@ -159,6 +168,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: nvidia
     name: Shoreline
     relationship: acquisition

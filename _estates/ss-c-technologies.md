@@ -46,6 +46,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 31.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: ss-c-technologies
     name: Blue Prism
     relationship: acquisition
@@ -64,6 +65,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: ss-c-technologies
     name: SS&C Geneva
     relationship: product
@@ -82,6 +84,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: ss-c-technologies
     name: Calastone
     relationship: subsidiary
@@ -94,6 +97,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: ss-c-technologies
     name: DST Systems
     relationship: acquisition

@@ -38,6 +38,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: ptc
     name: Onshape
     relationship: product
@@ -56,6 +57,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: ptc
     name: PTC ThingWorx
     relationship: product
@@ -74,6 +76,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 10.8
     api_count: 0
+    api_count_basis: split
     immediate_parent: ptc
     name: ServiceMax
     relationship: product

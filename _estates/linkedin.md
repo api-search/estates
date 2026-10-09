@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: linkedin
     name: LinkedIn Marketing API
     relationship: product
@@ -58,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: linkedin
     name: Glint
     relationship: product
@@ -70,6 +72,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: linkedin
     name: Cardmunch
     relationship: acquisition
@@ -82,6 +85,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: linkedin
     name: Connected
     relationship: acquisition
@@ -94,6 +98,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: linkedin
     name: Newsle
     relationship: acquisition
@@ -106,6 +111,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: linkedin
     name: Rapportive
     relationship: product
@@ -124,6 +130,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: linkedin
     name: Drawbridge
     relationship: product
@@ -136,6 +143,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: linkedin
     name: Fliptop
     relationship: acquisition

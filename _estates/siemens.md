@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 3
+    api_count_basis: published
     immediate_parent: siemens
     name: Siemens PLM
     relationship: product
@@ -52,6 +53,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 2
+    api_count_basis: published
     immediate_parent: siemens
     name: Siemens Insights Hub (MindSphere)
     relationship: product
@@ -70,18 +72,20 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: siemens
     name: Dresser-Rand Group
     relationship: product
     score_band: minimal
     score_composite: 3.4
     slug: dresser-rand-group
-    source: parent-company-property
+    source: declared
   - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: siemens
     name: Mentor Graphics
     relationship: product

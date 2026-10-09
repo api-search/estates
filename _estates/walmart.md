@@ -8,7 +8,7 @@ description: Walmart is a multinational retail corporation that operates a chain
   The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory,
   pricing, fulfillment, and reporting on Walmart.com.
 estate_rating:
-  agent_avg: 8.6
+  agent_avg: 8.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.9
@@ -41,6 +41,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: split
     immediate_parent: walmart
     name: Flipkart
     relationship: acquisition
@@ -53,6 +54,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: walmart
     name: PhonePe
     relationship: acquisition
@@ -71,6 +73,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: walmart
     name: Eloquii
     relationship: product
@@ -89,6 +92,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: flipkart
     name: Myntra
     relationship: acquisition
@@ -101,6 +105,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: walmart
     name: Jet (Walmart)
     relationship: product
@@ -113,6 +118,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: walmart
     name: Kosmix
     relationship: product

@@ -37,6 +37,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 50.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: github
     name: GitHub Actions
     relationship: product
@@ -55,6 +56,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 46.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: github
     name: GitHub Copilot
     relationship: product
@@ -73,6 +75,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.9
     api_count: 2
+    api_count_basis: published
     immediate_parent: github
     name: NuGet
     relationship: product
@@ -85,6 +88,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: github
     name: npm
     relationship: product
@@ -103,6 +107,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: github
     name: GitHub Container Registry
     relationship: product
@@ -115,6 +120,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.9
     api_count: 8
+    api_count_basis: split
     immediate_parent: github
     name: Microsoft Package
     relationship: product
@@ -133,6 +139,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: github
     name: GitHub Enterprise
     relationship: product
@@ -145,6 +152,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: github
     name: GitHub CLI
     relationship: product
@@ -163,6 +171,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: github
     name: GitHub ReadMe Stats
     relationship: product
@@ -175,6 +184,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: github
     name: Artillery Games
     relationship: product
@@ -187,6 +197,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: github
     name: Lytmus
     relationship: product
@@ -233,5 +244,6 @@ tags:
 - Source Control
 - T1
 - GitHub
+- Git
 title: GitHub
 ---

@@ -41,6 +41,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: samsung
     name: Harman International
     relationship: subsidiary
@@ -53,6 +54,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: samsung
     name: Boxee
     relationship: acquisition
@@ -65,6 +67,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: samsung
     name: mSpot
     relationship: acquisition

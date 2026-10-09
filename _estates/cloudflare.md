@@ -11,12 +11,12 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 41.9
-  composite_avg: 23.8
+  composite_avg: 23.7
   composite_band: emerging
   composite_raw: 29.4
   developing: 1
   exemplar: 0
-  rating: 18.8
+  rating: 18.7
   scored: 3
   spread: 30.7
   strength: 1
@@ -24,7 +24,7 @@ estate_rating:
   worst: 11.2
 estate_root: null
 estate_root_name: null
-image: ''
+image: https://www.cloudflare.com/preview.png
 is_subfamily: false
 layout: estate
 member_bands:
@@ -37,6 +37,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.8
     api_count: 4
+    api_count_basis: split
     immediate_parent: cloudflare
     name: PartyKit
     relationship: product
@@ -55,6 +56,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: cloudflare
     name: Dyte
     relationship: product
@@ -73,6 +75,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: cloudflare
     name: VoidZero
     relationship: acquisition

@@ -7,10 +7,10 @@ estate_rating:
   agent_avg: 22.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 23.8
-  agent_ready: 3
+  agent_raw: 23.9
+  agent_ready: 4
   band: thin
-  best: 68.2
+  best: 70.8
   composite_avg: 43.6
   composite_band: developing
   composite_raw: 45.4
@@ -18,12 +18,12 @@ estate_rating:
   exemplar: 3
   rating: 35.3
   scored: 66
-  spread: 65.7
+  spread: 68.3
   strength: 64
   strong: 3
   worst: 2.5
-estate_root: google
-estate_root_name: Google
+estate_root: google-workspace
+estate_root_name: Google Workspace
 image: ''
 is_subfamily: true
 layout: estate
@@ -34,14 +34,15 @@ member_bands:
   items:
   - &id001
     acquired: 2016
-    agent_band: agent-aware
-    agent_score: 26.5
+    agent_band: agent-ready
+    agent_score: 31.4
     api_count: 5
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Apigee
     relationship: acquisition
     score_band: exemplar
-    score_composite: 68.2
+    score_composite: 70.8
     slug: apigee
     source: declared
   - &id002
@@ -49,6 +50,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.7
     api_count: 2
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Dialogflow
     relationship: product
@@ -61,6 +63,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 46.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Logging
     relationship: product
@@ -79,6 +82,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Storage
     relationship: product
@@ -91,6 +95,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud DNS
     relationship: product
@@ -103,6 +108,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud CDN
     relationship: product
@@ -121,6 +127,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud AutoML
     relationship: product
@@ -133,6 +140,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Interconnect
     relationship: product
@@ -145,6 +153,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Load Balancing
     relationship: product
@@ -157,6 +166,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.5
     api_count: 2
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Healthcare
     relationship: product
@@ -169,6 +179,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud API Gateway
     relationship: product
@@ -181,6 +192,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Datastream
     relationship: product
@@ -193,6 +205,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Build
     relationship: product
@@ -205,6 +218,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Bigtable
     relationship: product
@@ -217,6 +231,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Spanner
     relationship: product
@@ -229,6 +244,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud SQL
     relationship: product
@@ -241,6 +257,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Firestore
     relationship: product
@@ -253,6 +270,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Dataproc
     relationship: product
@@ -265,6 +283,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Security Command Center
     relationship: product
@@ -277,6 +296,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Compute Engine
     relationship: product
@@ -289,6 +309,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Binary Authorization
     relationship: product
@@ -301,6 +322,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Batch
     relationship: product
@@ -313,6 +335,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Secret Manager
     relationship: product
@@ -325,6 +348,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Composer
     relationship: product
@@ -337,6 +361,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Functions
     relationship: product
@@ -349,6 +374,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Run
     relationship: product
@@ -361,6 +387,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud KMS
     relationship: product
@@ -373,6 +400,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Deploy
     relationship: product
@@ -385,6 +413,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Armor
     relationship: product
@@ -397,6 +426,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Vision
     relationship: product
@@ -409,6 +439,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud IAM
     relationship: product
@@ -421,6 +452,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud App Engine
     relationship: product
@@ -433,6 +465,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Assured Workloads
     relationship: product
@@ -445,6 +478,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Memorystore
     relationship: product
@@ -457,6 +491,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Text-To-Speech
     relationship: product
@@ -469,6 +504,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Video Intelligence
     relationship: product
@@ -481,6 +517,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Observability
     relationship: product
@@ -493,6 +530,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Speech-To-Text
     relationship: product
@@ -505,6 +543,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Certificate Manager
     relationship: product
@@ -517,6 +556,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Data Catalog
     relationship: product
@@ -529,6 +569,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Migration Center
     relationship: product
@@ -541,6 +582,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Tasks
     relationship: product
@@ -553,6 +595,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Workflows
     relationship: product
@@ -565,6 +608,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Eventarc
     relationship: product
@@ -577,6 +621,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Document AI
     relationship: product
@@ -589,6 +634,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Chronicle
     relationship: product
@@ -601,6 +647,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Natural Language
     relationship: product
@@ -613,6 +660,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Endpoints
     relationship: product
@@ -625,6 +673,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Data Fusion
     relationship: product
@@ -637,6 +686,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Trace
     relationship: product
@@ -649,6 +699,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud VPC
     relationship: product
@@ -661,6 +712,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Monitoring
     relationship: product
@@ -673,6 +725,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Dialogflow CX
     relationship: product
@@ -685,6 +738,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Profiler
     relationship: product
@@ -697,6 +751,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Error Reporting
     relationship: product
@@ -715,6 +770,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Contact Center AI
     relationship: product
@@ -727,6 +783,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Container Registry
     relationship: product
@@ -739,6 +796,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Pub/Sub
     relationship: product
@@ -751,6 +809,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Kubernetes Engine
     relationship: product
@@ -763,6 +822,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Transfer Service
     relationship: product
@@ -775,6 +835,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Talent Solution
     relationship: product
@@ -787,6 +848,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Artifact Registry
     relationship: product
@@ -799,6 +861,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud VMware Engine
     relationship: product
@@ -811,6 +874,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Recommendations AI
     relationship: product
@@ -823,6 +887,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Google Cloud Scheduler
     relationship: product
@@ -841,6 +906,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: google-cloud-platform
     name: Elastifile
     relationship: acquisition
@@ -922,7 +988,7 @@ members:
 members_unrated: []
 name: Google Cloud Platform
 overview: 'Google Cloud Platform publishes its API surface across 66 provider profiles indexed on the
-  APIs.io network, of which 66 carry a rating. The rated members span 65.7 points, from 68.2 down to 2.5.
+  APIs.io network, of which 66 carry a rating. The rated members span 68.3 points, from 70.8 down to 2.5.
 
 
   Its highest-rated surfaces are Apigee, Google Dialogflow, Google Cloud Logging, Google Cloud Storage,

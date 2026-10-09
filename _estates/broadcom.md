@@ -7,7 +7,7 @@ description: Broadcom is a global technology company that specializes in the des
   electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets,
   routers, and smart TVs.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.7
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 13.8
   developing: 4
   exemplar: 0
-  rating: 11.5
+  rating: 11.4
   scored: 29
   spread: 57.2
   strength: 6
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 38.9
     api_count: 8
+    api_count_basis: split
     immediate_parent: vmware
     name: CloudHealth
     relationship: acquisition
@@ -58,6 +59,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: broadcom
     name: VMware
     relationship: acquisition
@@ -70,6 +72,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: broadcom
     name: Brocade
     relationship: acquisition
@@ -82,6 +85,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.1
     api_count: 2
+    api_count_basis: split
     immediate_parent: broadcom
     name: AppNeta
     relationship: acquisition
@@ -94,6 +98,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: broadcom
     name: Symantec
     relationship: acquisition
@@ -112,6 +117,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: vmware
     name: VMware Tanzu
     relationship: product
@@ -130,6 +136,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 5.4
     api_count: 1
+    api_count_basis: split
     immediate_parent: vmware
     name: Lastline
     relationship: acquisition
@@ -142,6 +149,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 6
+    api_count_basis: split
     immediate_parent: broadcom
     name: CA Technologies (Broadcom)
     relationship: acquisition
@@ -154,6 +162,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: ca
     name: Runscope
     relationship: acquisition
@@ -166,6 +175,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: vmware
     name: Carbon Black
     relationship: acquisition
@@ -178,6 +188,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: symantec
     name: Bluecoat (Symantec)
     relationship: acquisition
@@ -196,6 +207,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: AVI Networks
     relationship: acquisition
@@ -208,6 +220,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: appneta
     name: Tracelytics
     relationship: acquisition
@@ -220,6 +233,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: SpringSource
     relationship: acquisition
@@ -232,6 +246,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: broadcom
     name: Avago Technologies
     relationship: rename
@@ -244,6 +259,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: broadcom
     name: Nimsoft
     relationship: product
@@ -256,6 +272,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: ca
     name: Arcot Systems
     relationship: acquisition
@@ -268,6 +285,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Nicira Networks
     relationship: acquisition
@@ -280,6 +298,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Octarine
     relationship: acquisition
@@ -292,6 +311,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Apteligent
     relationship: acquisition
@@ -304,6 +324,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: symantec
     name: Brightmail
     relationship: acquisition
@@ -316,6 +337,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: broadcom
     name: Concord Data Systems
     relationship: product
@@ -328,6 +350,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: carbon-black
     name: Confer Technologies
     relationship: acquisition
@@ -340,6 +363,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Datrium
     relationship: acquisition
@@ -352,6 +376,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: symantec
     name: Fireglass
     relationship: acquisition
@@ -364,6 +389,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 2
+    api_count_basis: published
     immediate_parent: ca
     name: Flowdock (Discontinued)
     relationship: acquisition
@@ -376,6 +402,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Heptio
     relationship: acquisition
@@ -388,6 +415,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: avago-technologies
     name: LSI Logic
     relationship: acquisition
@@ -400,6 +428,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: lsi
     name: Sandforce
     relationship: acquisition
@@ -418,6 +447,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: symantec
     name: Elastica
     relationship: product
@@ -430,6 +460,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: avago-technologies
     name: LSI
     relationship: acquisition
@@ -442,6 +473,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: broadcom
     name: Newport Communications
     relationship: acquisition

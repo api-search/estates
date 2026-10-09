@@ -21,7 +21,7 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 36.2
-  composite_avg: 15.5
+  composite_avg: 15.4
   composite_band: emerging
   composite_raw: 10.5
   developing: 0
@@ -47,6 +47,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.2
     api_count: 2
+    api_count_basis: published
     immediate_parent: centene
     name: WellCare Health Plans
     relationship: product
@@ -65,6 +66,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: wellcare-health-plans
     name: Universal American
     relationship: product
@@ -77,6 +79,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: centene
     name: Magellan Health
     relationship: acquisition
@@ -89,6 +92,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: centene
     name: Apixio (Centene)
     relationship: product
@@ -101,6 +105,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: centene
     name: Health Net
     relationship: subsidiary

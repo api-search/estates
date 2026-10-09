@@ -6,7 +6,7 @@ description: Cloud communications platform providing APIs for SMS, voice, video,
   and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python,
   Ruby, Java, PHP, C#, and Go.
 estate_rating:
-  agent_avg: 14.9
+  agent_avg: 14.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 22.0
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 39.5
     api_count: 44
+    api_count_basis: published
     immediate_parent: twilio
     name: SendGrid
     relationship: product
@@ -57,6 +58,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.6
     api_count: 4
+    api_count_basis: published
     immediate_parent: twilio
     name: Twilio Segment
     relationship: product
@@ -75,6 +77,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: twilio
     name: Authy
     relationship: product
@@ -93,6 +96,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: twilio
     name: Ionic Security
     relationship: acquisition

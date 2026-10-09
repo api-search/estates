@@ -5,21 +5,21 @@ description: Atlassian is a software company that develops collaboration, produc
   tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline
   workflows, and support project tracking across a wide range of industries.
 estate_rating:
-  agent_avg: 22.4
+  agent_avg: 22.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 28.2
   agent_ready: 5
   band: thin
-  best: 76.8
-  composite_avg: 36.3
+  best: 76.3
+  composite_avg: 36.2
   composite_band: thin
   composite_raw: 44.2
   developing: 2
   exemplar: 4
-  rating: 30.7
+  rating: 30.6
   scored: 10
-  spread: 76.8
+  spread: 76.3
   strength: 14
   strong: 0
   worst: 0.0
@@ -38,11 +38,12 @@ member_bands:
     agent_band: agent-ready
     agent_score: 65.6
     api_count: 4
+    api_count_basis: published
     immediate_parent: atlassian
     name: Jira
     relationship: product
     score_band: exemplar
-    score_composite: 76.8
+    score_composite: 76.3
     slug: jira
     source: declared
   - &id002
@@ -50,6 +51,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 48.0
     api_count: 2
+    api_count_basis: published
     immediate_parent: atlassian
     name: Atlassian Compass
     relationship: product
@@ -62,6 +64,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: atlassian
     name: Bitbucket
     relationship: acquisition
@@ -74,6 +77,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 54.4
     api_count: 3
+    api_count_basis: published
     immediate_parent: atlassian
     name: Confluence
     relationship: product
@@ -92,6 +96,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.3
     api_count: 12
+    api_count_basis: published
     immediate_parent: atlassian
     name: OpsGenie
     relationship: acquisition
@@ -104,6 +109,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 31.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: bitbucket
     name: Bitbucket Pipelines
     relationship: product
@@ -122,6 +128,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 18.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: atlassian
     name: Statuspage
     relationship: product
@@ -140,6 +147,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: atlassian
     name: Optic
     relationship: acquisition
@@ -158,6 +166,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: atlassian
     name: Wikidocs
     relationship: acquisition
@@ -170,6 +179,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 2
+    api_count_basis: split
     immediate_parent: atlassian
     name: HipChat
     relationship: product
@@ -195,7 +205,7 @@ members:
 members_unrated: []
 name: Atlassian
 overview: 'Atlassian publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 76.8 points, from 76.8 down to 0.0.
+  of which 10 carry a rating. The rated members span 76.3 points, from 76.3 down to 0.0.
 
 
   Its highest-rated surfaces are Jira, Atlassian Compass, Bitbucket, Confluence, OpsGenie.'

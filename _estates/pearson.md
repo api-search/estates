@@ -19,12 +19,12 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 34.5
-  composite_avg: 19.7
+  composite_avg: 19.6
   composite_band: emerging
   composite_raw: 18.4
   developing: 0
   exemplar: 0
-  rating: 15.8
+  rating: 15.7
   scored: 3
   spread: 31.6
   strength: 0
@@ -45,6 +45,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: pearson
     name: Credly
     relationship: acquisition
@@ -63,6 +64,7 @@ member_bands:
     agent_band: human-only
     agent_score: 3.8
     api_count: 1
+    api_count_basis: split
     immediate_parent: pearson
     name: Scott Foresman
     relationship: product
@@ -81,6 +83,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: pearson
     name: Clutch Learning
     relationship: acquisition

@@ -8,19 +8,19 @@ description: SmartBear is a software company that provides AI-powered tools for 
   manage API definitions, automate lifecycle workflows, and integrate SwaggerHub with CI/CD pipelines
   and third-party services.
 estate_rating:
-  agent_avg: 15.6
+  agent_avg: 15.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.8
+  agent_raw: 19.0
   agent_ready: 2
   band: thin
   best: 78.4
   composite_avg: 34.3
   composite_band: thin
-  composite_raw: 42.9
+  composite_raw: 43.1
   developing: 1
   exemplar: 2
-  rating: 26.8
+  rating: 26.9
   scored: 8
   spread: 66.5
   strength: 9
@@ -41,6 +41,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 52.2
     api_count: 5
+    api_count_basis: published
     immediate_parent: smartbear
     name: Bugsnag
     relationship: acquisition
@@ -51,13 +52,14 @@ member_bands:
   - &id002
     acquired: 2023
     agent_band: agent-ready
-    agent_score: 29.7
+    agent_score: 31.5
     api_count: 2
+    api_count_basis: published
     immediate_parent: smartbear
     name: Stoplight
     relationship: acquisition
     score_band: exemplar
-    score_composite: 70.4
+    score_composite: 71.8
     slug: stoplight
     source: declared
   label: Exemplar
@@ -71,6 +73,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.6
     api_count: 3
+    api_count_basis: published
     immediate_parent: swagger
     name: Swagger Codegen
     relationship: product
@@ -89,6 +92,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: smartbear
     name: SwaggerHub
     relationship: acquisition
@@ -107,6 +111,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: smartbear
     name: Reflect
     relationship: acquisition
@@ -125,6 +130,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: stoplight
     name: Spectral
     relationship: acquisition
@@ -137,6 +143,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: stoplight
     name: Prism
     relationship: acquisition
@@ -149,6 +156,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: smartbear
     name: ReadyAPI
     relationship: product
@@ -167,6 +175,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: null
     immediate_parent: smartbear
     name: Swagger
     relationship: acquisition

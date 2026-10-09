@@ -7,7 +7,7 @@ description: Datadog is a monitoring and analytics platform that helps organizat
   platform enables companies to track performance metrics, troubleshoot issues, and optimize their systems
   for peak efficiency.
 estate_rating:
-  agent_avg: 17.8
+  agent_avg: 17.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 24.9
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 56.0
     api_count: 2
+    api_count_basis: published
     immediate_parent: datadog
     name: Datadog APM
     relationship: product
@@ -58,6 +59,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: datadog
     name: Metaplane
     relationship: acquisition
@@ -76,6 +78,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: datadog
     name: Quickwit
     relationship: acquisition
@@ -88,6 +91,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: datadog
     name: Adaptive ML
     relationship: product
@@ -106,6 +110,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: datadog
     name: Sqreen
     relationship: product

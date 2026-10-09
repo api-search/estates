@@ -37,6 +37,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: power-platform
     name: Power BI
     relationship: product
@@ -55,6 +56,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: power-platform
     name: Microsoft Power Apps
     relationship: product
@@ -73,6 +75,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.6
     api_count: 10
+    api_count_basis: split
     immediate_parent: power-platform
     name: Microsoft Power Automate
     relationship: product
@@ -91,6 +94,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 4
+    api_count_basis: split
     immediate_parent: power-platform
     name: Microsoft Power Virtual Agents
     relationship: product
@@ -103,6 +107,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.3
     api_count: 3
+    api_count_basis: split
     immediate_parent: power-platform
     name: Microsoft Power Pages
     relationship: product

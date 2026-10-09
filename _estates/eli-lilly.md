@@ -7,7 +7,7 @@ description: Eli Lilly and Company is a Fortune 500 global pharmaceutical compan
   company exposes selected machine learning models through its Lilly TuneLab platform to partner biotechs
   but does not offer general purpose, self-serve APIs.
 estate_rating:
-  agent_avg: 8.8
+  agent_avg: 8.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 3.7
   developing: 0
   exemplar: 0
-  rating: 14.1
+  rating: 14.0
   scored: 1
   spread: null
   strength: 0
@@ -40,6 +40,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: eli-lilly
     name: Verve Therapeutics
     relationship: acquisition
@@ -58,6 +59,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: eli-lilly
     name: ARMO BioSciences *
     relationship: product
@@ -70,6 +72,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: eli-lilly
     name: Dermira
     relationship: product

@@ -10,7 +10,7 @@ description: X (formerly Twitter) operates the X Developer Platform, the program
   skill, an A2A agent card and two hosted MCP servers. Access is sold pay-per-usage in prepaid credits
   rather than by subscription tier, with an Enterprise agreement for volume above the published cap.
 estate_rating:
-  agent_avg: 3.8
+  agent_avg: 3.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -43,6 +43,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: Aiden.ai
     relationship: acquisition
@@ -55,6 +56,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: Alien Labs
     relationship: acquisition
@@ -67,6 +69,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: CardSpring
     relationship: acquisition
@@ -79,6 +82,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: Interana
     relationship: acquisition
@@ -91,6 +95,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: Mixer Labs
     relationship: acquisition
@@ -103,6 +108,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: MoPub
     relationship: acquisition
@@ -115,6 +121,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: TellApart
     relationship: acquisition
@@ -127,6 +134,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: tenXer *
     relationship: acquisition
@@ -139,6 +147,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: ZipDial
     relationship: acquisition
@@ -157,6 +166,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: x
     name: TapCommerce (Twitter)
     relationship: acquisition

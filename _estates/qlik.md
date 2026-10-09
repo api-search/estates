@@ -3,19 +3,19 @@ api_total: 130
 category: Estates
 description: APIs for Qlik's analytics and data integration platform.
 estate_rating:
-  agent_avg: 17.9
+  agent_avg: 17.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 23.1
   agent_ready: 3
   band: thin
   best: 72.5
-  composite_avg: 31.8
+  composite_avg: 31.7
   composite_band: thin
-  composite_raw: 40.0
+  composite_raw: 39.9
   developing: 1
   exemplar: 1
-  rating: 26.2
+  rating: 26.1
   scored: 7
   spread: 56.6
   strength: 6
@@ -36,6 +36,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 43.6
     api_count: 78
+    api_count_basis: published
     immediate_parent: qlik
     name: Qlik Sense
     relationship: product
@@ -54,11 +55,12 @@ member_bands:
     agent_band: agent-ready
     agent_score: 51.9
     api_count: 17
+    api_count_basis: published
     immediate_parent: qlik
     name: Talend
     relationship: product
     score_band: strong
-    score_composite: 64.1
+    score_composite: 63.0
     slug: talend
     source: parent-company-property
   label: Strong
@@ -72,6 +74,7 @@ member_bands:
     agent_band: human-only
     agent_score: 5.0
     api_count: 10
+    api_count_basis: split
     immediate_parent: qlik
     name: QlikView
     relationship: product
@@ -90,6 +93,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.3
     api_count: 6
+    api_count_basis: published
     immediate_parent: qlik
     name: Qlik Sense Enterprise
     relationship: product
@@ -102,6 +106,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 22.9
     api_count: 13
+    api_count_basis: split
     immediate_parent: qlik
     name: Qlik Cloud
     relationship: product
@@ -120,6 +125,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: qlik
     name: Upsolver
     relationship: product
@@ -132,6 +138,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 5
+    api_count_basis: split
     immediate_parent: qlik
     name: Qlik Mashups
     relationship: product
@@ -150,6 +157,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: talend
     name: RJMetrics
     relationship: product

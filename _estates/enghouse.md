@@ -16,12 +16,12 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 32.8
-  composite_avg: 17.9
+  composite_avg: 17.8
   composite_band: emerging
   composite_raw: 13.7
   developing: 0
   exemplar: 0
-  rating: 13.5
+  rating: 13.4
   scored: 3
   spread: 28.9
   strength: 0
@@ -42,6 +42,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: enghouse
     name: Lifesize
     relationship: acquisition
@@ -60,6 +61,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: enghouse
     name: Qumu
     relationship: acquisition
@@ -72,6 +74,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: enghouse
     name: Altitude Software
     relationship: acquisition

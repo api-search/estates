@@ -39,6 +39,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: match-group
     name: Hinge
     relationship: acquisition
@@ -51,6 +52,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: match-group
     name: The League
     relationship: product
@@ -63,6 +65,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: match-group
     name: Hawaya
     relationship: product

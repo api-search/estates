@@ -12,19 +12,19 @@ description: 'Anthropic is an AI safety company and the creator of the Claude fa
   runs on — the Model Context Protocol and the Agent Skills specification — and ships Claude Code, the
   terminal agentic coding tool, which doubles as a first-party stdio MCP server.'
 estate_rating:
-  agent_avg: 12.5
+  agent_avg: 12.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.6
   agent_ready: 0
   band: emerging
   best: 53.6
-  composite_avg: 25.4
+  composite_avg: 25.3
   composite_band: thin
   composite_raw: 33.6
   developing: 1
   exemplar: 0
-  rating: 20.2
+  rating: 20.1
   scored: 3
   spread: 45.0
   strength: 1
@@ -45,6 +45,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: anthropic
     name: Claude
     relationship: product
@@ -63,6 +64,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: anthropic
     name: Humanloop
     relationship: product
@@ -81,6 +83,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: anthropic
     name: Vercept
     relationship: acquisition
@@ -117,7 +120,7 @@ tags:
 - Artificial Intelligence
 - Claude
 - Foundation Models
-- Machine Learning
+- Machine-Learning
 - MCP
 - Agents
 title: Anthropic

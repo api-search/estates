@@ -6,19 +6,19 @@ description: Ivanti is an IT asset management and security platform providing un
   People & Devices, MDM, ITSM, and Zero-Trust Access, alongside Endpoint Manager APIs for patch and software
   distribution.
 estate_rating:
-  agent_avg: 7.6
+  agent_avg: 7.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.6
   agent_ready: 0
   band: emerging
   best: 40.0
-  composite_avg: 19.0
+  composite_avg: 18.9
   composite_band: emerging
   composite_raw: 16.5
   developing: 1
   exemplar: 0
-  rating: 14.4
+  rating: 14.3
   scored: 3
   spread: 36.6
   strength: 1
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 7.9
     api_count: 3
+    api_count_basis: split
     immediate_parent: ivanti
     name: Pulse
     relationship: product
@@ -57,6 +58,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: ivanti
     name: MobileIron
     relationship: acquisition
@@ -69,6 +71,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: ivanti
     name: Cherwell Software
     relationship: acquisition

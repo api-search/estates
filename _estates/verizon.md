@@ -6,7 +6,7 @@ description: Verizon is a leading telecommunications company providing wireless,
   5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform
   APIs for contact center and SMS solutions.
 estate_rating:
-  agent_avg: 8.6
+  agent_avg: 8.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.9
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 14.6
   developing: 1
   exemplar: 0
-  rating: 13.8
+  rating: 13.7
   scored: 6
   spread: 45.6
   strength: 1
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.7
     api_count: 1
+    api_count_basis: published
     immediate_parent: verizon
     name: AOL
     relationship: acquisition
@@ -57,6 +58,7 @@ member_bands:
     agent_band: human-only
     agent_score: 4.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: aol
     name: TechCrunch
     relationship: product
@@ -69,6 +71,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 0
+    api_count_basis: split
     immediate_parent: verizon
     name: Starry
     relationship: acquisition
@@ -87,6 +90,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: verizon
     name: CloudSwitch
     relationship: acquisition
@@ -99,6 +103,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: aol
     name: Outside.in
     relationship: product
@@ -111,6 +116,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: aol
     name: Thing Labs
     relationship: acquisition
@@ -129,6 +135,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: aol
     name: Convertro, Inc.
     relationship: product
@@ -141,6 +148,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: verizon
     name: ProtectWise
     relationship: acquisition

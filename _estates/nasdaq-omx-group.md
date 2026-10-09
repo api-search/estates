@@ -12,7 +12,7 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 15.4
-  composite_avg: 16.8
+  composite_avg: 16.7
   composite_band: emerging
   composite_raw: 10.7
   developing: 0
@@ -38,6 +38,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 13.3
     api_count: 1
+    api_count_basis: split
     immediate_parent: nasdaq-omx-group
     name: Calypso Workstation
     relationship: acquisition
@@ -50,6 +51,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 13.3
     api_count: 1
+    api_count_basis: split
     immediate_parent: nasdaq-omx-group
     name: Calypso Migration
     relationship: acquisition
@@ -68,6 +70,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: nasdaq-omx-group
     name: eVestment Alliance
     relationship: product

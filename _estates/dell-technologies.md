@@ -7,19 +7,19 @@ description: Dell Technologies is a global Fortune 500 technology company that d
   servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling
   automation of IT operations and integration into enterprise tooling.
 estate_rating:
-  agent_avg: 11.9
+  agent_avg: 11.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 13.0
   agent_ready: 1
   band: emerging
   best: 63.0
-  composite_avg: 22.9
+  composite_avg: 22.8
   composite_band: emerging
   composite_raw: 24.9
   developing: 1
   exemplar: 0
-  rating: 18.5
+  rating: 18.4
   scored: 6
   spread: 63.0
   strength: 3
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 45.8
     api_count: 17
+    api_count_basis: published
     immediate_parent: dell-technologies
     name: Moogsoft
     relationship: acquisition
@@ -58,6 +59,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: dell-technologies
     name: DataLoop
     relationship: acquisition
@@ -76,6 +78,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 7.9
     api_count: 2
+    api_count_basis: split
     immediate_parent: dell-technologies
     name: EMC
     relationship: product
@@ -94,6 +97,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: emc
     name: Scaleio
     relationship: product
@@ -106,6 +110,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: emc
     name: Kashya
     relationship: acquisition
@@ -118,6 +123,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: emc
     name: Voyence
     relationship: acquisition
@@ -136,6 +142,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: emc
     name: XtremIO
     relationship: acquisition

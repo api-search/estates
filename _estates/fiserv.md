@@ -37,6 +37,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 7.1
     api_count: 2
+    api_count_basis: split
     immediate_parent: fiserv
     name: First Data (Fiserv)
     relationship: acquisition
@@ -55,6 +56,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: first-data
     name: Salido
     relationship: acquisition
@@ -67,6 +69,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: fiserv
     name: BentoBox
     relationship: product
@@ -79,6 +82,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: fiserv
     name: Corillian
     relationship: acquisition
@@ -91,6 +95,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: fiserv
     name: Fincentric
     relationship: product
@@ -109,6 +114,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: first-data
     name: Clover Networks
     relationship: acquisition
@@ -163,5 +169,6 @@ tags:
 - Payments
 - Wealth Management
 - Fortune 500
+- Payment Processing
 title: Fiserv
 ---

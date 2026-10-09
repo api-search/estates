@@ -8,7 +8,7 @@ description: Sage provides cloud-based ERP, accounting, payroll, and HR software
   Sage Accounting API v3.1 is the current supported REST version with daily limits of 1,296,000 requests
   per app.
 estate_rating:
-  agent_avg: 10.5
+  agent_avg: 10.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.4
@@ -41,6 +41,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: sage
     name: Sage HR
     relationship: acquisition
@@ -59,6 +60,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: sage
     name: Sage X3
     relationship: product
@@ -77,6 +79,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: sage
     name: Sage Intacct
     relationship: product
@@ -89,6 +92,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: sage
     name: Sage Accounting
     relationship: product
@@ -101,6 +105,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: sage
     name: Anvyl
     relationship: product
@@ -119,6 +124,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: sage
     name: Folhamatic
     relationship: product

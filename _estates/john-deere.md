@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: john-deere
     name: Sentera
     relationship: product
@@ -57,6 +58,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: john-deere
     name: Blue River Technology
     relationship: product
@@ -69,6 +71,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: john-deere
     name: Bear Flag Robotics
     relationship: acquisition

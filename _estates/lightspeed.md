@@ -7,7 +7,7 @@ description: Omnichannel commerce platform with REST APIs for retail and restaur
   payments, and loyalty programs across multiple product lines including Retail X-Series, Retail R-Series,
   Restaurant K-Series, and eCom.
 estate_rating:
-  agent_avg: 11.1
+  agent_avg: 11.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.9
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 35.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: lightspeed
     name: Lightspeed
     relationship: product
@@ -58,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: lightspeed
     name: NuORDER
     relationship: acquisition
@@ -76,6 +78,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: lightspeed
     name: Shopkeep
     relationship: product

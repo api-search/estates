@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 47.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Outlook
     relationship: product
@@ -52,6 +53,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 71
+    api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Graph
     relationship: product
@@ -64,6 +66,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 41.4
     api_count: 21
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Word
     relationship: product
@@ -76,6 +79,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Office 365
     relationship: product
@@ -88,6 +92,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Planner
     relationship: product
@@ -100,6 +105,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 30.9
     api_count: 6
+    api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Exchange
     relationship: product
@@ -112,6 +118,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.7
     api_count: 11
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Teams
     relationship: product
@@ -124,6 +131,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.2
     api_count: 10
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Office
     relationship: product
@@ -142,6 +150,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 31.7
     api_count: 11
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Excel
     relationship: product
@@ -154,6 +163,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 29.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft 365 Copilot
     relationship: product
@@ -166,6 +176,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.7
     api_count: 14
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft SharePoint
     relationship: product
@@ -178,6 +189,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Visio API
     relationship: product
@@ -190,6 +202,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.1
     api_count: 21
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Project
     relationship: product
@@ -208,6 +221,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 4
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft OneNote
     relationship: product
@@ -220,6 +234,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 18.0
     api_count: 8
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Access
     relationship: product
@@ -232,6 +247,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 5
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft OneDrive
     relationship: product
@@ -244,6 +260,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 4
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft to Do
     relationship: product
@@ -256,6 +273,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Yammer
     relationship: product
@@ -268,6 +286,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.5
     api_count: 7
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Bookings
     relationship: product
@@ -286,6 +305,7 @@ member_bands:
     agent_band: human-only
     agent_score: 5.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Forms
     relationship: product
@@ -298,6 +318,7 @@ member_bands:
     agent_band: human-only
     agent_score: 5.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Loop
     relationship: product
@@ -310,6 +331,7 @@ member_bands:
     agent_band: human-only
     agent_score: 5.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Stream
     relationship: product
@@ -322,6 +344,7 @@ member_bands:
     agent_band: human-only
     agent_score: 5.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Whiteboard
     relationship: product
@@ -334,6 +357,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Viva
     relationship: product
@@ -346,6 +370,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Sway
     relationship: product

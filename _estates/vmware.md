@@ -37,6 +37,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 38.9
     api_count: 8
+    api_count_basis: split
     immediate_parent: vmware
     name: CloudHealth
     relationship: acquisition
@@ -55,6 +56,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 2
+    api_count_basis: published
     immediate_parent: vmware
     name: VMware Tanzu
     relationship: product
@@ -73,6 +75,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 5.4
     api_count: 1
+    api_count_basis: split
     immediate_parent: vmware
     name: Lastline
     relationship: acquisition
@@ -85,6 +88,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: vmware
     name: Carbon Black
     relationship: acquisition
@@ -103,6 +107,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: AVI Networks
     relationship: acquisition
@@ -115,6 +120,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: SpringSource
     relationship: acquisition
@@ -127,6 +133,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Nicira Networks
     relationship: acquisition
@@ -139,6 +146,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Octarine
     relationship: acquisition
@@ -151,6 +159,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Apteligent
     relationship: acquisition
@@ -163,6 +172,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: carbon-black
     name: Confer Technologies
     relationship: acquisition
@@ -175,6 +185,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Datrium
     relationship: acquisition
@@ -187,6 +198,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: vmware
     name: Heptio
     relationship: acquisition

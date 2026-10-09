@@ -15,9 +15,9 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 52.4
-  composite_avg: 25.6
+  composite_avg: 25.5
   composite_band: thin
-  composite_raw: 32.0
+  composite_raw: 31.9
   developing: 2
   exemplar: 0
   rating: 21.3
@@ -41,6 +41,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 31.3
     api_count: 46
+    api_count_basis: published
     immediate_parent: checkpoint
     name: CloudGuard
     relationship: product
@@ -53,11 +54,12 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: checkpoint
     name: Dome9
     relationship: acquisition
     score_band: developing
-    score_composite: 43.6
+    score_composite: 43.1
     slug: dome9
     source: declared
   label: Developing
@@ -71,6 +73,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: checkpoint
     name: Perimeter 81
     relationship: product
@@ -89,6 +92,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: checkpoint
     name: Veriti.ai
     relationship: acquisition

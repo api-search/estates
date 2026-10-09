@@ -11,19 +11,19 @@ description: APILayer is an API marketplace and hub, an Idera, Inc. brand headqu
   every API has a free plan. APILayer publishes 22 OpenAPI documents from its own SwaggerHub organization,
   an llms.txt, and an OAuth-protected hosted MCP server.
 estate_rating:
-  agent_avg: 16.8
+  agent_avg: 16.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 27.2
   agent_ready: 1
   band: thin
   best: 56.4
-  composite_avg: 32.2
+  composite_avg: 32.1
   composite_band: thin
   composite_raw: 51.8
   developing: 2
   exemplar: 0
-  rating: 26.0
+  rating: 25.9
   scored: 3
   spread: 11.0
   strength: 4
@@ -44,6 +44,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: apilayer
     name: Currencylayer
     relationship: product
@@ -62,6 +63,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 24.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: apilayer
     name: Fixer
     relationship: product
@@ -74,6 +76,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 32.7
     api_count: 2
+    api_count_basis: split
     immediate_parent: apilayer
     name: IPstack
     relationship: product

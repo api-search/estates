@@ -11,19 +11,19 @@ description: AOL is a consumer internet media and communications brand — AOL.c
   for that identity stack is hosted by Yahoo Inc., which runs a sibling deployment of the same Oath-era
   OAuth 2.0 / OIDC platform.
 estate_rating:
-  agent_avg: 7.2
+  agent_avg: 7.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.4
   agent_ready: 0
   band: emerging
   best: 21.8
-  composite_avg: 15.5
+  composite_avg: 15.4
   composite_band: emerging
   composite_raw: 7.3
   developing: 0
   exemplar: 0
-  rating: 12.2
+  rating: 12.1
   scored: 3
   spread: 21.8
   strength: 0
@@ -44,6 +44,7 @@ member_bands:
     agent_band: human-only
     agent_score: 4.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: aol
     name: TechCrunch
     relationship: product
@@ -62,6 +63,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: aol
     name: Outside.in
     relationship: product
@@ -74,6 +76,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: aol
     name: Thing Labs
     relationship: acquisition
@@ -92,6 +95,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: aol
     name: Convertro, Inc.
     relationship: product

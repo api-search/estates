@@ -5,7 +5,7 @@ description: Stream, connect, process, and govern your data with an all-in-one, 
   the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible
   and usable data products with the market leading Data Streaming Platform.
 estate_rating:
-  agent_avg: 14.3
+  agent_avg: 14.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.9
@@ -38,6 +38,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 49.4
     api_count: 2
+    api_count_basis: published
     immediate_parent: confluent
     name: Confluent | the Data Streaming Platform
     relationship: product
@@ -56,6 +57,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: confluent
     name: Confluent Schema Registry
     relationship: product
@@ -74,6 +76,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: confluent
     name: Noteable
     relationship: acquisition
@@ -86,6 +89,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: confluent
     name: Pipelinedb
     relationship: acquisition

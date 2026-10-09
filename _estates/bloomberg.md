@@ -6,7 +6,7 @@ description: Bloomberg delivers business and markets news, data, analysis, and v
   BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise
   services.
 estate_rating:
-  agent_avg: 8.0
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.6
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 24.6
   developing: 2
   exemplar: 0
-  rating: 17.7
+  rating: 17.6
   scored: 35
   spread: 41.3
   strength: 2
@@ -39,6 +39,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 33.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Applications
     relationship: product
@@ -51,6 +52,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 26.5
     api_count: 3
+    api_count_basis: published
     immediate_parent: bloomberg
     name: Bloomberg AIM
     relationship: product
@@ -69,6 +71,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 1
+    api_count_basis: published
     immediate_parent: bloomberg
     name: Bloomberg EMSX
     relationship: product
@@ -81,6 +84,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 4
+    api_count_basis: published
     immediate_parent: bloomberg
     name: Bloomberg Buyside Enterprise Solutions
     relationship: product
@@ -93,6 +97,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 16.2
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Data Sets
     relationship: product
@@ -105,6 +110,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: bloomberg
     name: Bloomberg APIs
     relationship: product
@@ -117,6 +123,7 @@ member_bands:
     agent_band: human-only
     agent_score: 5.0
     api_count: 5
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg News
     relationship: product
@@ -129,6 +136,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 16.2
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Data Workflows
     relationship: product
@@ -141,6 +149,7 @@ member_bands:
     agent_band: human-only
     agent_score: 3.8
     api_count: 9
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Professional Service
     relationship: product
@@ -153,6 +162,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 16.9
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Data
     relationship: product
@@ -165,6 +175,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 5
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Intelligence
     relationship: product
@@ -183,6 +194,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 15.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Proprietary Technologies
     relationship: product
@@ -195,6 +207,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 6
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Terminal
     relationship: product
@@ -207,6 +220,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 4
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Enterprise
     relationship: product
@@ -219,6 +233,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Products and Platforms
     relationship: product
@@ -231,6 +246,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Government (BGOV)
     relationship: product
@@ -243,6 +259,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Television and Radio
     relationship: product
@@ -255,6 +272,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg TV
     relationship: product
@@ -267,6 +285,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Valuation Service (BVAL)
     relationship: product
@@ -279,6 +298,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Excel Plug-ins
     relationship: product
@@ -291,6 +311,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Financial Solutions
     relationship: product
@@ -303,6 +324,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Platform
     relationship: product
@@ -315,6 +337,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Product Suite
     relationship: product
@@ -327,6 +350,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg ESG Products
     relationship: product
@@ -339,6 +363,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Indices
     relationship: product
@@ -351,6 +376,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 4
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Sustainable Finance Products
     relationship: product
@@ -363,6 +389,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 3
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Tradebook
     relationship: product
@@ -375,6 +402,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Media Platforms
     relationship: product
@@ -387,6 +415,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Tax (BTAX)
     relationship: product
@@ -399,6 +428,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Index Solutions Limited (BISL)
     relationship: product
@@ -411,6 +441,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Instant Messaging
     relationship: product
@@ -423,6 +454,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Message
     relationship: product
@@ -435,6 +467,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Query Language (BQL)
     relationship: product
@@ -447,6 +480,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 2
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Bloomberg Tax Research
     relationship: product
@@ -465,6 +499,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: bloomberg
     name: Second Measure
     relationship: acquisition

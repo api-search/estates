@@ -41,6 +41,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: johnson-and-johnson
     name: Abiomed
     relationship: product
@@ -59,6 +60,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: johnson-and-johnson
     name: Janssen Pharmaceuticals
     relationship: product
@@ -71,6 +73,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: johnson-and-johnson
     name: Vineti
     relationship: product
@@ -89,6 +92,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: johnson-and-johnson
     name: Halda Therapeutics
     relationship: product

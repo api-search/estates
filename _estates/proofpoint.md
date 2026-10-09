@@ -44,6 +44,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.9
     api_count: 1
+    api_count_basis: published
     immediate_parent: proofpoint
     name: Tessian
     relationship: product
@@ -62,6 +63,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: proofpoint
     name: ObserveIT (Proofpoint)
     relationship: acquisition
@@ -80,6 +82,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: proofpoint
     name: Normalyze
     relationship: acquisition
@@ -92,6 +95,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: proofpoint
     name: Illusive Networks
     relationship: acquisition

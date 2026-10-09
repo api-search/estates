@@ -14,7 +14,7 @@ description: Yahoo is a consumer internet and advertising-technology company ope
   client-credentials JWT flow. Yahoo publishes no OpenAPI for any of these surfaces, distributing a public
   Postman collection and an llms.txt documentation index instead.
 estate_rating:
-  agent_avg: 4.1
+  agent_avg: 4.0
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -26,7 +26,7 @@ estate_rating:
   composite_raw: 2.6
   developing: 0
   exemplar: 0
-  rating: 7.3
+  rating: 7.2
   scored: 8
   spread: 20.5
   strength: 0
@@ -47,6 +47,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: yahoo
     name: Flurry
     relationship: product
@@ -65,6 +66,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: yahoo
     name: Aviate
     relationship: acquisition
@@ -77,6 +79,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: yahoo
     name: Bix
     relationship: acquisition
@@ -89,6 +92,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: yahoo
     name: Dapper
     relationship: acquisition
@@ -101,6 +105,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: yahoo
     name: MessageMe *
     relationship: product
@@ -113,6 +118,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: yahoo
     name: Polyvore
     relationship: product
@@ -125,6 +131,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: yahoo
     name: Rockmelt
     relationship: acquisition
@@ -137,6 +144,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: yahoo
     name: Tomfoolery
     relationship: acquisition
@@ -155,6 +163,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: yahoo
     name: BrightRoll
     relationship: acquisition

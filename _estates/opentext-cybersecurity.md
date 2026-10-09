@@ -14,21 +14,21 @@ description: OpenText Cybersecurity is the security business of OpenText, assemb
   CLI (fcli), a first-party MCP server inside that CLI, and a published set of Agent Skills for Claude
   Code, GitHub Copilot, Codex and Gemini CLI.
 estate_rating:
-  agent_avg: 10.9
+  agent_avg: 10.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.2
+  agent_raw: 10.9
   agent_ready: 0
   band: emerging
-  best: 56.5
-  composite_avg: 24.7
+  best: 58.9
+  composite_avg: 24.9
   composite_band: emerging
-  composite_raw: 30.0
+  composite_raw: 30.6
   developing: 0
   exemplar: 0
   rating: 19.2
   scored: 4
-  spread: 50.3
+  spread: 52.7
   strength: 2
   strong: 1
   worst: 6.2
@@ -45,13 +45,14 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.7
+    agent_score: 19.5
     api_count: 3
+    api_count_basis: published
     immediate_parent: opentext-cybersecurity
     name: Fortify
     relationship: product
     score_band: strong
-    score_composite: 56.5
+    score_composite: 58.9
     slug: fortify
     source: declared
   label: Strong
@@ -65,6 +66,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 21.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: opentext-cybersecurity
     name: CloudAlly
     relationship: acquisition
@@ -83,6 +85,7 @@ member_bands:
     agent_band: human-only
     agent_score: 2.5
     api_count: 1
+    api_count_basis: split
     immediate_parent: opentext-cybersecurity
     name: Webroot
     relationship: product
@@ -101,6 +104,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: opentext-cybersecurity
     name: ArcSight
     relationship: acquisition
@@ -120,7 +124,7 @@ members:
 members_unrated: []
 name: OpenText Cybersecurity
 overview: 'OpenText Cybersecurity publishes its API surface across 4 provider profiles indexed on the
-  APIs.io network, of which 4 carry a rating. The rated members span 50.3 points, from 56.5 down to 6.2.
+  APIs.io network, of which 4 carry a rating. The rated members span 52.7 points, from 58.9 down to 6.2.
 
 
   Its highest-rated surfaces are Fortify, CloudAlly, Webroot, ArcSight.'

@@ -42,6 +42,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.2
     api_count: 2
+    api_count_basis: published
     immediate_parent: zoominfo
     name: Chorus.ai
     relationship: product
@@ -60,6 +61,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: zoominfo
     name: Everstring
     relationship: acquisition
@@ -72,6 +74,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: zoominfo
     name: Datanyze *
     relationship: acquisition

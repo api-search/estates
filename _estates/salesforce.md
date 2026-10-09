@@ -7,23 +7,23 @@ description: Salesforce is a cloud-based customer relationship management (CRM) 
   gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and
   subscribe to org data programmatically.
 estate_rating:
-  agent_avg: 11.4
+  agent_avg: 12.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.6
-  agent_ready: 5
+  agent_raw: 12.9
+  agent_ready: 6
   band: emerging
   best: 71.9
-  composite_avg: 23.4
+  composite_avg: 23.7
   composite_band: emerging
-  composite_raw: 23.9
-  developing: 6
+  composite_raw: 24.3
+  developing: 5
   exemplar: 2
-  rating: 18.6
+  rating: 19.3
   scored: 30
   spread: 71.9
-  strength: 16
-  strong: 2
+  strength: 17
+  strong: 3
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -40,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 45.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: salesforce
     name: Salesforce Service Cloud APIs
     relationship: product
@@ -52,6 +53,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 34.0
     api_count: 32
+    api_count_basis: published
     immediate_parent: salesforce
     name: Slack
     relationship: acquisition
@@ -63,13 +65,14 @@ member_bands:
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 2
+  count: 3
   items:
   - &id003
     acquired: null
     agent_band: agent-ready
     agent_score: 34.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: salesforce
     name: Salesforce Marketing Cloud Account Engagement (Pardot)
     relationship: acquisition
@@ -82,6 +85,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 8
+    api_count_basis: published
     immediate_parent: salesforce
     name: Salesforce Sales Cloud
     relationship: product
@@ -89,17 +93,31 @@ member_bands:
     score_composite: 58.1
     slug: salesforce-sales-cloud
     source: declared
+  - &id005
+    acquired: 2018
+    agent_band: agent-ready
+    agent_score: 44.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: salesforce
+    name: MuleSoft
+    relationship: acquisition
+    score_band: strong
+    score_composite: 54.8
+    slug: mulesoft
+    source: declared
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 6
+  count: 5
   items:
-  - &id005
+  - &id006
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 9
+    api_count_basis: published
     immediate_parent: salesforce
     name: Salesforce Experience Cloud
     relationship: product
@@ -107,11 +125,12 @@ member_bands:
     score_composite: 52.9
     slug: salesforce-experience-cloud
     source: declared
-  - &id006
+  - &id007
     acquired: 2019
     agent_band: agent-ready
     agent_score: 47.1
     api_count: 1
+    api_count_basis: published
     immediate_parent: salesforce
     name: Tableau
     relationship: acquisition
@@ -119,23 +138,25 @@ member_bands:
     score_composite: 51.4
     slug: tableau
     source: declared
-  - &id007
-    acquired: 2018
-    agent_band: agent-aware
-    agent_score: 24.8
+  - &id008
+    acquired: 2025
+    agent_band: agent-ready
+    agent_score: 54.4
     api_count: 1
+    api_count_basis: published
     immediate_parent: salesforce
-    name: MuleSoft
+    name: Informatica
     relationship: acquisition
     score_band: developing
-    score_composite: 49.3
-    slug: mulesoft
+    score_composite: 50.2
+    slug: informatica
     source: declared
-  - &id008
+  - &id009
     acquired: 2016
     agent_band: agent-aware
     agent_score: 9.6
     api_count: 2
+    api_count_basis: split
     immediate_parent: salesforce
     name: Demandware
     relationship: acquisition
@@ -143,29 +164,18 @@ member_bands:
     score_composite: 45.8
     slug: demandware
     source: declared
-  - &id009
+  - &id010
     acquired: 2010
     agent_band: agent-aware
     agent_score: 21.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: salesforce
     name: Heroku
     relationship: acquisition
     score_band: developing
     score_composite: 43.4
     slug: heroku
-    source: declared
-  - &id010
-    acquired: 2025
-    agent_band: agent-ready
-    agent_score: 30.6
-    api_count: 1
-    immediate_parent: salesforce
-    name: Informatica
-    relationship: acquisition
-    score_band: developing
-    score_composite: 42.3
-    slug: informatica
     source: declared
   label: Developing
   open: false
@@ -178,6 +188,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 10.1
     api_count: 1
+    api_count_basis: split
     immediate_parent: salesforce
     name: Lightning Web Components
     relationship: product
@@ -190,6 +201,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 20.5
     api_count: 1
+    api_count_basis: published
     immediate_parent: salesforce
     name: Salesforce Commerce Cloud
     relationship: product
@@ -208,6 +220,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Own (OwnBackup)
     relationship: acquisition
@@ -220,6 +233,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Regrello
     relationship: acquisition
@@ -232,6 +246,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Zoomin
     relationship: acquisition
@@ -250,6 +265,7 @@ member_bands:
     agent_band: human-only
     agent_score: 3.5
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Cimulate
     relationship: acquisition
@@ -262,6 +278,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Moonhub
     relationship: acquihire
@@ -274,6 +291,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: convergence
     relationship: acquisition
@@ -286,6 +304,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: demandware
     name: CQuotient
     relationship: acquisition
@@ -298,6 +317,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: AirKit
     relationship: acquisition
@@ -310,6 +330,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Buddy Media
     relationship: acquisition
@@ -322,6 +343,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Exact Target
     relationship: acquisition
@@ -334,6 +356,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: informatica
     name: Privitar
     relationship: product
@@ -346,6 +369,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Spiff
     relationship: acquisition
@@ -358,6 +382,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Steelbrick
     relationship: acquisition
@@ -370,6 +395,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Spindle Technologies
     relationship: acquisition
@@ -380,8 +406,9 @@ member_bands:
   - &id027
     acquired: null
     agent_band: agent-aware
-    agent_score: 12.2
+    agent_score: 8.6
     api_count: 0
+    api_count_basis: split
     immediate_parent: slack
     name: Screenhero
     relationship: acquisition
@@ -394,6 +421,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: salesforce
     name: Clockwise
     relationship: acquihire
@@ -406,6 +434,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: informatica
     name: Itemfield
     relationship: product
@@ -418,6 +447,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 2
+    api_count_basis: split
     immediate_parent: salesforce
     name: PredictionIO
     relationship: product
@@ -436,6 +466,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: salesforce
     name: Vlocity
     relationship: acquisition
@@ -486,7 +517,7 @@ overview: 'Salesforce publishes its API surface across 31 provider profiles inde
 
 
   Its highest-rated surfaces are Salesforce Service Cloud APIs, Slack, Salesforce Marketing Cloud Account
-  Engagement (Pardot), Salesforce Sales Cloud, Salesforce Experience Cloud.'
+  Engagement (Pardot), Salesforce Sales Cloud, MuleSoft.'
 parent_provider: salesforce
 permalink: /estates/salesforce/
 slug: salesforce

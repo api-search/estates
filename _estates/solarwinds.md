@@ -1,22 +1,25 @@
 ---
 api_total: 2
 category: Estates
-description: A collection of APIs provided by SolarWinds for IT infrastructure management, monitoring,
-  and observability.
+description: SolarWinds provides a comprehensive suite of APIs enabling programmatic access to its IT
+  infrastructure management, monitoring, and observability solutions. These APIs cover database performance
+  analysis, network performance monitoring, web help desk, IP address management, network configuration
+  management, server and application monitoring, and more, allowing customers to integrate SolarWinds
+  capabilities into their own tools and workflows.
 estate_rating:
-  agent_avg: 10.2
+  agent_avg: 10.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 9.5
   agent_ready: 1
   band: emerging
   best: 53.6
-  composite_avg: 19.5
+  composite_avg: 19.4
   composite_band: emerging
   composite_raw: 17.9
   developing: 1
   exemplar: 0
-  rating: 15.8
+  rating: 15.7
   scored: 3
   spread: 53.6
   strength: 1
@@ -37,6 +40,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 28.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: solarwinds
     name: VividCortex
     relationship: acquisition
@@ -55,6 +59,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: split
     immediate_parent: solarwinds
     name: Librato
     relationship: product
@@ -67,6 +72,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: solarwinds
     name: LogicNow
     relationship: product

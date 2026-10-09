@@ -17,12 +17,12 @@ estate_rating:
   agent_ready: 3
   band: thin
   best: 77.4
-  composite_avg: 39.0
+  composite_avg: 38.9
   composite_band: thin
   composite_raw: 52.2
   developing: 0
   exemplar: 2
-  rating: 31.8
+  rating: 31.7
   scored: 7
   spread: 64.3
   strength: 10
@@ -43,6 +43,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 42.6
     api_count: 2
+    api_count_basis: published
     immediate_parent: cvent
     name: Cvent Registration
     relationship: product
@@ -55,6 +56,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 46.1
     api_count: 2
+    api_count_basis: published
     immediate_parent: cvent
     name: Cvent Event Cloud
     relationship: product
@@ -73,6 +75,7 @@ member_bands:
     agent_band: agent-ready
     agent_score: 55.8
     api_count: 17
+    api_count_basis: published
     immediate_parent: cvent
     name: Cvent Hospitality Cloud
     relationship: product
@@ -85,6 +88,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 28.2
     api_count: 1
+    api_count_basis: published
     immediate_parent: cvent
     name: Cvent Social Tables
     relationship: product
@@ -103,6 +107,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 17.6
     api_count: 0
+    api_count_basis: split
     immediate_parent: cvent
     name: Cvent Community
     relationship: product
@@ -115,6 +120,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 7.9
     api_count: 1
+    api_count_basis: split
     immediate_parent: cvent
     name: Jifflenow
     relationship: product
@@ -133,6 +139,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: cvent
     name: DoubleDutch
     relationship: product

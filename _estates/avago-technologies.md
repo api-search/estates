@@ -11,19 +11,19 @@ description: 'Avago Technologies Limited was the Singapore-headquartered semicon
   with Avago product lines (LSI and Emulex storage controllers, fiber optics, RF) are published today
   by Broadcom and are profiled under the broadcom record.'
 estate_rating:
-  agent_avg: 7.6
+  agent_avg: 7.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 0.0
-  composite_avg: 14.6
+  composite_avg: 14.5
   composite_band: emerging
   composite_raw: 0.0
   developing: 0
   exemplar: 0
-  rating: 11.8
+  rating: 11.7
   scored: 2
   spread: 0.0
   strength: 0
@@ -44,6 +44,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: avago-technologies
     name: LSI Logic
     relationship: acquisition
@@ -56,6 +57,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: lsi
     name: Sandforce
     relationship: acquisition
@@ -74,6 +76,7 @@ member_bands:
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: avago-technologies
     name: LSI
     relationship: acquisition

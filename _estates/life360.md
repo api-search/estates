@@ -12,19 +12,19 @@ description: Life360 is a family safety platform built around a location-sharing
   ai-plugin manifest whose advertised OpenAPI does not resolve, and Content-Signal directives in robots.txt).
   This profile is maintained in the API Evangelist network for company discovery and monitoring.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 7.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.1
   agent_ready: 0
   band: emerging
   best: 43.5
-  composite_avg: 21.1
+  composite_avg: 21.0
   composite_band: emerging
   composite_raw: 22.1
   developing: 1
   exemplar: 0
-  rating: 15.8
+  rating: 15.7
   scored: 3
   spread: 33.3
   strength: 1
@@ -45,6 +45,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 9.2
     api_count: 2
+    api_count_basis: split
     immediate_parent: life360
     name: Nativo
     relationship: product
@@ -63,6 +64,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: life360
     name: Tile (thetileapp)
     relationship: product
@@ -81,6 +83,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: life360
     name: Jiobit
     relationship: acquisition

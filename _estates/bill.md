@@ -8,19 +8,19 @@ description: BILL (formerly Bill.com) is a cloud-based financial operations plat
   event notifications via webhooks. The API uses session-based authentication with API keys and developer
   keys against production and sandbox gateways.
 estate_rating:
-  agent_avg: 9.8
+  agent_avg: 9.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.4
   agent_ready: 0
   band: emerging
   best: 40.2
-  composite_avg: 20.4
+  composite_avg: 20.3
   composite_band: emerging
   composite_raw: 20.3
   developing: 1
   exemplar: 0
-  rating: 16.2
+  rating: 16.1
   scored: 3
   spread: 36.8
   strength: 1
@@ -41,6 +41,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 25.2
     api_count: 0
+    api_count_basis: split
     immediate_parent: bill
     name: Divvy
     relationship: product
@@ -59,6 +60,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: bill
     name: Invoice2go
     relationship: product
@@ -77,6 +79,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: bill
     name: Finmark
     relationship: acquisition

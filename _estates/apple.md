@@ -3,19 +3,19 @@ api_total: 3
 category: Estates
 description: Collection of Apple's public APIs and developer resources.
 estate_rating:
-  agent_avg: 5.7
+  agent_avg: 5.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.6
   agent_ready: 0
   band: emerging
   best: 65.9
-  composite_avg: 13.7
+  composite_avg: 13.6
   composite_band: emerging
   composite_raw: 10.8
   developing: 1
   exemplar: 0
-  rating: 10.5
+  rating: 10.4
   scored: 12
   spread: 65.9
   strength: 3
@@ -36,6 +36,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 23.6
     api_count: 1
+    api_count_basis: published
     immediate_parent: apple
     name: Apple CloudKit
     relationship: product
@@ -54,6 +55,7 @@ member_bands:
     agent_band: agent-aware
     agent_score: 19.8
     api_count: 1
+    api_count_basis: published
     immediate_parent: apple
     name: Shazam
     relationship: product
@@ -72,6 +74,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: Silk Labs
     relationship: acquisition
@@ -90,6 +93,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: Drishti
     relationship: acquisition
@@ -102,6 +106,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: Siri
     relationship: acquisition
@@ -114,6 +119,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: Anobit Technologies
     relationship: acquisition
@@ -126,6 +132,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: buddybuild
     relationship: acquisition
@@ -138,6 +145,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 1
+    api_count_basis: published
     immediate_parent: apple
     name: Dark Sky
     relationship: acquisition
@@ -150,6 +158,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: Fleetsmith
     relationship: acquisition
@@ -162,6 +171,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: Pop Up Archive
     relationship: product
@@ -174,6 +184,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: Scout.fm
     relationship: acquisition
@@ -186,6 +197,7 @@ member_bands:
     agent_band: human-only
     agent_score: 0.0
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: ToyTalk
     relationship: acquisition
@@ -197,13 +209,14 @@ member_bands:
   open: false
 - band: unrated
   blurb: Not yet scored
-  count: 2
+  count: 1
   items:
   - &id013
     acquired: null
     agent_band: null
     agent_score: null
     api_count: 0
+    api_count_basis: split
     immediate_parent: apple
     name: Curious Ai
     relationship: acquisition
@@ -211,22 +224,10 @@ member_bands:
     score_composite: null
     slug: curious-ai
     source: prose
-  - &id014
-    acquired: null
-    agent_band: null
-    agent_score: null
-    api_count: 0
-    immediate_parent: apple
-    name: Drishti Technologies
-    relationship: acquisition
-    score_band: null
-    score_composite: null
-    slug: drishti-technologies
-    source: prose
   label: Unrated
   open: false
-member_on_network: 14
-member_total: 14
+member_on_network: 13
+member_total: 13
 members:
 - *id001
 - *id002
@@ -241,11 +242,10 @@ members:
 - *id011
 - *id012
 - *id013
-- *id014
 members_unrated: []
 name: Apple
-overview: 'Apple publishes its API surface across 14 provider profiles indexed on the APIs.io network,
-  of which 14 carry a rating. The rated members span 65.9 points, from 65.9 down to 0.0.
+overview: 'Apple publishes its API surface across 13 provider profiles indexed on the APIs.io network,
+  of which 13 carry a rating. The rated members span 65.9 points, from 65.9 down to 0.0.
 
 
   Its highest-rated surfaces are Apple CloudKit, Shazam, Silk Labs, Drishti, Siri.'
