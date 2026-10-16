@@ -16,7 +16,7 @@ description: 'Uniphore is an enterprise AI company — "The Business AI Company"
   which documents fifteen REST API families plus a webhook/SNMP health-alert surface without publishing
   a machine-readable contract.'
 estate_rating:
-  agent_avg: 10.5
+  agent_avg: 10.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.6
@@ -28,7 +28,7 @@ estate_rating:
   composite_raw: 24.1
   developing: 0
   exemplar: 0
-  rating: 17.3
+  rating: 17.2
   scored: 3
   spread: 36.4
   strength: 0

@@ -3,7 +3,7 @@ api_total: 1
 category: Estates
 description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 7.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.3
@@ -15,7 +15,7 @@ estate_rating:
   composite_raw: 19.1
   developing: 0
   exemplar: 1
-  rating: 15.0
+  rating: 14.9
   scored: 5
   spread: 66.5
   strength: 3

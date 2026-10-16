@@ -15,21 +15,21 @@ description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, in
   the Bell Labs research division, and a broad open-source presence (600+ GitHub repos) including TTCN-3
   tooling (ntt), Corteca CLI, Moler test framework, and YANG models.
 estate_rating:
-  agent_avg: 8.7
+  agent_avg: 8.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.2
   agent_ready: 0
   band: emerging
-  best: 41.7
-  composite_avg: 17.7
+  best: 44.0
+  composite_avg: 17.9
   composite_band: emerging
-  composite_raw: 15.4
+  composite_raw: 15.8
   developing: 1
   exemplar: 0
-  rating: 14.1
+  rating: 14.2
   scored: 6
-  spread: 41.7
+  spread: 44.0
   strength: 1
   strong: 0
   worst: 0.0
@@ -46,14 +46,14 @@ member_bands:
   - &id001
     acquired: 2024
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 23.1
     api_count: 6
     api_count_basis: published
     immediate_parent: nokia-corp
     name: RapidAPI
     relationship: acquisition
     score_band: developing
-    score_composite: 41.7
+    score_composite: 44.0
     slug: rapidapi
     source: declared
   label: Developing
@@ -65,7 +65,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.3
+    agent_score: 20.4
     api_count: 1
     api_count_basis: published
     immediate_parent: nokia-corp
@@ -173,7 +173,7 @@ members:
 members_unrated: []
 name: Nokia
 overview: 'Nokia publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 41.7 points, from 41.7 down to 0.0.
+  of which 7 carry a rating. The rated members span 44.0 points, from 44.0 down to 0.0.
 
 
   Its highest-rated surfaces are RapidAPI, Nokia NetAct, Infinera, Alcatel-lucent, Network Alchemy.'

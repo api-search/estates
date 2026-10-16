@@ -4,10 +4,10 @@ category: Estates
 description: Collection of Workday REST and SOAP APIs for human capital management, financial management,
   enterprise planning, analytics, and platform extensibility.
 estate_rating:
-  agent_avg: 17.1
+  agent_avg: 16.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 20.8
+  agent_raw: 20.4
   agent_ready: 1
   band: thin
   best: 48.1
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 36.9
   developing: 6
   exemplar: 0
-  rating: 25.4
+  rating: 25.3
   scored: 9
   spread: 45.2
   strength: 6
@@ -61,7 +61,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.3
+    agent_score: 20.4
     api_count: 1
     api_count_basis: published
     immediate_parent: workday
@@ -132,7 +132,7 @@ member_bands:
   - &id008
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: workday

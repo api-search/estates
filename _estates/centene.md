@@ -14,11 +14,11 @@ description: 'Centene Corporation is a Fortune 500 managed care organization del
   with a per-API audience. Beyond the mandated interoperability estate Centene also publishes X12 / CAQH
   CORE EDI transaction, provider-search, product-mapping and care-management APIs.'
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.0
-  agent_ready: 1
+  agent_raw: 5.6
+  agent_ready: 0
   band: emerging
   best: 36.2
   composite_avg: 15.4
@@ -26,7 +26,7 @@ estate_rating:
   composite_raw: 10.5
   developing: 0
   exemplar: 0
-  rating: 12.6
+  rating: 12.4
   scored: 5
   spread: 33.1
   strength: 0
@@ -44,8 +44,8 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-ready
-    agent_score: 30.2
+    agent_band: agent-aware
+    agent_score: 28.0
     api_count: 2
     api_count_basis: published
     immediate_parent: centene

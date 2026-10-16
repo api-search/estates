@@ -6,7 +6,7 @@ description: Google Docs is an online word processing and PDF editing tool that 
   Gemini in Docs for drafting and formatting. The service is offered to individuals, small businesses,
   startups, and enterprise customers for secure, cloud‑native productivity.
 estate_rating:
-  agent_avg: 13.2
+  agent_avg: 13.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 17.8
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 34.1
   developing: 0
   exemplar: 0
-  rating: 20.6
+  rating: 20.5
   scored: 3
   spread: 50.7
   strength: 2

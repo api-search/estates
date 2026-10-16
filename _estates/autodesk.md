@@ -7,10 +7,10 @@ description: Autodesk is a global leader in design, engineering, and entertainme
   projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem
   including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.
 estate_rating:
-  agent_avg: 12.3
+  agent_avg: 11.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 13.3
+  agent_raw: 12.6
   agent_ready: 1
   band: emerging
   best: 50.6
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 29.4
   developing: 4
   exemplar: 0
-  rating: 20.6
+  rating: 20.4
   scored: 9
   spread: 50.6
   strength: 4
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 27.2
+    agent_score: 25.3
     api_count: 2
     api_count_basis: published
     immediate_parent: autodesk
@@ -64,7 +64,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.1
+    agent_score: 31.2
     api_count: 8
     api_count_basis: published
     immediate_parent: autodesk
@@ -77,7 +77,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 22.9
     api_count: 2
     api_count_basis: published
     immediate_parent: autodesk

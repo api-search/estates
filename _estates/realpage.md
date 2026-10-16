@@ -9,10 +9,10 @@ description: RealPage is a multifamily and rental-housing software company offer
   the RPX integration marketplace and provisioned under contract rather than via a public self-serve developer
   portal.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 7.4
   agent_band: minimal
   agent_native: 0
-  agent_raw: 1.2
+  agent_raw: 0.3
   agent_ready: 0
   band: emerging
   best: 14.0
@@ -21,7 +21,7 @@ estate_rating:
   composite_raw: 8.2
   developing: 0
   exemplar: 0
-  rating: 13.3
+  rating: 13.1
   scored: 2
   spread: 11.5
   strength: 0
@@ -40,7 +40,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 13
     api_count_basis: split
     immediate_parent: realpage

@@ -4,7 +4,7 @@ category: Estates
 description: Fiserv is a global provider of financial services technology solutions, offering a wide range
   of products and services to help clients in the banking, payments, and wealth management industries.
 estate_rating:
-  agent_avg: 6.0
+  agent_avg: 5.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.4
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 7.0
   developing: 0
   exemplar: 0
-  rating: 10.6
+  rating: 10.5
   scored: 5
   spread: 18.2
   strength: 0

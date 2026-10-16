@@ -7,24 +7,24 @@ description: Elastic is a software company that builds search-powered solutions 
   delivers managed Elasticsearch and Kibana deployments with REST APIs for both data operations and deployment
   management.
 estate_rating:
-  agent_avg: 19.4
+  agent_avg: 18.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 28.4
+  agent_raw: 27.6
   agent_ready: 3
   band: thin
-  best: 78.0
-  composite_avg: 33.7
+  best: 78.5
+  composite_avg: 33.8
   composite_band: thin
-  composite_raw: 47.0
+  composite_raw: 47.2
   developing: 1
   exemplar: 1
-  rating: 28.0
+  rating: 27.8
   scored: 5
   spread: 57.6
   strength: 6
   strong: 1
-  worst: 20.4
+  worst: 20.9
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastic.png
@@ -45,7 +45,7 @@ member_bands:
     name: Elastic Stack
     relationship: product
     score_band: exemplar
-    score_composite: 78.0
+    score_composite: 78.5
     slug: elk-stack
     source: declared
   label: Exemplar
@@ -76,7 +76,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
+    agent_score: 24.2
     api_count: 1
     api_count_basis: published
     immediate_parent: elastic
@@ -95,7 +95,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.2
+    agent_score: 33.3
     api_count: 1
     api_count_basis: published
     immediate_parent: elastic
@@ -121,7 +121,7 @@ member_bands:
     name: Swiftype
     relationship: product
     score_band: emerging
-    score_composite: 20.4
+    score_composite: 20.9
     slug: swiftype
     source: parent-company-property
   label: Emerging
@@ -157,7 +157,7 @@ members:
 members_unrated: []
 name: Elastic
 overview: 'Elastic publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 57.6 points, from 78.0 down to 20.4.
+  of which 6 carry a rating. The rated members span 57.6 points, from 78.5 down to 20.9.
 
 
   Its highest-rated surfaces are Elastic Stack, Elastic Observability, Elasticsearch, Kibana, Swiftype.'

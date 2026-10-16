@@ -10,7 +10,7 @@ description: Niantic Spatial, Inc. (spun out of Niantic, Inc. in 2025 after the 
   Android, and ROS 2, connecting to Scaniverse and VPS 2.0. Enterprise focus areas include robotics, defense
   and intelligence, and oil and gas.
 estate_rating:
-  agent_avg: 5.8
+  agent_avg: 5.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -22,7 +22,7 @@ estate_rating:
   composite_raw: 3.6
   developing: 0
   exemplar: 0
-  rating: 10.1
+  rating: 10.0
   scored: 4
   spread: 9.8
   strength: 0

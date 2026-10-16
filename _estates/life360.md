@@ -12,16 +12,16 @@ description: Life360 is a family safety platform built around a location-sharing
   ai-plugin manifest whose advertised OpenAPI does not resolve, and Content-Signal directives in robots.txt).
   This profile is maintained in the API Evangelist network for company discovery and monitoring.
 estate_rating:
-  agent_avg: 7.7
+  agent_avg: 7.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.1
   agent_ready: 0
   band: emerging
   best: 43.5
-  composite_avg: 21.0
+  composite_avg: 21.1
   composite_band: emerging
-  composite_raw: 22.1
+  composite_raw: 22.3
   developing: 1
   exemplar: 0
   rating: 15.7
@@ -69,7 +69,7 @@ member_bands:
     name: Tile (thetileapp)
     relationship: product
     score_band: emerging
-    score_composite: 12.7
+    score_composite: 13.1
     slug: thetileapp
     source: parent-company-property
   label: Emerging

@@ -1,5 +1,5 @@
 ---
-api_total: 24
+api_total: 25
 category: Estates
 description: LexisNexis is a global provider of legal, regulatory, and business information and analytics.
   Through the LexisNexis Developer Portal and LexisNexis Risk Solutions, partners can integrate access
@@ -7,10 +7,10 @@ description: LexisNexis is a global provider of legal, regulatory, and business 
   applications. Most LexisNexis APIs are partner-access only and require contractual agreements before
   credentials and OpenAPI specifications are released.
 estate_rating:
-  agent_avg: 14.6
+  agent_avg: 14.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.7
+  agent_raw: 18.3
   agent_ready: 1
   band: emerging
   best: 51.7
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 28.7
   developing: 1
   exemplar: 0
-  rating: 20.5
+  rating: 20.4
   scored: 5
   spread: 47.6
   strength: 1
@@ -71,7 +71,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 47.1
-    api_count: 1
+    api_count: 2
     api_count_basis: published
     immediate_parent: lexisnexis
     name: Lex Machina
@@ -89,7 +89,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 15.5
+    agent_score: 13.6
     api_count: 1
     api_count_basis: published
     immediate_parent: lexisnexis

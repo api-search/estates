@@ -10,7 +10,7 @@ description: 'Moody''s Corporation (NYSE: MCO) is a global integrated risk-asses
   subsidiary brands including Bureau van Dijk (Orbis), RMS (catastrophe risk), Kompany / Passfort (KYC),
   and Four Twenty Seven (climate).'
 estate_rating:
-  agent_avg: 10.9
+  agent_avg: 10.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.6
@@ -22,7 +22,7 @@ estate_rating:
   composite_raw: 13.1
   developing: 0
   exemplar: 0
-  rating: 14.9
+  rating: 14.8
   scored: 3
   spread: 31.9
   strength: 0

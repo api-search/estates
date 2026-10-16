@@ -4,7 +4,7 @@ category: Estates
 description: Discover Intel® Trust Authority, the independent attestation service for securing your confidential
   computing workloads.
 estate_rating:
-  agent_avg: 5.6
+  agent_avg: 5.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.5

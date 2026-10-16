@@ -1,5 +1,5 @@
 ---
-api_total: 4
+api_total: 5
 category: Estates
 description: Tricentis is an enterprise continuous testing and quality engineering company, founded in
   Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans
@@ -12,10 +12,10 @@ description: Tricentis is an enterprise continuous testing and quality engineeri
   Protocol (MCP) servers plus an open-source, Apache-2.0 catalog of agent skills for driving Tosca and
   qTest from AI coding assistants.
 estate_rating:
-  agent_avg: 9.9
+  agent_avg: 9.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 9.0
+  agent_raw: 8.4
   agent_ready: 0
   band: emerging
   best: 40.2
@@ -24,7 +24,7 @@ estate_rating:
   composite_raw: 24.4
   developing: 1
   exemplar: 0
-  rating: 17.1
+  rating: 16.9
   scored: 3
   spread: 24.1
   strength: 1
@@ -44,7 +44,7 @@ member_bands:
     acquired: 2022
     agent_band: agent-aware
     agent_score: 22.1
-    api_count: 1
+    api_count: 2
     api_count_basis: published
     immediate_parent: tricentis
     name: Testim
@@ -75,7 +75,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: tricentis

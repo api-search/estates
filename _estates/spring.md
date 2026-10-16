@@ -7,10 +7,10 @@ description: Spring is the leading open-source application framework for Java. T
   rapid application development with embedded servers and auto-configuration. Spring is maintained by
   VMware and hosted under the Spring Projects GitHub organization.
 estate_rating:
-  agent_avg: 13.4
+  agent_avg: 12.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.9
+  agent_raw: 14.0
   agent_ready: 0
   band: emerging
   best: 38.1
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 34.4
   developing: 0
   exemplar: 0
-  rating: 22.2
+  rating: 21.7
   scored: 6
   spread: 7.9
   strength: 0
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.3
+    agent_score: 15.4
     api_count: 1
     api_count_basis: published
     immediate_parent: spring
@@ -51,7 +51,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: spring
@@ -64,7 +64,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.3
+    agent_score: 15.4
     api_count: 1
     api_count_basis: published
     immediate_parent: spring
@@ -77,7 +77,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: published
     immediate_parent: spring
@@ -90,7 +90,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.3
+    agent_score: 15.4
     api_count: 1
     api_count_basis: published
     immediate_parent: spring
@@ -103,7 +103,7 @@ member_bands:
   - &id006
     acquired: null
     agent_band: human-only
-    agent_score: 3.8
+    agent_score: 1.9
     api_count: 3
     api_count_basis: split
     immediate_parent: spring

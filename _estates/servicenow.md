@@ -3,10 +3,10 @@ api_total: 16
 category: Estates
 description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
 estate_rating:
-  agent_avg: 12.0
+  agent_avg: 11.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 13.1
+  agent_raw: 12.8
   agent_ready: 2
   band: emerging
   best: 55.7
@@ -15,7 +15,7 @@ estate_rating:
   composite_raw: 19.7
   developing: 0
   exemplar: 0
-  rating: 16.8
+  rating: 16.7
   scored: 7
   spread: 53.2
   strength: 2
@@ -85,7 +85,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: servicenow

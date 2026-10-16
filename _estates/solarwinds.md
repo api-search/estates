@@ -7,7 +7,7 @@ description: SolarWinds provides a comprehensive suite of APIs enabling programm
   management, server and application monitoring, and more, allowing customers to integrate SolarWinds
   capabilities into their own tools and workflows.
 estate_rating:
-  agent_avg: 10.1
+  agent_avg: 10.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 9.5
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 17.9
   developing: 1
   exemplar: 0
-  rating: 15.7
+  rating: 15.6
   scored: 3
   spread: 53.6
   strength: 1

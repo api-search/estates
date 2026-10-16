@@ -5,21 +5,21 @@ description: Gilead Sciences is a research-based biopharmaceutical company that 
   commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis,
   oncology, and inflammatory diseases.
 estate_rating:
-  agent_avg: 7.5
+  agent_avg: 7.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 3.7
+  best: 4.1
   composite_avg: 15.1
   composite_band: emerging
-  composite_raw: 1.9
+  composite_raw: 2.0
   developing: 0
   exemplar: 0
-  rating: 12.1
+  rating: 12.0
   scored: 2
-  spread: 3.7
+  spread: 4.1
   strength: 0
   strong: 0
   worst: 0.0
@@ -43,7 +43,7 @@ member_bands:
     name: Forty Seven *
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.7
+    score_composite: 4.1
     slug: forty-seven
     source: declared
   - &id002
@@ -89,7 +89,7 @@ members:
 members_unrated: []
 name: Gilead Sciences
 overview: 'Gilead Sciences publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 3.7 points, from 3.7 down to 0.0.
+  network, of which 3 carry a rating. The rated members span 4.1 points, from 4.1 down to 0.0.
 
 
   Its highest-rated surfaces are Forty Seven *, Cell Design Labs, Arresto Biosciences.'

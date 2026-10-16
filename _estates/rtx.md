@@ -8,24 +8,24 @@ description: 'RTX Corporation is a leading American aerospace and defense compan
   software including SPARQL triple stores, NLP frameworks, and TAK ecosystem plugins for government and
   military situational awareness platforms.'
 estate_rating:
-  agent_avg: 9.3
+  agent_avg: 8.9
   agent_band: minimal
   agent_native: 0
-  agent_raw: 8.5
-  agent_ready: 2
+  agent_raw: 8.0
+  agent_ready: 1
   band: emerging
-  best: 36.6
-  composite_avg: 15.5
+  best: 37.1
+  composite_avg: 15.6
   composite_band: emerging
-  composite_raw: 12.0
+  composite_raw: 12.2
   developing: 0
   exemplar: 0
-  rating: 13.0
+  rating: 12.9
   scored: 7
   spread: 34.1
   strength: 0
   strong: 0
-  worst: 2.5
+  worst: 3.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rtx.png
@@ -38,21 +38,21 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-ready
-    agent_score: 29.1
+    agent_band: agent-aware
+    agent_score: 27.2
     api_count: 1
     api_count_basis: published
     immediate_parent: united-technologies
     name: Rockwell Collins
     relationship: product
     score_band: thin
-    score_composite: 36.6
+    score_composite: 37.1
     slug: rockwell-collins
     source: parent-company-property
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 28.7
     api_count: 3
     api_count_basis: split
     immediate_parent: rtx
@@ -104,7 +104,7 @@ member_bands:
     name: BBN Technologies
     relationship: subsidiary
     score_band: minimal
-    score_composite: 3.7
+    score_composite: 4.2
     slug: bbn-technologies
     source: prose
   - &id006
@@ -130,7 +130,7 @@ member_bands:
     name: BBN
     relationship: product
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 3.0
     slug: bbn
     source: declared
   label: Minimal
@@ -148,7 +148,7 @@ members:
 members_unrated: []
 name: RTX
 overview: 'RTX publishes its API surface across 7 provider profiles indexed on the APIs.io network, of
-  which 7 carry a rating. The rated members span 34.1 points, from 36.6 down to 2.5.
+  which 7 carry a rating. The rated members span 34.1 points, from 37.1 down to 3.0.
 
 
   Its highest-rated surfaces are Rockwell Collins, United Technologies, B/E Aerospace, Raytheon, BBN Technologies.'
@@ -164,7 +164,7 @@ subfamilies:
   members:
   - name: Rockwell Collins
     score_band: thin
-    score_composite: 36.6
+    score_composite: 37.1
     slug: rockwell-collins
   - name: B/E Aerospace
     score_band: minimal

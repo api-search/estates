@@ -7,11 +7,11 @@ description: Microsoft 365 is Microsoft's productivity and collaboration suite, 
   Microsoft Graph, a unified REST API that exposes users, mail, calendar, files, Teams messages, sites,
   devices, and more across the Microsoft cloud.
 estate_rating:
-  agent_avg: 20.7
+  agent_avg: 19.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.8
-  agent_ready: 11
+  agent_raw: 21.5
+  agent_ready: 10
   band: thin
   best: 66.0
   composite_avg: 39.7
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 43.5
   developing: 5
   exemplar: 0
-  rating: 32.1
+  rating: 31.7
   scored: 25
   spread: 46.4
   strength: 21
@@ -64,7 +64,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 41.4
+    agent_score: 39.5
     api_count: 21
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -103,7 +103,7 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.9
+    agent_score: 29.0
     api_count: 6
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -129,7 +129,7 @@ member_bands:
   - &id008
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.2
+    agent_score: 30.3
     api_count: 10
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -148,7 +148,7 @@ member_bands:
   - &id009
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.7
+    agent_score: 29.8
     api_count: 11
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -160,8 +160,8 @@ member_bands:
     source: declared
   - &id010
     acquired: null
-    agent_band: agent-ready
-    agent_score: 29.3
+    agent_band: agent-aware
+    agent_score: 27.4
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -174,7 +174,7 @@ member_bands:
   - &id011
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.7
+    agent_score: 32.9
     api_count: 14
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -187,7 +187,7 @@ member_bands:
   - &id012
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.0
+    agent_score: 19.2
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -200,7 +200,7 @@ member_bands:
   - &id013
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
+    agent_score: 24.2
     api_count: 21
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -232,7 +232,7 @@ member_bands:
   - &id015
     acquired: null
     agent_band: agent-aware
-    agent_score: 18.0
+    agent_score: 16.1
     api_count: 8
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -258,7 +258,7 @@ member_bands:
   - &id017
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 4
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -271,7 +271,7 @@ member_bands:
   - &id018
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 22.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -303,7 +303,7 @@ member_bands:
   - &id020
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -316,7 +316,7 @@ member_bands:
   - &id021
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -329,7 +329,7 @@ member_bands:
   - &id022
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -342,7 +342,7 @@ member_bands:
   - &id023
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -355,7 +355,7 @@ member_bands:
   - &id024
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -368,7 +368,7 @@ member_bands:
   - &id025
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365

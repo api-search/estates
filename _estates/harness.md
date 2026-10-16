@@ -1,15 +1,15 @@
 ---
-api_total: 9
+api_total: 10
 category: Estates
 description: Harness is an AI-powered software delivery platform that automates and accelerates the entire
   software development lifecycle from code to production. The platform provides intelligent automation
   across DevOps, testing and resilience, security and compliance, and cost optimization, helping engineering
   teams ship code faster, safer, and smarter as they scale.
 estate_rating:
-  agent_avg: 15.6
+  agent_avg: 15.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.1
+  agent_raw: 21.1
   agent_ready: 0
   band: emerging
   best: 39.1
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 35.3
   developing: 0
   exemplar: 0
-  rating: 22.4
+  rating: 22.2
   scored: 4
   spread: 9.8
   strength: 0
@@ -37,7 +37,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.5
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: harness
@@ -50,7 +50,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: harness
@@ -64,7 +64,7 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 25.7
-    api_count: 6
+    api_count: 7
     api_count_basis: published
     immediate_parent: harness
     name: Armory

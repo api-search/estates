@@ -4,7 +4,7 @@ category: Estates
 description: Medtronic is a major US corporation and Fortune 1000 company. The Medtronic API provides
   programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 estate_rating:
-  agent_avg: 5.8
+  agent_avg: 5.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0

@@ -1,28 +1,28 @@
 ---
-api_total: 444
+api_total: 492
 category: Estates
 description: Cisco provides a comprehensive suite of APIs across its networking, security, collaboration,
   and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and
   developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and
   other Cisco products to automate network operations, build integrations, and extend platform capabilities.
 estate_rating:
-  agent_avg: 17.7
+  agent_avg: 17.4
   agent_band: emerging
   agent_native: 1
-  agent_raw: 18.4
+  agent_raw: 18.1
   agent_ready: 15
   band: thin
   best: 75.5
-  composite_avg: 31.0
+  composite_avg: 31.1
   composite_band: thin
-  composite_raw: 32.0
+  composite_raw: 32.2
   developing: 10
-  exemplar: 1
-  rating: 25.7
+  exemplar: 2
+  rating: 25.6
   scored: 51
   spread: 75.5
-  strength: 37
-  strong: 12
+  strength: 38
+  strong: 11
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -32,7 +32,7 @@ layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 1
+  count: 2
   items:
   - &id001
     acquired: 2020
@@ -47,13 +47,26 @@ member_bands:
     score_composite: 75.5
     slug: thousandeyes
     source: declared
+  - &id002
+    acquired: 2007
+    agent_band: agent-ready
+    agent_score: 66.5
+    api_count: 20
+    api_count_basis: published
+    immediate_parent: cisco
+    name: Webex
+    relationship: acquisition
+    score_band: exemplar
+    score_composite: 68.6
+    slug: webex
+    source: declared
   label: Exemplar
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 12
+  count: 11
   items:
-  - &id002
+  - &id003
     acquired: null
     agent_band: agent-ready
     agent_score: 32.4
@@ -66,7 +79,7 @@ member_bands:
     score_composite: 66.2
     slug: splunk-observability
     source: declared
-  - &id003
+  - &id004
     acquired: null
     agent_band: agent-ready
     agent_score: 38.5
@@ -76,21 +89,8 @@ member_bands:
     name: Cisco XDR
     relationship: product
     score_band: strong
-    score_composite: 65.6
+    score_composite: 66.1
     slug: cisco-xdr
-    source: declared
-  - &id004
-    acquired: 2007
-    agent_band: agent-ready
-    agent_score: 67.4
-    api_count: 10
-    api_count_basis: published
-    immediate_parent: cisco
-    name: Webex
-    relationship: acquisition
-    score_band: strong
-    score_composite: 63.8
-    slug: webex
     source: declared
   - &id005
     acquired: 2017
@@ -119,6 +119,19 @@ member_bands:
     slug: cisco-umbrella
     source: declared
   - &id007
+    acquired: 2024
+    agent_band: agent-ready
+    agent_score: 54.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: cisco
+    name: Splunk
+    relationship: acquisition
+    score_band: strong
+    score_composite: 62.6
+    slug: splunk
+    source: declared
+  - &id008
     acquired: null
     agent_band: agent-ready
     agent_score: 38.3
@@ -131,24 +144,11 @@ member_bands:
     score_composite: 62.4
     slug: cisco-ise
     source: declared
-  - &id008
-    acquired: 2024
-    agent_band: agent-ready
-    agent_score: 52.6
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: cisco
-    name: Splunk
-    relationship: acquisition
-    score_band: strong
-    score_composite: 60.5
-    slug: splunk
-    source: declared
   - &id009
     acquired: null
     agent_band: agent-ready
     agent_score: 29.0
-    api_count: 11
+    api_count: 22
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Intersight
@@ -161,7 +161,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 37.4
-    api_count: 27
+    api_count: 29
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Catalyst Center
@@ -174,7 +174,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 34.0
-    api_count: 1
+    api_count: 2
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco PSIRT openVuln API
@@ -187,7 +187,7 @@ member_bands:
     acquired: 2013
     agent_band: agent-ready
     agent_score: 39.2
-    api_count: 14
+    api_count: 18
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Secure Firewall
@@ -218,7 +218,7 @@ member_bands:
   - &id014
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: published
     immediate_parent: webex
@@ -232,7 +232,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 35.1
-    api_count: 50
+    api_count: 68
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Crosswork
@@ -245,7 +245,7 @@ member_bands:
     acquired: null
     agent_band: agent-native
     agent_score: 39.2
-    api_count: 4
+    api_count: 5
     api_count_basis: published
     immediate_parent: cisco
     name: AGNTCY
@@ -257,7 +257,7 @@ member_bands:
   - &id017
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: cisco
@@ -296,7 +296,7 @@ member_bands:
   - &id020
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.9
+    agent_score: 19.0
     api_count: 4
     api_count_basis: published
     immediate_parent: cisco
@@ -322,7 +322,7 @@ member_bands:
   - &id022
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.3
+    agent_score: 20.4
     api_count: 1
     api_count_basis: published
     immediate_parent: cisco
@@ -354,7 +354,7 @@ member_bands:
   - &id024
     acquired: 2017
     agent_band: agent-aware
-    agent_score: 22.3
+    agent_score: 20.4
     api_count: 9
     api_count_basis: published
     immediate_parent: cisco
@@ -367,7 +367,7 @@ member_bands:
   - &id025
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: cisco
@@ -393,7 +393,7 @@ member_bands:
   - &id027
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: webex
@@ -406,7 +406,7 @@ member_bands:
   - &id028
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: webex
@@ -419,7 +419,7 @@ member_bands:
   - &id029
     acquired: 2018
     agent_band: agent-aware
-    agent_score: 21.5
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: cisco
@@ -433,7 +433,7 @@ member_bands:
     acquired: 2012
     agent_band: agent-ready
     agent_score: 31.2
-    api_count: 6
+    api_count: 7
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Meraki
@@ -477,7 +477,7 @@ member_bands:
   - &id033
     acquired: null
     agent_band: human-only
-    agent_score: 0.0
+    agent_score: 2.2
     api_count: 0
     api_count_basis: split
     immediate_parent: cisco
@@ -870,7 +870,7 @@ overview: 'Cisco publishes its API surface across 56 provider profiles indexed o
   of which 56 carry a rating. The rated members span 75.5 points, from 75.5 down to 0.0.
 
 
-  Its highest-rated surfaces are ThousandEyes, Splunk Observability Cloud, Cisco XDR, Webex, Cisco Catalyst
+  Its highest-rated surfaces are ThousandEyes, Webex, Splunk Observability Cloud, Cisco XDR, Cisco Catalyst
   SD-WAN.'
 parent_provider: cisco
 permalink: /estates/cisco/

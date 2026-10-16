@@ -6,24 +6,24 @@ description: FIS (Fidelity National Information Services) is a global leader in 
   marketplace. APIs connect financial institutions, fintechs, and enterprises to FIS banking and payment
   infrastructure.
 estate_rating:
-  agent_avg: 12.7
+  agent_avg: 12.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.6
+  agent_raw: 15.1
   agent_ready: 1
   band: emerging
   best: 61.2
   composite_avg: 25.3
   composite_band: thin
-  composite_raw: 31.4
+  composite_raw: 31.5
   developing: 1
   exemplar: 0
-  rating: 20.3
+  rating: 20.1
   scored: 4
-  spread: 53.9
+  spread: 53.4
   strength: 3
   strong: 1
-  worst: 7.3
+  worst: 7.8
 estate_root: null
 estate_root_name: null
 image: https://codeconnect.fisglobal.com/assets/FIS_codeConnect_logo_white.svg
@@ -75,7 +75,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: fis
@@ -95,7 +95,7 @@ member_bands:
     name: IntelliMatch
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.3
+    score_composite: 7.8
     slug: intellimatch
     source: declared
   label: Minimal
@@ -110,7 +110,7 @@ members:
 members_unrated: []
 name: FIS Global
 overview: 'FIS Global publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 53.9 points, from 61.2 down to 7.3.
+  of which 4 carry a rating. The rated members span 53.4 points, from 61.2 down to 7.8.
 
 
   Its highest-rated surfaces are Payrix, Bond, SunGard Data Systems, IntelliMatch.'

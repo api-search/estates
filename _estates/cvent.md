@@ -1,5 +1,5 @@
 ---
-api_total: 23
+api_total: 24
 category: Estates
 description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800
   employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration,
@@ -10,7 +10,7 @@ description: Cvent is a leading meetings, events, and hospitality technology pro
   integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads,
   webhooks, SSO, custom widgets, white-label, and integration documentation.
 estate_rating:
-  agent_avg: 20.9
+  agent_avg: 20.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 28.3
@@ -87,7 +87,7 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 28.2
-    api_count: 1
+    api_count: 2
     api_count_basis: published
     immediate_parent: cvent
     name: Cvent Social Tables

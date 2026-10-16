@@ -1,5 +1,5 @@
 ---
-api_total: 147
+api_total: 146
 category: Estates
 description: Instructure is an EdTech company best known for Canvas LMS, a widely adopted learning management
   system used by thousands of educational institutions and organizations worldwide. The platform provides
@@ -9,24 +9,24 @@ description: Instructure is an EdTech company best known for Canvas LMS, a widel
   1.3 integrations. Authentication is handled via OAuth2 with per-token dynamic rate limiting, and all
   API responses are returned in JSON over HTTPS.
 estate_rating:
-  agent_avg: 13.9
+  agent_avg: 11.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.1
-  agent_ready: 2
+  agent_raw: 13.2
+  agent_ready: 1
   band: emerging
-  best: 68.7
-  composite_avg: 30.8
+  best: 70.3
+  composite_avg: 26.4
   composite_band: thin
-  composite_raw: 43.8
+  composite_raw: 36.6
   developing: 0
-  exemplar: 2
-  rating: 24.0
-  scored: 4
-  spread: 61.6
-  strength: 6
+  exemplar: 1
+  rating: 20.4
+  scored: 3
+  spread: 62.7
+  strength: 3
   strong: 0
-  worst: 7.1
+  worst: 7.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instructure.png
@@ -35,7 +35,7 @@ layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
@@ -47,21 +47,8 @@ member_bands:
     name: Canvas
     relationship: product
     score_band: exemplar
-    score_composite: 68.7
+    score_composite: 70.3
     slug: canvas
-    source: declared
-  - &id002
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 32.8
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: instructure
-    name: Canvas LMS
-    relationship: product
-    score_band: exemplar
-    score_composite: 67.5
-    slug: canvas-lms
     source: declared
   label: Exemplar
   open: true
@@ -69,7 +56,7 @@ member_bands:
   blurb: Limited public surface area
   count: 1
   items:
-  - &id003
+  - &id002
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -88,7 +75,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 1
   items:
-  - &id004
+  - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -98,25 +85,24 @@ member_bands:
     name: MasteryConnect
     relationship: product
     score_band: minimal
-    score_composite: 7.1
+    score_composite: 7.6
     slug: masteryconnect
     source: parent-company-property
   label: Minimal
   open: false
-member_on_network: 4
-member_total: 4
+member_on_network: 3
+member_total: 3
 members:
 - *id001
 - *id002
 - *id003
-- *id004
 members_unrated: []
 name: Instructure
-overview: 'Instructure publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 61.6 points, from 68.7 down to 7.1.
+overview: 'Instructure publishes its API surface across 3 provider profiles indexed on the APIs.io network,
+  of which 3 carry a rating. The rated members span 62.7 points, from 70.3 down to 7.6.
 
 
-  Its highest-rated surfaces are Canvas, Canvas LMS, LearnPlatform, MasteryConnect.'
+  Its highest-rated surfaces are Canvas, LearnPlatform, MasteryConnect.'
 parent_provider: instructure
 permalink: /estates/instructure/
 slug: instructure

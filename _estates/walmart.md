@@ -8,10 +8,10 @@ description: Walmart is a multinational retail corporation that operates a chain
   The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory,
   pricing, fulfillment, and reporting on Walmart.com.
 estate_rating:
-  agent_avg: 8.5
+  agent_avg: 8.2
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.9
+  agent_raw: 6.6
   agent_ready: 0
   band: emerging
   best: 35.6
@@ -20,7 +20,7 @@ estate_rating:
   composite_raw: 13.5
   developing: 0
   exemplar: 0
-  rating: 13.4
+  rating: 13.2
   scored: 6
   spread: 35.6
   strength: 0
@@ -52,14 +52,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.5
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: walmart
     name: PhonePe
     relationship: acquisition
     score_band: thin
-    score_composite: 30.3
+    score_composite: 30.7
     slug: phonepe
     source: prose
   label: Thin

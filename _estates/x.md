@@ -10,7 +10,7 @@ description: X (formerly Twitter) operates the X Developer Platform, the program
   skill, an A2A agent card and two hosted MCP servers. Access is sold pay-per-usage in prepaid credits
   rather than by subscription tier, with an Enterprise agreement for volume above the published cap.
 estate_rating:
-  agent_avg: 3.7
+  agent_avg: 3.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -22,7 +22,7 @@ estate_rating:
   composite_raw: 0.0
   developing: 0
   exemplar: 0
-  rating: 5.9
+  rating: 5.8
   scored: 9
   spread: 0.0
   strength: 0

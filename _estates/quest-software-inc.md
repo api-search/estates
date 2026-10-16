@@ -10,7 +10,7 @@ description: Quest Software Inc. is a privately held IT management and cybersecu
   Support portal. Surfaced as a portfolio-lead stub and processed by the API Evangelist enrichment pipeline;
   no public, first-party developer API portal or OpenAPI surface was discoverable at enrichment time.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 7.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.2

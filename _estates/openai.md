@@ -12,7 +12,7 @@ description: OpenAI publishes a single unversioned REST API at https://api.opena
   Python, JavaScript, Go, Java, .NET and Ruby, alongside the Codex CLI and an anonymous documentation
   MCP server at developers.openai.com/mcp.
 estate_rating:
-  agent_avg: 6.6
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.2
@@ -113,7 +113,7 @@ tags:
 - OpenAI
 - Artificial Intelligence
 - Generative AI
-- Chatbot
+- Chatbots
 - Foundation Models
 - T1
 title: OpenAI

@@ -9,7 +9,7 @@ description: 'Enghouse Systems Limited (TSX: ENGH) is a publicly traded Canadian
   — telecom OSS/BSS, media and broadcast, and network monitoring; plus transportation, public-safety and
   transit systems). The company grows largely through acquisition of specialized software brands.'
 estate_rating:
-  agent_avg: 6.9
+  agent_avg: 6.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.8

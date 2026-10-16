@@ -7,7 +7,7 @@ description: Omnichannel commerce platform with REST APIs for retail and restaur
   payments, and loyalty programs across multiple product lines including Retail X-Series, Retail R-Series,
   Restaurant K-Series, and eCom.
 estate_rating:
-  agent_avg: 11.0
+  agent_avg: 10.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.9
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 14.3
   developing: 0
   exemplar: 0
-  rating: 15.3
+  rating: 15.2
   scored: 3
   spread: 22.7
   strength: 0

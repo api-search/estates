@@ -8,7 +8,7 @@ description: CA Technologies (originally Computer Associates) was a major enterp
   Rally / Agile Central, Clarity PPM, BlazeMeter, AutoSys workload automation, and mainframe management
   suites. The primary developer portal is developer.broadcom.com.
 estate_rating:
-  agent_avg: 6.9
+  agent_avg: 6.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.8
@@ -20,7 +20,7 @@ estate_rating:
   composite_raw: 7.3
   developing: 0
   exemplar: 0
-  rating: 12.1
+  rating: 12.0
   scored: 3
   spread: 19.2
   strength: 0

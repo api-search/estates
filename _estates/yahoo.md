@@ -14,20 +14,20 @@ description: Yahoo is a consumer internet and advertising-technology company ope
   client-credentials JWT flow. Yahoo publishes no OpenAPI for any of these surfaces, distributing a public
   Postman collection and an llms.txt documentation index instead.
 estate_rating:
-  agent_avg: 4.0
+  agent_avg: 3.9
   agent_band: minimal
   agent_native: 0
-  agent_raw: 0.0
+  agent_raw: 0.3
   agent_ready: 0
   band: minimal
   best: 20.5
-  composite_avg: 9.4
+  composite_avg: 8.9
   composite_band: minimal
-  composite_raw: 2.6
+  composite_raw: 2.5
   developing: 0
   exemplar: 0
-  rating: 7.2
-  scored: 8
+  rating: 6.9
+  scored: 9
   spread: 20.5
   strength: 0
   strong: 0
@@ -59,9 +59,22 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 7
+  count: 8
   items:
   - &id002
+    acquired: null
+    agent_band: human-only
+    agent_score: 3.1
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: yahoo
+    name: CommonStock
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 2.1
+    slug: commonstock
+    source: prose
+  - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -74,7 +87,7 @@ member_bands:
     score_composite: 0.0
     slug: aviate
     source: prose
-  - &id003
+  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -87,7 +100,7 @@ member_bands:
     score_composite: 0.0
     slug: bix
     source: prose
-  - &id004
+  - &id005
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -100,7 +113,7 @@ member_bands:
     score_composite: 0.0
     slug: dapper
     source: prose
-  - &id005
+  - &id006
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -113,7 +126,7 @@ member_bands:
     score_composite: 0.0
     slug: messageme
     source: parent-company-property
-  - &id006
+  - &id007
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -126,7 +139,7 @@ member_bands:
     score_composite: 0.0
     slug: polyvore
     source: parent-company-property
-  - &id007
+  - &id008
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -139,7 +152,7 @@ member_bands:
     score_composite: 0.0
     slug: rockmelt
     source: prose
-  - &id008
+  - &id009
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -158,7 +171,7 @@ member_bands:
   blurb: Not yet scored
   count: 1
   items:
-  - &id009
+  - &id010
     acquired: null
     agent_band: null
     agent_score: null
@@ -173,8 +186,8 @@ member_bands:
     source: prose
   label: Unrated
   open: false
-member_on_network: 9
-member_total: 9
+member_on_network: 10
+member_total: 10
 members:
 - *id001
 - *id002
@@ -185,13 +198,14 @@ members:
 - *id007
 - *id008
 - *id009
+- *id010
 members_unrated: []
 name: Yahoo
-overview: 'Yahoo publishes its API surface across 9 provider profiles indexed on the APIs.io network,
-  of which 9 carry a rating. The rated members span 20.5 points, from 20.5 down to 0.0.
+overview: 'Yahoo publishes its API surface across 10 provider profiles indexed on the APIs.io network,
+  of which 10 carry a rating. The rated members span 20.5 points, from 20.5 down to 0.0.
 
 
-  Its highest-rated surfaces are Flurry, Aviate, Bix, Dapper, MessageMe *.'
+  Its highest-rated surfaces are Flurry, CommonStock, Aviate, Bix, Dapper.'
 parent_provider: yahoo
 permalink: /estates/yahoo/
 slug: yahoo

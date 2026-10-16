@@ -1,5 +1,5 @@
 ---
-api_total: 1
+api_total: 2
 category: Estates
 description: 'Proofpoint is an enterprise cybersecurity company focused on human-centric security — email
   and collaboration security, data loss prevention, insider threat management, digital communications
@@ -11,7 +11,7 @@ description: 'Proofpoint is an enterprise cybersecurity company focused on human
   public HTML and every one of them is credential-gated at runtime; Proofpoint publishes no OpenAPI, AsyncAPI,
   GraphQL or MCP contract for any of them.'
 estate_rating:
-  agent_avg: 8.5
+  agent_avg: 8.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.0
@@ -23,7 +23,7 @@ estate_rating:
   composite_raw: 12.1
   developing: 0
   exemplar: 0
-  rating: 13.4
+  rating: 13.3
   scored: 4
   spread: 28.5
   strength: 0
@@ -43,7 +43,7 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 23.9
-    api_count: 1
+    api_count: 2
     api_count_basis: published
     immediate_parent: proofpoint
     name: Tessian

@@ -8,7 +8,7 @@ description: Check Point Software Technologies is a global cybersecurity vendor 
   device management APIs, Harmony Email and Collaboration API, Threat Hunting (TH) API, and CloudGuard
   WAF API.
 estate_rating:
-  agent_avg: 14.9
+  agent_avg: 14.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 20.3
@@ -17,10 +17,10 @@ estate_rating:
   best: 52.4
   composite_avg: 25.5
   composite_band: thin
-  composite_raw: 31.9
+  composite_raw: 32.0
   developing: 2
   exemplar: 0
-  rating: 21.3
+  rating: 21.2
   scored: 4
   spread: 49.0
   strength: 2
@@ -59,7 +59,7 @@ member_bands:
     name: Dome9
     relationship: acquisition
     score_band: developing
-    score_composite: 43.1
+    score_composite: 43.6
     slug: dome9
     source: declared
   label: Developing

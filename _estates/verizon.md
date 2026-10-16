@@ -6,21 +6,21 @@ description: Verizon is a leading telecommunications company providing wireless,
   5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform
   APIs for contact center and SMS solutions.
 estate_rating:
-  agent_avg: 8.5
+  agent_avg: 8.2
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.9
+  agent_raw: 6.6
   agent_ready: 1
   band: emerging
-  best: 45.6
+  best: 46.1
   composite_avg: 17.2
   composite_band: emerging
-  composite_raw: 14.6
+  composite_raw: 14.7
   developing: 1
   exemplar: 0
-  rating: 13.7
+  rating: 13.6
   scored: 6
-  spread: 45.6
+  spread: 46.1
   strength: 1
   strong: 0
   worst: 0.0
@@ -44,7 +44,7 @@ member_bands:
     name: AOL
     relationship: acquisition
     score_band: developing
-    score_composite: 45.6
+    score_composite: 46.1
     slug: aol
     source: prose
   label: Developing
@@ -56,7 +56,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: human-only
-    agent_score: 4.3
+    agent_score: 2.4
     api_count: 1
     api_count_basis: published
     immediate_parent: aol
@@ -172,7 +172,7 @@ members:
 members_unrated: []
 name: Verizon
 overview: 'Verizon publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 45.6 points, from 45.6 down to 0.0.
+  of which 8 carry a rating. The rated members span 46.1 points, from 46.1 down to 0.0.
 
 
   Its highest-rated surfaces are AOL, TechCrunch, Starry, CloudSwitch, Outside.in.'

@@ -8,7 +8,7 @@ description: Samsung Electronics is a global technology leader offering develope
   provides REST APIs, SDKs, and tools that enable developers to create connected experiences for hundreds
   of millions of Galaxy devices and Samsung smart home products worldwide.
 estate_rating:
-  agent_avg: 6.6
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -20,7 +20,7 @@ estate_rating:
   composite_raw: 1.2
   developing: 0
   exemplar: 0
-  rating: 10.6
+  rating: 10.5
   scored: 3
   spread: 3.7
   strength: 0

@@ -1,5 +1,5 @@
 ---
-api_total: 3
+api_total: 5
 category: Estates
 description: 'ZoomInfo is a B2B go-to-market intelligence platform whose contact and company database,
   buyer-intent signals, scoops and news feeds are sold to sales, marketing, operations and recruiting
@@ -9,21 +9,21 @@ description: 'ZoomInfo is a B2B go-to-market intelligence platform whose contact
   OAuth-gated Model Context Protocol server at mcp.zoominfo.com and publishes 35 agent skills and a first-party
   CLI that talks to that MCP server rather than to REST.'
 estate_rating:
-  agent_avg: 9.5
+  agent_avg: 9.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.7
   agent_ready: 0
   band: emerging
-  best: 54.6
+  best: 55.1
   composite_avg: 20.9
   composite_band: emerging
-  composite_raw: 21.7
+  composite_raw: 21.9
   developing: 0
   exemplar: 0
   rating: 16.3
   scored: 3
-  spread: 50.9
+  spread: 51.4
   strength: 2
   strong: 1
   worst: 3.7
@@ -41,13 +41,13 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 23.2
-    api_count: 2
+    api_count: 4
     api_count_basis: published
     immediate_parent: zoominfo
     name: Chorus.ai
     relationship: product
     score_band: strong
-    score_composite: 54.6
+    score_composite: 55.1
     slug: chorus-ai
     source: parent-company-property
   label: Strong
@@ -93,7 +93,7 @@ members:
 members_unrated: []
 name: ZoomInfo
 overview: 'ZoomInfo publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 50.9 points, from 54.6 down to 3.7.
+  of which 3 carry a rating. The rated members span 51.4 points, from 55.1 down to 3.7.
 
 
   Its highest-rated surfaces are Chorus.ai, Everstring, Datanyze *.'

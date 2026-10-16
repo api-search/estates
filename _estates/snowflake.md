@@ -9,7 +9,7 @@ description: Snowflake is a cloud-based data platform delivering data warehousin
   Snowflake also serves a SCIM 2.0 identity endpoint, an Apache Iceberg REST Catalog, and an account-hosted
   Model Context Protocol server that exposes Cortex tools to agents under Snowflake RBAC.
 estate_rating:
-  agent_avg: 5.9
+  agent_avg: 5.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.1
@@ -21,7 +21,7 @@ estate_rating:
   composite_raw: 8.5
   developing: 0
   exemplar: 0
-  rating: 11.4
+  rating: 11.3
   scored: 4
   spread: 19.6
   strength: 0

@@ -7,16 +7,16 @@ description: Broadcom is a global technology company that specializes in the des
   electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets,
   routers, and smart TVs.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.2
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.7
+  agent_raw: 5.5
   agent_ready: 1
   band: emerging
   best: 57.2
   composite_avg: 14.8
   composite_band: emerging
-  composite_raw: 13.8
+  composite_raw: 13.9
   developing: 4
   exemplar: 0
   rating: 11.4
@@ -70,7 +70,7 @@ member_bands:
   - &id003
     acquired: 2017
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: broadcom
@@ -90,13 +90,13 @@ member_bands:
     name: AppNeta
     relationship: acquisition
     score_band: developing
-    score_composite: 41.7
+    score_composite: 42.2
     slug: appneta
     source: declared
   - &id005
     acquired: 2019
     agent_band: agent-aware
-    agent_score: 22.3
+    agent_score: 20.4
     api_count: 1
     api_count_basis: published
     immediate_parent: broadcom
@@ -115,7 +115,7 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: published
     immediate_parent: vmware
@@ -147,7 +147,7 @@ member_bands:
   - &id008
     acquired: 2018
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 6
     api_count_basis: split
     immediate_parent: broadcom
@@ -212,7 +212,7 @@ member_bands:
     name: AVI Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.0
+    score_composite: 7.5
     slug: avi-networks
     source: declared
   - &id013
@@ -251,7 +251,7 @@ member_bands:
     name: Avago Technologies
     relationship: rename
     score_band: minimal
-    score_composite: 3.7
+    score_composite: 4.2
     slug: avago-technologies
     source: declared
   - &id016
@@ -264,7 +264,7 @@ member_bands:
     name: Nimsoft
     relationship: product
     score_band: minimal
-    score_composite: 3.4
+    score_composite: 3.8
     slug: nimsoft
     source: parent-company-property
   - &id017
@@ -553,7 +553,7 @@ subfamilies:
     slug: carbon-black
   - name: AVI Networks
     score_band: minimal
-    score_composite: 7.0
+    score_composite: 7.5
     slug: avi-networks
   - name: SpringSource
     score_band: minimal

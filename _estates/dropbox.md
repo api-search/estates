@@ -1,11 +1,11 @@
 ---
-api_total: 2
+api_total: 3
 category: Estates
 description: Dropbox is a file hosting service operated by the American company Dropbox, Inc., headquartered
   in San Francisco, California, U.S. that offers cloud storage, file synchronization, personal cloud,
   and client software.
 estate_rating:
-  agent_avg: 13.1
+  agent_avg: 13.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 15.3
@@ -37,7 +37,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 44.8
-    api_count: 1
+    api_count: 2
     api_count_basis: published
     immediate_parent: dropbox
     name: Dropbox Sign (HelloSign)

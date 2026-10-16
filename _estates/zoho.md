@@ -5,22 +5,22 @@ description: Zoho is a comprehensive cloud software suite offering 55+ integrate
   for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by
   over 130 million users worldwide.
 estate_rating:
-  agent_avg: 21.4
+  agent_avg: 20.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 24.4
+  agent_raw: 23.5
   agent_ready: 7
   band: thin
   best: 78.6
-  composite_avg: 35.9
+  composite_avg: 36.0
   composite_band: thin
-  composite_raw: 40.3
-  developing: 7
+  composite_raw: 40.4
+  developing: 8
   exemplar: 1
-  rating: 30.1
+  rating: 29.8
   scored: 18
   spread: 60.4
-  strength: 12
+  strength: 13
   strong: 1
   worst: 18.2
 estate_root: null
@@ -69,12 +69,12 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 7
+  count: 8
   items:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.0
+    agent_score: 22.1
     api_count: 37
     api_count_basis: published
     immediate_parent: zoho
@@ -100,7 +100,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 28.7
     api_count: 1
     api_count_basis: published
     immediate_parent: zoho
@@ -113,7 +113,7 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.6
+    agent_score: 33.7
     api_count: 22
     api_count_basis: published
     immediate_parent: zoho
@@ -126,7 +126,7 @@ member_bands:
   - &id007
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 28.7
     api_count: 1
     api_count_basis: published
     immediate_parent: zoho
@@ -152,6 +152,19 @@ member_bands:
   - &id009
     acquired: null
     agent_band: agent-ready
+    agent_score: 29.7
+    api_count: 7
+    api_count_basis: published
+    immediate_parent: zoho
+    name: Zoho Analytics
+    relationship: product
+    score_band: developing
+    score_composite: 40.7
+    slug: zoho-analytics
+    source: declared
+  - &id010
+    acquired: null
+    agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
     api_count_basis: published
@@ -166,25 +179,12 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 5
+  count: 4
   items:
-  - &id010
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 31.6
-    api_count: 7
-    api_count_basis: published
-    immediate_parent: zoho
-    name: Zoho Analytics
-    relationship: product
-    score_band: thin
-    score_composite: 39.1
-    slug: zoho-analytics
-    source: declared
   - &id011
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 22.9
     api_count: 1
     api_count_basis: published
     immediate_parent: zoho
@@ -197,7 +197,7 @@ member_bands:
   - &id012
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 22.9
     api_count: 1
     api_count_basis: published
     immediate_parent: zoho
@@ -210,7 +210,7 @@ member_bands:
   - &id013
     acquired: null
     agent_band: agent-aware
-    agent_score: 18.0
+    agent_score: 16.1
     api_count: 1
     api_count_basis: split
     immediate_parent: zoho
@@ -223,7 +223,7 @@ member_bands:
   - &id014
     acquired: null
     agent_band: agent-aware
-    agent_score: 15.5
+    agent_score: 13.6
     api_count: 1
     api_count_basis: split
     immediate_parent: zoho

@@ -6,10 +6,10 @@ description: Bloomberg delivers business and markets news, data, analysis, and v
   BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise
   services.
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 7.6
+  agent_raw: 6.0
   agent_ready: 1
   band: emerging
   best: 50.5
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 24.6
   developing: 2
   exemplar: 0
-  rating: 17.6
+  rating: 17.1
   scored: 35
   spread: 41.3
   strength: 2
@@ -50,7 +50,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.5
+    agent_score: 24.7
     api_count: 3
     api_count_basis: published
     immediate_parent: bloomberg
@@ -69,7 +69,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 27.3
+    agent_score: 25.4
     api_count: 1
     api_count_basis: published
     immediate_parent: bloomberg
@@ -82,7 +82,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 27.3
+    agent_score: 25.4
     api_count: 4
     api_count_basis: published
     immediate_parent: bloomberg
@@ -121,7 +121,7 @@ member_bands:
   - &id007
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 5
     api_count_basis: split
     immediate_parent: bloomberg
@@ -147,7 +147,7 @@ member_bands:
   - &id009
     acquired: null
     agent_band: human-only
-    agent_score: 3.8
+    agent_score: 1.9
     api_count: 9
     api_count_basis: split
     immediate_parent: bloomberg
@@ -173,7 +173,7 @@ member_bands:
   - &id011
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 5
     api_count_basis: split
     immediate_parent: bloomberg
@@ -192,7 +192,7 @@ member_bands:
   - &id012
     acquired: null
     agent_band: agent-aware
-    agent_score: 15.5
+    agent_score: 13.6
     api_count: 3
     api_count_basis: split
     immediate_parent: bloomberg
@@ -205,7 +205,7 @@ member_bands:
   - &id013
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 6
     api_count_basis: split
     immediate_parent: bloomberg
@@ -218,7 +218,7 @@ member_bands:
   - &id014
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 4
     api_count_basis: split
     immediate_parent: bloomberg
@@ -231,7 +231,20 @@ member_bands:
   - &id015
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
+    api_count: 2
+    api_count_basis: split
+    immediate_parent: bloomberg
+    name: Bloomberg Government (BGOV)
+    relationship: product
+    score_band: emerging
+    score_composite: 20.3
+    slug: bloomberg-government-bgov
+    source: declared
+  - &id016
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: bloomberg
@@ -241,23 +254,10 @@ member_bands:
     score_composite: 20.3
     slug: bloomberg-products-and-platforms
     source: declared
-  - &id016
-    acquired: null
-    agent_band: human-only
-    agent_score: 2.5
-    api_count: 2
-    api_count_basis: split
-    immediate_parent: bloomberg
-    name: Bloomberg Government (BGOV)
-    relationship: product
-    score_band: emerging
-    score_composite: 19.8
-    slug: bloomberg-government-bgov
-    source: declared
   - &id017
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg
@@ -270,7 +270,7 @@ member_bands:
   - &id018
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg
@@ -283,7 +283,7 @@ member_bands:
   - &id019
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: bloomberg
@@ -296,7 +296,7 @@ member_bands:
   - &id020
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg
@@ -309,7 +309,7 @@ member_bands:
   - &id021
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: bloomberg
@@ -322,7 +322,7 @@ member_bands:
   - &id022
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: bloomberg
@@ -335,7 +335,7 @@ member_bands:
   - &id023
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: bloomberg
@@ -348,7 +348,7 @@ member_bands:
   - &id024
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: bloomberg
@@ -361,7 +361,7 @@ member_bands:
   - &id025
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: bloomberg
@@ -374,7 +374,7 @@ member_bands:
   - &id026
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 4
     api_count_basis: split
     immediate_parent: bloomberg
@@ -387,7 +387,7 @@ member_bands:
   - &id027
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: bloomberg
@@ -400,7 +400,7 @@ member_bands:
   - &id028
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg
@@ -413,7 +413,7 @@ member_bands:
   - &id029
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg
@@ -426,7 +426,7 @@ member_bands:
   - &id030
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg
@@ -439,7 +439,7 @@ member_bands:
   - &id031
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg
@@ -452,7 +452,7 @@ member_bands:
   - &id032
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg
@@ -465,7 +465,7 @@ member_bands:
   - &id033
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg
@@ -478,7 +478,7 @@ member_bands:
   - &id034
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: bloomberg

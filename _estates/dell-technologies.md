@@ -7,7 +7,7 @@ description: Dell Technologies is a global Fortune 500 technology company that d
   servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling
   automation of IT operations and integration into enterprise tooling.
 estate_rating:
-  agent_avg: 11.8
+  agent_avg: 11.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 13.0

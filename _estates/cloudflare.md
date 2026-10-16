@@ -4,10 +4,10 @@ category: Estates
 description: Cloudflare is a global network designed to make everything you connect to the Internet secure,
   private, fast, and reliable.
 estate_rating:
-  agent_avg: 11.3
+  agent_avg: 10.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 12.5
+  agent_raw: 11.3
   agent_ready: 0
   band: emerging
   best: 41.9
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 29.4
   developing: 1
   exemplar: 0
-  rating: 18.7
+  rating: 18.5
   scored: 3
   spread: 30.7
   strength: 1
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.8
+    agent_score: 15.9
     api_count: 4
     api_count_basis: split
     immediate_parent: cloudflare
@@ -54,7 +54,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: cloudflare

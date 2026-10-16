@@ -5,7 +5,7 @@ description: Adobe provides APIs and developer resources for its creative, docum
   platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics,
   e-commerce, e-signatures, and many other Adobe products and services.
 estate_rating:
-  agent_avg: 14.3
+  agent_avg: 14.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.2
@@ -17,7 +17,7 @@ estate_rating:
   composite_raw: 29.5
   developing: 0
   exemplar: 0
-  rating: 20.7
+  rating: 20.6
   scored: 5
   spread: 58.9
   strength: 4

@@ -11,7 +11,7 @@ description: 'Groupon is a local-commerce marketplace, founded in Chicago in 200
   API gateway runs at api.groupon.com and requires a client_id on every request. The Groupon Partner Network
   affiliate reporting APIs were permanently closed on 2022-06-15.'
 estate_rating:
-  agent_avg: 7.5
+  agent_avg: 7.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -23,7 +23,7 @@ estate_rating:
   composite_raw: 4.0
   developing: 0
   exemplar: 0
-  rating: 12.4
+  rating: 12.3
   scored: 2
   spread: 8.0
   strength: 0

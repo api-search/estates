@@ -1,5 +1,5 @@
 ---
-api_total: 4
+api_total: 5
 category: Estates
 description: CoStar Group is the dominant commercial and residential real estate data, analytics, and
   marketplace company. The portfolio spans the flagship CoStar commercial real estate intelligence platform,
@@ -10,10 +10,10 @@ description: CoStar Group is the dominant commercial and residential real estate
   Group (Australia). Distribution to partners is via enterprise data licensing, syndication feeds, and
   brand-specific marketplace tooling rather than a public self-serve developer portal.
 estate_rating:
-  agent_avg: 10.9
+  agent_avg: 10.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.4
+  agent_raw: 11.0
   agent_ready: 1
   band: emerging
   best: 49.1
@@ -22,7 +22,7 @@ estate_rating:
   composite_raw: 27.6
   developing: 1
   exemplar: 0
-  rating: 18.5
+  rating: 18.4
   scored: 4
   spread: 31.6
   strength: 1
@@ -42,7 +42,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 43.3
-    api_count: 3
+    api_count: 4
     api_count_basis: published
     immediate_parent: costar
     name: Domain Group
@@ -73,7 +73,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: costar

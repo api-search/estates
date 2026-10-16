@@ -1,5 +1,5 @@
 ---
-api_total: 16
+api_total: 32
 category: Estates
 description: Berkshire Hathaway is a multinational conglomerate holding company headquartered in Omaha,
   Nebraska. The company's diversified subsidiaries span insurance (GEICO, Berkshire Hathaway Specialty
@@ -9,7 +9,7 @@ description: Berkshire Hathaway is a multinational conglomerate holding company 
   a public API Center providing customer APIs for shipment tracking, pricing, scheduling, and waybill
   management.
 estate_rating:
-  agent_avg: 8.2
+  agent_avg: 8.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.0
@@ -21,7 +21,7 @@ estate_rating:
   composite_raw: 13.6
   developing: 1
   exemplar: 0
-  rating: 13.5
+  rating: 13.4
   scored: 5
   spread: 46.6
   strength: 1
@@ -41,7 +41,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 30.0
-    api_count: 16
+    api_count: 32
     api_count_basis: published
     immediate_parent: berkshire-hathaway
     name: BNSF

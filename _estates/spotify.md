@@ -7,7 +7,7 @@ description: Spotify is the world's leading music streaming platform with 600M+ 
   OAuth 2.0 with scopes for user-authorized access. The API underwent significant changes in February
   2026 with new generic library endpoints and streamlined playlist management.
 estate_rating:
-  agent_avg: 8.0
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.0

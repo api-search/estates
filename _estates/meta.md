@@ -4,24 +4,24 @@ category: Estates
 description: Collection of Meta (Facebook) platform APIs for social networking, messaging, advertising,
   content publishing, AI, and developer tools across Facebook, Instagram, WhatsApp, Threads, and Messenger.
 estate_rating:
-  agent_avg: 17.7
+  agent_avg: 17.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 29.7
+  agent_raw: 29.1
   agent_ready: 2
   band: thin
-  best: 66.8
-  composite_avg: 35.0
+  best: 68.9
+  composite_avg: 35.4
   composite_band: thin
-  composite_raw: 59.5
+  composite_raw: 60.4
   developing: 1
   exemplar: 1
-  rating: 28.1
+  rating: 28.2
   scored: 3
-  spread: 14.8
+  spread: 16.4
   strength: 6
   strong: 1
-  worst: 52.0
+  worst: 52.5
 estate_root: null
 estate_root_name: null
 image: https://about.meta.com/brand/resources/meta/our-logo/
@@ -42,7 +42,7 @@ member_bands:
     name: Instagram
     relationship: product
     score_band: exemplar
-    score_composite: 66.8
+    score_composite: 68.9
     slug: instagram
     source: declared
   label: Exemplar
@@ -54,7 +54,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.0
+    agent_score: 19.2
     api_count: 1
     api_count_basis: published
     immediate_parent: meta
@@ -80,7 +80,7 @@ member_bands:
     name: WhatsApp
     relationship: product
     score_band: developing
-    score_composite: 52.0
+    score_composite: 52.5
     slug: whatsapp
     source: declared
   label: Developing
@@ -94,7 +94,7 @@ members:
 members_unrated: []
 name: Meta
 overview: 'Meta publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 14.8 points, from 66.8 down to 52.0.
+  which 3 carry a rating. The rated members span 16.4 points, from 68.9 down to 52.5.
 
 
   Its highest-rated surfaces are Instagram, Giphy, WhatsApp.'

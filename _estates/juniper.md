@@ -6,7 +6,7 @@ description: Juniper Networks (an HPE company since 2025) builds AI-native netwo
   spans the Mist cloud API (1,059 REST operations), Apstra data-center automation, Junos device automation
   over NETCONF/YANG, Junos Telemetry Interface gRPC streaming, and three first-party MCP servers.
 estate_rating:
-  agent_avg: 12.3
+  agent_avg: 12.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 13.8

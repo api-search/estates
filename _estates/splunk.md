@@ -7,7 +7,7 @@ description: Splunk is a data platform that enables organizations to search, mon
   performance monitoring, and AI-driven analytics, helping enterprises turn data into actionable insights
   and operational intelligence.
 estate_rating:
-  agent_avg: 10.3
+  agent_avg: 10.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.1
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 32.2
   developing: 1
   exemplar: 0
-  rating: 19.5
+  rating: 19.4
   scored: 4
   spread: 64.6
   strength: 3

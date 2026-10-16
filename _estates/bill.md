@@ -8,7 +8,7 @@ description: BILL (formerly Bill.com) is a cloud-based financial operations plat
   event notifications via webhooks. The API uses session-based authentication with API keys and developer
   keys against production and sandbox gateways.
 estate_rating:
-  agent_avg: 9.7
+  agent_avg: 9.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.4
@@ -20,7 +20,7 @@ estate_rating:
   composite_raw: 20.3
   developing: 1
   exemplar: 0
-  rating: 16.1
+  rating: 16.0
   scored: 3
   spread: 36.8
   strength: 1

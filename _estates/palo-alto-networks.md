@@ -7,10 +7,10 @@ description: Palo Alto Networks is a global cybersecurity leader providing advan
   CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations,
   and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.
 estate_rating:
-  agent_avg: 13.9
+  agent_avg: 13.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.8
+  agent_raw: 15.3
   agent_ready: 1
   band: emerging
   best: 43.1
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 23.4
   developing: 1
   exemplar: 0
-  rating: 18.9
+  rating: 18.8
   scored: 9
   spread: 43.1
   strength: 1
@@ -96,7 +96,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: palo-alto-networks
@@ -115,7 +115,7 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: palo-alto-networks

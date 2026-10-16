@@ -1,23 +1,23 @@
 ---
-api_total: 1429
+api_total: 1437
 category: Estates
 description: Collection of Microsoft's primary APIs and developer resources.
 estate_rating:
-  agent_avg: 19.7
+  agent_avg: 18.8
   agent_band: emerging
   agent_native: 1
-  agent_raw: 19.9
-  agent_ready: 45
+  agent_raw: 19.0
+  agent_ready: 44
   band: thin
-  best: 82.8
+  best: 83.3
   composite_avg: 40.2
   composite_band: developing
   composite_raw: 40.7
   developing: 52
   exemplar: 21
-  rating: 32.0
+  rating: 31.6
   scored: 191
-  spread: 82.8
+  spread: 83.3
   strength: 177
   strong: 31
   worst: 0.0
@@ -34,6 +34,19 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
+    agent_score: 56.3
+    api_count: 9
+    api_count_basis: published
+    immediate_parent: microsoft-entra
+    name: Microsoft Entra ID (formerly Azure AD)
+    relationship: product
+    score_band: exemplar
+    score_composite: 83.3
+    slug: azure-ad
+    source: declared
+  - &id002
+    acquired: null
+    agent_band: agent-ready
     agent_score: 50.0
     api_count: 1
     api_count_basis: published
@@ -44,30 +57,17 @@ member_bands:
     score_composite: 82.8
     slug: github-actions
     source: declared
-  - &id002
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 56.3
-    api_count: 9
-    api_count_basis: published
-    immediate_parent: microsoft-entra
-    name: Microsoft Entra ID (formerly Azure AD)
-    relationship: product
-    score_band: exemplar
-    score_composite: 82.8
-    slug: azure-ad
-    source: declared
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 59.9
+    agent_score: 62.2
     api_count: 38
     api_count_basis: published
     immediate_parent: microsoft
     name: GitHub
     relationship: product
     score_band: exemplar
-    score_composite: 80.3
+    score_composite: 82.7
     slug: github
     source: declared
   - &id004
@@ -86,6 +86,19 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-ready
+    agent_score: 48.4
+    api_count: 697
+    api_count_basis: published
+    immediate_parent: microsoft
+    name: Microsoft Azure
+    relationship: product
+    score_band: exemplar
+    score_composite: 76.7
+    slug: microsoft-azure
+    source: declared
+  - &id006
+    acquired: null
+    agent_band: agent-ready
     agent_score: 41.9
     api_count: 17
     api_count_basis: published
@@ -95,19 +108,6 @@ member_bands:
     score_band: exemplar
     score_composite: 76.3
     slug: linkedin
-    source: declared
-  - &id006
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 48.4
-    api_count: 697
-    api_count_basis: published
-    immediate_parent: microsoft
-    name: Microsoft Azure
-    relationship: product
-    score_band: exemplar
-    score_composite: 76.2
-    slug: microsoft-azure
     source: declared
   - &id007
     acquired: null
@@ -137,6 +137,19 @@ member_bands:
     source: declared
   - &id009
     acquired: null
+    agent_band: agent-ready
+    agent_score: 30.0
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: microsoft-azure
+    name: Microsoft Azure API Management
+    relationship: product
+    score_band: exemplar
+    score_composite: 73.6
+    slug: microsoft-azure-api-management
+    source: declared
+  - &id010
+    acquired: null
     agent_band: agent-aware
     agent_score: 27.3
     api_count: 1
@@ -147,19 +160,6 @@ member_bands:
     score_band: exemplar
     score_composite: 73.5
     slug: microsoft-azure-kubernetes-service
-    source: declared
-  - &id010
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 24.3
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Microsoft Azure API Management
-    relationship: product
-    score_band: exemplar
-    score_composite: 72.9
-    slug: microsoft-azure-api-management
     source: declared
   - &id011
     acquired: null
@@ -178,7 +178,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 34.1
-    api_count: 1
+    api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure Data Factory
@@ -255,7 +255,7 @@ member_bands:
   - &id018
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.9
+    agent_score: 24.0
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -294,7 +294,7 @@ member_bands:
   - &id021
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.8
+    agent_score: 29.9
     api_count: 12
     api_count_basis: published
     immediate_parent: microsoft
@@ -391,7 +391,7 @@ member_bands:
   - &id028
     acquired: null
     agent_band: agent-ready
-    agent_score: 41.4
+    agent_score: 39.5
     api_count: 21
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -404,7 +404,7 @@ member_bands:
   - &id029
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.2
+    agent_score: 33.3
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -417,7 +417,7 @@ member_bands:
   - &id030
     acquired: null
     agent_band: agent-aware
-    agent_score: 27.0
+    agent_score: 25.1
     api_count: 30
     api_count_basis: split
     immediate_parent: microsoft
@@ -430,7 +430,7 @@ member_bands:
   - &id031
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 22.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -521,7 +521,7 @@ member_bands:
   - &id038
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.5
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -560,8 +560,8 @@ member_bands:
   - &id041
     acquired: null
     agent_band: agent-aware
-    agent_score: 28.4
-    api_count: 15
+    agent_score: 26.5
+    api_count: 18
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure Monitor
@@ -599,7 +599,7 @@ member_bands:
   - &id044
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.9
+    agent_score: 29.0
     api_count: 6
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -651,7 +651,7 @@ member_bands:
   - &id048
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 21.0
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -703,7 +703,7 @@ member_bands:
   - &id052
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.2
+    agent_score: 30.3
     api_count: 10
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -722,8 +722,8 @@ member_bands:
   - &id053
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.3
-    api_count: 1
+    agent_score: 20.4
+    api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure Container Instances
@@ -735,7 +735,7 @@ member_bands:
   - &id054
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 10
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -748,7 +748,7 @@ member_bands:
   - &id055
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 9
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -760,8 +760,8 @@ member_bands:
     source: declared
   - &id056
     acquired: null
-    agent_band: agent-ready
-    agent_score: 29.9
+    agent_band: agent-aware
+    agent_score: 28.0
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft
@@ -774,7 +774,7 @@ member_bands:
   - &id057
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.7
+    agent_score: 29.8
     api_count: 11
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -786,8 +786,8 @@ member_bands:
     source: declared
   - &id058
     acquired: null
-    agent_band: agent-ready
-    agent_score: 29.3
+    agent_band: agent-aware
+    agent_score: 27.4
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -800,7 +800,7 @@ member_bands:
   - &id059
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.7
+    agent_score: 32.9
     api_count: 14
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -813,7 +813,7 @@ member_bands:
   - &id060
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.7
+    agent_score: 30.8
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft
@@ -826,7 +826,7 @@ member_bands:
   - &id061
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 20.7
     api_count: 11
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -839,8 +839,8 @@ member_bands:
   - &id062
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
-    api_count: 1
+    agent_score: 17.9
+    api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure Container Registry
@@ -852,7 +852,7 @@ member_bands:
   - &id063
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.6
+    agent_score: 32.8
     api_count: 10
     api_count_basis: split
     immediate_parent: power-platform
@@ -878,7 +878,7 @@ member_bands:
   - &id065
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.0
+    agent_score: 19.2
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -891,7 +891,7 @@ member_bands:
   - &id066
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 21.0
     api_count: 2
     api_count_basis: published
     immediate_parent: github
@@ -904,7 +904,7 @@ member_bands:
   - &id067
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -917,7 +917,7 @@ member_bands:
   - &id068
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -943,7 +943,7 @@ member_bands:
   - &id070
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.6
+    agent_score: 24.7
     api_count: 1
     api_count_basis: published
     immediate_parent: github
@@ -969,7 +969,7 @@ member_bands:
   - &id072
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 6
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -981,9 +981,22 @@ member_bands:
     source: declared
   - &id073
     acquired: null
+    agent_band: agent-ready
+    agent_score: 28.7
+    api_count: 17
+    api_count_basis: published
+    immediate_parent: microsoft
+    name: Microsoft Dynamics 365
+    relationship: product
+    score_band: developing
+    score_composite: 48.8
+    slug: microsoft-dynamics-365
+    source: declared
+  - &id074
+    acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
-    api_count: 1
+    agent_score: 22.9
+    api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure DevTest Labs
@@ -992,10 +1005,10 @@ member_bands:
     score_composite: 48.7
     slug: azure-test-labs
     source: declared
-  - &id074
+  - &id075
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1005,23 +1018,10 @@ member_bands:
     score_composite: 48.4
     slug: microsoft-azure-load-balancer
     source: declared
-  - &id075
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 28.7
-    api_count: 17
-    api_count_basis: published
-    immediate_parent: microsoft
-    name: Microsoft Dynamics 365
-    relationship: product
-    score_band: developing
-    score_composite: 48.2
-    slug: microsoft-dynamics-365
-    source: declared
   - &id076
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1034,7 +1034,7 @@ member_bands:
   - &id077
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft
@@ -1060,7 +1060,7 @@ member_bands:
   - &id079
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1072,21 +1072,8 @@ member_bands:
     source: declared
   - &id080
     acquired: null
-    agent_band: agent-aware
-    agent_score: 23.7
-    api_count: 2
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Azure OpenAI Service
-    relationship: product
-    score_band: developing
-    score_composite: 46.3
-    slug: microsoft-azure-openai
-    source: declared
-  - &id081
-    acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft
@@ -1096,10 +1083,10 @@ member_bands:
     score_composite: 46.3
     slug: kiota
     source: declared
-  - &id082
+  - &id081
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-xbox
@@ -1109,10 +1096,10 @@ member_bands:
     score_composite: 46.1
     slug: playfab
     source: declared
-  - &id083
+  - &id082
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 5
     api_count_basis: published
     immediate_parent: microsoft-xbox
@@ -1122,10 +1109,10 @@ member_bands:
     score_composite: 46.0
     slug: blizzard-entertainment
     source: declared
-  - &id084
+  - &id083
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1135,10 +1122,10 @@ member_bands:
     score_composite: 45.6
     slug: microsoft-azure-postgresql
     source: declared
-  - &id085
+  - &id084
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
+    agent_score: 24.2
     api_count: 21
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -1148,10 +1135,10 @@ member_bands:
     score_composite: 45.6
     slug: microsoft-project
     source: declared
-  - &id086
+  - &id085
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1161,10 +1148,10 @@ member_bands:
     score_composite: 45.5
     slug: microsoft-azure-advisor
     source: declared
-  - &id087
+  - &id086
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1174,7 +1161,7 @@ member_bands:
     score_composite: 45.5
     slug: microsoft-azure-app-service
     source: declared
-  - &id088
+  - &id087
     acquired: null
     agent_band: agent-ready
     agent_score: 37.3
@@ -1187,7 +1174,7 @@ member_bands:
     score_composite: 45.1
     slug: mileiq
     source: prose
-  - &id089
+  - &id088
     acquired: null
     agent_band: agent-aware
     agent_score: 20.4
@@ -1200,10 +1187,23 @@ member_bands:
     score_composite: 45.0
     slug: azure-ai-foundry
     source: declared
+  - &id089
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 21.8
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: microsoft-azure
+    name: Azure OpenAI Service
+    relationship: product
+    score_band: developing
+    score_composite: 44.9
+    slug: microsoft-azure-openai
+    source: declared
   - &id090
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 28.7
     api_count: 8
     api_count_basis: split
     immediate_parent: microsoft
@@ -1216,7 +1216,7 @@ member_bands:
   - &id091
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1229,7 +1229,7 @@ member_bands:
   - &id092
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1242,7 +1242,7 @@ member_bands:
   - &id093
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.5
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -1255,7 +1255,7 @@ member_bands:
   - &id094
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 5
     api_count_basis: split
     immediate_parent: microsoft
@@ -1267,8 +1267,8 @@ member_bands:
     source: declared
   - &id095
     acquired: null
-    agent_band: agent-aware
-    agent_score: 5.8
+    agent_band: human-only
+    agent_score: 3.9
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft
@@ -1281,7 +1281,7 @@ member_bands:
   - &id096
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 6
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1294,7 +1294,7 @@ member_bands:
   - &id097
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 5
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1307,7 +1307,7 @@ member_bands:
   - &id098
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1320,7 +1320,7 @@ member_bands:
   - &id099
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 5
     api_count_basis: split
     immediate_parent: microsoft
@@ -1333,7 +1333,7 @@ member_bands:
   - &id100
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
+    agent_score: 24.2
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft
@@ -1359,7 +1359,7 @@ member_bands:
   - &id102
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1372,7 +1372,7 @@ member_bands:
   - &id103
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1385,7 +1385,7 @@ member_bands:
   - &id104
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1404,7 +1404,7 @@ member_bands:
   - &id105
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1417,7 +1417,7 @@ member_bands:
   - &id106
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1430,7 +1430,7 @@ member_bands:
   - &id107
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.4
+    agent_score: 22.2
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft
@@ -1443,7 +1443,7 @@ member_bands:
   - &id108
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1456,7 +1456,7 @@ member_bands:
   - &id109
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1469,7 +1469,7 @@ member_bands:
   - &id110
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1482,7 +1482,7 @@ member_bands:
   - &id111
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft
@@ -1495,7 +1495,7 @@ member_bands:
   - &id112
     acquired: null
     agent_band: agent-aware
-    agent_score: 27.3
+    agent_score: 25.4
     api_count: 2
     api_count_basis: published
     immediate_parent: microsoft
@@ -1521,7 +1521,7 @@ member_bands:
   - &id114
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1586,7 +1586,7 @@ member_bands:
   - &id119
     acquired: null
     agent_band: agent-aware
-    agent_score: 16.7
+    agent_score: 14.8
     api_count: 8
     api_count_basis: split
     immediate_parent: microsoft
@@ -1599,7 +1599,7 @@ member_bands:
   - &id120
     acquired: null
     agent_band: agent-aware
-    agent_score: 18.0
+    agent_score: 16.1
     api_count: 8
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -1625,7 +1625,7 @@ member_bands:
   - &id122
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 4
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -1638,7 +1638,7 @@ member_bands:
   - &id123
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 4
     api_count_basis: split
     immediate_parent: power-platform
@@ -1651,7 +1651,7 @@ member_bands:
   - &id124
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.5
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: github
@@ -1664,7 +1664,7 @@ member_bands:
   - &id125
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft
@@ -1677,7 +1677,7 @@ member_bands:
   - &id126
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.3
+    agent_score: 20.4
     api_count: 3
     api_count_basis: split
     immediate_parent: power-platform
@@ -1690,7 +1690,7 @@ member_bands:
   - &id127
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 21.0
     api_count: 6
     api_count_basis: split
     immediate_parent: microsoft
@@ -1703,7 +1703,7 @@ member_bands:
   - &id128
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1716,7 +1716,7 @@ member_bands:
   - &id129
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 22.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -1729,7 +1729,7 @@ member_bands:
   - &id130
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1749,7 +1749,7 @@ member_bands:
     name: GroupMe
     relationship: acquisition
     score_band: thin
-    score_composite: 34.2
+    score_composite: 34.7
     slug: groupme
     source: prose
   - &id132
@@ -1794,7 +1794,7 @@ member_bands:
   - &id135
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 22.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-entra
@@ -1819,8 +1819,8 @@ member_bands:
     source: declared
   - &id137
     acquired: null
-    agent_band: agent-aware
-    agent_score: 5.6
+    agent_band: human-only
+    agent_score: 3.7
     api_count: 6
     api_count_basis: split
     immediate_parent: microsoft
@@ -1845,8 +1845,8 @@ member_bands:
     source: declared
   - &id139
     acquired: null
-    agent_band: agent-aware
-    agent_score: 5.8
+    agent_band: human-only
+    agent_score: 3.9
     api_count: 4
     api_count_basis: split
     immediate_parent: microsoft
@@ -1872,7 +1872,7 @@ member_bands:
   - &id141
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft
@@ -1885,7 +1885,7 @@ member_bands:
   - &id142
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft
@@ -1898,7 +1898,7 @@ member_bands:
   - &id143
     acquired: null
     agent_band: agent-aware
-    agent_score: 28.1
+    agent_score: 26.2
     api_count: 14
     api_count_basis: split
     immediate_parent: microsoft-xbox
@@ -1911,7 +1911,7 @@ member_bands:
   - &id144
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.3
+    agent_score: 22.4
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft
@@ -1943,7 +1943,7 @@ member_bands:
   - &id146
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -1956,7 +1956,7 @@ member_bands:
   - &id147
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -1995,7 +1995,7 @@ member_bands:
   - &id150
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft
@@ -2008,7 +2008,7 @@ member_bands:
   - &id151
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -2021,7 +2021,7 @@ member_bands:
   - &id152
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -2034,7 +2034,7 @@ member_bands:
   - &id153
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft
@@ -2047,7 +2047,7 @@ member_bands:
   - &id154
     acquired: null
     agent_band: human-only
-    agent_score: 5.0
+    agent_score: 3.1
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -2058,14 +2058,14 @@ member_bands:
     slug: microsoft-whiteboard
     source: declared
   - &id155
-    acquired: 2023
+    acquired: null
     agent_band: agent-ready
     agent_score: 30.2
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-xbox
     name: Activision Blizzard
-    relationship: acquisition
+    relationship: product
     score_band: emerging
     score_composite: 21.6
     slug: activision-blizzard
@@ -2086,7 +2086,7 @@ member_bands:
   - &id157
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -2099,7 +2099,7 @@ member_bands:
   - &id158
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -2112,7 +2112,7 @@ member_bands:
   - &id159
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft
@@ -2164,7 +2164,7 @@ member_bands:
   - &id163
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: github
@@ -2274,7 +2274,7 @@ member_bands:
   - &id171
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft
@@ -2431,7 +2431,7 @@ member_bands:
     acquired: null
     agent_band: human-only
     agent_score: 0.0
-    api_count: 1
+    api_count: 2
     api_count_basis: published
     immediate_parent: microsoft
     name: Bing News Search
@@ -2833,11 +2833,11 @@ members:
 members_unrated: []
 name: Microsoft
 overview: 'Microsoft publishes its API surface across 197 provider profiles indexed on the APIs.io network,
-  of which 197 carry a rating. The rated members span 82.8 points, from 82.8 down to 0.0.
+  of which 197 carry a rating. The rated members span 83.3 points, from 83.3 down to 0.0.
 
 
-  Its highest-rated surfaces are GitHub Actions, Microsoft Entra ID (formerly Azure AD), GitHub, Azure
-  DevOps, LinkedIn.'
+  Its highest-rated surfaces are Microsoft Entra ID (formerly Azure AD), GitHub Actions, GitHub, Azure
+  DevOps, Microsoft Azure.'
 parent_provider: microsoft
 permalink: /estates/microsoft/
 slug: microsoft
@@ -2860,14 +2860,14 @@ subfamilies:
     score_band: exemplar
     score_composite: 75.1
     slug: microsoft-azure-cache-for-redis
+  - name: Microsoft Azure API Management
+    score_band: exemplar
+    score_composite: 73.6
+    slug: microsoft-azure-api-management
   - name: Azure Kubernetes Service
     score_band: exemplar
     score_composite: 73.5
     slug: microsoft-azure-kubernetes-service
-  - name: Microsoft Azure API Management
-    score_band: exemplar
-    score_composite: 72.9
-    slug: microsoft-azure-api-management
   - name: Microsoft Azure Cdn
     score_band: exemplar
     score_composite: 72.8
@@ -3012,10 +3012,6 @@ subfamilies:
     score_band: developing
     score_composite: 47.5
     slug: microsoft-azure-search
-  - name: Azure OpenAI Service
-    score_band: developing
-    score_composite: 46.3
-    slug: microsoft-azure-openai
   - name: Azure Database for PostgreSQL
     score_band: developing
     score_composite: 45.6
@@ -3032,6 +3028,10 @@ subfamilies:
     score_band: developing
     score_composite: 45.0
     slug: azure-ai-foundry
+  - name: Azure OpenAI Service
+    score_band: developing
+    score_composite: 44.9
+    slug: microsoft-azure-openai
   - name: Azure Queue Storage
     score_band: developing
     score_composite: 44.3
@@ -3407,7 +3407,7 @@ subfamilies:
   members:
   - name: Microsoft Entra ID (formerly Azure AD)
     score_band: exemplar
-    score_composite: 82.8
+    score_composite: 83.3
     slug: azure-ad
   - name: Microsoft Active Directory
     score_band: strong

@@ -1,5 +1,5 @@
 ---
-api_total: 15
+api_total: 17
 category: Estates
 description: SmartBear is a software company that provides AI-powered tools for API lifecycle management
   including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub
@@ -8,24 +8,24 @@ description: SmartBear is a software company that provides AI-powered tools for 
   manage API definitions, automate lifecycle workflows, and integrate SwaggerHub with CI/CD pipelines
   and third-party services.
 estate_rating:
-  agent_avg: 15.7
+  agent_avg: 15.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 19.0
+  agent_raw: 18.9
   agent_ready: 2
   band: thin
   best: 78.4
-  composite_avg: 34.3
+  composite_avg: 34.4
   composite_band: thin
   composite_raw: 43.1
   developing: 1
   exemplar: 2
-  rating: 26.9
+  rating: 26.8
   scored: 8
-  spread: 66.5
+  spread: 66.0
   strength: 9
   strong: 1
-  worst: 11.9
+  worst: 12.4
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartbear.png
@@ -52,7 +52,7 @@ member_bands:
   - &id002
     acquired: 2023
     agent_band: agent-ready
-    agent_score: 31.5
+    agent_score: 36.2
     api_count: 2
     api_count_basis: published
     immediate_parent: smartbear
@@ -71,8 +71,8 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.6
-    api_count: 3
+    agent_score: 21.7
+    api_count: 5
     api_count_basis: published
     immediate_parent: swagger
     name: Swagger Codegen
@@ -90,7 +90,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: published
     immediate_parent: smartbear
@@ -109,7 +109,7 @@ member_bands:
   - &id005
     acquired: 2024
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: smartbear
@@ -161,7 +161,7 @@ member_bands:
     name: ReadyAPI
     relationship: product
     score_band: emerging
-    score_composite: 11.9
+    score_composite: 12.4
     slug: readyapi
     source: declared
   label: Emerging
@@ -200,7 +200,7 @@ members:
 members_unrated: []
 name: SmartBear
 overview: 'SmartBear publishes its API surface across 9 provider profiles indexed on the APIs.io network,
-  of which 9 carry a rating. The rated members span 66.5 points, from 78.4 down to 11.9.
+  of which 9 carry a rating. The rated members span 66.0 points, from 78.4 down to 12.4.
 
 
   Its highest-rated surfaces are Bugsnag, Stoplight, Swagger Codegen, SwaggerHub, Reflect.'

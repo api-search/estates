@@ -8,7 +8,7 @@ description: Johnson & Johnson is a multinational pharmaceutical and medical dev
   health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked
   in a separate kenvue index.
 estate_rating:
-  agent_avg: 6.6
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -17,7 +17,7 @@ estate_rating:
   best: 11.1
   composite_avg: 14.5
   composite_band: emerging
-  composite_raw: 4.6
+  composite_raw: 4.8
   developing: 0
   exemplar: 0
   rating: 11.3
@@ -65,7 +65,7 @@ member_bands:
     name: Janssen Pharmaceuticals
     relationship: product
     score_band: minimal
-    score_composite: 2.8
+    score_composite: 3.3
     slug: janssen
     source: declared
   - &id003

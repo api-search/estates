@@ -5,7 +5,7 @@ description: Nasdaq is a global technology company serving capital markets and o
   trading, clearing, exchange technology, listing, information, and public company services. Nasdaq Data
   Link offers REST APIs for accessing financial, economic, and alternative data.
 estate_rating:
-  agent_avg: 9.9
+  agent_avg: 9.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.9
@@ -17,7 +17,7 @@ estate_rating:
   composite_raw: 10.7
   developing: 0
   exemplar: 0
-  rating: 14.0
+  rating: 13.9
   scored: 3
   spread: 12.0
   strength: 0

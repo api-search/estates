@@ -6,7 +6,7 @@ description: Bird (formerly MessageBird) is an omnichannel customer communicatio
   than 450,000 developers, Bird provides enterprise-grade connectivity through a global carrier network
   alongside a full customer engagement and marketing automation suite.
 estate_rating:
-  agent_avg: 12.1
+  agent_avg: 11.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 14.7

@@ -1,22 +1,22 @@
 ---
-api_total: 213
+api_total: 237
 category: Estates
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases,
   AI services, SaaS applications, and platform services.
 estate_rating:
-  agent_avg: 15.9
+  agent_avg: 15.3
   agent_band: emerging
   agent_native: 1
-  agent_raw: 16.8
+  agent_raw: 16.1
   agent_ready: 5
   band: emerging
   best: 76.9
-  composite_avg: 29.9
+  composite_avg: 30.0
   composite_band: thin
-  composite_raw: 31.4
+  composite_raw: 31.5
   developing: 14
   exemplar: 3
-  rating: 24.3
+  rating: 24.1
   scored: 31
   spread: 76.9
   strength: 23
@@ -49,7 +49,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 32.5
-    api_count: 59
+    api_count: 80
     api_count_basis: published
     immediate_parent: oracle
     name: Oracle Hospitality
@@ -79,8 +79,21 @@ member_bands:
   items:
   - &id004
     acquired: null
+    agent_band: agent-ready
+    agent_score: 35.9
+    api_count: 3
+    api_count_basis: published
+    immediate_parent: oracle
+    name: Oracle Database
+    relationship: product
+    score_band: developing
+    score_composite: 51.4
+    slug: oracle-database
+    source: declared
+  - &id005
+    acquired: null
     agent_band: agent-aware
-    agent_score: 27.3
+    agent_score: 25.4
     api_count: 21
     api_count_basis: published
     immediate_parent: oracle
@@ -90,11 +103,11 @@ member_bands:
     score_composite: 51.4
     slug: peoplesoft
     source: declared
-  - &id005
+  - &id006
     acquired: null
     agent_band: agent-ready
     agent_score: 31.1
-    api_count: 3
+    api_count: 4
     api_count_basis: published
     immediate_parent: oracle
     name: Oracle Eloqua
@@ -103,23 +116,23 @@ member_bands:
     score_composite: 51.1
     slug: eloqua
     source: declared
-  - &id006
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 35.9
-    api_count: 3
+  - &id007
+    acquired: 2014
+    agent_band: agent-aware
+    agent_score: 26.1
+    api_count: 4
     api_count_basis: published
     immediate_parent: oracle
-    name: Oracle Database
-    relationship: product
+    name: Responsys
+    relationship: acquisition
     score_band: developing
-    score_composite: 50.8
-    slug: oracle-database
+    score_composite: 49.7
+    slug: responsys
     source: declared
-  - &id007
+  - &id008
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.5
+    agent_score: 23.7
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -128,19 +141,6 @@ member_bands:
     score_band: developing
     score_composite: 49.6
     slug: oracle-essbase
-    source: declared
-  - &id008
-    acquired: 2014
-    agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 2
-    api_count_basis: published
-    immediate_parent: oracle
-    name: Responsys
-    relationship: acquisition
-    score_band: developing
-    score_composite: 49.2
-    slug: responsys
     source: declared
   - &id009
     acquired: null
@@ -169,9 +169,22 @@ member_bands:
     slug: oracle-health-data-intelligence
     source: declared
   - &id011
+    acquired: 2022
+    agent_band: agent-ready
+    agent_score: 28.6
+    api_count: 50
+    api_count_basis: published
+    immediate_parent: oracle
+    name: Oracle Health (Cerner)
+    relationship: acquisition
+    score_band: developing
+    score_composite: 46.0
+    slug: oracle-health
+    source: declared
+  - &id012
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 7
     api_count_basis: published
     immediate_parent: oracle
@@ -181,10 +194,10 @@ member_bands:
     score_composite: 45.5
     slug: oracle-fusion
     source: declared
-  - &id012
+  - &id013
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 22.9
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -194,10 +207,10 @@ member_bands:
     score_composite: 44.9
     slug: oracle-primavera
     source: declared
-  - &id013
+  - &id014
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.0
+    agent_score: 22.1
     api_count: 20
     api_count_basis: published
     immediate_parent: oracle
@@ -207,7 +220,7 @@ member_bands:
     score_composite: 44.8
     slug: oracle-weblogic
     source: declared
-  - &id014
+  - &id015
     acquired: null
     agent_band: agent-aware
     agent_score: 27.2
@@ -220,23 +233,10 @@ member_bands:
     score_composite: 43.9
     slug: apiary
     source: prose
-  - &id015
-    acquired: 2022
-    agent_band: agent-ready
-    agent_score: 33.5
-    api_count: 50
-    api_count_basis: published
-    immediate_parent: oracle
-    name: Oracle Health (Cerner)
-    relationship: acquisition
-    score_band: developing
-    score_composite: 43.0
-    slug: oracle-health
-    source: declared
   - &id016
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.7
+    agent_score: 20.8
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -268,7 +268,7 @@ member_bands:
   - &id018
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -281,7 +281,7 @@ member_bands:
   - &id019
     acquired: null
     agent_band: agent-aware
-    agent_score: 18.0
+    agent_score: 16.1
     api_count: 17
     api_count_basis: split
     immediate_parent: oracle
@@ -515,8 +515,8 @@ overview: 'Oracle publishes its API surface across 32 provider profiles indexed 
   of which 32 carry a rating. The rated members span 76.9 points, from 76.9 down to 0.0.
 
 
-  Its highest-rated surfaces are Oracle Cloud Infrastructure, Oracle Hospitality, Oracle Siebel, PeopleSoft,
-  Oracle Eloqua.'
+  Its highest-rated surfaces are Oracle Cloud Infrastructure, Oracle Hospitality, Oracle Siebel, Oracle
+  Database, PeopleSoft.'
 parent_provider: oracle
 permalink: /estates/oracle/
 slug: oracle

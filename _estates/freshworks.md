@@ -4,10 +4,10 @@ category: Estates
 description: Freshworks is a software company that develops cloud-based business software including customer
   support, IT service management, sales force automation, marketing automation, and HR applications.
 estate_rating:
-  agent_avg: 17.2
+  agent_avg: 16.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.0
+  agent_raw: 21.7
   agent_ready: 2
   band: emerging
   best: 66.4
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 30.7
   developing: 0
   exemplar: 0
-  rating: 22.7
+  rating: 22.6
   scored: 7
   spread: 66.4
   strength: 2
@@ -93,7 +93,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.5
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: freshworks

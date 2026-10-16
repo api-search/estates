@@ -11,7 +11,7 @@ description: 'CrowdStrike is a US cybersecurity company and Fortune 1000 constit
   for building Foundry apps. CrowdStrike does not publish an OpenAPI document, and API access requires
   a Falcon subscription — the API itself is included in every paid bundle.'
 estate_rating:
-  agent_avg: 8.2
+  agent_avg: 8.0
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.5
@@ -23,7 +23,7 @@ estate_rating:
   composite_raw: 22.5
   developing: 0
   exemplar: 0
-  rating: 15.9
+  rating: 15.8
   scored: 2
   spread: 14.8
   strength: 0

@@ -4,14 +4,14 @@ category: Estates
 description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions
   including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
 estate_rating:
-  agent_avg: 7.0
+  agent_avg: 6.8
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.5
+  agent_raw: 5.4
   agent_ready: 1
   band: emerging
   best: 57.2
-  composite_avg: 14.9
+  composite_avg: 15.0
   composite_band: emerging
   composite_raw: 12.7
   developing: 0
@@ -54,7 +54,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: published
     immediate_parent: vmware
@@ -112,7 +112,7 @@ member_bands:
     name: AVI Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.0
+    score_composite: 7.5
     slug: avi-networks
     source: declared
   - &id006

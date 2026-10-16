@@ -7,16 +7,16 @@ description: Tripadvisor is the world's largest travel guidance platform, helpin
   and 29 languages. Tripadvisor provides APIs for content integration, hotel connectivity, and restaurant
   reservations.
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 8.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.1
   agent_ready: 1
   band: emerging
   best: 46.5
-  composite_avg: 15.3
+  composite_avg: 15.4
   composite_band: emerging
-  composite_raw: 10.3
+  composite_raw: 10.4
   developing: 1
   exemplar: 0
   rating: 12.5
@@ -64,7 +64,7 @@ member_bands:
     name: Oyster.com (TripAdvisor)
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.4
+    score_composite: 3.8
     slug: oystercom-tripadvisor
     source: prose
   - &id003

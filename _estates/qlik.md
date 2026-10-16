@@ -3,19 +3,19 @@ api_total: 130
 category: Estates
 description: APIs for Qlik's analytics and data integration platform.
 estate_rating:
-  agent_avg: 17.8
+  agent_avg: 17.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 23.1
+  agent_raw: 22.3
   agent_ready: 3
   band: thin
   best: 72.5
-  composite_avg: 31.7
+  composite_avg: 31.8
   composite_band: thin
-  composite_raw: 39.9
+  composite_raw: 40.0
   developing: 1
   exemplar: 1
-  rating: 26.1
+  rating: 26.0
   scored: 7
   spread: 56.6
   strength: 6
@@ -60,7 +60,7 @@ member_bands:
     name: Talend
     relationship: product
     score_band: strong
-    score_composite: 63.0
+    score_composite: 64.1
     slug: talend
     source: parent-company-property
   label: Strong
@@ -91,7 +91,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.3
+    agent_score: 31.4
     api_count: 6
     api_count_basis: published
     immediate_parent: qlik
@@ -104,7 +104,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 21.0
     api_count: 13
     api_count_basis: split
     immediate_parent: qlik
@@ -136,7 +136,7 @@ member_bands:
   - &id007
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 5
     api_count_basis: split
     immediate_parent: qlik
@@ -209,5 +209,8 @@ tags:
 - Access Control
 - Machine Learning
 - Artificial Intelligence
+- Analytics
+- Data Integration
+- Cloud
 title: Qlik
 ---

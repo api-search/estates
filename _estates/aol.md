@@ -11,10 +11,10 @@ description: AOL is a consumer internet media and communications brand — AOL.c
   for that identity stack is hosted by Yahoo Inc., which runs a sibling deployment of the same Oath-era
   OAuth 2.0 / OIDC platform.
 estate_rating:
-  agent_avg: 7.1
+  agent_avg: 6.7
   agent_band: minimal
   agent_native: 0
-  agent_raw: 1.4
+  agent_raw: 0.8
   agent_ready: 0
   band: emerging
   best: 21.8
@@ -23,7 +23,7 @@ estate_rating:
   composite_raw: 7.3
   developing: 0
   exemplar: 0
-  rating: 12.1
+  rating: 11.9
   scored: 3
   spread: 21.8
   strength: 0
@@ -42,7 +42,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: human-only
-    agent_score: 4.3
+    agent_score: 2.4
     api_count: 1
     api_count_basis: published
     immediate_parent: aol

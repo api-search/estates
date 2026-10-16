@@ -10,16 +10,16 @@ description: American Express is a globally integrated payments company and card
   Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated
   for registered issuers, merchants, acquirers, and partners rather than open self-service.
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.6
   agent_ready: 0
   band: emerging
   best: 14.4
-  composite_avg: 16.3
+  composite_avg: 16.4
   composite_band: emerging
-  composite_raw: 9.6
+  composite_raw: 9.7
   developing: 0
   exemplar: 0
   rating: 12.5
@@ -67,7 +67,7 @@ member_bands:
     name: Amex Bank of Canada
     relationship: product
     score_band: minimal
-    score_composite: 8.6
+    score_composite: 9.0
     slug: amex-bank-of-canada
     source: declared
   - &id003

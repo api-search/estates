@@ -6,7 +6,7 @@ description: Facebook is Meta's social networking platform providing APIs for de
   social graph. Meta also provides APIs for marketing and advertising, Instagram content management, Messenger
   bots, Threads publishing, and WhatsApp business messaging.
 estate_rating:
-  agent_avg: 6.2
+  agent_avg: 6.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.5
@@ -15,7 +15,7 @@ estate_rating:
   best: 37.3
   composite_avg: 13.4
   composite_band: emerging
-  composite_raw: 9.0
+  composite_raw: 9.1
   developing: 0
   exemplar: 0
   rating: 10.5
@@ -63,7 +63,7 @@ member_bands:
     name: Wit.AI
     relationship: acquisition
     score_band: emerging
-    score_composite: 23.7
+    score_composite: 24.2
     slug: witai
     source: prose
   label: Emerging

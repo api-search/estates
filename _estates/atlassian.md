@@ -1,25 +1,25 @@
 ---
-api_total: 27
+api_total: 30
 category: Estates
 description: Atlassian is a software company that develops collaboration, productivity, and project management
   tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline
   workflows, and support project tracking across a wide range of industries.
 estate_rating:
-  agent_avg: 22.3
+  agent_avg: 22.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 28.2
+  agent_raw: 28.1
   agent_ready: 5
   band: thin
-  best: 76.3
-  composite_avg: 36.2
+  best: 76.8
+  composite_avg: 36.3
   composite_band: thin
-  composite_raw: 44.2
+  composite_raw: 44.3
   developing: 2
   exemplar: 4
   rating: 30.6
   scored: 10
-  spread: 76.3
+  spread: 76.8
   strength: 14
   strong: 0
   worst: 0.0
@@ -43,26 +43,26 @@ member_bands:
     name: Jira
     relationship: product
     score_band: exemplar
-    score_composite: 76.3
+    score_composite: 76.8
     slug: jira
     source: declared
   - &id002
     acquired: null
     agent_band: agent-ready
     agent_score: 48.0
-    api_count: 2
+    api_count: 3
     api_count_basis: published
     immediate_parent: atlassian
     name: Atlassian Compass
     relationship: product
     score_band: exemplar
-    score_composite: 72.6
+    score_composite: 73.1
     slug: atlassian-compass
     source: declared
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.2
+    agent_score: 32.3
     api_count: 1
     api_count_basis: published
     immediate_parent: atlassian
@@ -76,7 +76,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 54.4
-    api_count: 3
+    api_count: 5
     api_count_basis: published
     immediate_parent: atlassian
     name: Confluence
@@ -205,7 +205,7 @@ members:
 members_unrated: []
 name: Atlassian
 overview: 'Atlassian publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 76.3 points, from 76.3 down to 0.0.
+  of which 10 carry a rating. The rated members span 76.8 points, from 76.8 down to 0.0.
 
 
   Its highest-rated surfaces are Jira, Atlassian Compass, Bitbucket, Confluence, OpsGenie.'
