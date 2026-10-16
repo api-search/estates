@@ -6,21 +6,21 @@ description: WSO2 API Manager is an open-source API management platform supporti
   agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forrester
   Wave API Management Q3 2024 report.
 estate_rating:
-  agent_avg: 19.4
+  agent_avg: 20.1
   agent_band: emerging
   agent_native: 1
-  agent_raw: 34.2
+  agent_raw: 36.2
   agent_ready: 1
   band: thin
-  best: 66.9
-  composite_avg: 34.1
+  best: 68.8
+  composite_avg: 34.4
   composite_band: thin
-  composite_raw: 57.0
+  composite_raw: 57.7
   developing: 2
   exemplar: 1
-  rating: 28.2
+  rating: 28.7
   scored: 3
-  spread: 16.6
+  spread: 18.5
   strength: 5
   strong: 0
   worst: 50.3
@@ -37,14 +37,14 @@ member_bands:
   - &id001
     acquired: 2025
     agent_band: agent-ready
-    agent_score: 40.0
+    agent_score: 46.0
     api_count: 2
     api_count_basis: published
     immediate_parent: wso2
     name: Moesif
     relationship: acquisition
     score_band: exemplar
-    score_composite: 66.9
+    score_composite: 68.8
     slug: moesif
     source: declared
   label: Exemplar
@@ -90,7 +90,7 @@ members:
 members_unrated: []
 name: WSO2
 overview: 'WSO2 publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 16.6 points, from 66.9 down to 50.3.
+  which 3 carry a rating. The rated members span 18.5 points, from 68.8 down to 50.3.
 
 
   Its highest-rated surfaces are Moesif, Ballerina, Choreo.'

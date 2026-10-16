@@ -7,14 +7,14 @@ description: LexisNexis is a global provider of legal, regulatory, and business 
   applications. Most LexisNexis APIs are partner-access only and require contractual agreements before
   credentials and OpenAPI specifications are released.
 estate_rating:
-  agent_avg: 14.6
+  agent_avg: 14.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.7
+  agent_raw: 18.3
   agent_ready: 1
   band: emerging
   best: 51.7
-  composite_avg: 24.5
+  composite_avg: 24.6
   composite_band: emerging
   composite_raw: 28.7
   developing: 1
@@ -89,7 +89,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 15.5
+    agent_score: 13.6
     api_count: 1
     api_count_basis: published
     immediate_parent: lexisnexis

@@ -10,12 +10,12 @@ estate_rating:
   agent_ready: 3
   band: thin
   best: 72.5
-  composite_avg: 31.7
+  composite_avg: 31.9
   composite_band: thin
-  composite_raw: 39.9
+  composite_raw: 40.0
   developing: 1
   exemplar: 1
-  rating: 26.1
+  rating: 26.3
   scored: 7
   spread: 56.6
   strength: 6
@@ -60,7 +60,7 @@ member_bands:
     name: Talend
     relationship: product
     score_band: strong
-    score_composite: 63.0
+    score_composite: 64.1
     slug: talend
     source: parent-company-property
   label: Strong

@@ -8,14 +8,14 @@ description: A global information and insights company providing credit reportin
   2021 — publishes an open, MIT-licensed OpenAPI for the STIR/SHAKEN call authentication and verification
   service.
 estate_rating:
-  agent_avg: 6.6
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 10.0
-  composite_avg: 14.8
+  composite_avg: 14.9
   composite_band: emerging
   composite_raw: 5.6
   developing: 0

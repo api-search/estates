@@ -7,7 +7,7 @@ description: LinkedIn is a professional networking platform providing APIs for c
   sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data
   portability.
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 7.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.7

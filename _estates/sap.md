@@ -3,23 +3,23 @@ api_total: 92
 category: Estates
 description: Collection of SAP's enterprise APIs for business applications and cloud services.
 estate_rating:
-  agent_avg: 19.4
+  agent_avg: 19.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.2
+  agent_raw: 21.0
   agent_ready: 7
   band: thin
-  best: 66.0
-  composite_avg: 31.8
+  best: 66.5
+  composite_avg: 31.9
   composite_band: thin
   composite_raw: 34.2
   developing: 11
-  exemplar: 0
+  exemplar: 1
   rating: 26.8
   scored: 24
-  spread: 66.0
-  strength: 13
-  strong: 1
+  spread: 66.5
+  strength: 14
+  strong: 0
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -27,8 +27,8 @@ image: ''
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
+- band: exemplar
+  blurb: Complete, well-documented, and agent-ready
   count: 1
   items:
   - &id001
@@ -40,11 +40,11 @@ member_bands:
     immediate_parent: sap
     name: SAP Emarsys
     relationship: product
-    score_band: strong
-    score_composite: 66.0
+    score_band: exemplar
+    score_composite: 66.5
     slug: emarsys
     source: parent-company-property
-  label: Strong
+  label: Exemplar
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
@@ -144,7 +144,7 @@ member_bands:
   - &id009
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.5
+    agent_score: 31.6
     api_count: 5
     api_count_basis: published
     immediate_parent: sap
@@ -170,7 +170,7 @@ member_bands:
   - &id011
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.7
+    agent_score: 20.8
     api_count: 1
     api_count_basis: published
     immediate_parent: sap
@@ -267,7 +267,7 @@ member_bands:
   - &id018
     acquired: null
     agent_band: agent-aware
-    agent_score: 15.5
+    agent_score: 13.6
     api_count: 7
     api_count_basis: split
     immediate_parent: sap
@@ -399,7 +399,7 @@ members:
 members_unrated: []
 name: SAP
 overview: 'SAP publishes its API surface across 24 provider profiles indexed on the APIs.io network, of
-  which 24 carry a rating. The rated members span 66.0 points, from 66.0 down to 0.0.
+  which 24 carry a rating. The rated members span 66.5 points, from 66.5 down to 0.0.
 
 
   Its highest-rated surfaces are SAP Emarsys, SAP BRIM (Billing and Revenue Innovation Management), SAP

@@ -9,7 +9,7 @@ estate_rating:
   agent_raw: 19.9
   agent_ready: 45
   band: thin
-  best: 82.8
+  best: 83.3
   composite_avg: 40.2
   composite_band: developing
   composite_raw: 40.7
@@ -17,7 +17,7 @@ estate_rating:
   exemplar: 21
   rating: 32.0
   scored: 191
-  spread: 82.8
+  spread: 83.3
   strength: 177
   strong: 31
   worst: 0.0
@@ -34,6 +34,19 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
+    agent_score: 56.3
+    api_count: 9
+    api_count_basis: published
+    immediate_parent: microsoft-entra
+    name: Microsoft Entra ID (formerly Azure AD)
+    relationship: product
+    score_band: exemplar
+    score_composite: 83.3
+    slug: azure-ad
+    source: declared
+  - &id002
+    acquired: null
+    agent_band: agent-ready
     agent_score: 50.0
     api_count: 1
     api_count_basis: published
@@ -44,30 +57,17 @@ member_bands:
     score_composite: 82.8
     slug: github-actions
     source: declared
-  - &id002
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 56.3
-    api_count: 9
-    api_count_basis: published
-    immediate_parent: microsoft-entra
-    name: Microsoft Entra ID (formerly Azure AD)
-    relationship: product
-    score_band: exemplar
-    score_composite: 82.8
-    slug: azure-ad
-    source: declared
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 59.9
+    agent_score: 62.2
     api_count: 38
     api_count_basis: published
     immediate_parent: microsoft
     name: GitHub
     relationship: product
     score_band: exemplar
-    score_composite: 80.3
+    score_composite: 82.7
     slug: github
     source: declared
   - &id004
@@ -86,6 +86,19 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-ready
+    agent_score: 48.4
+    api_count: 697
+    api_count_basis: published
+    immediate_parent: microsoft
+    name: Microsoft Azure
+    relationship: product
+    score_band: exemplar
+    score_composite: 76.7
+    slug: microsoft-azure
+    source: declared
+  - &id006
+    acquired: null
+    agent_band: agent-ready
     agent_score: 41.9
     api_count: 17
     api_count_basis: published
@@ -95,19 +108,6 @@ member_bands:
     score_band: exemplar
     score_composite: 76.3
     slug: linkedin
-    source: declared
-  - &id006
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 48.4
-    api_count: 697
-    api_count_basis: published
-    immediate_parent: microsoft
-    name: Microsoft Azure
-    relationship: product
-    score_band: exemplar
-    score_composite: 76.2
-    slug: microsoft-azure
     source: declared
   - &id007
     acquired: null
@@ -150,19 +150,6 @@ member_bands:
     source: declared
   - &id010
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.3
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Microsoft Azure API Management
-    relationship: product
-    score_band: exemplar
-    score_composite: 72.9
-    slug: microsoft-azure-api-management
-    source: declared
-  - &id011
-    acquired: null
     agent_band: agent-ready
     agent_score: 35.8
     api_count: 2
@@ -174,7 +161,7 @@ member_bands:
     score_composite: 72.8
     slug: microsoft-azure-cdn
     source: declared
-  - &id012
+  - &id011
     acquired: null
     agent_band: agent-ready
     agent_score: 34.1
@@ -187,7 +174,7 @@ member_bands:
     score_composite: 72.0
     slug: microsoft-azure-data-factory
     source: declared
-  - &id013
+  - &id012
     acquired: null
     agent_band: agent-ready
     agent_score: 44.9
@@ -200,7 +187,7 @@ member_bands:
     score_composite: 71.1
     slug: power-platform
     source: declared
-  - &id014
+  - &id013
     acquired: null
     agent_band: agent-ready
     agent_score: 39.2
@@ -212,6 +199,19 @@ member_bands:
     score_band: exemplar
     score_composite: 70.7
     slug: microsoft-dynamics-365-sales
+    source: declared
+  - &id014
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.8
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: microsoft-azure
+    name: Microsoft Azure API Management
+    relationship: product
+    score_band: exemplar
+    score_composite: 70.4
+    slug: microsoft-azure-api-management
     source: declared
   - &id015
     acquired: null
@@ -981,6 +981,19 @@ member_bands:
     source: declared
   - &id073
     acquired: null
+    agent_band: agent-ready
+    agent_score: 28.7
+    api_count: 17
+    api_count_basis: published
+    immediate_parent: microsoft
+    name: Microsoft Dynamics 365
+    relationship: product
+    score_band: developing
+    score_composite: 48.8
+    slug: microsoft-dynamics-365
+    source: declared
+  - &id074
+    acquired: null
     agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
@@ -992,7 +1005,7 @@ member_bands:
     score_composite: 48.7
     slug: azure-test-labs
     source: declared
-  - &id074
+  - &id075
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -1004,19 +1017,6 @@ member_bands:
     score_band: developing
     score_composite: 48.4
     slug: microsoft-azure-load-balancer
-    source: declared
-  - &id075
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 28.7
-    api_count: 17
-    api_count_basis: published
-    immediate_parent: microsoft
-    name: Microsoft Dynamics 365
-    relationship: product
-    score_band: developing
-    score_composite: 48.2
-    slug: microsoft-dynamics-365
     source: declared
   - &id076
     acquired: null
@@ -1080,7 +1080,7 @@ member_bands:
     name: Azure OpenAI Service
     relationship: product
     score_band: developing
-    score_composite: 46.3
+    score_composite: 46.5
     slug: microsoft-azure-openai
     source: declared
   - &id081
@@ -1112,7 +1112,7 @@ member_bands:
   - &id083
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 5
     api_count_basis: published
     immediate_parent: microsoft-xbox
@@ -1898,7 +1898,7 @@ member_bands:
   - &id143
     acquired: null
     agent_band: agent-aware
-    agent_score: 28.1
+    agent_score: 26.2
     api_count: 14
     api_count_basis: split
     immediate_parent: microsoft-xbox
@@ -2833,11 +2833,11 @@ members:
 members_unrated: []
 name: Microsoft
 overview: 'Microsoft publishes its API surface across 197 provider profiles indexed on the APIs.io network,
-  of which 197 carry a rating. The rated members span 82.8 points, from 82.8 down to 0.0.
+  of which 197 carry a rating. The rated members span 83.3 points, from 83.3 down to 0.0.
 
 
-  Its highest-rated surfaces are GitHub Actions, Microsoft Entra ID (formerly Azure AD), GitHub, Azure
-  DevOps, LinkedIn.'
+  Its highest-rated surfaces are Microsoft Entra ID (formerly Azure AD), GitHub Actions, GitHub, Azure
+  DevOps, Microsoft Azure.'
 parent_provider: microsoft
 permalink: /estates/microsoft/
 slug: microsoft
@@ -2864,10 +2864,6 @@ subfamilies:
     score_band: exemplar
     score_composite: 73.5
     slug: microsoft-azure-kubernetes-service
-  - name: Microsoft Azure API Management
-    score_band: exemplar
-    score_composite: 72.9
-    slug: microsoft-azure-api-management
   - name: Microsoft Azure Cdn
     score_band: exemplar
     score_composite: 72.8
@@ -2876,6 +2872,10 @@ subfamilies:
     score_band: exemplar
     score_composite: 72.0
     slug: microsoft-azure-data-factory
+  - name: Microsoft Azure API Management
+    score_band: exemplar
+    score_composite: 70.4
+    slug: microsoft-azure-api-management
   - name: Microsoft Azure Functions
     score_band: exemplar
     score_composite: 69.4
@@ -3014,7 +3014,7 @@ subfamilies:
     slug: microsoft-azure-search
   - name: Azure OpenAI Service
     score_band: developing
-    score_composite: 46.3
+    score_composite: 46.5
     slug: microsoft-azure-openai
   - name: Azure Database for PostgreSQL
     score_band: developing
@@ -3407,7 +3407,7 @@ subfamilies:
   members:
   - name: Microsoft Entra ID (formerly Azure AD)
     score_band: exemplar
-    score_composite: 82.8
+    score_composite: 83.3
     slug: azure-ad
   - name: Microsoft Active Directory
     score_band: strong

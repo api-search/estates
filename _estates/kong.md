@@ -9,21 +9,21 @@ description: Kong is the AI Connectivity Company. Its platform spans Kong Gatewa
   and Kong Insomnia (API design and testing). Together they unify governance across APIs, real-time event
   streams, LLM calls, MCP tools, and agent-to-agent communication for the agentic era.
 estate_rating:
-  agent_avg: 12.4
+  agent_avg: 11.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.5
+  agent_raw: 14.4
   agent_ready: 0
   band: emerging
-  best: 53.9
-  composite_avg: 28.9
+  best: 50.9
+  composite_avg: 28.6
   composite_band: thin
-  composite_raw: 43.1
+  composite_raw: 42.1
   developing: 1
   exemplar: 0
-  rating: 22.3
+  rating: 21.9
   scored: 3
-  spread: 16.2
+  spread: 13.2
   strength: 1
   strong: 0
   worst: 37.7
@@ -40,14 +40,14 @@ member_bands:
   - &id001
     acquired: 2019
     agent_band: agent-aware
-    agent_score: 19.5
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: kong
     name: Insomnia
     relationship: acquisition
     score_band: developing
-    score_composite: 53.9
+    score_composite: 50.9
     slug: insomnia
     source: declared
   label: Developing
@@ -72,7 +72,7 @@ member_bands:
   - &id003
     acquired: 2025
     agent_band: agent-aware
-    agent_score: 21.5
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: kong
@@ -93,7 +93,7 @@ members:
 members_unrated: []
 name: Kong
 overview: 'Kong publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 16.2 points, from 53.9 down to 37.7.
+  which 3 carry a rating. The rated members span 13.2 points, from 50.9 down to 37.7.
 
 
   Its highest-rated surfaces are Insomnia, Kong AI Gateway, OpenMeter.'

@@ -4,23 +4,23 @@ category: Estates
 description: Online payment processing for internet businesses. Stripe is a suite of payment APIs that
   powers commerce for online businesses of all sizes.
 estate_rating:
-  agent_avg: 16.7
+  agent_avg: 16.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.9
+  agent_raw: 22.2
   agent_ready: 2
   band: emerging
-  best: 65.9
-  composite_avg: 29.8
+  best: 66.5
+  composite_avg: 29.9
   composite_band: thin
-  composite_raw: 39.2
+  composite_raw: 39.3
   developing: 2
-  exemplar: 0
-  rating: 24.6
+  exemplar: 1
+  rating: 24.5
   scored: 5
-  spread: 62.9
-  strength: 4
-  strong: 1
+  spread: 63.5
+  strength: 5
+  strong: 0
   worst: 3.0
 estate_root: null
 estate_root_name: null
@@ -28,24 +28,24 @@ image: https://stripe.com/img/about/logos/logos/blue.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
+- band: exemplar
+  blurb: Complete, well-documented, and agent-ready
   count: 1
   items:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.1
+    agent_score: 23.2
     api_count: 14
     api_count_basis: published
     immediate_parent: stripe
     name: Paystack
     relationship: product
-    score_band: strong
-    score_composite: 65.9
+    score_band: exemplar
+    score_composite: 66.5
     slug: paystack
     source: parent-company-property
-  label: Strong
+  label: Exemplar
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
@@ -54,7 +54,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.0
+    agent_score: 22.1
     api_count: 1
     api_count_basis: published
     immediate_parent: stripe
@@ -128,7 +128,7 @@ members:
 members_unrated: []
 name: Stripe
 overview: 'Stripe publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 62.9 points, from 65.9 down to 3.0.
+  of which 5 carry a rating. The rated members span 63.5 points, from 66.5 down to 3.0.
 
 
   Its highest-rated surfaces are Paystack, TaxJar, Bridge, Aqueduct, BlueYard.'

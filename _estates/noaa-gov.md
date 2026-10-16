@@ -14,14 +14,14 @@ description: The National Oceanic and Atmospheric Administration (NOAA) is the U
   Data Buoy Center (NDBC), and bulk forecast model output (GFS, GEFS, HRRR, GOES) through the NOAA Open
   Data Dissemination (NODD) program on AWS, GCP, and Azure.
 estate_rating:
-  agent_avg: 13.0
+  agent_avg: 12.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 17.1
   agent_ready: 0
   band: emerging
   best: 36.8
-  composite_avg: 22.7
+  composite_avg: 22.8
   composite_band: emerging
   composite_raw: 26.7
   developing: 0

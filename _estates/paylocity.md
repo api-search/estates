@@ -7,19 +7,19 @@ description: Paylocity is a cloud-based human capital management (HCM) and payro
   self-service tools. The Paylocity API uses OAuth 2.0 client credentials over api.paylocity.com to expose
   employee, payroll, deduction, earning, and onboarding data for partner integrations and customer automations.
 estate_rating:
-  agent_avg: 10.1
-  agent_band: emerging
+  agent_avg: 9.8
+  agent_band: minimal
   agent_native: 0
-  agent_raw: 9.4
+  agent_raw: 8.8
   agent_ready: 0
   band: emerging
   best: 38.7
-  composite_avg: 19.7
+  composite_avg: 19.8
   composite_band: emerging
   composite_raw: 18.7
   developing: 0
   exemplar: 0
-  rating: 15.9
+  rating: 15.8
   scored: 3
   spread: 35.1
   strength: 0
@@ -57,7 +57,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 9
     api_count_basis: split
     immediate_parent: paylocity

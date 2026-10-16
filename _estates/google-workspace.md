@@ -10,7 +10,7 @@ estate_rating:
   agent_raw: 20.3
   agent_ready: 26
   band: thin
-  best: 72.9
+  best: 77.9
   composite_avg: 37.5
   composite_band: thin
   composite_raw: 38.0
@@ -18,7 +18,7 @@ estate_rating:
   exemplar: 8
   rating: 30.5
   scored: 170
-  spread: 72.9
+  spread: 77.9
   strength: 138
   strong: 15
   worst: 0.0
@@ -35,6 +35,19 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
+    agent_score: 46.0
+    api_count: 9
+    api_count_basis: published
+    immediate_parent: google-workspace
+    name: Google
+    relationship: product
+    score_band: exemplar
+    score_composite: 77.9
+    slug: google
+    source: prose
+  - &id002
+    acquired: null
+    agent_band: agent-ready
     agent_score: 41.8
     api_count: 2
     api_count_basis: published
@@ -42,48 +55,35 @@ member_bands:
     name: Google Ads
     relationship: product
     score_band: exemplar
-    score_composite: 72.9
+    score_composite: 73.4
     slug: google-ads
     source: declared
-  - &id002
+  - &id003
     acquired: 2016
     agent_band: agent-ready
-    agent_score: 31.4
+    agent_score: 33.7
     api_count: 5
     api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Apigee
     relationship: acquisition
     score_band: exemplar
-    score_composite: 70.8
+    score_composite: 73.1
     slug: apigee
     source: declared
-  - &id003
+  - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 39.5
+    agent_score: 40.6
     api_count: 6
     api_count_basis: published
     immediate_parent: google
     name: Google Analytics
     relationship: product
     score_band: exemplar
-    score_composite: 70.2
+    score_composite: 71.6
     slug: google-analytics
     source: declared
-  - &id004
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 44.1
-    api_count: 9
-    api_count_basis: published
-    immediate_parent: google-workspace
-    name: Google
-    relationship: product
-    score_band: exemplar
-    score_composite: 70.1
-    slug: google
-    source: prose
   - &id005
     acquired: null
     agent_band: agent-ready
@@ -697,6 +697,19 @@ member_bands:
   - &id051
     acquired: null
     agent_band: agent-aware
+    agent_score: 22.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Custom Search
+    relationship: product
+    score_band: developing
+    score_composite: 47.0
+    slug: google-custom-search
+    source: declared
+  - &id052
+    acquired: null
+    agent_band: agent-aware
     agent_score: 24.8
     api_count: 1
     api_count_basis: published
@@ -707,7 +720,7 @@ member_bands:
     score_composite: 47.0
     slug: google-distributed-cloud
     source: declared
-  - &id052
+  - &id053
     acquired: null
     agent_band: agent-ready
     agent_score: 39.6
@@ -720,7 +733,7 @@ member_bands:
     score_composite: 47.0
     slug: google-drive
     source: declared
-  - &id053
+  - &id054
     acquired: null
     agent_band: agent-aware
     agent_score: 22.9
@@ -733,7 +746,7 @@ member_bands:
     score_composite: 46.6
     slug: google-fonts
     source: declared
-  - &id054
+  - &id055
     acquired: null
     agent_band: agent-aware
     agent_score: 24.8
@@ -745,19 +758,6 @@ member_bands:
     score_band: developing
     score_composite: 46.5
     slug: google-cloud-deploy
-    source: declared
-  - &id055
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 22.9
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: google
-    name: Google Custom Search
-    relationship: product
-    score_band: developing
-    score_composite: 46.4
-    slug: google-custom-search
     source: declared
   - &id056
     acquired: null
@@ -1879,7 +1879,7 @@ member_bands:
   - &id141
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 5
     api_count_basis: split
     immediate_parent: google
@@ -2498,10 +2498,10 @@ members:
 members_unrated: []
 name: Google Workspace
 overview: 'Google Workspace publishes its API surface across 173 provider profiles indexed on the APIs.io
-  network, of which 173 carry a rating. The rated members span 72.9 points, from 72.9 down to 0.0.
+  network, of which 173 carry a rating. The rated members span 77.9 points, from 77.9 down to 0.0.
 
 
-  Its highest-rated surfaces are Google Ads, Apigee, Google Analytics, Google, Google Search Console.'
+  Its highest-rated surfaces are Google, Google Ads, Apigee, Google Analytics, Google Search Console.'
 parent_provider: google-workspace
 permalink: /estates/google-workspace/
 slug: google-workspace
@@ -2512,22 +2512,22 @@ subfamilies:
 - has_page: false
   member_count: 173
   members:
+  - name: Google
+    score_band: exemplar
+    score_composite: 77.9
+    slug: google
   - name: Google Ads
     score_band: exemplar
-    score_composite: 72.9
+    score_composite: 73.4
     slug: google-ads
   - name: Apigee
     score_band: exemplar
-    score_composite: 70.8
+    score_composite: 73.1
     slug: apigee
   - name: Google Analytics
     score_band: exemplar
-    score_composite: 70.2
+    score_composite: 71.6
     slug: google-analytics
-  - name: Google
-    score_band: exemplar
-    score_composite: 70.1
-    slug: google
   - name: Google Search Console
     score_band: exemplar
     score_composite: 68.7
@@ -2712,6 +2712,10 @@ subfamilies:
     score_band: developing
     score_composite: 47.0
     slug: google-cloud-kms
+  - name: Google Custom Search
+    score_band: developing
+    score_composite: 47.0
+    slug: google-custom-search
   - name: Google Distributed Cloud
     score_band: developing
     score_composite: 47.0
@@ -2728,10 +2732,6 @@ subfamilies:
     score_band: developing
     score_composite: 46.5
     slug: google-cloud-deploy
-  - name: Google Custom Search
-    score_band: developing
-    score_composite: 46.4
-    slug: google-custom-search
   - name: Google Calendar
     score_band: developing
     score_composite: 46.3

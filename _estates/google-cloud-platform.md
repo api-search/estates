@@ -4,21 +4,21 @@ category: Estates
 description: Google Cloud Platform enables developers to build, test, and deploy applications on Google's
   highly-scalable and reliable infrastructure.
 estate_rating:
-  agent_avg: 22.9
+  agent_avg: 23.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 23.9
   agent_ready: 4
   band: thin
-  best: 70.8
-  composite_avg: 43.6
+  best: 73.1
+  composite_avg: 43.7
   composite_band: developing
   composite_raw: 45.4
   developing: 49
   exemplar: 3
-  rating: 35.3
+  rating: 35.4
   scored: 66
-  spread: 68.3
+  spread: 70.6
   strength: 64
   strong: 3
   worst: 2.5
@@ -35,14 +35,14 @@ member_bands:
   - &id001
     acquired: 2016
     agent_band: agent-ready
-    agent_score: 31.4
+    agent_score: 33.7
     api_count: 5
     api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Apigee
     relationship: acquisition
     score_band: exemplar
-    score_composite: 70.8
+    score_composite: 73.1
     slug: apigee
     source: declared
   - &id002
@@ -988,7 +988,7 @@ members:
 members_unrated: []
 name: Google Cloud Platform
 overview: 'Google Cloud Platform publishes its API surface across 66 provider profiles indexed on the
-  APIs.io network, of which 66 carry a rating. The rated members span 68.3 points, from 70.8 down to 2.5.
+  APIs.io network, of which 66 carry a rating. The rated members span 70.6 points, from 73.1 down to 2.5.
 
 
   Its highest-rated surfaces are Apigee, Google Dialogflow, Google Cloud Logging, Google Cloud Storage,

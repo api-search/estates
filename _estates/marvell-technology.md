@@ -9,19 +9,19 @@ description: Marvell Technology, Inc. is a Fortune 500 fabless semiconductor com
   associated with Marvell. Public developer documentation is gated behind a customer support portal and
   is not openly accessible.
 estate_rating:
-  agent_avg: 6.6
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 2.5
-  composite_avg: 13.0
+  composite_avg: 13.1
   composite_band: emerging
   composite_raw: 0.8
   developing: 0
   exemplar: 0
-  rating: 10.4
+  rating: 10.5
   scored: 3
   spread: 2.5
   strength: 0

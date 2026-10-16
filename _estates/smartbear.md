@@ -8,19 +8,19 @@ description: SmartBear is a software company that provides AI-powered tools for 
   manage API definitions, automate lifecycle workflows, and integrate SwaggerHub with CI/CD pipelines
   and third-party services.
 estate_rating:
-  agent_avg: 15.7
+  agent_avg: 16.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 19.0
+  agent_raw: 19.6
   agent_ready: 2
   band: thin
   best: 78.4
-  composite_avg: 34.3
+  composite_avg: 34.4
   composite_band: thin
   composite_raw: 43.1
   developing: 1
   exemplar: 2
-  rating: 26.9
+  rating: 27.1
   scored: 8
   spread: 66.5
   strength: 9
@@ -52,7 +52,7 @@ member_bands:
   - &id002
     acquired: 2023
     agent_band: agent-ready
-    agent_score: 31.5
+    agent_score: 36.2
     api_count: 2
     api_count_basis: published
     immediate_parent: smartbear

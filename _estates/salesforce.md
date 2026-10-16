@@ -7,19 +7,19 @@ description: Salesforce is a cloud-based customer relationship management (CRM) 
   gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and
   subscribe to org data programmatically.
 estate_rating:
-  agent_avg: 12.6
+  agent_avg: 12.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 12.9
+  agent_raw: 13.1
   agent_ready: 6
   band: emerging
   best: 71.9
-  composite_avg: 23.7
+  composite_avg: 23.9
   composite_band: emerging
-  composite_raw: 24.3
+  composite_raw: 24.4
   developing: 5
   exemplar: 2
-  rating: 19.3
+  rating: 19.4
   scored: 30
   spread: 71.9
   strength: 17
@@ -103,7 +103,7 @@ member_bands:
     name: MuleSoft
     relationship: acquisition
     score_band: strong
-    score_composite: 54.8
+    score_composite: 56.2
     slug: mulesoft
     source: declared
   label: Strong
@@ -126,6 +126,19 @@ member_bands:
     slug: salesforce-experience-cloud
     source: declared
   - &id007
+    acquired: 2025
+    agent_band: agent-ready
+    agent_score: 56.7
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: salesforce
+    name: Informatica
+    relationship: acquisition
+    score_band: developing
+    score_composite: 52.6
+    slug: informatica
+    source: declared
+  - &id008
     acquired: 2019
     agent_band: agent-ready
     agent_score: 47.1
@@ -137,19 +150,6 @@ member_bands:
     score_band: developing
     score_composite: 51.4
     slug: tableau
-    source: declared
-  - &id008
-    acquired: 2025
-    agent_band: agent-ready
-    agent_score: 54.4
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: salesforce
-    name: Informatica
-    relationship: acquisition
-    score_band: developing
-    score_composite: 50.2
-    slug: informatica
     source: declared
   - &id009
     acquired: 2016
@@ -406,7 +406,7 @@ member_bands:
   - &id027
     acquired: null
     agent_band: agent-aware
-    agent_score: 8.6
+    agent_score: 12.2
     api_count: 0
     api_count_basis: split
     immediate_parent: slack

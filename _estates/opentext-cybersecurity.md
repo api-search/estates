@@ -14,21 +14,21 @@ description: OpenText Cybersecurity is the security business of OpenText, assemb
   CLI (fcli), a first-party MCP server inside that CLI, and a published set of Agent Skills for Claude
   Code, GitHub Copilot, Codex and Gemini CLI.
 estate_rating:
-  agent_avg: 10.7
+  agent_avg: 10.6
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.9
   agent_ready: 0
   band: emerging
-  best: 58.9
-  composite_avg: 24.9
-  composite_band: emerging
-  composite_raw: 30.6
+  best: 60.1
+  composite_avg: 25.1
+  composite_band: thin
+  composite_raw: 30.9
   developing: 0
   exemplar: 0
-  rating: 19.2
+  rating: 19.3
   scored: 4
-  spread: 52.7
+  spread: 53.9
   strength: 2
   strong: 1
   worst: 6.2
@@ -52,7 +52,7 @@ member_bands:
     name: Fortify
     relationship: product
     score_band: strong
-    score_composite: 58.9
+    score_composite: 60.1
     slug: fortify
     source: declared
   label: Strong
@@ -124,7 +124,7 @@ members:
 members_unrated: []
 name: OpenText Cybersecurity
 overview: 'OpenText Cybersecurity publishes its API surface across 4 provider profiles indexed on the
-  APIs.io network, of which 4 carry a rating. The rated members span 52.7 points, from 58.9 down to 6.2.
+  APIs.io network, of which 4 carry a rating. The rated members span 53.9 points, from 60.1 down to 6.2.
 
 
   Its highest-rated surfaces are Fortify, CloudAlly, Webroot, ArcSight.'

@@ -7,21 +7,21 @@ description: Postman is the world's leading API platform, used by 35+ million de
   Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections,
   Insights, and a public Postman API Network with millions of public workspaces.
 estate_rating:
-  agent_avg: 9.8
+  agent_avg: 9.7
   agent_band: minimal
   agent_native: 0
-  agent_raw: 9.3
+  agent_raw: 9.0
   agent_ready: 0
   band: emerging
-  best: 47.6
-  composite_avg: 20.3
+  best: 52.9
+  composite_avg: 20.8
   composite_band: emerging
-  composite_raw: 20.3
+  composite_raw: 21.1
   developing: 1
   exemplar: 0
-  rating: 16.1
+  rating: 16.4
   scored: 6
-  spread: 47.6
+  spread: 52.9
   strength: 1
   strong: 0
   worst: 0.0
@@ -45,14 +45,14 @@ member_bands:
     name: Liblab
     relationship: acquisition
     score_band: developing
-    score_composite: 47.6
+    score_composite: 52.9
     slug: liblab
     source: declared
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 2
+  count: 1
   items:
   - &id002
     acquired: 2023
@@ -67,25 +67,25 @@ member_bands:
     score_composite: 27.5
     slug: akita-software
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
+  items:
   - &id003
     acquired: 2026
     agent_band: agent-aware
-    agent_score: 23.2
+    agent_score: 21.3
     api_count: 1
     api_count_basis: published
     immediate_parent: postman
     name: Fern
     relationship: acquisition
-    score_band: thin
-    score_composite: 26.6
+    score_band: emerging
+    score_composite: 25.7
     slug: fern-api
     source: declared
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
-  items:
   - &id004
     acquired: null
     agent_band: human-only
@@ -145,7 +145,7 @@ members:
 members_unrated: []
 name: Postman
 overview: 'Postman publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 47.6 points, from 47.6 down to 0.0.
+  of which 6 carry a rating. The rated members span 52.9 points, from 52.9 down to 0.0.
 
 
   Its highest-rated surfaces are Liblab, Akita Software, Fern, Newman, Postman Echo.'

@@ -6,23 +6,23 @@ description: Cisco provides a comprehensive suite of APIs across its networking,
   developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and
   other Cisco products to automate network operations, build integrations, and extend platform capabilities.
 estate_rating:
-  agent_avg: 17.7
+  agent_avg: 17.8
   agent_band: emerging
   agent_native: 1
-  agent_raw: 18.4
+  agent_raw: 18.5
   agent_ready: 15
   band: thin
   best: 75.5
-  composite_avg: 31.0
+  composite_avg: 31.1
   composite_band: thin
-  composite_raw: 32.0
+  composite_raw: 32.2
   developing: 10
-  exemplar: 1
-  rating: 25.7
+  exemplar: 2
+  rating: 25.8
   scored: 51
   spread: 75.5
-  strength: 37
-  strong: 12
+  strength: 38
+  strong: 11
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -32,7 +32,7 @@ layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 1
+  count: 2
   items:
   - &id001
     acquired: 2020
@@ -47,13 +47,26 @@ member_bands:
     score_composite: 75.5
     slug: thousandeyes
     source: declared
+  - &id002
+    acquired: 2007
+    agent_band: agent-ready
+    agent_score: 66.5
+    api_count: 10
+    api_count_basis: published
+    immediate_parent: cisco
+    name: Webex
+    relationship: acquisition
+    score_band: exemplar
+    score_composite: 68.6
+    slug: webex
+    source: declared
   label: Exemplar
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 12
+  count: 11
   items:
-  - &id002
+  - &id003
     acquired: null
     agent_band: agent-ready
     agent_score: 32.4
@@ -66,7 +79,7 @@ member_bands:
     score_composite: 66.2
     slug: splunk-observability
     source: declared
-  - &id003
+  - &id004
     acquired: null
     agent_band: agent-ready
     agent_score: 38.5
@@ -76,21 +89,8 @@ member_bands:
     name: Cisco XDR
     relationship: product
     score_band: strong
-    score_composite: 65.6
+    score_composite: 66.1
     slug: cisco-xdr
-    source: declared
-  - &id004
-    acquired: 2007
-    agent_band: agent-ready
-    agent_score: 67.4
-    api_count: 10
-    api_count_basis: published
-    immediate_parent: cisco
-    name: Webex
-    relationship: acquisition
-    score_band: strong
-    score_composite: 63.8
-    slug: webex
     source: declared
   - &id005
     acquired: 2017
@@ -119,6 +119,19 @@ member_bands:
     slug: cisco-umbrella
     source: declared
   - &id007
+    acquired: 2024
+    agent_band: agent-ready
+    agent_score: 54.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: cisco
+    name: Splunk
+    relationship: acquisition
+    score_band: strong
+    score_composite: 62.6
+    slug: splunk
+    source: declared
+  - &id008
     acquired: null
     agent_band: agent-ready
     agent_score: 38.3
@@ -130,19 +143,6 @@ member_bands:
     score_band: strong
     score_composite: 62.4
     slug: cisco-ise
-    source: declared
-  - &id008
-    acquired: 2024
-    agent_band: agent-ready
-    agent_score: 52.6
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: cisco
-    name: Splunk
-    relationship: acquisition
-    score_band: strong
-    score_composite: 60.5
-    slug: splunk
     source: declared
   - &id009
     acquired: null
@@ -477,7 +477,7 @@ member_bands:
   - &id033
     acquired: null
     agent_band: human-only
-    agent_score: 0.0
+    agent_score: 2.2
     api_count: 0
     api_count_basis: split
     immediate_parent: cisco
@@ -870,7 +870,7 @@ overview: 'Cisco publishes its API surface across 56 provider profiles indexed o
   of which 56 carry a rating. The rated members span 75.5 points, from 75.5 down to 0.0.
 
 
-  Its highest-rated surfaces are ThousandEyes, Splunk Observability Cloud, Cisco XDR, Webex, Cisco Catalyst
+  Its highest-rated surfaces are ThousandEyes, Webex, Splunk Observability Cloud, Cisco XDR, Cisco Catalyst
   SD-WAN.'
 parent_provider: cisco
 permalink: /estates/cisco/

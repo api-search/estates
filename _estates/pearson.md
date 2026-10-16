@@ -12,14 +12,14 @@ description: 'Pearson plc is the world''s largest learning company, operating co
   What remains public is an OIDC discovery document, a live status page, a security disclosure policy,
   LTI 1.3 guidance, and three retired SIS WSDLs.'
 estate_rating:
-  agent_avg: 9.9
+  agent_avg: 9.6
   agent_band: minimal
   agent_native: 0
-  agent_raw: 8.8
+  agent_raw: 8.2
   agent_ready: 0
   band: emerging
   best: 34.5
-  composite_avg: 19.6
+  composite_avg: 19.7
   composite_band: emerging
   composite_raw: 18.4
   developing: 0
@@ -43,7 +43,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.7
+    agent_score: 20.8
     api_count: 1
     api_count_basis: published
     immediate_parent: pearson

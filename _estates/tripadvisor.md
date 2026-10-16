@@ -7,14 +7,14 @@ description: Tripadvisor is the world's largest travel guidance platform, helpin
   and 29 languages. Tripadvisor provides APIs for content integration, hotel connectivity, and restaurant
   reservations.
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 8.1
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.1
-  agent_ready: 1
+  agent_raw: 5.7
+  agent_ready: 0
   band: emerging
   best: 46.5
-  composite_avg: 15.3
+  composite_avg: 15.4
   composite_band: emerging
   composite_raw: 10.3
   developing: 1
@@ -37,8 +37,8 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-ready
-    agent_score: 30.4
+    agent_band: agent-aware
+    agent_score: 28.5
     api_count: 7
     api_count_basis: published
     immediate_parent: tripadvisor

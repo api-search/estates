@@ -12,17 +12,17 @@ estate_rating:
   agent_raw: 11.7
   agent_ready: 3
   band: emerging
-  best: 70.6
-  composite_avg: 25.5
+  best: 71.5
+  composite_avg: 25.6
   composite_band: thin
-  composite_raw: 26.2
+  composite_raw: 26.3
   developing: 9
-  exemplar: 1
-  rating: 19.9
+  exemplar: 2
+  rating: 20.0
   scored: 37
-  spread: 70.6
-  strength: 14
-  strong: 1
+  spread: 71.5
+  strength: 15
+  strong: 0
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -32,27 +32,21 @@ layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 1
+  count: 2
   items:
   - &id001
     acquired: 2019
     agent_band: agent-ready
-    agent_score: 49.2
+    agent_score: 51.5
     api_count: 6
     api_count_basis: published
     immediate_parent: ibm
     name: Red Hat
     relationship: acquisition
     score_band: exemplar
-    score_composite: 70.6
+    score_composite: 71.5
     slug: red-hat
     source: declared
-  label: Exemplar
-  open: true
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
-  items:
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -62,11 +56,11 @@ member_bands:
     immediate_parent: red-hat
     name: Red Hat Ansible Automation Platform
     relationship: product
-    score_band: strong
-    score_composite: 66.0
+    score_band: exemplar
+    score_composite: 66.5
     slug: red-hat-ansible-automation-platform
     source: declared
-  label: Strong
+  label: Exemplar
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
@@ -166,7 +160,7 @@ member_bands:
   - &id010
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.3
+    agent_score: 20.4
     api_count: 1
     api_count_basis: published
     immediate_parent: ibm
@@ -666,7 +660,7 @@ members:
 members_unrated: []
 name: IBM
 overview: 'IBM publishes its API surface across 42 provider profiles indexed on the APIs.io network, of
-  which 42 carry a rating. The rated members span 70.6 points, from 70.6 down to 0.0.
+  which 42 carry a rating. The rated members span 71.5 points, from 71.5 down to 0.0.
 
 
   Its highest-rated surfaces are Red Hat, Red Hat Ansible Automation Platform, Red Hat Enterprise Linux
@@ -682,8 +676,8 @@ subfamilies:
   member_count: 8
   members:
   - name: Red Hat Ansible Automation Platform
-    score_band: strong
-    score_composite: 66.0
+    score_band: exemplar
+    score_composite: 66.5
     slug: red-hat-ansible-automation-platform
   - name: Red Hat Enterprise Linux 8
     score_band: developing

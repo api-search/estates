@@ -3,14 +3,14 @@ api_total: 3
 category: Estates
 description: Collection of Apple's public APIs and developer resources.
 estate_rating:
-  agent_avg: 5.6
+  agent_avg: 5.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 3.6
+  agent_raw: 3.5
   agent_ready: 0
   band: emerging
   best: 65.9
-  composite_avg: 13.6
+  composite_avg: 13.7
   composite_band: emerging
   composite_raw: 10.8
   developing: 1
@@ -53,7 +53,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: apple

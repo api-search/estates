@@ -14,7 +14,7 @@ estate_rating:
   best: 80.5
   composite_avg: 50.9
   composite_band: developing
-  composite_raw: 51.6
+  composite_raw: 51.7
   developing: 80
   exemplar: 16
   rating: 41.0
@@ -165,6 +165,19 @@ member_bands:
     source: declared
   - &id011
     acquired: null
+    agent_band: agent-aware
+    agent_score: 24.0
+    api_count: 9
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: Amazon Neptune
+    relationship: product
+    score_band: exemplar
+    score_composite: 68.4
+    slug: amazon-neptune
+    source: declared
+  - &id012
+    acquired: null
     agent_band: agent-ready
     agent_score: 29.4
     api_count: 1
@@ -175,19 +188,6 @@ member_bands:
     score_band: exemplar
     score_composite: 67.9
     slug: amazon-secrets-manager
-    source: declared
-  - &id012
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 24.0
-    api_count: 9
-    api_count_basis: published
-    immediate_parent: amazon-web-services
-    name: Amazon Neptune
-    relationship: product
-    score_band: exemplar
-    score_composite: 67.8
-    slug: amazon-neptune
     source: declared
   - &id013
     acquired: null
@@ -951,6 +951,19 @@ member_bands:
     source: declared
   - &id071
     acquired: null
+    agent_band: agent-aware
+    agent_score: 23.0
+    api_count: 16
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: AWS App Runner
+    relationship: product
+    score_band: strong
+    score_composite: 57.1
+    slug: aws-app-runner
+    source: declared
+  - &id072
+    acquired: null
     agent_band: agent-ready
     agent_score: 30.6
     api_count: 1
@@ -962,7 +975,7 @@ member_bands:
     score_composite: 56.9
     slug: amazon-datazone
     source: declared
-  - &id072
+  - &id073
     acquired: null
     agent_band: agent-aware
     agent_score: 28.1
@@ -975,7 +988,7 @@ member_bands:
     score_composite: 56.8
     slug: amazon-codedeploy
     source: declared
-  - &id073
+  - &id074
     acquired: null
     agent_band: agent-ready
     agent_score: 32.0
@@ -988,7 +1001,7 @@ member_bands:
     score_composite: 56.8
     slug: amazon-workspaces-web
     source: declared
-  - &id074
+  - &id075
     acquired: null
     agent_band: agent-aware
     agent_score: 28.1
@@ -1001,7 +1014,7 @@ member_bands:
     score_composite: 56.7
     slug: amazon-config
     source: declared
-  - &id075
+  - &id076
     acquired: null
     agent_band: agent-aware
     agent_score: 28.1
@@ -1014,7 +1027,7 @@ member_bands:
     score_composite: 56.3
     slug: amazon-iot-twinmaker
     source: declared
-  - &id076
+  - &id077
     acquired: null
     agent_band: agent-ready
     agent_score: 32.0
@@ -1027,7 +1040,7 @@ member_bands:
     score_composite: 56.2
     slug: amazon-certificate-manager
     source: declared
-  - &id077
+  - &id078
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
@@ -1040,7 +1053,7 @@ member_bands:
     score_composite: 56.2
     slug: amazon-forecast
     source: declared
-  - &id078
+  - &id079
     acquired: null
     agent_band: agent-ready
     agent_score: 33.7
@@ -1053,7 +1066,7 @@ member_bands:
     score_composite: 56.2
     slug: amazon-mainframe-modernization
     source: declared
-  - &id079
+  - &id080
     acquired: null
     agent_band: agent-ready
     agent_score: 35.0
@@ -1066,7 +1079,7 @@ member_bands:
     score_composite: 56.2
     slug: amazon-private-ca
     source: declared
-  - &id080
+  - &id081
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -1079,7 +1092,7 @@ member_bands:
     score_composite: 56.1
     slug: amazon-datasync
     source: declared
-  - &id081
+  - &id082
     acquired: null
     agent_band: agent-ready
     agent_score: 30.6
@@ -1092,7 +1105,7 @@ member_bands:
     score_composite: 56.0
     slug: amazon-fraud-detector
     source: declared
-  - &id082
+  - &id083
     acquired: null
     agent_band: agent-aware
     agent_score: 28.5
@@ -1104,19 +1117,6 @@ member_bands:
     score_band: strong
     score_composite: 56.0
     slug: amazon-proton
-    source: declared
-  - &id083
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 22.3
-    api_count: 16
-    api_count_basis: published
-    immediate_parent: amazon-web-services
-    name: AWS App Runner
-    relationship: product
-    score_band: strong
-    score_composite: 56.0
-    slug: aws-app-runner
     source: declared
   - &id084
     acquired: null
@@ -1225,7 +1225,7 @@ member_bands:
   - &id092
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: amazon-web-services
@@ -2075,6 +2075,19 @@ member_bands:
     source: declared
   - &id157
     acquired: null
+    agent_band: agent-ready
+    agent_score: 29.8
+    api_count: 4
+    api_count_basis: published
+    immediate_parent: amazon-web-services
+    name: AWS Kinesis
+    relationship: product
+    score_band: developing
+    score_composite: 49.2
+    slug: kinesis
+    source: declared
+  - &id158
+    acquired: null
     agent_band: agent-aware
     agent_score: 21.0
     api_count: 1
@@ -2086,7 +2099,7 @@ member_bands:
     score_composite: 49.1
     slug: amazon-braket
     source: declared
-  - &id158
+  - &id159
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -2098,19 +2111,6 @@ member_bands:
     score_band: developing
     score_composite: 48.8
     slug: amazon-launch-wizard
-    source: declared
-  - &id159
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 29.8
-    api_count: 4
-    api_count_basis: published
-    immediate_parent: amazon-web-services
-    name: AWS Kinesis
-    relationship: product
-    score_band: developing
-    score_composite: 48.7
-    slug: kinesis
     source: declared
   - &id160
     acquired: null
@@ -2486,7 +2486,7 @@ member_bands:
     name: AWS Glue
     relationship: product
     score_band: developing
-    score_composite: 40.1
+    score_composite: 40.6
     slug: aws-glue
     source: declared
   - &id189

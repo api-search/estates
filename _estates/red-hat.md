@@ -10,17 +10,17 @@ estate_rating:
   agent_raw: 17.8
   agent_ready: 1
   band: emerging
-  best: 66.0
-  composite_avg: 29.4
+  best: 66.5
+  composite_avg: 29.5
   composite_band: thin
-  composite_raw: 35.9
+  composite_raw: 36.0
   developing: 3
-  exemplar: 0
+  exemplar: 1
   rating: 23.6
   scored: 7
-  spread: 63.5
-  strength: 5
-  strong: 1
+  spread: 64.0
+  strength: 6
+  strong: 0
   worst: 2.5
 estate_root: ibm
 estate_root_name: IBM
@@ -28,8 +28,8 @@ image: https://www.redhat.com/cms/managed-files/Logo-Red_Hat-A-Standard-RGB.svg
 is_subfamily: true
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
+- band: exemplar
+  blurb: Complete, well-documented, and agent-ready
   count: 1
   items:
   - &id001
@@ -41,11 +41,11 @@ member_bands:
     immediate_parent: red-hat
     name: Red Hat Ansible Automation Platform
     relationship: product
-    score_band: strong
-    score_composite: 66.0
+    score_band: exemplar
+    score_composite: 66.5
     slug: red-hat-ansible-automation-platform
     source: declared
-  label: Strong
+  label: Exemplar
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
@@ -176,7 +176,7 @@ members:
 members_unrated: []
 name: Red Hat
 overview: 'Red Hat publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 63.5 points, from 66.0 down to 2.5.
+  of which 8 carry a rating. The rated members span 64.0 points, from 66.5 down to 2.5.
 
 
   Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat Enterprise Linux 8, Red

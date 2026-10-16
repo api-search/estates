@@ -19,12 +19,12 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 26.0
-  composite_avg: 17.6
+  composite_avg: 17.7
   composite_band: emerging
   composite_raw: 13.1
   developing: 0
   exemplar: 0
-  rating: 13.3
+  rating: 13.4
   scored: 3
   spread: 23.5
   strength: 0

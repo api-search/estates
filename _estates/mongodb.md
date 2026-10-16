@@ -7,19 +7,19 @@ description: MongoDB provides a document‑model database platform that can be d
   is used by developers and enterprises building applications that require scalable, searchable, and AI‑enabled
   data handling.
 estate_rating:
-  agent_avg: 13.0
+  agent_avg: 12.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 19.2
+  agent_raw: 18.3
   agent_ready: 0
   band: emerging
   best: 34.3
-  composite_avg: 23.6
+  composite_avg: 23.7
   composite_band: emerging
   composite_raw: 31.8
   developing: 0
   exemplar: 0
-  rating: 19.4
+  rating: 19.3
   scored: 2
   spread: 4.9
   strength: 0
@@ -51,7 +51,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 18.0
+    agent_score: 16.1
     api_count: 1
     api_count_basis: published
     immediate_parent: mongodb

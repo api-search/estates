@@ -7,7 +7,7 @@ estate_rating:
   agent_avg: 22.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.9
+  agent_raw: 23.0
   agent_ready: 12
   band: thin
   best: 76.7
@@ -86,19 +86,6 @@ member_bands:
     source: declared
   - &id005
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.3
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Microsoft Azure API Management
-    relationship: product
-    score_band: exemplar
-    score_composite: 72.9
-    slug: microsoft-azure-api-management
-    source: declared
-  - &id006
-    acquired: null
     agent_band: agent-ready
     agent_score: 35.8
     api_count: 2
@@ -110,7 +97,7 @@ member_bands:
     score_composite: 72.8
     slug: microsoft-azure-cdn
     source: declared
-  - &id007
+  - &id006
     acquired: null
     agent_band: agent-ready
     agent_score: 34.1
@@ -122,6 +109,19 @@ member_bands:
     score_band: exemplar
     score_composite: 72.0
     slug: microsoft-azure-data-factory
+    source: declared
+  - &id007
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.8
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: microsoft-azure
+    name: Microsoft Azure API Management
+    relationship: product
+    score_band: exemplar
+    score_composite: 70.4
+    slug: microsoft-azure-api-management
     source: declared
   - &id008
     acquired: null
@@ -587,7 +587,7 @@ member_bands:
     name: Azure OpenAI Service
     relationship: product
     score_band: developing
-    score_composite: 46.3
+    score_composite: 46.5
     slug: microsoft-azure-openai
     source: declared
   - &id043
@@ -1034,7 +1034,7 @@ overview: 'Microsoft Azure publishes its API surface across 69 provider profiles
 
 
   Its highest-rated surfaces are Azure DevOps, Power Query, Microsoft Azure Cache For Redis, Azure Kubernetes
-  Service, Microsoft Azure API Management.'
+  Service, Microsoft Azure Cdn.'
 parent_provider: microsoft-azure
 permalink: /estates/microsoft-azure/
 slug: microsoft-azure

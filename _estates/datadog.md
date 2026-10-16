@@ -7,10 +7,10 @@ description: Datadog is a monitoring and analytics platform that helps organizat
   platform enables companies to track performance metrics, troubleshoot issues, and optimize their systems
   for peak efficiency.
 estate_rating:
-  agent_avg: 17.7
+  agent_avg: 17.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 24.9
+  agent_raw: 24.6
   agent_ready: 1
   band: thin
   best: 81.9
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 44.6
   developing: 2
   exemplar: 1
-  rating: 26.6
+  rating: 26.5
   scored: 5
   spread: 81.9
   strength: 7
@@ -76,7 +76,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: datadog

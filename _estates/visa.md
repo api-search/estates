@@ -8,10 +8,10 @@ description: Visa is a global payment technology company that facilitates electr
   The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account
   validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.
 estate_rating:
-  agent_avg: 12.3
+  agent_avg: 12.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.5
+  agent_raw: 14.0
   agent_ready: 1
   band: emerging
   best: 57.2
@@ -20,7 +20,7 @@ estate_rating:
   composite_raw: 24.5
   developing: 0
   exemplar: 0
-  rating: 18.2
+  rating: 18.1
   scored: 4
   spread: 55.3
   strength: 2
@@ -58,7 +58,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: visa

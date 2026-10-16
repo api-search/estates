@@ -13,15 +13,15 @@ estate_rating:
   agent_raw: 28.4
   agent_ready: 3
   band: thin
-  best: 78.0
-  composite_avg: 33.7
+  best: 78.5
+  composite_avg: 33.8
   composite_band: thin
-  composite_raw: 47.0
+  composite_raw: 47.1
   developing: 1
   exemplar: 1
   rating: 28.0
   scored: 5
-  spread: 57.6
+  spread: 58.1
   strength: 6
   strong: 1
   worst: 20.4
@@ -45,7 +45,7 @@ member_bands:
     name: Elastic Stack
     relationship: product
     score_band: exemplar
-    score_composite: 78.0
+    score_composite: 78.5
     slug: elk-stack
     source: declared
   label: Exemplar
@@ -157,7 +157,7 @@ members:
 members_unrated: []
 name: Elastic
 overview: 'Elastic publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 57.6 points, from 78.0 down to 20.4.
+  of which 6 carry a rating. The rated members span 58.1 points, from 78.5 down to 20.4.
 
 
   Its highest-rated surfaces are Elastic Stack, Elastic Observability, Elasticsearch, Kibana, Swiftype.'

@@ -14,9 +14,9 @@ estate_rating:
   agent_ready: 2
   band: emerging
   best: 60.2
-  composite_avg: 19.7
+  composite_avg: 19.8
   composite_band: emerging
-  composite_raw: 19.5
+  composite_raw: 19.6
   developing: 1
   exemplar: 0
   rating: 15.9
@@ -38,6 +38,19 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
+    agent_score: 35.3
+    api_count: 6
+    api_count_basis: published
+    immediate_parent: hpe
+    name: Juniper Networks
+    relationship: product
+    score_band: strong
+    score_composite: 60.2
+    slug: juniper
+    source: declared
+  - &id002
+    acquired: null
+    agent_band: agent-ready
     agent_score: 29.3
     api_count: 1
     api_count_basis: published
@@ -48,19 +61,6 @@ member_bands:
     score_composite: 60.2
     slug: mist
     source: parent-company-property
-  - &id002
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 35.3
-    api_count: 6
-    api_count_basis: published
-    immediate_parent: hpe
-    name: Juniper Networks
-    relationship: product
-    score_band: strong
-    score_composite: 59.7
-    slug: juniper
-    source: declared
   label: Strong
   open: true
 - band: developing
@@ -315,7 +315,7 @@ overview: 'Hewlett Packard Enterprise publishes its API surface across 17 provid
   to 0.0.
 
 
-  Its highest-rated surfaces are Mist, Juniper Networks, Juniper Mist AI, 128 Technology, SimpliVity.'
+  Its highest-rated surfaces are Juniper Networks, Mist, Juniper Mist AI, 128 Technology, SimpliVity.'
 parent_provider: hpe
 permalink: /estates/hpe/
 slug: hpe
