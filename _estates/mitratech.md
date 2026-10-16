@@ -12,19 +12,19 @@ description: 'Mitratech is an Austin, Texas based enterprise software company su
   2.0 API Explorer, TeamConnect 7.2+ ships a modernized OAuth 2.0 REST API on each customer instance,
   and mitratech.com itself serves an OAuth-protected Model Context Protocol server.'
 estate_rating:
-  agent_avg: 8.9
+  agent_avg: 9.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.8
   agent_ready: 0
   band: emerging
   best: 42.4
-  composite_avg: 19.0
+  composite_avg: 19.1
   composite_band: emerging
   composite_raw: 16.8
   developing: 1
   exemplar: 0
-  rating: 15.0
+  rating: 15.1
   scored: 3
   spread: 39.0
   strength: 1

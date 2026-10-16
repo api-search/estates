@@ -12,7 +12,7 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 15.4
-  composite_avg: 16.7
+  composite_avg: 16.8
   composite_band: emerging
   composite_raw: 10.7
   developing: 0

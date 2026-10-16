@@ -14,7 +14,7 @@ description: 'Everyday Health is a consumer health media brand founded in 2002 a
   and an unusually explicit robots.txt that blocks 107 named AI and agent crawlers site-wide while carving
   out two commercial product-review URLs.'
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -23,10 +23,10 @@ estate_rating:
   best: 10.8
   composite_avg: 15.8
   composite_band: emerging
-  composite_raw: 8.2
+  composite_raw: 8.1
   developing: 0
   exemplar: 0
-  rating: 12.0
+  rating: 12.1
   scored: 3
   spread: 7.1
   strength: 0
@@ -65,7 +65,7 @@ member_bands:
     name: TheSkimm
     relationship: product
     score_band: minimal
-    score_composite: 10.2
+    score_composite: 9.7
     slug: theskimm
     source: prose
   - &id003

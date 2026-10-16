@@ -6,7 +6,7 @@ description: Match Group is a leading provider of digital technologies designed 
   Meetic, OkCupid, Pairs, Plenty Of Fish, Azar, Hakuna, and others. Match Group does not publish a unified
   public developer portal at the corporate level; individual brands manage their own integrations.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
@@ -15,10 +15,10 @@ estate_rating:
   best: 7.5
   composite_avg: 14.1
   composite_band: emerging
-  composite_raw: 3.8
+  composite_raw: 3.6
   developing: 0
   exemplar: 0
-  rating: 11.0
+  rating: 11.1
   scored: 3
   spread: 7.5
   strength: 0
@@ -57,7 +57,7 @@ member_bands:
     name: The League
     relationship: product
     score_band: minimal
-    score_composite: 3.8
+    score_composite: 3.4
     slug: the-league
     source: parent-company-property
   - &id003

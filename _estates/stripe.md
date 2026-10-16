@@ -1,22 +1,22 @@
 ---
-api_total: 18
+api_total: 17
 category: Estates
 description: Online payment processing for internet businesses. Stripe is a suite of payment APIs that
   powers commerce for online businesses of all sizes.
 estate_rating:
-  agent_avg: 16.2
+  agent_avg: 16.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 22.2
   agent_ready: 2
   band: emerging
   best: 66.5
-  composite_avg: 29.8
+  composite_avg: 29.9
   composite_band: thin
   composite_raw: 39.3
   developing: 2
   exemplar: 1
-  rating: 24.4
+  rating: 24.5
   scored: 5
   spread: 63.5
   strength: 5
@@ -68,7 +68,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 36.4
-    api_count: 2
+    api_count: 1
     api_count_basis: published
     immediate_parent: stripe
     name: Bridge

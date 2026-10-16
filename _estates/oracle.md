@@ -1,13 +1,13 @@
 ---
-api_total: 237
+api_total: 213
 category: Estates
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases,
   AI services, SaaS applications, and platform services.
 estate_rating:
-  agent_avg: 15.3
+  agent_avg: 15.8
   agent_band: emerging
   agent_native: 1
-  agent_raw: 16.1
+  agent_raw: 16.6
   agent_ready: 5
   band: emerging
   best: 76.9
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 31.5
   developing: 14
   exemplar: 3
-  rating: 24.1
+  rating: 24.3
   scored: 31
   spread: 76.9
   strength: 23
@@ -49,7 +49,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 32.5
-    api_count: 80
+    api_count: 59
     api_count_basis: published
     immediate_parent: oracle
     name: Oracle Hospitality
@@ -93,7 +93,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.4
+    agent_score: 27.3
     api_count: 21
     api_count_basis: published
     immediate_parent: oracle
@@ -107,7 +107,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 31.1
-    api_count: 4
+    api_count: 3
     api_count_basis: published
     immediate_parent: oracle
     name: Oracle Eloqua
@@ -117,22 +117,9 @@ member_bands:
     slug: eloqua
     source: declared
   - &id007
-    acquired: 2014
-    agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 4
-    api_count_basis: published
-    immediate_parent: oracle
-    name: Responsys
-    relationship: acquisition
-    score_band: developing
-    score_composite: 49.7
-    slug: responsys
-    source: declared
-  - &id008
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.7
+    agent_score: 25.5
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -141,6 +128,19 @@ member_bands:
     score_band: developing
     score_composite: 49.6
     slug: oracle-essbase
+    source: declared
+  - &id008
+    acquired: 2014
+    agent_band: agent-aware
+    agent_score: 26.1
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: oracle
+    name: Responsys
+    relationship: acquisition
+    score_band: developing
+    score_composite: 49.2
+    slug: responsys
     source: declared
   - &id009
     acquired: null
@@ -184,7 +184,7 @@ member_bands:
   - &id012
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 7
     api_count_basis: published
     immediate_parent: oracle
@@ -197,7 +197,7 @@ member_bands:
   - &id013
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -210,7 +210,7 @@ member_bands:
   - &id014
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.1
+    agent_score: 24.0
     api_count: 20
     api_count_basis: published
     immediate_parent: oracle
@@ -236,7 +236,7 @@ member_bands:
   - &id016
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 22.7
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -268,7 +268,7 @@ member_bands:
   - &id018
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -281,7 +281,7 @@ member_bands:
   - &id019
     acquired: null
     agent_band: agent-aware
-    agent_score: 16.1
+    agent_score: 18.0
     api_count: 17
     api_count_basis: split
     immediate_parent: oracle

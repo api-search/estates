@@ -1,21 +1,21 @@
 ---
-api_total: 94
+api_total: 92
 category: Estates
 description: Collection of SAP's enterprise APIs for business applications and cloud services.
 estate_rating:
-  agent_avg: 18.6
+  agent_avg: 19.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 20.4
-  agent_ready: 6
+  agent_raw: 21.0
+  agent_ready: 7
   band: thin
   best: 66.5
-  composite_avg: 31.7
+  composite_avg: 31.9
   composite_band: thin
-  composite_raw: 34.0
+  composite_raw: 34.2
   developing: 11
   exemplar: 1
-  rating: 26.5
+  rating: 26.8
   scored: 24
   spread: 66.5
   strength: 14
@@ -35,7 +35,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 35.8
-    api_count: 27
+    api_count: 25
     api_count_basis: published
     immediate_parent: sap
     name: SAP Emarsys
@@ -52,8 +52,8 @@ member_bands:
   items:
   - &id002
     acquired: null
-    agent_band: agent-aware
-    agent_score: 28.3
+    agent_band: agent-ready
+    agent_score: 30.1
     api_count: 2
     api_count_basis: published
     immediate_parent: sap
@@ -79,7 +79,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.8
+    agent_score: 25.6
     api_count: 17
     api_count_basis: published
     immediate_parent: sap
@@ -92,7 +92,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 22.7
     api_count: 2
     api_count_basis: published
     immediate_parent: sap
@@ -118,7 +118,7 @@ member_bands:
   - &id007
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.5
+    agent_score: 24.4
     api_count: 5
     api_count_basis: published
     immediate_parent: sap
@@ -157,7 +157,7 @@ member_bands:
   - &id010
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.7
+    agent_score: 25.5
     api_count: 1
     api_count_basis: published
     immediate_parent: sap
@@ -183,7 +183,7 @@ member_bands:
   - &id012
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 22.7
     api_count: 1
     api_count_basis: published
     immediate_parent: sap
@@ -197,7 +197,7 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 5
+  count: 6
   items:
   - &id013
     acquired: null
@@ -215,7 +215,7 @@ member_bands:
   - &id014
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.6
+    agent_score: 33.5
     api_count: 3
     api_count_basis: split
     immediate_parent: ariba
@@ -228,7 +228,7 @@ member_bands:
   - &id015
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.6
+    agent_score: 33.5
     api_count: 2
     api_count_basis: split
     immediate_parent: sap
@@ -264,12 +264,6 @@ member_bands:
     score_composite: 30.1
     slug: sap-business-one
     source: declared
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 4
-  items:
   - &id018
     acquired: null
     agent_band: agent-aware
@@ -279,10 +273,16 @@ member_bands:
     immediate_parent: sap
     name: SAP Business Technology Platform
     relationship: product
-    score_band: emerging
-    score_composite: 23.6
+    score_band: thin
+    score_composite: 29.3
     slug: sap-btp
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 3
+  items:
   - &id019
     acquired: null
     agent_band: agent-aware

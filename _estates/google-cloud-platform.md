@@ -4,21 +4,21 @@ category: Estates
 description: Google Cloud Platform enables developers to build, test, and deploy applications on Google's
   highly-scalable and reliable infrastructure.
 estate_rating:
-  agent_avg: 21.5
+  agent_avg: 23.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.3
+  agent_raw: 23.9
   agent_ready: 4
   band: thin
-  best: 70.2
-  composite_avg: 43.6
+  best: 73.1
+  composite_avg: 43.7
   composite_band: developing
   composite_raw: 45.4
   developing: 49
   exemplar: 3
-  rating: 34.8
+  rating: 35.4
   scored: 66
-  spread: 67.7
+  spread: 70.6
   strength: 64
   strong: 3
   worst: 2.5
@@ -35,14 +35,14 @@ member_bands:
   - &id001
     acquired: 2016
     agent_band: agent-ready
-    agent_score: 29.8
+    agent_score: 33.7
     api_count: 5
     api_count_basis: published
     immediate_parent: google-cloud-platform
     name: Apigee
     relationship: acquisition
     score_band: exemplar
-    score_composite: 70.2
+    score_composite: 73.1
     slug: apigee
     source: declared
   - &id002
@@ -138,7 +138,7 @@ member_bands:
   - &id008
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -151,7 +151,7 @@ member_bands:
   - &id009
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -177,7 +177,7 @@ member_bands:
   - &id011
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -203,7 +203,7 @@ member_bands:
   - &id013
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.7
+    agent_score: 26.5
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -216,7 +216,7 @@ member_bands:
   - &id014
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -229,7 +229,7 @@ member_bands:
   - &id015
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -242,7 +242,7 @@ member_bands:
   - &id016
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -255,7 +255,7 @@ member_bands:
   - &id017
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -281,7 +281,7 @@ member_bands:
   - &id019
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -294,7 +294,7 @@ member_bands:
   - &id020
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -307,7 +307,7 @@ member_bands:
   - &id021
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -320,7 +320,7 @@ member_bands:
   - &id022
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -333,7 +333,7 @@ member_bands:
   - &id023
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -359,7 +359,7 @@ member_bands:
   - &id025
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -372,7 +372,7 @@ member_bands:
   - &id026
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -385,7 +385,7 @@ member_bands:
   - &id027
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -398,7 +398,7 @@ member_bands:
   - &id028
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -411,7 +411,7 @@ member_bands:
   - &id029
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -424,7 +424,7 @@ member_bands:
   - &id030
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -437,7 +437,7 @@ member_bands:
   - &id031
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -450,7 +450,7 @@ member_bands:
   - &id032
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -463,7 +463,7 @@ member_bands:
   - &id033
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -476,7 +476,7 @@ member_bands:
   - &id034
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -489,7 +489,7 @@ member_bands:
   - &id035
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -502,7 +502,7 @@ member_bands:
   - &id036
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -515,7 +515,7 @@ member_bands:
   - &id037
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -528,7 +528,7 @@ member_bands:
   - &id038
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -541,7 +541,7 @@ member_bands:
   - &id039
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -554,7 +554,7 @@ member_bands:
   - &id040
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -567,7 +567,7 @@ member_bands:
   - &id041
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -580,7 +580,7 @@ member_bands:
   - &id042
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -593,7 +593,7 @@ member_bands:
   - &id043
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 21.5
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -606,7 +606,7 @@ member_bands:
   - &id044
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -619,7 +619,7 @@ member_bands:
   - &id045
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -632,7 +632,7 @@ member_bands:
   - &id046
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -645,7 +645,7 @@ member_bands:
   - &id047
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -658,7 +658,7 @@ member_bands:
   - &id048
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -671,7 +671,7 @@ member_bands:
   - &id049
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -684,7 +684,7 @@ member_bands:
   - &id050
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -710,7 +710,7 @@ member_bands:
   - &id052
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -723,7 +723,7 @@ member_bands:
   - &id053
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -736,7 +736,7 @@ member_bands:
   - &id054
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -749,7 +749,7 @@ member_bands:
   - &id055
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -768,7 +768,7 @@ member_bands:
   - &id056
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -781,7 +781,7 @@ member_bands:
   - &id057
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -794,7 +794,7 @@ member_bands:
   - &id058
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.0
+    agent_score: 25.9
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -807,7 +807,7 @@ member_bands:
   - &id059
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.7
+    agent_score: 26.5
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -820,7 +820,7 @@ member_bands:
   - &id060
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -833,7 +833,7 @@ member_bands:
   - &id061
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -846,7 +846,7 @@ member_bands:
   - &id062
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -859,7 +859,7 @@ member_bands:
   - &id063
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -872,7 +872,7 @@ member_bands:
   - &id064
     acquired: null
     agent_band: agent-aware
-    agent_score: 15.4
+    agent_score: 17.3
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -885,7 +885,7 @@ member_bands:
   - &id065
     acquired: null
     agent_band: agent-aware
-    agent_score: 15.4
+    agent_score: 17.3
     api_count: 1
     api_count_basis: published
     immediate_parent: google-cloud-platform
@@ -988,7 +988,7 @@ members:
 members_unrated: []
 name: Google Cloud Platform
 overview: 'Google Cloud Platform publishes its API surface across 66 provider profiles indexed on the
-  APIs.io network, of which 66 carry a rating. The rated members span 67.7 points, from 70.2 down to 2.5.
+  APIs.io network, of which 66 carry a rating. The rated members span 70.6 points, from 73.1 down to 2.5.
 
 
   Its highest-rated surfaces are Apigee, Google Dialogflow, Google Cloud Logging, Google Cloud Storage,

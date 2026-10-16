@@ -4,21 +4,21 @@ category: Estates
 description: Collection of Meta (Facebook) platform APIs for social networking, messaging, advertising,
   content publishing, AI, and developer tools across Facebook, Instagram, WhatsApp, Threads, and Messenger.
 estate_rating:
-  agent_avg: 17.3
+  agent_avg: 17.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 29.1
   agent_ready: 2
   band: thin
-  best: 68.9
-  composite_avg: 35.4
+  best: 66.8
+  composite_avg: 35.2
   composite_band: thin
-  composite_raw: 60.4
+  composite_raw: 59.7
   developing: 1
   exemplar: 1
-  rating: 28.2
+  rating: 28.1
   scored: 3
-  spread: 16.4
+  spread: 14.3
   strength: 6
   strong: 1
   worst: 52.5
@@ -42,7 +42,7 @@ member_bands:
     name: Instagram
     relationship: product
     score_band: exemplar
-    score_composite: 68.9
+    score_composite: 66.8
     slug: instagram
     source: declared
   label: Exemplar
@@ -94,7 +94,7 @@ members:
 members_unrated: []
 name: Meta
 overview: 'Meta publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 16.4 points, from 68.9 down to 52.5.
+  which 3 carry a rating. The rated members span 14.3 points, from 66.8 down to 52.5.
 
 
   Its highest-rated surfaces are Instagram, Giphy, WhatsApp.'

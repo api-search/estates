@@ -9,19 +9,19 @@ description: Coinbase is a leading cryptocurrency platform providing trading, cu
   using API keys with HMAC-SHA256 signatures (Advanced Trade, Exchange) or JWT bearer tokens (Prime, CDP),
   with WebSocket and FIX feeds available for low-latency market data and order management.
 estate_rating:
-  agent_avg: 8.1
+  agent_avg: 8.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 4.7
   agent_ready: 0
   band: emerging
   best: 16.4
-  composite_avg: 15.5
+  composite_avg: 15.6
   composite_band: emerging
   composite_raw: 7.5
   developing: 0
   exemplar: 0
-  rating: 12.5
+  rating: 12.7
   scored: 3
   spread: 13.7
   strength: 0

@@ -7,14 +7,14 @@ description: Siemens is a global powerhouse in the fields of electrification, au
   infrastructure, and industry. With a focus on innovation and technology, Siemens is constantly pushing
   the boundaries to create a better future for society and the environment.
 estate_rating:
-  agent_avg: 11.9
+  agent_avg: 11.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.1
+  agent_raw: 13.6
   agent_ready: 0
   band: emerging
   best: 47.5
-  composite_avg: 21.9
+  composite_avg: 22.0
   composite_band: emerging
   composite_raw: 23.9
   developing: 2
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 28.1
+    agent_score: 26.2
     api_count: 3
     api_count_basis: published
     immediate_parent: siemens

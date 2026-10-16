@@ -1,5 +1,5 @@
 ---
-api_total: 4
+api_total: 2
 category: Estates
 description: 'Cox Automotive is one of the world''s largest providers of products and services spanning
   the automotive ecosystem, operating a portfolio of brands that includes Manheim (wholesale vehicle auctions
@@ -15,24 +15,24 @@ description: 'Cox Automotive is one of the world''s largest providers of product
   Access to every environment is granted after a review by a Cox Automotive account representative, with
   keys issued through the Boomi/Mashery gateway.'
 estate_rating:
-  agent_avg: 10.8
+  agent_avg: 11.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.9
   agent_ready: 1
   band: emerging
-  best: 52.4
+  best: 51.9
   composite_avg: 21.5
   composite_band: emerging
-  composite_raw: 23.5
+  composite_raw: 23.2
   developing: 1
   exemplar: 0
-  rating: 17.2
+  rating: 17.3
   scored: 3
-  spread: 48.6
+  spread: 48.5
   strength: 1
   strong: 0
-  worst: 3.8
+  worst: 3.4
 estate_root: null
 estate_root_name: null
 image: https://www.coxautoinc.com/wp-content/uploads/2025/09/CAI-1200x628-1.png
@@ -47,13 +47,13 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 35.6
-    api_count: 4
+    api_count: 2
     api_count_basis: published
     immediate_parent: cox-automotive
     name: AutoLeadStar
     relationship: acquisition
     score_band: developing
-    score_composite: 52.4
+    score_composite: 51.9
     slug: autoleadstar
     source: prose
   label: Developing
@@ -91,7 +91,7 @@ member_bands:
     name: AutoTrader.com
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.8
+    score_composite: 3.4
     slug: autotradercom
     source: prose
   label: Minimal
@@ -105,7 +105,7 @@ members:
 members_unrated: []
 name: Cox Automotive
 overview: 'Cox Automotive publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 48.6 points, from 52.4 down to 3.8.
+  network, of which 3 carry a rating. The rated members span 48.5 points, from 51.9 down to 3.4.
 
 
   Its highest-rated surfaces are AutoLeadStar, Xtime, AutoTrader.com.'

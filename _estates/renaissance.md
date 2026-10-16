@@ -12,19 +12,19 @@ description: 'Renaissance Learning, Inc. is a pre-K–12 education technology co
   Renaissance-controlled hosts: the Student Proficiency Service, the Student Pathway Event Proxy and the
   Lexile API.'
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 19.0
-  composite_avg: 18.2
+  composite_avg: 18.3
   composite_band: emerging
   composite_raw: 14.7
   developing: 0
   exemplar: 0
-  rating: 13.5
+  rating: 13.6
   scored: 3
   spread: 8.0
   strength: 0

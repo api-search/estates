@@ -4,19 +4,19 @@ category: Estates
 description: APIs for Xbox gaming platform including Xbox Live Services and Azure PlayFab backend for
   games.
 estate_rating:
-  agent_avg: 16.6
+  agent_avg: 16.8
   agent_band: emerging
   agent_native: 1
-  agent_raw: 21.8
+  agent_raw: 22.2
   agent_ready: 1
   band: emerging
   best: 46.1
-  composite_avg: 25.0
+  composite_avg: 25.1
   composite_band: thin
   composite_raw: 28.9
   developing: 2
   exemplar: 0
-  rating: 21.6
+  rating: 21.8
   scored: 6
   spread: 41.0
   strength: 2
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-xbox
@@ -97,14 +97,14 @@ member_bands:
   count: 1
   items:
   - &id005
-    acquired: null
+    acquired: 2023
     agent_band: agent-ready
     agent_score: 30.2
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-xbox
     name: Activision Blizzard
-    relationship: product
+    relationship: acquisition
     score_band: emerging
     score_composite: 21.6
     slug: activision-blizzard

@@ -1,15 +1,15 @@
 ---
-api_total: 492
+api_total: 444
 category: Estates
 description: Cisco provides a comprehensive suite of APIs across its networking, security, collaboration,
   and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and
   developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and
   other Cisco products to automate network operations, build integrations, and extend platform capabilities.
 estate_rating:
-  agent_avg: 17.4
+  agent_avg: 17.8
   agent_band: emerging
   agent_native: 1
-  agent_raw: 18.1
+  agent_raw: 18.5
   agent_ready: 15
   band: thin
   best: 75.5
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 32.2
   developing: 10
   exemplar: 2
-  rating: 25.6
+  rating: 25.8
   scored: 51
   spread: 75.5
   strength: 38
@@ -51,7 +51,7 @@ member_bands:
     acquired: 2007
     agent_band: agent-ready
     agent_score: 66.5
-    api_count: 20
+    api_count: 10
     api_count_basis: published
     immediate_parent: cisco
     name: Webex
@@ -148,7 +148,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 29.0
-    api_count: 22
+    api_count: 11
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Intersight
@@ -161,7 +161,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 37.4
-    api_count: 29
+    api_count: 27
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Catalyst Center
@@ -174,7 +174,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 34.0
-    api_count: 2
+    api_count: 1
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco PSIRT openVuln API
@@ -187,7 +187,7 @@ member_bands:
     acquired: 2013
     agent_band: agent-ready
     agent_score: 39.2
-    api_count: 18
+    api_count: 14
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Secure Firewall
@@ -218,7 +218,7 @@ member_bands:
   - &id014
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 2
     api_count_basis: published
     immediate_parent: webex
@@ -232,7 +232,7 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 35.1
-    api_count: 68
+    api_count: 50
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Crosswork
@@ -245,7 +245,7 @@ member_bands:
     acquired: null
     agent_band: agent-native
     agent_score: 39.2
-    api_count: 5
+    api_count: 4
     api_count_basis: published
     immediate_parent: cisco
     name: AGNTCY
@@ -257,7 +257,7 @@ member_bands:
   - &id017
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: cisco
@@ -296,7 +296,7 @@ member_bands:
   - &id020
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.0
+    agent_score: 20.9
     api_count: 4
     api_count_basis: published
     immediate_parent: cisco
@@ -322,7 +322,7 @@ member_bands:
   - &id022
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.4
+    agent_score: 22.3
     api_count: 1
     api_count_basis: published
     immediate_parent: cisco
@@ -354,7 +354,7 @@ member_bands:
   - &id024
     acquired: 2017
     agent_band: agent-aware
-    agent_score: 20.4
+    agent_score: 22.3
     api_count: 9
     api_count_basis: published
     immediate_parent: cisco
@@ -367,7 +367,7 @@ member_bands:
   - &id025
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: cisco
@@ -393,7 +393,7 @@ member_bands:
   - &id027
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: webex
@@ -406,7 +406,7 @@ member_bands:
   - &id028
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 1
     api_count_basis: published
     immediate_parent: webex
@@ -419,7 +419,7 @@ member_bands:
   - &id029
     acquired: 2018
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 21.5
     api_count: 1
     api_count_basis: published
     immediate_parent: cisco
@@ -433,7 +433,7 @@ member_bands:
     acquired: 2012
     agent_band: agent-ready
     agent_score: 31.2
-    api_count: 7
+    api_count: 6
     api_count_basis: published
     immediate_parent: cisco
     name: Cisco Meraki

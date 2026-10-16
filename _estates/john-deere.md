@@ -6,7 +6,7 @@ description: John Deere is a renowned American corporation that specializes in m
   of innovation and has become a leader in the industry. John Deere's products include tractors, combines,
   excavators, and other equipment designed to support and improve farming and construction operations.
 estate_rating:
-  agent_avg: 9.2
+  agent_avg: 9.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.6
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 15.0
   developing: 0
   exemplar: 0
-  rating: 14.7
+  rating: 14.8
   scored: 3
   spread: 31.9
   strength: 0

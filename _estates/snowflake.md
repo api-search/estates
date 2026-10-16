@@ -117,16 +117,22 @@ member_bands:
   label: Unrated
   open: false
 member_on_network: 5
-member_total: 5
+member_total: 6
 members:
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
-members_unrated: []
+members_unrated:
+- acquired: null
+  immediate_parent: snowflake
+  name: Observe
+  relationship: product
+  slug: observeinc
+  source: x-parent-company
 name: Snowflake
-overview: 'Snowflake publishes its API surface across 5 provider profiles indexed on the APIs.io network,
+overview: 'Snowflake publishes its API surface across 6 provider profiles indexed on the APIs.io network,
   of which 5 carry a rating. The rated members span 19.6 points, from 19.6 down to 0.0.
 
 

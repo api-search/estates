@@ -5,19 +5,19 @@ description: PTC is an industrial technology company providing software platform
   IoT (ThingWorx), Product Lifecycle Management (Windchill, Arena), Augmented Reality (Vuforia), Field
   Service Management (ServiceMax), and industrial connectivity (Kepware) in manufacturing environments.
 estate_rating:
-  agent_avg: 14.7
+  agent_avg: 15.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.3
+  agent_raw: 22.9
   agent_ready: 1
   band: emerging
   best: 59.7
-  composite_avg: 26.9
+  composite_avg: 27.0
   composite_band: thin
   composite_raw: 37.8
   developing: 0
   exemplar: 0
-  rating: 22.0
+  rating: 22.2
   scored: 3
   spread: 43.1
   strength: 2
@@ -55,7 +55,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.1
+    agent_score: 23.0
     api_count: 1
     api_count_basis: published
     immediate_parent: ptc

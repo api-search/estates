@@ -6,19 +6,19 @@ description: Lennar Corporation is a Fortune 500 company and one of the leading 
   where Lennar developers and partners discover and consume Lennar Corporation APIs. Public OpenAPI artifacts
   have not been observed; access generally requires sign-in and partner approval.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 7.8
-  composite_avg: 14.1
+  composite_avg: 14.2
   composite_band: emerging
   composite_raw: 3.7
   developing: 0
   exemplar: 0
-  rating: 11.0
+  rating: 11.1
   scored: 3
   spread: 7.8
   strength: 0

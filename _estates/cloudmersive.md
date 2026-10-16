@@ -7,19 +7,19 @@ description: Cloudmersive provides a portfolio of utility APIs covering virus an
   2.0 / OpenAPI specification, has SDKs in multiple languages, and is consumable on api.cloudmersive.com
   behind an API key (`Apikey` header).
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.1
-  composite_avg: 14.6
+  composite_avg: 14.7
   composite_band: emerging
   composite_raw: 5.1
   developing: 0
   exemplar: 0
-  rating: 11.3
+  rating: 11.4
   scored: 3
   spread: 0.0
   strength: 0

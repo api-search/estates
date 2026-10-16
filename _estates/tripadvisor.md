@@ -10,8 +10,8 @@ estate_rating:
   agent_avg: 8.1
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.1
-  agent_ready: 1
+  agent_raw: 5.7
+  agent_ready: 0
   band: emerging
   best: 46.5
   composite_avg: 15.4
@@ -37,8 +37,8 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-ready
-    agent_score: 30.4
+    agent_band: agent-aware
+    agent_score: 28.5
     api_count: 7
     api_count_basis: published
     immediate_parent: tripadvisor

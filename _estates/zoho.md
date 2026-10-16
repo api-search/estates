@@ -14,13 +14,13 @@ estate_rating:
   best: 78.6
   composite_avg: 36.0
   composite_band: thin
-  composite_raw: 40.4
-  developing: 8
+  composite_raw: 40.3
+  developing: 7
   exemplar: 1
   rating: 29.8
   scored: 18
   spread: 60.4
-  strength: 13
+  strength: 12
   strong: 1
   worst: 18.2
 estate_root: null
@@ -69,7 +69,7 @@ member_bands:
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 8
+  count: 7
   items:
   - &id003
     acquired: null
@@ -152,19 +152,6 @@ member_bands:
   - &id009
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.7
-    api_count: 7
-    api_count_basis: published
-    immediate_parent: zoho
-    name: Zoho Analytics
-    relationship: product
-    score_band: developing
-    score_composite: 40.7
-    slug: zoho-analytics
-    source: declared
-  - &id010
-    acquired: null
-    agent_band: agent-ready
     agent_score: 34.5
     api_count: 1
     api_count_basis: published
@@ -179,8 +166,21 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 4
+  count: 5
   items:
+  - &id010
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 29.7
+    api_count: 7
+    api_count_basis: published
+    immediate_parent: zoho
+    name: Zoho Analytics
+    relationship: product
+    score_band: thin
+    score_composite: 39.1
+    slug: zoho-analytics
+    source: declared
   - &id011
     acquired: null
     agent_band: agent-aware

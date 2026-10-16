@@ -17,7 +17,7 @@ estate_rating:
   composite_raw: 44.3
   developing: 2
   exemplar: 4
-  rating: 30.6
+  rating: 30.7
   scored: 10
   spread: 76.8
   strength: 14

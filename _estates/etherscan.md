@@ -7,19 +7,19 @@ description: Etherscan is the leading blockchain explorer, search, API, and anal
   API covers 60+ chains under a single account and API key, with a free tier offering 100,000 daily calls
   and paid tiers up to enterprise.
 estate_rating:
-  agent_avg: 18.9
+  agent_avg: 19.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 26.1
   agent_ready: 2
   band: thin
   best: 49.1
-  composite_avg: 31.7
+  composite_avg: 31.8
   composite_band: thin
   composite_raw: 41.2
   developing: 4
   exemplar: 0
-  rating: 26.6
+  rating: 26.7
   scored: 6
   spread: 21.3
   strength: 4

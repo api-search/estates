@@ -5,7 +5,7 @@ description: Marathon Petroleum is one of the largest petroleum product refiners
   in the United States, with operations including refineries, pipelines, terminals, and retail outlets.
   No public developer APIs have been identified at this time.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.5
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0

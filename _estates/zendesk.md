@@ -1,27 +1,27 @@
 ---
-api_total: 7
+api_total: 5
 category: Estates
 description: Zendesk provides customer service and engagement software that helps businesses manage support
   tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and
   phonethrough a unified platform.
 estate_rating:
-  agent_avg: 15.2
+  agent_avg: 15.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 23.5
   agent_ready: 1
   band: thin
   best: 60.5
-  composite_avg: 33.1
+  composite_avg: 32.4
   composite_band: thin
-  composite_raw: 54.4
-  developing: 1
+  composite_raw: 52.4
+  developing: 2
   exemplar: 0
-  rating: 25.9
+  rating: 25.6
   scored: 3
   spread: 17.8
-  strength: 5
-  strong: 2
+  strength: 4
+  strong: 1
   worst: 42.7
 estate_root: null
 estate_root_name: null
@@ -31,7 +31,7 @@ layout: estate
 member_bands:
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
@@ -46,25 +46,25 @@ member_bands:
     score_composite: 60.5
     slug: zendesk-sell
     source: declared
-  - &id002
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 22.8
-    api_count: 4
-    api_count_basis: published
-    immediate_parent: zendesk
-    name: Klaus
-    relationship: product
-    score_band: strong
-    score_composite: 60.1
-    slug: klaus
-    source: parent-company-property
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 1
+  count: 2
   items:
+  - &id002
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.8
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: zendesk
+    name: Klaus
+    relationship: product
+    score_band: developing
+    score_composite: 53.9
+    slug: klaus
+    source: parent-company-property
   - &id003
     acquired: null
     agent_band: agent-aware

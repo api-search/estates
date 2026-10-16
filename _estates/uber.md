@@ -6,10 +6,10 @@ description: Uber is a global technology platform offering transportation, food 
   delivery, voucher programs, and business travel management into third-party applications. APIs use OAuth
   2.0 authentication with scope-based access controls and support both production and sandbox environments.
 estate_rating:
-  agent_avg: 15.3
+  agent_avg: 15.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.6
+  agent_raw: 22.0
   agent_ready: 2
   band: emerging
   best: 54.3
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 30.7
   developing: 0
   exemplar: 0
-  rating: 21.1
+  rating: 21.2
   scored: 4
   spread: 44.6
   strength: 2
@@ -56,7 +56,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.0
+    agent_score: 35.9
     api_count: 1
     api_count_basis: published
     immediate_parent: uber

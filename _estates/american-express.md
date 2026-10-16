@@ -22,7 +22,7 @@ estate_rating:
   composite_raw: 9.7
   developing: 0
   exemplar: 0
-  rating: 12.5
+  rating: 12.6
   scored: 3
   spread: 8.6
   strength: 0

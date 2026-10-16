@@ -5,19 +5,19 @@ description: A multinational semiconductor company designing high-performance pr
   and adaptive computing solutions. Competes in data center, gaming, and embedded markets with its Ryzen,
   EPYC, and Radeon product lines.
 estate_rating:
-  agent_avg: 9.0
+  agent_avg: 9.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.0
   agent_ready: 0
   band: emerging
   best: 26.3
-  composite_avg: 18.2
+  composite_avg: 18.3
   composite_band: emerging
   composite_raw: 14.6
   developing: 0
   exemplar: 0
-  rating: 14.5
+  rating: 14.7
   scored: 3
   spread: 22.7
   strength: 0

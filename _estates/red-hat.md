@@ -4,10 +4,10 @@ category: Estates
 description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions
   including Linux, cloud, container, and Kubernetes technologies.
 estate_rating:
-  agent_avg: 14.0
+  agent_avg: 14.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 16.7
+  agent_raw: 17.8
   agent_ready: 1
   band: emerging
   best: 66.5
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 36.0
   developing: 3
   exemplar: 1
-  rating: 23.3
+  rating: 23.6
   scored: 7
   spread: 64.0
   strength: 6
@@ -54,7 +54,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.8
+    agent_score: 28.0
     api_count: 1
     api_count_basis: published
     immediate_parent: red-hat
@@ -67,7 +67,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.7
+    agent_score: 25.5
     api_count: 5
     api_count_basis: published
     immediate_parent: red-hat
@@ -80,7 +80,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.8
     api_count: 2
     api_count_basis: published
     immediate_parent: red-hat
@@ -99,7 +99,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 16.1
+    agent_score: 18.0
     api_count: 5
     api_count_basis: split
     immediate_parent: red-hat

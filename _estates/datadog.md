@@ -7,7 +7,7 @@ description: Datadog is a monitoring and analytics platform that helps organizat
   platform enables companies to track performance metrics, troubleshoot issues, and optimize their systems
   for peak efficiency.
 estate_rating:
-  agent_avg: 17.4
+  agent_avg: 17.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 24.6

@@ -7,23 +7,23 @@ description: Salesforce is a cloud-based customer relationship management (CRM) 
   gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and
   subscribe to org data programmatically.
 estate_rating:
-  agent_avg: 12.5
+  agent_avg: 12.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 12.9
+  agent_raw: 13.1
   agent_ready: 6
   band: emerging
   best: 71.9
-  composite_avg: 24.0
+  composite_avg: 23.9
   composite_band: emerging
-  composite_raw: 24.6
-  developing: 6
+  composite_raw: 24.4
+  developing: 5
   exemplar: 2
   rating: 19.4
   scored: 30
   spread: 71.9
-  strength: 16
-  strong: 2
+  strength: 17
+  strong: 3
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -65,7 +65,7 @@ member_bands:
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 2
+  count: 3
   items:
   - &id003
     acquired: null
@@ -83,7 +83,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.4
+    agent_score: 27.3
     api_count: 8
     api_count_basis: published
     immediate_parent: salesforce
@@ -93,13 +93,26 @@ member_bands:
     score_composite: 58.1
     slug: salesforce-sales-cloud
     source: declared
+  - &id005
+    acquired: 2018
+    agent_band: agent-ready
+    agent_score: 44.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: salesforce
+    name: MuleSoft
+    relationship: acquisition
+    score_band: strong
+    score_composite: 56.2
+    slug: mulesoft
+    source: declared
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 6
+  count: 5
   items:
-  - &id005
+  - &id006
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
@@ -112,7 +125,7 @@ member_bands:
     score_composite: 52.9
     slug: salesforce-experience-cloud
     source: declared
-  - &id006
+  - &id007
     acquired: 2025
     agent_band: agent-ready
     agent_score: 56.7
@@ -125,10 +138,10 @@ member_bands:
     score_composite: 52.6
     slug: informatica
     source: declared
-  - &id007
+  - &id008
     acquired: 2019
     agent_band: agent-ready
-    agent_score: 45.2
+    agent_score: 47.1
     api_count: 1
     api_count_basis: published
     immediate_parent: salesforce
@@ -137,19 +150,6 @@ member_bands:
     score_band: developing
     score_composite: 51.4
     slug: tableau
-    source: declared
-  - &id008
-    acquired: 2018
-    agent_band: agent-ready
-    agent_score: 43.4
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: salesforce
-    name: MuleSoft
-    relationship: acquisition
-    score_band: developing
-    score_composite: 51.2
-    slug: mulesoft
     source: declared
   - &id009
     acquired: 2016
@@ -167,7 +167,7 @@ member_bands:
   - &id010
     acquired: 2010
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 21.5
     api_count: 1
     api_count_basis: published
     immediate_parent: salesforce
@@ -213,7 +213,7 @@ member_bands:
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 4
+  count: 3
   items:
   - &id013
     acquired: 2024
@@ -242,19 +242,6 @@ member_bands:
     slug: regrello
     source: declared
   - &id015
-    acquired: 2013
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    api_count_basis: split
-    immediate_parent: demandware
-    name: CQuotient
-    relationship: acquisition
-    score_band: emerging
-    score_composite: 13.6
-    slug: cquotient
-    source: declared
-  - &id016
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -271,9 +258,9 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 14
+  count: 15
   items:
-  - &id017
+  - &id016
     acquired: 2026
     agent_band: human-only
     agent_score: 3.5
@@ -286,7 +273,7 @@ member_bands:
     score_composite: 10.0
     slug: cimulate
     source: declared
-  - &id018
+  - &id017
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -296,10 +283,10 @@ member_bands:
     name: Moonhub
     relationship: acquihire
     score_band: minimal
-    score_composite: 9.9
+    score_composite: 9.4
     slug: moonhub
     source: prose
-  - &id019
+  - &id018
     acquired: 2025
     agent_band: human-only
     agent_score: 0.0
@@ -311,6 +298,19 @@ member_bands:
     score_band: minimal
     score_composite: 7.0
     slug: convergence
+    source: declared
+  - &id019
+    acquired: 2013
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: demandware
+    name: CQuotient
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 5.8
+    slug: cquotient
     source: declared
   - &id020
     acquired: 2023
@@ -517,7 +517,7 @@ overview: 'Salesforce publishes its API surface across 31 provider profiles inde
 
 
   Its highest-rated surfaces are Salesforce Service Cloud APIs, Slack, Salesforce Marketing Cloud Account
-  Engagement (Pardot), Salesforce Sales Cloud, Salesforce Experience Cloud.'
+  Engagement (Pardot), Salesforce Sales Cloud, MuleSoft.'
 parent_provider: salesforce
 permalink: /estates/salesforce/
 slug: salesforce
@@ -544,8 +544,8 @@ subfamilies:
   member_count: 1
   members:
   - name: CQuotient
-    score_band: emerging
-    score_composite: 13.6
+    score_band: minimal
+    score_composite: 5.8
     slug: cquotient
   name: Demandware
   on_network: true
