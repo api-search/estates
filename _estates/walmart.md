@@ -14,15 +14,15 @@ estate_rating:
   agent_raw: 6.6
   agent_ready: 0
   band: emerging
-  best: 35.6
-  composite_avg: 16.6
+  best: 35.7
+  composite_avg: 15.8
   composite_band: emerging
-  composite_raw: 13.5
+  composite_raw: 12.5
   developing: 0
   exemplar: 0
-  rating: 13.2
+  rating: 12.8
   scored: 6
-  spread: 35.6
+  spread: 35.7
   strength: 0
   strong: 0
   worst: 0.0
@@ -34,7 +34,7 @@ layout: estate
 member_bands:
 - band: thin
   blurb: Limited public surface area
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
@@ -46,9 +46,15 @@ member_bands:
     name: Flipkart
     relationship: acquisition
     score_band: thin
-    score_composite: 35.6
+    score_composite: 35.7
     slug: flipkart
     source: prose
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
+  items:
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -58,16 +64,10 @@ member_bands:
     immediate_parent: walmart
     name: PhonePe
     relationship: acquisition
-    score_band: thin
-    score_composite: 30.7
+    score_band: emerging
+    score_composite: 24.7
     slug: phonepe
     source: prose
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
-  items:
   - &id003
     acquired: null
     agent_band: human-only
@@ -78,7 +78,7 @@ member_bands:
     name: Eloquii
     relationship: product
     score_band: emerging
-    score_composite: 11.4
+    score_composite: 11.5
     slug: eloquii
     source: parent-company-property
   label: Emerging
@@ -140,7 +140,7 @@ members:
 members_unrated: []
 name: Walmart
 overview: 'Walmart publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 35.6 points, from 35.6 down to 0.0.
+  of which 6 carry a rating. The rated members span 35.7 points, from 35.7 down to 0.0.
 
 
   Its highest-rated surfaces are Flipkart, PhonePe, Eloquii, Myntra, Jet (Walmart).'

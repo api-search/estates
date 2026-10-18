@@ -10,18 +10,18 @@ estate_rating:
   agent_raw: 35.5
   agent_ready: 1
   band: thin
-  best: 83.3
-  composite_avg: 35.0
+  best: 81.8
+  composite_avg: 33.9
   composite_band: thin
-  composite_raw: 59.3
+  composite_raw: 57.8
   developing: 0
   exemplar: 1
-  rating: 28.9
+  rating: 28.2
   scored: 3
   spread: 50.6
   strength: 5
   strong: 1
-  worst: 32.7
+  worst: 31.2
 estate_root: microsoft
 estate_root_name: Microsoft
 image: https://www.microsoft.com/en-us/security/content/dam/microsoft/final/security/includes/microsoft-entra-logo.svg
@@ -42,7 +42,7 @@ member_bands:
     name: Microsoft Entra ID (formerly Azure AD)
     relationship: product
     score_band: exemplar
-    score_composite: 83.3
+    score_composite: 81.8
     slug: azure-ad
     source: declared
   label: Exemplar
@@ -61,7 +61,7 @@ member_bands:
     name: Microsoft Active Directory
     relationship: product
     score_band: strong
-    score_composite: 62.0
+    score_composite: 60.5
     slug: active-directory
     source: declared
   label: Strong
@@ -80,7 +80,7 @@ member_bands:
     name: Microsoft Intune
     relationship: product
     score_band: thin
-    score_composite: 32.7
+    score_composite: 31.2
     slug: microsoft-intune
     source: declared
   label: Thin
@@ -94,7 +94,7 @@ members:
 members_unrated: []
 name: Microsoft Entra
 overview: 'Microsoft Entra publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 50.6 points, from 83.3 down to 32.7.
+  network, of which 3 carry a rating. The rated members span 50.6 points, from 81.8 down to 31.2.
 
 
   Its highest-rated surfaces are Microsoft Entra ID (formerly Azure AD), Microsoft Active Directory, Microsoft
@@ -107,7 +107,7 @@ source_heading: Source (apis.yml)
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/apis.yml
 subfamilies: []
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Azure AD
 - Entra

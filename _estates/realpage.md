@@ -9,33 +9,33 @@ description: RealPage is a multifamily and rental-housing software company offer
   the RPX integration marketplace and provisioned under contract rather than via a public self-serve developer
   portal.
 estate_rating:
-  agent_avg: 7.4
+  agent_avg: 7.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.3
   agent_ready: 0
   band: emerging
-  best: 14.0
-  composite_avg: 17.0
+  best: 8.0
+  composite_avg: 15.5
   composite_band: emerging
-  composite_raw: 8.2
+  composite_raw: 5.3
   developing: 0
   exemplar: 0
-  rating: 13.1
+  rating: 12.2
   scored: 2
-  spread: 11.5
+  spread: 5.4
   strength: 0
   strong: 0
-  worst: 2.5
+  worst: 2.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/realpage.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 2
   items:
   - &id001
     acquired: null
@@ -46,16 +46,10 @@ member_bands:
     immediate_parent: realpage
     name: Buildium
     relationship: product
-    score_band: emerging
-    score_composite: 14.0
+    score_band: minimal
+    score_composite: 8.0
     slug: buildium
     source: prose
-  label: Emerging
-  open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 1
-  items:
   - &id002
     acquired: null
     agent_band: human-only
@@ -66,7 +60,7 @@ member_bands:
     name: RentMineOnline
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: rentmineonline
     source: prose
   label: Minimal
@@ -99,7 +93,7 @@ members:
 members_unrated: []
 name: RealPage
 overview: 'RealPage publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 11.5 points, from 14.0 down to 2.5.
+  of which 3 carry a rating. The rated members span 5.4 points, from 8.0 down to 2.6.
 
 
   Its highest-rated surfaces are Buildium, RentMineOnline, Rentlytics.'

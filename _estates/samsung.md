@@ -8,21 +8,21 @@ description: Samsung Electronics is a global technology leader offering develope
   provides REST APIs, SDKs, and tools that enable developers to create connected experiences for hundreds
   of millions of Galaxy devices and Samsung smart home products worldwide.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 3.7
-  composite_avg: 13.2
+  best: 3.8
+  composite_avg: 12.7
   composite_band: emerging
-  composite_raw: 1.2
+  composite_raw: 1.3
   developing: 0
   exemplar: 0
-  rating: 10.5
+  rating: 10.2
   scored: 3
-  spread: 3.7
+  spread: 3.8
   strength: 0
   strong: 0
   worst: 0.0
@@ -46,7 +46,7 @@ member_bands:
     name: Harman International
     relationship: subsidiary
     score_band: minimal
-    score_composite: 3.7
+    score_composite: 3.8
     slug: harman-international-industries
     source: prose
   - &id002
@@ -86,7 +86,7 @@ members:
 members_unrated: []
 name: Samsung
 overview: 'Samsung publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 3.7 points, from 3.7 down to 0.0.
+  of which 3 carry a rating. The rated members span 3.8 points, from 3.8 down to 0.0.
 
 
   Its highest-rated surfaces are Harman International, Boxee, mSpot.'

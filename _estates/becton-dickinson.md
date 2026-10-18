@@ -14,15 +14,15 @@ estate_rating:
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
-  best: 24.1
-  composite_avg: 18.2
+  best: 22.6
+  composite_avg: 17.5
   composite_band: emerging
-  composite_raw: 14.5
+  composite_raw: 14.0
   developing: 0
   exemplar: 0
-  rating: 13.6
+  rating: 13.2
   scored: 3
-  spread: 21.1
+  spread: 19.6
   strength: 0
   strong: 0
   worst: 3.0
@@ -46,7 +46,7 @@ member_bands:
     name: CareFusion (BD)
     relationship: acquisition
     score_band: emerging
-    score_composite: 24.1
+    score_composite: 22.6
     slug: carefusion
     source: declared
   - &id002
@@ -92,7 +92,7 @@ members:
 members_unrated: []
 name: Becton Dickinson
 overview: 'Becton Dickinson publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 21.1 points, from 24.1 down to 3.0.
+  network, of which 3 carry a rating. The rated members span 19.6 points, from 22.6 down to 3.0.
 
 
   Its highest-rated surfaces are CareFusion (BD), C. R. Bard, Cellular Research.'

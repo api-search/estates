@@ -14,15 +14,15 @@ estate_rating:
   agent_raw: 8.0
   agent_ready: 1
   band: emerging
-  best: 37.1
-  composite_avg: 15.6
+  best: 35.7
+  composite_avg: 15.0
   composite_band: emerging
-  composite_raw: 12.2
+  composite_raw: 11.8
   developing: 0
   exemplar: 0
-  rating: 12.9
+  rating: 12.6
   scored: 7
-  spread: 34.1
+  spread: 32.7
   strength: 0
   strong: 0
   worst: 3.0
@@ -46,7 +46,7 @@ member_bands:
     name: Rockwell Collins
     relationship: product
     score_band: thin
-    score_composite: 37.1
+    score_composite: 35.7
     slug: rockwell-collins
     source: parent-company-property
   - &id002
@@ -59,7 +59,7 @@ member_bands:
     name: United Technologies
     relationship: product
     score_band: thin
-    score_composite: 28.4
+    score_composite: 26.9
     slug: united-technologies
     source: declared
   label: Thin
@@ -78,7 +78,7 @@ member_bands:
     name: B/E Aerospace
     relationship: product
     score_band: minimal
-    score_composite: 4.7
+    score_composite: 4.8
     slug: b-e-aerospace
     source: parent-company-property
   - &id004
@@ -91,7 +91,7 @@ member_bands:
     name: Raytheon
     relationship: product
     score_band: minimal
-    score_composite: 4.6
+    score_composite: 4.5
     slug: raytheon
     source: declared
   - &id005
@@ -104,7 +104,7 @@ member_bands:
     name: BBN Technologies
     relationship: subsidiary
     score_band: minimal
-    score_composite: 4.2
+    score_composite: 4.1
     slug: bbn-technologies
     source: prose
   - &id006
@@ -148,7 +148,7 @@ members:
 members_unrated: []
 name: RTX
 overview: 'RTX publishes its API surface across 7 provider profiles indexed on the APIs.io network, of
-  which 7 carry a rating. The rated members span 34.1 points, from 37.1 down to 3.0.
+  which 7 carry a rating. The rated members span 32.7 points, from 35.7 down to 3.0.
 
 
   Its highest-rated surfaces are Rockwell Collins, United Technologies, B/E Aerospace, Raytheon, BBN Technologies.'
@@ -164,11 +164,11 @@ subfamilies:
   members:
   - name: Rockwell Collins
     score_band: thin
-    score_composite: 37.1
+    score_composite: 35.7
     slug: rockwell-collins
   - name: B/E Aerospace
     score_band: minimal
-    score_composite: 4.7
+    score_composite: 4.8
     slug: b-e-aerospace
   name: United Technologies
   on_network: true

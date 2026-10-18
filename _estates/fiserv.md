@@ -4,21 +4,21 @@ category: Estates
 description: Fiserv is a global provider of financial services technology solutions, offering a wide range
   of products and services to help clients in the banking, payments, and wealth management industries.
 estate_rating:
-  agent_avg: 5.9
+  agent_avg: 5.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.4
   agent_ready: 0
   band: emerging
-  best: 18.2
-  composite_avg: 13.7
+  best: 16.7
+  composite_avg: 13.1
   composite_band: emerging
-  composite_raw: 7.0
+  composite_raw: 6.7
   developing: 0
   exemplar: 0
-  rating: 10.6
+  rating: 10.2
   scored: 5
-  spread: 18.2
+  spread: 16.7
   strength: 0
   strong: 0
   worst: 0.0
@@ -42,7 +42,7 @@ member_bands:
     name: First Data (Fiserv)
     relationship: acquisition
     score_band: emerging
-    score_composite: 18.2
+    score_composite: 16.7
     slug: first-data
     source: declared
   label: Emerging
@@ -136,7 +136,7 @@ members:
 members_unrated: []
 name: Fiserv
 overview: 'Fiserv publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 18.2 points, from 18.2 down to 0.0.
+  of which 6 carry a rating. The rated members span 16.7 points, from 16.7 down to 0.0.
 
 
   Its highest-rated surfaces are First Data (Fiserv), Salido, BentoBox, Corillian, Fincentric.'

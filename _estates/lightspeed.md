@@ -13,15 +13,15 @@ estate_rating:
   agent_raw: 11.9
   agent_ready: 1
   band: emerging
-  best: 26.7
-  composite_avg: 18.1
+  best: 25.2
+  composite_avg: 17.4
   composite_band: emerging
-  composite_raw: 14.3
+  composite_raw: 13.8
   developing: 0
   exemplar: 0
-  rating: 15.2
+  rating: 14.8
   scored: 3
-  spread: 22.7
+  spread: 21.2
   strength: 0
   strong: 0
   worst: 4.0
@@ -31,9 +31,9 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightspeed
 is_subfamily: false
 layout: estate
 member_bands:
-- band: thin
-  blurb: Limited public surface area
-  count: 1
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
   items:
   - &id001
     acquired: null
@@ -44,16 +44,10 @@ member_bands:
     immediate_parent: lightspeed
     name: Lightspeed
     relationship: product
-    score_band: thin
-    score_composite: 26.7
+    score_band: emerging
+    score_composite: 25.2
     slug: lightspeed-pos
     source: declared
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
-  items:
   - &id002
     acquired: null
     agent_band: human-only
@@ -64,7 +58,7 @@ member_bands:
     name: NuORDER
     relationship: acquisition
     score_band: emerging
-    score_composite: 12.2
+    score_composite: 12.3
     slug: nuorder
     source: prose
   label: Emerging
@@ -97,7 +91,7 @@ members:
 members_unrated: []
 name: Lightspeed Commerce
 overview: 'Lightspeed Commerce publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 22.7 points, from 26.7 down to 4.0.
+  network, of which 3 carry a rating. The rated members span 21.2 points, from 25.2 down to 4.0.
 
 
   Its highest-rated surfaces are Lightspeed, NuORDER, Shopkeep.'

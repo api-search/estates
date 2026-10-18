@@ -18,18 +18,18 @@ estate_rating:
   agent_raw: 3.1
   agent_ready: 0
   band: emerging
-  best: 43.5
-  composite_avg: 21.1
+  best: 43.6
+  composite_avg: 20.6
   composite_band: emerging
-  composite_raw: 22.3
+  composite_raw: 22.4
   developing: 1
   exemplar: 0
-  rating: 15.7
+  rating: 15.4
   scored: 3
   spread: 33.3
   strength: 1
   strong: 0
-  worst: 10.2
+  worst: 10.3
 estate_root: null
 estate_root_name: null
 image: https://www.life360.com/svgs/life360-logo-dark.svg
@@ -50,7 +50,7 @@ member_bands:
     name: Nativo
     relationship: product
     score_band: developing
-    score_composite: 43.5
+    score_composite: 43.6
     slug: nativo
     source: parent-company-property
   label: Developing
@@ -69,7 +69,7 @@ member_bands:
     name: Tile (thetileapp)
     relationship: product
     score_band: emerging
-    score_composite: 13.1
+    score_composite: 13.2
     slug: thetileapp
     source: parent-company-property
   label: Emerging
@@ -88,7 +88,7 @@ member_bands:
     name: Jiobit
     relationship: acquisition
     score_band: minimal
-    score_composite: 10.2
+    score_composite: 10.3
     slug: jiobit
     source: prose
   label: Minimal
@@ -102,7 +102,7 @@ members:
 members_unrated: []
 name: Life360
 overview: 'Life360 publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 33.3 points, from 43.5 down to 10.2.
+  of which 3 carry a rating. The rated members span 33.3 points, from 43.6 down to 10.3.
 
 
   Its highest-rated surfaces are Nativo, Tile (thetileapp), Jiobit.'

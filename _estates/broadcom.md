@@ -7,23 +7,23 @@ description: Broadcom is a global technology company that specializes in the des
   electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets,
   routers, and smart TVs.
 estate_rating:
-  agent_avg: 6.2
+  agent_avg: 6.1
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.5
+  agent_raw: 5.4
   agent_ready: 1
   band: emerging
-  best: 57.2
-  composite_avg: 14.8
+  best: 52.2
+  composite_avg: 14.4
   composite_band: emerging
-  composite_raw: 13.9
+  composite_raw: 13.5
   developing: 4
   exemplar: 0
-  rating: 11.4
+  rating: 11.1
   scored: 29
-  spread: 57.2
-  strength: 6
-  strong: 1
+  spread: 52.2
+  strength: 4
+  strong: 0
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -31,9 +31,9 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadcom.p
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 4
   items:
   - &id001
     acquired: 2018
@@ -44,27 +44,21 @@ member_bands:
     immediate_parent: vmware
     name: CloudHealth
     relationship: acquisition
-    score_band: strong
-    score_composite: 57.2
+    score_band: developing
+    score_composite: 52.2
     slug: cloudhealth
     source: declared
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 4
-  items:
   - &id002
     acquired: 2023
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 22.9
     api_count: 1
     api_count_basis: published
     immediate_parent: broadcom
     name: VMware
     relationship: acquisition
     score_band: developing
-    score_composite: 52.8
+    score_composite: 51.3
     slug: vmware
     source: declared
   - &id003
@@ -77,7 +71,7 @@ member_bands:
     name: Brocade
     relationship: acquisition
     score_band: developing
-    score_composite: 44.4
+    score_composite: 42.9
     slug: brocade
     source: declared
   - &id004
@@ -90,9 +84,15 @@ member_bands:
     name: AppNeta
     relationship: acquisition
     score_band: developing
-    score_composite: 42.2
+    score_composite: 42.3
     slug: appneta
     source: declared
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 2
+  items:
   - &id005
     acquired: 2019
     agent_band: agent-aware
@@ -102,16 +102,10 @@ member_bands:
     immediate_parent: broadcom
     name: Symantec
     relationship: acquisition
-    score_band: developing
-    score_composite: 40.5
+    score_band: thin
+    score_composite: 39.0
     slug: symantec
     source: declared
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 1
-  items:
   - &id006
     acquired: null
     agent_band: agent-aware
@@ -122,7 +116,7 @@ member_bands:
     name: VMware Tanzu
     relationship: product
     score_band: thin
-    score_composite: 35.0
+    score_composite: 33.5
     slug: vmware-tanzu
     source: declared
   label: Thin
@@ -141,7 +135,7 @@ member_bands:
     name: Lastline
     relationship: acquisition
     score_band: emerging
-    score_composite: 23.4
+    score_composite: 23.5
     slug: lastline
     source: declared
   - &id008
@@ -154,7 +148,7 @@ member_bands:
     name: CA Technologies (Broadcom)
     relationship: acquisition
     score_band: emerging
-    score_composite: 20.9
+    score_composite: 19.4
     slug: ca
     source: declared
   - &id009
@@ -167,7 +161,7 @@ member_bands:
     name: Runscope
     relationship: acquisition
     score_band: emerging
-    score_composite: 19.2
+    score_composite: 19.3
     slug: runscope
     source: prose
   - &id010
@@ -180,7 +174,7 @@ member_bands:
     name: Carbon Black
     relationship: acquisition
     score_band: emerging
-    score_composite: 19.0
+    score_composite: 19.1
     slug: carbon-black
     source: declared
   - &id011
@@ -193,7 +187,7 @@ member_bands:
     name: Bluecoat (Symantec)
     relationship: acquisition
     score_band: emerging
-    score_composite: 14.0
+    score_composite: 14.1
     slug: bluecoat-symantec
     source: declared
   label: Emerging
@@ -212,7 +206,7 @@ member_bands:
     name: AVI Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.5
+    score_composite: 7.6
     slug: avi-networks
     source: declared
   - &id013
@@ -225,7 +219,7 @@ member_bands:
     name: Tracelytics
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.8
+    score_composite: 5.9
     slug: tracelytics
     source: declared
   - &id014
@@ -251,7 +245,7 @@ member_bands:
     name: Avago Technologies
     relationship: rename
     score_band: minimal
-    score_composite: 4.2
+    score_composite: 4.3
     slug: avago-technologies
     source: declared
   - &id016
@@ -264,7 +258,7 @@ member_bands:
     name: Nimsoft
     relationship: product
     score_band: minimal
-    score_composite: 3.8
+    score_composite: 3.9
     slug: nimsoft
     source: parent-company-property
   - &id017
@@ -290,7 +284,7 @@ member_bands:
     name: Nicira Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: nicira-networks
     source: declared
   - &id019
@@ -303,7 +297,7 @@ member_bands:
     name: Octarine
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: octarine
     source: declared
   - &id020
@@ -521,7 +515,7 @@ members:
 members_unrated: []
 name: Broadcom
 overview: 'Broadcom publishes its API surface across 32 provider profiles indexed on the APIs.io network,
-  of which 32 carry a rating. The rated members span 57.2 points, from 57.2 down to 0.0.
+  of which 32 carry a rating. The rated members span 52.2 points, from 52.2 down to 0.0.
 
 
   Its highest-rated surfaces are CloudHealth, VMware, Brocade, AppNeta, Symantec.'
@@ -536,24 +530,24 @@ subfamilies:
   member_count: 12
   members:
   - name: CloudHealth
-    score_band: strong
-    score_composite: 57.2
+    score_band: developing
+    score_composite: 52.2
     slug: cloudhealth
   - name: VMware Tanzu
     score_band: thin
-    score_composite: 35.0
+    score_composite: 33.5
     slug: vmware-tanzu
   - name: Lastline
     score_band: emerging
-    score_composite: 23.4
+    score_composite: 23.5
     slug: lastline
   - name: Carbon Black
     score_band: emerging
-    score_composite: 19.0
+    score_composite: 19.1
     slug: carbon-black
   - name: AVI Networks
     score_band: minimal
-    score_composite: 7.5
+    score_composite: 7.6
     slug: avi-networks
   - name: SpringSource
     score_band: minimal
@@ -561,11 +555,11 @@ subfamilies:
     slug: springsource
   - name: Nicira Networks
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: nicira-networks
   - name: Octarine
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: octarine
   - name: Apteligent
     score_band: minimal
@@ -592,7 +586,7 @@ subfamilies:
   members:
   - name: Bluecoat (Symantec)
     score_band: emerging
-    score_composite: 14.0
+    score_composite: 14.1
     slug: bluecoat-symantec
   - name: Brightmail
     score_band: minimal
@@ -634,7 +628,7 @@ subfamilies:
   members:
   - name: Runscope
     score_band: emerging
-    score_composite: 19.2
+    score_composite: 19.3
     slug: runscope
   - name: Arcot Systems
     score_band: minimal
@@ -653,7 +647,7 @@ subfamilies:
   members:
   - name: Tracelytics
     score_band: minimal
-    score_composite: 5.8
+    score_composite: 5.9
     slug: tracelytics
   name: AppNeta
   on_network: true

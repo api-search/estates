@@ -7,21 +7,21 @@ description: Tripadvisor is the world's largest travel guidance platform, helpin
   and 29 languages. Tripadvisor provides APIs for content integration, hotel connectivity, and restaurant
   reservations.
 estate_rating:
-  agent_avg: 8.1
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.7
   agent_ready: 0
   band: emerging
-  best: 46.5
-  composite_avg: 15.4
+  best: 40.5
+  composite_avg: 14.4
   composite_band: emerging
-  composite_raw: 10.4
+  composite_raw: 9.2
   developing: 1
   exemplar: 0
-  rating: 12.5
+  rating: 11.8
   scored: 5
-  spread: 46.5
+  spread: 40.5
   strength: 1
   strong: 0
   worst: 0.0
@@ -45,7 +45,7 @@ member_bands:
     name: TheFork
     relationship: product
     score_band: developing
-    score_composite: 46.5
+    score_composite: 40.5
     slug: thefork
     source: prose
   label: Developing
@@ -64,7 +64,7 @@ member_bands:
     name: Oyster.com (TripAdvisor)
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.8
+    score_composite: 3.9
     slug: oystercom-tripadvisor
     source: prose
   - &id003
@@ -77,7 +77,7 @@ member_bands:
     name: bookatable
     relationship: product
     score_band: minimal
-    score_composite: 1.6
+    score_composite: 1.7
     slug: bookatable
     source: prose
   - &id004
@@ -119,7 +119,7 @@ members:
 members_unrated: []
 name: Tripadvisor
 overview: 'Tripadvisor publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 46.5 points, from 46.5 down to 0.0.
+  of which 5 carry a rating. The rated members span 40.5 points, from 40.5 down to 0.0.
 
 
   Its highest-rated surfaces are TheFork, Oyster.com (TripAdvisor), bookatable, HouseTrip, Restorando.'
@@ -135,7 +135,7 @@ subfamilies:
   members:
   - name: bookatable
     score_band: minimal
-    score_composite: 1.6
+    score_composite: 1.7
     slug: bookatable
   name: TheFork
   on_network: true

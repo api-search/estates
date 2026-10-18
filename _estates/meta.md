@@ -4,24 +4,24 @@ category: Estates
 description: Collection of Meta (Facebook) platform APIs for social networking, messaging, advertising,
   content publishing, AI, and developer tools across Facebook, Instagram, WhatsApp, Threads, and Messenger.
 estate_rating:
-  agent_avg: 17.5
+  agent_avg: 17.3
   agent_band: emerging
   agent_native: 0
   agent_raw: 29.1
   agent_ready: 2
   band: thin
-  best: 66.8
-  composite_avg: 35.2
+  best: 67.4
+  composite_avg: 33.8
   composite_band: thin
-  composite_raw: 59.7
-  developing: 1
+  composite_raw: 57.6
+  developing: 2
   exemplar: 1
-  rating: 28.1
+  rating: 27.2
   scored: 3
-  spread: 14.3
-  strength: 6
-  strong: 1
-  worst: 52.5
+  spread: 16.3
+  strength: 5
+  strong: 0
+  worst: 51.1
 estate_root: null
 estate_root_name: null
 image: https://about.meta.com/brand/resources/meta/our-logo/
@@ -42,14 +42,14 @@ member_bands:
     name: Instagram
     relationship: product
     score_band: exemplar
-    score_composite: 66.8
+    score_composite: 67.4
     slug: instagram
     source: declared
   label: Exemplar
   open: true
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 2
   items:
   - &id002
     acquired: null
@@ -60,16 +60,10 @@ member_bands:
     immediate_parent: meta
     name: Giphy
     relationship: acquisition
-    score_band: strong
-    score_composite: 59.8
+    score_band: developing
+    score_composite: 54.2
     slug: giphy
     source: prose
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 1
-  items:
   - &id003
     acquired: null
     agent_band: agent-ready
@@ -80,7 +74,7 @@ member_bands:
     name: WhatsApp
     relationship: product
     score_band: developing
-    score_composite: 52.5
+    score_composite: 51.1
     slug: whatsapp
     source: declared
   label: Developing
@@ -94,7 +88,7 @@ members:
 members_unrated: []
 name: Meta
 overview: 'Meta publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 14.3 points, from 66.8 down to 52.5.
+  which 3 carry a rating. The rated members span 16.3 points, from 67.4 down to 51.1.
 
 
   Its highest-rated surfaces are Instagram, Giphy, WhatsApp.'

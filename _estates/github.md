@@ -4,23 +4,23 @@ category: Estates
 description: The GitHub REST API allows developers to programmatically interact with GitHub resources
   including repositories, users, organizations, pull requests, issues, and more.
 estate_rating:
-  agent_avg: 15.8
+  agent_avg: 15.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.4
+  agent_raw: 18.2
   agent_ready: 2
   band: emerging
-  best: 82.8
-  composite_avg: 28.9
+  best: 81.3
+  composite_avg: 28.3
   composite_band: thin
-  composite_raw: 32.7
+  composite_raw: 32.2
   developing: 2
-  exemplar: 1
-  rating: 23.7
+  exemplar: 2
+  rating: 23.3
   scored: 11
-  spread: 82.8
-  strength: 7
-  strong: 1
+  spread: 81.3
+  strength: 8
+  strong: 0
   worst: 0.0
 estate_root: microsoft
 estate_root_name: Microsoft
@@ -30,7 +30,7 @@ layout: estate
 member_bands:
 - band: exemplar
   blurb: Complete, well-documented, and agent-ready
-  count: 1
+  count: 2
   items:
   - &id001
     acquired: null
@@ -42,15 +42,9 @@ member_bands:
     name: GitHub Actions
     relationship: product
     score_band: exemplar
-    score_composite: 82.8
+    score_composite: 81.3
     slug: github-actions
     source: declared
-  label: Exemplar
-  open: true
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
-  items:
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -60,11 +54,11 @@ member_bands:
     immediate_parent: github
     name: GitHub Copilot
     relationship: product
-    score_band: strong
-    score_composite: 65.8
+    score_band: exemplar
+    score_composite: 68.7
     slug: github-copilot
     source: declared
-  label: Strong
+  label: Exemplar
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
@@ -80,7 +74,7 @@ member_bands:
     name: NuGet
     relationship: product
     score_band: developing
-    score_composite: 50.6
+    score_composite: 49.3
     slug: nuget
     source: declared
   - &id004
@@ -93,7 +87,7 @@ member_bands:
     name: npm
     relationship: product
     score_band: developing
-    score_composite: 49.8
+    score_composite: 48.3
     slug: npm
     source: declared
   label: Developing
@@ -112,27 +106,27 @@ member_bands:
     name: GitHub Container Registry
     relationship: product
     score_band: thin
-    score_composite: 36.1
+    score_composite: 34.6
     slug: github-container-registry
     source: declared
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 20.7
     api_count: 8
     api_count_basis: split
     immediate_parent: github
     name: Microsoft Package
     relationship: product
     score_band: thin
-    score_composite: 33.4
+    score_composite: 31.9
     slug: microsoft-package
     source: declared
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 2
+  count: 1
   items:
   - &id007
     acquired: null
@@ -144,9 +138,15 @@ member_bands:
     name: GitHub Enterprise
     relationship: product
     score_band: emerging
-    score_composite: 25.9
+    score_composite: 26.0
     slug: github-enterprise
     source: declared
+  label: Emerging
+  open: false
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 4
+  items:
   - &id008
     acquired: null
     agent_band: human-only
@@ -156,16 +156,10 @@ member_bands:
     immediate_parent: github
     name: GitHub CLI
     relationship: product
-    score_band: emerging
-    score_composite: 12.3
+    score_band: minimal
+    score_composite: 10.8
     slug: github-cli
     source: declared
-  label: Emerging
-  open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 3
-  items:
   - &id009
     acquired: null
     agent_band: human-only
@@ -176,7 +170,7 @@ member_bands:
     name: GitHub ReadMe Stats
     relationship: product
     score_band: minimal
-    score_composite: 3.5
+    score_composite: 3.6
     slug: github-readme-stats
     source: declared
   - &id010
@@ -224,7 +218,7 @@ members:
 members_unrated: []
 name: GitHub
 overview: 'GitHub publishes its API surface across 11 provider profiles indexed on the APIs.io network,
-  of which 11 carry a rating. The rated members span 82.8 points, from 82.8 down to 0.0.
+  of which 11 carry a rating. The rated members span 81.3 points, from 81.3 down to 0.0.
 
 
   Its highest-rated surfaces are GitHub Actions, GitHub Copilot, NuGet, npm, GitHub Container Registry.'
@@ -241,7 +235,7 @@ tags:
 - Pipelines
 - Platform
 - Software Development
-- Source Control
+- Version Control
 - T1
 - GitHub
 - Git

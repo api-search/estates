@@ -18,18 +18,18 @@ estate_rating:
   agent_raw: 8.4
   agent_ready: 0
   band: emerging
-  best: 40.2
-  composite_avg: 21.9
+  best: 40.3
+  composite_avg: 21.2
   composite_band: emerging
-  composite_raw: 24.4
+  composite_raw: 24.0
   developing: 1
   exemplar: 0
-  rating: 16.9
+  rating: 16.5
   scored: 3
-  spread: 24.1
+  spread: 25.7
   strength: 1
   strong: 0
-  worst: 16.1
+  worst: 14.6
 estate_root: null
 estate_root_name: null
 image: https://be.tricentis.com/media-assets/2022/08/Tricentis-Logo-1-1120x446-1.png
@@ -50,7 +50,7 @@ member_bands:
     name: Testim
     relationship: acquisition
     score_band: developing
-    score_composite: 40.2
+    score_composite: 40.3
     slug: testim-io
     source: declared
   label: Developing
@@ -69,7 +69,7 @@ member_bands:
     name: Waldo
     relationship: acquisition
     score_band: emerging
-    score_composite: 16.9
+    score_composite: 17.0
     slug: waldo
     source: prose
   - &id003
@@ -82,7 +82,7 @@ member_bands:
     name: SpecFlow
     relationship: product
     score_band: emerging
-    score_composite: 16.1
+    score_composite: 14.6
     slug: specflow
     source: parent-company-property
   label: Emerging
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: Tricentis
 overview: 'Tricentis publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 24.1 points, from 40.2 down to 16.1.
+  of which 3 carry a rating. The rated members span 25.7 points, from 40.3 down to 14.6.
 
 
   Its highest-rated surfaces are Testim, Waldo, SpecFlow.'

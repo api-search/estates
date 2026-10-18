@@ -7,19 +7,19 @@ description: Paylocity is a cloud-based human capital management (HCM) and payro
   self-service tools. The Paylocity API uses OAuth 2.0 client credentials over api.paylocity.com to expose
   employee, payroll, deduction, earning, and onboarding data for partner integrations and customer automations.
 estate_rating:
-  agent_avg: 9.8
+  agent_avg: 9.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.8
   agent_ready: 0
   band: emerging
   best: 38.7
-  composite_avg: 19.8
+  composite_avg: 18.5
   composite_band: emerging
-  composite_raw: 18.7
+  composite_raw: 16.7
   developing: 0
   exemplar: 0
-  rating: 15.8
+  rating: 14.9
   scored: 3
   spread: 35.1
   strength: 0
@@ -50,9 +50,9 @@ member_bands:
     source: parent-company-property
   label: Thin
   open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 2
   items:
   - &id002
     acquired: null
@@ -63,16 +63,10 @@ member_bands:
     immediate_parent: paylocity
     name: Airbase
     relationship: acquisition
-    score_band: emerging
-    score_composite: 13.8
+    score_band: minimal
+    score_composite: 7.8
     slug: airbase
     source: prose
-  label: Emerging
-  open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 1
-  items:
   - &id003
     acquired: null
     agent_band: human-only

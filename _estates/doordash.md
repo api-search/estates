@@ -11,21 +11,21 @@ description: DoorDash is an on-demand local commerce platform whose developer pr
   HS256 JSON Web Token the caller signs itself, and DoorDash serves each OpenAPI definition as plain YAML
   from developer.doordash.com.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 5.6
-  composite_avg: 14.3
+  best: 5.7
+  composite_avg: 13.8
   composite_band: emerging
-  composite_raw: 4.1
+  composite_raw: 4.2
   developing: 0
   exemplar: 0
-  rating: 11.2
+  rating: 10.8
   scored: 3
-  spread: 2.2
+  spread: 2.3
   strength: 0
   strong: 0
   worst: 3.4
@@ -49,7 +49,7 @@ member_bands:
     name: Bbot
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.6
+    score_composite: 5.7
     slug: bbot
     source: prose
   - &id002
@@ -89,7 +89,7 @@ members:
 members_unrated: []
 name: Doordash
 overview: 'Doordash publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 2.2 points, from 5.6 down to 3.4.
+  of which 3 carry a rating. The rated members span 2.3 points, from 5.7 down to 3.4.
 
 
   Its highest-rated surfaces are Bbot, Caviar, chowbotics.'

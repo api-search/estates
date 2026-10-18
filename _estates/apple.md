@@ -3,22 +3,22 @@ api_total: 3
 category: Estates
 description: Collection of Apple's public APIs and developer resources.
 estate_rating:
-  agent_avg: 5.5
+  agent_avg: 5.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.5
   agent_ready: 0
-  band: emerging
-  best: 65.9
-  composite_avg: 13.7
+  band: minimal
+  best: 61.7
+  composite_avg: 12.7
   composite_band: emerging
-  composite_raw: 10.8
-  developing: 1
+  composite_raw: 9.8
+  developing: 0
   exemplar: 0
-  rating: 10.4
+  rating: 9.8
   scored: 12
-  spread: 65.9
-  strength: 3
+  spread: 61.7
+  strength: 2
   strong: 1
   worst: 0.0
 estate_root: null
@@ -41,13 +41,13 @@ member_bands:
     name: Apple CloudKit
     relationship: product
     score_band: strong
-    score_composite: 65.9
+    score_composite: 61.7
     slug: cloudkit
     source: declared
   label: Strong
   open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
+- band: thin
+  blurb: Limited public surface area
   count: 1
   items:
   - &id002
@@ -59,11 +59,11 @@ member_bands:
     immediate_parent: apple
     name: Shazam
     relationship: product
-    score_band: developing
-    score_composite: 47.0
+    score_band: thin
+    score_composite: 38.7
     slug: shazam
     source: parent-company-property
-  label: Developing
+  label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
@@ -98,7 +98,7 @@ member_bands:
     name: Drishti
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: drishti
     source: prose
   - &id005
@@ -111,7 +111,7 @@ member_bands:
     name: Siri
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: siri
     source: prose
   - &id006
@@ -245,7 +245,7 @@ members:
 members_unrated: []
 name: Apple
 overview: 'Apple publishes its API surface across 13 provider profiles indexed on the APIs.io network,
-  of which 13 carry a rating. The rated members span 65.9 points, from 65.9 down to 0.0.
+  of which 13 carry a rating. The rated members span 61.7 points, from 61.7 down to 0.0.
 
 
   Its highest-rated surfaces are Apple CloudKit, Shazam, Silk Labs, Drishti, Siri.'

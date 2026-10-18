@@ -10,24 +10,24 @@ description: Quest Software Inc. is a privately held IT management and cybersecu
   Support portal. Surfaced as a portfolio-lead stub and processed by the API Evangelist enrichment pipeline;
   no public, first-party developer API portal or OpenAPI surface was discoverable at enrichment time.
 estate_rating:
-  agent_avg: 7.7
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.2
   agent_ready: 0
   band: emerging
-  best: 9.5
-  composite_avg: 16.3
+  best: 9.6
+  composite_avg: 15.7
   composite_band: emerging
-  composite_raw: 6.0
+  composite_raw: 6.1
   developing: 0
   exemplar: 0
-  rating: 12.9
+  rating: 12.5
   scored: 2
   spread: 7.0
   strength: 0
   strong: 0
-  worst: 2.5
+  worst: 2.6
 estate_root: null
 estate_root_name: null
 image: https://www.quest.com/images/rwd/logos/quest-logo.svg
@@ -48,7 +48,7 @@ member_bands:
     name: Kace
     relationship: product
     score_band: minimal
-    score_composite: 9.5
+    score_composite: 9.6
     slug: kace
     source: declared
   - &id002
@@ -61,7 +61,7 @@ member_bands:
     name: Aelita Software
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: aelita
     source: prose
   label: Minimal
@@ -94,7 +94,7 @@ members:
 members_unrated: []
 name: Quest Software
 overview: 'Quest Software publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 7.0 points, from 9.5 down to 2.5.
+  network, of which 3 carry a rating. The rated members span 7.0 points, from 9.6 down to 2.6.
 
 
   Its highest-rated surfaces are Kace, Aelita Software, Scriptlogic.'

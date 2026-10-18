@@ -11,15 +11,15 @@ estate_rating:
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 4.1
-  composite_avg: 15.1
+  best: 4.2
+  composite_avg: 14.6
   composite_band: emerging
-  composite_raw: 2.0
+  composite_raw: 2.1
   developing: 0
   exemplar: 0
-  rating: 12.0
+  rating: 11.7
   scored: 2
-  spread: 4.1
+  spread: 4.2
   strength: 0
   strong: 0
   worst: 0.0
@@ -43,7 +43,7 @@ member_bands:
     name: Forty Seven *
     relationship: acquisition
     score_band: minimal
-    score_composite: 4.1
+    score_composite: 4.2
     slug: forty-seven
     source: declared
   - &id002
@@ -89,7 +89,7 @@ members:
 members_unrated: []
 name: Gilead Sciences
 overview: 'Gilead Sciences publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 4.1 points, from 4.1 down to 0.0.
+  network, of which 3 carry a rating. The rated members span 4.2 points, from 4.2 down to 0.0.
 
 
   Its highest-rated surfaces are Forty Seven *, Cell Design Labs, Arresto Biosciences.'

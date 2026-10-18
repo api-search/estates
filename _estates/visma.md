@@ -1,5 +1,5 @@
 ---
-api_total: 3
+api_total: 5
 category: Estates
 description: 'Visma is a Nordic business-software group headquartered in Oslo, Norway, supplying cloud
   ERP, accounting, invoicing, payroll, HR and public-sector software to more than a million customers
@@ -13,22 +13,22 @@ description: 'Visma is a Nordic business-software group headquartered in Oslo, N
   first-party remote MCP servers — Business NXT at mcp.business.visma.net and Spiris at mcp.spiris.se
   — both OAuth-protected and discoverable via RFC 9728.'
 estate_rating:
-  agent_avg: 13.5
+  agent_avg: 15.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 19.1
-  agent_ready: 1
+  agent_raw: 24.5
+  agent_ready: 2
   band: emerging
   best: 45.7
-  composite_avg: 23.1
+  composite_avg: 24.1
   composite_band: emerging
-  composite_raw: 27.6
-  developing: 1
+  composite_raw: 31.6
+  developing: 2
   exemplar: 0
-  rating: 19.3
+  rating: 20.7
   scored: 3
   spread: 42.3
-  strength: 1
+  strength: 2
   strong: 0
   worst: 3.4
 estate_root: null
@@ -39,7 +39,7 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 1
+  count: 2
   items:
   - &id001
     acquired: null
@@ -54,26 +54,20 @@ member_bands:
     score_composite: 45.7
     slug: bokio
     source: x-parent-company
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 1
-  items:
   - &id002
     acquired: null
-    agent_band: agent-aware
-    agent_score: 23.6
-    api_count: 1
-    api_count_basis: split
+    agent_band: agent-ready
+    agent_score: 40.0
+    api_count: 3
+    api_count_basis: published
     immediate_parent: visma
     name: Silverfin
     relationship: product
-    score_band: thin
-    score_composite: 33.6
+    score_band: developing
+    score_composite: 45.7
     slug: silverfin
     source: prose
-  label: Thin
+  label: Developing
   open: false
 - band: minimal
   blurb: Almost no public developer surface

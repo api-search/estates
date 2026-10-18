@@ -11,18 +11,18 @@ estate_rating:
   agent_raw: 33.8
   agent_ready: 2
   band: thin
-  best: 70.7
-  composite_avg: 34.4
+  best: 70.8
+  composite_avg: 33.7
   composite_band: thin
-  composite_raw: 57.7
+  composite_raw: 57.3
   developing: 0
   exemplar: 1
-  rating: 28.2
+  rating: 27.8
   scored: 3
   spread: 32.5
   strength: 5
   strong: 1
-  worst: 38.2
+  worst: 38.3
 estate_root: microsoft
 estate_root_name: Microsoft
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-dynamics-365.png
@@ -43,7 +43,7 @@ member_bands:
     name: Microsoft Dynamics 365 Sales
     relationship: product
     score_band: exemplar
-    score_composite: 70.7
+    score_composite: 70.8
     slug: microsoft-dynamics-365-sales
     source: declared
   label: Exemplar
@@ -62,7 +62,7 @@ member_bands:
     name: Microsoft Dynamics NAV
     relationship: product
     score_band: strong
-    score_composite: 64.3
+    score_composite: 62.8
     slug: navision
     source: declared
   label: Strong
@@ -81,7 +81,7 @@ member_bands:
     name: Microsoft Dynamics 365 Business Central
     relationship: product
     score_band: thin
-    score_composite: 38.2
+    score_composite: 38.3
     slug: microsoft-dynamics-365-business-central
     source: declared
   label: Thin
@@ -95,7 +95,7 @@ members:
 members_unrated: []
 name: Microsoft Dynamics 365
 overview: 'Microsoft Dynamics 365 publishes its API surface across 3 provider profiles indexed on the
-  APIs.io network, of which 3 carry a rating. The rated members span 32.5 points, from 70.7 down to 38.2.
+  APIs.io network, of which 3 carry a rating. The rated members span 32.5 points, from 70.8 down to 38.3.
 
 
   Its highest-rated surfaces are Microsoft Dynamics 365 Sales, Microsoft Dynamics NAV, Microsoft Dynamics

@@ -6,24 +6,24 @@ description: Google Docs is an online word processing and PDF editing tool that 
   Gemini in Docs for drafting and formatting. The service is offered to individuals, small businesses,
   startups, and enterprise customers for secure, cloud‑native productivity.
 estate_rating:
-  agent_avg: 13.1
+  agent_avg: 13.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 17.8
   agent_ready: 0
   band: emerging
-  best: 60.5
-  composite_avg: 25.6
-  composite_band: thin
-  composite_raw: 34.1
+  best: 59.0
+  composite_avg: 24.8
+  composite_band: emerging
+  composite_raw: 33.5
   developing: 0
   exemplar: 0
-  rating: 20.5
+  rating: 20.1
   scored: 3
-  spread: 50.7
+  spread: 49.5
   strength: 2
   strong: 1
-  worst: 9.8
+  worst: 9.5
 estate_root: null
 estate_root_name: null
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
@@ -44,7 +44,7 @@ member_bands:
     name: Google Workspace
     relationship: product
     score_band: strong
-    score_composite: 60.5
+    score_composite: 59.0
     slug: google-workspace
     source: declared
   label: Strong
@@ -63,7 +63,7 @@ member_bands:
     name: Google Chat Integrations for Workspace
     relationship: product
     score_band: thin
-    score_composite: 31.9
+    score_composite: 32.0
     slug: google-chat-integrations-for-workspace
     source: declared
   label: Thin
@@ -82,7 +82,7 @@ member_bands:
     name: Google Vids
     relationship: product
     score_band: minimal
-    score_composite: 9.8
+    score_composite: 9.5
     slug: vids
     source: declared
   label: Minimal
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: Google
 overview: 'Google publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 50.7 points, from 60.5 down to 9.8.
+  of which 3 carry a rating. The rated members span 49.5 points, from 59.0 down to 9.5.
 
 
   Its highest-rated surfaces are Google Workspace, Google Chat Integrations for Workspace, Google Vids.'
@@ -112,15 +112,15 @@ subfamilies:
   members:
   - name: Google Workspace
     score_band: strong
-    score_composite: 60.5
+    score_composite: 59.0
     slug: google-workspace
   - name: Google Chat Integrations for Workspace
     score_band: thin
-    score_composite: 31.9
+    score_composite: 32.0
     slug: google-chat-integrations-for-workspace
   - name: Google Vids
     score_band: minimal
-    score_composite: 9.8
+    score_composite: 9.5
     slug: vids
   name: Google Workspace
   on_network: true

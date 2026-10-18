@@ -1,28 +1,28 @@
 ---
-api_total: 5
+api_total: 7
 category: Estates
 description: Zendesk provides customer service and engagement software that helps businesses manage support
   tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and
   phonethrough a unified platform.
 estate_rating:
-  agent_avg: 15.4
+  agent_avg: 15.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 23.5
   agent_ready: 1
   band: thin
-  best: 60.5
-  composite_avg: 32.4
+  best: 60.9
+  composite_avg: 32.2
   composite_band: thin
-  composite_raw: 52.4
-  developing: 2
+  composite_raw: 53.3
+  developing: 0
   exemplar: 0
-  rating: 25.6
+  rating: 25.4
   scored: 3
-  spread: 17.8
+  spread: 22.6
   strength: 4
-  strong: 1
-  worst: 42.7
+  strong: 2
+  worst: 38.3
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zendesk.png
@@ -31,9 +31,22 @@ layout: estate
 member_bands:
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 1
+  count: 2
   items:
   - &id001
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.8
+    api_count: 4
+    api_count_basis: published
+    immediate_parent: zendesk
+    name: Klaus
+    relationship: product
+    score_band: strong
+    score_composite: 60.9
+    slug: klaus
+    source: parent-company-property
+  - &id002
     acquired: null
     agent_band: agent-ready
     agent_score: 28.6
@@ -43,28 +56,15 @@ member_bands:
     name: Zendesk Sell
     relationship: product
     score_band: strong
-    score_composite: 60.5
+    score_composite: 60.6
     slug: zendesk-sell
     source: declared
   label: Strong
   open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 2
+- band: thin
+  blurb: Limited public surface area
+  count: 1
   items:
-  - &id002
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 22.8
-    api_count: 2
-    api_count_basis: published
-    immediate_parent: zendesk
-    name: Klaus
-    relationship: product
-    score_band: developing
-    score_composite: 53.9
-    slug: klaus
-    source: parent-company-property
   - &id003
     acquired: null
     agent_band: agent-aware
@@ -74,11 +74,11 @@ member_bands:
     immediate_parent: zendesk
     name: Forethought
     relationship: product
-    score_band: developing
-    score_composite: 42.7
+    score_band: thin
+    score_composite: 38.3
     slug: forethought
     source: prose
-  label: Developing
+  label: Thin
   open: false
 member_on_network: 3
 member_total: 3
@@ -89,10 +89,10 @@ members:
 members_unrated: []
 name: Zendesk
 overview: 'Zendesk publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 17.8 points, from 60.5 down to 42.7.
+  of which 3 carry a rating. The rated members span 22.6 points, from 60.9 down to 38.3.
 
 
-  Its highest-rated surfaces are Zendesk Sell, Klaus, Forethought.'
+  Its highest-rated surfaces are Klaus, Zendesk Sell, Forethought.'
 parent_provider: zendesk
 permalink: /estates/zendesk/
 slug: zendesk

@@ -7,24 +7,24 @@ description: Splunk is a data platform that enables organizations to search, mon
   performance monitoring, and AI-driven analytics, helping enterprises turn data into actionable insights
   and operational intelligence.
 estate_rating:
-  agent_avg: 10.2
+  agent_avg: 10.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 10.1
   agent_ready: 1
   band: emerging
-  best: 66.2
-  composite_avg: 25.7
+  best: 66.3
+  composite_avg: 25.2
   composite_band: thin
-  composite_raw: 32.2
+  composite_raw: 32.3
   developing: 1
   exemplar: 0
-  rating: 19.4
+  rating: 19.2
   scored: 4
   spread: 64.6
   strength: 3
   strong: 1
-  worst: 1.6
+  worst: 1.7
 estate_root: cisco
 estate_root_name: Cisco
 image: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico
@@ -45,7 +45,7 @@ member_bands:
     name: Splunk Observability Cloud
     relationship: product
     score_band: strong
-    score_composite: 66.2
+    score_composite: 66.3
     slug: splunk-observability
     source: declared
   label: Strong
@@ -83,7 +83,7 @@ member_bands:
     name: Splunk On-Call (VictorOps)
     relationship: acquisition
     score_band: emerging
-    score_composite: 16.4
+    score_composite: 16.5
     slug: victorops
     source: declared
   label: Emerging
@@ -102,7 +102,7 @@ member_bands:
     name: Streamlio
     relationship: acquisition
     score_band: minimal
-    score_composite: 1.6
+    score_composite: 1.7
     slug: streamlio
     source: prose
   label: Minimal
@@ -137,7 +137,7 @@ members:
 members_unrated: []
 name: Splunk
 overview: 'Splunk publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 64.6 points, from 66.2 down to 1.6.
+  of which 5 carry a rating. The rated members span 64.6 points, from 66.3 down to 1.7.
 
 
   Its highest-rated surfaces are Splunk Observability Cloud, Splunk SOAR, Splunk On-Call (VictorOps),

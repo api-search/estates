@@ -16,18 +16,18 @@ estate_rating:
   agent_raw: 0.6
   agent_ready: 0
   band: emerging
-  best: 14.4
-  composite_avg: 16.4
+  best: 12.9
+  composite_avg: 15.7
   composite_band: emerging
-  composite_raw: 9.7
+  composite_raw: 9.3
   developing: 0
   exemplar: 0
-  rating: 12.6
+  rating: 12.1
   scored: 3
-  spread: 8.6
+  spread: 7.0
   strength: 0
   strong: 0
-  worst: 5.8
+  worst: 5.9
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/american-express.png
@@ -48,7 +48,7 @@ member_bands:
     name: Resy
     relationship: acquisition
     score_band: emerging
-    score_composite: 14.4
+    score_composite: 12.9
     slug: resy
     source: prose
   label: Emerging
@@ -67,7 +67,7 @@ member_bands:
     name: Amex Bank of Canada
     relationship: product
     score_band: minimal
-    score_composite: 9.0
+    score_composite: 9.1
     slug: amex-bank-of-canada
     source: declared
   - &id003
@@ -80,7 +80,7 @@ member_bands:
     name: InAuth (American Express)
     relationship: product
     score_band: minimal
-    score_composite: 5.8
+    score_composite: 5.9
     slug: inauth-american-express
     source: parent-company-property
   label: Minimal
@@ -94,7 +94,7 @@ members:
 members_unrated: []
 name: American Express
 overview: 'American Express publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 8.6 points, from 14.4 down to 5.8.
+  network, of which 3 carry a rating. The rated members span 7.0 points, from 12.9 down to 5.9.
 
 
   Its highest-rated surfaces are Resy, Amex Bank of Canada, InAuth (American Express).'

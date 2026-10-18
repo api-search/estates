@@ -9,24 +9,24 @@ description: Smarty (formerly SmartyStreets) is an address intelligence company 
   for high-throughput workloads, with US address lookups reaching up to 25,000 per second, making Smarty
   suitable for enterprise address validation pipelines and real-time checkout address autocomplete.
 estate_rating:
-  agent_avg: 5.8
+  agent_avg: 5.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.6
-  composite_avg: 13.7
+  composite_avg: 13.4
   composite_band: emerging
-  composite_raw: 5.2
+  composite_raw: 5.6
   developing: 0
   exemplar: 0
-  rating: 10.5
+  rating: 10.3
   scored: 4
-  spread: 0.5
+  spread: 0.0
   strength: 0
   strong: 0
-  worst: 5.1
+  worst: 5.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smarty.png
@@ -60,7 +60,7 @@ member_bands:
     name: US Extract
     relationship: product
     score_band: minimal
-    score_composite: 5.1
+    score_composite: 5.6
     slug: us-extract
     source: declared
   - &id003
@@ -73,7 +73,7 @@ member_bands:
     name: US Street Address
     relationship: product
     score_band: minimal
-    score_composite: 5.1
+    score_composite: 5.6
     slug: us-street-address
     source: declared
   - &id004
@@ -86,7 +86,7 @@ member_bands:
     name: US ZipCode
     relationship: product
     score_band: minimal
-    score_composite: 5.1
+    score_composite: 5.6
     slug: us-zipcode
     source: declared
   label: Minimal
@@ -101,7 +101,7 @@ members:
 members_unrated: []
 name: Smarty
 overview: 'Smarty publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 0.5 points, from 5.6 down to 5.1.
+  of which 4 carry a rating. The rated members span 0.0 points, from 5.6 down to 5.6.
 
 
   Its highest-rated surfaces are US Autocomplete, US Extract, US Street Address, US ZipCode.'

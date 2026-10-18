@@ -17,18 +17,18 @@ estate_rating:
   agent_raw: 6.0
   agent_ready: 0
   band: emerging
-  best: 31.0
-  composite_avg: 16.7
+  best: 31.1
+  composite_avg: 16.3
   composite_band: emerging
-  composite_raw: 12.1
+  composite_raw: 12.2
   developing: 0
   exemplar: 0
-  rating: 13.3
+  rating: 13.1
   scored: 4
   spread: 28.5
   strength: 0
   strong: 0
-  worst: 2.5
+  worst: 2.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company-logos/proofpoint.png
@@ -49,7 +49,7 @@ member_bands:
     name: Tessian
     relationship: product
     score_band: thin
-    score_composite: 31.0
+    score_composite: 31.1
     slug: tessian
     source: prose
   label: Thin
@@ -68,7 +68,7 @@ member_bands:
     name: ObserveIT (Proofpoint)
     relationship: acquisition
     score_band: emerging
-    score_composite: 11.5
+    score_composite: 11.6
     slug: observeit-proofpoint
     source: declared
   label: Emerging
@@ -100,7 +100,7 @@ member_bands:
     name: Illusive Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: illusive-networks
     source: declared
   label: Minimal
@@ -115,7 +115,7 @@ members:
 members_unrated: []
 name: Proofpoint
 overview: 'Proofpoint publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 28.5 points, from 31.0 down to 2.5.
+  of which 4 carry a rating. The rated members span 28.5 points, from 31.1 down to 2.6.
 
 
   Its highest-rated surfaces are Tessian, ObserveIT (Proofpoint), Normalyze, Illusive Networks.'

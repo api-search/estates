@@ -3,19 +3,19 @@ api_total: 4
 category: Estates
 description: Collection of APIs offered by Intuit for financial and business management services.
 estate_rating:
-  agent_avg: 9.3
+  agent_avg: 9.1
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.3
   agent_ready: 0
   band: emerging
   best: 34.2
-  composite_avg: 18.6
+  composite_avg: 18.1
   composite_band: emerging
   composite_raw: 15.5
   developing: 0
   exemplar: 0
-  rating: 14.9
+  rating: 14.5
   scored: 3
   spread: 31.5
   strength: 0

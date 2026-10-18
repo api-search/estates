@@ -6,21 +6,21 @@ description: Lennar Corporation is a Fortune 500 company and one of the leading 
   where Lennar developers and partners discover and consume Lennar Corporation APIs. Public OpenAPI artifacts
   have not been observed; access generally requires sign-in and partner approval.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 7.8
-  composite_avg: 14.2
+  best: 7.9
+  composite_avg: 13.7
   composite_band: emerging
-  composite_raw: 3.7
+  composite_raw: 3.8
   developing: 0
   exemplar: 0
-  rating: 11.1
+  rating: 10.8
   scored: 3
-  spread: 7.8
+  spread: 7.9
   strength: 0
   strong: 0
   worst: 0.0
@@ -44,7 +44,7 @@ member_bands:
     name: Ryland Group
     relationship: product
     score_band: minimal
-    score_composite: 7.8
+    score_composite: 7.9
     slug: ryland-group
     source: parent-company-property
   - &id002
@@ -84,7 +84,7 @@ members:
 members_unrated: []
 name: Lennar
 overview: 'Lennar publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 7.8 points, from 7.8 down to 0.0.
+  of which 3 carry a rating. The rated members span 7.9 points, from 7.9 down to 0.0.
 
 
   Its highest-rated surfaces are Ryland Group, Modsy *, CalAtlantic Group.'

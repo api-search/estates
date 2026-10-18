@@ -20,15 +20,15 @@ estate_rating:
   agent_raw: 5.6
   agent_ready: 0
   band: emerging
-  best: 36.2
-  composite_avg: 15.5
+  best: 34.7
+  composite_avg: 14.9
   composite_band: emerging
-  composite_raw: 10.5
+  composite_raw: 10.2
   developing: 0
   exemplar: 0
-  rating: 12.4
+  rating: 12.1
   scored: 5
-  spread: 33.1
+  spread: 31.6
   strength: 0
   strong: 0
   worst: 3.1
@@ -52,7 +52,7 @@ member_bands:
     name: WellCare Health Plans
     relationship: product
     score_band: thin
-    score_composite: 36.2
+    score_composite: 34.7
     slug: wellcare-health-plans
     source: parent-company-property
   label: Thin
@@ -97,7 +97,7 @@ member_bands:
     name: Apixio (Centene)
     relationship: product
     score_band: minimal
-    score_composite: 3.6
+    score_composite: 3.7
     slug: apixio-centene
     source: parent-company-property
   - &id005
@@ -126,7 +126,7 @@ members:
 members_unrated: []
 name: Centene
 overview: 'Centene publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 33.1 points, from 36.2 down to 3.1.
+  of which 5 carry a rating. The rated members span 31.6 points, from 34.7 down to 3.1.
 
 
   Its highest-rated surfaces are WellCare Health Plans, Universal American, Magellan Health, Apixio (Centene),

@@ -12,18 +12,18 @@ estate_rating:
   agent_raw: 16.4
   agent_ready: 1
   band: emerging
-  best: 66.3
-  composite_avg: 26.4
+  best: 64.8
+  composite_avg: 25.5
   composite_band: thin
-  composite_raw: 36.4
+  composite_raw: 35.4
   developing: 0
   exemplar: 0
-  rating: 20.8
+  rating: 20.3
   scored: 3
-  spread: 45.9
+  spread: 44.3
   strength: 2
   strong: 1
-  worst: 20.4
+  worst: 20.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/booking-holdings.png
@@ -44,7 +44,7 @@ member_bands:
     name: Booking.com
     relationship: product
     score_band: strong
-    score_composite: 66.3
+    score_composite: 64.8
     slug: booking-com
     source: prose
   label: Strong
@@ -63,7 +63,7 @@ member_bands:
     name: OpenTable
     relationship: acquisition
     score_band: emerging
-    score_composite: 22.5
+    score_composite: 20.9
     slug: opentable
     source: prose
   - &id003
@@ -76,7 +76,7 @@ member_bands:
     name: Kayak
     relationship: product
     score_band: emerging
-    score_composite: 20.4
+    score_composite: 20.5
     slug: kayak
     source: prose
   label: Emerging
@@ -90,7 +90,7 @@ members:
 members_unrated: []
 name: Booking Holdings
 overview: 'Booking Holdings publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 45.9 points, from 66.3 down to 20.4.
+  network, of which 3 carry a rating. The rated members span 44.3 points, from 64.8 down to 20.5.
 
 
   Its highest-rated surfaces are Booking.com, OpenTable, Kayak.'

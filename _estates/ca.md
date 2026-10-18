@@ -14,15 +14,15 @@ estate_rating:
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
-  best: 19.2
-  composite_avg: 15.5
+  best: 19.3
+  composite_avg: 15.0
   composite_band: emerging
   composite_raw: 7.3
   developing: 0
   exemplar: 0
-  rating: 12.0
+  rating: 11.7
   scored: 3
-  spread: 19.2
+  spread: 19.3
   strength: 0
   strong: 0
   worst: 0.0
@@ -46,7 +46,7 @@ member_bands:
     name: Runscope
     relationship: acquisition
     score_band: emerging
-    score_composite: 19.2
+    score_composite: 19.3
     slug: runscope
     source: prose
   label: Emerging
@@ -92,7 +92,7 @@ members:
 members_unrated: []
 name: CA Technologies (Broadcom)
 overview: 'CA Technologies (Broadcom) publishes its API surface across 3 provider profiles indexed on
-  the APIs.io network, of which 3 carry a rating. The rated members span 19.2 points, from 19.2 down to
+  the APIs.io network, of which 3 carry a rating. The rated members span 19.3 points, from 19.3 down to
   0.0.
 
 

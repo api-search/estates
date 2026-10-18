@@ -8,21 +8,21 @@ description: Visa is a global payment technology company that facilitates electr
   The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account
   validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.
 estate_rating:
-  agent_avg: 12.0
+  agent_avg: 11.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 14.0
   agent_ready: 1
   band: emerging
-  best: 57.2
-  composite_avg: 22.2
+  best: 63.8
+  composite_avg: 21.7
   composite_band: emerging
-  composite_raw: 24.5
+  composite_raw: 24.4
   developing: 0
   exemplar: 0
-  rating: 18.1
+  rating: 17.8
   scored: 4
-  spread: 55.3
+  spread: 61.9
   strength: 2
   strong: 1
   worst: 1.9
@@ -46,13 +46,13 @@ member_bands:
     name: Currencycloud
     relationship: product
     score_band: strong
-    score_composite: 57.2
+    score_composite: 63.8
     slug: currencycloud
     source: prose
   label: Strong
   open: true
-- band: thin
-  blurb: Limited public surface area
+- band: emerging
+  blurb: Early or largely undocumented
   count: 1
   items:
   - &id002
@@ -64,11 +64,11 @@ member_bands:
     immediate_parent: visa
     name: Pismo
     relationship: acquisition
-    score_band: thin
-    score_composite: 32.1
+    score_band: emerging
+    score_composite: 25.2
     slug: pismo
     source: prose
-  label: Thin
+  label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
@@ -112,7 +112,7 @@ members:
 members_unrated: []
 name: Visa
 overview: 'Visa publishes its API surface across 4 provider profiles indexed on the APIs.io network, of
-  which 4 carry a rating. The rated members span 55.3 points, from 57.2 down to 1.9.
+  which 4 carry a rating. The rated members span 61.9 points, from 63.8 down to 1.9.
 
 
   Its highest-rated surfaces are Currencycloud, Pismo, Featurespace, Payworks.'

@@ -14,21 +14,21 @@ description: Yahoo is a consumer internet and advertising-technology company ope
   client-credentials JWT flow. Yahoo publishes no OpenAPI for any of these surfaces, distributing a public
   Postman collection and an llms.txt documentation index instead.
 estate_rating:
-  agent_avg: 3.9
+  agent_avg: 3.6
   agent_band: minimal
   agent_native: 0
-  agent_raw: 0.3
+  agent_raw: 0.0
   agent_ready: 0
   band: minimal
-  best: 20.5
-  composite_avg: 8.9
+  best: 20.6
+  composite_avg: 8.6
   composite_band: minimal
   composite_raw: 2.5
   developing: 0
   exemplar: 0
-  rating: 6.9
+  rating: 6.6
   scored: 9
-  spread: 20.5
+  spread: 20.6
   strength: 0
   strong: 0
   worst: 0.0
@@ -52,7 +52,7 @@ member_bands:
     name: Flurry
     relationship: product
     score_band: emerging
-    score_composite: 20.5
+    score_composite: 20.6
     slug: flurry
     source: parent-company-property
   label: Emerging
@@ -64,14 +64,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: human-only
-    agent_score: 3.1
+    agent_score: 0.0
     api_count: 0
     api_count_basis: split
     immediate_parent: yahoo
     name: CommonStock
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.1
+    score_composite: 2.2
     slug: commonstock
     source: prose
   - &id003
@@ -202,7 +202,7 @@ members:
 members_unrated: []
 name: Yahoo
 overview: 'Yahoo publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 20.5 points, from 20.5 down to 0.0.
+  of which 10 carry a rating. The rated members span 20.6 points, from 20.6 down to 0.0.
 
 
   Its highest-rated surfaces are Flurry, CommonStock, Aviate, Bix, Dapper.'

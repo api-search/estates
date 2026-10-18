@@ -4,21 +4,21 @@ category: Estates
 description: Medtronic is a major US corporation and Fortune 1000 company. The Medtronic API provides
   programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 estate_rating:
-  agent_avg: 5.7
+  agent_avg: 5.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 10.2
-  composite_avg: 13.6
+  best: 10.3
+  composite_avg: 13.1
   composite_band: emerging
   composite_raw: 5.0
   developing: 0
   exemplar: 0
-  rating: 10.5
+  rating: 10.1
   scored: 4
-  spread: 7.2
+  spread: 7.3
   strength: 0
   strong: 0
   worst: 3.0
@@ -42,7 +42,7 @@ member_bands:
     name: SPR Therapeutics
     relationship: acquisition
     score_band: minimal
-    score_composite: 10.2
+    score_composite: 10.3
     slug: spr-therapeutics
     source: declared
   - &id002
@@ -55,7 +55,7 @@ member_bands:
     name: digitalsurgery
     relationship: product
     score_band: minimal
-    score_composite: 3.6
+    score_composite: 3.7
     slug: digitalsurgery
     source: parent-company-property
   - &id003
@@ -116,7 +116,7 @@ members:
 members_unrated: []
 name: Medtronic
 overview: 'Medtronic publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 7.2 points, from 10.2 down to 3.0.
+  of which 5 carry a rating. The rated members span 7.3 points, from 10.3 down to 3.0.
 
 
   Its highest-rated surfaces are SPR Therapeutics, digitalsurgery, Intersect ENT, Kanghui Medical, Corventis.'

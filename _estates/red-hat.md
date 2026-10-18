@@ -4,32 +4,32 @@ category: Estates
 description: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions
   including Linux, cloud, container, and Kubernetes technologies.
 estate_rating:
-  agent_avg: 14.8
+  agent_avg: 14.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 17.8
+  agent_raw: 16.7
   agent_ready: 1
   band: emerging
-  best: 66.5
-  composite_avg: 29.5
+  best: 65.0
+  composite_avg: 28.0
   composite_band: thin
-  composite_raw: 36.0
+  composite_raw: 34.0
   developing: 3
-  exemplar: 1
-  rating: 23.6
+  exemplar: 0
+  rating: 22.4
   scored: 7
-  spread: 64.0
-  strength: 6
-  strong: 0
-  worst: 2.5
+  spread: 62.4
+  strength: 5
+  strong: 1
+  worst: 2.6
 estate_root: ibm
 estate_root_name: IBM
 image: https://www.redhat.com/cms/managed-files/Logo-Red_Hat-A-Standard-RGB.svg
 is_subfamily: true
 layout: estate
 member_bands:
-- band: exemplar
-  blurb: Complete, well-documented, and agent-ready
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id001
@@ -41,11 +41,11 @@ member_bands:
     immediate_parent: red-hat
     name: Red Hat Ansible Automation Platform
     relationship: product
-    score_band: exemplar
-    score_composite: 66.5
+    score_band: strong
+    score_composite: 65.0
     slug: red-hat-ansible-automation-platform
     source: declared
-  label: Exemplar
+  label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
@@ -54,41 +54,41 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 28.0
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: red-hat
-    name: Red Hat Enterprise Linux 8
-    relationship: product
-    score_band: developing
-    score_composite: 53.7
-    slug: red-hat-enterprise-linux-8
-    source: declared
-  - &id003
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 25.5
+    agent_score: 23.7
     api_count: 5
     api_count_basis: published
     immediate_parent: red-hat
     name: Red Hat 3scale
     relationship: product
     score_band: developing
-    score_composite: 51.0
+    score_composite: 49.7
     slug: red-hat-3scale
     source: declared
-  - &id004
+  - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 2
     api_count_basis: published
     immediate_parent: red-hat
     name: Red Hat OpenShift
     relationship: product
     score_band: developing
-    score_composite: 49.5
+    score_composite: 48.0
     slug: red-hat-openshift
+    source: declared
+  - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.8
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: red-hat
+    name: Red Hat Enterprise Linux 8
+    relationship: product
+    score_band: developing
+    score_composite: 45.4
+    slug: red-hat-enterprise-linux-8
     source: declared
   label: Developing
   open: false
@@ -99,14 +99,14 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 18.0
+    agent_score: 16.1
     api_count: 5
     api_count_basis: split
     immediate_parent: red-hat
     name: JBoss
     relationship: subsidiary
     score_band: emerging
-    score_composite: 26.1
+    score_composite: 24.6
     slug: jboss
     source: prose
   label: Emerging
@@ -125,7 +125,7 @@ member_bands:
     name: CoreOS
     relationship: product
     score_band: minimal
-    score_composite: 2.8
+    score_composite: 2.9
     slug: coreos
     source: prose
   - &id007
@@ -138,7 +138,7 @@ member_bands:
     name: Qumranet
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: qumranet
     source: prose
   label: Minimal
@@ -176,11 +176,11 @@ members:
 members_unrated: []
 name: Red Hat
 overview: 'Red Hat publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 64.0 points, from 66.5 down to 2.5.
+  of which 8 carry a rating. The rated members span 62.4 points, from 65.0 down to 2.6.
 
 
-  Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat Enterprise Linux 8, Red
-  Hat 3scale, Red Hat OpenShift, JBoss.'
+  Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat 3scale, Red Hat OpenShift,
+  Red Hat Enterprise Linux 8, JBoss.'
 parent_provider: red-hat
 permalink: /estates/red-hat/
 slug: red-hat
@@ -193,7 +193,7 @@ subfamilies:
   members:
   - name: CoreOS
     score_band: minimal
-    score_composite: 2.8
+    score_composite: 2.9
     slug: coreos
   name: Red Hat OpenShift
   on_network: true

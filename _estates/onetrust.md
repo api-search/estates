@@ -12,24 +12,24 @@ description: OneTrust is an enterprise trust, privacy, and AI-governance platfor
   against a per-tenant environment host, and the portal also serves an RFC 9727 /.well-known/api-catalog,
   an llms.txt, and a public remote MCP server.
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 6.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.0
   agent_ready: 0
   band: emerging
   best: 26.0
-  composite_avg: 17.7
+  composite_avg: 17.0
   composite_band: emerging
-  composite_raw: 13.3
+  composite_raw: 12.8
   developing: 0
   exemplar: 0
-  rating: 13.4
+  rating: 12.9
   scored: 3
-  spread: 23.5
+  spread: 23.4
   strength: 0
   strong: 0
-  worst: 2.5
+  worst: 2.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onetrust.png
@@ -38,7 +38,7 @@ layout: estate
 member_bands:
 - band: emerging
   blurb: Early or largely undocumented
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
@@ -53,6 +53,12 @@ member_bands:
     score_composite: 26.0
     slug: convercent
     source: prose
+  label: Emerging
+  open: false
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 2
+  items:
   - &id002
     acquired: null
     agent_band: human-only
@@ -62,16 +68,10 @@ member_bands:
     immediate_parent: onetrust
     name: Tugboat Logic
     relationship: product
-    score_band: emerging
-    score_composite: 11.3
+    score_band: minimal
+    score_composite: 9.8
     slug: tugboat-logic
     source: declared
-  label: Emerging
-  open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 1
-  items:
   - &id003
     acquired: null
     agent_band: human-only
@@ -82,7 +82,7 @@ member_bands:
     name: Planetly
     relationship: product
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: planetly
     source: parent-company-property
   label: Minimal
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: OneTrust
 overview: 'OneTrust publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 23.5 points, from 26.0 down to 2.5.
+  of which 3 carry a rating. The rated members span 23.4 points, from 26.0 down to 2.6.
 
 
   Its highest-rated surfaces are Convercent, Tugboat Logic, Planetly.'

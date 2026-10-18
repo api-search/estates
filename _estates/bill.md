@@ -1,5 +1,5 @@
 ---
-api_total: 0
+api_total: 2
 category: Estates
 description: BILL (formerly Bill.com) is a cloud-based financial operations platform for small and midsize
   businesses that automates accounts payable, accounts receivable, and spend & expense management. The
@@ -8,21 +8,21 @@ description: BILL (formerly Bill.com) is a cloud-based financial operations plat
   event notifications via webhooks. The API uses session-based authentication with API keys and developer
   keys against production and sandbox gateways.
 estate_rating:
-  agent_avg: 9.5
-  agent_band: minimal
-  agent_native: 0
-  agent_raw: 8.4
+  agent_avg: 14.2
+  agent_band: emerging
+  agent_native: 1
+  agent_raw: 20.8
   agent_ready: 0
   band: emerging
-  best: 40.2
-  composite_avg: 20.4
+  best: 53.0
+  composite_avg: 21.5
   composite_band: emerging
-  composite_raw: 20.3
+  composite_raw: 24.6
   developing: 1
   exemplar: 0
-  rating: 16.0
+  rating: 18.6
   scored: 3
-  spread: 36.8
+  spread: 49.6
   strength: 1
   strong: 0
   worst: 3.4
@@ -38,15 +38,15 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-aware
-    agent_score: 25.2
-    api_count: 0
-    api_count_basis: split
+    agent_band: agent-native
+    agent_score: 62.5
+    api_count: 2
+    api_count_basis: published
     immediate_parent: bill
     name: Divvy
     relationship: product
     score_band: developing
-    score_composite: 40.2
+    score_composite: 53.0
     slug: divvy
     source: declared
   label: Developing
@@ -65,7 +65,7 @@ member_bands:
     name: Invoice2go
     relationship: product
     score_band: emerging
-    score_composite: 17.3
+    score_composite: 17.4
     slug: invoice2go
     source: parent-company-property
   label: Emerging
@@ -98,7 +98,7 @@ members:
 members_unrated: []
 name: BILL
 overview: 'BILL publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 36.8 points, from 40.2 down to 3.4.
+  which 3 carry a rating. The rated members span 49.6 points, from 53.0 down to 3.4.
 
 
   Its highest-rated surfaces are Divvy, Invoice2go, Finmark.'

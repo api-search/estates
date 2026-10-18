@@ -15,18 +15,18 @@ estate_rating:
   agent_raw: 11.8
   agent_ready: 0
   band: emerging
-  best: 41.2
-  composite_avg: 22.4
+  best: 39.7
+  composite_avg: 21.5
   composite_band: emerging
-  composite_raw: 25.8
+  composite_raw: 24.8
   developing: 1
   exemplar: 0
-  rating: 17.8
+  rating: 17.2
   scored: 3
-  spread: 33.1
+  spread: 31.5
   strength: 1
   strong: 0
-  worst: 8.1
+  worst: 8.2
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/argus.png
@@ -47,7 +47,7 @@ member_bands:
     name: ARGUS Enterprise
     relationship: product
     score_band: developing
-    score_composite: 41.2
+    score_composite: 39.7
     slug: argus-enterprise
     source: declared
   label: Developing
@@ -66,7 +66,7 @@ member_bands:
     name: ARGUS Developer
     relationship: product
     score_band: thin
-    score_composite: 28.0
+    score_composite: 26.5
     slug: argus-developer
     source: declared
   label: Thin
@@ -85,7 +85,7 @@ member_bands:
     name: Argus Software
     relationship: rebrand-predecessor
     score_band: minimal
-    score_composite: 8.1
+    score_composite: 8.2
     slug: argus-software
     source: declared
   label: Minimal
@@ -99,7 +99,7 @@ members:
 members_unrated: []
 name: ARGUS
 overview: 'ARGUS publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 33.1 points, from 41.2 down to 8.1.
+  of which 3 carry a rating. The rated members span 31.5 points, from 39.7 down to 8.2.
 
 
   Its highest-rated surfaces are ARGUS Enterprise, ARGUS Developer, Argus Software.'

@@ -1,57 +1,64 @@
 ---
-api_total: 5
+api_total: 7
 category: Estates
 description: Cloudflare is a global network designed to make everything you connect to the Internet secure,
   private, fast, and reliable.
 estate_rating:
-  agent_avg: 11.0
+  agent_avg: 12.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.9
+  agent_raw: 15.0
   agent_ready: 0
   band: emerging
-  best: 41.9
-  composite_avg: 23.8
+  best: 35.9
+  composite_avg: 23.0
   composite_band: emerging
-  composite_raw: 29.4
-  developing: 1
+  composite_raw: 27.2
+  developing: 0
   exemplar: 0
   rating: 18.7
-  scored: 3
-  spread: 30.7
-  strength: 1
+  scored: 4
+  spread: 24.6
+  strength: 0
   strong: 0
-  worst: 11.2
+  worst: 11.3
 estate_root: null
 estate_root_name: null
 image: https://www.cloudflare.com/preview.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 1
+- band: thin
+  blurb: Limited public surface area
+  count: 3
   items:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.8
+    agent_score: 15.9
     api_count: 4
     api_count_basis: split
     immediate_parent: cloudflare
     name: PartyKit
     relationship: product
-    score_band: developing
-    score_composite: 41.9
+    score_band: thin
+    score_composite: 35.9
     slug: partykit
     source: prose
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 1
-  items:
   - &id002
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.2
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: cloudflare
+    name: Cloudflare R2
+    relationship: product
+    score_band: thin
+    score_composite: 35.0
+    slug: cloudflare-r2
+    source: declared
+  - &id003
     acquired: null
     agent_band: agent-aware
     agent_score: 17.9
@@ -61,7 +68,7 @@ member_bands:
     name: Dyte
     relationship: product
     score_band: thin
-    score_composite: 35.0
+    score_composite: 26.7
     slug: dyte
     source: parent-company-property
   label: Thin
@@ -70,7 +77,7 @@ member_bands:
   blurb: Early or largely undocumented
   count: 1
   items:
-  - &id003
+  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -80,24 +87,25 @@ member_bands:
     name: VoidZero
     relationship: acquisition
     score_band: emerging
-    score_composite: 11.2
+    score_composite: 11.3
     slug: voidzero
     source: prose
   label: Emerging
   open: false
-member_on_network: 3
-member_total: 3
+member_on_network: 4
+member_total: 4
 members:
 - *id001
 - *id002
 - *id003
+- *id004
 members_unrated: []
 name: Cloudflare
-overview: 'Cloudflare publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 30.7 points, from 41.9 down to 11.2.
+overview: 'Cloudflare publishes its API surface across 4 provider profiles indexed on the APIs.io network,
+  of which 4 carry a rating. The rated members span 24.6 points, from 35.9 down to 11.3.
 
 
-  Its highest-rated surfaces are PartyKit, Dyte, VoidZero.'
+  Its highest-rated surfaces are PartyKit, Cloudflare R2, Dyte, VoidZero.'
 parent_provider: cloudflare
 permalink: /estates/cloudflare/
 slug: cloudflare

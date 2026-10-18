@@ -7,19 +7,19 @@ description: LinkedIn is a professional networking platform providing APIs for c
   sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data
   portability.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 7.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.7
   agent_ready: 1
   band: emerging
   best: 61.7
-  composite_avg: 15.6
+  composite_avg: 15.2
   composite_band: emerging
   composite_raw: 11.6
   developing: 0
   exemplar: 0
-  rating: 12.5
+  rating: 12.2
   scored: 6
   spread: 61.7
   strength: 2
@@ -64,7 +64,7 @@ member_bands:
     name: Glint
     relationship: product
     score_band: minimal
-    score_composite: 7.7
+    score_composite: 7.8
     slug: glint
     source: parent-company-property
   - &id003

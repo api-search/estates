@@ -8,32 +8,32 @@ description: Abstract API is a platform that offers a wide range of API services
   generation. Abstract API provides a seamless way for developers to access powerful features without
   having to build them from scratch.
 estate_rating:
-  agent_avg: 9.5
+  agent_avg: 9.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.3
   agent_ready: 1
   band: emerging
-  best: 33.6
-  composite_avg: 16.8
+  best: 26.1
+  composite_avg: 15.5
   composite_band: emerging
-  composite_raw: 12.2
+  composite_raw: 10.4
   developing: 0
   exemplar: 0
-  rating: 13.9
+  rating: 13.0
   scored: 4
-  spread: 28.5
+  spread: 20.9
   strength: 0
   strong: 0
-  worst: 5.1
+  worst: 5.2
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abstract-api.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: thin
-  blurb: Limited public surface area
+- band: emerging
+  blurb: Early or largely undocumented
   count: 1
   items:
   - &id001
@@ -45,11 +45,11 @@ member_bands:
     immediate_parent: abstract-api
     name: Abstract API Phone Validation
     relationship: product
-    score_band: thin
-    score_composite: 33.6
+    score_band: emerging
+    score_composite: 26.1
     slug: abstractapi-phone
     source: declared
-  label: Thin
+  label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
@@ -65,7 +65,7 @@ member_bands:
     name: Email Validation
     relationship: product
     score_band: minimal
-    score_composite: 5.1
+    score_composite: 5.2
     slug: email-validation
     source: declared
   - &id003
@@ -78,7 +78,7 @@ member_bands:
     name: IP Geolocation
     relationship: product
     score_band: minimal
-    score_composite: 5.1
+    score_composite: 5.2
     slug: ip-geolocation
     source: declared
   - &id004
@@ -91,7 +91,7 @@ member_bands:
     name: Phone Validation
     relationship: product
     score_band: minimal
-    score_composite: 5.1
+    score_composite: 5.2
     slug: phone-validation
     source: declared
   label: Minimal
@@ -106,7 +106,7 @@ members:
 members_unrated: []
 name: Abstract API
 overview: 'Abstract API publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 28.5 points, from 33.6 down to 5.1.
+  of which 4 carry a rating. The rated members span 20.9 points, from 26.1 down to 5.2.
 
 
   Its highest-rated surfaces are Abstract API Phone Validation, Email Validation, IP Geolocation, Phone

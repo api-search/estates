@@ -17,18 +17,18 @@ estate_rating:
   agent_raw: 2.5
   agent_ready: 0
   band: emerging
-  best: 29.9
-  composite_avg: 21.0
+  best: 28.4
+  composite_avg: 20.2
   composite_band: emerging
-  composite_raw: 22.5
+  composite_raw: 21.8
   developing: 0
   exemplar: 0
-  rating: 15.8
+  rating: 15.3
   scored: 2
-  spread: 14.8
+  spread: 13.2
   strength: 0
   strong: 0
-  worst: 15.1
+  worst: 15.2
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crowdstrike.png
@@ -49,7 +49,7 @@ member_bands:
     name: Adaptive Shield
     relationship: acquisition
     score_band: thin
-    score_composite: 29.9
+    score_composite: 28.4
     slug: adaptive-shield
     source: declared
   label: Thin
@@ -68,7 +68,7 @@ member_bands:
     name: Humio
     relationship: product
     score_band: emerging
-    score_composite: 15.1
+    score_composite: 15.2
     slug: humio
     source: parent-company-property
   label: Emerging
@@ -101,7 +101,7 @@ members:
 members_unrated: []
 name: CrowdStrike
 overview: 'CrowdStrike publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 14.8 points, from 29.9 down to 15.1.
+  of which 3 carry a rating. The rated members span 13.2 points, from 28.4 down to 15.2.
 
 
   Its highest-rated surfaces are Adaptive Shield, Humio, Bionic Stork.'
@@ -116,7 +116,7 @@ subfamily_page_count: 0
 tags:
 - Cybersecurity
 - Endpoint Security
-- EDR
+- Endpoint Detection and Response
 - Threat Intelligence
 - Cloud Security
 - Identity Protection

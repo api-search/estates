@@ -12,22 +12,22 @@ description: 'Mitratech is an Austin, Texas based enterprise software company su
   2.0 API Explorer, TeamConnect 7.2+ ships a modernized OAuth 2.0 REST API on each customer instance,
   and mitratech.com itself serves an OAuth-protected Model Context Protocol server.'
 estate_rating:
-  agent_avg: 9.1
+  agent_avg: 8.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 6.8
   agent_ready: 0
   band: emerging
-  best: 42.4
-  composite_avg: 19.1
+  best: 36.7
+  composite_avg: 17.9
   composite_band: emerging
-  composite_raw: 16.8
-  developing: 1
+  composite_raw: 15.0
+  developing: 0
   exemplar: 0
-  rating: 15.1
+  rating: 14.3
   scored: 3
-  spread: 39.0
-  strength: 1
+  spread: 33.3
+  strength: 0
   strong: 0
   worst: 3.4
 estate_root: null
@@ -36,8 +36,8 @@ image: https://mitratech.com/wp-content/uploads/Mitratech_Web-Assets_Home-Featur
 is_subfamily: false
 layout: estate
 member_bands:
-- band: developing
-  blurb: Usable, with meaningful gaps to close
+- band: thin
+  blurb: Limited public surface area
   count: 1
   items:
   - &id001
@@ -49,11 +49,11 @@ member_bands:
     immediate_parent: mitratech
     name: Trakstar
     relationship: acquisition
-    score_band: developing
-    score_composite: 42.4
+    score_band: thin
+    score_composite: 36.7
     slug: trakstar
     source: prose
-  label: Developing
+  label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
@@ -69,7 +69,7 @@ member_bands:
     name: Alyne
     relationship: acquisition
     score_band: minimal
-    score_composite: 4.7
+    score_composite: 4.8
     slug: alyne
     source: declared
   - &id003
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: Mitratech
 overview: 'Mitratech publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 39.0 points, from 42.4 down to 3.4.
+  of which 3 carry a rating. The rated members span 33.3 points, from 36.7 down to 3.4.
 
 
   Its highest-rated surfaces are Trakstar, Alyne, Prevalent.'

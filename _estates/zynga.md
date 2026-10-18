@@ -19,12 +19,12 @@ estate_rating:
   agent_ready: 0
   band: minimal
   best: 3.5
-  composite_avg: 11.5
+  composite_avg: 11.1
   composite_band: emerging
   composite_raw: 2.6
   developing: 0
   exemplar: 0
-  rating: 8.9
+  rating: 8.7
   scored: 5
   spread: 3.5
   strength: 0
@@ -89,7 +89,7 @@ member_bands:
     name: Storemaven
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: storemaven
     source: prose
   - &id005

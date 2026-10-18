@@ -1,5 +1,5 @@
 ---
-api_total: 24
+api_total: 25
 category: Estates
 description: LexisNexis is a global provider of legal, regulatory, and business information and analytics.
   Through the LexisNexis Developer Portal and LexisNexis Risk Solutions, partners can integrate access
@@ -7,24 +7,24 @@ description: LexisNexis is a global provider of legal, regulatory, and business 
   applications. Most LexisNexis APIs are partner-access only and require contractual agreements before
   credentials and OpenAPI specifications are released.
 estate_rating:
-  agent_avg: 14.4
+  agent_avg: 14.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.3
   agent_ready: 1
   band: emerging
   best: 51.7
-  composite_avg: 24.6
+  composite_avg: 23.4
   composite_band: emerging
-  composite_raw: 28.7
+  composite_raw: 27.2
   developing: 1
   exemplar: 0
-  rating: 20.5
+  rating: 19.7
   scored: 5
-  spread: 47.6
+  spread: 48.0
   strength: 1
   strong: 0
-  worst: 4.1
+  worst: 3.7
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lexisnexis.png
@@ -71,13 +71,13 @@ member_bands:
     acquired: null
     agent_band: agent-ready
     agent_score: 47.1
-    api_count: 1
+    api_count: 2
     api_count_basis: published
     immediate_parent: lexisnexis
     name: Lex Machina
     relationship: acquisition
     score_band: thin
-    score_composite: 29.9
+    score_composite: 29.8
     slug: lex-machina
     source: declared
   label: Thin
@@ -96,7 +96,7 @@ member_bands:
     name: Henchman
     relationship: product
     score_band: emerging
-    score_composite: 22.9
+    score_composite: 15.6
     slug: henchman
     source: parent-company-property
   label: Emerging
@@ -115,7 +115,7 @@ member_bands:
     name: BehavioSec
     relationship: product
     score_band: minimal
-    score_composite: 4.1
+    score_composite: 3.7
     slug: behaviosec
     source: parent-company-property
   label: Minimal
@@ -131,7 +131,7 @@ members:
 members_unrated: []
 name: LexisNexis
 overview: 'LexisNexis publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 47.6 points, from 51.7 down to 4.1.
+  of which 5 carry a rating. The rated members span 48.0 points, from 51.7 down to 3.7.
 
 
   Its highest-rated surfaces are Human API, LexisNexis Risk Solutions, Lex Machina, Henchman, BehavioSec.'
@@ -151,7 +151,7 @@ subfamilies:
     slug: human-api
   - name: BehavioSec
     score_band: minimal
-    score_composite: 4.1
+    score_composite: 3.7
     slug: behaviosec
   name: LexisNexis Risk Solutions
   on_network: true

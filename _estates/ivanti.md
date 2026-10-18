@@ -6,22 +6,22 @@ description: Ivanti is an IT asset management and security platform providing un
   People & Devices, MDM, ITSM, and Zero-Trust Access, alongside Endpoint Manager APIs for patch and software
   distribution.
 estate_rating:
-  agent_avg: 7.4
+  agent_avg: 7.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.6
   agent_ready: 0
   band: emerging
-  best: 40.0
-  composite_avg: 19.0
+  best: 38.5
+  composite_avg: 18.3
   composite_band: emerging
-  composite_raw: 16.5
-  developing: 1
+  composite_raw: 16.1
+  developing: 0
   exemplar: 0
-  rating: 14.4
+  rating: 13.9
   scored: 3
-  spread: 36.6
-  strength: 1
+  spread: 35.1
+  strength: 0
   strong: 0
   worst: 3.4
 estate_root: null
@@ -30,8 +30,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ivanti.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: developing
-  blurb: Usable, with meaningful gaps to close
+- band: thin
+  blurb: Limited public surface area
   count: 1
   items:
   - &id001
@@ -43,11 +43,11 @@ member_bands:
     immediate_parent: ivanti
     name: Pulse
     relationship: product
-    score_band: developing
-    score_composite: 40.0
+    score_band: thin
+    score_composite: 38.5
     slug: pulse
     source: declared
-  label: Developing
+  label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
@@ -63,7 +63,7 @@ member_bands:
     name: MobileIron
     relationship: acquisition
     score_band: minimal
-    score_composite: 6.2
+    score_composite: 6.3
     slug: mobileiron
     source: prose
   - &id003
@@ -90,7 +90,7 @@ members:
 members_unrated: []
 name: Ivanti
 overview: 'Ivanti publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 36.6 points, from 40.0 down to 3.4.
+  of which 3 carry a rating. The rated members span 35.1 points, from 38.5 down to 3.4.
 
 
   Its highest-rated surfaces are Pulse, MobileIron, Cherwell Software.'

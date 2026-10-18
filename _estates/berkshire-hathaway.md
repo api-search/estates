@@ -15,18 +15,18 @@ estate_rating:
   agent_raw: 6.0
   agent_ready: 1
   band: emerging
-  best: 49.1
-  composite_avg: 17.0
+  best: 47.6
+  composite_avg: 16.5
   composite_band: emerging
-  composite_raw: 13.6
+  composite_raw: 13.4
   developing: 1
   exemplar: 0
-  rating: 13.4
+  rating: 13.1
   scored: 5
-  spread: 46.6
+  spread: 45.0
   strength: 1
   strong: 0
-  worst: 2.5
+  worst: 2.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/berkshire-hathaway.png
@@ -47,7 +47,7 @@ member_bands:
     name: BNSF
     relationship: subsidiary
     score_band: developing
-    score_composite: 49.1
+    score_composite: 47.6
     slug: bnsf
     source: declared
   label: Developing
@@ -105,7 +105,7 @@ member_bands:
     name: Precision Castparts
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: precision-castparts
     source: prose
   label: Minimal
@@ -121,7 +121,7 @@ members:
 members_unrated: []
 name: Berkshire Hathaway
 overview: 'Berkshire Hathaway publishes its API surface across 5 provider profiles indexed on the APIs.io
-  network, of which 5 carry a rating. The rated members span 46.6 points, from 49.1 down to 2.5.
+  network, of which 5 carry a rating. The rated members span 45.0 points, from 47.6 down to 2.6.
 
 
   Its highest-rated surfaces are BNSF, GEICO, Alleghany, Dairyqueen, Precision Castparts.'

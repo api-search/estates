@@ -12,24 +12,24 @@ description: 'Renaissance Learning, Inc. is a pre-K–12 education technology co
   Renaissance-controlled hosts: the Student Proficiency Service, the Student Pathway Event Proxy and the
   Lexile API.'
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 19.0
-  composite_avg: 18.3
+  composite_avg: 17.8
   composite_band: emerging
-  composite_raw: 14.7
+  composite_raw: 14.8
   developing: 0
   exemplar: 0
-  rating: 13.6
+  rating: 13.2
   scored: 3
-  spread: 8.0
+  spread: 7.9
   strength: 0
   strong: 0
-  worst: 11.0
+  worst: 11.1
 estate_root: null
 estate_root_name: null
 image: https://www.renaissance.com/wp-content/uploads/2023/04/renaissance-logo-facebook.png
@@ -76,7 +76,7 @@ member_bands:
     name: Freckle Education
     relationship: acquisition
     score_band: emerging
-    score_composite: 11.0
+    score_composite: 11.1
     slug: freckle-education
     source: declared
   label: Emerging
@@ -90,7 +90,7 @@ members:
 members_unrated: []
 name: Renaissance
 overview: 'Renaissance publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 8.0 points, from 19.0 down to 11.0.
+  of which 3 carry a rating. The rated members span 7.9 points, from 19.0 down to 11.1.
 
 
   Its highest-rated surfaces are Nearpod, Lalilo, Freckle Education.'

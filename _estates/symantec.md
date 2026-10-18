@@ -7,21 +7,21 @@ description: Symantec (now part of Broadcom) is a leading enterprise cybersecuri
   Detection and Response (EDR), Data Loss Prevention (DLP), and the Integrated Cyber Defense Manager (ICDm)
   platform.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 14.0
-  composite_avg: 14.5
+  best: 14.1
+  composite_avg: 14.0
   composite_band: emerging
   composite_raw: 4.7
   developing: 0
   exemplar: 0
-  rating: 11.3
+  rating: 11.0
   scored: 3
-  spread: 14.0
+  spread: 14.1
   strength: 0
   strong: 0
   worst: 0.0
@@ -45,7 +45,7 @@ member_bands:
     name: Bluecoat (Symantec)
     relationship: acquisition
     score_band: emerging
-    score_composite: 14.0
+    score_composite: 14.1
     slug: bluecoat-symantec
     source: declared
   label: Emerging
@@ -111,7 +111,7 @@ members:
 members_unrated: []
 name: Symantec
 overview: 'Symantec publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 14.0 points, from 14.0 down to 0.0.
+  of which 4 carry a rating. The rated members span 14.1 points, from 14.1 down to 0.0.
 
 
   Its highest-rated surfaces are Bluecoat (Symantec), Brightmail, Fireglass, Elastica.'
@@ -126,8 +126,7 @@ tags:
 - Broadcom
 - Cybersecurity
 - DLP
-- EDR
-- Endpoint Protection
+- Endpoint Detection and Response
 - Endpoint Security
 - Security
 - Symantec

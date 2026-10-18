@@ -12,15 +12,15 @@ estate_rating:
   agent_raw: 3.5
   agent_ready: 0
   band: emerging
-  best: 37.3
-  composite_avg: 13.4
+  best: 37.4
+  composite_avg: 13.1
   composite_band: emerging
   composite_raw: 9.1
   developing: 0
   exemplar: 0
-  rating: 10.5
+  rating: 10.3
   scored: 8
-  spread: 37.3
+  spread: 37.4
   strength: 0
   strong: 0
   worst: 0.0
@@ -44,7 +44,7 @@ member_bands:
     name: Parse
     relationship: product
     score_band: thin
-    score_composite: 37.3
+    score_composite: 37.4
     slug: parse
     source: parent-company-property
   label: Thin
@@ -63,7 +63,7 @@ member_bands:
     name: Wit.AI
     relationship: acquisition
     score_band: emerging
-    score_composite: 24.2
+    score_composite: 23.8
     slug: witai
     source: prose
   label: Emerging
@@ -108,7 +108,7 @@ member_bands:
     name: CTRL-labs *
     relationship: product
     score_band: minimal
-    score_composite: 2.8
+    score_composite: 2.9
     slug: ctrl-labs
     source: parent-company-property
   - &id006
@@ -166,7 +166,7 @@ members:
 members_unrated: []
 name: Facebook
 overview: 'Facebook publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 37.3 points, from 37.3 down to 0.0.
+  of which 8 carry a rating. The rated members span 37.4 points, from 37.4 down to 0.0.
 
 
   Its highest-rated surfaces are Parse, Wit.AI, Bloomsbury, Gowalla, CTRL-labs *.'

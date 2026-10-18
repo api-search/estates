@@ -18,17 +18,17 @@ estate_rating:
   agent_ready: 0
   band: emerging
   best: 58.7
-  composite_avg: 25.7
+  composite_avg: 25.0
   composite_band: thin
-  composite_raw: 34.5
+  composite_raw: 34.0
   developing: 0
   exemplar: 0
-  rating: 19.9
+  rating: 19.5
   scored: 3
-  spread: 51.4
+  spread: 51.3
   strength: 2
   strong: 1
-  worst: 7.3
+  worst: 7.4
 estate_root: null
 estate_root_name: null
 image: https://www.progress.com/images/default-source/default-album/progress-album/images-album/social-image.png
@@ -68,7 +68,7 @@ member_bands:
     name: Sitefinity CMS
     relationship: product
     score_band: thin
-    score_composite: 37.5
+    score_composite: 35.9
     slug: sitefinity-cms
     source: declared
   label: Thin
@@ -87,7 +87,7 @@ member_bands:
     name: Kinvey
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.3
+    score_composite: 7.4
     slug: kinvey
     source: prose
   label: Minimal
@@ -101,7 +101,7 @@ members:
 members_unrated: []
 name: Progress Software
 overview: 'Progress Software publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 51.4 points, from 58.7 down to 7.3.
+  network, of which 3 carry a rating. The rated members span 51.3 points, from 58.7 down to 7.4.
 
 
   Its highest-rated surfaces are Chef Software, Sitefinity CMS, Kinvey.'

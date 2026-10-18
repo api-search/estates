@@ -10,17 +10,17 @@ estate_rating:
   agent_raw: 5.4
   agent_ready: 1
   band: emerging
-  best: 57.2
-  composite_avg: 15.0
+  best: 52.2
+  composite_avg: 14.4
   composite_band: emerging
-  composite_raw: 12.7
-  developing: 0
+  composite_raw: 12.2
+  developing: 1
   exemplar: 0
-  rating: 11.7
+  rating: 11.4
   scored: 12
-  spread: 57.2
-  strength: 2
-  strong: 1
+  spread: 52.2
+  strength: 1
+  strong: 0
   worst: 0.0
 estate_root: broadcom
 estate_root_name: Broadcom
@@ -28,8 +28,8 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vmware.png
 is_subfamily: true
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
+- band: developing
+  blurb: Usable, with meaningful gaps to close
   count: 1
   items:
   - &id001
@@ -41,12 +41,12 @@ member_bands:
     immediate_parent: vmware
     name: CloudHealth
     relationship: acquisition
-    score_band: strong
-    score_composite: 57.2
+    score_band: developing
+    score_composite: 52.2
     slug: cloudhealth
     source: declared
-  label: Strong
-  open: true
+  label: Developing
+  open: false
 - band: thin
   blurb: Limited public surface area
   count: 1
@@ -61,7 +61,7 @@ member_bands:
     name: VMware Tanzu
     relationship: product
     score_band: thin
-    score_composite: 35.0
+    score_composite: 33.5
     slug: vmware-tanzu
     source: declared
   label: Thin
@@ -80,7 +80,7 @@ member_bands:
     name: Lastline
     relationship: acquisition
     score_band: emerging
-    score_composite: 23.4
+    score_composite: 23.5
     slug: lastline
     source: declared
   - &id004
@@ -93,7 +93,7 @@ member_bands:
     name: Carbon Black
     relationship: acquisition
     score_band: emerging
-    score_composite: 19.0
+    score_composite: 19.1
     slug: carbon-black
     source: declared
   label: Emerging
@@ -112,7 +112,7 @@ member_bands:
     name: AVI Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.5
+    score_composite: 7.6
     slug: avi-networks
     source: declared
   - &id006
@@ -138,7 +138,7 @@ member_bands:
     name: Nicira Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: nicira-networks
     source: declared
   - &id008
@@ -151,7 +151,7 @@ member_bands:
     name: Octarine
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: octarine
     source: declared
   - &id009
@@ -226,7 +226,7 @@ members:
 members_unrated: []
 name: VMware
 overview: 'VMware publishes its API surface across 12 provider profiles indexed on the APIs.io network,
-  of which 12 carry a rating. The rated members span 57.2 points, from 57.2 down to 0.0.
+  of which 12 carry a rating. The rated members span 52.2 points, from 52.2 down to 0.0.
 
 
   Its highest-rated surfaces are CloudHealth, VMware Tanzu, Lastline, Carbon Black, AVI Networks.'

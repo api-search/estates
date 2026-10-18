@@ -13,12 +13,12 @@ estate_rating:
   agent_ready: 1
   band: emerging
   best: 60.2
-  composite_avg: 23.1
+  composite_avg: 22.7
   composite_band: emerging
-  composite_raw: 25.3
+  composite_raw: 25.2
   developing: 1
   exemplar: 0
-  rating: 18.8
+  rating: 18.5
   scored: 6
   spread: 60.2
   strength: 3
@@ -63,7 +63,7 @@ member_bands:
     name: Juniper Mist AI
     relationship: acquisition
     score_band: developing
-    score_composite: 45.7
+    score_composite: 45.8
     slug: mist-ai
     source: prose
   label: Developing
@@ -82,7 +82,7 @@ member_bands:
     name: 128 Technology
     relationship: acquisition
     score_band: thin
-    score_composite: 37.1
+    score_composite: 37.0
     slug: 128-technology
     source: declared
   label: Thin
@@ -101,7 +101,7 @@ member_bands:
     name: BTI Systems (Juniper)
     relationship: product
     score_band: minimal
-    score_composite: 8.6
+    score_composite: 8.5
     slug: bti-systems-juniper
     source: declared
   - &id005

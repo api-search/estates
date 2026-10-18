@@ -3,24 +3,24 @@ api_total: 130
 category: Estates
 description: APIs for Qlik's analytics and data integration platform.
 estate_rating:
-  agent_avg: 17.8
+  agent_avg: 15.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 23.1
+  agent_raw: 19.5
   agent_ready: 3
-  band: thin
-  best: 72.5
-  composite_avg: 31.9
+  band: emerging
+  best: 71.0
+  composite_avg: 28.2
   composite_band: thin
-  composite_raw: 40.0
+  composite_raw: 33.6
   developing: 1
   exemplar: 1
-  rating: 26.3
-  scored: 7
-  spread: 56.6
+  rating: 23.3
+  scored: 8
+  spread: 67.9
   strength: 6
   strong: 1
-  worst: 15.9
+  worst: 3.1
 estate_root: null
 estate_root_name: null
 image: https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo.png
@@ -41,7 +41,7 @@ member_bands:
     name: Qlik Sense
     relationship: product
     score_band: exemplar
-    score_composite: 72.5
+    score_composite: 71.0
     slug: qliksense
     source: declared
   label: Exemplar
@@ -60,7 +60,7 @@ member_bands:
     name: Talend
     relationship: product
     score_band: strong
-    score_composite: 64.1
+    score_composite: 57.2
     slug: talend
     source: parent-company-property
   label: Strong
@@ -79,7 +79,7 @@ member_bands:
     name: QlikView
     relationship: product
     score_band: developing
-    score_composite: 41.7
+    score_composite: 40.2
     slug: qlikview
     source: declared
   label: Developing
@@ -91,27 +91,27 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.3
+    agent_score: 31.4
     api_count: 6
     api_count_basis: published
     immediate_parent: qlik
     name: Qlik Sense Enterprise
     relationship: product
     score_band: thin
-    score_composite: 37.8
+    score_composite: 36.3
     slug: qlik-sense-enterprise
     source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 21.0
     api_count: 13
     api_count_basis: split
     immediate_parent: qlik
     name: Qlik Cloud
     relationship: product
     score_band: thin
-    score_composite: 31.8
+    score_composite: 30.3
     slug: qlik-cloud
     source: declared
   label: Thin
@@ -130,29 +130,48 @@ member_bands:
     name: Upsolver
     relationship: product
     score_band: emerging
-    score_composite: 16.3
+    score_composite: 16.4
     slug: upsolver
     source: parent-company-property
   - &id007
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 5
     api_count_basis: split
     immediate_parent: qlik
     name: Qlik Mashups
     relationship: product
     score_band: emerging
-    score_composite: 15.9
+    score_composite: 14.4
     slug: qlik-mashups
     source: declared
   label: Emerging
+  open: false
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 1
+  items:
+  - &id008
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: qlik
+    name: Blendr.io
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 3.1
+    slug: blendr
+    source: prose
+  label: Minimal
   open: false
 - band: unrated
   blurb: Not yet scored
   count: 1
   items:
-  - &id008
+  - &id009
     acquired: null
     agent_band: null
     agent_score: null
@@ -167,8 +186,8 @@ member_bands:
     source: parent-company-property
   label: Unrated
   open: false
-member_on_network: 8
-member_total: 8
+member_on_network: 9
+member_total: 9
 members:
 - *id001
 - *id002
@@ -178,10 +197,11 @@ members:
 - *id006
 - *id007
 - *id008
+- *id009
 members_unrated: []
 name: Qlik
-overview: 'Qlik publishes its API surface across 8 provider profiles indexed on the APIs.io network, of
-  which 8 carry a rating. The rated members span 56.6 points, from 72.5 down to 15.9.
+overview: 'Qlik publishes its API surface across 9 provider profiles indexed on the APIs.io network, of
+  which 9 carry a rating. The rated members span 67.9 points, from 71.0 down to 3.1.
 
 
   Its highest-rated surfaces are Qlik Sense, Talend, QlikView, Qlik Sense Enterprise, Qlik Cloud.'

@@ -4,21 +4,21 @@ category: Estates
 description: Discover Intel® Trust Authority, the independent attestation service for securing your confidential
   computing workloads.
 estate_rating:
-  agent_avg: 5.5
+  agent_avg: 5.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.5
   agent_ready: 0
   band: minimal
-  best: 26.0
-  composite_avg: 12.1
+  best: 26.1
+  composite_avg: 11.8
   composite_band: emerging
-  composite_raw: 6.8
+  composite_raw: 6.9
   developing: 0
   exemplar: 0
-  rating: 9.5
+  rating: 9.2
   scored: 8
-  spread: 26.0
+  spread: 26.1
   strength: 0
   strong: 0
   worst: 0.0
@@ -42,7 +42,7 @@ member_bands:
     name: Moovit
     relationship: acquisition
     score_band: emerging
-    score_composite: 26.0
+    score_composite: 26.1
     slug: moovit
     source: prose
   - &id002
@@ -74,7 +74,7 @@ member_bands:
     name: Habana Labs
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.5
+    score_composite: 5.6
     slug: habana-labs
     source: prose
   - &id004
@@ -87,7 +87,7 @@ member_bands:
     name: Mobileye
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.9
+    score_composite: 4.0
     slug: mobileye
     source: prose
   - &id005
@@ -158,7 +158,7 @@ members:
 members_unrated: []
 name: Intel
 overview: 'Intel publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 26.0 points, from 26.0 down to 0.0.
+  of which 8 carry a rating. The rated members span 26.1 points, from 26.1 down to 0.0.
 
 
   Its highest-rated surfaces are Moovit, Granulate, Habana Labs, Mobileye, Aepona.'

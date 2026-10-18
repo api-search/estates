@@ -7,21 +7,21 @@ description: Spotify is the world's leading music streaming platform with 600M+ 
   OAuth 2.0 with scopes for user-authorized access. The API underwent significant changes in February
   2026 with new generic library endpoints and streamlined playlist management.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 4.5
   agent_ready: 0
   band: emerging
-  best: 33.9
-  composite_avg: 16.3
+  best: 27.0
+  composite_avg: 15.1
   composite_band: emerging
-  composite_raw: 11.1
+  composite_raw: 9.4
   developing: 0
   exemplar: 0
-  rating: 12.9
+  rating: 12.1
   scored: 4
-  spread: 33.9
+  spread: 27.0
   strength: 0
   strong: 0
   worst: 0.0
@@ -45,7 +45,7 @@ member_bands:
     name: Megaphone
     relationship: acquisition
     score_band: thin
-    score_composite: 33.9
+    score_composite: 27.0
     slug: megaphone
     source: prose
   label: Thin
@@ -64,7 +64,7 @@ member_bands:
     name: SoundBetter
     relationship: product
     score_band: minimal
-    score_composite: 7.0
+    score_composite: 7.1
     slug: soundbetter
     source: parent-company-property
   - &id003
@@ -139,7 +139,7 @@ members:
 members_unrated: []
 name: Spotify
 overview: 'Spotify publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 33.9 points, from 33.9 down to 0.0.
+  of which 6 carry a rating. The rated members span 27.0 points, from 27.0 down to 0.0.
 
 
   Its highest-rated surfaces are Megaphone, SoundBetter, Cord Project, The Echo Nest, Betty Labs.'

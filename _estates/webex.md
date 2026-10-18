@@ -13,18 +13,18 @@ estate_rating:
   agent_raw: 19.4
   agent_ready: 0
   band: emerging
-  best: 53.0
-  composite_avg: 30.5
+  best: 51.5
+  composite_avg: 28.6
   composite_band: thin
-  composite_raw: 40.6
-  developing: 3
+  composite_raw: 37.6
+  developing: 2
   exemplar: 0
-  rating: 24.2
+  rating: 23.1
   scored: 5
-  spread: 22.1
-  strength: 3
+  spread: 23.3
+  strength: 2
   strong: 0
-  worst: 30.9
+  worst: 28.2
 estate_root: cisco
 estate_root_name: Cisco
 image: https://developer.webex.com/images/webex-logo.png
@@ -33,7 +33,7 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 3
+  count: 2
   items:
   - &id001
     acquired: null
@@ -45,7 +45,7 @@ member_bands:
     name: Cisco Expressway
     relationship: product
     score_band: developing
-    score_composite: 53.0
+    score_composite: 51.5
     slug: cisco-expressway
     source: declared
   - &id002
@@ -58,9 +58,15 @@ member_bands:
     name: Cisco Webex Meetings
     relationship: product
     score_band: developing
-    score_composite: 45.1
+    score_composite: 40.1
     slug: cisco-webex-meetings
     source: declared
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 3
+  items:
   - &id003
     acquired: null
     agent_band: agent-aware
@@ -70,30 +76,11 @@ member_bands:
     immediate_parent: webex
     name: Cisco Directory Connector
     relationship: product
-    score_band: developing
-    score_composite: 40.2
+    score_band: thin
+    score_composite: 38.7
     slug: cisco-directory-connector
     source: declared
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 2
-  items:
   - &id004
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 17.9
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: webex
-    name: Cisco Control Hub
-    relationship: product
-    score_band: thin
-    score_composite: 33.9
-    slug: cisco-control-hub
-    source: declared
-  - &id005
     acquired: null
     agent_band: agent-aware
     agent_score: 17.9
@@ -103,8 +90,21 @@ member_bands:
     name: Cisco Collaboration Hybrid Solutions
     relationship: product
     score_band: thin
-    score_composite: 30.9
+    score_composite: 29.4
     slug: cisco-collaboration-hybrid-solutions
+    source: declared
+  - &id005
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: webex
+    name: Cisco Control Hub
+    relationship: product
+    score_band: thin
+    score_composite: 28.2
+    slug: cisco-control-hub
     source: declared
   label: Thin
   open: false
@@ -119,11 +119,11 @@ members:
 members_unrated: []
 name: Webex
 overview: 'Webex publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 22.1 points, from 53.0 down to 30.9.
+  of which 5 carry a rating. The rated members span 23.3 points, from 51.5 down to 28.2.
 
 
   Its highest-rated surfaces are Cisco Expressway, Cisco Webex Meetings, Cisco Directory Connector, Cisco
-  Control Hub, Cisco Collaboration Hybrid Solutions.'
+  Collaboration Hybrid Solutions, Cisco Control Hub.'
 parent_provider: webex
 permalink: /estates/webex/
 slug: webex

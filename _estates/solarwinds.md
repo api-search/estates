@@ -7,21 +7,21 @@ description: SolarWinds provides a comprehensive suite of APIs enabling programm
   management, server and application monitoring, and more, allowing customers to integrate SolarWinds
   capabilities into their own tools and workflows.
 estate_rating:
-  agent_avg: 10.0
-  agent_band: emerging
+  agent_avg: 9.9
+  agent_band: minimal
   agent_native: 0
   agent_raw: 9.5
   agent_ready: 1
   band: emerging
-  best: 53.6
-  composite_avg: 19.5
+  best: 53.7
+  composite_avg: 19.0
   composite_band: emerging
   composite_raw: 17.9
   developing: 1
   exemplar: 0
-  rating: 15.6
+  rating: 15.4
   scored: 3
-  spread: 53.6
+  spread: 53.7
   strength: 1
   strong: 0
   worst: 0.0
@@ -45,7 +45,7 @@ member_bands:
     name: VividCortex
     relationship: acquisition
     score_band: developing
-    score_composite: 53.6
+    score_composite: 53.7
     slug: vividcortex
     source: prose
   label: Developing
@@ -91,7 +91,7 @@ members:
 members_unrated: []
 name: SolarWinds
 overview: 'SolarWinds publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 53.6 points, from 53.6 down to 0.0.
+  of which 3 carry a rating. The rated members span 53.7 points, from 53.7 down to 0.0.
 
 
   Its highest-rated surfaces are VividCortex, Librato, LogicNow.'

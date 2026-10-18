@@ -4,22 +4,22 @@ category: Estates
 description: Collection of Workday REST and SOAP APIs for human capital management, financial management,
   enterprise planning, analytics, and platform extensibility.
 estate_rating:
-  agent_avg: 16.9
+  agent_avg: 16.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 20.4
   agent_ready: 1
-  band: thin
-  best: 48.1
-  composite_avg: 31.0
+  band: emerging
+  best: 46.5
+  composite_avg: 29.4
   composite_band: thin
-  composite_raw: 36.9
-  developing: 6
+  composite_raw: 34.8
+  developing: 5
   exemplar: 0
-  rating: 25.4
+  rating: 24.4
   scored: 9
-  spread: 45.2
-  strength: 6
+  spread: 43.6
+  strength: 5
   strong: 0
   worst: 2.9
 estate_root: null
@@ -30,7 +30,7 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 6
+  count: 5
   items:
   - &id001
     acquired: null
@@ -42,7 +42,7 @@ member_bands:
     name: Workday Studio
     relationship: product
     score_band: developing
-    score_composite: 48.1
+    score_composite: 46.5
     slug: workday-studio
     source: declared
   - &id002
@@ -55,23 +55,10 @@ member_bands:
     name: Workday Integration
     relationship: product
     score_band: developing
-    score_composite: 47.2
+    score_composite: 45.6
     slug: workday-integration
     source: declared
   - &id003
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 20.4
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: workday
-    name: Flowise
-    relationship: product
-    score_band: developing
-    score_composite: 45.8
-    slug: flowise
-    source: parent-company-property
-  - &id004
     acquired: null
     agent_band: agent-aware
     agent_score: 19.8
@@ -81,10 +68,10 @@ member_bands:
     name: Workday Finance
     relationship: product
     score_band: developing
-    score_composite: 45.6
+    score_composite: 44.1
     slug: workday-finance
     source: declared
-  - &id005
+  - &id004
     acquired: null
     agent_band: agent-ready
     agent_score: 31.5
@@ -97,7 +84,7 @@ member_bands:
     score_composite: 43.3
     slug: scoutrfp
     source: declared
-  - &id006
+  - &id005
     acquired: null
     agent_band: agent-aware
     agent_score: 23.2
@@ -107,7 +94,7 @@ member_bands:
     name: Sana
     relationship: product
     score_band: developing
-    score_composite: 39.3
+    score_composite: 39.8
     slug: sana
     source: prose
   label: Developing
@@ -116,6 +103,19 @@ member_bands:
   blurb: Limited public surface area
   count: 2
   items:
+  - &id006
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 20.4
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: workday
+    name: Flowise
+    relationship: product
+    score_band: thin
+    score_composite: 37.1
+    slug: flowise
+    source: parent-company-property
   - &id007
     acquired: null
     agent_band: agent-aware
@@ -129,6 +129,12 @@ member_bands:
     score_composite: 30.4
     slug: peakon
     source: parent-company-property
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 1
+  items:
   - &id008
     acquired: null
     agent_band: agent-aware
@@ -138,11 +144,11 @@ member_bands:
     immediate_parent: workday
     name: Evisort
     relationship: product
-    score_band: thin
-    score_composite: 29.5
+    score_band: emerging
+    score_composite: 23.5
     slug: evisort
     source: parent-company-property
-  label: Thin
+  label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
@@ -178,11 +184,11 @@ members:
 members_unrated: []
 name: Workday
 overview: 'Workday publishes its API surface across 9 provider profiles indexed on the APIs.io network,
-  of which 9 carry a rating. The rated members span 45.2 points, from 48.1 down to 2.9.
+  of which 9 carry a rating. The rated members span 43.6 points, from 46.5 down to 2.9.
 
 
-  Its highest-rated surfaces are Workday Studio, Workday Integration, Flowise, Workday Finance, Scout
-  RFP (Workday Strategic Sourcing).'
+  Its highest-rated surfaces are Workday Studio, Workday Integration, Workday Finance, Scout RFP (Workday
+  Strategic Sourcing), Sana.'
 parent_provider: workday
 permalink: /estates/workday/
 slug: workday

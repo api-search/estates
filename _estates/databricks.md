@@ -3,23 +3,23 @@ api_total: 1
 category: Estates
 description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
 estate_rating:
-  agent_avg: 7.8
+  agent_avg: 7.7
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.3
   agent_ready: 0
   band: emerging
-  best: 66.5
-  composite_avg: 19.8
+  best: 65.0
+  composite_avg: 19.2
   composite_band: emerging
-  composite_raw: 19.1
+  composite_raw: 18.7
   developing: 0
-  exemplar: 1
-  rating: 14.9
+  exemplar: 0
+  rating: 14.6
   scored: 5
-  spread: 66.5
-  strength: 3
-  strong: 0
+  spread: 65.0
+  strength: 2
+  strong: 1
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -27,8 +27,8 @@ image: https://www.databricks.com/en-website-assets/static/f9f2b15ae456c41f7d2e5
 is_subfamily: false
 layout: estate
 member_bands:
-- band: exemplar
-  blurb: Complete, well-documented, and agent-ready
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id001
@@ -40,11 +40,11 @@ member_bands:
     immediate_parent: databricks
     name: Databricks Asset Bundles
     relationship: product
-    score_band: exemplar
-    score_composite: 66.5
+    score_band: strong
+    score_composite: 65.0
     slug: databricks-asset-bundles
     source: declared
-  label: Exemplar
+  label: Strong
   open: true
 - band: emerging
   blurb: Early or largely undocumented
@@ -60,7 +60,7 @@ member_bands:
     name: MosaicML
     relationship: acquisition
     score_band: emerging
-    score_composite: 20.0
+    score_composite: 19.6
     slug: mosaicml
     source: declared
   label: Emerging
@@ -79,7 +79,7 @@ member_bands:
     name: Arcion Labs
     relationship: acquisition
     score_band: minimal
-    score_composite: 5.6
+    score_composite: 5.7
     slug: arcion-labs
     source: prose
   - &id004
@@ -121,7 +121,7 @@ members:
 members_unrated: []
 name: Databricks
 overview: 'Databricks publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 66.5 points, from 66.5 down to 0.0.
+  of which 5 carry a rating. The rated members span 65.0 points, from 65.0 down to 0.0.
 
 
   Its highest-rated surfaces are Databricks Asset Bundles, MosaicML, Arcion Labs, Okera, Bit.io.'

@@ -8,24 +8,24 @@ description: A global information and insights company providing credit reportin
   2021 — publishes an open, MIT-licensed OpenAPI for the STIR/SHAKEN call authentication and verification
   service.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 10.0
-  composite_avg: 14.9
+  best: 10.6
+  composite_avg: 14.5
   composite_band: emerging
-  composite_raw: 5.6
+  composite_raw: 5.9
   developing: 0
   exemplar: 0
-  rating: 11.5
+  rating: 11.3
   scored: 3
-  spread: 6.7
+  spread: 7.4
   strength: 0
   strong: 0
-  worst: 3.3
+  worst: 3.2
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transunion.png
@@ -46,7 +46,7 @@ member_bands:
     name: iovation
     relationship: product
     score_band: minimal
-    score_composite: 10.0
+    score_composite: 10.6
     slug: iovation
     source: parent-company-property
   - &id002
@@ -59,7 +59,7 @@ member_bands:
     name: eBureau
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.4
+    score_composite: 3.9
     slug: ebureau
     source: prose
   - &id003
@@ -72,7 +72,7 @@ member_bands:
     name: Trustid
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.3
+    score_composite: 3.2
     slug: trustid
     source: prose
   label: Minimal
@@ -86,7 +86,7 @@ members:
 members_unrated: []
 name: TransUnion
 overview: 'TransUnion publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 6.7 points, from 10.0 down to 3.3.
+  of which 3 carry a rating. The rated members span 7.4 points, from 10.6 down to 3.2.
 
 
   Its highest-rated surfaces are iovation, eBureau, Trustid.'

@@ -12,21 +12,21 @@ description: 'Pearson plc is the world''s largest learning company, operating co
   What remains public is an OIDC discovery document, a live status page, a security disclosure policy,
   LTI 1.3 guidance, and three retired SIS WSDLs.'
 estate_rating:
-  agent_avg: 9.6
+  agent_avg: 9.2
   agent_band: minimal
   agent_native: 0
-  agent_raw: 8.2
+  agent_raw: 7.6
   agent_ready: 0
   band: emerging
-  best: 34.5
-  composite_avg: 19.7
+  best: 28.1
+  composite_avg: 18.2
   composite_band: emerging
-  composite_raw: 18.4
+  composite_raw: 15.9
   developing: 0
   exemplar: 0
-  rating: 15.7
+  rating: 14.6
   scored: 3
-  spread: 31.6
+  spread: 25.2
   strength: 0
   strong: 0
   worst: 2.9
@@ -50,7 +50,7 @@ member_bands:
     name: Credly
     relationship: acquisition
     score_band: thin
-    score_composite: 34.5
+    score_composite: 28.1
     slug: credly
     source: prose
   label: Thin
@@ -62,14 +62,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: human-only
-    agent_score: 3.8
+    agent_score: 1.9
     api_count: 1
     api_count_basis: split
     immediate_parent: pearson
     name: Scott Foresman
     relationship: product
     score_band: emerging
-    score_composite: 17.9
+    score_composite: 16.8
     slug: scott-foresman
     source: prose
   label: Emerging
@@ -102,7 +102,7 @@ members:
 members_unrated: []
 name: Pearson
 overview: 'Pearson publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 31.6 points, from 34.5 down to 2.9.
+  of which 3 carry a rating. The rated members span 25.2 points, from 28.1 down to 2.9.
 
 
   Its highest-rated surfaces are Credly, Scott Foresman, Clutch Learning.'
@@ -123,7 +123,7 @@ tags:
 - EdTech
 - Qualifications
 - Testing
-- Learning Management
+- LMS
 - Workforce Skills
 title: Pearson
 ---

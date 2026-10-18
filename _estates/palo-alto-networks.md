@@ -7,21 +7,21 @@ description: Palo Alto Networks is a global cybersecurity leader providing advan
   CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations,
   and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.
 estate_rating:
-  agent_avg: 13.7
+  agent_avg: 13.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.5
+  agent_raw: 15.1
   agent_ready: 1
   band: emerging
-  best: 43.1
-  composite_avg: 22.4
+  best: 43.2
+  composite_avg: 21.3
   composite_band: emerging
-  composite_raw: 23.4
+  composite_raw: 22.3
   developing: 1
   exemplar: 0
-  rating: 18.9
+  rating: 18.1
   scored: 9
-  spread: 43.1
+  spread: 43.2
   strength: 1
   strong: 0
   worst: 0.0
@@ -45,14 +45,14 @@ member_bands:
     name: Venafi
     relationship: product
     score_band: developing
-    score_composite: 43.1
+    score_composite: 43.2
     slug: venafi
     source: parent-company-property
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 4
+  count: 3
   items:
   - &id002
     acquired: null
@@ -64,7 +64,7 @@ member_bands:
     name: Demisto
     relationship: product
     score_band: thin
-    score_composite: 36.2
+    score_composite: 36.3
     slug: demisto
     source: parent-company-property
   - &id003
@@ -83,16 +83,22 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 21.0
     api_count: 1
     api_count_basis: published
     immediate_parent: palo-alto-networks
     name: Prisma Cloud
     relationship: product
     score_band: thin
-    score_composite: 31.0
+    score_composite: 29.5
     slug: prisma-cloud
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
+  items:
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -102,27 +108,21 @@ member_bands:
     immediate_parent: palo-alto-networks
     name: Protect AI
     relationship: product
-    score_band: thin
-    score_composite: 30.0
+    score_band: emerging
+    score_composite: 22.6
     slug: protectai
     source: parent-company-property
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
-  items:
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: palo-alto-networks
     name: Panorama
     relationship: product
     score_band: emerging
-    score_composite: 22.9
+    score_composite: 21.4
     slug: panorama
     source: declared
   label: Emerging
@@ -141,7 +141,7 @@ member_bands:
     name: Prosimo
     relationship: product
     score_band: minimal
-    score_composite: 9.5
+    score_composite: 9.6
     slug: prosimo
     source: parent-company-property
   - &id008
@@ -235,7 +235,7 @@ members:
 members_unrated: []
 name: Palo Alto Networks
 overview: 'Palo Alto Networks publishes its API surface across 12 provider profiles indexed on the APIs.io
-  network, of which 12 carry a rating. The rated members span 43.1 points, from 43.1 down to 0.0.
+  network, of which 12 carry a rating. The rated members span 43.2 points, from 43.2 down to 0.0.
 
 
   Its highest-rated surfaces are Venafi, Demisto, Koi Security, Prisma Cloud, Protect AI.'

@@ -4,24 +4,24 @@ category: Estates
 description: APIs for Xbox gaming platform including Xbox Live Services and Azure PlayFab backend for
   games.
 estate_rating:
-  agent_avg: 16.8
+  agent_avg: 16.3
   agent_band: emerging
   agent_native: 1
-  agent_raw: 22.2
-  agent_ready: 1
+  agent_raw: 21.5
+  agent_ready: 0
   band: emerging
-  best: 46.1
-  composite_avg: 25.1
-  composite_band: thin
-  composite_raw: 28.9
-  developing: 2
+  best: 40.1
+  composite_avg: 22.8
+  composite_band: emerging
+  composite_raw: 25.4
+  developing: 1
   exemplar: 0
-  rating: 21.8
+  rating: 20.2
   scored: 6
-  spread: 41.0
-  strength: 2
+  spread: 34.9
+  strength: 1
   strong: 0
-  worst: 5.1
+  worst: 5.2
 estate_root: microsoft
 estate_root_name: Microsoft
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-xbox.png
@@ -30,21 +30,27 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 17.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-xbox
     name: PlayFab
     relationship: product
     score_band: developing
-    score_composite: 46.1
+    score_composite: 40.1
     slug: playfab
     source: declared
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 2
+  items:
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -54,16 +60,10 @@ member_bands:
     immediate_parent: microsoft-xbox
     name: Blizzard Entertainment
     relationship: product
-    score_band: developing
-    score_composite: 46.0
+    score_band: thin
+    score_composite: 35.5
     slug: blizzard-entertainment
     source: declared
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 2
-  items:
   - &id003
     acquired: null
     agent_band: agent-native
@@ -74,9 +74,15 @@ member_bands:
     name: Battle.net
     relationship: product
     score_band: thin
-    score_composite: 28.3
+    score_composite: 26.8
     slug: battle-net
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
+  items:
   - &id004
     acquired: null
     agent_band: agent-aware
@@ -86,27 +92,21 @@ member_bands:
     immediate_parent: microsoft-xbox
     name: Mojang
     relationship: product
-    score_band: thin
-    score_composite: 26.3
+    score_band: emerging
+    score_composite: 23.9
     slug: mojang
     source: declared
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
-  items:
   - &id005
     acquired: 2023
-    agent_band: agent-ready
-    agent_score: 30.2
+    agent_band: agent-aware
+    agent_score: 28.0
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-xbox
     name: Activision Blizzard
     relationship: acquisition
     score_band: emerging
-    score_composite: 21.6
+    score_composite: 20.9
     slug: activision-blizzard
     source: declared
   label: Emerging
@@ -125,7 +125,7 @@ member_bands:
     name: Halo
     relationship: product
     score_band: minimal
-    score_composite: 5.1
+    score_composite: 5.2
     slug: halo
     source: declared
   label: Minimal
@@ -142,7 +142,7 @@ members:
 members_unrated: []
 name: Microsoft Xbox
 overview: 'Microsoft Xbox publishes its API surface across 6 provider profiles indexed on the APIs.io
-  network, of which 6 carry a rating. The rated members span 41.0 points, from 46.1 down to 5.1.
+  network, of which 6 carry a rating. The rated members span 34.9 points, from 40.1 down to 5.2.
 
 
   Its highest-rated surfaces are PlayFab, Blizzard Entertainment, Battle.net, Mojang, Activision Blizzard.'

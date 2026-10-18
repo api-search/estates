@@ -1,5 +1,5 @@
 ---
-api_total: 2
+api_total: 6
 category: Estates
 description: 'SS&C Technologies Holdings (NASDAQ: SSNC) is a global provider of financial-services and
   healthcare software and outsourcing, headquartered in Windsor, Connecticut, operating under brands including
@@ -13,21 +13,21 @@ description: 'SS&C Technologies Holdings (NASDAQ: SSNC) is a global provider of 
   amendment, pair and basket orders, allocations and trade reports, real-time and historical market data,
   and intraday balances, positions and activity.'
 estate_rating:
-  agent_avg: 11.7
-  agent_band: emerging
+  agent_avg: 9.1
+  agent_band: minimal
   agent_native: 0
-  agent_raw: 13.6
+  agent_raw: 7.9
   agent_ready: 1
   band: emerging
-  best: 52.2
-  composite_avg: 22.9
+  best: 50.7
+  composite_avg: 19.5
   composite_band: emerging
-  composite_raw: 26.1
+  composite_raw: 19.4
   developing: 1
   exemplar: 0
-  rating: 18.4
+  rating: 15.3
   scored: 4
-  spread: 50.1
+  spread: 48.6
   strength: 1
   strong: 0
   worst: 2.1
@@ -51,34 +51,28 @@ member_bands:
     name: Blue Prism
     relationship: acquisition
     score_band: developing
-    score_composite: 52.2
+    score_composite: 50.7
     slug: blue-prism
     source: prose
   label: Developing
   open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 1
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
   items:
   - &id002
     acquired: null
-    agent_band: agent-aware
-    agent_score: 22.9
-    api_count: 1
-    api_count_basis: published
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 5
+    api_count_basis: split
     immediate_parent: ss-c-technologies
     name: SS&C Geneva
     relationship: product
-    score_band: thin
-    score_composite: 39.0
+    score_band: emerging
+    score_composite: 13.7
     slug: ssc-geneva
     source: declared
-  label: Thin
-  open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 2
-  items:
   - &id003
     acquired: null
     agent_band: human-only
@@ -88,10 +82,16 @@ member_bands:
     immediate_parent: ss-c-technologies
     name: Calastone
     relationship: subsidiary
-    score_band: minimal
-    score_composite: 10.9
+    score_band: emerging
+    score_composite: 11.0
     slug: calastone
     source: prose
+  label: Emerging
+  open: false
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 1
+  items:
   - &id004
     acquired: null
     agent_band: human-only
@@ -117,7 +117,7 @@ members:
 members_unrated: []
 name: SS&C Technologies
 overview: 'SS&C Technologies publishes its API surface across 4 provider profiles indexed on the APIs.io
-  network, of which 4 carry a rating. The rated members span 50.1 points, from 52.2 down to 2.1.
+  network, of which 4 carry a rating. The rated members span 48.6 points, from 50.7 down to 2.1.
 
 
   Its highest-rated surfaces are Blue Prism, SS&C Geneva, Calastone, DST Systems.'

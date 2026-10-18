@@ -7,24 +7,24 @@ description: Siemens is a global powerhouse in the fields of electrification, au
   infrastructure, and industry. With a focus on innovation and technology, Siemens is constantly pushing
   the boundaries to create a better future for society and the environment.
 estate_rating:
-  agent_avg: 11.8
+  agent_avg: 11.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 13.6
+  agent_raw: 13.1
   agent_ready: 0
   band: emerging
-  best: 47.5
-  composite_avg: 22.0
+  best: 43.3
+  composite_avg: 20.9
   composite_band: emerging
-  composite_raw: 23.9
+  composite_raw: 22.4
   developing: 2
   exemplar: 0
-  rating: 17.9
+  rating: 17.1
   scored: 4
-  spread: 45.0
+  spread: 40.7
   strength: 2
   strong: 0
-  worst: 2.5
+  worst: 2.6
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siemens.png
@@ -45,20 +45,20 @@ member_bands:
     name: Siemens PLM
     relationship: product
     score_band: developing
-    score_composite: 47.5
+    score_composite: 43.3
     slug: siemens-plm
     source: declared
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 28.1
+    agent_score: 26.2
     api_count: 2
     api_count_basis: published
     immediate_parent: siemens
     name: Siemens Insights Hub (MindSphere)
     relationship: product
     score_band: developing
-    score_composite: 42.0
+    score_composite: 40.5
     slug: siemens-mindsphere
     source: declared
   label: Developing
@@ -90,7 +90,7 @@ member_bands:
     name: Mentor Graphics
     relationship: product
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: mentor-graphics
     source: declared
   label: Minimal
@@ -105,7 +105,7 @@ members:
 members_unrated: []
 name: Siemens
 overview: 'Siemens publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 45.0 points, from 47.5 down to 2.5.
+  of which 4 carry a rating. The rated members span 40.7 points, from 43.3 down to 2.6.
 
 
   Its highest-rated surfaces are Siemens PLM, Siemens Insights Hub (MindSphere), Dresser-Rand Group, Mentor

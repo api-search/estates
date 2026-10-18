@@ -1,26 +1,26 @@
 ---
-api_total: 17
+api_total: 18
 category: Estates
 description: Online payment processing for internet businesses. Stripe is a suite of payment APIs that
   powers commerce for online businesses of all sizes.
 estate_rating:
-  agent_avg: 16.3
+  agent_avg: 16.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 22.2
   agent_ready: 2
   band: emerging
-  best: 66.5
-  composite_avg: 29.9
+  best: 59.7
+  composite_avg: 28.2
   composite_band: thin
-  composite_raw: 39.3
+  composite_raw: 36.7
   developing: 2
-  exemplar: 1
-  rating: 24.5
+  exemplar: 0
+  rating: 23.4
   scored: 5
-  spread: 63.5
-  strength: 5
-  strong: 0
+  spread: 56.7
+  strength: 4
+  strong: 1
   worst: 3.0
 estate_root: null
 estate_root_name: null
@@ -28,8 +28,8 @@ image: https://stripe.com/img/about/logos/logos/blue.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: exemplar
-  blurb: Complete, well-documented, and agent-ready
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id001
@@ -41,17 +41,30 @@ member_bands:
     immediate_parent: stripe
     name: Paystack
     relationship: product
-    score_band: exemplar
-    score_composite: 66.5
+    score_band: strong
+    score_composite: 59.7
     slug: paystack
     source: parent-company-property
-  label: Exemplar
+  label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
   count: 2
   items:
   - &id002
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 36.4
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: stripe
+    name: Bridge
+    relationship: product
+    score_band: developing
+    score_composite: 46.8
+    slug: bridge
+    source: parent-company-property
+  - &id003
     acquired: null
     agent_band: agent-aware
     agent_score: 22.1
@@ -61,22 +74,9 @@ member_bands:
     name: TaxJar
     relationship: product
     score_band: developing
-    score_composite: 50.6
+    score_composite: 44.6
     slug: taxjar
     source: declared
-  - &id003
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 36.4
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: stripe
-    name: Bridge
-    relationship: product
-    score_band: developing
-    score_composite: 46.8
-    slug: bridge
-    source: parent-company-property
   label: Developing
   open: false
 - band: thin
@@ -128,10 +128,10 @@ members:
 members_unrated: []
 name: Stripe
 overview: 'Stripe publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 63.5 points, from 66.5 down to 3.0.
+  of which 5 carry a rating. The rated members span 56.7 points, from 59.7 down to 3.0.
 
 
-  Its highest-rated surfaces are Paystack, TaxJar, Bridge, Aqueduct, BlueYard.'
+  Its highest-rated surfaces are Paystack, Bridge, TaxJar, Aqueduct, BlueYard.'
 parent_provider: stripe
 permalink: /estates/stripe/
 slug: stripe

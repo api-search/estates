@@ -12,15 +12,15 @@ estate_rating:
   agent_raw: 7.8
   agent_ready: 0
   band: emerging
-  best: 37.6
-  composite_avg: 16.9
+  best: 36.1
+  composite_avg: 16.2
   composite_band: emerging
-  composite_raw: 13.9
+  composite_raw: 13.5
   developing: 0
   exemplar: 0
-  rating: 13.6
+  rating: 13.3
   scored: 6
-  spread: 37.6
+  spread: 36.1
   strength: 0
   strong: 0
   worst: 0.0
@@ -44,7 +44,7 @@ member_bands:
     name: Akamai API Security
     relationship: product
     score_band: thin
-    score_composite: 37.6
+    score_composite: 36.1
     slug: akamai-api-security
     source: declared
   - &id002
@@ -57,14 +57,14 @@ member_bands:
     name: Styra
     relationship: acquisition
     score_band: thin
-    score_composite: 28.9
+    score_composite: 29.0
     slug: styra
     source: prose
   label: Thin
   open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 4
   items:
   - &id003
     acquired: null
@@ -75,16 +75,10 @@ member_bands:
     immediate_parent: akamai
     name: Noname Security
     relationship: product
-    score_band: emerging
-    score_composite: 11.1
+    score_band: minimal
+    score_composite: 9.6
     slug: noname-security
     source: parent-company-property
-  label: Emerging
-  open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 3
-  items:
   - &id004
     acquired: null
     agent_band: human-only
@@ -108,7 +102,7 @@ member_bands:
     name: Soha Systems
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: soha-systems
     source: prose
   - &id006
@@ -158,7 +152,7 @@ members:
 members_unrated: []
 name: Akamai
 overview: 'Akamai publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 37.6 points, from 37.6 down to 0.0.
+  of which 7 carry a rating. The rated members span 36.1 points, from 36.1 down to 0.0.
 
 
   Its highest-rated surfaces are Akamai API Security, Styra, Noname Security, Guardicore, Soha Systems.'

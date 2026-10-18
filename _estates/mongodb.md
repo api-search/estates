@@ -7,24 +7,24 @@ description: MongoDB provides a document‑model database platform that can be d
   is used by developers and enterprises building applications that require scalable, searchable, and AI‑enabled
   data handling.
 estate_rating:
-  agent_avg: 12.7
+  agent_avg: 12.5
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.3
   agent_ready: 0
   band: emerging
-  best: 34.3
-  composite_avg: 23.7
+  best: 34.4
+  composite_avg: 22.3
   composite_band: emerging
-  composite_raw: 31.8
+  composite_raw: 28.9
   developing: 0
   exemplar: 0
-  rating: 19.3
+  rating: 18.4
   scored: 2
-  spread: 4.9
+  spread: 10.9
   strength: 0
   strong: 0
-  worst: 29.4
+  worst: 23.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mongodb.png
@@ -33,7 +33,7 @@ layout: estate
 member_bands:
 - band: thin
   blurb: Limited public surface area
-  count: 2
+  count: 1
   items:
   - &id001
     acquired: null
@@ -45,9 +45,15 @@ member_bands:
     name: MongoDB Atlas
     relationship: product
     score_band: thin
-    score_composite: 34.3
+    score_composite: 34.4
     slug: mongodb-atlas
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 1
+  items:
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -57,11 +63,11 @@ member_bands:
     immediate_parent: mongodb
     name: Voyage AI
     relationship: acquisition
-    score_band: thin
-    score_composite: 29.4
+    score_band: emerging
+    score_composite: 23.5
     slug: voyage-ai
     source: prose
-  label: Thin
+  label: Emerging
   open: false
 - band: unrated
   blurb: Not yet scored
@@ -91,7 +97,7 @@ members:
 members_unrated: []
 name: MongoDB
 overview: 'MongoDB publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 4.9 points, from 34.3 down to 29.4.
+  of which 3 carry a rating. The rated members span 10.9 points, from 34.4 down to 23.5.
 
 
   Its highest-rated surfaces are MongoDB Atlas, Voyage AI, Schema Free.'

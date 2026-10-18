@@ -12,15 +12,15 @@ estate_rating:
   agent_raw: 3.8
   agent_ready: 0
   band: minimal
-  best: 43.5
-  composite_avg: 12.1
+  best: 43.6
+  composite_avg: 11.8
   composite_band: emerging
-  composite_raw: 8.0
+  composite_raw: 7.9
   developing: 1
   exemplar: 0
-  rating: 9.6
+  rating: 9.4
   scored: 10
-  spread: 43.5
+  spread: 43.6
   strength: 1
   strong: 0
   worst: 0.0
@@ -44,14 +44,14 @@ member_bands:
     name: NVIDIA Run:ai
     relationship: acquisition
     score_band: developing
-    score_composite: 43.5
+    score_composite: 43.6
     slug: runai
     source: declared
   label: Developing
   open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
+- band: minimal
+  blurb: Almost no public developer surface
+  count: 9
   items:
   - &id002
     acquired: 2025
@@ -62,16 +62,10 @@ member_bands:
     immediate_parent: nvidia
     name: Lepton AI
     relationship: acquisition
-    score_band: emerging
-    score_composite: 12.3
+    score_band: minimal
+    score_composite: 10.8
     slug: lepton-ai
     source: declared
-  label: Emerging
-  open: false
-- band: minimal
-  blurb: Almost no public developer surface
-  count: 8
-  items:
   - &id003
     acquired: null
     agent_band: agent-aware
@@ -95,7 +89,7 @@ member_bands:
     name: Excelero Storage
     relationship: acquisition
     score_band: minimal
-    score_composite: 4.4
+    score_composite: 4.5
     slug: excelero-storage
     source: declared
   - &id005
@@ -108,7 +102,7 @@ member_bands:
     name: Deci AI
     relationship: acquisition
     score_band: minimal
-    score_composite: 4.2
+    score_composite: 4.3
     slug: deci-ai
     source: declared
   - &id006
@@ -121,7 +115,7 @@ member_bands:
     name: Augtera Networks
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.6
+    score_composite: 3.7
     slug: augtera-networks
     source: declared
   - &id007
@@ -147,7 +141,7 @@ member_bands:
     name: SwiftStack
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: swiftstack
     source: declared
   - &id009
@@ -194,7 +188,7 @@ members:
 members_unrated: []
 name: Nvidia
 overview: 'Nvidia publishes its API surface across 10 provider profiles indexed on the APIs.io network,
-  of which 10 carry a rating. The rated members span 43.5 points, from 43.5 down to 0.0.
+  of which 10 carry a rating. The rated members span 43.6 points, from 43.6 down to 0.0.
 
 
   Its highest-rated surfaces are NVIDIA Run:ai, Lepton AI, Cumulus Networks, Excelero Storage, Deci AI.'

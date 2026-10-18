@@ -5,19 +5,19 @@ description: Marathon Petroleum is one of the largest petroleum product refiners
   in the United States, with operations including refineries, pipelines, terminals, and retail outlets.
   No public developer APIs have been identified at this time.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 8.8
-  composite_avg: 14.5
+  composite_avg: 14.0
   composite_band: emerging
   composite_raw: 4.7
   developing: 0
   exemplar: 0
-  rating: 11.3
+  rating: 11.0
   scored: 3
   spread: 8.8
   strength: 0
@@ -56,7 +56,7 @@ member_bands:
     name: Western Refining
     relationship: product
     score_band: minimal
-    score_composite: 5.3
+    score_composite: 5.4
     slug: western-refining
     source: parent-company-property
   - &id003

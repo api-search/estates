@@ -7,24 +7,24 @@ description: Spring is the leading open-source application framework for Java. T
   rapid application development with embedded servers and auto-configuration. Spring is maintained by
   VMware and hosted under the Spring Projects GitHub organization.
 estate_rating:
-  agent_avg: 12.3
+  agent_avg: 12.2
   agent_band: emerging
   agent_native: 0
   agent_raw: 14.0
   agent_ready: 0
   band: emerging
-  best: 38.1
-  composite_avg: 28.1
+  best: 36.5
+  composite_avg: 26.5
   composite_band: thin
-  composite_raw: 34.4
+  composite_raw: 32.3
   developing: 0
   exemplar: 0
-  rating: 21.7
+  rating: 20.8
   scored: 6
-  spread: 7.9
+  spread: 7.8
   strength: 0
   strong: 0
-  worst: 30.2
+  worst: 28.7
 estate_root: null
 estate_root_name: null
 image: ''
@@ -38,19 +38,6 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 15.4
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: spring
-    name: Spring Boot
-    relationship: product
-    score_band: thin
-    score_composite: 38.1
-    slug: spring-boot
-    source: declared
-  - &id002
-    acquired: null
-    agent_band: agent-aware
     agent_score: 17.9
     api_count: 1
     api_count_basis: published
@@ -58,10 +45,10 @@ member_bands:
     name: Spring Cloud Config
     relationship: product
     score_band: thin
-    score_composite: 38.0
+    score_composite: 36.5
     slug: spring-cloud-config
     source: declared
-  - &id003
+  - &id002
     acquired: null
     agent_band: agent-aware
     agent_score: 15.4
@@ -71,8 +58,21 @@ member_bands:
     name: Spring Cloud Gateway
     relationship: product
     score_band: thin
-    score_composite: 35.5
+    score_composite: 34.0
     slug: spring-cloud-gateway
+    source: declared
+  - &id003
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 15.4
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: spring
+    name: Spring Boot
+    relationship: product
+    score_band: thin
+    score_composite: 32.9
+    slug: spring-boot
     source: declared
   - &id004
     acquired: null
@@ -84,7 +84,7 @@ member_bands:
     name: Spring Integration
     relationship: product
     score_band: thin
-    score_composite: 33.4
+    score_composite: 32.0
     slug: spring-integration
     source: declared
   - &id005
@@ -97,7 +97,7 @@ member_bands:
     name: Spring Data
     relationship: product
     score_band: thin
-    score_composite: 31.3
+    score_composite: 29.8
     slug: spring-data
     source: declared
   - &id006
@@ -110,7 +110,7 @@ member_bands:
     name: Spring Cloud Stream
     relationship: product
     score_band: thin
-    score_composite: 30.2
+    score_composite: 28.7
     slug: spring-cloud-stream
     source: declared
   label: Thin
@@ -127,10 +127,10 @@ members:
 members_unrated: []
 name: Spring Framework
 overview: 'Spring Framework publishes its API surface across 6 provider profiles indexed on the APIs.io
-  network, of which 6 carry a rating. The rated members span 7.9 points, from 38.1 down to 30.2.
+  network, of which 6 carry a rating. The rated members span 7.8 points, from 36.5 down to 28.7.
 
 
-  Its highest-rated surfaces are Spring Boot, Spring Cloud Config, Spring Cloud Gateway, Spring Integration,
+  Its highest-rated surfaces are Spring Cloud Config, Spring Cloud Gateway, Spring Boot, Spring Integration,
   Spring Data.'
 parent_provider: spring
 permalink: /estates/spring/

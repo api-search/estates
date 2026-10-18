@@ -9,21 +9,21 @@ description: Marvell Technology, Inc. is a Fortune 500 fabless semiconductor com
   associated with Marvell. Public developer documentation is gated behind a customer support portal and
   is not openly accessible.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 2.5
-  composite_avg: 13.1
+  best: 2.6
+  composite_avg: 12.6
   composite_band: emerging
-  composite_raw: 0.8
+  composite_raw: 0.9
   developing: 0
   exemplar: 0
-  rating: 10.5
+  rating: 10.1
   scored: 3
-  spread: 2.5
+  spread: 2.6
   strength: 0
   strong: 0
   worst: 0.0
@@ -47,7 +47,7 @@ member_bands:
     name: Innovium
     relationship: product
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: innovium
     source: parent-company-property
   - &id002
@@ -121,7 +121,7 @@ members:
 members_unrated: []
 name: Marvell Technology
 overview: 'Marvell Technology publishes its API surface across 5 provider profiles indexed on the APIs.io
-  network, of which 5 carry a rating. The rated members span 2.5 points, from 2.5 down to 0.0.
+  network, of which 5 carry a rating. The rated members span 2.6 points, from 2.6 down to 0.0.
 
 
   Its highest-rated surfaces are Innovium, Cortina Systems, Galileo Technology, Aquantia, Inphi.'

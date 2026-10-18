@@ -11,33 +11,33 @@ description: APILayer is an API marketplace and hub, an Idera, Inc. brand headqu
   every API has a free plan. APILayer publishes 22 OpenAPI documents from its own SwaggerHub organization,
   an llms.txt, and an OAuth-protected hosted MCP server.
 estate_rating:
-  agent_avg: 16.2
+  agent_avg: 16.0
   agent_band: emerging
   agent_native: 0
   agent_raw: 25.7
   agent_ready: 1
-  band: thin
-  best: 56.4
-  composite_avg: 32.2
+  band: emerging
+  best: 50.7
+  composite_avg: 30.3
   composite_band: thin
-  composite_raw: 51.8
-  developing: 2
+  composite_raw: 48.0
+  developing: 3
   exemplar: 0
-  rating: 25.8
+  rating: 24.6
   scored: 3
-  spread: 11.0
-  strength: 4
-  strong: 1
-  worst: 45.4
+  spread: 5.2
+  strength: 3
+  strong: 0
+  worst: 45.5
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apilayer.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 3
   items:
   - &id001
     acquired: null
@@ -48,16 +48,10 @@ member_bands:
     immediate_parent: apilayer
     name: Currencylayer
     relationship: product
-    score_band: strong
-    score_composite: 56.4
+    score_band: developing
+    score_composite: 50.7
     slug: currencylayer
     source: declared
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 2
-  items:
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -68,7 +62,7 @@ member_bands:
     name: Fixer
     relationship: product
     score_band: developing
-    score_composite: 53.5
+    score_composite: 47.9
     slug: fixer
     source: declared
   - &id003
@@ -81,7 +75,7 @@ member_bands:
     name: IPstack
     relationship: product
     score_band: developing
-    score_composite: 45.4
+    score_composite: 45.5
     slug: ipstack
     source: x-parent-company
   label: Developing
@@ -95,7 +89,7 @@ members:
 members_unrated: []
 name: APILayer
 overview: 'APILayer publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 11.0 points, from 56.4 down to 45.4.
+  of which 3 carry a rating. The rated members span 5.2 points, from 50.7 down to 45.5.
 
 
   Its highest-rated surfaces are Currencylayer, Fixer, IPstack.'

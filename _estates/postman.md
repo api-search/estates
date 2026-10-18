@@ -7,21 +7,21 @@ description: Postman is the world's leading API platform, used by 35+ million de
   Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections,
   Insights, and a public Postman API Network with millions of public workspaces.
 estate_rating:
-  agent_avg: 9.7
-  agent_band: minimal
+  agent_avg: 10.6
+  agent_band: emerging
   agent_native: 0
-  agent_raw: 9.0
-  agent_ready: 0
+  agent_raw: 10.9
+  agent_ready: 1
   band: emerging
-  best: 52.9
-  composite_avg: 20.8
+  best: 46.1
+  composite_avg: 20.3
   composite_band: emerging
-  composite_raw: 21.1
+  composite_raw: 20.9
   developing: 1
   exemplar: 0
   rating: 16.4
   scored: 6
-  spread: 52.9
+  spread: 46.1
   strength: 1
   strong: 0
   worst: 0.0
@@ -45,16 +45,29 @@ member_bands:
     name: Liblab
     relationship: acquisition
     score_band: developing
-    score_composite: 52.9
+    score_composite: 46.1
     slug: liblab
     source: declared
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 1
+  count: 2
   items:
   - &id002
+    acquired: 2026
+    agent_band: agent-ready
+    agent_score: 34.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: postman
+    name: Fern
+    relationship: acquisition
+    score_band: thin
+    score_composite: 34.2
+    slug: fern-api
+    source: declared
+  - &id003
     acquired: 2023
     agent_band: agent-aware
     agent_score: 8.6
@@ -64,39 +77,26 @@ member_bands:
     name: Akita Software
     relationship: acquisition
     score_band: thin
-    score_composite: 27.5
+    score_composite: 26.2
     slug: akita-software
     source: declared
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
-  count: 2
+  count: 1
   items:
-  - &id003
-    acquired: 2026
-    agent_band: agent-aware
-    agent_score: 21.3
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: postman
-    name: Fern
-    relationship: acquisition
-    score_band: emerging
-    score_composite: 25.7
-    slug: fern-api
-    source: declared
   - &id004
     acquired: null
     agent_band: human-only
-    agent_score: 2.5
+    agent_score: 0.6
     api_count: 1
     api_count_basis: split
     immediate_parent: postman
     name: Newman
     relationship: product
     score_band: emerging
-    score_composite: 15.1
+    score_composite: 13.8
     slug: newman
     source: declared
   label: Emerging
@@ -115,7 +115,7 @@ member_bands:
     name: Postman Echo
     relationship: product
     score_band: minimal
-    score_composite: 5.1
+    score_composite: 5.2
     slug: postman-echo
     source: declared
   - &id006
@@ -145,10 +145,10 @@ members:
 members_unrated: []
 name: Postman
 overview: 'Postman publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 52.9 points, from 52.9 down to 0.0.
+  of which 6 carry a rating. The rated members span 46.1 points, from 46.1 down to 0.0.
 
 
-  Its highest-rated surfaces are Liblab, Akita Software, Fern, Newman, Postman Echo.'
+  Its highest-rated surfaces are Liblab, Fern, Akita Software, Newman, Postman Echo.'
 parent_provider: postman
 permalink: /estates/postman/
 slug: postman

@@ -6,21 +6,21 @@ description: Cloud communications platform providing APIs for SMS, voice, video,
   and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python,
   Ruby, Java, PHP, C#, and Go.
 estate_rating:
-  agent_avg: 14.6
+  agent_avg: 15.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.0
+  agent_raw: 23.3
   agent_ready: 1
   band: emerging
-  best: 82.9
-  composite_avg: 29.7
+  best: 85.9
+  composite_avg: 29.3
   composite_band: thin
-  composite_raw: 45.0
+  composite_raw: 45.5
   developing: 1
   exemplar: 1
   rating: 23.6
   scored: 3
-  spread: 73.5
+  spread: 76.5
   strength: 4
   strong: 0
   worst: 9.4
@@ -37,14 +37,14 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 39.5
+    agent_score: 45.3
     api_count: 44
     api_count_basis: published
     immediate_parent: twilio
     name: SendGrid
     relationship: product
     score_band: exemplar
-    score_composite: 82.9
+    score_composite: 85.9
     slug: sendgrid
     source: parent-company-property
   label: Exemplar
@@ -56,14 +56,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.6
+    agent_score: 24.7
     api_count: 4
     api_count_basis: published
     immediate_parent: twilio
     name: Twilio Segment
     relationship: product
     score_band: developing
-    score_composite: 42.7
+    score_composite: 41.2
     slug: segment
     source: parent-company-property
   label: Developing
@@ -116,7 +116,7 @@ members:
 members_unrated: []
 name: Twilio
 overview: 'Twilio publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 73.5 points, from 82.9 down to 9.4.
+  of which 4 carry a rating. The rated members span 76.5 points, from 85.9 down to 9.4.
 
 
   Its highest-rated surfaces are SendGrid, Twilio Segment, Authy, Ionic Security.'

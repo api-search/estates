@@ -14,21 +14,21 @@ description: 'Everyday Health is a consumer health media brand founded in 2002 a
   and an unusually explicit robots.txt that blocks 107 named AI and agent crawlers site-wide while carving
   out two commercial product-review URLs.'
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.4
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 10.8
-  composite_avg: 15.8
+  best: 10.9
+  composite_avg: 15.4
   composite_band: emerging
-  composite_raw: 8.1
+  composite_raw: 8.3
   developing: 0
   exemplar: 0
-  rating: 12.1
+  rating: 11.8
   scored: 3
-  spread: 7.1
+  spread: 7.2
   strength: 0
   strong: 0
   worst: 3.7
@@ -52,7 +52,7 @@ member_bands:
     name: BabyCenter
     relationship: product
     score_band: minimal
-    score_composite: 10.8
+    score_composite: 10.9
     slug: babycenter
     source: x-parent-company
   - &id002
@@ -65,7 +65,7 @@ member_bands:
     name: TheSkimm
     relationship: product
     score_band: minimal
-    score_composite: 9.7
+    score_composite: 10.3
     slug: theskimm
     source: prose
   - &id003
@@ -92,7 +92,7 @@ members:
 members_unrated: []
 name: Everyday Health
 overview: 'Everyday Health publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 7.1 points, from 10.8 down to 3.7.
+  network, of which 3 carry a rating. The rated members span 7.2 points, from 10.9 down to 3.7.
 
 
   Its highest-rated surfaces are BabyCenter, TheSkimm, Medico.com.'

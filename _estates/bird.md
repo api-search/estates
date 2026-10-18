@@ -12,15 +12,15 @@ estate_rating:
   agent_raw: 14.7
   agent_ready: 0
   band: emerging
-  best: 50.9
-  composite_avg: 25.1
-  composite_band: thin
-  composite_raw: 32.8
+  best: 51.0
+  composite_avg: 24.4
+  composite_band: emerging
+  composite_raw: 32.3
   developing: 1
   exemplar: 0
-  rating: 19.9
+  rating: 19.4
   scored: 3
-  spread: 42.1
+  spread: 42.2
   strength: 1
   strong: 0
   worst: 8.8
@@ -44,7 +44,7 @@ member_bands:
     name: Hull
     relationship: acquisition
     score_band: developing
-    score_composite: 50.9
+    score_composite: 51.0
     slug: hull
     source: prose
   label: Developing
@@ -63,7 +63,7 @@ member_bands:
     name: Pusher
     relationship: acquisition
     score_band: thin
-    score_composite: 38.7
+    score_composite: 37.2
     slug: pusher
     source: prose
   label: Thin
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: Bird
 overview: 'Bird publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 42.1 points, from 50.9 down to 8.8.
+  which 3 carry a rating. The rated members span 42.2 points, from 51.0 down to 8.8.
 
 
   Its highest-rated surfaces are Hull, Pusher, Pusher Beams.'

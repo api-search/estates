@@ -4,33 +4,33 @@ category: Estates
 description: Collection of APIs for Microsoft Power Platform services including Power Apps, Power Automate,
   Power BI, Copilot Studio, Power Pages, and Dataverse.
 estate_rating:
-  agent_avg: 19.0
+  agent_avg: 18.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 27.7
   agent_ready: 3
   band: thin
-  best: 67.5
-  composite_avg: 34.8
+  best: 65.9
+  composite_avg: 33.6
   composite_band: thin
-  composite_raw: 49.2
+  composite_raw: 47.6
   developing: 1
-  exemplar: 1
-  rating: 28.5
+  exemplar: 0
+  rating: 27.7
   scored: 5
-  spread: 31.9
-  strength: 6
-  strong: 1
-  worst: 35.6
+  spread: 31.8
+  strength: 5
+  strong: 2
+  worst: 34.1
 estate_root: microsoft
 estate_root_name: Microsoft
 image: https://powerplatform.microsoft.com/images/power-platform-logo.png
 is_subfamily: true
 layout: estate
 member_bands:
-- band: exemplar
-  blurb: Complete, well-documented, and agent-ready
-  count: 1
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 2
   items:
   - &id001
     acquired: null
@@ -41,16 +41,10 @@ member_bands:
     immediate_parent: power-platform
     name: Power BI
     relationship: product
-    score_band: exemplar
-    score_composite: 67.5
+    score_band: strong
+    score_composite: 65.9
     slug: power-bi
     source: declared
-  label: Exemplar
-  open: true
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
-  items:
   - &id002
     acquired: null
     agent_band: agent-ready
@@ -61,7 +55,7 @@ member_bands:
     name: Microsoft Power Apps
     relationship: product
     score_band: strong
-    score_composite: 55.8
+    score_composite: 54.3
     slug: microsoft-power-apps
     source: declared
   label: Strong
@@ -80,7 +74,7 @@ member_bands:
     name: Microsoft Power Automate
     relationship: product
     score_band: developing
-    score_composite: 50.8
+    score_composite: 49.3
     slug: microsoft-power-automate
     source: declared
   label: Developing
@@ -99,7 +93,7 @@ member_bands:
     name: Microsoft Power Virtual Agents
     relationship: product
     score_band: thin
-    score_composite: 36.3
+    score_composite: 34.4
     slug: microsoft-power-virtual-agents
     source: declared
   - &id005
@@ -112,7 +106,7 @@ member_bands:
     name: Microsoft Power Pages
     relationship: product
     score_band: thin
-    score_composite: 35.6
+    score_composite: 34.1
     slug: microsoft-power-pages
     source: declared
   label: Thin
@@ -128,8 +122,8 @@ members:
 members_unrated: []
 name: Microsoft Power Platform APIs
 overview: 'Microsoft Power Platform APIs publishes its API surface across 5 provider profiles indexed
-  on the APIs.io network, of which 5 carry a rating. The rated members span 31.9 points, from 67.5 down
-  to 35.6.
+  on the APIs.io network, of which 5 carry a rating. The rated members span 31.8 points, from 65.9 down
+  to 34.1.
 
 
   Its highest-rated surfaces are Power BI, Microsoft Power Apps, Microsoft Power Automate, Microsoft Power

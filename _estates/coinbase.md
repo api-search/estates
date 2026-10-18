@@ -1,5 +1,5 @@
 ---
-api_total: 1
+api_total: 0
 category: Estates
 description: Coinbase is a leading cryptocurrency platform providing trading, custody, and payment infrastructure
   for individuals, businesses, and institutions. The Coinbase Developer Platform (CDP) exposes a wide
@@ -9,21 +9,21 @@ description: Coinbase is a leading cryptocurrency platform providing trading, cu
   using API keys with HMAC-SHA256 signatures (Advanced Trade, Exchange) or JWT bearer tokens (Prime, CDP),
   with WebSocket and FIX feeds available for low-latency market data and order management.
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 7.3
   agent_band: minimal
   agent_native: 0
-  agent_raw: 4.7
+  agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 16.4
-  composite_avg: 15.6
+  best: 3.4
+  composite_avg: 14.9
   composite_band: emerging
-  composite_raw: 7.5
+  composite_raw: 3.0
   developing: 0
   exemplar: 0
-  rating: 12.7
-  scored: 3
-  spread: 13.7
+  rating: 11.9
+  scored: 2
+  spread: 0.7
   strength: 0
   strong: 0
   worst: 2.7
@@ -33,30 +33,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinbase.p
 is_subfamily: false
 layout: estate
 member_bands:
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 1
-  items:
-  - &id001
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 14.0
-    api_count: 1
-    api_count_basis: split
-    immediate_parent: coinbase
-    name: Coinbase Pro
-    relationship: product
-    score_band: emerging
-    score_composite: 16.4
-    slug: coinbase-pro
-    source: declared
-  label: Emerging
-  open: false
 - band: minimal
   blurb: Almost no public developer surface
   count: 2
   items:
-  - &id002
+  - &id001
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -69,7 +50,7 @@ member_bands:
     score_composite: 3.4
     slug: bison-trails
     source: prose
-  - &id003
+  - &id002
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -88,7 +69,7 @@ member_bands:
   blurb: Not yet scored
   count: 1
   items:
-  - &id004
+  - &id003
     acquired: null
     agent_band: null
     agent_score: null
@@ -103,20 +84,19 @@ member_bands:
     source: prose
   label: Unrated
   open: false
-member_on_network: 4
-member_total: 4
+member_on_network: 3
+member_total: 3
 members:
 - *id001
 - *id002
 - *id003
-- *id004
 members_unrated: []
 name: Coinbase
-overview: 'Coinbase publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 13.7 points, from 16.4 down to 2.7.
+overview: 'Coinbase publishes its API surface across 3 provider profiles indexed on the APIs.io network,
+  of which 3 carry a rating. The rated members span 0.7 points, from 3.4 down to 2.7.
 
 
-  Its highest-rated surfaces are Coinbase Pro, Bison Trails, Earn, Azarus.'
+  Its highest-rated surfaces are Bison Trails, Earn, Azarus.'
 parent_provider: coinbase
 permalink: /estates/coinbase/
 slug: coinbase

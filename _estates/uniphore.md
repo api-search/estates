@@ -22,27 +22,27 @@ estate_rating:
   agent_raw: 10.6
   agent_ready: 1
   band: emerging
-  best: 39.2
-  composite_avg: 21.8
+  best: 39.3
+  composite_avg: 21.1
   composite_band: emerging
-  composite_raw: 24.1
-  developing: 0
+  composite_raw: 23.7
+  developing: 1
   exemplar: 0
-  rating: 17.2
+  rating: 16.8
   scored: 3
   spread: 36.4
-  strength: 0
+  strength: 1
   strong: 0
-  worst: 2.8
+  worst: 2.9
 estate_root: null
 estate_root_name: null
 image: https://www.uniphore.com/wp-content/uploads/2025/12/cropped-Uniphore–Bug–Gradient–Light-192x192.webp
 is_subfamily: false
 layout: estate
 member_bands:
-- band: thin
-  blurb: Limited public surface area
-  count: 2
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 1
   items:
   - &id001
     acquired: null
@@ -53,10 +53,16 @@ member_bands:
     immediate_parent: uniphore
     name: Infoworks
     relationship: product
-    score_band: thin
-    score_composite: 39.2
+    score_band: developing
+    score_composite: 39.3
     slug: infoworks
     source: declared
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 1
+  items:
   - &id002
     acquired: null
     agent_band: human-only
@@ -67,7 +73,7 @@ member_bands:
     name: ActionIQ
     relationship: acquisition
     score_band: thin
-    score_composite: 30.4
+    score_composite: 28.9
     slug: actioniq
     source: prose
   label: Thin
@@ -86,7 +92,7 @@ member_bands:
     name: Orby AI
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.8
+    score_composite: 2.9
     slug: orby-ai
     source: prose
   label: Minimal
@@ -100,7 +106,7 @@ members:
 members_unrated: []
 name: Uniphore
 overview: 'Uniphore publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 36.4 points, from 39.2 down to 2.8.
+  of which 3 carry a rating. The rated members span 36.4 points, from 39.3 down to 2.9.
 
 
   Its highest-rated surfaces are Infoworks, ActionIQ, Orby AI.'

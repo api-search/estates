@@ -8,21 +8,21 @@ description: Check Point Software Technologies is a global cybersecurity vendor 
   device management APIs, Harmony Email and Collaboration API, Threat Hunting (TH) API, and CloudGuard
   WAF API.
 estate_rating:
-  agent_avg: 14.8
+  agent_avg: 14.7
   agent_band: emerging
   agent_native: 0
   agent_raw: 20.3
   agent_ready: 1
   band: emerging
-  best: 52.4
-  composite_avg: 25.6
-  composite_band: thin
-  composite_raw: 32.0
+  best: 47.3
+  composite_avg: 24.4
+  composite_band: emerging
+  composite_raw: 30.4
   developing: 2
   exemplar: 0
-  rating: 21.3
+  rating: 20.5
   scored: 4
-  spread: 49.0
+  spread: 43.9
   strength: 2
   strong: 0
   worst: 3.4
@@ -46,7 +46,7 @@ member_bands:
     name: CloudGuard
     relationship: product
     score_band: developing
-    score_composite: 52.4
+    score_composite: 47.3
     slug: cloudguard
     source: declared
   - &id002
@@ -59,7 +59,7 @@ member_bands:
     name: Dome9
     relationship: acquisition
     score_band: developing
-    score_composite: 43.6
+    score_composite: 42.1
     slug: dome9
     source: declared
   label: Developing
@@ -78,7 +78,7 @@ member_bands:
     name: Perimeter 81
     relationship: product
     score_band: thin
-    score_composite: 28.6
+    score_composite: 28.7
     slug: perimeter-81
     source: parent-company-property
   label: Thin
@@ -112,7 +112,7 @@ members:
 members_unrated: []
 name: Check Point
 overview: 'Check Point publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 49.0 points, from 52.4 down to 3.4.
+  of which 4 carry a rating. The rated members span 43.9 points, from 47.3 down to 3.4.
 
 
   Its highest-rated surfaces are CloudGuard, Dome9, Perimeter 81, Veriti.ai.'

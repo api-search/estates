@@ -7,24 +7,24 @@ description: Etherscan is the leading blockchain explorer, search, API, and anal
   API covers 60+ chains under a single account and API key, with a free tier offering 100,000 daily calls
   and paid tiers up to enterprise.
 estate_rating:
-  agent_avg: 19.0
+  agent_avg: 18.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 26.1
   agent_ready: 2
-  band: thin
-  best: 49.1
-  composite_avg: 31.8
+  band: emerging
+  best: 40.8
+  composite_avg: 27.7
   composite_band: thin
-  composite_raw: 41.2
-  developing: 4
+  composite_raw: 34.5
+  developing: 1
   exemplar: 0
-  rating: 26.7
+  rating: 24.1
   scored: 6
-  spread: 21.3
-  strength: 4
+  spread: 14.5
+  strength: 1
   strong: 0
-  worst: 27.8
+  worst: 26.3
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/etherscan.png
@@ -33,7 +33,7 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 4
+  count: 1
   items:
   - &id001
     acquired: null
@@ -45,9 +45,15 @@ member_bands:
     name: Optimism Etherscan
     relationship: product
     score_band: developing
-    score_composite: 49.1
+    score_composite: 40.8
     slug: optimistic-etherscan
     source: declared
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 5
+  items:
   - &id002
     acquired: null
     agent_band: agent-aware
@@ -57,8 +63,8 @@ member_bands:
     immediate_parent: etherscan
     name: Arbiscan
     relationship: product
-    score_band: developing
-    score_composite: 47.1
+    score_band: thin
+    score_composite: 38.8
     slug: arbiscan
     source: declared
   - &id003
@@ -68,11 +74,11 @@ member_bands:
     api_count: 1
     api_count_basis: published
     immediate_parent: etherscan
-    name: Basescan
+    name: BscScan
     relationship: product
-    score_band: developing
-    score_composite: 42.7
-    slug: basescan
+    score_band: thin
+    score_composite: 35.7
+    slug: bscscan
     source: declared
   - &id004
     acquired: null
@@ -81,18 +87,12 @@ member_bands:
     api_count: 1
     api_count_basis: published
     immediate_parent: etherscan
-    name: BscScan
+    name: Basescan
     relationship: product
-    score_band: developing
-    score_composite: 41.3
-    slug: bscscan
+    score_band: thin
+    score_composite: 34.4
+    slug: basescan
     source: declared
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 2
-  items:
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -103,7 +103,7 @@ member_bands:
     name: PolygonScan
     relationship: product
     score_band: thin
-    score_composite: 39.1
+    score_composite: 30.8
     slug: polygonscan
     source: declared
   - &id006
@@ -116,7 +116,7 @@ member_bands:
     name: Solscan
     relationship: acquisition
     score_band: thin
-    score_composite: 27.8
+    score_composite: 26.3
     slug: solscan
     source: declared
   label: Thin
@@ -133,10 +133,10 @@ members:
 members_unrated: []
 name: Etherscan
 overview: 'Etherscan publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 21.3 points, from 49.1 down to 27.8.
+  of which 6 carry a rating. The rated members span 14.5 points, from 40.8 down to 26.3.
 
 
-  Its highest-rated surfaces are Optimism Etherscan, Arbiscan, Basescan, BscScan, PolygonScan.'
+  Its highest-rated surfaces are Optimism Etherscan, Arbiscan, BscScan, Basescan, PolygonScan.'
 parent_provider: etherscan
 permalink: /estates/etherscan/
 slug: etherscan

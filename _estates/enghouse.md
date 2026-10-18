@@ -15,18 +15,18 @@ estate_rating:
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
-  best: 32.8
-  composite_avg: 17.9
+  best: 32.9
+  composite_avg: 17.4
   composite_band: emerging
-  composite_raw: 13.7
+  composite_raw: 13.8
   developing: 0
   exemplar: 0
-  rating: 13.5
+  rating: 13.1
   scored: 3
   spread: 28.9
   strength: 0
   strong: 0
-  worst: 3.9
+  worst: 4.0
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enghouse.png
@@ -47,7 +47,7 @@ member_bands:
     name: Lifesize
     relationship: acquisition
     score_band: thin
-    score_composite: 32.8
+    score_composite: 32.9
     slug: lifesize
     source: prose
   label: Thin
@@ -66,7 +66,7 @@ member_bands:
     name: Qumu
     relationship: acquisition
     score_band: minimal
-    score_composite: 4.3
+    score_composite: 4.4
     slug: qumu
     source: prose
   - &id003
@@ -79,7 +79,7 @@ member_bands:
     name: Altitude Software
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.9
+    score_composite: 4.0
     slug: altitude-software
     source: prose
   label: Minimal
@@ -93,7 +93,7 @@ members:
 members_unrated: []
 name: Enghouse
 overview: 'Enghouse publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 28.9 points, from 32.8 down to 3.9.
+  of which 3 carry a rating. The rated members span 28.9 points, from 32.9 down to 4.0.
 
 
   Its highest-rated surfaces are Lifesize, Qumu, Altitude Software.'

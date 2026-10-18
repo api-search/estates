@@ -9,24 +9,24 @@ description: Kong is the AI Connectivity Company. Its platform spans Kong Gatewa
   and Kong Insomnia (API design and testing). Together they unify governance across APIs, real-time event
   streams, LLM calls, MCP tools, and agent-to-agent communication for the agentic era.
 estate_rating:
-  agent_avg: 11.9
+  agent_avg: 11.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.4
+  agent_raw: 14.3
   agent_ready: 0
   band: emerging
-  best: 50.9
-  composite_avg: 28.6
+  best: 52.4
+  composite_avg: 27.4
   composite_band: thin
-  composite_raw: 42.1
+  composite_raw: 40.4
   developing: 1
   exemplar: 0
-  rating: 21.9
+  rating: 21.1
   scored: 3
-  spread: 13.2
+  spread: 20.7
   strength: 1
   strong: 0
-  worst: 37.7
+  worst: 31.7
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kong.png
@@ -40,14 +40,14 @@ member_bands:
   - &id001
     acquired: 2019
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.5
     api_count: 1
     api_count_basis: published
     immediate_parent: kong
     name: Insomnia
     relationship: acquisition
     score_band: developing
-    score_composite: 50.9
+    score_composite: 52.4
     slug: insomnia
     source: declared
   label: Developing
@@ -58,15 +58,15 @@ member_bands:
   items:
   - &id002
     acquired: null
-    agent_band: agent-aware
-    agent_score: 5.6
+    agent_band: human-only
+    agent_score: 3.7
     api_count: 21
     api_count_basis: split
     immediate_parent: kong
     name: Kong AI Gateway
     relationship: product
     score_band: thin
-    score_composite: 37.7
+    score_composite: 37.0
     slug: kong-ai-gateway
     source: declared
   - &id003
@@ -79,7 +79,7 @@ member_bands:
     name: OpenMeter
     relationship: acquisition
     score_band: thin
-    score_composite: 37.7
+    score_composite: 31.7
     slug: openmeter
     source: declared
   label: Thin
@@ -93,7 +93,7 @@ members:
 members_unrated: []
 name: Kong
 overview: 'Kong publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 13.2 points, from 50.9 down to 37.7.
+  which 3 carry a rating. The rated members span 20.7 points, from 52.4 down to 31.7.
 
 
   Its highest-rated surfaces are Insomnia, Kong AI Gateway, OpenMeter.'

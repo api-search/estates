@@ -17,12 +17,12 @@ estate_rating:
   agent_ready: 0
   band: minimal
   best: 15.6
-  composite_avg: 11.3
+  composite_avg: 11.0
   composite_band: emerging
   composite_raw: 5.5
   developing: 0
   exemplar: 0
-  rating: 8.5
+  rating: 8.2
   scored: 8
   spread: 15.6
   strength: 0
@@ -61,7 +61,7 @@ member_bands:
     name: Zynga
     relationship: product
     score_band: emerging
-    score_composite: 12.8
+    score_composite: 12.9
     slug: zynga
     source: x-parent-company
   label: Emerging
@@ -132,7 +132,7 @@ member_bands:
     name: Storemaven
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: storemaven
     source: prose
   - &id008
@@ -193,7 +193,7 @@ subfamilies:
     slug: small-giant-games
   - name: Storemaven
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: storemaven
   - name: DNA Games
     score_band: minimal
@@ -207,7 +207,6 @@ subfamily_page_count: 1
 tags:
 - Gaming
 - Video Games
-- Interactive Entertainment
 - Entertainment
 - Publishing
 - Software

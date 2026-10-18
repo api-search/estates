@@ -12,15 +12,15 @@ estate_rating:
   agent_raw: 6.6
   agent_ready: 1
   band: emerging
-  best: 46.1
-  composite_avg: 17.2
+  best: 44.6
+  composite_avg: 16.6
   composite_band: emerging
-  composite_raw: 14.7
+  composite_raw: 14.1
   developing: 1
   exemplar: 0
-  rating: 13.6
+  rating: 13.2
   scored: 6
-  spread: 46.1
+  spread: 44.6
   strength: 1
   strong: 0
   worst: 0.0
@@ -44,7 +44,7 @@ member_bands:
     name: AOL
     relationship: acquisition
     score_band: developing
-    score_composite: 46.1
+    score_composite: 44.6
     slug: aol
     source: prose
   label: Developing
@@ -63,7 +63,7 @@ member_bands:
     name: TechCrunch
     relationship: product
     score_band: emerging
-    score_composite: 21.8
+    score_composite: 20.3
     slug: techcrunch
     source: parent-company-property
   - &id003
@@ -76,7 +76,7 @@ member_bands:
     name: Starry
     relationship: acquisition
     score_band: emerging
-    score_composite: 20.0
+    score_composite: 19.9
     slug: starry
     source: prose
   label: Emerging
@@ -172,7 +172,7 @@ members:
 members_unrated: []
 name: Verizon
 overview: 'Verizon publishes its API surface across 8 provider profiles indexed on the APIs.io network,
-  of which 8 carry a rating. The rated members span 46.1 points, from 46.1 down to 0.0.
+  of which 8 carry a rating. The rated members span 44.6 points, from 44.6 down to 0.0.
 
 
   Its highest-rated surfaces are AOL, TechCrunch, Starry, CloudSwitch, Outside.in.'
@@ -188,7 +188,7 @@ subfamilies:
   members:
   - name: TechCrunch
     score_band: emerging
-    score_composite: 21.8
+    score_composite: 20.3
     slug: techcrunch
   - name: Outside.in
     score_band: minimal

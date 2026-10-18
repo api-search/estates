@@ -10,19 +10,19 @@ description: Niantic Spatial, Inc. (spun out of Niantic, Inc. in 2025 after the 
   Android, and ROS 2, connecting to Scaniverse and VPS 2.0. Enterprise focus areas include robotics, defense
   and intelligence, and oil and gas.
 estate_rating:
-  agent_avg: 5.7
+  agent_avg: 5.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
-  band: emerging
+  band: minimal
   best: 9.8
-  composite_avg: 12.9
+  composite_avg: 12.5
   composite_band: emerging
   composite_raw: 3.6
   developing: 0
   exemplar: 0
-  rating: 10.0
+  rating: 9.7
   scored: 4
   spread: 9.8
   strength: 0
@@ -61,7 +61,7 @@ member_bands:
     name: Fantasmo
     relationship: product
     score_band: minimal
-    score_composite: 4.5
+    score_composite: 4.6
     slug: fantasmo
     source: parent-company-property
   - &id003

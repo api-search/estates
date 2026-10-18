@@ -12,21 +12,21 @@ description: OpenAI publishes a single unversioned REST API at https://api.opena
   Python, JavaScript, Go, Java, .NET and Ruby, alongside the Codex CLI and an anonymous documentation
   MCP server at developers.openai.com/mcp.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 5.7
   agent_band: minimal
   agent_native: 0
-  agent_raw: 0.2
+  agent_raw: 0.1
   agent_ready: 0
   band: emerging
-  best: 16.4
-  composite_avg: 14.8
+  best: 14.6
+  composite_avg: 12.8
   composite_band: emerging
-  composite_raw: 5.5
+  composite_raw: 4.4
   developing: 0
   exemplar: 0
-  rating: 11.5
-  scored: 3
-  spread: 16.4
+  rating: 10.0
+  scored: 4
+  spread: 14.6
   strength: 0
   strong: 0
   worst: 0.0
@@ -50,16 +50,29 @@ member_bands:
     name: Neptune.ai
     relationship: acquisition
     score_band: emerging
-    score_composite: 16.4
+    score_composite: 14.6
     slug: neptune-ai
     source: prose
   label: Emerging
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 3
   items:
   - &id002
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: openai
+    name: Software Applications Incorporated
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 3.0
+    slug: software-applications-incorporated
+    source: prose
+  - &id003
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -72,7 +85,7 @@ member_bands:
     score_composite: 0.0
     slug: rockset
     source: prose
-  - &id003
+  - &id004
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -87,19 +100,20 @@ member_bands:
     source: parent-company-property
   label: Minimal
   open: false
-member_on_network: 3
-member_total: 3
+member_on_network: 4
+member_total: 4
 members:
 - *id001
 - *id002
 - *id003
+- *id004
 members_unrated: []
 name: OpenAI
-overview: 'OpenAI publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 16.4 points, from 16.4 down to 0.0.
+overview: 'OpenAI publishes its API surface across 4 provider profiles indexed on the APIs.io network,
+  of which 4 carry a rating. The rated members span 14.6 points, from 14.6 down to 0.0.
 
 
-  Its highest-rated surfaces are Neptune.ai, Rockset, Vegafund.'
+  Its highest-rated surfaces are Neptune.ai, Software Applications Incorporated, Rockset, Vegafund.'
 parent_provider: openai
 permalink: /estates/openai/
 slug: openai

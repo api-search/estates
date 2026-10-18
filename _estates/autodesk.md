@@ -7,22 +7,22 @@ description: Autodesk is a global leader in design, engineering, and entertainme
   projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem
   including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.
 estate_rating:
-  agent_avg: 12.0
+  agent_avg: 11.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 12.9
+  agent_raw: 12.6
   agent_ready: 1
   band: emerging
-  best: 50.6
-  composite_avg: 26.2
-  composite_band: thin
-  composite_raw: 29.4
-  developing: 4
+  best: 49.1
+  composite_avg: 24.8
+  composite_band: emerging
+  composite_raw: 27.7
+  developing: 2
   exemplar: 0
-  rating: 20.5
+  rating: 19.6
   scored: 9
-  spread: 50.6
-  strength: 4
+  spread: 49.1
+  strength: 2
   strong: 0
   worst: 0.0
 estate_root: null
@@ -33,19 +33,19 @@ layout: estate
 member_bands:
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 4
+  count: 2
   items:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 27.2
+    agent_score: 25.3
     api_count: 2
     api_count_basis: published
     immediate_parent: autodesk
     name: Autodesk Construction Cloud
     relationship: product
     score_band: developing
-    score_composite: 50.6
+    score_composite: 49.1
     slug: autodesk-construction-cloud
     source: declared
   - &id002
@@ -58,23 +58,16 @@ member_bands:
     name: Autodesk PowerMill
     relationship: product
     score_band: developing
-    score_composite: 46.9
+    score_composite: 45.4
     slug: autodesk-powermill
     source: declared
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 4
+  items:
   - &id003
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 31.2
-    api_count: 8
-    api_count_basis: published
-    immediate_parent: autodesk
-    name: Autodesk Fusion
-    relationship: product
-    score_band: developing
-    score_composite: 42.3
-    slug: autodesk-fusion
-    source: declared
-  - &id004
     acquired: null
     agent_band: agent-aware
     agent_score: 22.9
@@ -83,16 +76,23 @@ member_bands:
     immediate_parent: autodesk
     name: Autodesk BIM 360
     relationship: product
-    score_band: developing
-    score_composite: 41.2
+    score_band: thin
+    score_composite: 35.6
     slug: autodesk-bim360
     source: declared
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 2
-  items:
+  - &id004
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 31.2
+    api_count: 8
+    api_count_basis: published
+    immediate_parent: autodesk
+    name: Autodesk Fusion
+    relationship: product
+    score_band: thin
+    score_composite: 34.9
+    slug: autodesk-fusion
+    source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
@@ -103,7 +103,7 @@ member_bands:
     name: Prodsmart
     relationship: product
     score_band: thin
-    score_composite: 34.4
+    score_composite: 34.5
     slug: prodsmart
     source: parent-company-property
   - &id006
@@ -154,7 +154,7 @@ member_bands:
     name: Spacemaker
     relationship: acquisition
     score_band: minimal
-    score_composite: 3.3
+    score_composite: 3.4
     slug: spacemaker
     source: prose
   - &id009
@@ -187,11 +187,11 @@ members:
 members_unrated: []
 name: Autodesk
 overview: 'Autodesk publishes its API surface across 9 provider profiles indexed on the APIs.io network,
-  of which 9 carry a rating. The rated members span 50.6 points, from 50.6 down to 0.0.
+  of which 9 carry a rating. The rated members span 49.1 points, from 49.1 down to 0.0.
 
 
-  Its highest-rated surfaces are Autodesk Construction Cloud, Autodesk PowerMill, Autodesk Fusion, Autodesk
-  BIM 360, Prodsmart.'
+  Its highest-rated surfaces are Autodesk Construction Cloud, Autodesk PowerMill, Autodesk BIM 360, Autodesk
+  Fusion, Prodsmart.'
 parent_provider: autodesk
 permalink: /estates/autodesk/
 slug: autodesk

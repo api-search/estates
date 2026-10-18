@@ -11,15 +11,15 @@ estate_rating:
   agent_raw: 15.3
   agent_ready: 2
   band: emerging
-  best: 59.6
-  composite_avg: 19.3
+  best: 60.2
+  composite_avg: 19.0
   composite_band: emerging
-  composite_raw: 18.4
+  composite_raw: 18.6
   developing: 1
   exemplar: 0
-  rating: 16.8
+  rating: 16.6
   scored: 6
-  spread: 59.6
+  spread: 60.2
   strength: 3
   strong: 1
   worst: 0.0
@@ -43,7 +43,7 @@ member_bands:
     name: Dropbox Sign (HelloSign)
     relationship: product
     score_band: strong
-    score_composite: 59.6
+    score_composite: 60.2
     slug: hellosign
     source: parent-company-property
   label: Strong
@@ -81,7 +81,7 @@ member_bands:
     name: Command E
     relationship: product
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: command-e
     source: parent-company-property
   - &id004
@@ -137,7 +137,7 @@ members:
 members_unrated: []
 name: Dropbox
 overview: 'Dropbox publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 59.6 points, from 59.6 down to 0.0.
+  of which 6 carry a rating. The rated members span 60.2 points, from 60.2 down to 0.0.
 
 
   Its highest-rated surfaces are Dropbox Sign (HelloSign), DocSend, Command E, Clementine, Hackpad.'

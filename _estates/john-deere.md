@@ -6,21 +6,21 @@ description: John Deere is a renowned American corporation that specializes in m
   of innovation and has become a leader in the industry. John Deere's products include tractors, combines,
   excavators, and other equipment designed to support and improve farming and construction operations.
 estate_rating:
-  agent_avg: 9.4
+  agent_avg: 9.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.6
   agent_ready: 0
   band: emerging
-  best: 35.3
-  composite_avg: 18.4
+  best: 27.1
+  composite_avg: 16.9
   composite_band: emerging
-  composite_raw: 15.0
+  composite_raw: 12.3
   developing: 0
   exemplar: 0
-  rating: 14.8
+  rating: 13.8
   scored: 3
-  spread: 31.9
+  spread: 23.7
   strength: 0
   strong: 0
   worst: 3.4
@@ -44,7 +44,7 @@ member_bands:
     name: Sentera
     relationship: product
     score_band: thin
-    score_composite: 35.3
+    score_composite: 27.1
     slug: sentera
     source: parent-company-property
   label: Thin
@@ -63,7 +63,7 @@ member_bands:
     name: Blue River Technology
     relationship: product
     score_band: minimal
-    score_composite: 6.4
+    score_composite: 6.5
     slug: blue-river-technology
     source: x-parent-company
   - &id003
@@ -90,7 +90,7 @@ members:
 members_unrated: []
 name: John Deere
 overview: 'John Deere publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 31.9 points, from 35.3 down to 3.4.
+  of which 3 carry a rating. The rated members span 23.7 points, from 27.1 down to 3.4.
 
 
   Its highest-rated surfaces are Sentera, Blue River Technology, Bear Flag Robotics.'

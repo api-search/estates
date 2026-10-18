@@ -14,12 +14,12 @@ estate_rating:
   agent_ready: 2
   band: emerging
   best: 60.2
-  composite_avg: 19.8
+  composite_avg: 19.5
   composite_band: emerging
-  composite_raw: 19.6
+  composite_raw: 19.5
   developing: 1
   exemplar: 0
-  rating: 15.9
+  rating: 15.7
   scored: 16
   spread: 60.2
   strength: 5
@@ -38,19 +38,6 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.3
-    api_count: 6
-    api_count_basis: published
-    immediate_parent: hpe
-    name: Juniper Networks
-    relationship: product
-    score_band: strong
-    score_composite: 60.2
-    slug: juniper
-    source: declared
-  - &id002
-    acquired: null
-    agent_band: agent-ready
     agent_score: 29.3
     api_count: 1
     api_count_basis: published
@@ -61,6 +48,19 @@ member_bands:
     score_composite: 60.2
     slug: mist
     source: parent-company-property
+  - &id002
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 35.3
+    api_count: 6
+    api_count_basis: published
+    immediate_parent: hpe
+    name: Juniper Networks
+    relationship: product
+    score_band: strong
+    score_composite: 58.7
+    slug: juniper
+    source: declared
   label: Strong
   open: true
 - band: developing
@@ -77,7 +77,7 @@ member_bands:
     name: Juniper Mist AI
     relationship: acquisition
     score_band: developing
-    score_composite: 45.7
+    score_composite: 45.8
     slug: mist-ai
     source: prose
   label: Developing
@@ -96,7 +96,7 @@ member_bands:
     name: 128 Technology
     relationship: acquisition
     score_band: thin
-    score_composite: 37.1
+    score_composite: 37.0
     slug: 128-technology
     source: declared
   - &id005
@@ -109,7 +109,7 @@ member_bands:
     name: SimpliVity
     relationship: product
     score_band: thin
-    score_composite: 31.1
+    score_composite: 31.2
     slug: simplivity
     source: declared
   - &id006
@@ -122,7 +122,7 @@ member_bands:
     name: Pachyderm
     relationship: acquisition
     score_band: thin
-    score_composite: 26.5
+    score_composite: 26.6
     slug: pachyderm
     source: prose
   label: Thin
@@ -141,7 +141,7 @@ member_bands:
     name: Nimble Storage
     relationship: product
     score_band: emerging
-    score_composite: 17.9
+    score_composite: 18.0
     slug: nimble-storage
     source: parent-company-property
   - &id008
@@ -154,7 +154,7 @@ member_bands:
     name: 3PAR (HPE 3PAR StoreServ)
     relationship: product
     score_band: emerging
-    score_composite: 12.7
+    score_composite: 12.8
     slug: 3par
     source: prose
   label: Emerging
@@ -173,7 +173,7 @@ member_bands:
     name: BTI Systems (Juniper)
     relationship: product
     score_band: minimal
-    score_composite: 8.6
+    score_composite: 8.5
     slug: bti-systems-juniper
     source: declared
   - &id010
@@ -315,7 +315,7 @@ overview: 'Hewlett Packard Enterprise publishes its API surface across 17 provid
   to 0.0.
 
 
-  Its highest-rated surfaces are Juniper Networks, Mist, Juniper Mist AI, 128 Technology, SimpliVity.'
+  Its highest-rated surfaces are Mist, Juniper Networks, Juniper Mist AI, 128 Technology, SimpliVity.'
 parent_provider: hpe
 permalink: /estates/hpe/
 slug: hpe
@@ -332,15 +332,15 @@ subfamilies:
     slug: mist
   - name: Juniper Mist AI
     score_band: developing
-    score_composite: 45.7
+    score_composite: 45.8
     slug: mist-ai
   - name: 128 Technology
     score_band: thin
-    score_composite: 37.1
+    score_composite: 37.0
     slug: 128-technology
   - name: BTI Systems (Juniper)
     score_band: minimal
-    score_composite: 8.6
+    score_composite: 8.5
     slug: bti-systems-juniper
   - name: Argon Networks
     score_band: minimal

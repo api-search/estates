@@ -1,5 +1,5 @@
 ---
-api_total: 16
+api_total: 25
 category: Estates
 description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
 estate_rating:
@@ -9,18 +9,18 @@ estate_rating:
   agent_raw: 12.8
   agent_ready: 2
   band: emerging
-  best: 55.7
-  composite_avg: 20.0
+  best: 56.4
+  composite_avg: 19.6
   composite_band: emerging
-  composite_raw: 19.7
+  composite_raw: 19.6
   developing: 0
   exemplar: 0
-  rating: 16.7
+  rating: 16.4
   scored: 7
-  spread: 53.2
+  spread: 53.8
   strength: 2
   strong: 1
-  worst: 2.5
+  worst: 2.6
 estate_root: null
 estate_root_name: null
 image: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg
@@ -35,13 +35,13 @@ member_bands:
     acquired: 2025
     agent_band: agent-ready
     agent_score: 35.8
-    api_count: 9
+    api_count: 18
     api_count_basis: published
     immediate_parent: servicenow
     name: Moveworks
     relationship: acquisition
     score_band: strong
-    score_composite: 55.7
+    score_composite: 56.4
     slug: moveworks
     source: declared
   label: Strong
@@ -60,7 +60,7 @@ member_bands:
     name: Cuein
     relationship: acquisition
     score_band: thin
-    score_composite: 34.1
+    score_composite: 33.7
     slug: cuein
     source: prose
   - &id003
@@ -73,7 +73,7 @@ member_bands:
     name: Logik.io
     relationship: product
     score_band: thin
-    score_composite: 33.4
+    score_composite: 33.5
     slug: logikio
     source: parent-company-property
   label: Thin
@@ -92,7 +92,7 @@ member_bands:
     name: ServiceNow Flow Designer
     relationship: product
     score_band: minimal
-    score_composite: 7.0
+    score_composite: 5.5
     slug: servicenow-flow-designer
     source: declared
   - &id005
@@ -105,7 +105,7 @@ member_bands:
     name: Element AI
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: element-ai
     source: declared
   - &id006
@@ -118,7 +118,7 @@ member_bands:
     name: SkyGiraffe
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: skygiraffe
     source: prose
   - &id007
@@ -131,7 +131,7 @@ member_bands:
     name: VendorHawk
     relationship: acquisition
     score_band: minimal
-    score_composite: 2.5
+    score_composite: 2.6
     slug: vendorhawk
     source: prose
   label: Minimal
@@ -149,7 +149,7 @@ members:
 members_unrated: []
 name: ServiceNow
 overview: 'ServiceNow publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 53.2 points, from 55.7 down to 2.5.
+  of which 7 carry a rating. The rated members span 53.8 points, from 56.4 down to 2.6.
 
 
   Its highest-rated surfaces are Moveworks, Cuein, Logik.io, ServiceNow Flow Designer, Element AI.'

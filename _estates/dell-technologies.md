@@ -13,15 +13,15 @@ estate_rating:
   agent_raw: 13.0
   agent_ready: 1
   band: emerging
-  best: 63.0
-  composite_avg: 22.9
+  best: 61.5
+  composite_avg: 22.2
   composite_band: emerging
-  composite_raw: 24.9
+  composite_raw: 24.3
   developing: 1
   exemplar: 0
-  rating: 18.5
+  rating: 18.0
   scored: 6
-  spread: 63.0
+  spread: 61.5
   strength: 3
   strong: 1
   worst: 0.0
@@ -45,7 +45,7 @@ member_bands:
     name: Moogsoft
     relationship: acquisition
     score_band: strong
-    score_composite: 63.0
+    score_composite: 61.5
     slug: moogsoft
     source: prose
   label: Strong
@@ -64,7 +64,7 @@ member_bands:
     name: DataLoop
     relationship: acquisition
     score_band: developing
-    score_composite: 51.2
+    score_composite: 50.8
     slug: dataloop
     source: prose
   label: Developing
@@ -83,7 +83,7 @@ member_bands:
     name: EMC
     relationship: product
     score_band: thin
-    score_composite: 31.9
+    score_composite: 30.4
     slug: emc
     source: parent-company-property
   label: Thin
@@ -165,7 +165,7 @@ members:
 members_unrated: []
 name: Dell Technologies
 overview: 'Dell Technologies publishes its API surface across 7 provider profiles indexed on the APIs.io
-  network, of which 7 carry a rating. The rated members span 63.0 points, from 63.0 down to 0.0.
+  network, of which 7 carry a rating. The rated members span 61.5 points, from 61.5 down to 0.0.
 
 
   Its highest-rated surfaces are Moogsoft, DataLoop, EMC, Scaleio, Kashya.'

@@ -17,15 +17,15 @@ estate_rating:
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
-  best: 21.8
-  composite_avg: 15.5
+  best: 20.3
+  composite_avg: 14.8
   composite_band: emerging
-  composite_raw: 7.3
+  composite_raw: 6.8
   developing: 0
   exemplar: 0
-  rating: 11.9
+  rating: 11.6
   scored: 3
-  spread: 21.8
+  spread: 20.3
   strength: 0
   strong: 0
   worst: 0.0
@@ -49,7 +49,7 @@ member_bands:
     name: TechCrunch
     relationship: product
     score_band: emerging
-    score_composite: 21.8
+    score_composite: 20.3
     slug: techcrunch
     source: parent-company-property
   label: Emerging
@@ -115,7 +115,7 @@ members:
 members_unrated: []
 name: AOL
 overview: 'AOL publishes its API surface across 4 provider profiles indexed on the APIs.io network, of
-  which 4 carry a rating. The rated members span 21.8 points, from 21.8 down to 0.0.
+  which 4 carry a rating. The rated members span 20.3 points, from 20.3 down to 0.0.
 
 
   Its highest-rated surfaces are TechCrunch, Outside.in, Thing Labs, Convertro, Inc..'

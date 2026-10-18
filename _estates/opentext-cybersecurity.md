@@ -14,24 +14,24 @@ description: OpenText Cybersecurity is the security business of OpenText, assemb
   CLI (fcli), a first-party MCP server inside that CLI, and a published set of Agent Skills for Claude
   Code, GitHub Copilot, Codex and Gemini CLI.
 estate_rating:
-  agent_avg: 10.6
+  agent_avg: 10.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 10.9
+  agent_raw: 10.4
   agent_ready: 0
   band: emerging
-  best: 60.1
-  composite_avg: 25.1
-  composite_band: thin
-  composite_raw: 30.9
+  best: 57.4
+  composite_avg: 24.3
+  composite_band: emerging
+  composite_raw: 30.1
   developing: 0
   exemplar: 0
-  rating: 19.3
+  rating: 18.7
   scored: 4
-  spread: 53.9
+  spread: 51.1
   strength: 2
   strong: 1
-  worst: 6.2
+  worst: 6.3
 estate_root: null
 estate_root_name: null
 image: https://cari01mstrop62eprod.dxcloud.episerver.net/globalassets/smb-media/images/banners/csot-homepage-hero-2.webp
@@ -52,7 +52,7 @@ member_bands:
     name: Fortify
     relationship: product
     score_band: strong
-    score_composite: 60.1
+    score_composite: 57.4
     slug: fortify
     source: declared
   label: Strong
@@ -64,14 +64,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.5
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: opentext-cybersecurity
     name: CloudAlly
     relationship: acquisition
     score_band: thin
-    score_composite: 31.7
+    score_composite: 30.7
     slug: cloudally
     source: declared
   label: Thin
@@ -90,7 +90,7 @@ member_bands:
     name: Webroot
     relationship: product
     score_band: emerging
-    score_composite: 25.5
+    score_composite: 26.0
     slug: webroot
     source: prose
   label: Emerging
@@ -109,7 +109,7 @@ member_bands:
     name: ArcSight
     relationship: acquisition
     score_band: minimal
-    score_composite: 6.2
+    score_composite: 6.3
     slug: arcsight
     source: declared
   label: Minimal
@@ -124,7 +124,7 @@ members:
 members_unrated: []
 name: OpenText Cybersecurity
 overview: 'OpenText Cybersecurity publishes its API surface across 4 provider profiles indexed on the
-  APIs.io network, of which 4 carry a rating. The rated members span 53.9 points, from 60.1 down to 6.2.
+  APIs.io network, of which 4 carry a rating. The rated members span 51.1 points, from 57.4 down to 6.3.
 
 
   Its highest-rated surfaces are Fortify, CloudAlly, Webroot, ArcSight.'

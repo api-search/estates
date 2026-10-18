@@ -5,21 +5,21 @@ description: Stream, connect, process, and govern your data with an all-in-one, 
   the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible
   and usable data products with the market leading Data Streaming Platform.
 estate_rating:
-  agent_avg: 13.9
+  agent_avg: 13.8
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.4
   agent_ready: 1
   band: emerging
-  best: 78.3
-  composite_avg: 23.7
+  best: 76.8
+  composite_avg: 23.0
   composite_band: emerging
-  composite_raw: 27.9
+  composite_raw: 27.2
   developing: 0
   exemplar: 1
-  rating: 19.8
+  rating: 19.3
   scored: 4
-  spread: 78.3
+  spread: 76.8
   strength: 3
   strong: 0
   worst: 0.0
@@ -43,7 +43,7 @@ member_bands:
     name: Confluent | the Data Streaming Platform
     relationship: product
     score_band: exemplar
-    score_composite: 78.3
+    score_composite: 76.8
     slug: confluent-the-data-streaming-platform
     source: declared
   label: Exemplar
@@ -62,7 +62,7 @@ member_bands:
     name: Confluent Schema Registry
     relationship: product
     score_band: thin
-    score_composite: 33.4
+    score_composite: 31.9
     slug: confluent-schema-registry
     source: declared
   label: Thin
@@ -109,7 +109,7 @@ members:
 members_unrated: []
 name: Confluent
 overview: 'Confluent publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 78.3 points, from 78.3 down to 0.0.
+  of which 4 carry a rating. The rated members span 76.8 points, from 76.8 down to 0.0.
 
 
   Its highest-rated surfaces are Confluent | the Data Streaming Platform, Confluent Schema Registry, Noteable,

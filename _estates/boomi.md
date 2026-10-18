@@ -6,49 +6,49 @@ description: Boomi is a leading integration platform that allows organizations t
   and pre-built connectors, businesses can quickly and easily create integrations that streamline processes,
   improve productivity, and enhance the overall customer experience.
 estate_rating:
-  agent_avg: 13.2
+  agent_avg: 12.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.1
+  agent_raw: 15.8
   agent_ready: 1
   band: emerging
-  best: 59.3
-  composite_avg: 24.3
+  best: 53.1
+  composite_avg: 22.9
   composite_band: emerging
-  composite_raw: 31.0
-  developing: 0
+  composite_raw: 28.4
+  developing: 1
   exemplar: 0
-  rating: 19.9
+  rating: 18.7
   scored: 3
-  spread: 58.6
-  strength: 2
-  strong: 1
-  worst: 0.7
+  spread: 52.3
+  strength: 1
+  strong: 0
+  worst: 0.8
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boomi.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
+- band: developing
+  blurb: Usable, with meaningful gaps to close
   count: 1
   items:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 36.5
+    agent_score: 29.5
     api_count: 1
     api_count_basis: published
     immediate_parent: boomi
     name: Rivery
     relationship: product
-    score_band: strong
-    score_composite: 59.3
+    score_band: developing
+    score_composite: 53.1
     slug: rivery
     source: prose
-  label: Strong
-  open: true
+  label: Developing
+  open: false
 - band: thin
   blurb: Limited public surface area
   count: 1
@@ -63,7 +63,7 @@ member_bands:
     name: APIIDA
     relationship: acquisition
     score_band: thin
-    score_composite: 32.9
+    score_composite: 31.4
     slug: apiida
     source: declared
   label: Thin
@@ -82,7 +82,7 @@ member_bands:
     name: Mashery
     relationship: acquisition
     score_band: minimal
-    score_composite: 0.7
+    score_composite: 0.8
     slug: mashery
     source: declared
   label: Minimal
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: Boomi
 overview: 'Boomi publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 58.6 points, from 59.3 down to 0.7.
+  of which 3 carry a rating. The rated members span 52.3 points, from 53.1 down to 0.8.
 
 
   Its highest-rated surfaces are Rivery, APIIDA, Mashery.'

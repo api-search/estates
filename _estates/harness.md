@@ -1,29 +1,29 @@
 ---
-api_total: 9
+api_total: 10
 category: Estates
 description: Harness is an AI-powered software delivery platform that automates and accelerates the entire
   software development lifecycle from code to production. The platform provides intelligent automation
   across DevOps, testing and resilience, security and compliance, and cost optimization, helping engineering
   teams ship code faster, safer, and smarter as they scale.
 estate_rating:
-  agent_avg: 15.4
+  agent_avg: 15.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.6
+  agent_raw: 21.1
   agent_ready: 0
   band: emerging
-  best: 39.1
-  composite_avg: 27.1
+  best: 37.0
+  composite_avg: 25.8
   composite_band: thin
-  composite_raw: 35.3
+  composite_raw: 33.6
   developing: 0
   exemplar: 0
-  rating: 22.4
+  rating: 21.5
   scored: 4
-  spread: 9.8
+  spread: 7.6
   strength: 0
   strong: 0
-  worst: 29.3
+  worst: 29.4
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/harness.png
@@ -37,6 +37,32 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
+    agent_score: 17.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: harness
+    name: Harness Cloud Cost Management
+    relationship: product
+    score_band: thin
+    score_composite: 37.0
+    slug: harness-cloud-cost
+    source: declared
+  - &id002
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.7
+    api_count: 7
+    api_count_basis: published
+    immediate_parent: harness
+    name: Armory
+    relationship: acquisition
+    score_band: thin
+    score_composite: 34.5
+    slug: armory
+    source: prose
+  - &id003
+    acquired: null
+    agent_band: agent-aware
     agent_score: 19.6
     api_count: 1
     api_count_basis: published
@@ -44,34 +70,8 @@ member_bands:
     name: Drone
     relationship: acquisition
     score_band: thin
-    score_composite: 39.1
+    score_composite: 33.5
     slug: drone
-    source: prose
-  - &id002
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 19.8
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: harness
-    name: Harness Cloud Cost Management
-    relationship: product
-    score_band: thin
-    score_composite: 38.5
-    slug: harness-cloud-cost
-    source: declared
-  - &id003
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 25.7
-    api_count: 6
-    api_count_basis: published
-    immediate_parent: harness
-    name: Armory
-    relationship: acquisition
-    score_band: thin
-    score_composite: 34.4
-    slug: armory
     source: prose
   - &id004
     acquired: null
@@ -83,7 +83,7 @@ member_bands:
     name: Overops
     relationship: product
     score_band: thin
-    score_composite: 29.3
+    score_composite: 29.4
     slug: overops
     source: x-parent-company
   label: Thin
@@ -98,10 +98,10 @@ members:
 members_unrated: []
 name: Harness
 overview: 'Harness publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 9.8 points, from 39.1 down to 29.3.
+  of which 4 carry a rating. The rated members span 7.6 points, from 37.0 down to 29.4.
 
 
-  Its highest-rated surfaces are Drone, Harness Cloud Cost Management, Armory, Overops.'
+  Its highest-rated surfaces are Harness Cloud Cost Management, Armory, Drone, Overops.'
 parent_provider: harness
 permalink: /estates/harness/
 slug: harness
