@@ -15671,17 +15671,6 @@
     "declares_compatibility": 2
    }
   ],
-  "empatica": [
-   {
-    "market": "health-wellness",
-    "name": "Health and Wellness (consumer health, fitness, wearables)",
-    "position": "undeclared",
-    "depth": null,
-    "status": "undeclared",
-    "registered_mcp_server": 0,
-    "declares_compatibility": 0
-   }
-  ],
   "emplifi-io": [
    {
     "market": "commerce-platforms",
