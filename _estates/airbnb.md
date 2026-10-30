@@ -7,7 +7,7 @@ description: Airbnb is the world's leading home-sharing and short-term rental ma
   — with APIs to manage listings, reservations, calendars, messaging, reviews, and webhook-based event
   notifications. Access is restricted to approved partners.
 estate_rating:
-  agent_avg: 5.9
+  agent_avg: 6.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.6
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 7.8
   developing: 0
   exemplar: 0
-  rating: 11.0
+  rating: 11.1
   scored: 4
   spread: 31.2
   strength: 0
@@ -114,7 +114,7 @@ permalink: /estates/airbnb/
 slug: airbnb
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/airbnb/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -14,19 +14,19 @@ description: 'Centene Corporation is a Fortune 500 managed care organization del
   with a per-API audience. Beyond the mandated interoperability estate Centene also publishes X12 / CAQH
   CORE EDI transaction, provider-search, product-mapping and care-management APIs.'
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 8.3
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.6
-  agent_ready: 0
+  agent_raw: 6.0
+  agent_ready: 1
   band: emerging
   best: 34.7
-  composite_avg: 14.9
+  composite_avg: 15.0
   composite_band: emerging
   composite_raw: 10.2
   developing: 0
   exemplar: 0
-  rating: 12.1
+  rating: 12.3
   scored: 5
   spread: 31.6
   strength: 0
@@ -44,8 +44,8 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-aware
-    agent_score: 28.0
+    agent_band: agent-ready
+    agent_score: 29.8
     api_count: 2
     api_count_basis: published
     immediate_parent: centene
@@ -136,7 +136,7 @@ permalink: /estates/centene/
 slug: centene
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/centene/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

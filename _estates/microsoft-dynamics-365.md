@@ -5,24 +5,24 @@ description: Microsoft Dynamics 365 is a cloud-based suite of business applicati
   ERP capabilities to help organizations manage sales, marketing, customer service, finance, operations,
   and commerce.
 estate_rating:
-  agent_avg: 19.0
+  agent_avg: 19.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 33.8
+  agent_raw: 35.2
   agent_ready: 2
   band: thin
   best: 70.8
-  composite_avg: 33.7
+  composite_avg: 34.2
   composite_band: thin
-  composite_raw: 57.3
-  developing: 0
+  composite_raw: 58.2
+  developing: 1
   exemplar: 1
-  rating: 27.8
+  rating: 28.4
   scored: 3
-  spread: 32.5
-  strength: 5
+  spread: 31.1
+  strength: 6
   strong: 1
-  worst: 38.3
+  worst: 39.7
 estate_root: microsoft
 estate_root_name: Microsoft
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-dynamics-365.png
@@ -36,7 +36,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 39.2
+    agent_score: 40.5
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-dynamics-365
@@ -55,36 +55,36 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 37.3
+    agent_score: 38.7
     api_count: 3
     api_count_basis: published
     immediate_parent: microsoft-dynamics-365
     name: Microsoft Dynamics NAV
     relationship: product
     score_band: strong
-    score_composite: 62.8
+    score_composite: 64.1
     slug: navision
     source: declared
   label: Strong
   open: true
-- band: thin
-  blurb: Limited public surface area
+- band: developing
+  blurb: Usable, with meaningful gaps to close
   count: 1
   items:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 26.4
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-dynamics-365
     name: Microsoft Dynamics 365 Business Central
     relationship: product
-    score_band: thin
-    score_composite: 38.3
+    score_band: developing
+    score_composite: 39.7
     slug: microsoft-dynamics-365-business-central
     source: declared
-  label: Thin
+  label: Developing
   open: false
 member_on_network: 3
 member_total: 3
@@ -95,7 +95,7 @@ members:
 members_unrated: []
 name: Microsoft Dynamics 365
 overview: 'Microsoft Dynamics 365 publishes its API surface across 3 provider profiles indexed on the
-  APIs.io network, of which 3 carry a rating. The rated members span 32.5 points, from 70.8 down to 38.3.
+  APIs.io network, of which 3 carry a rating. The rated members span 31.1 points, from 70.8 down to 39.7.
 
 
   Its highest-rated surfaces are Microsoft Dynamics 365 Sales, Microsoft Dynamics NAV, Microsoft Dynamics
@@ -105,7 +105,7 @@ permalink: /estates/microsoft-dynamics-365/
 slug: microsoft-dynamics-365
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-dynamics-365/apis.yml
 subfamilies: []
 tags:
 - Business Applications

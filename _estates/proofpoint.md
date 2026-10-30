@@ -1,5 +1,5 @@
 ---
-api_total: 2
+api_total: 1
 category: Estates
 description: 'Proofpoint is an enterprise cybersecurity company focused on human-centric security — email
   and collaboration security, data loss prevention, insider threat management, digital communications
@@ -11,19 +11,19 @@ description: 'Proofpoint is an enterprise cybersecurity company focused on human
   public HTML and every one of them is credential-gated at runtime; Proofpoint publishes no OpenAPI, AsyncAPI,
   GraphQL or MCP contract for any of them.'
 estate_rating:
-  agent_avg: 8.3
+  agent_avg: 9.0
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.0
+  agent_raw: 7.0
   agent_ready: 0
   band: emerging
   best: 31.1
-  composite_avg: 16.3
+  composite_avg: 16.4
   composite_band: emerging
   composite_raw: 12.2
   developing: 0
   exemplar: 0
-  rating: 13.1
+  rating: 13.4
   scored: 4
   spread: 28.5
   strength: 0
@@ -42,8 +42,8 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.9
-    api_count: 2
+    agent_score: 28.1
+    api_count: 1
     api_count_basis: published
     immediate_parent: proofpoint
     name: Tessian
@@ -124,7 +124,7 @@ permalink: /estates/proofpoint/
 slug: proofpoint
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/proofpoint/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/proofpoint/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

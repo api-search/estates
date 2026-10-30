@@ -7,21 +7,21 @@ description: MongoDB provides a document‑model database platform that can be d
   is used by developers and enterprises building applications that require scalable, searchable, and AI‑enabled
   data handling.
 estate_rating:
-  agent_avg: 12.5
+  agent_avg: 13.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.3
+  agent_raw: 19.1
   agent_ready: 0
   band: emerging
-  best: 34.4
-  composite_avg: 22.3
+  best: 35.8
+  composite_avg: 22.6
   composite_band: emerging
-  composite_raw: 28.9
+  composite_raw: 29.6
   developing: 0
   exemplar: 0
-  rating: 18.4
+  rating: 18.8
   scored: 2
-  spread: 10.9
+  spread: 12.3
   strength: 0
   strong: 0
   worst: 23.5
@@ -38,14 +38,14 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.5
+    agent_score: 22.2
     api_count: 1
     api_count_basis: published
     immediate_parent: mongodb
     name: MongoDB Atlas
     relationship: product
     score_band: thin
-    score_composite: 34.4
+    score_composite: 35.8
     slug: mongodb-atlas
     source: declared
   label: Thin
@@ -97,7 +97,7 @@ members:
 members_unrated: []
 name: MongoDB
 overview: 'MongoDB publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 10.9 points, from 34.4 down to 23.5.
+  of which 3 carry a rating. The rated members span 12.3 points, from 35.8 down to 23.5.
 
 
   Its highest-rated surfaces are MongoDB Atlas, Voyage AI, Schema Free.'
@@ -106,7 +106,7 @@ permalink: /estates/mongodb/
 slug: mongodb
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/mongodb/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

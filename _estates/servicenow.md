@@ -1,12 +1,12 @@
 ---
-api_total: 25
+api_total: 16
 category: Estates
 description: ServiceNow provides cloud-based platform services that automate enterprise IT operations.
 estate_rating:
-  agent_avg: 11.7
+  agent_avg: 12.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 12.8
+  agent_raw: 13.7
   agent_ready: 2
   band: emerging
   best: 56.4
@@ -15,7 +15,7 @@ estate_rating:
   composite_raw: 19.6
   developing: 0
   exemplar: 0
-  rating: 16.4
+  rating: 16.7
   scored: 7
   spread: 53.8
   strength: 2
@@ -34,8 +34,8 @@ member_bands:
   - &id001
     acquired: 2025
     agent_band: agent-ready
-    agent_score: 35.8
-    api_count: 18
+    agent_score: 39.3
+    api_count: 9
     api_count_basis: published
     immediate_parent: servicenow
     name: Moveworks
@@ -53,7 +53,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.3
+    agent_score: 25.0
     api_count: 2
     api_count_basis: published
     immediate_parent: servicenow
@@ -66,7 +66,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.0
+    agent_score: 31.1
     api_count: 4
     api_count_basis: published
     immediate_parent: servicenow
@@ -158,7 +158,7 @@ permalink: /estates/servicenow/
 slug: servicenow
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/servicenow/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

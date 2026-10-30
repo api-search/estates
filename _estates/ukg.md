@@ -7,19 +7,19 @@ description: UKG (Ultimate Kronos Group) is an enterprise human capital manageme
   scheduling, accruals, and attendance. The UKG Developer Hub provides REST APIs, webhook subscriptions,
   and People Fabric APIs for building HR integrations, payroll connectors, and workforce analytics applications.
 estate_rating:
-  agent_avg: 13.2
+  agent_avg: 13.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.2
+  agent_raw: 19.5
   agent_ready: 0
   band: emerging
   best: 25.2
-  composite_avg: 20.4
+  composite_avg: 20.5
   composite_band: emerging
   composite_raw: 21.8
   developing: 0
   exemplar: 0
-  rating: 17.5
+  rating: 17.9
   scored: 3
   spread: 7.3
   strength: 0
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.3
+    agent_score: 20.1
     api_count: 1
     api_count_basis: published
     immediate_parent: ukg
@@ -51,7 +51,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.0
+    agent_score: 21.1
     api_count: 1
     api_count_basis: published
     immediate_parent: ukg
@@ -94,7 +94,7 @@ permalink: /estates/ukg/
 slug: ukg
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/ukg/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

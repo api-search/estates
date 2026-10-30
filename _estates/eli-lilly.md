@@ -7,19 +7,19 @@ description: Eli Lilly and Company is a Fortune 500 global pharmaceutical compan
   company exposes selected machine learning models through its Lilly TuneLab platform to partner biotechs
   but does not offer general purpose, self-serve APIs.
 estate_rating:
-  agent_avg: 8.5
+  agent_avg: 8.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 3.7
-  composite_avg: 16.9
+  composite_avg: 17.1
   composite_band: emerging
   composite_raw: 3.7
   developing: 0
   exemplar: 0
-  rating: 13.5
+  rating: 13.8
   scored: 1
   spread: null
   strength: 0
@@ -100,7 +100,7 @@ permalink: /estates/eli-lilly/
 slug: eli-lilly
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eli-lilly/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/eli-lilly/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -7,21 +7,21 @@ description: Omnichannel commerce platform with REST APIs for retail and restaur
   payments, and loyalty programs across multiple product lines including Retail X-Series, Retail R-Series,
   Restaurant K-Series, and eCom.
 estate_rating:
-  agent_avg: 10.8
+  agent_avg: 11.1
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.9
   agent_ready: 1
   band: emerging
-  best: 25.2
-  composite_avg: 17.4
+  best: 25.3
+  composite_avg: 17.5
   composite_band: emerging
-  composite_raw: 13.8
+  composite_raw: 13.9
   developing: 0
   exemplar: 0
-  rating: 14.8
+  rating: 14.9
   scored: 3
-  spread: 21.2
+  spread: 21.3
   strength: 0
   strong: 0
   worst: 4.0
@@ -38,14 +38,14 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.6
+    agent_score: 35.7
     api_count: 1
     api_count_basis: published
     immediate_parent: lightspeed
     name: Lightspeed
     relationship: product
     score_band: emerging
-    score_composite: 25.2
+    score_composite: 25.3
     slug: lightspeed-pos
     source: declared
   - &id002
@@ -91,7 +91,7 @@ members:
 members_unrated: []
 name: Lightspeed Commerce
 overview: 'Lightspeed Commerce publishes its API surface across 3 provider profiles indexed on the APIs.io
-  network, of which 3 carry a rating. The rated members span 21.2 points, from 25.2 down to 4.0.
+  network, of which 3 carry a rating. The rated members span 21.3 points, from 25.3 down to 4.0.
 
 
   Its highest-rated surfaces are Lightspeed, NuORDER, Shopkeep.'
@@ -100,7 +100,7 @@ permalink: /estates/lightspeed/
 slug: lightspeed
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/lightspeed/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -7,10 +7,10 @@ description: Broadcom is a global technology company that specializes in the des
   electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets,
   routers, and smart TVs.
 estate_rating:
-  agent_avg: 6.1
+  agent_avg: 6.3
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.4
+  agent_raw: 5.6
   agent_ready: 1
   band: emerging
   best: 52.2
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 13.5
   developing: 4
   exemplar: 0
-  rating: 11.1
+  rating: 11.2
   scored: 29
   spread: 52.2
   strength: 4
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: 2018
     agent_band: agent-ready
-    agent_score: 38.9
+    agent_score: 40.2
     api_count: 8
     api_count_basis: split
     immediate_parent: vmware
@@ -51,7 +51,7 @@ member_bands:
   - &id002
     acquired: 2023
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 23.7
     api_count: 1
     api_count_basis: published
     immediate_parent: broadcom
@@ -64,7 +64,7 @@ member_bands:
   - &id003
     acquired: 2017
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: broadcom
@@ -96,7 +96,7 @@ member_bands:
   - &id005
     acquired: 2019
     agent_band: agent-aware
-    agent_score: 20.4
+    agent_score: 21.3
     api_count: 1
     api_count_basis: published
     immediate_parent: broadcom
@@ -109,7 +109,7 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 2
     api_count_basis: published
     immediate_parent: vmware
@@ -524,7 +524,7 @@ permalink: /estates/broadcom/
 slug: broadcom
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/broadcom/apis.yml
 subfamilies:
 - has_page: true
   member_count: 12

@@ -8,19 +8,19 @@ description: Becton Dickinson (BD) is a global medical technology company that d
   also produces the Pyxis medication management system and integrates with EMRs via HL7 FHIR standards
   for clinical data exchange.
 estate_rating:
-  agent_avg: 6.7
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
   best: 22.6
-  composite_avg: 17.5
+  composite_avg: 17.6
   composite_band: emerging
   composite_raw: 14.0
   developing: 0
   exemplar: 0
-  rating: 13.2
+  rating: 13.3
   scored: 3
   spread: 19.6
   strength: 0
@@ -101,7 +101,7 @@ permalink: /estates/becton-dickinson/
 slug: becton-dickinson
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/becton-dickinson/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

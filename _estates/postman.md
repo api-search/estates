@@ -7,19 +7,19 @@ description: Postman is the world's leading API platform, used by 35+ million de
   Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections,
   Insights, and a public Postman API Network with millions of public workspaces.
 estate_rating:
-  agent_avg: 10.6
+  agent_avg: 10.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 10.9
+  agent_raw: 11.0
   agent_ready: 1
   band: emerging
   best: 46.1
-  composite_avg: 20.3
+  composite_avg: 20.4
   composite_band: emerging
   composite_raw: 20.9
   developing: 1
   exemplar: 0
-  rating: 16.4
+  rating: 16.6
   scored: 6
   spread: 46.1
   strength: 1
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: 2025
     agent_band: agent-aware
-    agent_score: 21.6
+    agent_score: 21.0
     api_count: 13
     api_count_basis: split
     immediate_parent: postman
@@ -57,7 +57,7 @@ member_bands:
   - &id002
     acquired: 2026
     agent_band: agent-ready
-    agent_score: 34.6
+    agent_score: 36.0
     api_count: 1
     api_count_basis: published
     immediate_parent: postman
@@ -154,7 +154,7 @@ permalink: /estates/postman/
 slug: postman
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/postman/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

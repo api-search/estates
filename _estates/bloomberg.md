@@ -6,19 +6,19 @@ description: Bloomberg delivers business and markets news, data, analysis, and v
   BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise
   services.
 estate_rating:
-  agent_avg: 6.5
+  agent_avg: 6.7
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.0
+  agent_raw: 6.1
   agent_ready: 1
   band: emerging
   best: 49.0
-  composite_avg: 22.6
+  composite_avg: 22.8
   composite_band: emerging
-  composite_raw: 23.1
+  composite_raw: 23.2
   developing: 2
   exemplar: 0
-  rating: 16.2
+  rating: 16.4
   scored: 35
   spread: 39.7
   strength: 2
@@ -50,14 +50,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.7
+    agent_score: 25.4
     api_count: 3
     api_count_basis: published
     immediate_parent: bloomberg
     name: Bloomberg AIM
     relationship: product
     score_band: developing
-    score_composite: 43.8
+    score_composite: 45.0
     slug: bloomberg-aim
     source: declared
   label: Developing
@@ -69,28 +69,28 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.4
-    api_count: 4
-    api_count_basis: published
-    immediate_parent: bloomberg
-    name: Bloomberg Buyside Enterprise Solutions
-    relationship: product
-    score_band: thin
-    score_composite: 37.2
-    slug: bloomberg-buyside-enterprise-solutions
-    source: declared
-  - &id004
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 25.4
+    agent_score: 27.0
     api_count: 1
     api_count_basis: published
     immediate_parent: bloomberg
     name: Bloomberg EMSX
     relationship: product
     score_band: thin
-    score_composite: 37.2
+    score_composite: 38.6
     slug: bloomberg-emsx
+    source: declared
+  - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.0
+    api_count: 4
+    api_count_basis: published
+    immediate_parent: bloomberg
+    name: Bloomberg Buyside Enterprise Solutions
+    relationship: product
+    score_band: thin
+    score_composite: 38.5
+    slug: bloomberg-buyside-enterprise-solutions
     source: declared
   - &id005
     acquired: null
@@ -108,14 +108,14 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: bloomberg
     name: Bloomberg APIs
     relationship: product
     score_band: thin
-    score_composite: 33.3
+    score_composite: 34.6
     slug: bloomberg-apis
     source: declared
   - &id007
@@ -219,6 +219,19 @@ member_bands:
     acquired: null
     agent_band: human-only
     agent_score: 0.6
+    api_count: 3
+    api_count_basis: split
+    immediate_parent: bloomberg
+    name: Bloomberg Products and Platforms
+    relationship: product
+    score_band: emerging
+    score_composite: 20.2
+    slug: bloomberg-products-and-platforms
+    source: declared
+  - &id015
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.6
     api_count: 4
     api_count_basis: split
     immediate_parent: bloomberg
@@ -227,19 +240,6 @@ member_bands:
     score_band: emerging
     score_composite: 19.3
     slug: bloomberg-enterprise
-    source: declared
-  - &id015
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.6
-    api_count: 3
-    api_count_basis: split
-    immediate_parent: bloomberg
-    name: Bloomberg Products and Platforms
-    relationship: product
-    score_band: emerging
-    score_composite: 18.8
-    slug: bloomberg-products-and-platforms
     source: declared
   - &id016
     acquired: null
@@ -553,14 +553,14 @@ overview: 'Bloomberg publishes its API surface across 35 provider profiles index
   of which 35 carry a rating. The rated members span 39.7 points, from 49.0 down to 9.3.
 
 
-  Its highest-rated surfaces are Bloomberg Applications, Bloomberg AIM, Bloomberg Buyside Enterprise Solutions,
-  Bloomberg EMSX, Bloomberg Data Sets.'
+  Its highest-rated surfaces are Bloomberg Applications, Bloomberg AIM, Bloomberg EMSX, Bloomberg Buyside
+  Enterprise Solutions, Bloomberg Data Sets.'
 parent_provider: bloomberg
 permalink: /estates/bloomberg/
 slug: bloomberg
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/bloomberg/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

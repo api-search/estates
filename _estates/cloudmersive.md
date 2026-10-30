@@ -7,19 +7,19 @@ description: Cloudmersive provides a portfolio of utility APIs covering virus an
   2.0 / OpenAPI specification, has SDKs in multiple languages, and is consumable on api.cloudmersive.com
   behind an API key (`Apikey` header).
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.2
-  composite_avg: 14.2
+  composite_avg: 14.3
   composite_band: emerging
   composite_raw: 5.2
   developing: 0
   exemplar: 0
-  rating: 11.1
+  rating: 11.2
   scored: 3
   spread: 0.0
   strength: 0
@@ -95,7 +95,7 @@ permalink: /estates/cloudmersive/
 slug: cloudmersive
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/cloudmersive/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

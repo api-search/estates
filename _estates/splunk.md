@@ -7,19 +7,19 @@ description: Splunk is a data platform that enables organizations to search, mon
   performance monitoring, and AI-driven analytics, helping enterprises turn data into actionable insights
   and operational intelligence.
 estate_rating:
-  agent_avg: 10.1
+  agent_avg: 10.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 10.1
+  agent_raw: 10.6
   agent_ready: 1
   band: emerging
   best: 66.3
-  composite_avg: 25.2
+  composite_avg: 25.5
   composite_band: thin
-  composite_raw: 32.3
+  composite_raw: 32.6
   developing: 1
   exemplar: 0
-  rating: 19.2
+  rating: 19.5
   scored: 4
   spread: 64.6
   strength: 3
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.4
+    agent_score: 34.4
     api_count: 48
     api_count_basis: published
     immediate_parent: splunk
@@ -83,7 +83,7 @@ member_bands:
     name: Splunk On-Call (VictorOps)
     relationship: acquisition
     score_band: emerging
-    score_composite: 16.5
+    score_composite: 17.8
     slug: victorops
     source: declared
   label: Emerging
@@ -147,7 +147,7 @@ permalink: /estates/splunk/
 slug: splunk
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/splunk/apis.yml
 subfamilies: []
 tags:
 - Analytics

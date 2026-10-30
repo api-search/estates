@@ -9,19 +9,19 @@ description: Coinbase is a leading cryptocurrency platform providing trading, cu
   using API keys with HMAC-SHA256 signatures (Advanced Trade, Exchange) or JWT bearer tokens (Prime, CDP),
   with WebSocket and FIX feeds available for low-latency market data and order management.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 3.4
-  composite_avg: 14.9
+  composite_avg: 15.0
   composite_band: emerging
   composite_raw: 3.0
   developing: 0
   exemplar: 0
-  rating: 11.9
+  rating: 12.0
   scored: 2
   spread: 0.7
   strength: 0
@@ -102,7 +102,7 @@ permalink: /estates/coinbase/
 slug: coinbase
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/coinbase/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

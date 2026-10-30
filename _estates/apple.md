@@ -3,10 +3,10 @@ api_total: 3
 category: Estates
 description: Collection of Apple's public APIs and developer resources.
 estate_rating:
-  agent_avg: 5.4
+  agent_avg: 5.8
   agent_band: minimal
   agent_native: 0
-  agent_raw: 3.5
+  agent_raw: 3.8
   agent_ready: 0
   band: minimal
   best: 61.7
@@ -15,7 +15,7 @@ estate_rating:
   composite_raw: 9.8
   developing: 0
   exemplar: 0
-  rating: 9.8
+  rating: 9.9
   scored: 12
   spread: 61.7
   strength: 2
@@ -34,7 +34,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.6
+    agent_score: 25.2
     api_count: 1
     api_count_basis: published
     immediate_parent: apple
@@ -53,7 +53,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 20.7
     api_count: 1
     api_count_basis: published
     immediate_parent: apple
@@ -254,7 +254,7 @@ permalink: /estates/apple/
 slug: apple
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/apple/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

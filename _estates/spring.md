@@ -7,24 +7,24 @@ description: Spring is the leading open-source application framework for Java. T
   rapid application development with embedded servers and auto-configuration. Spring is maintained by
   VMware and hosted under the Spring Projects GitHub organization.
 estate_rating:
-  agent_avg: 12.2
+  agent_avg: 13.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.0
+  agent_raw: 15.4
   agent_ready: 0
   band: emerging
-  best: 36.5
-  composite_avg: 26.5
+  best: 38.1
+  composite_avg: 27.1
   composite_band: thin
-  composite_raw: 32.3
+  composite_raw: 33.2
   developing: 0
   exemplar: 0
-  rating: 20.8
+  rating: 21.5
   scored: 6
-  spread: 7.8
+  spread: 8.3
   strength: 0
   strong: 0
-  worst: 28.7
+  worst: 29.8
 estate_root: null
 estate_root_name: null
 image: ''
@@ -38,20 +38,33 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: spring
     name: Spring Cloud Config
     relationship: product
     score_band: thin
-    score_composite: 36.5
+    score_composite: 38.1
     slug: spring-cloud-config
     source: declared
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 15.4
+    agent_score: 17.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: spring
+    name: Spring Boot
+    relationship: product
+    score_band: thin
+    score_composite: 34.1
+    slug: spring-boot
+    source: declared
+  - &id003
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 16.6
     api_count: 1
     api_count_basis: published
     immediate_parent: spring
@@ -61,46 +74,20 @@ member_bands:
     score_composite: 34.0
     slug: spring-cloud-gateway
     source: declared
-  - &id003
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 15.4
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: spring
-    name: Spring Boot
-    relationship: product
-    score_band: thin
-    score_composite: 32.9
-    slug: spring-boot
-    source: declared
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: published
     immediate_parent: spring
     name: Spring Integration
     relationship: product
     score_band: thin
-    score_composite: 32.0
+    score_composite: 33.3
     slug: spring-integration
     source: declared
   - &id005
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 15.4
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: spring
-    name: Spring Data
-    relationship: product
-    score_band: thin
-    score_composite: 29.8
-    slug: spring-data
-    source: declared
-  - &id006
     acquired: null
     agent_band: human-only
     agent_score: 1.9
@@ -110,8 +97,21 @@ member_bands:
     name: Spring Cloud Stream
     relationship: product
     score_band: thin
-    score_composite: 28.7
+    score_composite: 30.0
     slug: spring-cloud-stream
+    source: declared
+  - &id006
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: spring
+    name: Spring Data
+    relationship: product
+    score_band: thin
+    score_composite: 29.8
+    slug: spring-data
     source: declared
   label: Thin
   open: false
@@ -127,17 +127,17 @@ members:
 members_unrated: []
 name: Spring Framework
 overview: 'Spring Framework publishes its API surface across 6 provider profiles indexed on the APIs.io
-  network, of which 6 carry a rating. The rated members span 7.8 points, from 36.5 down to 28.7.
+  network, of which 6 carry a rating. The rated members span 8.3 points, from 38.1 down to 29.8.
 
 
-  Its highest-rated surfaces are Spring Cloud Config, Spring Cloud Gateway, Spring Boot, Spring Integration,
-  Spring Data.'
+  Its highest-rated surfaces are Spring Cloud Config, Spring Boot, Spring Cloud Gateway, Spring Integration,
+  Spring Cloud Stream.'
 parent_provider: spring
 permalink: /estates/spring/
 slug: spring
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/spring/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

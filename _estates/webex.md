@@ -7,21 +7,21 @@ description: Cisco Webex is a comprehensive collaboration platform offering APIs
   OAuth 2.0 authentication and provides separate API surfaces for messaging, video conferencing, cloud
   calling, admin management, and more.
 estate_rating:
-  agent_avg: 14.8
+  agent_avg: 15.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 19.4
+  agent_raw: 20.8
   agent_ready: 0
   band: emerging
-  best: 51.5
-  composite_avg: 28.6
+  best: 52.9
+  composite_avg: 28.8
   composite_band: thin
-  composite_raw: 37.6
+  composite_raw: 37.9
   developing: 2
   exemplar: 0
-  rating: 23.1
+  rating: 23.6
   scored: 5
-  spread: 23.3
+  spread: 24.7
   strength: 2
   strong: 0
   worst: 28.2
@@ -38,27 +38,27 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 2
     api_count_basis: published
     immediate_parent: webex
     name: Cisco Expressway
     relationship: product
     score_band: developing
-    score_composite: 51.5
+    score_composite: 52.9
     slug: cisco-expressway
     source: declared
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.7
+    agent_score: 24.4
     api_count: 1
     api_count_basis: published
     immediate_parent: webex
     name: Cisco Webex Meetings
     relationship: product
     score_band: developing
-    score_composite: 40.1
+    score_composite: 40.3
     slug: cisco-webex-meetings
     source: declared
   label: Developing
@@ -70,7 +70,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 20.7
     api_count: 1
     api_count_basis: published
     immediate_parent: webex
@@ -83,7 +83,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 20.7
     api_count: 1
     api_count_basis: published
     immediate_parent: webex
@@ -96,7 +96,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 1
     api_count_basis: published
     immediate_parent: webex
@@ -119,7 +119,7 @@ members:
 members_unrated: []
 name: Webex
 overview: 'Webex publishes its API surface across 5 provider profiles indexed on the APIs.io network,
-  of which 5 carry a rating. The rated members span 23.3 points, from 51.5 down to 28.2.
+  of which 5 carry a rating. The rated members span 24.7 points, from 52.9 down to 28.2.
 
 
   Its highest-rated surfaces are Cisco Expressway, Cisco Webex Meetings, Cisco Directory Connector, Cisco
@@ -129,7 +129,7 @@ permalink: /estates/webex/
 slug: webex
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/webex/apis.yml
 subfamilies: []
 tags:
 - Calling

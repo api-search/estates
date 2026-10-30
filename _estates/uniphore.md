@@ -16,19 +16,19 @@ description: 'Uniphore is an enterprise AI company — "The Business AI Company"
   which documents fifteen REST API families plus a webhook/SNMP health-alert surface without publishing
   a machine-readable contract.'
 estate_rating:
-  agent_avg: 10.3
+  agent_avg: 10.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 10.6
+  agent_raw: 10.4
   agent_ready: 1
   band: emerging
   best: 39.3
-  composite_avg: 21.1
+  composite_avg: 21.2
   composite_band: emerging
   composite_raw: 23.7
   developing: 1
   exemplar: 0
-  rating: 16.8
+  rating: 16.9
   scored: 3
   spread: 36.4
   strength: 1
@@ -47,7 +47,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.2
+    agent_score: 28.6
     api_count: 1
     api_count_basis: published
     immediate_parent: uniphore
@@ -115,7 +115,7 @@ permalink: /estates/uniphore/
 slug: uniphore
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uniphore/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/uniphore/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

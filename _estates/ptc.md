@@ -5,19 +5,19 @@ description: PTC is an industrial technology company providing software platform
   IoT (ThingWorx), Product Lifecycle Management (Windchill, Arena), Augmented Reality (Vuforia), Field
   Service Management (ServiceMax), and industrial connectivity (Kepware) in manufacturing environments.
 estate_rating:
-  agent_avg: 14.7
+  agent_avg: 15.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.3
+  agent_raw: 23.2
   agent_ready: 1
   band: emerging
   best: 59.8
-  composite_avg: 26.2
+  composite_avg: 26.3
   composite_band: thin
   composite_raw: 37.3
   developing: 0
   exemplar: 0
-  rating: 21.6
+  rating: 21.9
   scored: 3
   spread: 43.2
   strength: 2
@@ -36,7 +36,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.0
+    agent_score: 35.1
     api_count: 1
     api_count_basis: published
     immediate_parent: ptc
@@ -55,7 +55,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.1
+    agent_score: 23.7
     api_count: 1
     api_count_basis: published
     immediate_parent: ptc
@@ -104,14 +104,14 @@ permalink: /estates/ptc/
 slug: ptc
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ptc/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/ptc/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:
 - Industrial IoT
 - PLM
 - Augmented Reality
-- Field Service
+- Field Service Management
 - Manufacturing
 - CAD
 - Digital Transformation

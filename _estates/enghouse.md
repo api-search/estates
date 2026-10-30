@@ -9,19 +9,19 @@ description: 'Enghouse Systems Limited (TSX: ENGH) is a publicly traded Canadian
   — telecom OSS/BSS, media and broadcast, and network monitoring; plus transportation, public-safety and
   transit systems). The company grows largely through acquisition of specialized software brands.'
 estate_rating:
-  agent_avg: 6.7
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
   best: 32.9
-  composite_avg: 17.4
+  composite_avg: 17.5
   composite_band: emerging
   composite_raw: 13.8
   developing: 0
   exemplar: 0
-  rating: 13.1
+  rating: 13.3
   scored: 3
   spread: 28.9
   strength: 0
@@ -102,7 +102,7 @@ permalink: /estates/enghouse/
 slug: enghouse
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enghouse/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/enghouse/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

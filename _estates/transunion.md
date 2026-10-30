@@ -8,19 +8,19 @@ description: A global information and insights company providing credit reportin
   2021 — publishes an open, MIT-licensed OpenAPI for the STIR/SHAKEN call authentication and verification
   service.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 10.6
-  composite_avg: 14.5
+  composite_avg: 14.6
   composite_band: emerging
   composite_raw: 5.9
   developing: 0
   exemplar: 0
-  rating: 11.3
+  rating: 11.4
   scored: 3
   spread: 7.4
   strength: 0
@@ -95,7 +95,7 @@ permalink: /estates/transunion/
 slug: transunion
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/transunion/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

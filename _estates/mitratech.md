@@ -12,19 +12,19 @@ description: 'Mitratech is an Austin, Texas based enterprise software company su
   2.0 API Explorer, TeamConnect 7.2+ ships a modernized OAuth 2.0 REST API on each customer instance,
   and mitratech.com itself serves an OAuth-protected Model Context Protocol server.'
 estate_rating:
-  agent_avg: 8.9
+  agent_avg: 9.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.8
+  agent_raw: 7.7
   agent_ready: 0
   band: emerging
   best: 36.7
-  composite_avg: 17.9
+  composite_avg: 18.0
   composite_band: emerging
   composite_raw: 15.0
   developing: 0
   exemplar: 0
-  rating: 14.3
+  rating: 14.6
   scored: 3
   spread: 33.3
   strength: 0
@@ -43,7 +43,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.4
+    agent_score: 23.0
     api_count: 2
     api_count_basis: published
     immediate_parent: mitratech
@@ -105,7 +105,7 @@ permalink: /estates/mitratech/
 slug: mitratech
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mitratech/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/mitratech/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

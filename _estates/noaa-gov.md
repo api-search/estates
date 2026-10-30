@@ -1,5 +1,5 @@
 ---
-api_total: 10
+api_total: 9
 category: Estates
 description: The National Oceanic and Atmospheric Administration (NOAA) is the United States scientific
   and regulatory agency within the Department of Commerce charged with monitoring oceanic and atmospheric
@@ -14,19 +14,19 @@ description: The National Oceanic and Atmospheric Administration (NOAA) is the U
   Data Buoy Center (NDBC), and bulk forecast model output (GFS, GEFS, HRRR, GOES) through the NOAA Open
   Data Dissemination (NODD) program on AWS, GCP, and Azure.
 estate_rating:
-  agent_avg: 11.8
+  agent_avg: 12.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.5
+  agent_raw: 14.8
   agent_ready: 0
   band: emerging
   best: 35.6
-  composite_avg: 22.1
+  composite_avg: 22.2
   composite_band: emerging
   composite_raw: 26.2
   developing: 0
   exemplar: 0
-  rating: 18.0
+  rating: 18.2
   scored: 3
   spread: 23.1
   strength: 0
@@ -45,8 +45,8 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.6
-    api_count: 2
+    agent_score: 23.3
+    api_count: 1
     api_count_basis: published
     immediate_parent: noaa-gov
     name: Weather.gov
@@ -58,7 +58,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.0
+    agent_score: 21.1
     api_count: 3
     api_count_basis: published
     immediate_parent: noaa-gov
@@ -108,7 +108,7 @@ permalink: /estates/noaa-gov/
 slug: noaa-gov
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/noaa-gov/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

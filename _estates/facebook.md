@@ -6,19 +6,19 @@ description: Facebook is Meta's social networking platform providing APIs for de
   social graph. Meta also provides APIs for marketing and advertising, Instagram content management, Messenger
   bots, Threads publishing, and WhatsApp business messaging.
 estate_rating:
-  agent_avg: 6.1
+  agent_avg: 6.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.5
   agent_ready: 0
   band: emerging
   best: 37.4
-  composite_avg: 13.1
+  composite_avg: 13.2
   composite_band: emerging
   composite_raw: 9.1
   developing: 0
   exemplar: 0
-  rating: 10.3
+  rating: 10.4
   scored: 8
   spread: 37.4
   strength: 0
@@ -175,7 +175,7 @@ permalink: /estates/facebook/
 slug: facebook
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/facebook/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -6,24 +6,24 @@ description: Bird (formerly MessageBird) is an omnichannel customer communicatio
   than 450,000 developers, Bird provides enterprise-grade connectivity through a global carrier network
   alongside a full customer engagement and marketing automation suite.
 estate_rating:
-  agent_avg: 11.9
+  agent_avg: 12.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.7
+  agent_raw: 15.3
   agent_ready: 0
   band: emerging
   best: 51.0
-  composite_avg: 24.4
+  composite_avg: 24.8
   composite_band: emerging
-  composite_raw: 32.3
+  composite_raw: 33.3
   developing: 1
   exemplar: 0
-  rating: 19.4
+  rating: 19.8
   scored: 3
-  spread: 42.2
+  spread: 40.8
   strength: 1
   strong: 0
-  worst: 8.8
+  worst: 10.2
 estate_root: null
 estate_root_name: null
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bird.png
@@ -56,14 +56,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.0
+    agent_score: 20.7
     api_count: 1
     api_count_basis: published
     immediate_parent: bird
     name: Pusher
     relationship: acquisition
     score_band: thin
-    score_composite: 37.2
+    score_composite: 38.6
     slug: pusher
     source: prose
   label: Thin
@@ -82,7 +82,7 @@ member_bands:
     name: Pusher Beams
     relationship: product
     score_band: minimal
-    score_composite: 8.8
+    score_composite: 10.2
     slug: pusher-beams
     source: declared
   label: Minimal
@@ -96,7 +96,7 @@ members:
 members_unrated: []
 name: Bird
 overview: 'Bird publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 42.2 points, from 51.0 down to 8.8.
+  which 3 carry a rating. The rated members span 40.8 points, from 51.0 down to 10.2.
 
 
   Its highest-rated surfaces are Hull, Pusher, Pusher Beams.'
@@ -105,14 +105,14 @@ permalink: /estates/bird/
 slug: bird
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/bird/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1
   members:
   - name: Pusher Beams
     score_band: minimal
-    score_composite: 8.8
+    score_composite: 10.2
     slug: pusher-beams
   name: Pusher
   on_network: true

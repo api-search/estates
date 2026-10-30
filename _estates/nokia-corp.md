@@ -15,19 +15,19 @@ description: Nokia (Nokia Oyj) is a Finnish multinational telecommunications, in
   the Bell Labs research division, and a broad open-source presence (600+ GitHub repos) including TTCN-3
   tooling (ntt), Corteca CLI, Moler test framework, and YANG models.
 estate_rating:
-  agent_avg: 9.1
+  agent_avg: 9.8
   agent_band: minimal
   agent_native: 0
-  agent_raw: 8.3
+  agent_raw: 9.1
   agent_ready: 1
   band: emerging
   best: 40.4
-  composite_avg: 17.0
+  composite_avg: 17.2
   composite_band: emerging
-  composite_raw: 14.9
+  composite_raw: 15.2
   developing: 1
   exemplar: 0
-  rating: 13.8
+  rating: 14.2
   scored: 6
   spread: 40.4
   strength: 1
@@ -46,7 +46,7 @@ member_bands:
   - &id001
     acquired: 2024
     agent_band: agent-ready
-    agent_score: 29.4
+    agent_score: 33.2
     api_count: 6
     api_count_basis: published
     immediate_parent: nokia-corp
@@ -65,14 +65,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.4
+    agent_score: 21.3
     api_count: 1
     api_count_basis: published
     immediate_parent: nokia-corp
     name: Nokia NetAct
     relationship: product
     score_band: thin
-    score_composite: 29.4
+    score_composite: 30.8
     slug: nokia-netact
     source: declared
   label: Thin
@@ -182,7 +182,7 @@ permalink: /estates/nokia-corp/
 slug: nokia-corp
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/nokia-corp/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

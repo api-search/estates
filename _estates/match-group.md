@@ -6,21 +6,21 @@ description: Match Group is a leading provider of digital technologies designed 
   Meetic, OkCupid, Pairs, Plenty Of Fish, Azar, Hakuna, and others. Match Group does not publish a unified
   public developer portal at the corporate level; individual brands manage their own integrations.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
-  best: 7.5
-  composite_avg: 13.7
+  best: 8.9
+  composite_avg: 13.9
   composite_band: emerging
-  composite_raw: 3.8
+  composite_raw: 4.3
   developing: 0
   exemplar: 0
-  rating: 10.8
+  rating: 11.0
   scored: 3
-  spread: 7.5
+  spread: 8.9
   strength: 0
   strong: 0
   worst: 0.0
@@ -44,7 +44,7 @@ member_bands:
     name: Hinge
     relationship: acquisition
     score_band: minimal
-    score_composite: 7.5
+    score_composite: 8.9
     slug: hinge
     source: prose
   - &id002
@@ -84,7 +84,7 @@ members:
 members_unrated: []
 name: Match Group
 overview: 'Match Group publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 7.5 points, from 7.5 down to 0.0.
+  of which 3 carry a rating. The rated members span 8.9 points, from 8.9 down to 0.0.
 
 
   Its highest-rated surfaces are Hinge, The League, Hawaya.'
@@ -93,7 +93,7 @@ permalink: /estates/match-group/
 slug: match-group
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/match-group/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/match-group/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -1,25 +1,25 @@
 ---
-api_total: 4
+api_total: 3
 category: Estates
 description: Stream, connect, process, and govern your data with an all-in-one, real-time platform from
   the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible
   and usable data products with the market leading Data Streaming Platform.
 estate_rating:
-  agent_avg: 13.8
+  agent_avg: 14.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.4
+  agent_raw: 18.9
   agent_ready: 1
   band: emerging
-  best: 76.8
-  composite_avg: 23.0
+  best: 76.3
+  composite_avg: 23.2
   composite_band: emerging
-  composite_raw: 27.2
+  composite_raw: 27.4
   developing: 0
   exemplar: 1
-  rating: 19.3
+  rating: 19.6
   scored: 4
-  spread: 76.8
+  spread: 76.3
   strength: 3
   strong: 0
   worst: 0.0
@@ -36,14 +36,14 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 49.4
-    api_count: 3
+    agent_score: 50.5
+    api_count: 2
     api_count_basis: published
     immediate_parent: confluent
     name: Confluent | the Data Streaming Platform
     relationship: product
     score_band: exemplar
-    score_composite: 76.8
+    score_composite: 76.3
     slug: confluent-the-data-streaming-platform
     source: declared
   label: Exemplar
@@ -55,14 +55,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.4
+    agent_score: 25.1
     api_count: 1
     api_count_basis: published
     immediate_parent: confluent
     name: Confluent Schema Registry
     relationship: product
     score_band: thin
-    score_composite: 31.9
+    score_composite: 33.3
     slug: confluent-schema-registry
     source: declared
   label: Thin
@@ -109,7 +109,7 @@ members:
 members_unrated: []
 name: Confluent
 overview: 'Confluent publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 76.8 points, from 76.8 down to 0.0.
+  of which 4 carry a rating. The rated members span 76.3 points, from 76.3 down to 0.0.
 
 
   Its highest-rated surfaces are Confluent | the Data Streaming Platform, Confluent Schema Registry, Noteable,
@@ -119,7 +119,7 @@ permalink: /estates/confluent/
 slug: confluent
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/confluent/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

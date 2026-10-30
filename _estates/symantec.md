@@ -7,19 +7,19 @@ description: Symantec (now part of Broadcom) is a leading enterprise cybersecuri
   Detection and Response (EDR), Data Loss Prevention (DLP), and the Integrated Cyber Defense Manager (ICDm)
   platform.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 14.1
-  composite_avg: 14.0
+  composite_avg: 14.1
   composite_band: emerging
   composite_raw: 4.7
   developing: 0
   exemplar: 0
-  rating: 11.0
+  rating: 11.1
   scored: 3
   spread: 14.1
   strength: 0
@@ -120,7 +120,7 @@ permalink: /estates/symantec/
 slug: symantec
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/symantec/apis.yml
 subfamilies: []
 tags:
 - Broadcom

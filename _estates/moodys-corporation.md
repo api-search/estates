@@ -10,19 +10,19 @@ description: 'Moody''s Corporation (NYSE: MCO) is a global integrated risk-asses
   subsidiary brands including Bureau van Dijk (Orbis), RMS (catastrophe risk), Kompany / Passfort (KYC),
   and Four Twenty Seven (climate).'
 estate_rating:
-  agent_avg: 10.7
+  agent_avg: 10.9
   agent_band: emerging
   agent_native: 0
   agent_raw: 11.6
   agent_ready: 1
   band: emerging
   best: 34.4
-  composite_avg: 17.2
+  composite_avg: 17.3
   composite_band: emerging
   composite_raw: 13.2
   developing: 0
   exemplar: 0
-  rating: 14.6
+  rating: 14.7
   scored: 3
   spread: 31.8
   strength: 0
@@ -41,7 +41,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.9
+    agent_score: 34.7
     api_count: 3
     api_count_basis: published
     immediate_parent: moodys-corporation
@@ -103,7 +103,7 @@ permalink: /estates/moodys-corporation/
 slug: moodys-corporation
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/moodys-corporation/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

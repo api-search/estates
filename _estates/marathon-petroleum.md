@@ -5,19 +5,19 @@ description: Marathon Petroleum is one of the largest petroleum product refiners
   in the United States, with operations including refineries, pipelines, terminals, and retail outlets.
   No public developer APIs have been identified at this time.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 8.8
-  composite_avg: 14.0
+  composite_avg: 14.1
   composite_band: emerging
   composite_raw: 4.7
   developing: 0
   exemplar: 0
-  rating: 11.0
+  rating: 11.1
   scored: 3
   spread: 8.8
   strength: 0
@@ -92,7 +92,7 @@ permalink: /estates/marathon-petroleum/
 slug: marathon-petroleum
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marathon-petroleum/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/marathon-petroleum/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

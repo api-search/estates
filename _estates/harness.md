@@ -1,26 +1,26 @@
 ---
-api_total: 10
+api_total: 14
 category: Estates
 description: Harness is an AI-powered software delivery platform that automates and accelerates the entire
   software development lifecycle from code to production. The platform provides intelligent automation
   across DevOps, testing and resilience, security and compliance, and cost optimization, helping engineering
   teams ship code faster, safer, and smarter as they scale.
 estate_rating:
-  agent_avg: 15.0
+  agent_avg: 15.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.1
+  agent_raw: 21.6
   agent_ready: 0
   band: emerging
-  best: 37.0
+  best: 36.1
   composite_avg: 25.8
   composite_band: thin
-  composite_raw: 33.6
+  composite_raw: 33.4
   developing: 0
   exemplar: 0
-  rating: 21.5
+  rating: 21.7
   scored: 4
-  spread: 7.6
+  spread: 6.7
   strength: 0
   strong: 0
   worst: 29.4
@@ -38,20 +38,20 @@ member_bands:
     acquired: null
     agent_band: agent-aware
     agent_score: 17.9
-    api_count: 1
-    api_count_basis: published
+    api_count: 6
+    api_count_basis: split
     immediate_parent: harness
     name: Harness Cloud Cost Management
     relationship: product
     score_band: thin
-    score_composite: 37.0
+    score_composite: 36.1
     slug: harness-cloud-cost
     source: declared
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.7
-    api_count: 7
+    agent_score: 26.4
+    api_count: 6
     api_count_basis: published
     immediate_parent: harness
     name: Armory
@@ -63,7 +63,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 20.6
     api_count: 1
     api_count_basis: published
     immediate_parent: harness
@@ -76,7 +76,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.4
+    agent_score: 21.3
     api_count: 1
     api_count_basis: published
     immediate_parent: harness
@@ -98,7 +98,7 @@ members:
 members_unrated: []
 name: Harness
 overview: 'Harness publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 7.6 points, from 37.0 down to 29.4.
+  of which 4 carry a rating. The rated members span 6.7 points, from 36.1 down to 29.4.
 
 
   Its highest-rated surfaces are Harness Cloud Cost Management, Armory, Drone, Overops.'
@@ -107,7 +107,7 @@ permalink: /estates/harness/
 slug: harness
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/harness/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -4,19 +4,19 @@ category: Estates
 description: Pfizer is a Fortune 500 American multinational pharmaceutical and biotechnology corporation
   that researches, develops, and manufactures medicines and vaccines for a wide range of medical disciplines.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 3.7
-  composite_avg: 13.4
+  composite_avg: 13.5
   composite_band: emerging
   composite_raw: 3.2
   developing: 0
   exemplar: 0
-  rating: 10.6
+  rating: 10.7
   scored: 3
   spread: 0.9
   strength: 0
@@ -91,7 +91,7 @@ permalink: /estates/pfizer/
 slug: pfizer
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pfizer/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/pfizer/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -7,22 +7,22 @@ description: Paylocity is a cloud-based human capital management (HCM) and payro
   self-service tools. The Paylocity API uses OAuth 2.0 client credentials over api.paylocity.com to expose
   employee, payroll, deduction, earning, and onboarding data for partner integrations and customer automations.
 estate_rating:
-  agent_avg: 9.6
-  agent_band: minimal
+  agent_avg: 10.0
+  agent_band: emerging
   agent_native: 0
-  agent_raw: 8.8
+  agent_raw: 9.0
   agent_ready: 0
   band: emerging
-  best: 38.7
-  composite_avg: 18.5
+  best: 40.1
+  composite_avg: 18.8
   composite_band: emerging
-  composite_raw: 16.7
-  developing: 0
+  composite_raw: 17.2
+  developing: 1
   exemplar: 0
-  rating: 14.9
+  rating: 15.3
   scored: 3
-  spread: 35.1
-  strength: 0
+  spread: 36.5
+  strength: 1
   strong: 0
   worst: 3.6
 estate_root: null
@@ -31,24 +31,24 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paylocity.
 is_subfamily: false
 layout: estate
 member_bands:
-- band: thin
-  blurb: Limited public surface area
+- band: developing
+  blurb: Usable, with meaningful gaps to close
   count: 1
   items:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.7
+    agent_score: 26.4
     api_count: 1
     api_count_basis: published
     immediate_parent: paylocity
     name: VidGrid
     relationship: product
-    score_band: thin
-    score_composite: 38.7
+    score_band: developing
+    score_composite: 40.1
     slug: vidgrid
     source: parent-company-property
-  label: Thin
+  label: Developing
   open: false
 - band: minimal
   blurb: Almost no public developer surface
@@ -91,7 +91,7 @@ members:
 members_unrated: []
 name: Paylocity
 overview: 'Paylocity publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 35.1 points, from 38.7 down to 3.6.
+  of which 3 carry a rating. The rated members span 36.5 points, from 40.1 down to 3.6.
 
 
   Its highest-rated surfaces are VidGrid, Airbase, Trace.'
@@ -100,7 +100,7 @@ permalink: /estates/paylocity/
 slug: paylocity
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/paylocity/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

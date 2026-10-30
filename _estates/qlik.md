@@ -1,21 +1,21 @@
 ---
-api_total: 130
+api_total: 129
 category: Estates
 description: APIs for Qlik's analytics and data integration platform.
 estate_rating:
-  agent_avg: 15.9
+  agent_avg: 16.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 19.5
+  agent_raw: 19.6
   agent_ready: 3
   band: emerging
   best: 71.0
-  composite_avg: 28.2
+  composite_avg: 28.3
   composite_band: thin
   composite_raw: 33.6
   developing: 1
   exemplar: 1
-  rating: 23.3
+  rating: 23.4
   scored: 8
   spread: 67.9
   strength: 6
@@ -34,7 +34,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 43.6
+    agent_score: 42.9
     api_count: 78
     api_count_basis: published
     immediate_parent: qlik
@@ -53,8 +53,8 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 51.9
-    api_count: 17
+    agent_score: 51.1
+    api_count: 16
     api_count_basis: published
     immediate_parent: qlik
     name: Talend
@@ -91,20 +91,20 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.4
+    agent_score: 31.8
     api_count: 6
     api_count_basis: published
     immediate_parent: qlik
     name: Qlik Sense Enterprise
     relationship: product
     score_band: thin
-    score_composite: 36.3
+    score_composite: 36.6
     slug: qlik-sense-enterprise
     source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.0
+    agent_score: 22.7
     api_count: 13
     api_count_basis: split
     immediate_parent: qlik
@@ -210,7 +210,7 @@ permalink: /estates/qlik/
 slug: qlik
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/qlik/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

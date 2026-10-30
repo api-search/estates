@@ -5,19 +5,19 @@ description: Adobe provides APIs and developer resources for its creative, docum
   platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics,
   e-commerce, e-signatures, and many other Adobe products and services.
 estate_rating:
-  agent_avg: 16.2
+  agent_avg: 16.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.1
+  agent_raw: 22.7
   agent_ready: 2
   band: emerging
   best: 62.7
-  composite_avg: 26.0
+  composite_avg: 25.9
   composite_band: thin
-  composite_raw: 32.4
+  composite_raw: 32.1
   developing: 0
   exemplar: 0
-  rating: 22.1
+  rating: 22.2
   scored: 5
   spread: 58.9
   strength: 4
@@ -36,7 +36,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 48.4
+    agent_score: 51.2
     api_count: 1
     api_count_basis: published
     immediate_parent: adobe
@@ -49,14 +49,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 40.0
+    agent_score: 38.5
     api_count: 1
     api_count_basis: published
     immediate_parent: adobe
     name: Adobe Premiere Pro
     relationship: product
     score_band: strong
-    score_composite: 58.7
+    score_composite: 57.4
     slug: adobe-premiere
     source: declared
   label: Strong
@@ -68,7 +68,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.3
+    agent_score: 23.9
     api_count: 1
     api_count_basis: published
     immediate_parent: adobe
@@ -166,7 +166,7 @@ permalink: /estates/adobe/
 slug: adobe
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/adobe/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -3,19 +3,19 @@ api_total: 4
 category: Estates
 description: Collection of APIs offered by Intuit for financial and business management services.
 estate_rating:
-  agent_avg: 9.1
+  agent_avg: 9.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.3
   agent_ready: 0
   band: emerging
   best: 34.2
-  composite_avg: 18.1
+  composite_avg: 18.2
   composite_band: emerging
   composite_raw: 15.5
   developing: 0
   exemplar: 0
-  rating: 14.5
+  rating: 14.6
   scored: 3
   spread: 31.5
   strength: 0
@@ -96,7 +96,7 @@ permalink: /estates/intuit/
 slug: intuit
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/intuit/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

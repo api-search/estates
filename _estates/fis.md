@@ -1,26 +1,26 @@
 ---
-api_total: 23
+api_total: 21
 category: Estates
 description: FIS (Fidelity National Information Services) is a global leader in financial technology providing
   APIs for core banking, payments, wealth management, and capital markets through the CodeConnect API
   marketplace. APIs connect financial institutions, fintechs, and enterprises to FIS banking and payment
   infrastructure.
 estate_rating:
-  agent_avg: 13.4
+  agent_avg: 14.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 17.5
+  agent_raw: 18.8
   agent_ready: 2
   band: emerging
-  best: 61.3
-  composite_avg: 25.8
+  best: 62.1
+  composite_avg: 26.0
   composite_band: thin
-  composite_raw: 33.6
+  composite_raw: 33.9
   developing: 0
   exemplar: 0
-  rating: 20.8
+  rating: 21.3
   scored: 4
-  spread: 54.0
+  spread: 54.8
   strength: 4
   strong: 2
   worst: 7.3
@@ -37,20 +37,20 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.6
-    api_count: 4
+    agent_score: 36.0
+    api_count: 2
     api_count_basis: published
     immediate_parent: fis
     name: Payrix
     relationship: acquisition
     score_band: strong
-    score_composite: 61.3
+    score_composite: 62.1
     slug: payrix
     source: prose
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.4
+    agent_score: 36.1
     api_count: 18
     api_count_basis: published
     immediate_parent: fis
@@ -104,7 +104,7 @@ members:
 members_unrated: []
 name: FIS Global
 overview: 'FIS Global publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 54.0 points, from 61.3 down to 7.3.
+  of which 4 carry a rating. The rated members span 54.8 points, from 62.1 down to 7.3.
 
 
   Its highest-rated surfaces are Payrix, Bond, IntelliMatch, SunGard Data Systems.'
@@ -113,7 +113,7 @@ permalink: /estates/fis/
 slug: fis
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/fis/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

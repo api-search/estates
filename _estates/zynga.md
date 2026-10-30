@@ -12,19 +12,19 @@ description: 'Zynga is a mobile and social game developer and publisher, founded
   "Zynga API" announced at Zynga Unleashed in 2011-2012 was retired with the zynga.com third-party publishing
   platform, and developers.zynga.com no longer resolves.'
 estate_rating:
-  agent_avg: 5.1
+  agent_avg: 5.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: minimal
   best: 3.5
-  composite_avg: 11.1
+  composite_avg: 11.2
   composite_band: emerging
   composite_raw: 2.6
   developing: 0
   exemplar: 0
-  rating: 8.7
+  rating: 8.8
   scored: 5
   spread: 3.5
   strength: 0
@@ -127,7 +127,7 @@ permalink: /estates/zynga/
 slug: zynga
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zynga/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/zynga/apis.yml
 subfamilies: []
 tags:
 - Company

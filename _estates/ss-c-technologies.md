@@ -1,5 +1,5 @@
 ---
-api_total: 6
+api_total: 2
 category: Estates
 description: 'SS&C Technologies Holdings (NASDAQ: SSNC) is a global provider of financial-services and
   healthcare software and outsourcing, headquartered in Windsor, Connecticut, operating under brands including
@@ -13,19 +13,19 @@ description: 'SS&C Technologies Holdings (NASDAQ: SSNC) is a global provider of 
   amendment, pair and basket orders, allocations and trade reports, real-time and historical market data,
   and intraday balances, positions and activity.'
 estate_rating:
-  agent_avg: 9.1
+  agent_avg: 9.3
   agent_band: minimal
   agent_native: 0
-  agent_raw: 7.9
+  agent_raw: 7.7
   agent_ready: 1
   band: emerging
   best: 50.7
   composite_avg: 19.5
   composite_band: emerging
-  composite_raw: 19.4
+  composite_raw: 19.2
   developing: 1
   exemplar: 0
-  rating: 15.3
+  rating: 15.4
   scored: 4
   spread: 48.6
   strength: 1
@@ -44,7 +44,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.5
+    agent_score: 30.8
     api_count: 1
     api_count_basis: published
     immediate_parent: ss-c-technologies
@@ -64,13 +64,13 @@ member_bands:
     acquired: null
     agent_band: human-only
     agent_score: 0.0
-    api_count: 5
+    api_count: 1
     api_count_basis: split
     immediate_parent: ss-c-technologies
     name: SS&C Geneva
     relationship: product
     score_band: emerging
-    score_composite: 13.7
+    score_composite: 13.1
     slug: ssc-geneva
     source: declared
   - &id003
@@ -126,7 +126,7 @@ permalink: /estates/ss-c-technologies/
 slug: ss-c-technologies
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/ss-c-technologies/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

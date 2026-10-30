@@ -9,19 +9,19 @@ description: A connected fitness company offering stationary bikes, treadmills, 
   surfaces are internal and only reachable through the consumer apps. Reverse-engineered community libraries
   exist on GitHub but are unsupported by Peloton.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 10.3
-  composite_avg: 14.0
+  composite_avg: 14.3
   composite_band: emerging
-  composite_raw: 4.8
+  composite_raw: 5.2
   developing: 0
   exemplar: 0
-  rating: 11.0
+  rating: 11.2
   scored: 3
   spread: 10.3
   strength: 0
@@ -60,7 +60,7 @@ member_bands:
     name: Peloton Interactive
     relationship: product
     score_band: minimal
-    score_composite: 4.0
+    score_composite: 5.4
     slug: peloton-interactive
     source: declared
   - &id003
@@ -96,7 +96,7 @@ permalink: /estates/peloton/
 slug: peloton
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peloton/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/peloton/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

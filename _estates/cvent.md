@@ -1,5 +1,5 @@
 ---
-api_total: 24
+api_total: 23
 category: Estates
 description: Cvent is a leading meetings, events, and hospitality technology provider with over 4,800
   employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration,
@@ -10,21 +10,21 @@ description: Cvent is a leading meetings, events, and hospitality technology pro
   integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads,
   webhooks, SSO, custom widgets, white-label, and integration documentation.
 estate_rating:
-  agent_avg: 20.8
+  agent_avg: 21.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 28.3
+  agent_raw: 29.0
   agent_ready: 3
   band: thin
-  best: 75.9
-  composite_avg: 38.1
+  best: 77.2
+  composite_avg: 38.3
   composite_band: thin
-  composite_raw: 51.4
+  composite_raw: 51.5
   developing: 0
   exemplar: 2
-  rating: 31.2
+  rating: 31.5
   scored: 7
-  spread: 62.8
+  spread: 64.1
   strength: 10
   strong: 2
   worst: 13.1
@@ -41,20 +41,20 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 42.6
+    agent_score: 44.7
     api_count: 2
     api_count_basis: published
     immediate_parent: cvent
     name: Cvent Registration
     relationship: product
     score_band: exemplar
-    score_composite: 75.9
+    score_composite: 77.2
     slug: cvent-registration
     source: declared
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 46.1
+    agent_score: 48.0
     api_count: 2
     api_count_basis: published
     immediate_parent: cvent
@@ -73,7 +73,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 55.8
+    agent_score: 57.2
     api_count: 17
     api_count_basis: published
     immediate_parent: cvent
@@ -86,8 +86,8 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 28.2
-    api_count: 2
+    agent_score: 27.7
+    api_count: 1
     api_count_basis: published
     immediate_parent: cvent
     name: Cvent Social Tables
@@ -162,7 +162,7 @@ members:
 members_unrated: []
 name: Cvent
 overview: 'Cvent publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 62.8 points, from 75.9 down to 13.1.
+  of which 7 carry a rating. The rated members span 64.1 points, from 77.2 down to 13.1.
 
 
   Its highest-rated surfaces are Cvent Registration, Cvent Event Cloud, Cvent Hospitality Cloud, Cvent
@@ -172,7 +172,7 @@ permalink: /estates/cvent/
 slug: cvent
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/cvent/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

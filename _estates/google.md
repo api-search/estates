@@ -1,78 +1,1929 @@
 ---
-api_total: 2
+api_total: 212
 category: Estates
 description: Google Docs is an online word processing and PDF editing tool that is part of Google Workspace.
   It provides cloud‑based document creation, real‑time collaboration, and AI‑powered features such as
   Gemini in Docs for drafting and formatting. The service is offered to individuals, small businesses,
   startups, and enterprise customers for secure, cloud‑native productivity.
 estate_rating:
-  agent_avg: 13.0
+  agent_avg: 20.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 17.8
-  agent_ready: 0
-  band: emerging
-  best: 59.0
-  composite_avg: 24.8
-  composite_band: emerging
-  composite_raw: 33.5
-  developing: 0
-  exemplar: 0
-  rating: 20.1
-  scored: 3
-  spread: 49.5
-  strength: 2
-  strong: 1
-  worst: 9.5
+  agent_raw: 20.3
+  agent_ready: 27
+  band: thin
+  best: 72.1
+  composite_avg: 37.0
+  composite_band: thin
+  composite_raw: 37.5
+  developing: 83
+  exemplar: 4
+  rating: 30.2
+  scored: 172
+  spread: 72.1
+  strength: 131
+  strong: 18
+  worst: 0.0
 estate_root: null
 estate_root_name: null
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: strong
-  blurb: Solid coverage with minor gaps
-  count: 1
+- band: exemplar
+  blurb: Complete, well-documented, and agent-ready
+  count: 4
   items:
   - &id001
     acquired: null
+    agent_band: agent-ready
+    agent_score: 41.8
+    api_count: 6
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Analytics
+    relationship: product
+    score_band: exemplar
+    score_composite: 72.1
+    slug: google-analytics
+    source: declared
+  - &id002
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 44.9
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Ads
+    relationship: product
+    score_band: exemplar
+    score_composite: 71.9
+    slug: google-ads
+    source: declared
+  - &id003
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 37.9
+    api_count: 5
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Search Console
+    relationship: product
+    score_band: exemplar
+    score_composite: 67.2
+    slug: google-search-console
+    source: declared
+  - &id004
+    acquired: 2016
+    agent_band: agent-ready
+    agent_score: 30.2
+    api_count: 5
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Apigee
+    relationship: acquisition
+    score_band: exemplar
+    score_composite: 66.9
+    slug: apigee
+    source: declared
+  label: Exemplar
+  open: true
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 18
+  items:
+  - &id005
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 47.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Logging
+    relationship: product
+    score_band: strong
+    score_composite: 66.1
+    slug: google-cloud-logging
+    source: declared
+  - &id006
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 38.2
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Dialogflow
+    relationship: product
+    score_band: strong
+    score_composite: 66.1
+    slug: google-dialogflow
+    source: declared
+  - &id007
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 32.8
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Campaign Manager
+    relationship: product
+    score_band: strong
+    score_composite: 65.9
+    slug: google-campaign-manager
+    source: declared
+  - &id008
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 38.2
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Tag Manager
+    relationship: product
+    score_band: strong
+    score_composite: 63.6
+    slug: google-tag-manager
+    source: declared
+  - &id009
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 33.3
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Storage
+    relationship: product
+    score_band: strong
+    score_composite: 63.5
+    slug: gcp-cloud-storage
+    source: declared
+  - &id010
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 28.6
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Indexing
+    relationship: product
+    score_band: strong
+    score_composite: 62.7
+    slug: google-indexing
+    source: declared
+  - &id011
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 48.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Cloud Platform
+    relationship: product
+    score_band: strong
+    score_composite: 62.3
+    slug: google-cloud-platform
+    source: declared
+  - &id012
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 35.0
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Vault
+    relationship: product
+    score_band: strong
+    score_composite: 61.1
+    slug: google-vault
+    source: declared
+  - &id013
+    acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
+    agent_score: 27.6
     api_count: 1
     api_count_basis: published
     immediate_parent: google
     name: Google Workspace
     relationship: product
     score_band: strong
-    score_composite: 59.0
+    score_composite: 60.4
     slug: google-workspace
     source: declared
+  - &id014
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 38.4
+    api_count: 5
+    api_count_basis: published
+    immediate_parent: google
+    name: Youtube
+    relationship: acquisition
+    score_band: strong
+    score_composite: 59.6
+    slug: youtube
+    source: declared
+  - &id015
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 35.1
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Docs
+    relationship: product
+    score_band: strong
+    score_composite: 57.9
+    slug: google-docs
+    source: declared
+  - &id016
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 33.3
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Marketing Platform Admin
+    relationship: product
+    score_band: strong
+    score_composite: 56.4
+    slug: google-marketing-platform
+    source: declared
+  - &id017
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 32.2
+    api_count: 3
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Display & Video 360
+    relationship: product
+    score_band: strong
+    score_composite: 56.2
+    slug: google-display-video-360
+    source: declared
+  - &id018
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.4
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud DNS
+    relationship: product
+    score_band: strong
+    score_composite: 55.6
+    slug: google-cloud-dns
+    source: declared
+  - &id019
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 35.1
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Slides
+    relationship: product
+    score_band: strong
+    score_composite: 55.1
+    slug: google-slides
+    source: declared
+  - &id020
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 28.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud CDN
+    relationship: product
+    score_band: strong
+    score_composite: 54.7
+    slug: google-cloud-cdn
+    source: declared
+  - &id021
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 33.0
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Sheets
+    relationship: product
+    score_band: strong
+    score_composite: 54.4
+    slug: google-sheets
+    source: declared
+  - &id022
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 30.4
+    api_count: 11
+    api_count_basis: published
+    immediate_parent: google
+    name: Fitbit
+    relationship: acquisition
+    score_band: strong
+    score_composite: 54.3
+    slug: fitbit
+    source: prose
   label: Strong
   open: true
-- band: thin
-  blurb: Limited public surface area
-  count: 1
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 83
   items:
-  - &id002
+  - &id023
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 33.3
+    api_count: 5
+    api_count_basis: published
+    immediate_parent: google
+    name: Looker Studio
+    relationship: product
+    score_band: developing
+    score_composite: 54.1
+    slug: looker-studio
+    source: declared
+  - &id024
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 21.5
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud AutoML
+    relationship: product
+    score_band: developing
+    score_composite: 53.2
+    slug: google-cloud-automl
+    source: declared
+  - &id025
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.5
+    api_count: 3
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Maps Platform
+    relationship: product
+    score_band: developing
+    score_composite: 51.3
+    slug: google-maps
+    source: declared
+  - &id026
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 16.2
+    api_count: 1
+    api_count_basis: split
+    immediate_parent: google
+    name: Google Sites
+    relationship: product
+    score_band: developing
+    score_composite: 51.3
+    slug: google-sites
+    source: declared
+  - &id027
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 23.7
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Interconnect
+    relationship: product
+    score_band: developing
+    score_composite: 50.5
+    slug: google-cloud-interconnect
+    source: declared
+  - &id028
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 23.7
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Load Balancing
+    relationship: product
+    score_band: developing
+    score_composite: 50.5
+    slug: google-cloud-load-balancing
+    source: declared
+  - &id029
     acquired: null
     agent_band: agent-aware
     agent_score: 27.3
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: google
+    name: Google PageSpeed
+    relationship: product
+    score_band: developing
+    score_composite: 50.5
+    slug: google-pagespeed
+    source: declared
+  - &id030
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud API Gateway
+    relationship: product
+    score_band: developing
+    score_composite: 49.9
+    slug: google-cloud-api-gateway
+    source: declared
+  - &id031
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 21.4
+    api_count: 9
+    api_count_basis: split
+    immediate_parent: google
+    name: Google Pay
+    relationship: product
+    score_band: developing
+    score_composite: 49.8
+    slug: google-pay
+    source: declared
+  - &id032
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Datastream
+    relationship: product
+    score_band: developing
+    score_composite: 49.2
+    slug: google-cloud-datastream
+    source: declared
+  - &id033
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.3
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Build
+    relationship: product
+    score_band: developing
+    score_composite: 48.8
+    slug: google-cloud-build
+    source: declared
+  - &id034
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Bigtable
+    relationship: product
+    score_band: developing
+    score_composite: 48.6
+    slug: google-cloud-bigtable
+    source: declared
+  - &id035
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Spanner
+    relationship: product
+    score_band: developing
+    score_composite: 48.4
+    slug: google-cloud-spanner
+    source: declared
+  - &id036
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.4
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud SQL
+    relationship: product
+    score_band: developing
+    score_composite: 48.4
+    slug: google-cloud-sql
+    source: declared
+  - &id037
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.3
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Dataproc
+    relationship: product
+    score_band: developing
+    score_composite: 48.0
+    slug: google-cloud-dataproc
+    source: declared
+  - &id038
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Firestore
+    relationship: product
+    score_band: developing
+    score_composite: 48.0
+    slug: google-cloud-firestore
+    source: declared
+  - &id039
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Security Command Center
+    relationship: product
+    score_band: developing
+    score_composite: 47.9
+    slug: google-cloud-security-command-center
+    source: declared
+  - &id040
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 21.4
+    api_count: 1
+    api_count_basis: split
+    immediate_parent: google
+    name: Nest
+    relationship: product
+    score_band: developing
+    score_composite: 47.9
+    slug: nest
+    source: parent-company-property
+  - &id041
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Binary Authorization
+    relationship: product
+    score_band: developing
+    score_composite: 47.8
+    slug: google-cloud-binary-authorization
+    source: declared
+  - &id042
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 27.1
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Compute Engine
+    relationship: product
+    score_band: developing
+    score_composite: 47.8
+    slug: google-cloud-compute-engine
+    source: declared
+  - &id043
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Batch
+    relationship: product
+    score_band: developing
+    score_composite: 47.3
+    slug: google-cloud-batch
+    source: declared
+  - &id044
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Secret Manager
+    relationship: product
+    score_band: developing
+    score_composite: 47.3
+    slug: google-cloud-secret-manager
+    source: declared
+  - &id045
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 40.8
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Drive
+    relationship: product
+    score_band: developing
+    score_composite: 47.1
+    slug: google-drive
+    source: declared
+  - &id046
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 27.1
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Tasks
+    relationship: product
+    score_band: developing
+    score_composite: 47.0
+    slug: google-tasks
+    source: declared
+  - &id047
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Composer
+    relationship: product
+    score_band: developing
+    score_composite: 46.9
+    slug: google-cloud-composer
+    source: declared
+  - &id048
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Functions
+    relationship: product
+    score_band: developing
+    score_composite: 46.9
+    slug: google-cloud-functions
+    source: declared
+  - &id049
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Run
+    relationship: product
+    score_band: developing
+    score_composite: 46.9
+    slug: google-cloud-run
+    source: declared
+  - &id050
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 21.8
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Custom Search
+    relationship: product
+    score_band: developing
+    score_composite: 46.9
+    slug: google-custom-search
+    source: declared
+  - &id051
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud KMS
+    relationship: product
+    score_band: developing
+    score_composite: 46.8
+    slug: google-cloud-kms
+    source: declared
+  - &id052
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Distributed Cloud
+    relationship: product
+    score_band: developing
+    score_composite: 46.8
+    slug: google-distributed-cloud
+    source: declared
+  - &id053
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Vertex AI
+    relationship: product
+    score_band: developing
+    score_composite: 46.8
+    slug: google-vertex-ai
+    source: declared
+  - &id054
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Deploy
+    relationship: product
+    score_band: developing
+    score_composite: 46.4
+    slug: google-cloud-deploy
+    source: declared
+  - &id055
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 20.7
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Calendar
+    relationship: product
+    score_band: developing
+    score_composite: 46.2
+    slug: google-calendar
+    source: declared
+  - &id056
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 23.7
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Armor
+    relationship: product
+    score_band: developing
+    score_composite: 46.2
+    slug: google-cloud-armor
+    source: declared
+  - &id057
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Earth Engine REST
+    relationship: product
+    score_band: developing
+    score_composite: 46.2
+    slug: google-earth-engine
+    source: declared
+  - &id058
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Vision
+    relationship: product
+    score_band: developing
+    score_composite: 46.0
+    slug: google-cloud-vision
+    source: declared
+  - &id059
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Business Profile
+    relationship: product
+    score_band: developing
+    score_composite: 45.9
+    slug: google-business-profile
+    source: declared
+  - &id060
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud IAM
+    relationship: product
+    score_band: developing
+    score_composite: 45.9
+    slug: google-cloud-iam
+    source: declared
+  - &id061
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 35.2
+    api_count: 3
+    api_count_basis: split
+    immediate_parent: google
+    name: Google Forms
+    relationship: product
+    score_band: developing
+    score_composite: 45.9
+    slug: google-forms
+    source: declared
+  - &id062
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Classroom
+    relationship: product
+    score_band: developing
+    score_composite: 45.8
+    slug: google-classroom
+    source: declared
+  - &id063
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 20.7
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Looker
+    relationship: product
+    score_band: developing
+    score_composite: 45.7
+    slug: google-looker
+    source: declared
+  - &id064
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google People
+    relationship: product
+    score_band: developing
+    score_composite: 45.6
+    slug: google-people
+    source: declared
+  - &id065
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud App Engine
+    relationship: product
+    score_band: developing
+    score_composite: 45.4
+    slug: google-cloud-app-engine
+    source: declared
+  - &id066
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Assured Workloads
+    relationship: product
+    score_band: developing
+    score_composite: 45.4
+    slug: google-cloud-assured-workloads
+    source: declared
+  - &id067
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Memorystore
+    relationship: product
+    score_band: developing
+    score_composite: 45.4
+    slug: google-cloud-memorystore
+    source: declared
+  - &id068
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Video Intelligence
+    relationship: product
+    score_band: developing
+    score_composite: 45.4
+    slug: google-cloud-video-intelligence
+    source: declared
+  - &id069
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Chat
+    relationship: product
+    score_band: developing
+    score_composite: 45.2
+    slug: google-chat
+    source: declared
+  - &id070
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Observability
+    relationship: product
+    score_band: developing
+    score_composite: 45.2
+    slug: google-cloud-operations-suite
+    source: declared
+  - &id071
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Cloud Translation API
+    relationship: product
+    score_band: developing
+    score_composite: 45.2
+    slug: google-translate
+    source: declared
+  - &id072
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Speech-To-Text
+    relationship: product
+    score_band: developing
+    score_composite: 45.1
+    slug: google-cloud-speech-to-text
+    source: declared
+  - &id073
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Text-To-Speech
+    relationship: product
+    score_band: developing
+    score_composite: 45.0
+    slug: google-cloud-text-to-speech
+    source: declared
+  - &id074
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 32.3
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Places
+    relationship: product
+    score_band: developing
+    score_composite: 45.0
+    slug: google-places
+    source: declared
+  - &id075
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Search Ads 360 Reporting
+    relationship: product
+    score_band: developing
+    score_composite: 45.0
+    slug: google-search-ads-360
+    source: declared
+  - &id076
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Certificate Manager
+    relationship: product
+    score_band: developing
+    score_composite: 44.9
+    slug: google-cloud-certificate-manager
+    source: declared
+  - &id077
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 27.1
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Data Catalog
+    relationship: product
+    score_band: developing
+    score_composite: 44.5
+    slug: google-cloud-data-catalog
+    source: declared
+  - &id078
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Migration Center
+    relationship: product
+    score_band: developing
+    score_composite: 44.2
+    slug: google-cloud-migration-center
+    source: declared
+  - &id079
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Firebase
+    relationship: product
+    score_band: developing
+    score_composite: 44.2
+    slug: google-firebase
+    source: declared
+  - &id080
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Tasks
+    relationship: product
+    score_band: developing
+    score_composite: 44.1
+    slug: google-cloud-tasks
+    source: declared
+  - &id081
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 21.3
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Workflows
+    relationship: product
+    score_band: developing
+    score_composite: 44.1
+    slug: google-cloud-workflows
+    source: declared
+  - &id082
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Gmail
+    relationship: product
+    score_band: developing
+    score_composite: 44.1
+    slug: google-gmail
+    source: declared
+  - &id083
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Eventarc
+    relationship: product
+    score_band: developing
+    score_composite: 43.6
+    slug: google-cloud-eventarc
+    source: declared
+  - &id084
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 20.7
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Knowledge Graph Search
+    relationship: product
+    score_band: developing
+    score_composite: 43.6
+    slug: google-knowledge-graph
+    source: declared
+  - &id085
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.0
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Healthcare
+    relationship: product
+    score_band: developing
+    score_composite: 43.5
+    slug: google-cloud-healthcare
+    source: declared
+  - &id086
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 28.8
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google BigQuery
+    relationship: product
+    score_band: developing
+    score_composite: 43.3
+    slug: google-bigquery
+    source: declared
+  - &id087
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Document AI
+    relationship: product
+    score_band: developing
+    score_composite: 43.0
+    slug: google-cloud-document-ai
+    source: declared
+  - &id088
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Safe Browsing
+    relationship: product
+    score_band: developing
+    score_composite: 43.0
+    slug: google-safe-browsing
+    source: declared
+  - &id089
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Chronicle
+    relationship: product
+    score_band: developing
+    score_composite: 42.8
+    slug: google-cloud-chronicle
+    source: declared
+  - &id090
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Endpoints
+    relationship: product
+    score_band: developing
+    score_composite: 42.7
+    slug: google-cloud-endpoints
+    source: declared
+  - &id091
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Natural Language
+    relationship: product
+    score_band: developing
+    score_composite: 42.7
+    slug: google-cloud-natural-language
+    source: declared
+  - &id092
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Fonts Developer
+    relationship: product
+    score_band: developing
+    score_composite: 42.4
+    slug: google-fonts
+    source: declared
+  - &id093
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Data Fusion
+    relationship: product
+    score_band: developing
+    score_composite: 42.2
+    slug: google-cloud-data-fusion
+    source: declared
+  - &id094
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Trace
+    relationship: product
+    score_band: developing
+    score_composite: 42.0
+    slug: google-cloud-trace
+    source: declared
+  - &id095
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Merchant Center
+    relationship: product
+    score_band: developing
+    score_composite: 41.7
+    slug: google-merchant-center
+    source: declared
+  - &id096
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google reCAPTCHA
+    relationship: product
+    score_band: developing
+    score_composite: 41.7
+    slug: google-recaptcha
+    source: declared
+  - &id097
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.5
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud VPC
+    relationship: product
+    score_band: developing
+    score_composite: 41.6
+    slug: google-cloud-vpc
+    source: declared
+  - &id098
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Nest Smart Device Management
+    relationship: product
+    score_band: developing
+    score_composite: 41.4
+    slug: google-nest
+    source: declared
+  - &id099
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Monitoring
+    relationship: product
+    score_band: developing
+    score_composite: 41.3
+    slug: google-cloud-monitoring
+    source: declared
+  - &id100
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Profiler
+    relationship: product
+    score_band: developing
+    score_composite: 41.1
+    slug: google-cloud-profiler
+    source: declared
+  - &id101
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Wallet
+    relationship: product
+    score_band: developing
+    score_composite: 41.1
+    slug: google-wallet
+    source: declared
+  - &id102
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Colab
+    relationship: product
+    score_band: developing
+    score_composite: 40.8
+    slug: google-colab
+    source: declared
+  - &id103
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Content API for Shopping
+    relationship: product
+    score_band: developing
+    score_composite: 40.8
+    slug: google-shopping
+    source: declared
+  - &id104
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Dialogflow CX
+    relationship: product
+    score_band: developing
+    score_composite: 40.7
+    slug: google-cloud-dialogflow-cx
+    source: declared
+  - &id105
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 31.0
+    api_count: 4
+    api_count_basis: published
+    immediate_parent: google
+    name: Mandiant
+    relationship: product
+    score_band: developing
+    score_composite: 40.3
+    slug: mandiant
+    source: prose
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 35
+  items:
+  - &id106
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Error Reporting
+    relationship: product
+    score_band: thin
+    score_composite: 39.1
+    slug: google-cloud-error-reporting
+    source: declared
+  - &id107
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Contact Center AI
+    relationship: product
+    score_band: thin
+    score_composite: 39.0
+    slug: google-cloud-contact-center-ai
+    source: declared
+  - &id108
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.7
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Voice
+    relationship: product
+    score_band: thin
+    score_composite: 38.9
+    slug: google-voice
+    source: declared
+  - &id109
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Container Registry
+    relationship: product
+    score_band: thin
+    score_composite: 38.7
+    slug: google-cloud-container-registry
+    source: declared
+  - &id110
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Pub/Sub
+    relationship: product
+    score_band: thin
+    score_composite: 38.7
+    slug: google-cloud-pubsub
+    source: declared
+  - &id111
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 28.4
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Play Console Developer Reporting
+    relationship: product
+    score_band: thin
+    score_composite: 38.3
+    slug: google-play-console
+    source: declared
+  - &id112
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.3
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Kubernetes Engine
+    relationship: product
+    score_band: thin
+    score_composite: 37.7
+    slug: google-kubernetes-engine
+    source: declared
+  - &id113
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Transfer Service
+    relationship: product
+    score_band: thin
+    score_composite: 37.4
+    slug: google-cloud-transfer-service
+    source: declared
+  - &id114
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Talent Solution
+    relationship: product
+    score_band: thin
+    score_composite: 37.3
+    slug: google-cloud-talent-solution
+    source: declared
+  - &id115
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Anthos
+    relationship: product
+    score_band: thin
+    score_composite: 36.8
+    slug: google-anthos
+    source: declared
+  - &id116
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Artifact Registry
+    relationship: product
+    score_band: thin
+    score_composite: 36.8
+    slug: google-artifact-registry
+    source: declared
+  - &id117
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google BeyondCorp
+    relationship: product
+    score_band: thin
+    score_composite: 36.8
+    slug: google-beyondcorp
+    source: declared
+  - &id118
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Identity Platform
+    relationship: product
+    score_band: thin
+    score_composite: 36.8
+    slug: google-identity-platform
+    source: declared
+  - &id119
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.1
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Apps Script
+    relationship: product
+    score_band: thin
+    score_composite: 36.2
+    slug: google-apps-script
+    source: declared
+  - &id120
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Fit REST
+    relationship: product
+    score_band: thin
+    score_composite: 36.2
+    slug: google-fitness
+    source: declared
+  - &id121
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.0
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Tenor
+    relationship: acquisition
+    score_band: thin
+    score_composite: 35.8
+    slug: tenor
+    source: declared
+  - &id122
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.8
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google News RSS
+    relationship: product
+    score_band: thin
+    score_composite: 35.1
+    slug: google-news
+    source: declared
+  - &id123
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.4
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Blogger
+    relationship: product
+    score_band: thin
+    score_composite: 34.8
+    slug: google-blogger
+    source: declared
+  - &id124
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Business Messages
+    relationship: product
+    score_band: thin
+    score_composite: 34.8
+    slug: google-business-messages
+    source: declared
+  - &id125
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.4
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Books
+    relationship: product
+    score_band: thin
+    score_composite: 34.1
+    slug: google-books
+    source: declared
+  - &id126
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud VMware Engine
+    relationship: product
+    score_band: thin
+    score_composite: 33.5
+    slug: google-cloud-vmware-engine
+    source: declared
+  - &id127
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Ad Manager
+    relationship: product
+    score_band: thin
+    score_composite: 33.3
+    slug: google-ad-manager
+    source: declared
+  - &id128
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 28.9
     api_count: 1
     api_count_basis: published
     immediate_parent: google-workspace
     name: Google Chat Integrations for Workspace
     relationship: product
     score_band: thin
-    score_composite: 32.0
+    score_composite: 33.3
     slug: google-chat-integrations-for-workspace
+    source: declared
+  - &id129
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Photos Library
+    relationship: product
+    score_band: thin
+    score_composite: 33.3
+    slug: google-photos
+    source: declared
+  - &id130
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.5
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google AdSense Management
+    relationship: product
+    score_band: thin
+    score_composite: 31.9
+    slug: google-adsense
+    source: declared
+  - &id131
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Play Developer
+    relationship: product
+    score_band: thin
+    score_composite: 31.6
+    slug: google-play
+    source: declared
+  - &id132
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 5.4
+    api_count: 12
+    api_count_basis: split
+    immediate_parent: google
+    name: Cask
+    relationship: acquisition
+    score_band: thin
+    score_composite: 31.2
+    slug: cask
+    source: prose
+  - &id133
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Admin SDK
+    relationship: product
+    score_band: thin
+    score_composite: 30.4
+    slug: google-admin-sdk
+    source: declared
+  - &id134
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Keep
+    relationship: product
+    score_band: thin
+    score_composite: 29.8
+    slug: google-keep
+    source: declared
+  - &id135
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.9
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google AppSheet
+    relationship: product
+    score_band: thin
+    score_composite: 29.7
+    slug: google-appsheet
+    source: declared
+  - &id136
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Recommendations AI
+    relationship: product
+    score_band: thin
+    score_composite: 29.4
+    slug: google-cloud-recommendations-ai
+    source: declared
+  - &id137
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Assistant
+    relationship: product
+    score_band: thin
+    score_composite: 28.7
+    slug: google-assistant
+    source: declared
+  - &id138
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: DeepMind
+    relationship: product
+    score_band: thin
+    score_composite: 28.5
+    slug: deepmind
+    source: prose
+  - &id139
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google-cloud-platform
+    name: Google Cloud Scheduler
+    relationship: product
+    score_band: thin
+    score_composite: 27.9
+    slug: google-cloud-scheduler
+    source: declared
+  - &id140
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: google
+    name: Google Meet
+    relationship: product
+    score_band: thin
+    score_composite: 27.7
+    slug: google-meet
     source: declared
   label: Thin
   open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 3
+  items:
+  - &id141
+    acquired: null
+    agent_band: human-only
+    agent_score: 2.5
+    api_count: 1
+    api_count_basis: split
+    immediate_parent: north
+    name: Electronic payment Exchange Inc
+    relationship: product
+    score_band: emerging
+    score_composite: 26.1
+    slug: electronic-payment-exchange-inc
+    source: prose
+  - &id142
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Actifio
+    relationship: acquisition
+    score_band: emerging
+    score_composite: 11.7
+    slug: actifio
+    source: prose
+  - &id143
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Photomath
+    relationship: product
+    score_band: emerging
+    score_composite: 11.3
+    slug: photomath
+    source: parent-company-property
+  label: Emerging
+  open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 1
+  count: 29
   items:
-  - &id003
+  - &id144
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -82,51 +1933,933 @@ member_bands:
     name: Google Vids
     relationship: product
     score_band: minimal
-    score_composite: 9.5
+    score_composite: 10.8
     slug: vids
     source: declared
+  - &id145
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.6
+    api_count: 5
+    api_count_basis: split
+    immediate_parent: google
+    name: BreezoMeter
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 10.3
+    slug: breezometer
+    source: prose
+  - &id146
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: DailyDeal.de
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 7.5
+    slug: dailydealde
+    source: prose
+  - &id147
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Double Click
+    relationship: product
+    score_band: minimal
+    score_composite: 4.5
+    slug: double-click
+    source: parent-company-property
+  - &id148
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Divide *
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 3.4
+    slug: divide
+    source: prose
+  - &id149
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: ITA Software
+    relationship: product
+    score_band: minimal
+    score_composite: 3.4
+    slug: ita-software
+    source: parent-company-property
+  - &id150
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: simsim
+    relationship: product
+    score_band: minimal
+    score_composite: 3.4
+    slug: simsim
+    source: parent-company-property
+  - &id151
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: TxVia (Google)
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 3.4
+    slug: txvia-google
+    source: prose
+  - &id152
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Velostrata
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 3.0
+    slug: velostrata
+    source: prose
+  - &id153
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: BrightBytes
+    relationship: product
+    score_band: minimal
+    score_composite: 2.9
+    slug: brightbytes
+    source: parent-company-property
+  - &id154
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Socratic
+    relationship: product
+    score_band: minimal
+    score_composite: 2.9
+    slug: socratic
+    source: parent-company-property
+  - &id155
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google-cloud-platform
+    name: Elastifile
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 2.6
+    slug: elastifile
+    source: declared
+  - &id156
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: tempow
+    relationship: product
+    score_band: minimal
+    score_composite: 2.6
+    slug: tempow
+    source: parent-company-property
+  - &id157
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Appurify
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: appurify
+    source: prose
+  - &id158
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Bump
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: bump
+    source: prose
+  - &id159
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Divshot
+    relationship: product
+    score_band: minimal
+    score_composite: 0.0
+    slug: divshot
+    source: parent-company-property
+  - &id160
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Famebit
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: famebit
+    source: prose
+  - &id161
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: fitbit
+    name: FitStar
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: fitstar
+    source: prose
+  - &id162
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 1
+    api_count_basis: split
+    immediate_parent: google
+    name: Google Optimize
+    relationship: product
+    score_band: minimal
+    score_composite: 0.0
+    slug: google-optimize
+    source: declared
+  - &id163
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Katango
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: katango
+    source: prose
+  - &id164
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: LaunchKit
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: launchkit
+    source: prose
+  - &id165
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Pixate
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: pixate
+    source: prose
+  - &id166
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Quickoffice
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: quickoffice
+    source: prose
+  - &id167
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: nest
+    name: Revolv
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: revolv
+    source: prose
+  - &id168
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Skyboximaging
+    relationship: product
+    score_band: minimal
+    score_composite: 0.0
+    slug: skyboximaging
+    source: parent-company-property
+  - &id169
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Talaria Technologies
+    relationship: product
+    score_band: minimal
+    score_composite: 0.0
+    slug: talaria-technologies
+    source: parent-company-property
+  - &id170
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Urban Engines
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: urban-engines
+    source: prose
+  - &id171
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Wavii
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 0.0
+    slug: wavii
+    source: prose
+  - &id172
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Wildfire Interactive
+    relationship: product
+    score_band: minimal
+    score_composite: 0.0
+    slug: wildfire-interactive
+    source: parent-company-property
   label: Minimal
   open: false
-member_on_network: 3
-member_total: 3
+- band: unrated
+  blurb: Not yet scored
+  count: 3
+  items:
+  - &id173
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Bebop
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: bebop
+    source: prose
+  - &id174
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: Joyride
+    relationship: product
+    score_band: null
+    score_composite: null
+    slug: joyride
+    source: parent-company-property
+  - &id175
+    acquired: null
+    agent_band: null
+    agent_score: null
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: google
+    name: North
+    relationship: acquisition
+    score_band: null
+    score_composite: null
+    slug: north
+    source: prose
+  label: Unrated
+  open: false
+member_on_network: 175
+member_total: 175
 members:
 - *id001
 - *id002
 - *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+- *id023
+- *id024
+- *id025
+- *id026
+- *id027
+- *id028
+- *id029
+- *id030
+- *id031
+- *id032
+- *id033
+- *id034
+- *id035
+- *id036
+- *id037
+- *id038
+- *id039
+- *id040
+- *id041
+- *id042
+- *id043
+- *id044
+- *id045
+- *id046
+- *id047
+- *id048
+- *id049
+- *id050
+- *id051
+- *id052
+- *id053
+- *id054
+- *id055
+- *id056
+- *id057
+- *id058
+- *id059
+- *id060
+- *id061
+- *id062
+- *id063
+- *id064
+- *id065
+- *id066
+- *id067
+- *id068
+- *id069
+- *id070
+- *id071
+- *id072
+- *id073
+- *id074
+- *id075
+- *id076
+- *id077
+- *id078
+- *id079
+- *id080
+- *id081
+- *id082
+- *id083
+- *id084
+- *id085
+- *id086
+- *id087
+- *id088
+- *id089
+- *id090
+- *id091
+- *id092
+- *id093
+- *id094
+- *id095
+- *id096
+- *id097
+- *id098
+- *id099
+- *id100
+- *id101
+- *id102
+- *id103
+- *id104
+- *id105
+- *id106
+- *id107
+- *id108
+- *id109
+- *id110
+- *id111
+- *id112
+- *id113
+- *id114
+- *id115
+- *id116
+- *id117
+- *id118
+- *id119
+- *id120
+- *id121
+- *id122
+- *id123
+- *id124
+- *id125
+- *id126
+- *id127
+- *id128
+- *id129
+- *id130
+- *id131
+- *id132
+- *id133
+- *id134
+- *id135
+- *id136
+- *id137
+- *id138
+- *id139
+- *id140
+- *id141
+- *id142
+- *id143
+- *id144
+- *id145
+- *id146
+- *id147
+- *id148
+- *id149
+- *id150
+- *id151
+- *id152
+- *id153
+- *id154
+- *id155
+- *id156
+- *id157
+- *id158
+- *id159
+- *id160
+- *id161
+- *id162
+- *id163
+- *id164
+- *id165
+- *id166
+- *id167
+- *id168
+- *id169
+- *id170
+- *id171
+- *id172
+- *id173
+- *id174
+- *id175
 members_unrated: []
 name: Google
-overview: 'Google publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 49.5 points, from 59.0 down to 9.5.
+overview: 'Google publishes its API surface across 175 provider profiles indexed on the APIs.io network,
+  of which 175 carry a rating. The rated members span 72.1 points, from 72.1 down to 0.0.
 
 
-  Its highest-rated surfaces are Google Workspace, Google Chat Integrations for Workspace, Google Vids.'
+  Its highest-rated surfaces are Google Analytics, Google Ads, Google Search Console, Apigee, Google Cloud
+  Logging.'
 parent_provider: google
 permalink: /estates/google/
 slug: google
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/google/apis.yml
 subfamilies:
-- has_page: false
-  member_count: 3
+- has_page: true
+  member_count: 66
   members:
-  - name: Google Workspace
+  - name: Apigee
+    score_band: exemplar
+    score_composite: 66.9
+    slug: apigee
+  - name: Google Cloud Logging
     score_band: strong
-    score_composite: 59.0
-    slug: google-workspace
+    score_composite: 66.1
+    slug: google-cloud-logging
+  - name: Google Dialogflow
+    score_band: strong
+    score_composite: 66.1
+    slug: google-dialogflow
+  - name: Google Cloud Storage
+    score_band: strong
+    score_composite: 63.5
+    slug: gcp-cloud-storage
+  - name: Google Cloud DNS
+    score_band: strong
+    score_composite: 55.6
+    slug: google-cloud-dns
+  - name: Google Cloud CDN
+    score_band: strong
+    score_composite: 54.7
+    slug: google-cloud-cdn
+  - name: Google Cloud AutoML
+    score_band: developing
+    score_composite: 53.2
+    slug: google-cloud-automl
+  - name: Google Cloud Interconnect
+    score_band: developing
+    score_composite: 50.5
+    slug: google-cloud-interconnect
+  - name: Google Cloud Load Balancing
+    score_band: developing
+    score_composite: 50.5
+    slug: google-cloud-load-balancing
+  - name: Google Cloud API Gateway
+    score_band: developing
+    score_composite: 49.9
+    slug: google-cloud-api-gateway
+  - name: Google Cloud Datastream
+    score_band: developing
+    score_composite: 49.2
+    slug: google-cloud-datastream
+  - name: Google Cloud Build
+    score_band: developing
+    score_composite: 48.8
+    slug: google-cloud-build
+  - name: Google Cloud Bigtable
+    score_band: developing
+    score_composite: 48.6
+    slug: google-cloud-bigtable
+  - name: Google Cloud Spanner
+    score_band: developing
+    score_composite: 48.4
+    slug: google-cloud-spanner
+  - name: Google Cloud SQL
+    score_band: developing
+    score_composite: 48.4
+    slug: google-cloud-sql
+  - name: Google Cloud Dataproc
+    score_band: developing
+    score_composite: 48.0
+    slug: google-cloud-dataproc
+  - name: Google Cloud Firestore
+    score_band: developing
+    score_composite: 48.0
+    slug: google-cloud-firestore
+  - name: Google Cloud Security Command Center
+    score_band: developing
+    score_composite: 47.9
+    slug: google-cloud-security-command-center
+  - name: Google Cloud Binary Authorization
+    score_band: developing
+    score_composite: 47.8
+    slug: google-cloud-binary-authorization
+  - name: Google Cloud Compute Engine
+    score_band: developing
+    score_composite: 47.8
+    slug: google-cloud-compute-engine
+  - name: Google Cloud Batch
+    score_band: developing
+    score_composite: 47.3
+    slug: google-cloud-batch
+  - name: Google Cloud Secret Manager
+    score_band: developing
+    score_composite: 47.3
+    slug: google-cloud-secret-manager
+  - name: Google Cloud Composer
+    score_band: developing
+    score_composite: 46.9
+    slug: google-cloud-composer
+  - name: Google Cloud Functions
+    score_band: developing
+    score_composite: 46.9
+    slug: google-cloud-functions
+  - name: Google Cloud Run
+    score_band: developing
+    score_composite: 46.9
+    slug: google-cloud-run
+  - name: Google Cloud KMS
+    score_band: developing
+    score_composite: 46.8
+    slug: google-cloud-kms
+  - name: Google Cloud Deploy
+    score_band: developing
+    score_composite: 46.4
+    slug: google-cloud-deploy
+  - name: Google Cloud Armor
+    score_band: developing
+    score_composite: 46.2
+    slug: google-cloud-armor
+  - name: Google Cloud Vision
+    score_band: developing
+    score_composite: 46.0
+    slug: google-cloud-vision
+  - name: Google Cloud IAM
+    score_band: developing
+    score_composite: 45.9
+    slug: google-cloud-iam
+  - name: Google Cloud App Engine
+    score_band: developing
+    score_composite: 45.4
+    slug: google-cloud-app-engine
+  - name: Google Cloud Assured Workloads
+    score_band: developing
+    score_composite: 45.4
+    slug: google-cloud-assured-workloads
+  - name: Google Cloud Memorystore
+    score_band: developing
+    score_composite: 45.4
+    slug: google-cloud-memorystore
+  - name: Google Cloud Video Intelligence
+    score_band: developing
+    score_composite: 45.4
+    slug: google-cloud-video-intelligence
+  - name: Google Cloud Observability
+    score_band: developing
+    score_composite: 45.2
+    slug: google-cloud-operations-suite
+  - name: Google Cloud Speech-To-Text
+    score_band: developing
+    score_composite: 45.1
+    slug: google-cloud-speech-to-text
+  - name: Google Cloud Text-To-Speech
+    score_band: developing
+    score_composite: 45.0
+    slug: google-cloud-text-to-speech
+  - name: Google Cloud Certificate Manager
+    score_band: developing
+    score_composite: 44.9
+    slug: google-cloud-certificate-manager
+  - name: Google Cloud Data Catalog
+    score_band: developing
+    score_composite: 44.5
+    slug: google-cloud-data-catalog
+  - name: Google Cloud Migration Center
+    score_band: developing
+    score_composite: 44.2
+    slug: google-cloud-migration-center
+  - name: Google Cloud Tasks
+    score_band: developing
+    score_composite: 44.1
+    slug: google-cloud-tasks
+  - name: Google Cloud Workflows
+    score_band: developing
+    score_composite: 44.1
+    slug: google-cloud-workflows
+  - name: Google Cloud Eventarc
+    score_band: developing
+    score_composite: 43.6
+    slug: google-cloud-eventarc
+  - name: Google Cloud Healthcare
+    score_band: developing
+    score_composite: 43.5
+    slug: google-cloud-healthcare
+  - name: Google Cloud Document AI
+    score_band: developing
+    score_composite: 43.0
+    slug: google-cloud-document-ai
+  - name: Google Cloud Chronicle
+    score_band: developing
+    score_composite: 42.8
+    slug: google-cloud-chronicle
+  - name: Google Cloud Endpoints
+    score_band: developing
+    score_composite: 42.7
+    slug: google-cloud-endpoints
+  - name: Google Cloud Natural Language
+    score_band: developing
+    score_composite: 42.7
+    slug: google-cloud-natural-language
+  - name: Google Cloud Data Fusion
+    score_band: developing
+    score_composite: 42.2
+    slug: google-cloud-data-fusion
+  - name: Google Cloud Trace
+    score_band: developing
+    score_composite: 42.0
+    slug: google-cloud-trace
+  - name: Google Cloud VPC
+    score_band: developing
+    score_composite: 41.6
+    slug: google-cloud-vpc
+  - name: Google Cloud Monitoring
+    score_band: developing
+    score_composite: 41.3
+    slug: google-cloud-monitoring
+  - name: Google Cloud Profiler
+    score_band: developing
+    score_composite: 41.1
+    slug: google-cloud-profiler
+  - name: Google Cloud Dialogflow CX
+    score_band: developing
+    score_composite: 40.7
+    slug: google-cloud-dialogflow-cx
+  - name: Google Cloud Error Reporting
+    score_band: thin
+    score_composite: 39.1
+    slug: google-cloud-error-reporting
+  - name: Google Cloud Contact Center AI
+    score_band: thin
+    score_composite: 39.0
+    slug: google-cloud-contact-center-ai
+  - name: Google Cloud Container Registry
+    score_band: thin
+    score_composite: 38.7
+    slug: google-cloud-container-registry
+  - name: Google Cloud Pub/Sub
+    score_band: thin
+    score_composite: 38.7
+    slug: google-cloud-pubsub
+  - name: Google Kubernetes Engine
+    score_band: thin
+    score_composite: 37.7
+    slug: google-kubernetes-engine
+  - name: Google Cloud Transfer Service
+    score_band: thin
+    score_composite: 37.4
+    slug: google-cloud-transfer-service
+  - name: Google Cloud Talent Solution
+    score_band: thin
+    score_composite: 37.3
+    slug: google-cloud-talent-solution
+  - name: Google Artifact Registry
+    score_band: thin
+    score_composite: 36.8
+    slug: google-artifact-registry
+  - name: Google Cloud VMware Engine
+    score_band: thin
+    score_composite: 33.5
+    slug: google-cloud-vmware-engine
+  - name: Google Cloud Recommendations AI
+    score_band: thin
+    score_composite: 29.4
+    slug: google-cloud-recommendations-ai
+  - name: Google Cloud Scheduler
+    score_band: thin
+    score_composite: 27.9
+    slug: google-cloud-scheduler
+  - name: Elastifile
+    score_band: minimal
+    score_composite: 2.6
+    slug: elastifile
+  name: Google Cloud Platform
+  on_network: true
+  permalink: /estates/google-cloud-platform/
+  slug: google-cloud-platform
+- has_page: false
+  member_count: 2
+  members:
   - name: Google Chat Integrations for Workspace
     score_band: thin
-    score_composite: 32.0
+    score_composite: 33.3
     slug: google-chat-integrations-for-workspace
   - name: Google Vids
     score_band: minimal
-    score_composite: 9.5
+    score_composite: 10.8
     slug: vids
   name: Google Workspace
   on_network: true
   permalink: /estates/google-workspace/
   slug: google-workspace
-subfamily_page_count: 0
+- has_page: false
+  member_count: 1
+  members:
+  - name: FitStar
+    score_band: minimal
+    score_composite: 0.0
+    slug: fitstar
+  name: Fitbit
+  on_network: true
+  permalink: /estates/fitbit/
+  slug: fitbit
+- has_page: false
+  member_count: 1
+  members:
+  - name: Revolv
+    score_band: minimal
+    score_composite: 0.0
+    slug: revolv
+  name: Nest
+  on_network: true
+  permalink: /estates/nest/
+  slug: nest
+- has_page: false
+  member_count: 1
+  members:
+  - name: Electronic payment Exchange Inc
+    score_band: emerging
+    score_composite: 26.1
+    slug: electronic-payment-exchange-inc
+  name: North
+  on_network: true
+  permalink: /estates/north/
+  slug: north
+subfamily_page_count: 1
 tags:
 - Advertising
 - Cloud

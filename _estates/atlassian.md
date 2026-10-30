@@ -1,5 +1,5 @@
 ---
-api_total: 31
+api_total: 49
 category: Estates
 description: Atlassian is a software company that develops collaboration, productivity, and project management
   tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline
@@ -8,16 +8,16 @@ estate_rating:
   agent_avg: 22.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 27.9
-  agent_ready: 5
+  agent_raw: 27.6
+  agent_ready: 4
   band: thin
   best: 75.3
-  composite_avg: 35.4
+  composite_avg: 35.9
   composite_band: thin
-  composite_raw: 43.3
+  composite_raw: 44.0
   developing: 2
   exemplar: 4
-  rating: 30.0
+  rating: 30.3
   scored: 10
   spread: 75.3
   strength: 14
@@ -36,8 +36,8 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 65.6
-    api_count: 5
+    agent_score: 65.7
+    api_count: 4
     api_count_basis: published
     immediate_parent: atlassian
     name: Jira
@@ -48,41 +48,41 @@ member_bands:
     source: declared
   - &id002
     acquired: null
+    agent_band: agent-aware
+    agent_score: 20.2
+    api_count: 23
+    api_count_basis: split
+    immediate_parent: atlassian
+    name: Bitbucket
+    relationship: acquisition
+    score_band: exemplar
+    score_composite: 71.4
+    slug: bitbucket
+    source: declared
+  - &id003
+    acquired: null
     agent_band: agent-ready
-    agent_score: 48.0
-    api_count: 3
+    agent_score: 49.1
+    api_count: 2
     api_count_basis: published
     immediate_parent: atlassian
     name: Atlassian Compass
     relationship: product
     score_band: exemplar
-    score_composite: 71.5
+    score_composite: 71.3
     slug: atlassian-compass
-    source: declared
-  - &id003
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 32.3
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: atlassian
-    name: Bitbucket
-    relationship: acquisition
-    score_band: exemplar
-    score_composite: 69.1
-    slug: bitbucket
     source: declared
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 54.4
-    api_count: 5
+    agent_score: 56.9
+    api_count: 3
     api_count_basis: published
     immediate_parent: atlassian
     name: Confluence
     relationship: product
     score_band: exemplar
-    score_composite: 69.1
+    score_composite: 70.4
     slug: confluence
     source: declared
   label: Exemplar
@@ -94,27 +94,27 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.5
+    agent_score: 27.1
     api_count: 12
     api_count_basis: published
     immediate_parent: atlassian
     name: OpsGenie
     relationship: acquisition
     score_band: developing
-    score_composite: 46.6
+    score_composite: 48.0
     slug: opsgenie
     source: declared
   - &id006
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.2
+    agent_score: 34.9
     api_count: 1
     api_count_basis: published
     immediate_parent: bitbucket
     name: Bitbucket Pipelines
     relationship: product
     score_band: developing
-    score_composite: 44.2
+    score_composite: 45.5
     slug: bitbucket-pipelines
     source: declared
   label: Developing
@@ -126,14 +126,14 @@ member_bands:
   - &id007
     acquired: null
     agent_band: agent-aware
-    agent_score: 18.3
+    agent_score: 20.1
     api_count: 1
     api_count_basis: published
     immediate_parent: atlassian
     name: Statuspage
     relationship: product
     score_band: thin
-    score_composite: 33.7
+    score_composite: 35.1
     slug: statuspage
     source: declared
   label: Thin
@@ -208,20 +208,20 @@ overview: 'Atlassian publishes its API surface across 10 provider profiles index
   of which 10 carry a rating. The rated members span 75.3 points, from 75.3 down to 0.0.
 
 
-  Its highest-rated surfaces are Jira, Atlassian Compass, Bitbucket, Confluence, OpsGenie.'
+  Its highest-rated surfaces are Jira, Bitbucket, Atlassian Compass, Confluence, OpsGenie.'
 parent_provider: atlassian
 permalink: /estates/atlassian/
 slug: atlassian
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/atlassian/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1
   members:
   - name: Bitbucket Pipelines
     score_band: developing
-    score_composite: 44.2
+    score_composite: 45.5
     slug: bitbucket-pipelines
   name: Bitbucket
   on_network: true

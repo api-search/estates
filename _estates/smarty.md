@@ -9,19 +9,19 @@ description: Smarty (formerly SmartyStreets) is an address intelligence company 
   for high-throughput workloads, with US address lookups reaching up to 25,000 per second, making Smarty
   suitable for enterprise address validation pipelines and real-time checkout address autocomplete.
 estate_rating:
-  agent_avg: 5.6
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.6
-  composite_avg: 13.4
+  composite_avg: 13.5
   composite_band: emerging
   composite_raw: 5.6
   developing: 0
   exemplar: 0
-  rating: 10.3
+  rating: 10.5
   scored: 4
   spread: 0.0
   strength: 0
@@ -110,7 +110,7 @@ permalink: /estates/smarty/
 slug: smarty
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/smarty/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

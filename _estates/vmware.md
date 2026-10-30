@@ -4,10 +4,10 @@ category: Estates
 description: Collection of VMware APIs for cloud infrastructure, virtualization, and management solutions
   including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.
 estate_rating:
-  agent_avg: 6.8
+  agent_avg: 7.1
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.4
+  agent_raw: 5.6
   agent_ready: 1
   band: emerging
   best: 52.2
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 12.2
   developing: 1
   exemplar: 0
-  rating: 11.4
+  rating: 11.5
   scored: 12
   spread: 52.2
   strength: 1
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: 2018
     agent_band: agent-ready
-    agent_score: 38.9
+    agent_score: 40.2
     api_count: 8
     api_count_basis: split
     immediate_parent: vmware
@@ -54,7 +54,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 2
     api_count_basis: published
     immediate_parent: vmware
@@ -235,7 +235,7 @@ permalink: /estates/vmware/
 slug: vmware
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/vmware/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

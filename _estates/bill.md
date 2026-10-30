@@ -8,19 +8,19 @@ description: BILL (formerly Bill.com) is a cloud-based financial operations plat
   event notifications via webhooks. The API uses session-based authentication with API keys and developer
   keys against production and sandbox gateways.
 estate_rating:
-  agent_avg: 14.2
+  agent_avg: 14.3
   agent_band: emerging
   agent_native: 1
-  agent_raw: 20.8
+  agent_raw: 20.4
   agent_ready: 0
   band: emerging
   best: 53.0
-  composite_avg: 21.5
+  composite_avg: 21.6
   composite_band: emerging
   composite_raw: 24.6
   developing: 1
   exemplar: 0
-  rating: 18.6
+  rating: 18.7
   scored: 3
   spread: 49.6
   strength: 1
@@ -39,7 +39,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-native
-    agent_score: 62.5
+    agent_score: 61.2
     api_count: 2
     api_count_basis: published
     immediate_parent: bill
@@ -107,7 +107,7 @@ permalink: /estates/bill/
 slug: bill
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/bill/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

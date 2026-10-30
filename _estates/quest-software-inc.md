@@ -10,19 +10,19 @@ description: Quest Software Inc. is a privately held IT management and cybersecu
   Support portal. Surfaced as a portfolio-lead stub and processed by the API Evangelist enrichment pipeline;
   no public, first-party developer API portal or OpenAPI surface was discoverable at enrichment time.
 estate_rating:
-  agent_avg: 7.6
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.2
   agent_ready: 0
   band: emerging
   best: 9.6
-  composite_avg: 15.7
+  composite_avg: 15.9
   composite_band: emerging
   composite_raw: 6.1
   developing: 0
   exemplar: 0
-  rating: 12.5
+  rating: 12.7
   scored: 2
   spread: 7.0
   strength: 0
@@ -103,7 +103,7 @@ permalink: /estates/quest-software-inc/
 slug: quest-software-inc
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quest-software-inc/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/quest-software-inc/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

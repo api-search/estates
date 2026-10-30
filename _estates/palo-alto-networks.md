@@ -1,5 +1,5 @@
 ---
-api_total: 9
+api_total: 7
 category: Estates
 description: Palo Alto Networks is a global cybersecurity leader providing advanced security platforms
   and services across network security, cloud security, and security operations. Its developer platform
@@ -7,21 +7,21 @@ description: Palo Alto Networks is a global cybersecurity leader providing advan
   CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations,
   and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.
 estate_rating:
-  agent_avg: 13.4
+  agent_avg: 13.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.1
+  agent_raw: 15.7
   agent_ready: 1
   band: emerging
-  best: 43.2
-  composite_avg: 21.3
+  best: 42.7
+  composite_avg: 21.4
   composite_band: emerging
   composite_raw: 22.3
   developing: 1
   exemplar: 0
-  rating: 18.1
+  rating: 18.4
   scored: 9
-  spread: 43.2
+  spread: 42.7
   strength: 1
   strong: 0
   worst: 0.0
@@ -38,14 +38,14 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.2
-    api_count: 4
+    agent_score: 33.4
+    api_count: 2
     api_count_basis: published
     immediate_parent: palo-alto-networks
     name: Venafi
     relationship: product
     score_band: developing
-    score_composite: 43.2
+    score_composite: 42.7
     slug: venafi
     source: parent-company-property
   label: Developing
@@ -83,7 +83,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.0
+    agent_score: 22.7
     api_count: 1
     api_count_basis: published
     immediate_parent: palo-alto-networks
@@ -102,7 +102,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: palo-alto-networks
@@ -115,7 +115,7 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: palo-alto-networks
@@ -235,7 +235,7 @@ members:
 members_unrated: []
 name: Palo Alto Networks
 overview: 'Palo Alto Networks publishes its API surface across 12 provider profiles indexed on the APIs.io
-  network, of which 12 carry a rating. The rated members span 43.2 points, from 43.2 down to 0.0.
+  network, of which 12 carry a rating. The rated members span 42.7 points, from 42.7 down to 0.0.
 
 
   Its highest-rated surfaces are Venafi, Demisto, Koi Security, Prisma Cloud, Protect AI.'
@@ -244,7 +244,7 @@ permalink: /estates/palo-alto-networks/
 slug: palo-alto-networks
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/palo-alto-networks/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -11,19 +11,19 @@ description: AOL is a consumer internet media and communications brand — AOL.c
   for that identity stack is hosted by Yahoo Inc., which runs a sibling deployment of the same Oath-era
   OAuth 2.0 / OIDC platform.
 estate_rating:
-  agent_avg: 6.7
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
   best: 20.3
-  composite_avg: 14.8
+  composite_avg: 14.9
   composite_band: emerging
   composite_raw: 6.8
   developing: 0
   exemplar: 0
-  rating: 11.6
+  rating: 11.7
   scored: 3
   spread: 20.3
   strength: 0
@@ -124,7 +124,7 @@ permalink: /estates/aol/
 slug: aol
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/aol/apis.yml
 subfamilies: []
 tags:
 - Digital Media

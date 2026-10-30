@@ -8,19 +8,19 @@ description: CA Technologies (originally Computer Associates) was a major enterp
   Rally / Agile Central, Clarity PPM, BlazeMeter, AutoSys workload automation, and mainframe management
   suites. The primary developer portal is developer.broadcom.com.
 estate_rating:
-  agent_avg: 6.7
+  agent_avg: 6.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.8
   agent_ready: 0
   band: emerging
   best: 19.3
-  composite_avg: 15.0
+  composite_avg: 15.1
   composite_band: emerging
   composite_raw: 7.3
   developing: 0
   exemplar: 0
-  rating: 11.7
+  rating: 11.8
   scored: 3
   spread: 19.3
   strength: 0
@@ -102,7 +102,7 @@ permalink: /estates/ca/
 slug: ca
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ca/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/ca/apis.yml
 subfamilies: []
 tags:
 - API Management

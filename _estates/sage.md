@@ -8,21 +8,21 @@ description: Sage provides cloud-based ERP, accounting, payroll, and HR software
   Sage Accounting API v3.1 is the current supported REST version with daily limits of 1,296,000 requests
   per app.
 estate_rating:
-  agent_avg: 10.0
+  agent_avg: 10.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 9.8
+  agent_raw: 9.9
   agent_ready: 0
   band: emerging
-  best: 34.2
-  composite_avg: 20.4
+  best: 35.6
+  composite_avg: 21.0
   composite_band: emerging
-  composite_raw: 21.1
+  composite_raw: 22.0
   developing: 0
   exemplar: 0
-  rating: 16.2
+  rating: 16.7
   scored: 6
-  spread: 31.3
+  spread: 32.7
   strength: 0
   strong: 0
   worst: 2.9
@@ -34,19 +34,19 @@ layout: estate
 member_bands:
 - band: thin
   blurb: Limited public surface area
-  count: 2
+  count: 3
   items:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.7
+    agent_score: 25.4
     api_count: 1
     api_count_basis: published
     immediate_parent: sage
     name: Sage HR
     relationship: acquisition
     score_band: thin
-    score_composite: 34.2
+    score_composite: 35.6
     slug: sage-hr
     source: prose
   - &id002
@@ -59,15 +59,9 @@ member_bands:
     name: Sage X3
     relationship: product
     score_band: thin
-    score_composite: 27.4
+    score_composite: 28.7
     slug: sage-x3
     source: declared
-  label: Thin
-  open: false
-- band: emerging
-  blurb: Early or largely undocumented
-  count: 3
-  items:
   - &id003
     acquired: null
     agent_band: agent-aware
@@ -77,10 +71,16 @@ member_bands:
     immediate_parent: sage
     name: Sage Intacct
     relationship: product
-    score_band: emerging
-    score_composite: 24.9
+    score_band: thin
+    score_composite: 26.3
     slug: sage-intacct
     source: declared
+  label: Thin
+  open: false
+- band: emerging
+  blurb: Early or largely undocumented
+  count: 2
+  items:
   - &id004
     acquired: null
     agent_band: human-only
@@ -91,7 +91,7 @@ member_bands:
     name: Sage Accounting
     relationship: product
     score_band: emerging
-    score_composite: 20.7
+    score_composite: 22.0
     slug: sage-accounting
     source: declared
   - &id005
@@ -140,7 +140,7 @@ members:
 members_unrated: []
 name: Sage
 overview: 'Sage publishes its API surface across 6 provider profiles indexed on the APIs.io network, of
-  which 6 carry a rating. The rated members span 31.3 points, from 34.2 down to 2.9.
+  which 6 carry a rating. The rated members span 32.7 points, from 35.6 down to 2.9.
 
 
   Its highest-rated surfaces are Sage HR, Sage X3, Sage Intacct, Sage Accounting, Anvyl.'
@@ -149,7 +149,7 @@ permalink: /estates/sage/
 slug: sage
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/sage/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

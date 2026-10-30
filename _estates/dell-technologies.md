@@ -7,14 +7,14 @@ description: Dell Technologies is a global Fortune 500 technology company that d
   servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling
   automation of IT operations and integration into enterprise tooling.
 estate_rating:
-  agent_avg: 11.7
+  agent_avg: 11.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 13.0
+  agent_raw: 12.5
   agent_ready: 1
   band: emerging
   best: 61.5
-  composite_avg: 22.2
+  composite_avg: 22.3
   composite_band: emerging
   composite_raw: 24.3
   developing: 1
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 45.8
+    agent_score: 43.3
     api_count: 17
     api_count_basis: published
     immediate_parent: dell-technologies
@@ -174,7 +174,7 @@ permalink: /estates/dell-technologies/
 slug: dell-technologies
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/dell-technologies/apis.yml
 subfamilies:
 - has_page: true
   member_count: 4

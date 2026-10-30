@@ -1,27 +1,27 @@
 ---
-api_total: 59
+api_total: 133
 category: Estates
 description: IBM offers solutions that protect identities and sensitive access for enterprise customers.
   Its IBM Vault® product is highlighted as a tool for identity protection and regulatory compliance, and
   IBM hosts webinars on trust, identity, and governance in the AI era. The company targets organizations
   seeking secure identity management and access control across their systems.
 estate_rating:
-  agent_avg: 11.6
+  agent_avg: 12.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.7
-  agent_ready: 3
+  agent_raw: 12.2
+  agent_ready: 4
   band: emerging
   best: 65.0
-  composite_avg: 25.1
+  composite_avg: 26.0
   composite_band: thin
-  composite_raw: 25.9
-  developing: 10
+  composite_raw: 26.8
+  developing: 11
   exemplar: 0
-  rating: 19.7
-  scored: 37
+  rating: 20.4
+  scored: 38
   spread: 65.0
-  strength: 14
+  strength: 15
   strong: 2
   worst: 0.0
 estate_root: null
@@ -37,7 +37,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.4
+    agent_score: 35.0
     api_count: 5
     api_count_basis: published
     immediate_parent: red-hat
@@ -51,25 +51,38 @@ member_bands:
     acquired: 2019
     agent_band: agent-ready
     agent_score: 49.2
-    api_count: 6
-    api_count_basis: published
+    api_count: 75
+    api_count_basis: split
     immediate_parent: ibm
     name: Red Hat
     relationship: acquisition
     score_band: strong
-    score_composite: 62.6
+    score_composite: 60.8
     slug: red-hat
     source: declared
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 10
+  count: 11
   items:
   - &id003
     acquired: null
+    agent_band: agent-ready
+    agent_score: 38.6
+    api_count: 4
+    api_count_basis: published
+    immediate_parent: ibm
+    name: IBM API Connect
+    relationship: product
+    score_band: developing
+    score_composite: 53.0
+    slug: ibm-api-connect
+    source: declared
+  - &id004
+    acquired: null
     agent_band: agent-aware
-    agent_score: 23.9
+    agent_score: 23.6
     api_count: 1
     api_count_basis: published
     immediate_parent: ibm
@@ -79,43 +92,30 @@ member_bands:
     score_composite: 52.8
     slug: datastax
     source: parent-company-property
-  - &id004
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 39.0
-    api_count: 4
-    api_count_basis: published
-    immediate_parent: ibm
-    name: IBM API Connect
-    relationship: product
-    score_band: developing
-    score_composite: 51.6
-    slug: ibm-api-connect
-    source: declared
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.7
+    agent_score: 24.4
     api_count: 5
     api_count_basis: published
     immediate_parent: red-hat
     name: Red Hat 3scale
     relationship: product
     score_band: developing
-    score_composite: 49.7
+    score_composite: 50.9
     slug: red-hat-3scale
     source: declared
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 2
     api_count_basis: published
     immediate_parent: red-hat
     name: Red Hat OpenShift
     relationship: product
     score_band: developing
-    score_composite: 48.0
+    score_composite: 49.4
     slug: red-hat-openshift
     source: declared
   - &id007
@@ -147,46 +147,46 @@ member_bands:
   - &id009
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.8
-    api_count: 1
-    api_count_basis: published
+    agent_score: 23.1
+    api_count: 2
+    api_count_basis: split
     immediate_parent: red-hat
-    name: Red Hat Enterprise Linux 8
+    name: Codenvy
     relationship: product
     score_band: developing
-    score_composite: 45.4
-    slug: red-hat-enterprise-linux-8
-    source: declared
+    score_composite: 46.5
+    slug: codenvy
+    source: parent-company-property
   - &id010
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 1
     api_count_basis: published
     immediate_parent: ibm
     name: IBM Turbonomic
     relationship: acquisition
     score_band: developing
-    score_composite: 44.6
+    score_composite: 45.9
     slug: turbonomic
     source: declared
   - &id011
     acquired: null
-    agent_band: agent-aware
-    agent_score: 20.4
+    agent_band: agent-ready
+    agent_score: 30.4
     api_count: 1
     api_count_basis: published
-    immediate_parent: ibm
-    name: IBM Language Translator
+    immediate_parent: red-hat
+    name: Red Hat Enterprise Linux 8
     relationship: product
     score_band: developing
-    score_composite: 43.3
-    slug: ibm-translate
+    score_composite: 45.6
+    slug: red-hat-enterprise-linux-8
     source: declared
   - &id012
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.0
+    agent_score: 24.6
     api_count: 1
     api_count_basis: published
     immediate_parent: datastax
@@ -196,16 +196,29 @@ member_bands:
     score_composite: 41.5
     slug: langflow
     source: parent-company-property
+  - &id013
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.9
+    api_count: 4
+    api_count_basis: split
+    immediate_parent: ibm
+    name: IBM Language Translator
+    relationship: product
+    score_band: developing
+    score_composite: 41.2
+    slug: ibm-translate
+    source: declared
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
   count: 3
   items:
-  - &id013
+  - &id014
     acquired: 2023
     agent_band: agent-aware
-    agent_score: 26.6
+    agent_score: 27.2
     api_count: 1
     api_count_basis: published
     immediate_parent: ibm
@@ -215,23 +228,23 @@ member_bands:
     score_composite: 33.8
     slug: apptio
     source: declared
-  - &id014
+  - &id015
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 22.6
     api_count: 1
     api_count_basis: published
     immediate_parent: ibm
     name: Instana
     relationship: acquisition
     score_band: thin
-    score_composite: 31.3
+    score_composite: 32.7
     slug: instana
     source: declared
-  - &id015
+  - &id016
     acquired: 2024
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: ibm
@@ -247,10 +260,10 @@ member_bands:
   blurb: Early or largely undocumented
   count: 12
   items:
-  - &id016
+  - &id017
     acquired: 2025
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 19.2
     api_count: 1
     api_count_basis: published
     immediate_parent: ibm
@@ -260,7 +273,7 @@ member_bands:
     score_composite: 26.0
     slug: hashicorp
     source: declared
-  - &id017
+  - &id018
     acquired: null
     agent_band: agent-aware
     agent_score: 16.1
@@ -270,10 +283,10 @@ member_bands:
     name: JBoss
     relationship: subsidiary
     score_band: emerging
-    score_composite: 24.6
+    score_composite: 26.0
     slug: jboss
     source: prose
-  - &id018
+  - &id019
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -286,7 +299,7 @@ member_bands:
     score_composite: 24.1
     slug: netezza
     source: declared
-  - &id019
+  - &id020
     acquired: null
     agent_band: agent-aware
     agent_score: 18.3
@@ -299,7 +312,7 @@ member_bands:
     score_composite: 23.6
     slug: ns1
     source: parent-company-property
-  - &id020
+  - &id021
     acquired: null
     agent_band: human-only
     agent_score: 3.1
@@ -309,10 +322,23 @@ member_bands:
     name: IBM QRadar Security Intelligence Platform
     relationship: acquisition
     score_band: emerging
-    score_composite: 20.5
+    score_composite: 21.8
     slug: qradar
     source: declared
-  - &id021
+  - &id022
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.6
+    api_count: 1
+    api_count_basis: split
+    immediate_parent: ibm
+    name: IBM Cloud Kubernetes
+    relationship: product
+    score_band: emerging
+    score_composite: 21.1
+    slug: ibm-cloud-kubernetes
+    source: declared
+  - &id023
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -325,20 +351,7 @@ member_bands:
     score_composite: 20.5
     slug: streamsets
     source: declared
-  - &id022
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.6
-    api_count: 1
-    api_count_basis: split
-    immediate_parent: ibm
-    name: IBM Cloud Kubernetes
-    relationship: product
-    score_band: emerging
-    score_composite: 19.7
-    slug: ibm-cloud-kubernetes
-    source: declared
-  - &id023
+  - &id024
     acquired: null
     agent_band: human-only
     agent_score: 0.6
@@ -348,10 +361,10 @@ member_bands:
     name: IBM Watson
     relationship: product
     score_band: emerging
-    score_composite: 17.8
+    score_composite: 19.2
     slug: ibm-watson
     source: declared
-  - &id024
+  - &id025
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -364,7 +377,7 @@ member_bands:
     score_composite: 16.3
     slug: databand
     source: parent-company-property
-  - &id025
+  - &id026
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -374,10 +387,10 @@ member_bands:
     name: IBM Db2
     relationship: product
     score_band: emerging
-    score_composite: 13.7
+    score_composite: 15.1
     slug: ibm-db2
     source: declared
-  - &id026
+  - &id027
     acquired: null
     agent_band: human-only
     agent_score: 0.6
@@ -387,10 +400,10 @@ member_bands:
     name: IBM App Connect
     relationship: product
     score_band: emerging
-    score_composite: 12.5
+    score_composite: 13.9
     slug: ibm-app-connect
     source: declared
-  - &id027
+  - &id028
     acquired: 2007
     agent_band: human-only
     agent_score: 2.5
@@ -409,7 +422,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 10
   items:
-  - &id028
+  - &id029
     acquired: null
     agent_band: human-only
     agent_score: 0.6
@@ -419,10 +432,10 @@ member_bands:
     name: API Harmony
     relationship: initiative
     score_band: minimal
-    score_composite: 7.7
+    score_composite: 9.1
     slug: api-harmony
     source: declared
-  - &id029
+  - &id030
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -432,10 +445,10 @@ member_bands:
     name: IBM Text to Speech
     relationship: product
     score_band: minimal
-    score_composite: 6.0
+    score_composite: 7.4
     slug: ibm-text-to-speech
     source: declared
-  - &id030
+  - &id031
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -445,10 +458,10 @@ member_bands:
     name: Watson Natural Language Understanding
     relationship: acquisition
     score_band: minimal
-    score_composite: 4.1
+    score_composite: 5.5
     slug: watson-natural-language-understanding
     source: declared
-  - &id031
+  - &id032
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -461,7 +474,7 @@ member_bands:
     score_composite: 3.4
     slug: ahana
     source: parent-company-property
-  - &id032
+  - &id033
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -474,7 +487,7 @@ member_bands:
     score_composite: 3.0
     slug: seek-ai
     source: parent-company-property
-  - &id033
+  - &id034
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -487,7 +500,7 @@ member_bands:
     score_composite: 2.9
     slug: coreos
     source: prose
-  - &id034
+  - &id035
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -500,7 +513,7 @@ member_bands:
     score_composite: 2.6
     slug: qumranet
     source: prose
-  - &id035
+  - &id036
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -513,7 +526,7 @@ member_bands:
     score_composite: 0.0
     slug: blekko
     source: prose
-  - &id036
+  - &id037
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -526,7 +539,7 @@ member_bands:
     score_composite: 0.0
     slug: cross-access
     source: prose
-  - &id037
+  - &id038
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -545,7 +558,7 @@ member_bands:
   blurb: Not yet scored
   count: 5
   items:
-  - &id038
+  - &id039
     acquired: null
     agent_band: null
     agent_score: null
@@ -558,7 +571,7 @@ member_bands:
     score_composite: null
     slug: celequest
     source: parent-company-property
-  - &id039
+  - &id040
     acquired: null
     agent_band: null
     agent_score: null
@@ -571,7 +584,7 @@ member_bands:
     score_composite: null
     slug: compose
     source: parent-company-property
-  - &id040
+  - &id041
     acquired: null
     agent_band: null
     agent_score: null
@@ -584,7 +597,7 @@ member_bands:
     score_composite: null
     slug: coremetrics
     source: parent-company-property
-  - &id041
+  - &id042
     acquired: null
     agent_band: null
     agent_score: null
@@ -597,7 +610,7 @@ member_bands:
     score_composite: null
     slug: internet-security-systems
     source: parent-company-property
-  - &id042
+  - &id043
     acquired: null
     agent_band: null
     agent_score: null
@@ -612,8 +625,8 @@ member_bands:
     source: prose
   label: Unrated
   open: false
-member_on_network: 42
-member_total: 42
+member_on_network: 43
+member_total: 43
 members:
 - *id001
 - *id002
@@ -657,23 +670,24 @@ members:
 - *id040
 - *id041
 - *id042
+- *id043
 members_unrated: []
 name: IBM
-overview: 'IBM publishes its API surface across 42 provider profiles indexed on the APIs.io network, of
-  which 42 carry a rating. The rated members span 65.0 points, from 65.0 down to 0.0.
+overview: 'IBM publishes its API surface across 43 provider profiles indexed on the APIs.io network, of
+  which 43 carry a rating. The rated members span 65.0 points, from 65.0 down to 0.0.
 
 
-  Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat, DataStax, IBM API Connect,
+  Its highest-rated surfaces are Red Hat Ansible Automation Platform, Red Hat, IBM API Connect, DataStax,
   Red Hat 3scale.'
 parent_provider: ibm
 permalink: /estates/ibm/
 slug: ibm
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/ibm/apis.yml
 subfamilies:
 - has_page: true
-  member_count: 8
+  member_count: 9
   members:
   - name: Red Hat Ansible Automation Platform
     score_band: strong
@@ -681,19 +695,23 @@ subfamilies:
     slug: red-hat-ansible-automation-platform
   - name: Red Hat 3scale
     score_band: developing
-    score_composite: 49.7
+    score_composite: 50.9
     slug: red-hat-3scale
   - name: Red Hat OpenShift
     score_band: developing
-    score_composite: 48.0
+    score_composite: 49.4
     slug: red-hat-openshift
+  - name: Codenvy
+    score_band: developing
+    score_composite: 46.5
+    slug: codenvy
   - name: Red Hat Enterprise Linux 8
     score_band: developing
-    score_composite: 45.4
+    score_composite: 45.6
     slug: red-hat-enterprise-linux-8
   - name: JBoss
     score_band: emerging
-    score_composite: 24.6
+    score_composite: 26.0
     slug: jboss
   - name: CoreOS
     score_band: minimal

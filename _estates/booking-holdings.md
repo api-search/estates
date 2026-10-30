@@ -1,19 +1,19 @@
 ---
-api_total: 18
+api_total: 19
 category: Estates
 description: Booking Holdings is the world's leading provider of online travel and related services, operating
   a portfolio of brands including Booking.com, Priceline, Agoda, KAYAK, OpenTable, Rentalcars.com, Rocketmiles,
   FareHarbor, HotelsCombined, Cheapflights, and Momondo. The company connects travelers with accommodations,
   flights, rental cars, restaurant reservations, and travel experiences worldwide.
 estate_rating:
-  agent_avg: 12.5
+  agent_avg: 12.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 16.4
+  agent_raw: 15.6
   agent_ready: 1
   band: emerging
   best: 64.8
-  composite_avg: 25.5
+  composite_avg: 25.6
   composite_band: thin
   composite_raw: 35.4
   developing: 0
@@ -37,8 +37,8 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 46.1
-    api_count: 16
+    agent_score: 43.6
+    api_count: 17
     api_count_basis: published
     immediate_parent: booking-holdings
     name: Booking.com
@@ -99,7 +99,7 @@ permalink: /estates/booking-holdings/
 slug: booking-holdings
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/booking-holdings/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

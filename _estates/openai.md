@@ -12,19 +12,19 @@ description: OpenAI publishes a single unversioned REST API at https://api.opena
   Python, JavaScript, Go, Java, .NET and Ruby, alongside the Codex CLI and an anonymous documentation
   MCP server at developers.openai.com/mcp.
 estate_rating:
-  agent_avg: 5.7
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.1
   agent_ready: 0
   band: emerging
   best: 14.6
-  composite_avg: 12.8
+  composite_avg: 12.9
   composite_band: emerging
   composite_raw: 4.4
   developing: 0
   exemplar: 0
-  rating: 10.0
+  rating: 10.1
   scored: 4
   spread: 14.6
   strength: 0
@@ -119,7 +119,7 @@ permalink: /estates/openai/
 slug: openai
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/openai/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

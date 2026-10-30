@@ -9,19 +9,19 @@ description: ARGUS is the industry-standard suite of commercial real estate soft
   at 200+ universities worldwide. The ARGUS API provides integration capabilities across cloud-enabled
   ARGUS solutions.
 estate_rating:
-  agent_avg: 10.8
+  agent_avg: 11.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.8
+  agent_raw: 13.3
   agent_ready: 0
   band: emerging
   best: 39.7
-  composite_avg: 21.5
+  composite_avg: 21.6
   composite_band: emerging
   composite_raw: 24.8
   developing: 1
   exemplar: 0
-  rating: 17.2
+  rating: 17.6
   scored: 3
   spread: 31.5
   strength: 1
@@ -40,7 +40,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 22.4
     api_count: 2
     api_count_basis: published
     immediate_parent: argus
@@ -108,7 +108,7 @@ permalink: /estates/argus/
 slug: argus
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argus/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/argus/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

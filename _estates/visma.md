@@ -13,19 +13,19 @@ description: 'Visma is a Nordic business-software group headquartered in Oslo, N
   first-party remote MCP servers — Business NXT at mcp.business.visma.net and Spiris at mcp.spiris.se
   — both OAuth-protected and discoverable via RFC 9728.'
 estate_rating:
-  agent_avg: 15.6
+  agent_avg: 16.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 24.5
+  agent_raw: 25.1
   agent_ready: 2
   band: emerging
   best: 45.7
-  composite_avg: 24.1
+  composite_avg: 24.2
   composite_band: emerging
   composite_raw: 31.6
   developing: 2
   exemplar: 0
-  rating: 20.7
+  rating: 20.9
   scored: 3
   spread: 42.3
   strength: 2
@@ -44,7 +44,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.6
+    agent_score: 33.8
     api_count: 2
     api_count_basis: published
     immediate_parent: visma
@@ -57,7 +57,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 40.0
+    agent_score: 41.6
     api_count: 3
     api_count_basis: published
     immediate_parent: visma
@@ -106,7 +106,7 @@ permalink: /estates/visma/
 slug: visma
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visma/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/visma/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

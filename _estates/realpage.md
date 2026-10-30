@@ -9,19 +9,19 @@ description: RealPage is a multifamily and rental-housing software company offer
   the RPX integration marketplace and provisioned under contract rather than via a public self-serve developer
   portal.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.3
   agent_ready: 0
   band: emerging
   best: 8.0
-  composite_avg: 15.5
+  composite_avg: 15.6
   composite_band: emerging
   composite_raw: 5.3
   developing: 0
   exemplar: 0
-  rating: 12.2
+  rating: 12.4
   scored: 2
   spread: 5.4
   strength: 0
@@ -102,7 +102,7 @@ permalink: /estates/realpage/
 slug: realpage
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realpage/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/realpage/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

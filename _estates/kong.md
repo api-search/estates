@@ -9,21 +9,21 @@ description: Kong is the AI Connectivity Company. Its platform spans Kong Gatewa
   and Kong Insomnia (API design and testing). Together they unify governance across APIs, real-time event
   streams, LLM calls, MCP tools, and agent-to-agent communication for the agentic era.
 estate_rating:
-  agent_avg: 11.7
+  agent_avg: 12.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.3
+  agent_raw: 14.9
   agent_ready: 0
   band: emerging
-  best: 52.4
-  composite_avg: 27.4
+  best: 52.6
+  composite_avg: 27.5
   composite_band: thin
   composite_raw: 40.4
   developing: 1
   exemplar: 0
-  rating: 21.1
+  rating: 21.4
   scored: 3
-  spread: 20.7
+  spread: 20.9
   strength: 1
   strong: 0
   worst: 31.7
@@ -40,14 +40,14 @@ member_bands:
   - &id001
     acquired: 2019
     agent_band: agent-aware
-    agent_score: 19.5
+    agent_score: 20.5
     api_count: 1
     api_count_basis: published
     immediate_parent: kong
     name: Insomnia
     relationship: acquisition
     score_band: developing
-    score_composite: 52.4
+    score_composite: 52.6
     slug: insomnia
     source: declared
   label: Developing
@@ -72,7 +72,7 @@ member_bands:
   - &id003
     acquired: 2025
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 20.6
     api_count: 1
     api_count_basis: published
     immediate_parent: kong
@@ -93,7 +93,7 @@ members:
 members_unrated: []
 name: Kong
 overview: 'Kong publishes its API surface across 3 provider profiles indexed on the APIs.io network, of
-  which 3 carry a rating. The rated members span 20.7 points, from 52.4 down to 31.7.
+  which 3 carry a rating. The rated members span 20.9 points, from 52.6 down to 31.7.
 
 
   Its highest-rated surfaces are Insomnia, Kong AI Gateway, OpenMeter.'
@@ -102,7 +102,7 @@ permalink: /estates/kong/
 slug: kong
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/kong/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

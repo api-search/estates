@@ -6,19 +6,19 @@ description: Uber is a global technology platform offering transportation, food 
   delivery, voucher programs, and business travel management into third-party applications. APIs use OAuth
   2.0 authentication with scope-based access controls and support both production and sandbox environments.
 estate_rating:
-  agent_avg: 15.2
+  agent_avg: 16.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.6
+  agent_raw: 23.6
   agent_ready: 2
   band: emerging
   best: 46.9
-  composite_avg: 23.4
+  composite_avg: 23.5
   composite_band: emerging
   composite_raw: 28.1
   developing: 1
   exemplar: 0
-  rating: 20.1
+  rating: 20.7
   scored: 4
   spread: 37.2
   strength: 1
@@ -37,7 +37,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.4
+    agent_score: 31.8
     api_count: 2
     api_count_basis: published
     immediate_parent: uber
@@ -56,7 +56,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.0
+    agent_score: 37.6
     api_count: 1
     api_count_basis: published
     immediate_parent: uber
@@ -75,7 +75,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 25.1
     api_count: 1
     api_count_basis: published
     immediate_parent: uber
@@ -125,7 +125,7 @@ permalink: /estates/uber/
 slug: uber
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/uber/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

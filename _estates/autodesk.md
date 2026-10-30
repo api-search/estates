@@ -1,5 +1,5 @@
 ---
-api_total: 16
+api_total: 17
 category: Estates
 description: Autodesk is a global leader in design, engineering, and entertainment software, providing
   cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to
@@ -7,20 +7,20 @@ description: Autodesk is a global leader in design, engineering, and entertainme
   projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem
   including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.
 estate_rating:
-  agent_avg: 11.8
+  agent_avg: 12.0
   agent_band: emerging
   agent_native: 0
-  agent_raw: 12.6
+  agent_raw: 12.7
   agent_ready: 1
   band: emerging
   best: 49.1
-  composite_avg: 24.8
+  composite_avg: 23.8
   composite_band: emerging
-  composite_raw: 27.7
+  composite_raw: 25.9
   developing: 2
   exemplar: 0
-  rating: 19.6
-  scored: 9
+  rating: 19.1
+  scored: 10
   spread: 49.1
   strength: 2
   strong: 0
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.3
+    agent_score: 27.6
     api_count: 2
     api_count_basis: published
     immediate_parent: autodesk
@@ -70,7 +70,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 26.1
     api_count: 2
     api_count_basis: published
     immediate_parent: autodesk
@@ -83,7 +83,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.2
+    agent_score: 33.9
     api_count: 8
     api_count_basis: published
     immediate_parent: autodesk
@@ -96,7 +96,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 21.5
     api_count: 1
     api_count_basis: published
     immediate_parent: autodesk
@@ -142,9 +142,22 @@ member_bands:
   open: false
 - band: minimal
   blurb: Almost no public developer surface
-  count: 2
+  count: 3
   items:
   - &id008
+    acquired: null
+    agent_band: human-only
+    agent_score: 3.1
+    api_count: 1
+    api_count_basis: split
+    immediate_parent: autodesk
+    name: Reekoh
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 9.7
+    slug: reekoh
+    source: prose
+  - &id009
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -157,7 +170,7 @@ member_bands:
     score_composite: 3.4
     slug: spacemaker
     source: prose
-  - &id009
+  - &id010
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -172,8 +185,8 @@ member_bands:
     source: prose
   label: Minimal
   open: false
-member_on_network: 9
-member_total: 9
+member_on_network: 10
+member_total: 10
 members:
 - *id001
 - *id002
@@ -184,10 +197,11 @@ members:
 - *id007
 - *id008
 - *id009
+- *id010
 members_unrated: []
 name: Autodesk
-overview: 'Autodesk publishes its API surface across 9 provider profiles indexed on the APIs.io network,
-  of which 9 carry a rating. The rated members span 49.1 points, from 49.1 down to 0.0.
+overview: 'Autodesk publishes its API surface across 10 provider profiles indexed on the APIs.io network,
+  of which 10 carry a rating. The rated members span 49.1 points, from 49.1 down to 0.0.
 
 
   Its highest-rated surfaces are Autodesk Construction Cloud, Autodesk PowerMill, Autodesk BIM 360, Autodesk
@@ -197,7 +211,7 @@ permalink: /estates/autodesk/
 slug: autodesk
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/autodesk/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

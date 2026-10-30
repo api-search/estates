@@ -7,10 +7,10 @@ description: Datadog is a monitoring and analytics platform that helps organizat
   platform enables companies to track performance metrics, troubleshoot issues, and optimize their systems
   for peak efficiency.
 estate_rating:
-  agent_avg: 17.4
+  agent_avg: 17.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 24.6
+  agent_raw: 25.0
   agent_ready: 1
   band: thin
   best: 80.4
@@ -19,7 +19,7 @@ estate_rating:
   composite_raw: 42.7
   developing: 1
   exemplar: 1
-  rating: 25.7
+  rating: 25.8
   scored: 5
   spread: 80.4
   strength: 6
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 56.0
+    agent_score: 55.0
     api_count: 2
     api_count_basis: published
     immediate_parent: datadog
@@ -57,7 +57,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.7
+    agent_score: 26.4
     api_count: 1
     api_count_basis: published
     immediate_parent: datadog
@@ -76,7 +76,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.2
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: datadog
@@ -95,7 +95,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 1
     api_count_basis: published
     immediate_parent: datadog
@@ -146,7 +146,7 @@ permalink: /estates/datadog/
 slug: datadog
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/datadog/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

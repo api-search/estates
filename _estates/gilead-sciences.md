@@ -5,19 +5,19 @@ description: Gilead Sciences is a research-based biopharmaceutical company that 
   commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis,
   oncology, and inflammatory diseases.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 4.2
-  composite_avg: 14.6
+  composite_avg: 14.7
   composite_band: emerging
   composite_raw: 2.1
   developing: 0
   exemplar: 0
-  rating: 11.7
+  rating: 11.9
   scored: 2
   spread: 4.2
   strength: 0
@@ -98,7 +98,7 @@ permalink: /estates/gilead-sciences/
 slug: gilead-sciences
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gilead-sciences/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/gilead-sciences/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -1,5 +1,5 @@
 ---
-api_total: 26
+api_total: 25
 category: Estates
 description: Snowflake is a cloud-based data platform delivering data warehousing, data lakes, data engineering,
   data science and data application development as a single managed service across AWS, Azure and Google
@@ -9,21 +9,21 @@ description: Snowflake is a cloud-based data platform delivering data warehousin
   Snowflake also serves a SCIM 2.0 identity endpoint, an Apache Iceberg REST Catalog, and an account-hosted
   Model Context Protocol server that exposes Cortex tools to agents under Snowflake RBAC.
 estate_rating:
-  agent_avg: 12.0
+  agent_avg: 12.5
   agent_band: emerging
-  agent_native: 0
-  agent_raw: 13.6
-  agent_ready: 2
+  agent_native: 1
+  agent_raw: 14.1
+  agent_ready: 1
   band: emerging
-  best: 61.6
-  composite_avg: 21.6
+  best: 63.0
+  composite_avg: 21.8
   composite_band: emerging
-  composite_raw: 23.3
+  composite_raw: 23.5
   developing: 1
   exemplar: 0
-  rating: 17.8
+  rating: 18.1
   scored: 6
-  spread: 61.6
+  spread: 63.0
   strength: 3
   strong: 1
   worst: 0.0
@@ -40,14 +40,14 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 43.4
-    api_count: 2
+    agent_score: 44.8
+    api_count: 1
     api_count_basis: published
     immediate_parent: snowflake
     name: Observe
     relationship: product
     score_band: strong
-    score_composite: 61.6
+    score_composite: 63.0
     slug: observeinc
     source: x-parent-company
   label: Strong
@@ -58,8 +58,8 @@ member_bands:
   items:
   - &id002
     acquired: null
-    agent_band: agent-ready
-    agent_score: 37.7
+    agent_band: agent-native
+    agent_score: 39.0
     api_count: 23
     api_count_basis: split
     immediate_parent: snowflake
@@ -167,7 +167,7 @@ members:
 members_unrated: []
 name: Snowflake
 overview: 'Snowflake publishes its API surface across 7 provider profiles indexed on the APIs.io network,
-  of which 7 carry a rating. The rated members span 61.6 points, from 61.6 down to 0.0.
+  of which 7 carry a rating. The rated members span 63.0 points, from 63.0 down to 0.0.
 
 
   Its highest-rated surfaces are Observe, Crunchy Data, Datavolo, TruEra (Snowflake), Ponder.'
@@ -176,7 +176,7 @@ permalink: /estates/snowflake/
 slug: snowflake
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/snowflake/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

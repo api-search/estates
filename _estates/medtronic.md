@@ -4,19 +4,19 @@ category: Estates
 description: Medtronic is a major US corporation and Fortune 1000 company. The Medtronic API provides
   programmatic access to its platform services, data, and integrations for enterprise customers and partners.
 estate_rating:
-  agent_avg: 5.6
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 10.3
-  composite_avg: 13.1
+  composite_avg: 13.2
   composite_band: emerging
   composite_raw: 5.0
   developing: 0
   exemplar: 0
-  rating: 10.1
+  rating: 10.3
   scored: 4
   spread: 7.3
   strength: 0
@@ -125,7 +125,7 @@ permalink: /estates/medtronic/
 slug: medtronic
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medtronic/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/medtronic/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

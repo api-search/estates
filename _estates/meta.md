@@ -4,23 +4,23 @@ category: Estates
 description: Collection of Meta (Facebook) platform APIs for social networking, messaging, advertising,
   content publishing, AI, and developer tools across Facebook, Instagram, WhatsApp, Threads, and Messenger.
 estate_rating:
-  agent_avg: 17.3
+  agent_avg: 17.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 29.1
+  agent_raw: 30.1
   agent_ready: 2
   band: thin
   best: 67.4
-  composite_avg: 33.8
+  composite_avg: 34.1
   composite_band: thin
-  composite_raw: 57.6
-  developing: 2
+  composite_raw: 58.0
+  developing: 1
   exemplar: 1
-  rating: 27.2
+  rating: 27.6
   scored: 3
   spread: 16.3
-  strength: 5
-  strong: 0
+  strength: 6
+  strong: 1
   worst: 51.1
 estate_root: null
 estate_root_name: null
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 39.0
+    agent_score: 38.9
     api_count: 1
     api_count_basis: published
     immediate_parent: meta
@@ -47,27 +47,33 @@ member_bands:
     source: declared
   label: Exemplar
   open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 2
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 1
   items:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.2
+    agent_score: 21.9
     api_count: 1
     api_count_basis: published
     immediate_parent: meta
     name: Giphy
     relationship: acquisition
-    score_band: developing
-    score_composite: 54.2
+    score_band: strong
+    score_composite: 55.6
     slug: giphy
     source: prose
+  label: Strong
+  open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 1
+  items:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.1
+    agent_score: 29.6
     api_count: 2
     api_count_basis: published
     immediate_parent: meta
@@ -97,7 +103,7 @@ permalink: /estates/meta/
 slug: meta
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/meta/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

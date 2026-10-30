@@ -12,19 +12,19 @@ description: 'Renaissance Learning, Inc. is a pre-K–12 education technology co
   Renaissance-controlled hosts: the Student Proficiency Service, the Student Pathway Event Proxy and the
   Lexile API.'
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 19.0
-  composite_avg: 17.8
+  composite_avg: 17.9
   composite_band: emerging
   composite_raw: 14.8
   developing: 0
   exemplar: 0
-  rating: 13.2
+  rating: 13.4
   scored: 3
   spread: 7.9
   strength: 0
@@ -99,7 +99,7 @@ permalink: /estates/renaissance/
 slug: renaissance
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/renaissance/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

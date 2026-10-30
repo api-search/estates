@@ -4,19 +4,19 @@ category: Estates
 description: Fiserv is a global provider of financial services technology solutions, offering a wide range
   of products and services to help clients in the banking, payments, and wealth management industries.
 estate_rating:
-  agent_avg: 5.8
+  agent_avg: 6.0
   agent_band: minimal
   agent_native: 0
   agent_raw: 1.4
   agent_ready: 0
   band: emerging
   best: 16.7
-  composite_avg: 13.1
+  composite_avg: 13.2
   composite_band: emerging
   composite_raw: 6.7
   developing: 0
   exemplar: 0
-  rating: 10.2
+  rating: 10.3
   scored: 5
   spread: 16.7
   strength: 0
@@ -145,7 +145,7 @@ permalink: /estates/fiserv/
 slug: fiserv
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/fiserv/apis.yml
 subfamilies:
 - has_page: false
   member_count: 2

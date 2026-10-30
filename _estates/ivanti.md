@@ -6,19 +6,19 @@ description: Ivanti is an IT asset management and security platform providing un
   People & Devices, MDM, ITSM, and Zero-Trust Access, alongside Endpoint Manager APIs for patch and software
   distribution.
 estate_rating:
-  agent_avg: 7.3
+  agent_avg: 7.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 2.6
   agent_ready: 0
   band: emerging
   best: 38.5
-  composite_avg: 18.3
+  composite_avg: 18.4
   composite_band: emerging
   composite_raw: 16.1
   developing: 0
   exemplar: 0
-  rating: 13.9
+  rating: 14.1
   scored: 3
   spread: 35.1
   strength: 0
@@ -99,7 +99,7 @@ permalink: /estates/ivanti/
 slug: ivanti
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ivanti/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/ivanti/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

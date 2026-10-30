@@ -1,26 +1,26 @@
 ---
-api_total: 211
+api_total: 222
 category: Estates
 description: Microsoft Azure is a cloud computing platform and infrastructure for building, deploying,
   and managing applications and services through Microsoft-managed data centers.
 estate_rating:
-  agent_avg: 20.9
+  agent_avg: 22.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.7
+  agent_raw: 23.0
   agent_ready: 11
   band: thin
   best: 75.4
   composite_avg: 47.5
   composite_band: developing
   composite_raw: 49.5
-  developing: 30
+  developing: 33
   exemplar: 9
-  rating: 36.9
+  rating: 37.3
   scored: 69
   spread: 56.9
-  strength: 85
-  strong: 14
+  strength: 84
+  strong: 12
   worst: 18.5
 estate_root: microsoft
 estate_root_name: Microsoft
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.5
+    agent_score: 31.9
     api_count: 11
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -48,7 +48,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.5
+    agent_score: 35.9
     api_count: 3
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -61,7 +61,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 40.1
+    agent_score: 41.4
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -74,7 +74,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.3
+    agent_score: 25.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -87,8 +87,8 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.8
-    api_count: 2
+    agent_score: 35.9
+    api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Microsoft Azure Cdn
@@ -100,8 +100,8 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.1
-    api_count: 2
+    agent_score: 35.5
+    api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure Data Factory
@@ -112,8 +112,8 @@ member_bands:
     source: declared
   - &id007
     acquired: null
-    agent_band: agent-aware
-    agent_score: 27.3
+    agent_band: agent-ready
+    agent_score: 28.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -126,7 +126,7 @@ member_bands:
   - &id008
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.9
+    agent_score: 31.4
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -139,7 +139,7 @@ member_bands:
   - &id009
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.0
+    agent_score: 25.6
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -153,12 +153,12 @@ member_bands:
   open: true
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 14
+  count: 12
   items:
   - &id010
     acquired: null
-    agent_band: agent-ready
-    agent_score: 29.7
+    agent_band: agent-aware
+    agent_score: 28.0
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -171,20 +171,20 @@ member_bands:
   - &id011
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.2
-    api_count: 3
+    agent_score: 27.7
+    api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Microsoft Azure Private Link
     relationship: product
     score_band: strong
-    score_composite: 63.3
+    score_composite: 62.8
     slug: microsoft-azure-private-link
     source: declared
   - &id012
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.5
+    agent_score: 34.9
     api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -197,20 +197,7 @@ member_bands:
   - &id013
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
-    api_count: 4
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Azure Networking Services
-    relationship: product
-    score_band: strong
-    score_composite: 61.7
-    slug: azure-networking-services
-    source: declared
-  - &id014
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.6
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -220,10 +207,23 @@ member_bands:
     score_composite: 61.2
     slug: azure-container-apps
     source: declared
+  - &id014
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 24.6
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: microsoft-azure
+    name: Azure Networking Services
+    relationship: product
+    score_band: strong
+    score_composite: 61.1
+    slug: azure-networking-services
+    source: declared
   - &id015
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 32.0
     api_count: 5
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -236,7 +236,7 @@ member_bands:
   - &id016
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.1
+    agent_score: 30.6
     api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -249,8 +249,8 @@ member_bands:
   - &id017
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.5
-    api_count: 18
+    agent_score: 27.1
+    api_count: 15
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure Monitor
@@ -262,7 +262,7 @@ member_bands:
   - &id018
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 21.3
     api_count: 30
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -275,7 +275,7 @@ member_bands:
   - &id019
     acquired: null
     agent_band: agent-ready
-    agent_score: 33.3
+    agent_score: 33.5
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -288,7 +288,7 @@ member_bands:
   - &id020
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.4
+    agent_score: 26.9
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -301,52 +301,39 @@ member_bands:
   - &id021
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.8
+    agent_score: 25.5
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure Repos
     relationship: product
     score_band: strong
-    score_composite: 55.2
+    score_composite: 56.6
     slug: microsoft-azure-repo
-    source: declared
-  - &id022
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 21.0
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Azure Traffic Manager
-    relationship: product
-    score_band: strong
-    score_composite: 55.0
-    slug: microsoft-azure-traffic-manager
-    source: declared
-  - &id023
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 19.6
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Azure Key Vault
-    relationship: product
-    score_band: strong
-    score_composite: 54.8
-    slug: microsoft-azure-key-vault
     source: declared
   label: Strong
   open: true
 - band: developing
   blurb: Usable, with meaningful gaps to close
-  count: 30
+  count: 33
   items:
-  - &id024
+  - &id022
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.7
+    agent_score: 19.6
+    api_count: 6
+    api_count_basis: split
+    immediate_parent: microsoft-azure
+    name: Azure Key Vault
+    relationship: product
+    score_band: developing
+    score_composite: 54.2
+    slug: microsoft-azure-key-vault
+    source: declared
+  - &id023
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 26.3
     api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -356,88 +343,114 @@ member_bands:
     score_composite: 54.0
     slug: azure-health
     source: declared
-  - &id025
+  - &id024
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 20.0
     api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Azure Virtual Machines
-    relationship: product
-    score_band: developing
-    score_composite: 53.3
-    slug: microsoft-azure-virtual-machines
-    source: declared
-  - &id026
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 20.4
-    api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure Container Instances
     relationship: product
     score_band: developing
-    score_composite: 51.9
+    score_composite: 53.2
     slug: azure-container-instances
     source: declared
-  - &id027
+  - &id025
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 21.0
+    api_count: 9
+    api_count_basis: split
+    immediate_parent: microsoft-azure
+    name: Azure Traffic Manager
+    relationship: product
+    score_band: developing
+    score_composite: 52.8
+    slug: microsoft-azure-traffic-manager
+    source: declared
+  - &id026
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
     api_count: 10
     api_count_basis: split
     immediate_parent: microsoft-azure
     name: Azure Database for MySQL
     relationship: product
     score_band: developing
-    score_composite: 51.6
+    score_composite: 51.9
     slug: microsoft-azure-mysql
     source: declared
-  - &id028
+  - &id027
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 9
     api_count_basis: split
     immediate_parent: microsoft-azure
     name: Azure Migrate
     relationship: product
     score_band: developing
-    score_composite: 51.6
+    score_composite: 51.9
     slug: microsoft-azure-migrate
+    source: declared
+  - &id028
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: microsoft-azure
+    name: Azure Container Registry
+    relationship: product
+    score_band: developing
+    score_composite: 50.7
+    slug: azure-container-registry
     source: declared
   - &id029
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.7
+    agent_score: 22.7
     api_count: 11
     api_count_basis: split
     immediate_parent: microsoft-azure
     name: Azure Maps
     relationship: product
     score_band: developing
-    score_composite: 49.6
+    score_composite: 49.9
     slug: microsoft-azure-maps
     source: declared
   - &id030
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
-    api_count: 2
-    api_count_basis: published
+    agent_score: 19.8
+    api_count: 10
+    api_count_basis: split
     immediate_parent: microsoft-azure
-    name: Azure Container Registry
+    name: Azure Virtual Machines
     relationship: product
     score_band: developing
-    score_composite: 49.4
-    slug: azure-container-registry
+    score_composite: 49.9
+    slug: microsoft-azure-virtual-machines
     source: declared
   - &id031
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.9
+    agent_score: 26.3
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: microsoft-azure
+    name: Azure Logic Apps
+    relationship: product
+    score_band: developing
+    score_composite: 49.7
+    slug: azure-logic-apps
+    source: declared
+  - &id032
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 22.5
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -447,23 +460,10 @@ member_bands:
     score_composite: 49.1
     slug: microsoft-azure-web-pubsub
     source: declared
-  - &id032
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 24.7
-    api_count: 3
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Azure Storage Accounts
-    relationship: product
-    score_band: developing
-    score_composite: 48.6
-    slug: azure-storage-accounts
-    source: declared
   - &id033
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -476,7 +476,7 @@ member_bands:
   - &id034
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -489,20 +489,20 @@ member_bands:
   - &id035
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.7
+    agent_score: 26.3
     api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
-    name: Azure Logic Apps
+    name: Azure Storage Accounts
     relationship: product
     score_band: developing
-    score_composite: 48.3
-    slug: azure-logic-apps
+    score_composite: 48.0
+    slug: azure-storage-accounts
     source: declared
   - &id036
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 6
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -515,8 +515,8 @@ member_bands:
   - &id037
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
-    api_count: 2
+    agent_score: 24.6
+    api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure DevTest Labs
@@ -528,7 +528,7 @@ member_bands:
   - &id038
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -541,7 +541,7 @@ member_bands:
   - &id039
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -554,7 +554,7 @@ member_bands:
   - &id040
     acquired: null
     agent_band: agent-aware
-    agent_score: 27.8
+    agent_score: 28.2
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -567,7 +567,7 @@ member_bands:
   - &id041
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -580,7 +580,20 @@ member_bands:
   - &id042
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 23.7
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: microsoft-azure
+    name: Microsoft Azure AI Foundry
+    relationship: product
+    score_band: developing
+    score_composite: 44.3
+    slug: azure-ai-foundry
+    source: declared
+  - &id043
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -590,10 +603,10 @@ member_bands:
     score_composite: 44.1
     slug: microsoft-azure-postgresql
     source: declared
-  - &id043
+  - &id044
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -603,10 +616,10 @@ member_bands:
     score_composite: 44.0
     slug: microsoft-azure-advisor
     source: declared
-  - &id044
+  - &id045
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -616,10 +629,10 @@ member_bands:
     score_composite: 44.0
     slug: microsoft-azure-app-service
     source: declared
-  - &id045
+  - &id046
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.8
+    agent_score: 23.4
     api_count: 2
     api_count_basis: published
     immediate_parent: microsoft-azure
@@ -629,23 +642,10 @@ member_bands:
     score_composite: 43.0
     slug: microsoft-azure-openai
     source: declared
-  - &id046
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 22.9
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Microsoft Azure AI Foundry
-    relationship: product
-    score_band: developing
-    score_composite: 43.0
-    slug: azure-ai-foundry
-    source: declared
   - &id047
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -658,7 +658,7 @@ member_bands:
   - &id048
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -671,20 +671,20 @@ member_bands:
   - &id049
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 19.0
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
-    name: Azure Site Recovery
+    name: Azure Event Grid
     relationship: product
     score_band: developing
-    score_composite: 42.4
-    slug: microsoft-azure-site-recovery
+    score_composite: 41.8
+    slug: azure-event-grid
     source: declared
   - &id050
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 6
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -697,7 +697,7 @@ member_bands:
   - &id051
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 5
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -710,7 +710,7 @@ member_bands:
   - &id052
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -723,26 +723,52 @@ member_bands:
   - &id053
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.3
+    agent_score: 19.6
+    api_count: 3
+    api_count_basis: split
+    immediate_parent: microsoft-azure
+    name: Azure Site Recovery
+    relationship: product
+    score_band: developing
+    score_composite: 39.7
+    slug: microsoft-azure-site-recovery
+    source: declared
+  - &id054
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.0
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
-    name: Azure Event Grid
+    name: Azure Files
     relationship: product
     score_band: developing
-    score_composite: 40.4
-    slug: azure-event-grid
+    score_composite: 39.4
+    slug: azure-file-storage
     source: declared
   label: Developing
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 14
+  count: 13
   items:
-  - &id054
+  - &id055
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: microsoft-azure
+    name: Azure Cosmos DB
+    relationship: product
+    score_band: thin
+    score_composite: 39.2
+    slug: azure-cosmos-db
+    source: declared
+  - &id056
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -752,10 +778,10 @@ member_bands:
     score_composite: 38.3
     slug: microsoft-azure-notification-hubs
     source: declared
-  - &id055
+  - &id057
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -765,10 +791,10 @@ member_bands:
     score_composite: 38.0
     slug: microsoft-azure-arc
     source: declared
-  - &id056
+  - &id058
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -778,36 +804,10 @@ member_bands:
     score_composite: 38.0
     slug: microsoft-azure-bastion
     source: declared
-  - &id057
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 17.3
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Azure Files
-    relationship: product
-    score_band: thin
-    score_composite: 38.0
-    slug: azure-file-storage
-    source: declared
-  - &id058
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 17.3
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-azure
-    name: Azure Cosmos DB
-    relationship: product
-    score_band: thin
-    score_composite: 37.9
-    slug: azure-cosmos-db
-    source: declared
   - &id059
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -820,7 +820,7 @@ member_bands:
   - &id060
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -833,7 +833,7 @@ member_bands:
   - &id061
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -846,7 +846,7 @@ member_bands:
   - &id062
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -859,7 +859,7 @@ member_bands:
   - &id063
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -872,7 +872,7 @@ member_bands:
   - &id064
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 2
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -885,7 +885,7 @@ member_bands:
   - &id065
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -898,7 +898,7 @@ member_bands:
   - &id066
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 3
     api_count_basis: split
     immediate_parent: microsoft-azure
@@ -911,14 +911,14 @@ member_bands:
   - &id067
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.5
+    agent_score: 26.1
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-azure
     name: Azure AI Document Intelligence
     relationship: product
     score_band: thin
-    score_composite: 31.5
+    score_composite: 32.9
     slug: azure-document-intelligence
     source: declared
   label: Thin
@@ -1040,7 +1040,7 @@ permalink: /estates/microsoft-azure/
 slug: microsoft-azure
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure/apis.yml
 subfamilies: []
 tags:
 - Microsoft Azure

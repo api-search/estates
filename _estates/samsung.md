@@ -8,19 +8,19 @@ description: Samsung Electronics is a global technology leader offering develope
   provides REST APIs, SDKs, and tools that enable developers to create connected experiences for hundreds
   of millions of Galaxy devices and Samsung smart home products worldwide.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 3.8
-  composite_avg: 12.7
+  composite_avg: 12.8
   composite_band: emerging
   composite_raw: 1.3
   developing: 0
   exemplar: 0
-  rating: 10.2
+  rating: 10.3
   scored: 3
   spread: 3.8
   strength: 0
@@ -95,7 +95,7 @@ permalink: /estates/samsung/
 slug: samsung
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/samsung/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

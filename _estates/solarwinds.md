@@ -7,19 +7,19 @@ description: SolarWinds provides a comprehensive suite of APIs enabling programm
   management, server and application monitoring, and more, allowing customers to integrate SolarWinds
   capabilities into their own tools and workflows.
 estate_rating:
-  agent_avg: 9.9
-  agent_band: minimal
+  agent_avg: 10.5
+  agent_band: emerging
   agent_native: 0
-  agent_raw: 9.5
+  agent_raw: 10.3
   agent_ready: 1
   band: emerging
   best: 53.7
-  composite_avg: 19.0
+  composite_avg: 19.1
   composite_band: emerging
   composite_raw: 17.9
   developing: 1
   exemplar: 0
-  rating: 15.4
+  rating: 15.7
   scored: 3
   spread: 53.7
   strength: 1
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 28.6
+    agent_score: 30.8
     api_count: 1
     api_count_basis: published
     immediate_parent: solarwinds
@@ -100,7 +100,7 @@ permalink: /estates/solarwinds/
 slug: solarwinds
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/solarwinds/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

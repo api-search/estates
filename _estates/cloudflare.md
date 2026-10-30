@@ -1,22 +1,22 @@
 ---
-api_total: 7
+api_total: 6
 category: Estates
 description: Cloudflare is a global network designed to make everything you connect to the Internet secure,
   private, fast, and reliable.
 estate_rating:
-  agent_avg: 12.3
+  agent_avg: 12.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.0
+  agent_raw: 15.1
   agent_ready: 0
   band: emerging
   best: 35.9
-  composite_avg: 23.0
+  composite_avg: 23.2
   composite_band: emerging
-  composite_raw: 27.2
+  composite_raw: 27.4
   developing: 0
   exemplar: 0
-  rating: 18.7
+  rating: 19.0
   scored: 4
   spread: 24.6
   strength: 0
@@ -48,20 +48,20 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.2
-    api_count: 2
+    agent_score: 25.3
+    api_count: 1
     api_count_basis: published
     immediate_parent: cloudflare
     name: Cloudflare R2
     relationship: product
     score_band: thin
-    score_composite: 35.0
+    score_composite: 35.8
     slug: cloudflare-r2
     source: declared
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 1
     api_count_basis: published
     immediate_parent: cloudflare
@@ -111,7 +111,7 @@ permalink: /estates/cloudflare/
 slug: cloudflare
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

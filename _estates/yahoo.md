@@ -14,19 +14,19 @@ description: Yahoo is a consumer internet and advertising-technology company ope
   client-credentials JWT flow. Yahoo publishes no OpenAPI for any of these surfaces, distributing a public
   Postman collection and an llms.txt documentation index instead.
 estate_rating:
-  agent_avg: 3.6
+  agent_avg: 3.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: minimal
   best: 20.6
-  composite_avg: 8.6
+  composite_avg: 8.7
   composite_band: minimal
   composite_raw: 2.5
   developing: 0
   exemplar: 0
-  rating: 6.6
+  rating: 6.7
   scored: 9
   spread: 20.6
   strength: 0
@@ -211,7 +211,7 @@ permalink: /estates/yahoo/
 slug: yahoo
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/yahoo/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -1,25 +1,25 @@
 ---
-api_total: 94
+api_total: 93
 category: Estates
 description: Collection of SAP's enterprise APIs for business applications and cloud services.
 estate_rating:
-  agent_avg: 18.6
+  agent_avg: 19.5
   agent_band: emerging
   agent_native: 0
-  agent_raw: 20.4
-  agent_ready: 6
+  agent_raw: 21.3
+  agent_ready: 7
   band: thin
   best: 66.5
-  composite_avg: 30.7
+  composite_avg: 32.3
   composite_band: thin
-  composite_raw: 33.0
-  developing: 8
+  composite_raw: 34.8
+  developing: 9
   exemplar: 1
-  rating: 25.9
-  scored: 24
+  rating: 27.2
+  scored: 25
   spread: 66.5
-  strength: 11
-  strong: 0
+  strength: 14
+  strong: 1
   worst: 0.0
 estate_root: null
 estate_root_name: null
@@ -34,8 +34,8 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.8
-    api_count: 27
+    agent_score: 35.9
+    api_count: 25
     api_count_basis: published
     immediate_parent: sap
     name: SAP Emarsys
@@ -46,27 +46,59 @@ member_bands:
     source: parent-company-property
   label: Exemplar
   open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 8
+- band: strong
+  blurb: Solid coverage with minor gaps
+  count: 1
   items:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 28.3
+    agent_score: 21.5
+    api_count: 1
+    api_count_basis: split
+    immediate_parent: sap
+    name: Dremiocorporation
+    relationship: product
+    score_band: strong
+    score_composite: 57.2
+    slug: dremiocorporation
+    source: prose
+  label: Strong
+  open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 9
+  items:
+  - &id003
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 30.5
     api_count: 2
     api_count_basis: published
     immediate_parent: sap
     name: SAP BRIM (Billing and Revenue Innovation Management)
     relationship: product
     score_band: developing
-    score_composite: 52.0
+    score_composite: 53.4
     slug: sap-brim-billing-and-revenue-innovation-management
     source: declared
-  - &id003
+  - &id004
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 28.4
+    api_count: 4
+    api_count_basis: published
+    immediate_parent: sap
+    name: SAP BI Tools
+    relationship: product
+    score_band: developing
+    score_composite: 52.6
+    slug: sap-bi-tools
+    source: declared
+  - &id005
     acquired: null
     agent_band: agent-ready
-    agent_score: 53.8
+    agent_score: 54.8
     api_count: 1
     api_count_basis: published
     immediate_parent: sap
@@ -76,49 +108,49 @@ member_bands:
     score_composite: 51.3
     slug: priorlabs
     source: prose
-  - &id004
+  - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 4
-    api_count_basis: published
-    immediate_parent: sap
-    name: SAP BI Tools
-    relationship: product
-    score_band: developing
-    score_composite: 51.2
-    slug: sap-bi-tools
-    source: declared
-  - &id005
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 23.8
+    agent_score: 25.4
     api_count: 17
     api_count_basis: published
     immediate_parent: sap
     name: SAP Sales and Distribution (SD)
     relationship: product
     score_band: developing
-    score_composite: 46.9
+    score_composite: 48.2
     slug: sap-sales-and-distribution-sd
     source: declared
-  - &id006
+  - &id007
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 22.4
     api_count: 2
     api_count_basis: published
     immediate_parent: sap
     name: SAP Integration Suite
     relationship: product
     score_band: developing
-    score_composite: 46.6
+    score_composite: 47.9
     slug: sap-integration-suite
     source: declared
-  - &id007
+  - &id008
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 23.3
+    api_count: 5
+    api_count_basis: published
+    immediate_parent: sap
+    name: SAP Commerce Cloud
+    relationship: product
+    score_band: developing
+    score_composite: 44.7
+    slug: sap-commerce-cloud
+    source: declared
+  - &id009
     acquired: null
     agent_band: agent-ready
-    agent_score: 36.4
+    agent_score: 37.8
     api_count: 6
     api_count_basis: published
     immediate_parent: sap
@@ -128,52 +160,52 @@ member_bands:
     score_composite: 44.0
     slug: ariba
     source: declared
-  - &id008
+  - &id010
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.5
-    api_count: 5
-    api_count_basis: published
-    immediate_parent: sap
-    name: SAP Commerce Cloud
-    relationship: product
-    score_band: developing
-    score_composite: 43.1
-    slug: sap-commerce-cloud
-    source: declared
-  - &id009
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 23.7
+    agent_score: 25.3
     api_count: 1
     api_count_basis: published
     immediate_parent: sap
     name: Sybase
     relationship: acquisition
     score_band: developing
-    score_composite: 40.9
+    score_composite: 42.3
     slug: sybase
     source: declared
-  label: Developing
-  open: false
-- band: thin
-  blurb: Limited public surface area
-  count: 8
-  items:
-  - &id010
+  - &id011
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 22.4
     api_count: 1
     api_count_basis: published
     immediate_parent: sap
     name: SAP API Management
     relationship: product
-    score_band: thin
-    score_composite: 38.5
+    score_band: developing
+    score_composite: 39.9
     slug: sap-api-management
     source: declared
-  - &id011
+  label: Developing
+  open: false
+- band: thin
+  blurb: Limited public surface area
+  count: 7
+  items:
+  - &id012
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 31.9
+    api_count: 5
+    api_count_basis: published
+    immediate_parent: sap
+    name: SAP Fieldglass
+    relationship: product
+    score_band: thin
+    score_composite: 37.8
+    slug: sap-fieldglass
+    source: declared
+  - &id013
     acquired: null
     agent_band: agent-aware
     agent_score: 7.9
@@ -186,59 +218,59 @@ member_bands:
     score_composite: 36.5
     slug: sap-bw
     source: declared
-  - &id012
+  - &id014
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.6
-    api_count: 5
-    api_count_basis: published
-    immediate_parent: sap
-    name: SAP Fieldglass
-    relationship: product
-    score_band: thin
-    score_composite: 36.4
-    slug: sap-fieldglass
-    source: declared
-  - &id013
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 31.6
+    agent_score: 33.0
     api_count: 3
     api_count_basis: split
     immediate_parent: ariba
     name: Ariba Sourcing
     relationship: product
     score_band: thin
-    score_composite: 33.6
+    score_composite: 34.9
     slug: ariba-sourcing
     source: declared
-  - &id014
+  - &id015
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 22.4
     api_count: 1
     api_count_basis: published
     immediate_parent: sap
     name: SAP Business ByDesign
     relationship: product
     score_band: thin
-    score_composite: 33.5
+    score_composite: 34.9
     slug: sap-bydesign
     source: declared
-  - &id015
+  - &id016
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.6
+    agent_score: 31.9
     api_count: 2
     api_count_basis: split
     immediate_parent: sap
     name: Ariba Guided Buying
     relationship: acquisition
     score_band: thin
-    score_composite: 32.6
+    score_composite: 34.0
     slug: ariba-guided-buying
     source: declared
-  - &id016
+  - &id017
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.0
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: sap
+    name: SAP Business One
+    relationship: product
+    score_band: thin
+    score_composite: 31.5
+    slug: sap-business-one
+    source: declared
+  - &id018
     acquired: null
     agent_band: agent-aware
     agent_score: 13.3
@@ -251,39 +283,26 @@ member_bands:
     score_composite: 31.5
     slug: taulia
     source: prose
-  - &id017
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 17.3
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: sap
-    name: SAP Business One
-    relationship: product
-    score_band: thin
-    score_composite: 30.2
-    slug: sap-business-one
-    source: declared
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
   count: 4
   items:
-  - &id018
+  - &id019
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.7
+    agent_score: 24.3
     api_count: 1
     api_count_basis: published
     immediate_parent: sap
     name: SAP SuccessFactors
     relationship: product
     score_band: emerging
-    score_composite: 23.1
+    score_composite: 24.5
     slug: sap-successfactors
     source: declared
-  - &id019
+  - &id020
     acquired: null
     agent_band: agent-aware
     agent_score: 13.6
@@ -293,10 +312,10 @@ member_bands:
     name: SAP Business Technology Platform
     relationship: product
     score_band: emerging
-    score_composite: 22.1
+    score_composite: 23.5
     slug: sap-btp
     source: declared
-  - &id020
+  - &id021
     acquired: null
     agent_band: agent-aware
     agent_score: 6.5
@@ -309,7 +328,7 @@ member_bands:
     score_composite: 18.5
     slug: gigya
     source: parent-company-property
-  - &id021
+  - &id022
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -319,7 +338,7 @@ member_bands:
     name: SAP America
     relationship: product
     score_band: emerging
-    score_composite: 13.1
+    score_composite: 14.5
     slug: sap-america
     source: declared
   label: Emerging
@@ -328,7 +347,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 3
   items:
-  - &id022
+  - &id023
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -341,7 +360,7 @@ member_bands:
     score_composite: 0.0
     slug: cubetree
     source: parent-company-property
-  - &id023
+  - &id024
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -354,7 +373,7 @@ member_bands:
     score_composite: 0.0
     slug: outlooksoft
     source: parent-company-property
-  - &id024
+  - &id025
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -369,8 +388,8 @@ member_bands:
     source: parent-company-property
   label: Minimal
   open: false
-member_on_network: 24
-member_total: 24
+member_on_network: 25
+member_total: 25
 members:
 - *id001
 - *id002
@@ -396,27 +415,28 @@ members:
 - *id022
 - *id023
 - *id024
+- *id025
 members_unrated: []
 name: SAP
-overview: 'SAP publishes its API surface across 24 provider profiles indexed on the APIs.io network, of
-  which 24 carry a rating. The rated members span 66.5 points, from 66.5 down to 0.0.
+overview: 'SAP publishes its API surface across 25 provider profiles indexed on the APIs.io network, of
+  which 25 carry a rating. The rated members span 66.5 points, from 66.5 down to 0.0.
 
 
-  Its highest-rated surfaces are SAP Emarsys, SAP BRIM (Billing and Revenue Innovation Management), Prior
-  Labs, SAP BI Tools, SAP Sales and Distribution (SD).'
+  Its highest-rated surfaces are SAP Emarsys, Dremiocorporation, SAP BRIM (Billing and Revenue Innovation
+  Management), SAP BI Tools, Prior Labs.'
 parent_provider: sap
 permalink: /estates/sap/
 slug: sap
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/sap/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1
   members:
   - name: Ariba Sourcing
     score_band: thin
-    score_composite: 33.6
+    score_composite: 34.9
     slug: ariba-sourcing
   name: Ariba
   on_network: true

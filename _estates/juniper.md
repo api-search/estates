@@ -6,21 +6,21 @@ description: Juniper Networks (an HPE company since 2025) builds AI-native netwo
   spans the Mist cloud API (1,059 REST operations), Apstra data-center automation, Junos device automation
   over NETCONF/YANG, Junos Telemetry Interface gRPC streaming, and three first-party MCP servers.
 estate_rating:
-  agent_avg: 12.2
+  agent_avg: 12.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 13.8
-  agent_ready: 1
+  agent_raw: 14.5
+  agent_ready: 2
   band: emerging
-  best: 60.2
-  composite_avg: 22.7
+  best: 60.3
+  composite_avg: 22.8
   composite_band: emerging
-  composite_raw: 25.2
+  composite_raw: 25.3
   developing: 1
   exemplar: 0
-  rating: 18.5
+  rating: 18.8
   scored: 6
-  spread: 60.2
+  spread: 60.3
   strength: 3
   strong: 1
   worst: 0.0
@@ -37,14 +37,14 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.3
+    agent_score: 31.5
     api_count: 1
     api_count_basis: published
     immediate_parent: juniper
     name: Mist
     relationship: product
     score_band: strong
-    score_composite: 60.2
+    score_composite: 60.3
     slug: mist
     source: parent-company-property
   label: Strong
@@ -55,8 +55,8 @@ member_bands:
   items:
   - &id002
     acquired: null
-    agent_band: agent-aware
-    agent_score: 28.4
+    agent_band: agent-ready
+    agent_score: 30.6
     api_count: 1
     api_count_basis: published
     immediate_parent: juniper
@@ -144,7 +144,7 @@ members:
 members_unrated: []
 name: Juniper Networks
 overview: 'Juniper Networks publishes its API surface across 6 provider profiles indexed on the APIs.io
-  network, of which 6 carry a rating. The rated members span 60.2 points, from 60.2 down to 0.0.
+  network, of which 6 carry a rating. The rated members span 60.3 points, from 60.3 down to 0.0.
 
 
   Its highest-rated surfaces are Mist, Juniper Mist AI, 128 Technology, BTI Systems (Juniper), Argon Networks.'
@@ -153,7 +153,7 @@ permalink: /estates/juniper/
 slug: juniper
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/juniper/apis.yml
 subfamilies: []
 tags:
 - Artificial Intelligence

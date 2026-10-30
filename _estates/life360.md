@@ -7,24 +7,25 @@ description: Life360 is a family safety platform built around a location-sharing
   as identity theft protection and dark web monitoring. Its hardware line, following the acquisitions
   of Tile and Jiobit, spans Tile Mate, Pro, Slim and Sticker Bluetooth item trackers and a cellular GPS
   pet tracker, sold direct and through Amazon, Best Buy, Target and Walmart. The service is sold as Free,
-  Silver, Gold and Platinum membership tiers. Life360 publishes no public developer API, no OpenAPI, no
-  SDKs and no developer portal — its only machine-readable surface is an agent-facing one (llms.txt, an
-  ai-plugin manifest whose advertised OpenAPI does not resolve, and Content-Signal directives in robots.txt).
-  This profile is maintained in the API Evangelist network for company discovery and monitoring.
+  Silver, Gold and Platinum membership tiers. Life360 publishes no developer portal, no SDKs and no partner/location
+  API — its only machine-readable surface is an agent-facing one (llms.txt, an ai-plugin manifest whose
+  advertised OpenAPI (a 4-operation product-catalog spec at www.life360.com/openapi-spec.json) resolves,
+  and Content-Signal directives in robots.txt). This profile is maintained in the API Evangelist network
+  for company discovery and monitoring.
 estate_rating:
-  agent_avg: 7.5
+  agent_avg: 7.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.1
   agent_ready: 0
   band: emerging
   best: 43.6
-  composite_avg: 20.6
+  composite_avg: 20.7
   composite_band: emerging
   composite_raw: 22.4
   developing: 1
   exemplar: 0
-  rating: 15.4
+  rating: 15.5
   scored: 3
   spread: 33.3
   strength: 1
@@ -111,7 +112,7 @@ permalink: /estates/life360/
 slug: life360
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/life360/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/life360/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

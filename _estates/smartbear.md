@@ -1,5 +1,5 @@
 ---
-api_total: 17
+api_total: 14
 category: Estates
 description: SmartBear is a software company that provides AI-powered tools for API lifecycle management
   including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub
@@ -8,19 +8,19 @@ description: SmartBear is a software company that provides AI-powered tools for 
   manage API definitions, automate lifecycle workflows, and integrate SwaggerHub with CI/CD pipelines
   and third-party services.
 estate_rating:
-  agent_avg: 14.9
+  agent_avg: 15.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 17.8
+  agent_raw: 18.3
   agent_ready: 2
   band: thin
   best: 76.9
-  composite_avg: 34.0
+  composite_avg: 34.1
   composite_band: thin
   composite_raw: 43.0
   developing: 2
   exemplar: 2
-  rating: 26.4
+  rating: 26.6
   scored: 8
   spread: 64.4
   strength: 10
@@ -39,7 +39,7 @@ member_bands:
   - &id001
     acquired: 2021
     agent_band: agent-ready
-    agent_score: 52.2
+    agent_score: 53.1
     api_count: 5
     api_count_basis: published
     immediate_parent: smartbear
@@ -52,8 +52,8 @@ member_bands:
   - &id002
     acquired: 2023
     agent_band: agent-ready
-    agent_score: 31.5
-    api_count: 2
+    agent_score: 32.9
+    api_count: 1
     api_count_basis: published
     immediate_parent: smartbear
     name: Stoplight
@@ -71,14 +71,14 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.7
-    api_count: 5
+    agent_score: 22.5
+    api_count: 3
     api_count_basis: published
     immediate_parent: swagger
     name: Swagger Codegen
     relationship: product
     score_band: strong
-    score_composite: 56.2
+    score_composite: 55.7
     slug: swagger-codegen
     source: declared
   label: Strong
@@ -90,7 +90,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 2
     api_count_basis: published
     immediate_parent: smartbear
@@ -110,7 +110,7 @@ member_bands:
     name: Reflect
     relationship: acquisition
     score_band: developing
-    score_composite: 41.3
+    score_composite: 41.5
     slug: reflect
     source: declared
   label: Developing
@@ -203,7 +203,7 @@ permalink: /estates/smartbear/
 slug: smartbear
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/smartbear/apis.yml
 subfamilies:
 - has_page: false
   member_count: 2
@@ -225,7 +225,7 @@ subfamilies:
   members:
   - name: Swagger Codegen
     score_band: strong
-    score_composite: 56.2
+    score_composite: 55.7
     slug: swagger-codegen
   name: swagger
   on_network: true

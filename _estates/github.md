@@ -4,19 +4,19 @@ category: Estates
 description: The GitHub REST API allows developers to programmatically interact with GitHub resources
   including repositories, users, organizations, pull requests, issues, and more.
 estate_rating:
-  agent_avg: 15.7
+  agent_avg: 16.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 18.2
+  agent_raw: 19.5
   agent_ready: 2
   band: emerging
   best: 81.3
-  composite_avg: 28.3
+  composite_avg: 28.5
   composite_band: thin
-  composite_raw: 32.2
+  composite_raw: 32.5
   developing: 2
   exemplar: 2
-  rating: 23.3
+  rating: 23.8
   scored: 11
   spread: 81.3
   strength: 8
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 50.0
+    agent_score: 48.3
     api_count: 1
     api_count_basis: published
     immediate_parent: github
@@ -48,7 +48,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 46.0
+    agent_score: 49.0
     api_count: 1
     api_count_basis: published
     immediate_parent: github
@@ -67,20 +67,20 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.0
+    agent_score: 21.9
     api_count: 2
     api_count_basis: published
     immediate_parent: github
     name: NuGet
     relationship: product
     score_band: developing
-    score_composite: 49.3
+    score_composite: 50.5
     slug: nuget
     source: declared
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.7
+    agent_score: 27.1
     api_count: 1
     api_count_basis: published
     immediate_parent: github
@@ -99,7 +99,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 21.3
     api_count: 1
     api_count_basis: published
     immediate_parent: github
@@ -112,14 +112,14 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.7
+    agent_score: 25.7
     api_count: 8
     api_count_basis: split
     immediate_parent: github
     name: Microsoft Package
     relationship: product
     score_band: thin
-    score_composite: 31.9
+    score_composite: 33.3
     slug: microsoft-package
     source: declared
   label: Thin
@@ -131,7 +131,7 @@ member_bands:
   - &id007
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.3
+    agent_score: 20.1
     api_count: 1
     api_count_basis: published
     immediate_parent: github
@@ -227,7 +227,7 @@ permalink: /estates/github/
 slug: github
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/github/apis.yml
 subfamilies: []
 tags:
 - Code
@@ -238,6 +238,5 @@ tags:
 - Version Control
 - T1
 - GitHub
-- Git
 title: GitHub
 ---

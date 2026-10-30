@@ -6,7 +6,7 @@ description: Nvidia is a Fortune 500 company that provides developer APIs and in
   and inference, and graphics. The platform includes APIs for CUDA, TensorRT, Omniverse, and cloud GPU
   services.
 estate_rating:
-  agent_avg: 5.9
+  agent_avg: 6.0
   agent_band: minimal
   agent_native: 0
   agent_raw: 3.8
@@ -18,7 +18,7 @@ estate_rating:
   composite_raw: 7.9
   developing: 1
   exemplar: 0
-  rating: 9.4
+  rating: 9.5
   scored: 10
   spread: 43.6
   strength: 1
@@ -37,7 +37,7 @@ member_bands:
   - &id001
     acquired: 2024
     agent_band: agent-aware
-    agent_score: 27.5
+    agent_score: 27.0
     api_count: 1
     api_count_basis: published
     immediate_parent: nvidia
@@ -173,7 +173,7 @@ member_bands:
   label: Minimal
   open: false
 member_on_network: 10
-member_total: 10
+member_total: 11
 members:
 - *id001
 - *id002
@@ -185,9 +185,15 @@ members:
 - *id008
 - *id009
 - *id010
-members_unrated: []
+members_unrated:
+- acquired: null
+  immediate_parent: nvidia
+  name: illumex
+  relationship: acquisition
+  slug: illumex-ai
+  source: prose
 name: Nvidia
-overview: 'Nvidia publishes its API surface across 10 provider profiles indexed on the APIs.io network,
+overview: 'Nvidia publishes its API surface across 11 provider profiles indexed on the APIs.io network,
   of which 10 carry a rating. The rated members span 43.6 points, from 43.6 down to 0.0.
 
 
@@ -197,7 +203,7 @@ permalink: /estates/nvidia/
 slug: nvidia
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvidia/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/nvidia/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -8,19 +8,19 @@ description: Visa is a global payment technology company that facilitates electr
   The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account
   validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.
 estate_rating:
-  agent_avg: 11.9
+  agent_avg: 12.4
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.0
+  agent_raw: 14.6
   agent_ready: 1
   band: emerging
   best: 63.8
-  composite_avg: 21.7
+  composite_avg: 22.0
   composite_band: emerging
-  composite_raw: 24.4
+  composite_raw: 24.8
   developing: 0
   exemplar: 0
-  rating: 17.8
+  rating: 18.2
   scored: 4
   spread: 61.9
   strength: 2
@@ -39,7 +39,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 38.2
+    agent_score: 39.5
     api_count: 2
     api_count_basis: published
     immediate_parent: visa
@@ -51,24 +51,24 @@ member_bands:
     source: prose
   label: Strong
   open: true
-- band: emerging
-  blurb: Early or largely undocumented
+- band: thin
+  blurb: Limited public surface area
   count: 1
   items:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 1
     api_count_basis: published
     immediate_parent: visa
     name: Pismo
     relationship: acquisition
-    score_band: emerging
-    score_composite: 25.2
+    score_band: thin
+    score_composite: 26.5
     slug: pismo
     source: prose
-  label: Emerging
+  label: Thin
   open: false
 - band: minimal
   blurb: Almost no public developer surface
@@ -121,7 +121,7 @@ permalink: /estates/visa/
 slug: visa
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/visa/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

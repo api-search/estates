@@ -12,16 +12,16 @@ estate_rating:
   agent_avg: 11.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 13.2
+  agent_raw: 12.5
   agent_ready: 1
   band: emerging
   best: 68.9
-  composite_avg: 25.8
+  composite_avg: 25.9
   composite_band: thin
   composite_raw: 36.1
   developing: 0
   exemplar: 1
-  rating: 20.0
+  rating: 20.1
   scored: 3
   spread: 61.3
   strength: 3
@@ -40,7 +40,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 39.7
+    agent_score: 37.6
     api_count: 146
     api_count_basis: published
     immediate_parent: instructure
@@ -108,7 +108,7 @@ permalink: /estates/instructure/
 slug: instructure
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/instructure/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

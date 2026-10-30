@@ -1,5 +1,5 @@
 ---
-api_total: 25
+api_total: 24
 category: Estates
 description: LexisNexis is a global provider of legal, regulatory, and business information and analytics.
   Through the LexisNexis Developer Portal and LexisNexis Risk Solutions, partners can integrate access
@@ -7,19 +7,19 @@ description: LexisNexis is a global provider of legal, regulatory, and business 
   applications. Most LexisNexis APIs are partner-access only and require contractual agreements before
   credentials and OpenAPI specifications are released.
 estate_rating:
-  agent_avg: 14.2
+  agent_avg: 14.4
   agent_band: emerging
   agent_native: 0
   agent_raw: 18.3
-  agent_ready: 1
+  agent_ready: 2
   band: emerging
   best: 51.7
-  composite_avg: 23.4
+  composite_avg: 23.8
   composite_band: emerging
-  composite_raw: 27.2
+  composite_raw: 27.8
   developing: 1
   exemplar: 0
-  rating: 19.7
+  rating: 20.0
   scored: 5
   spread: 48.0
   strength: 1
@@ -37,8 +37,8 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-aware
-    agent_score: 28.2
+    agent_band: agent-ready
+    agent_score: 28.7
     api_count: 15
     api_count_basis: published
     immediate_parent: lexisnexis-risk-solutions
@@ -70,14 +70,14 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 47.1
-    api_count: 2
+    agent_score: 46.6
+    api_count: 1
     api_count_basis: published
     immediate_parent: lexisnexis
     name: Lex Machina
     relationship: acquisition
     score_band: thin
-    score_composite: 29.8
+    score_composite: 31.2
     slug: lex-machina
     source: declared
   label: Thin
@@ -96,7 +96,7 @@ member_bands:
     name: Henchman
     relationship: product
     score_band: emerging
-    score_composite: 15.6
+    score_composite: 17.3
     slug: henchman
     source: parent-company-property
   label: Emerging
@@ -140,7 +140,7 @@ permalink: /estates/lexisnexis/
 slug: lexisnexis
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lexisnexis/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/lexisnexis/apis.yml
 subfamilies:
 - has_page: false
   member_count: 2

@@ -6,19 +6,19 @@ description: Verizon is a leading telecommunications company providing wireless,
   5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform
   APIs for contact center and SMS solutions.
 estate_rating:
-  agent_avg: 8.2
+  agent_avg: 8.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.6
+  agent_raw: 6.8
   agent_ready: 1
   band: emerging
   best: 44.6
-  composite_avg: 16.6
+  composite_avg: 16.7
   composite_band: emerging
   composite_raw: 14.1
   developing: 1
   exemplar: 0
-  rating: 13.2
+  rating: 13.4
   scored: 6
   spread: 44.6
   strength: 1
@@ -37,7 +37,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.7
+    agent_score: 36.1
     api_count: 1
     api_count_basis: published
     immediate_parent: verizon
@@ -181,7 +181,7 @@ permalink: /estates/verizon/
 slug: verizon
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/verizon/apis.yml
 subfamilies:
 - has_page: true
   member_count: 4

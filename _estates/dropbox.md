@@ -1,25 +1,25 @@
 ---
-api_total: 3
+api_total: 2
 category: Estates
 description: Dropbox is a file hosting service operated by the American company Dropbox, Inc., headquartered
   in San Francisco, California, U.S. that offers cloud storage, file synchronization, personal cloud,
   and client software.
 estate_rating:
-  agent_avg: 13.0
+  agent_avg: 13.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.3
+  agent_raw: 15.5
   agent_ready: 2
   band: emerging
-  best: 60.2
-  composite_avg: 19.0
+  best: 60.5
+  composite_avg: 19.1
   composite_band: emerging
   composite_raw: 18.6
   developing: 1
   exemplar: 0
-  rating: 16.6
+  rating: 16.8
   scored: 6
-  spread: 60.2
+  spread: 60.5
   strength: 3
   strong: 1
   worst: 0.0
@@ -36,14 +36,14 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 44.8
-    api_count: 2
+    agent_score: 46.0
+    api_count: 1
     api_count_basis: published
     immediate_parent: dropbox
     name: Dropbox Sign (HelloSign)
     relationship: product
     score_band: strong
-    score_composite: 60.2
+    score_composite: 60.5
     slug: hellosign
     source: parent-company-property
   label: Strong
@@ -137,7 +137,7 @@ members:
 members_unrated: []
 name: Dropbox
 overview: 'Dropbox publishes its API surface across 6 provider profiles indexed on the APIs.io network,
-  of which 6 carry a rating. The rated members span 60.2 points, from 60.2 down to 0.0.
+  of which 6 carry a rating. The rated members span 60.5 points, from 60.5 down to 0.0.
 
 
   Its highest-rated surfaces are Dropbox Sign (HelloSign), DocSend, Command E, Clementine, Hackpad.'
@@ -146,7 +146,7 @@ permalink: /estates/dropbox/
 slug: dropbox
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/dropbox/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -8,19 +8,19 @@ description: 'RTX Corporation is a leading American aerospace and defense compan
   software including SPARQL triple stores, NLP frameworks, and TAK ecosystem plugins for government and
   military situational awareness platforms.'
 estate_rating:
-  agent_avg: 8.9
+  agent_avg: 9.3
   agent_band: minimal
   agent_native: 0
-  agent_raw: 8.0
-  agent_ready: 1
+  agent_raw: 8.4
+  agent_ready: 2
   band: emerging
   best: 35.7
-  composite_avg: 15.0
+  composite_avg: 15.6
   composite_band: emerging
-  composite_raw: 11.8
+  composite_raw: 12.6
   developing: 0
   exemplar: 0
-  rating: 12.6
+  rating: 13.1
   scored: 7
   spread: 32.7
   strength: 0
@@ -38,8 +38,8 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-aware
-    agent_score: 27.2
+    agent_band: agent-ready
+    agent_score: 28.8
     api_count: 1
     api_count_basis: published
     immediate_parent: united-technologies
@@ -52,14 +52,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 28.7
+    agent_score: 30.2
     api_count: 3
     api_count_basis: split
     immediate_parent: rtx
     name: United Technologies
     relationship: product
     score_band: thin
-    score_composite: 26.9
+    score_composite: 27.1
     slug: united-technologies
     source: declared
   label: Thin
@@ -74,6 +74,19 @@ member_bands:
     agent_score: 0.0
     api_count: 0
     api_count_basis: split
+    immediate_parent: rtx
+    name: Raytheon
+    relationship: product
+    score_band: minimal
+    score_composite: 9.9
+    slug: raytheon
+    source: declared
+  - &id004
+    acquired: null
+    agent_band: human-only
+    agent_score: 0.0
+    api_count: 0
+    api_count_basis: split
     immediate_parent: rockwell-collins
     name: B/E Aerospace
     relationship: product
@@ -81,19 +94,6 @@ member_bands:
     score_composite: 4.8
     slug: b-e-aerospace
     source: parent-company-property
-  - &id004
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    api_count_basis: split
-    immediate_parent: rtx
-    name: Raytheon
-    relationship: product
-    score_band: minimal
-    score_composite: 4.5
-    slug: raytheon
-    source: declared
   - &id005
     acquired: null
     agent_band: human-only
@@ -151,13 +151,13 @@ overview: 'RTX publishes its API surface across 7 provider profiles indexed on t
   which 7 carry a rating. The rated members span 32.7 points, from 35.7 down to 3.0.
 
 
-  Its highest-rated surfaces are Rockwell Collins, United Technologies, B/E Aerospace, Raytheon, BBN Technologies.'
+  Its highest-rated surfaces are Rockwell Collins, United Technologies, Raytheon, B/E Aerospace, BBN Technologies.'
 parent_provider: rtx
 permalink: /estates/rtx/
 slug: rtx
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/rtx/apis.yml
 subfamilies:
 - has_page: false
   member_count: 2

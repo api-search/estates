@@ -4,19 +4,19 @@ category: Estates
 description: Discover Intel® Trust Authority, the independent attestation service for securing your confidential
   computing workloads.
 estate_rating:
-  agent_avg: 5.4
+  agent_avg: 6.0
   agent_band: minimal
   agent_native: 0
-  agent_raw: 2.5
+  agent_raw: 3.1
   agent_ready: 0
   band: minimal
   best: 26.1
-  composite_avg: 11.8
+  composite_avg: 12.3
   composite_band: emerging
-  composite_raw: 6.9
+  composite_raw: 7.7
   developing: 0
   exemplar: 0
-  rating: 9.2
+  rating: 9.8
   scored: 8
   spread: 26.1
   strength: 0
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.0
+    agent_score: 22.0
     api_count: 1
     api_count_basis: published
     immediate_parent: intel
@@ -67,6 +67,19 @@ member_bands:
   - &id003
     acquired: null
     agent_band: human-only
+    agent_score: 2.9
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: intel
+    name: Mobileye
+    relationship: acquisition
+    score_band: minimal
+    score_composite: 10.4
+    slug: mobileye
+    source: prose
+  - &id004
+    acquired: null
+    agent_band: human-only
     agent_score: 0.0
     api_count: 0
     api_count_basis: split
@@ -76,19 +89,6 @@ member_bands:
     score_band: minimal
     score_composite: 5.6
     slug: habana-labs
-    source: prose
-  - &id004
-    acquired: null
-    agent_band: human-only
-    agent_score: 0.0
-    api_count: 0
-    api_count_basis: split
-    immediate_parent: intel
-    name: Mobileye
-    relationship: acquisition
-    score_band: minimal
-    score_composite: 4.0
-    slug: mobileye
     source: prose
   - &id005
     acquired: null
@@ -161,13 +161,13 @@ overview: 'Intel publishes its API surface across 8 provider profiles indexed on
   of which 8 carry a rating. The rated members span 26.1 points, from 26.1 down to 0.0.
 
 
-  Its highest-rated surfaces are Moovit, Granulate, Habana Labs, Mobileye, Aepona.'
+  Its highest-rated surfaces are Moovit, Granulate, Mobileye, Habana Labs, Aepona.'
 parent_provider: intel
 permalink: /estates/intel/
 slug: intel
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/intel/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

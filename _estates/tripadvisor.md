@@ -7,19 +7,19 @@ description: Tripadvisor is the world's largest travel guidance platform, helpin
   and 29 languages. Tripadvisor provides APIs for content integration, hotel connectivity, and restaurant
   reservations.
 estate_rating:
-  agent_avg: 7.9
+  agent_avg: 8.0
   agent_band: minimal
   agent_native: 0
-  agent_raw: 5.7
+  agent_raw: 5.4
   agent_ready: 0
   band: emerging
   best: 40.5
-  composite_avg: 14.4
+  composite_avg: 14.5
   composite_band: emerging
   composite_raw: 9.2
   developing: 1
   exemplar: 0
-  rating: 11.8
+  rating: 11.9
   scored: 5
   spread: 40.5
   strength: 1
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 28.5
+    agent_score: 27.0
     api_count: 7
     api_count_basis: published
     immediate_parent: tripadvisor
@@ -128,7 +128,7 @@ permalink: /estates/tripadvisor/
 slug: tripadvisor
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/tripadvisor/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

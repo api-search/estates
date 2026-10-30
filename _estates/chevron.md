@@ -10,19 +10,19 @@ description: Chevron Corporation is one of the world's largest integrated energy
   Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability,
   and IR websites.
 estate_rating:
-  agent_avg: 5.6
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: minimal
   best: 3.7
-  composite_avg: 12.1
+  composite_avg: 12.2
   composite_band: emerging
   composite_raw: 2.8
   developing: 0
   exemplar: 0
-  rating: 9.5
+  rating: 9.7
   scored: 4
   spread: 1.8
   strength: 0
@@ -111,7 +111,7 @@ permalink: /estates/chevron/
 slug: chevron
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chevron/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/chevron/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

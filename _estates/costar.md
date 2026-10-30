@@ -1,5 +1,5 @@
 ---
-api_total: 5
+api_total: 4
 category: Estates
 description: CoStar Group is the dominant commercial and residential real estate data, analytics, and
   marketplace company. The portfolio spans the flagship CoStar commercial real estate intelligence platform,
@@ -10,23 +10,23 @@ description: CoStar Group is the dominant commercial and residential real estate
   Group (Australia). Distribution to partners is via enterprise data licensing, syndication feeds, and
   brand-specific marketplace tooling rather than a public self-serve developer portal.
 estate_rating:
-  agent_avg: 10.5
+  agent_avg: 10.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 11.0
+  agent_raw: 11.1
   agent_ready: 1
   band: emerging
-  best: 49.2
-  composite_avg: 22.5
+  best: 58.7
+  composite_avg: 23.7
   composite_band: emerging
-  composite_raw: 26.2
-  developing: 1
+  composite_raw: 28.6
+  developing: 0
   exemplar: 0
-  rating: 17.7
+  rating: 18.5
   scored: 4
-  spread: 35.2
-  strength: 1
-  strong: 0
+  spread: 44.7
+  strength: 2
+  strong: 1
   worst: 14.0
 estate_root: null
 estate_root_name: null
@@ -34,25 +34,25 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/costar.png
 is_subfamily: false
 layout: estate
 member_bands:
-- band: developing
-  blurb: Usable, with meaningful gaps to close
+- band: strong
+  blurb: Solid coverage with minor gaps
   count: 1
   items:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 43.3
-    api_count: 4
+    agent_score: 43.6
+    api_count: 3
     api_count_basis: published
     immediate_parent: costar
     name: Domain Group
     relationship: subsidiary
-    score_band: developing
-    score_composite: 49.2
+    score_band: strong
+    score_composite: 58.7
     slug: domain-group
     source: prose
-  label: Developing
-  open: false
+  label: Strong
+  open: true
 - band: emerging
   blurb: Early or largely undocumented
   count: 3
@@ -108,7 +108,7 @@ members:
 members_unrated: []
 name: CoStar Group
 overview: 'CoStar Group publishes its API surface across 4 provider profiles indexed on the APIs.io network,
-  of which 4 carry a rating. The rated members span 35.2 points, from 49.2 down to 14.0.
+  of which 4 carry a rating. The rated members span 44.7 points, from 58.7 down to 14.0.
 
 
   Its highest-rated surfaces are Domain Group, Homes.com, Apartments.com, LoopNet.'
@@ -117,7 +117,7 @@ permalink: /estates/costar/
 slug: costar
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/costar/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/costar/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -14,19 +14,19 @@ description: 'Everyday Health is a consumer health media brand founded in 2002 a
   and an unusually explicit robots.txt that blocks 107 named AI and agent crawlers site-wide while carving
   out two commercial product-review URLs.'
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 10.9
-  composite_avg: 15.4
+  composite_avg: 15.5
   composite_band: emerging
   composite_raw: 8.3
   developing: 0
   exemplar: 0
-  rating: 11.8
+  rating: 11.9
   scored: 3
   spread: 7.2
   strength: 0
@@ -101,7 +101,7 @@ permalink: /estates/everyday-health/
 slug: everyday-health
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/everyday-health/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/everyday-health/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

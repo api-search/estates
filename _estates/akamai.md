@@ -6,19 +6,19 @@ description: Akamai is a global content delivery network (CDN), cloud services, 
   edge platform spans over 4,000 locations in 130+ countries, enabling customers to accelerate content
   delivery, protect against cyberattacks, and run cloud applications at the edge of the internet.
 estate_rating:
-  agent_avg: 8.9
+  agent_avg: 9.3
   agent_band: minimal
   agent_native: 0
-  agent_raw: 7.8
+  agent_raw: 8.2
   agent_ready: 0
   band: emerging
   best: 36.1
-  composite_avg: 16.2
+  composite_avg: 16.3
   composite_band: emerging
   composite_raw: 13.5
   developing: 0
   exemplar: 0
-  rating: 13.3
+  rating: 13.5
   scored: 6
   spread: 36.1
   strength: 0
@@ -37,7 +37,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 27.3
+    agent_score: 27.9
     api_count: 1
     api_count_basis: published
     immediate_parent: akamai
@@ -50,7 +50,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 18.9
+    agent_score: 20.6
     api_count: 1
     api_count_basis: published
     immediate_parent: akamai
@@ -161,7 +161,7 @@ permalink: /estates/akamai/
 slug: akamai
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/akamai/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

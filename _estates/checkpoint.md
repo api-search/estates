@@ -1,5 +1,5 @@
 ---
-api_total: 48
+api_total: 25
 category: Estates
 description: Check Point Software Technologies is a global cybersecurity vendor providing network, cloud,
   endpoint, mobile, and email security through its Quantum, CloudGuard, and Harmony product families.
@@ -11,16 +11,16 @@ estate_rating:
   agent_avg: 14.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 20.3
+  agent_raw: 19.8
   agent_ready: 1
   band: emerging
   best: 47.3
-  composite_avg: 24.4
+  composite_avg: 24.5
   composite_band: emerging
   composite_raw: 30.4
   developing: 2
   exemplar: 0
-  rating: 20.5
+  rating: 20.6
   scored: 4
   spread: 43.9
   strength: 2
@@ -39,8 +39,8 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.3
-    api_count: 46
+    agent_score: 29.6
+    api_count: 23
     api_count_basis: published
     immediate_parent: checkpoint
     name: CloudGuard
@@ -52,7 +52,7 @@ member_bands:
   - &id002
     acquired: 2018
     agent_band: agent-aware
-    agent_score: 26.1
+    agent_score: 24.7
     api_count: 1
     api_count_basis: published
     immediate_parent: checkpoint
@@ -71,7 +71,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.9
+    agent_score: 24.7
     api_count: 1
     api_count_basis: published
     immediate_parent: checkpoint
@@ -121,7 +121,7 @@ permalink: /estates/checkpoint/
 slug: checkpoint
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/checkpoint/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

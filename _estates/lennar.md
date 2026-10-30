@@ -6,19 +6,19 @@ description: Lennar Corporation is a Fortune 500 company and one of the leading 
   where Lennar developers and partners discover and consume Lennar Corporation APIs. Public OpenAPI artifacts
   have not been observed; access generally requires sign-in and partner approval.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 7.9
-  composite_avg: 13.7
+  composite_avg: 13.8
   composite_band: emerging
   composite_raw: 3.8
   developing: 0
   exemplar: 0
-  rating: 10.8
+  rating: 10.9
   scored: 3
   spread: 7.9
   strength: 0
@@ -93,7 +93,7 @@ permalink: /estates/lennar/
 slug: lennar
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/lennar/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

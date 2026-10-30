@@ -8,19 +8,19 @@ description: Johnson & Johnson is a multinational pharmaceutical and medical dev
   health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked
   in a separate kenvue index.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 11.1
-  composite_avg: 14.0
+  composite_avg: 14.1
   composite_band: emerging
   composite_raw: 4.8
   developing: 0
   exemplar: 0
-  rating: 11.0
+  rating: 11.1
   scored: 3
   spread: 11.1
   strength: 0
@@ -121,7 +121,7 @@ permalink: /estates/johnson-and-johnson/
 slug: johnson-and-johnson
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/johnson-and-johnson/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

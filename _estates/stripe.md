@@ -1,13 +1,13 @@
 ---
-api_total: 18
+api_total: 17
 category: Estates
 description: Online payment processing for internet businesses. Stripe is a suite of payment APIs that
   powers commerce for online businesses of all sizes.
 estate_rating:
-  agent_avg: 16.2
+  agent_avg: 16.8
   agent_band: emerging
   agent_native: 0
-  agent_raw: 22.2
+  agent_raw: 23.1
   agent_ready: 2
   band: emerging
   best: 59.7
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 36.7
   developing: 2
   exemplar: 0
-  rating: 23.4
+  rating: 23.6
   scored: 5
   spread: 56.7
   strength: 4
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.2
+    agent_score: 24.8
     api_count: 14
     api_count_basis: published
     immediate_parent: stripe
@@ -54,8 +54,8 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 36.4
-    api_count: 2
+    agent_score: 37.2
+    api_count: 1
     api_count_basis: published
     immediate_parent: stripe
     name: Bridge
@@ -67,7 +67,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.1
+    agent_score: 23.8
     api_count: 1
     api_count_basis: published
     immediate_parent: stripe
@@ -86,7 +86,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.2
+    agent_score: 29.7
     api_count: 1
     api_count_basis: published
     immediate_parent: stripe
@@ -137,7 +137,7 @@ permalink: /estates/stripe/
 slug: stripe
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/stripe/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

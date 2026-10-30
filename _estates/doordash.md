@@ -11,19 +11,19 @@ description: DoorDash is an on-demand local commerce platform whose developer pr
   HS256 JSON Web Token the caller signs itself, and DoorDash serves each OpenAPI definition as plain YAML
   from developer.doordash.com.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 5.7
-  composite_avg: 13.8
+  composite_avg: 13.9
   composite_band: emerging
   composite_raw: 4.2
   developing: 0
   exemplar: 0
-  rating: 10.8
+  rating: 11.0
   scored: 3
   spread: 2.3
   strength: 0
@@ -98,7 +98,7 @@ permalink: /estates/doordash/
 slug: doordash
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/doordash/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

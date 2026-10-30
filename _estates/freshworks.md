@@ -4,19 +4,19 @@ category: Estates
 description: Freshworks is a software company that develops cloud-based business software including customer
   support, IT service management, sales force automation, marketing automation, and HR applications.
 estate_rating:
-  agent_avg: 16.9
+  agent_avg: 17.6
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.7
+  agent_raw: 22.6
   agent_ready: 2
   band: emerging
   best: 64.9
-  composite_avg: 25.1
+  composite_avg: 25.5
   composite_band: thin
-  composite_raw: 29.1
+  composite_raw: 29.7
   developing: 0
   exemplar: 0
-  rating: 21.8
+  rating: 22.3
   scored: 7
   spread: 64.9
   strength: 2
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.2
+    agent_score: 35.1
     api_count: 2
     api_count_basis: published
     immediate_parent: freshworks
@@ -54,40 +54,40 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.2
+    agent_score: 22.8
     api_count: 1
     api_count_basis: published
     immediate_parent: freshworks
     name: Freshchat
     relationship: product
     score_band: thin
-    score_composite: 34.3
+    score_composite: 35.7
     slug: freshchat
     source: declared
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 42.1
+    agent_score: 43.3
     api_count: 1
     api_count_basis: published
     immediate_parent: freshworks
     name: Freshservice
     relationship: product
     score_band: thin
-    score_composite: 33.2
+    score_composite: 34.6
     slug: freshservice
     source: declared
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.3
+    agent_score: 19.0
     api_count: 1
     api_count_basis: published
     immediate_parent: freshworks
     name: Freshsales
     relationship: product
     score_band: thin
-    score_composite: 33.1
+    score_composite: 34.5
     slug: freshsales
     source: declared
   label: Thin
@@ -99,7 +99,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 20.6
     api_count: 1
     api_count_basis: published
     immediate_parent: freshworks
@@ -165,7 +165,7 @@ permalink: /estates/freshworks/
 slug: freshworks
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/freshworks/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

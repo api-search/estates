@@ -7,23 +7,23 @@ description: Microsoft 365 is Microsoft's productivity and collaboration suite, 
   Microsoft Graph, a unified REST API that exposes users, mail, calendar, files, Teams messages, sites,
   devices, and more across the Microsoft cloud.
 estate_rating:
-  agent_avg: 19.5
+  agent_avg: 20.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 21.3
-  agent_ready: 10
+  agent_raw: 22.3
+  agent_ready: 11
   band: thin
-  best: 64.5
-  composite_avg: 38.3
+  best: 65.9
+  composite_avg: 39.1
   composite_band: thin
-  composite_raw: 42.0
-  developing: 6
+  composite_raw: 42.9
+  developing: 5
   exemplar: 0
-  rating: 30.8
+  rating: 31.6
   scored: 25
-  spread: 46.4
-  strength: 20
-  strong: 7
+  spread: 47.8
+  strength: 21
+  strong: 8
   worst: 18.1
 estate_root: microsoft
 estate_root_name: Microsoft
@@ -33,25 +33,25 @@ layout: estate
 member_bands:
 - band: strong
   blurb: Solid coverage with minor gaps
-  count: 7
+  count: 8
   items:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 47.5
+    agent_score: 48.6
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Outlook
     relationship: product
     score_band: strong
-    score_composite: 64.5
+    score_composite: 65.9
     slug: microsoft-outlook
     source: declared
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.6
+    agent_score: 29.9
     api_count: 71
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -64,7 +64,20 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 39.5
+    agent_score: 33.8
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: microsoft-365
+    name: Microsoft Office 365
+    relationship: product
+    score_band: strong
+    score_composite: 61.8
+    slug: microsoft-office-365
+    source: declared
+  - &id004
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 40.8
     api_count: 21
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -74,94 +87,107 @@ member_bands:
     score_composite: 61.8
     slug: microsoft-word
     source: declared
-  - &id004
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 32.4
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-365
-    name: Microsoft Office 365
-    relationship: product
-    score_band: strong
-    score_composite: 60.4
-    slug: microsoft-office-365
-    source: declared
   - &id005
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.9
+    agent_score: 31.3
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Planner
     relationship: product
     score_band: strong
-    score_composite: 57.9
+    score_composite: 59.3
     slug: microsoft-planner
     source: declared
   - &id006
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.0
+    agent_score: 30.5
     api_count: 6
     api_count_basis: published
     immediate_parent: microsoft-365
     name: Microsoft Exchange
     relationship: product
     score_band: strong
-    score_composite: 57.4
+    score_composite: 58.7
     slug: microsoft-exchange
     source: declared
   - &id007
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.7
+    agent_score: 34.2
     api_count: 11
     api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Teams
     relationship: product
     score_band: strong
-    score_composite: 54.9
+    score_composite: 56.2
     slug: microsoft-teams
     source: declared
-  label: Strong
-  open: true
-- band: developing
-  blurb: Usable, with meaningful gaps to close
-  count: 6
-  items:
   - &id008
     acquired: null
     agent_band: agent-ready
-    agent_score: 30.3
+    agent_score: 31.8
     api_count: 10
     api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Office
     relationship: product
-    score_band: developing
-    score_composite: 53.4
+    score_band: strong
+    score_composite: 54.7
     slug: microsoft-office
     source: declared
+  label: Strong
+  open: true
+- band: developing
+  blurb: Usable, with meaningful gaps to close
+  count: 5
+  items:
   - &id009
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.8
+    agent_score: 30.2
     api_count: 11
     api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Excel
     relationship: product
     score_band: developing
-    score_composite: 50.5
+    score_composite: 51.9
     slug: microsoft-excel
     source: declared
   - &id010
     acquired: null
+    agent_band: agent-ready
+    agent_score: 34.3
+    api_count: 14
+    api_count_basis: split
+    immediate_parent: microsoft-365
+    name: Microsoft SharePoint
+    relationship: product
+    score_band: developing
+    score_composite: 51.4
+    slug: sharepoint
+    source: declared
+  - &id011
+    acquired: null
     agent_band: agent-aware
-    agent_score: 27.4
+    agent_score: 20.2
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: microsoft-365
+    name: Microsoft Visio API
+    relationship: product
+    score_band: developing
+    score_composite: 50.5
+    slug: visio
+    source: declared
+  - &id012
+    acquired: null
+    agent_band: agent-ready
+    agent_score: 29.0
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -171,43 +197,17 @@ member_bands:
     score_composite: 50.3
     slug: microsoft-365-copilot
     source: declared
-  - &id011
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 32.9
-    api_count: 14
-    api_count_basis: split
-    immediate_parent: microsoft-365
-    name: Microsoft SharePoint
-    relationship: product
-    score_band: developing
-    score_composite: 50.0
-    slug: sharepoint
-    source: declared
-  - &id012
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 19.2
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: microsoft-365
-    name: Microsoft Visio API
-    relationship: product
-    score_band: developing
-    score_composite: 49.1
-    slug: visio
-    source: declared
   - &id013
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.2
+    agent_score: 25.8
     api_count: 21
     api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Project
     relationship: product
     score_band: developing
-    score_composite: 44.1
+    score_composite: 45.5
     slug: microsoft-project
     source: declared
   label: Developing
@@ -219,7 +219,46 @@ member_bands:
   - &id014
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 16.1
+    api_count: 8
+    api_count_basis: split
+    immediate_parent: microsoft-365
+    name: Microsoft Access
+    relationship: product
+    score_band: thin
+    score_composite: 37.3
+    slug: microsoft-access
+    source: declared
+  - &id015
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 5
+    api_count_basis: split
+    immediate_parent: microsoft-365
+    name: Microsoft OneDrive
+    relationship: product
+    score_band: thin
+    score_composite: 37.1
+    slug: microsoft-onedrive
+    source: declared
+  - &id016
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 19.6
+    api_count: 4
+    api_count_basis: split
+    immediate_parent: microsoft-365
+    name: Microsoft to Do
+    relationship: product
+    score_band: thin
+    score_composite: 37.0
+    slug: microsoft-to-do
+    source: declared
+  - &id017
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 21.5
     api_count: 4
     api_count_basis: split
     immediate_parent: microsoft-365
@@ -229,49 +268,10 @@ member_bands:
     score_composite: 36.9
     slug: microsoft-onenote
     source: declared
-  - &id015
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 16.1
-    api_count: 8
-    api_count_basis: split
-    immediate_parent: microsoft-365
-    name: Microsoft Access
-    relationship: product
-    score_band: thin
-    score_composite: 35.9
-    slug: microsoft-access
-    source: declared
-  - &id016
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 17.9
-    api_count: 5
-    api_count_basis: split
-    immediate_parent: microsoft-365
-    name: Microsoft OneDrive
-    relationship: product
-    score_band: thin
-    score_composite: 35.7
-    slug: microsoft-onedrive
-    source: declared
-  - &id017
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 17.9
-    api_count: 4
-    api_count_basis: split
-    immediate_parent: microsoft-365
-    name: Microsoft to Do
-    relationship: product
-    score_band: thin
-    score_composite: 35.6
-    slug: microsoft-to-do
-    source: declared
   - &id018
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.6
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-365
@@ -284,14 +284,14 @@ member_bands:
   - &id019
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 21.3
     api_count: 7
     api_count_basis: split
     immediate_parent: microsoft-365
     name: Microsoft Bookings
     relationship: product
     score_band: thin
-    score_composite: 31.6
+    score_composite: 33.0
     slug: microsoft-bookings
     source: declared
   label: Thin
@@ -323,10 +323,23 @@ member_bands:
     name: Microsoft Loop
     relationship: product
     score_band: emerging
-    score_composite: 22.3
+    score_composite: 23.7
     slug: microsoft-loop
     source: declared
   - &id022
+    acquired: null
+    agent_band: human-only
+    agent_score: 3.1
+    api_count: 1
+    api_count_basis: split
+    immediate_parent: microsoft-365
+    name: Microsoft Whiteboard
+    relationship: product
+    score_band: emerging
+    score_composite: 21.8
+    slug: microsoft-whiteboard
+    source: declared
+  - &id023
     acquired: null
     agent_band: human-only
     agent_score: 3.1
@@ -338,19 +351,6 @@ member_bands:
     score_band: emerging
     score_composite: 21.4
     slug: microsoft-stream
-    source: declared
-  - &id023
-    acquired: null
-    agent_band: human-only
-    agent_score: 3.1
-    api_count: 1
-    api_count_basis: split
-    immediate_parent: microsoft-365
-    name: Microsoft Whiteboard
-    relationship: product
-    score_band: emerging
-    score_composite: 20.4
-    slug: microsoft-whiteboard
     source: declared
   - &id024
     acquired: null
@@ -411,17 +411,17 @@ members:
 members_unrated: []
 name: Microsoft 365
 overview: 'Microsoft 365 publishes its API surface across 25 provider profiles indexed on the APIs.io
-  network, of which 25 carry a rating. The rated members span 46.4 points, from 64.5 down to 18.1.
+  network, of which 25 carry a rating. The rated members span 47.8 points, from 65.9 down to 18.1.
 
 
-  Its highest-rated surfaces are Microsoft Outlook, Microsoft Graph, Microsoft Word, Microsoft Office
-  365, Microsoft Planner.'
+  Its highest-rated surfaces are Microsoft Outlook, Microsoft Graph, Microsoft Office 365, Microsoft Word,
+  Microsoft Planner.'
 parent_provider: microsoft-365
 permalink: /estates/microsoft-365/
 slug: microsoft-365
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-365/apis.yml
 subfamilies: []
 tags:
 - Productivity

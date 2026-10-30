@@ -10,19 +10,19 @@ description: Niantic Spatial, Inc. (spun out of Niantic, Inc. in 2025 after the 
   Android, and ROS 2, connecting to Scaniverse and VPS 2.0. Enterprise focus areas include robotics, defense
   and intelligence, and oil and gas.
 estate_rating:
-  agent_avg: 5.6
+  agent_avg: 5.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: minimal
   best: 9.8
-  composite_avg: 12.5
+  composite_avg: 12.6
   composite_band: emerging
   composite_raw: 3.6
   developing: 0
   exemplar: 0
-  rating: 9.7
+  rating: 9.9
   scored: 4
   spread: 9.8
   strength: 0
@@ -111,7 +111,7 @@ permalink: /estates/niantic/
 slug: niantic
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/niantic/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/niantic/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

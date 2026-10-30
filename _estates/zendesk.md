@@ -1,25 +1,25 @@
 ---
-api_total: 7
+api_total: 5
 category: Estates
 description: Zendesk provides customer service and engagement software that helps businesses manage support
   tickets, automate workflows, and offer multi-channel supportincluding email, chat, social media, and
   phonethrough a unified platform.
 estate_rating:
-  agent_avg: 15.2
+  agent_avg: 16.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 23.5
+  agent_raw: 25.4
   agent_ready: 1
   band: thin
-  best: 60.9
+  best: 60.6
   composite_avg: 32.2
   composite_band: thin
-  composite_raw: 53.3
+  composite_raw: 53.1
   developing: 0
   exemplar: 0
-  rating: 25.4
+  rating: 25.8
   scored: 3
-  spread: 22.6
+  spread: 22.3
   strength: 4
   strong: 2
   worst: 38.3
@@ -35,21 +35,8 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-aware
-    agent_score: 22.8
-    api_count: 4
-    api_count_basis: published
-    immediate_parent: zendesk
-    name: Klaus
-    relationship: product
-    score_band: strong
-    score_composite: 60.9
-    slug: klaus
-    source: parent-company-property
-  - &id002
-    acquired: null
     agent_band: agent-ready
-    agent_score: 28.6
+    agent_score: 30.1
     api_count: 1
     api_count_basis: published
     immediate_parent: zendesk
@@ -59,6 +46,19 @@ member_bands:
     score_composite: 60.6
     slug: zendesk-sell
     source: declared
+  - &id002
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.3
+    api_count: 2
+    api_count_basis: published
+    immediate_parent: zendesk
+    name: Klaus
+    relationship: product
+    score_band: strong
+    score_composite: 60.3
+    slug: klaus
+    source: parent-company-property
   label: Strong
   open: true
 - band: thin
@@ -68,7 +68,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.2
+    agent_score: 20.9
     api_count: 2
     api_count_basis: published
     immediate_parent: zendesk
@@ -89,16 +89,16 @@ members:
 members_unrated: []
 name: Zendesk
 overview: 'Zendesk publishes its API surface across 3 provider profiles indexed on the APIs.io network,
-  of which 3 carry a rating. The rated members span 22.6 points, from 60.9 down to 38.3.
+  of which 3 carry a rating. The rated members span 22.3 points, from 60.6 down to 38.3.
 
 
-  Its highest-rated surfaces are Klaus, Zendesk Sell, Forethought.'
+  Its highest-rated surfaces are Zendesk Sell, Klaus, Forethought.'
 parent_provider: zendesk
 permalink: /estates/zendesk/
 slug: zendesk
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/zendesk/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

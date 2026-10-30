@@ -10,21 +10,21 @@ description: 'Take-Two Interactive Software, Inc. (NASDAQ: TTWO) is a US interac
   Its developer-surface hosts (docs.take2games.com, dev.take2games.com) redirect every request to a FusionAuth
   SSO login.'
 estate_rating:
-  agent_avg: 4.1
+  agent_avg: 4.3
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.3
   agent_ready: 0
   band: minimal
-  best: 15.6
-  composite_avg: 11.0
+  best: 17.0
+  composite_avg: 11.1
   composite_band: emerging
-  composite_raw: 5.5
+  composite_raw: 5.7
   developing: 0
   exemplar: 0
-  rating: 8.2
+  rating: 8.4
   scored: 8
-  spread: 15.6
+  spread: 17.0
   strength: 0
   strong: 0
   worst: 0.0
@@ -48,7 +48,7 @@ member_bands:
     name: Rockstar Games
     relationship: subsidiary
     score_band: emerging
-    score_composite: 15.6
+    score_composite: 17.0
     slug: rockstar-games
     source: prose
   - &id002
@@ -164,7 +164,7 @@ members:
 members_unrated: []
 name: Take-Two Interactive Software
 overview: 'Take-Two Interactive Software publishes its API surface across 8 provider profiles indexed
-  on the APIs.io network, of which 8 carry a rating. The rated members span 15.6 points, from 15.6 down
+  on the APIs.io network, of which 8 carry a rating. The rated members span 17.0 points, from 17.0 down
   to 0.0.
 
 
@@ -174,7 +174,7 @@ permalink: /estates/take-two-interactive/
 slug: take-two-interactive
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/take-two-interactive/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/take-two-interactive/apis.yml
 subfamilies:
 - has_page: true
   member_count: 5

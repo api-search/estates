@@ -8,19 +8,19 @@ description: Abstract API is a platform that offers a wide range of API services
   generation. Abstract API provides a seamless way for developers to access powerful features without
   having to build them from scratch.
 estate_rating:
-  agent_avg: 9.3
+  agent_avg: 9.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 8.3
   agent_ready: 1
   band: emerging
   best: 26.1
-  composite_avg: 15.5
+  composite_avg: 15.6
   composite_band: emerging
   composite_raw: 10.4
   developing: 0
   exemplar: 0
-  rating: 13.0
+  rating: 13.2
   scored: 4
   spread: 20.9
   strength: 0
@@ -116,7 +116,7 @@ permalink: /estates/abstract-api/
 slug: abstract-api
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/abstract-api/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

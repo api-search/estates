@@ -7,21 +7,21 @@ description: Hewlett Packard Enterprise (HPE) is a global edge-to-cloud technolo
   3.0 REST APIs covering compute, storage, networking, data services, identity, and workspace management,
   all authenticated via OAuth 2.0 client credentials and bearer tokens through a unified global API gateway.
 estate_rating:
-  agent_avg: 10.0
+  agent_avg: 10.3
   agent_band: emerging
   agent_native: 0
-  agent_raw: 10.0
-  agent_ready: 2
+  agent_raw: 10.3
+  agent_ready: 3
   band: emerging
-  best: 60.2
-  composite_avg: 19.5
+  best: 60.3
+  composite_avg: 19.6
   composite_band: emerging
   composite_raw: 19.5
   developing: 1
   exemplar: 0
-  rating: 15.7
+  rating: 15.9
   scored: 16
-  spread: 60.2
+  spread: 60.3
   strength: 5
   strong: 2
   worst: 0.0
@@ -38,20 +38,20 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.3
+    agent_score: 31.5
     api_count: 1
     api_count_basis: published
     immediate_parent: juniper
     name: Mist
     relationship: product
     score_band: strong
-    score_composite: 60.2
+    score_composite: 60.3
     slug: mist
     source: parent-company-property
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 35.3
+    agent_score: 35.4
     api_count: 6
     api_count_basis: published
     immediate_parent: hpe
@@ -69,8 +69,8 @@ member_bands:
   items:
   - &id003
     acquired: null
-    agent_band: agent-aware
-    agent_score: 28.4
+    agent_band: agent-ready
+    agent_score: 30.6
     api_count: 1
     api_count_basis: published
     immediate_parent: juniper
@@ -102,7 +102,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.1
+    agent_score: 23.7
     api_count: 1
     api_count_basis: published
     immediate_parent: hpe
@@ -311,7 +311,7 @@ members:
 members_unrated: []
 name: Hewlett Packard Enterprise
 overview: 'Hewlett Packard Enterprise publishes its API surface across 17 provider profiles indexed on
-  the APIs.io network, of which 17 carry a rating. The rated members span 60.2 points, from 60.2 down
+  the APIs.io network, of which 17 carry a rating. The rated members span 60.3 points, from 60.3 down
   to 0.0.
 
 
@@ -321,14 +321,14 @@ permalink: /estates/hpe/
 slug: hpe
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/hpe/apis.yml
 subfamilies:
 - has_page: true
   member_count: 6
   members:
   - name: Mist
     score_band: strong
-    score_composite: 60.2
+    score_composite: 60.3
     slug: mist
   - name: Juniper Mist AI
     score_band: developing

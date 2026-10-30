@@ -4,11 +4,11 @@ category: Estates
 description: Collection of Workday REST and SOAP APIs for human capital management, financial management,
   enterprise planning, analytics, and platform extensibility.
 estate_rating:
-  agent_avg: 16.8
+  agent_avg: 18.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 20.4
-  agent_ready: 1
+  agent_raw: 22.4
+  agent_ready: 3
   band: emerging
   best: 46.5
   composite_avg: 29.4
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 34.8
   developing: 5
   exemplar: 0
-  rating: 24.4
+  rating: 24.9
   scored: 9
   spread: 43.6
   strength: 5
@@ -34,8 +34,8 @@ member_bands:
   items:
   - &id001
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
+    agent_band: agent-ready
+    agent_score: 28.9
     api_count: 2
     api_count_basis: published
     immediate_parent: workday
@@ -47,8 +47,8 @@ member_bands:
     source: declared
   - &id002
     acquired: null
-    agent_band: agent-aware
-    agent_score: 24.8
+    agent_band: agent-ready
+    agent_score: 28.9
     api_count: 54
     api_count_basis: published
     immediate_parent: workday
@@ -61,7 +61,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 24.1
     api_count: 2
     api_count_basis: published
     immediate_parent: workday
@@ -74,7 +74,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.5
+    agent_score: 31.8
     api_count: 11
     api_count_basis: published
     immediate_parent: workday
@@ -87,7 +87,7 @@ member_bands:
   - &id005
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.2
+    agent_score: 24.8
     api_count: 1
     api_count_basis: published
     immediate_parent: workday
@@ -106,7 +106,7 @@ member_bands:
   - &id006
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.4
+    agent_score: 21.3
     api_count: 1
     api_count_basis: published
     immediate_parent: workday
@@ -119,7 +119,7 @@ member_bands:
   - &id007
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.4
+    agent_score: 22.3
     api_count: 1
     api_count_basis: published
     immediate_parent: workday
@@ -138,7 +138,7 @@ member_bands:
   - &id008
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: workday
@@ -194,7 +194,7 @@ permalink: /estates/workday/
 slug: workday
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/workday/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

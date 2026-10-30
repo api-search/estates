@@ -5,19 +5,19 @@ description: A multinational semiconductor company designing high-performance pr
   and adaptive computing solutions. Competes in data center, gaming, and embedded markets with its Ryzen,
   EPYC, and Radeon product lines.
 estate_rating:
-  agent_avg: 9.0
+  agent_avg: 9.2
   agent_band: minimal
   agent_native: 0
   agent_raw: 7.0
   agent_ready: 0
   band: emerging
   best: 26.3
-  composite_avg: 17.7
+  composite_avg: 17.8
   composite_band: emerging
   composite_raw: 14.7
   developing: 0
   exemplar: 0
-  rating: 14.2
+  rating: 14.4
   scored: 3
   spread: 22.6
   strength: 0
@@ -104,7 +104,7 @@ permalink: /estates/amd/
 slug: amd
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amd/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/amd/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

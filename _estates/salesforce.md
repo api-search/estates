@@ -7,20 +7,20 @@ description: Salesforce is a cloud-based customer relationship management (CRM) 
   gRPC Pub/Sub APIs, alongside the Agentforce agent and models APIs, letting developers query, write and
   subscribe to org data programmatically.
 estate_rating:
-  agent_avg: 13.6
+  agent_avg: 14.1
   agent_band: emerging
   agent_native: 0
-  agent_raw: 14.2
-  agent_ready: 8
+  agent_raw: 14.6
+  agent_ready: 9
   band: emerging
   best: 70.4
-  composite_avg: 23.9
+  composite_avg: 24.2
   composite_band: emerging
-  composite_raw: 24.6
+  composite_raw: 24.9
   developing: 7
   exemplar: 2
-  rating: 19.8
-  scored: 32
+  rating: 20.2
+  scored: 33
   spread: 70.4
   strength: 17
   strong: 2
@@ -38,7 +38,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 45.0
+    agent_score: 46.2
     api_count: 1
     api_count_basis: published
     immediate_parent: salesforce
@@ -51,7 +51,7 @@ member_bands:
   - &id002
     acquired: 2021
     agent_band: agent-ready
-    agent_score: 34.0
+    agent_score: 35.9
     api_count: 32
     api_count_basis: published
     immediate_parent: salesforce
@@ -70,7 +70,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.0
+    agent_score: 35.4
     api_count: 1
     api_count_basis: published
     immediate_parent: salesforce
@@ -83,7 +83,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 25.4
+    agent_score: 26.1
     api_count: 8
     api_count_basis: published
     immediate_parent: salesforce
@@ -101,8 +101,8 @@ member_bands:
   items:
   - &id005
     acquired: null
-    agent_band: agent-aware
-    agent_score: 27.3
+    agent_band: agent-ready
+    agent_score: 29.6
     api_count: 9
     api_count_basis: published
     immediate_parent: salesforce
@@ -115,7 +115,7 @@ member_bands:
   - &id006
     acquired: 2019
     agent_band: agent-ready
-    agent_score: 45.2
+    agent_score: 46.3
     api_count: 1
     api_count_basis: published
     immediate_parent: salesforce
@@ -126,9 +126,22 @@ member_bands:
     slug: tableau
     source: declared
   - &id007
+    acquired: 2018
+    agent_band: agent-ready
+    agent_score: 43.1
+    api_count: 1
+    api_count_basis: published
+    immediate_parent: salesforce
+    name: MuleSoft
+    relationship: acquisition
+    score_band: developing
+    score_composite: 49.7
+    slug: mulesoft
+    source: declared
+  - &id008
     acquired: 2025
     agent_band: agent-ready
-    agent_score: 54.4
+    agent_score: 53.5
     api_count: 1
     api_count_basis: published
     immediate_parent: salesforce
@@ -137,19 +150,6 @@ member_bands:
     score_band: developing
     score_composite: 48.7
     slug: informatica
-    source: declared
-  - &id008
-    acquired: 2018
-    agent_band: agent-ready
-    agent_score: 43.4
-    api_count: 1
-    api_count_basis: published
-    immediate_parent: salesforce
-    name: MuleSoft
-    relationship: acquisition
-    score_band: developing
-    score_composite: 48.3
-    slug: mulesoft
     source: declared
   - &id009
     acquired: 2016
@@ -167,7 +167,7 @@ member_bands:
   - &id010
     acquired: null
     agent_band: agent-ready
-    agent_score: 36.7
+    agent_score: 38.0
     api_count: 5
     api_count_basis: split
     immediate_parent: salesforce
@@ -180,7 +180,7 @@ member_bands:
   - &id011
     acquired: 2010
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 20.6
     api_count: 1
     api_count_basis: published
     immediate_parent: salesforce
@@ -194,7 +194,7 @@ member_bands:
   open: false
 - band: thin
   blurb: Limited public surface area
-  count: 2
+  count: 3
   items:
   - &id012
     acquired: null
@@ -212,26 +212,39 @@ member_bands:
   - &id013
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.5
+    agent_score: 22.2
     api_count: 1
     api_count_basis: published
     immediate_parent: salesforce
     name: Salesforce Commerce Cloud
     relationship: product
     score_band: thin
-    score_composite: 32.1
+    score_composite: 33.4
     slug: salesforce-commerce-cloud
     source: declared
+  - &id014
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 17.5
+    api_count: 0
+    api_count_basis: split
+    immediate_parent: salesforce
+    name: CloudConnect
+    relationship: product
+    score_band: thin
+    score_composite: 32.5
+    slug: cloudconnect
+    source: parent-company-property
   label: Thin
   open: false
 - band: emerging
   blurb: Early or largely undocumented
   count: 5
   items:
-  - &id014
+  - &id015
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.4
+    agent_score: 32.7
     api_count: 1
     api_count_basis: published
     immediate_parent: salesforce
@@ -241,7 +254,7 @@ member_bands:
     score_composite: 23.7
     slug: contentful-global
     source: prose
-  - &id015
+  - &id016
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -254,7 +267,7 @@ member_bands:
     score_composite: 16.8
     slug: own-ownbackup
     source: declared
-  - &id016
+  - &id017
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -267,7 +280,7 @@ member_bands:
     score_composite: 15.6
     slug: regrello
     source: declared
-  - &id017
+  - &id018
     acquired: 2013
     agent_band: human-only
     agent_score: 0.0
@@ -280,7 +293,7 @@ member_bands:
     score_composite: 14.3
     slug: cquotient
     source: declared
-  - &id018
+  - &id019
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -299,7 +312,7 @@ member_bands:
   blurb: Almost no public developer surface
   count: 14
   items:
-  - &id019
+  - &id020
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -312,7 +325,7 @@ member_bands:
     score_composite: 9.9
     slug: moonhub
     source: prose
-  - &id020
+  - &id021
     acquired: 2026
     agent_band: human-only
     agent_score: 3.5
@@ -325,7 +338,7 @@ member_bands:
     score_composite: 9.7
     slug: cimulate
     source: declared
-  - &id021
+  - &id022
     acquired: 2025
     agent_band: human-only
     agent_score: 0.0
@@ -338,7 +351,7 @@ member_bands:
     score_composite: 7.1
     slug: convergence
     source: declared
-  - &id022
+  - &id023
     acquired: 2012
     agent_band: human-only
     agent_score: 0.0
@@ -351,7 +364,7 @@ member_bands:
     score_composite: 3.4
     slug: buddy-media
     source: declared
-  - &id023
+  - &id024
     acquired: 2013
     agent_band: human-only
     agent_score: 0.0
@@ -364,7 +377,7 @@ member_bands:
     score_composite: 3.4
     slug: exact-target
     source: declared
-  - &id024
+  - &id025
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -377,7 +390,7 @@ member_bands:
     score_composite: 3.4
     slug: privitar
     source: parent-company-property
-  - &id025
+  - &id026
     acquired: 2024
     agent_band: human-only
     agent_score: 0.0
@@ -390,7 +403,7 @@ member_bands:
     score_composite: 3.4
     slug: spiff
     source: declared
-  - &id026
+  - &id027
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -403,7 +416,7 @@ member_bands:
     score_composite: 3.4
     slug: spindle-technologies
     source: declared
-  - &id027
+  - &id028
     acquired: 2015
     agent_band: human-only
     agent_score: 0.0
@@ -416,7 +429,7 @@ member_bands:
     score_composite: 3.4
     slug: steelbrick
     source: declared
-  - &id028
+  - &id029
     acquired: 2023
     agent_band: human-only
     agent_score: 0.0
@@ -429,7 +442,7 @@ member_bands:
     score_composite: 3.0
     slug: airkit
     source: declared
-  - &id029
+  - &id030
     acquired: null
     agent_band: agent-aware
     agent_score: 12.2
@@ -442,7 +455,7 @@ member_bands:
     score_composite: 2.9
     slug: screenhero
     source: prose
-  - &id030
+  - &id031
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -455,7 +468,7 @@ member_bands:
     score_composite: 0.0
     slug: clockwise
     source: declared
-  - &id031
+  - &id032
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -468,7 +481,7 @@ member_bands:
     score_composite: 0.0
     slug: itemfield
     source: parent-company-property
-  - &id032
+  - &id033
     acquired: null
     agent_band: human-only
     agent_score: 0.0
@@ -487,7 +500,7 @@ member_bands:
   blurb: Not yet scored
   count: 1
   items:
-  - &id033
+  - &id034
     acquired: 2020
     agent_band: null
     agent_score: null
@@ -502,8 +515,8 @@ member_bands:
     source: declared
   label: Unrated
   open: false
-member_on_network: 33
-member_total: 33
+member_on_network: 34
+member_total: 34
 members:
 - *id001
 - *id002
@@ -538,10 +551,11 @@ members:
 - *id031
 - *id032
 - *id033
+- *id034
 members_unrated: []
 name: Salesforce
-overview: 'Salesforce publishes its API surface across 33 provider profiles indexed on the APIs.io network,
-  of which 33 carry a rating. The rated members span 70.4 points, from 70.4 down to 0.0.
+overview: 'Salesforce publishes its API surface across 34 provider profiles indexed on the APIs.io network,
+  of which 34 carry a rating. The rated members span 70.4 points, from 70.4 down to 0.0.
 
 
   Its highest-rated surfaces are Salesforce Service Cloud APIs, Slack, Salesforce Marketing Cloud Account
@@ -551,7 +565,7 @@ permalink: /estates/salesforce/
 slug: salesforce
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/salesforce/apis.yml
 subfamilies:
 - has_page: false
   member_count: 2

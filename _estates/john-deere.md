@@ -6,19 +6,19 @@ description: John Deere is a renowned American corporation that specializes in m
   of innovation and has become a leader in the industry. John Deere's products include tractors, combines,
   excavators, and other equipment designed to support and improve farming and construction operations.
 estate_rating:
-  agent_avg: 9.2
+  agent_avg: 9.7
   agent_band: minimal
   agent_native: 0
-  agent_raw: 7.6
+  agent_raw: 8.2
   agent_ready: 0
   band: emerging
   best: 27.1
-  composite_avg: 16.9
+  composite_avg: 17.0
   composite_band: emerging
   composite_raw: 12.3
   developing: 0
   exemplar: 0
-  rating: 13.8
+  rating: 14.1
   scored: 3
   spread: 23.7
   strength: 0
@@ -37,7 +37,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 24.6
     api_count: 1
     api_count_basis: published
     immediate_parent: john-deere
@@ -99,7 +99,7 @@ permalink: /estates/john-deere/
 slug: john-deere
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/john-deere/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/john-deere/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

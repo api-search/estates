@@ -12,19 +12,19 @@ description: 'Pearson plc is the world''s largest learning company, operating co
   What remains public is an OIDC discovery document, a live status page, a security disclosure policy,
   LTI 1.3 guidance, and three retired SIS WSDLs.'
 estate_rating:
-  agent_avg: 9.2
-  agent_band: minimal
+  agent_avg: 10.0
+  agent_band: emerging
   agent_native: 0
-  agent_raw: 7.6
+  agent_raw: 9.0
   agent_ready: 0
   band: emerging
   best: 28.1
-  composite_avg: 18.2
+  composite_avg: 18.3
   composite_band: emerging
   composite_raw: 15.9
   developing: 0
   exemplar: 0
-  rating: 14.6
+  rating: 15.0
   scored: 3
   spread: 25.2
   strength: 0
@@ -43,7 +43,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 25.1
     api_count: 1
     api_count_basis: published
     immediate_parent: pearson
@@ -111,7 +111,7 @@ permalink: /estates/pearson/
 slug: pearson
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pearson/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/pearson/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

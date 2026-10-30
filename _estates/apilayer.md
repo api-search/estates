@@ -11,19 +11,19 @@ description: APILayer is an API marketplace and hub, an Idera, Inc. brand headqu
   every API has a free plan. APILayer publishes 22 OpenAPI documents from its own SwaggerHub organization,
   an llms.txt, and an OAuth-protected hosted MCP server.
 estate_rating:
-  agent_avg: 16.0
+  agent_avg: 16.7
   agent_band: emerging
   agent_native: 0
-  agent_raw: 25.7
+  agent_raw: 27.0
   agent_ready: 1
   band: emerging
   best: 50.7
-  composite_avg: 30.3
+  composite_avg: 30.4
   composite_band: thin
   composite_raw: 48.0
   developing: 3
   exemplar: 0
-  rating: 24.6
+  rating: 24.9
   scored: 3
   spread: 5.2
   strength: 3
@@ -42,7 +42,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.2
+    agent_score: 24.1
     api_count: 1
     api_count_basis: published
     immediate_parent: apilayer
@@ -55,7 +55,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.2
+    agent_score: 24.1
     api_count: 1
     api_count_basis: published
     immediate_parent: apilayer
@@ -98,7 +98,7 @@ permalink: /estates/apilayer/
 slug: apilayer
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apilayer/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/apilayer/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

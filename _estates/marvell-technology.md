@@ -9,19 +9,19 @@ description: Marvell Technology, Inc. is a Fortune 500 fabless semiconductor com
   associated with Marvell. Public developer documentation is gated behind a customer support portal and
   is not openly accessible.
 estate_rating:
-  agent_avg: 6.4
+  agent_avg: 6.6
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: emerging
   best: 2.6
-  composite_avg: 12.6
+  composite_avg: 12.7
   composite_band: emerging
   composite_raw: 0.9
   developing: 0
   exemplar: 0
-  rating: 10.1
+  rating: 10.3
   scored: 3
   spread: 2.6
   strength: 0
@@ -130,7 +130,7 @@ permalink: /estates/marvell-technology/
 slug: marvell-technology
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marvell-technology/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/marvell-technology/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

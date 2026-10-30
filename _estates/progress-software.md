@@ -11,19 +11,19 @@ description: 'Progress Software Corporation (NASDAQ: PRGS) is a Burlington, Mass
   a full Swagger 2.0 contract against the customer''s own installation — alongside SaaS surfaces such
   as the ShareFile OData API and Sitefinity''s headless OData services.'
 estate_rating:
-  agent_avg: 11.3
+  agent_avg: 11.9
   agent_band: emerging
   agent_native: 0
-  agent_raw: 13.2
+  agent_raw: 14.1
   agent_ready: 0
   band: emerging
   best: 58.7
-  composite_avg: 25.0
+  composite_avg: 25.3
   composite_band: thin
-  composite_raw: 34.0
+  composite_raw: 34.5
   developing: 0
   exemplar: 0
-  rating: 19.5
+  rating: 19.9
   scored: 3
   spread: 51.3
   strength: 2
@@ -42,7 +42,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 21.7
+    agent_score: 22.6
     api_count: 24
     api_count_basis: published
     immediate_parent: progress-software
@@ -61,14 +61,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: progress-software
     name: Sitefinity CMS
     relationship: product
     score_band: thin
-    score_composite: 35.9
+    score_composite: 37.3
     slug: sitefinity-cms
     source: declared
   label: Thin
@@ -110,7 +110,7 @@ permalink: /estates/progress-software/
 slug: progress-software
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/progress-software/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/progress-software/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

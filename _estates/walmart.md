@@ -8,19 +8,19 @@ description: Walmart is a multinational retail corporation that operates a chain
   The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory,
   pricing, fulfillment, and reporting on Walmart.com.
 estate_rating:
-  agent_avg: 8.2
+  agent_avg: 8.5
   agent_band: minimal
   agent_native: 0
-  agent_raw: 6.6
+  agent_raw: 6.9
   agent_ready: 0
   band: emerging
   best: 35.7
-  composite_avg: 15.8
+  composite_avg: 16.0
   composite_band: emerging
-  composite_raw: 12.5
+  composite_raw: 12.8
   developing: 0
   exemplar: 0
-  rating: 12.8
+  rating: 13.0
   scored: 6
   spread: 35.7
   strength: 0
@@ -58,14 +58,14 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.6
+    agent_score: 21.3
     api_count: 1
     api_count_basis: published
     immediate_parent: walmart
     name: PhonePe
     relationship: acquisition
     score_band: emerging
-    score_composite: 24.7
+    score_composite: 26.1
     slug: phonepe
     source: prose
   - &id003
@@ -149,7 +149,7 @@ permalink: /estates/walmart/
 slug: walmart
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/walmart/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1

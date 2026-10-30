@@ -10,19 +10,19 @@ description: X (formerly Twitter) operates the X Developer Platform, the program
   skill, an A2A agent card and two hosted MCP servers. Access is sold pay-per-usage in prepaid credits
   rather than by subscription tier, with an Enterprise agreement for volume above the published cap.
 estate_rating:
-  agent_avg: 3.6
+  agent_avg: 3.8
   agent_band: minimal
   agent_native: 0
   agent_raw: 0.0
   agent_ready: 0
   band: minimal
   best: 0.0
-  composite_avg: 7.0
+  composite_avg: 7.1
   composite_band: minimal
   composite_raw: 0.0
   developing: 0
   exemplar: 0
-  rating: 5.6
+  rating: 5.8
   scored: 9
   spread: 0.0
   strength: 0
@@ -201,7 +201,7 @@ permalink: /estates/x/
 slug: x
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/x/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

@@ -6,19 +6,19 @@ description: Boomi is a leading integration platform that allows organizations t
   and pre-built connectors, businesses can quickly and easily create integrations that streamline processes,
   improve productivity, and enhance the overall customer experience.
 estate_rating:
-  agent_avg: 12.3
+  agent_avg: 13.2
   agent_band: emerging
   agent_native: 0
-  agent_raw: 15.8
+  agent_raw: 17.5
   agent_ready: 1
   band: emerging
   best: 53.1
-  composite_avg: 22.9
+  composite_avg: 23.0
   composite_band: emerging
   composite_raw: 28.4
   developing: 1
   exemplar: 0
-  rating: 18.7
+  rating: 19.1
   scored: 3
   spread: 52.3
   strength: 1
@@ -37,7 +37,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-ready
-    agent_score: 29.5
+    agent_score: 31.7
     api_count: 1
     api_count_basis: published
     immediate_parent: boomi
@@ -56,7 +56,7 @@ member_bands:
   - &id002
     acquired: 2024
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 20.7
     api_count: 2
     api_count_basis: published
     immediate_parent: boomi
@@ -105,7 +105,7 @@ permalink: /estates/boomi/
 slug: boomi
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/boomi/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

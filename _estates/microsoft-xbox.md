@@ -4,11 +4,11 @@ category: Estates
 description: APIs for Xbox gaming platform including Xbox Live Services and Azure PlayFab backend for
   games.
 estate_rating:
-  agent_avg: 16.3
+  agent_avg: 17.0
   agent_band: emerging
   agent_native: 1
-  agent_raw: 21.5
-  agent_ready: 0
+  agent_raw: 22.4
+  agent_ready: 1
   band: emerging
   best: 40.1
   composite_avg: 22.8
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 25.4
   developing: 1
   exemplar: 0
-  rating: 20.2
+  rating: 20.5
   scored: 6
   spread: 34.9
   strength: 1
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-xbox
@@ -54,7 +54,7 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.6
     api_count: 5
     api_count_basis: published
     immediate_parent: microsoft-xbox
@@ -67,7 +67,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-native
-    agent_score: 38.8
+    agent_score: 38.7
     api_count: 12
     api_count_basis: split
     immediate_parent: microsoft-xbox
@@ -86,7 +86,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-aware
-    agent_score: 26.2
+    agent_score: 26.8
     api_count: 14
     api_count_basis: split
     immediate_parent: microsoft-xbox
@@ -98,8 +98,8 @@ member_bands:
     source: declared
   - &id005
     acquired: 2023
-    agent_band: agent-aware
-    agent_score: 28.0
+    agent_band: agent-ready
+    agent_score: 29.8
     api_count: 1
     api_count_basis: published
     immediate_parent: microsoft-xbox
@@ -151,7 +151,7 @@ permalink: /estates/microsoft-xbox/
 slug: microsoft-xbox
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-xbox/apis.yml
 subfamilies: []
 tags:
 - Gaming

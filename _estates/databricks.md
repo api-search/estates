@@ -3,19 +3,19 @@ api_total: 1
 category: Estates
 description: Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.
 estate_rating:
-  agent_avg: 7.7
+  agent_avg: 7.9
   agent_band: minimal
   agent_native: 0
   agent_raw: 5.3
   agent_ready: 0
   band: emerging
   best: 65.0
-  composite_avg: 19.2
+  composite_avg: 19.4
   composite_band: emerging
-  composite_raw: 18.7
+  composite_raw: 19.0
   developing: 0
   exemplar: 0
-  rating: 14.6
+  rating: 14.8
   scored: 5
   spread: 65.0
   strength: 2
@@ -60,7 +60,7 @@ member_bands:
     name: MosaicML
     relationship: acquisition
     score_band: emerging
-    score_composite: 19.6
+    score_composite: 21.0
     slug: mosaicml
     source: declared
   label: Emerging
@@ -130,7 +130,7 @@ permalink: /estates/databricks/
 slug: databricks
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/databricks/apis.yml
 subfamilies: []
 subfamily_page_count: 0
 tags:

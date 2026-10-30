@@ -1,14 +1,14 @@
 ---
-api_total: 237
+api_total: 213
 category: Estates
 description: Collection of Oracle's APIs and developer resources across cloud infrastructure, databases,
   AI services, SaaS applications, and platform services.
 estate_rating:
-  agent_avg: 15.3
+  agent_avg: 16.4
   agent_band: emerging
   agent_native: 1
-  agent_raw: 16.1
-  agent_ready: 5
+  agent_raw: 17.4
+  agent_ready: 7
   band: emerging
   best: 75.3
   composite_avg: 29.2
@@ -16,7 +16,7 @@ estate_rating:
   composite_raw: 30.7
   developing: 14
   exemplar: 3
-  rating: 23.6
+  rating: 24.1
   scored: 31
   spread: 75.3
   strength: 23
@@ -35,7 +35,7 @@ member_bands:
   - &id001
     acquired: null
     agent_band: agent-native
-    agent_score: 49.3
+    agent_score: 52.1
     api_count: 9
     api_count_basis: published
     immediate_parent: oracle
@@ -48,8 +48,8 @@ member_bands:
   - &id002
     acquired: null
     agent_band: agent-ready
-    agent_score: 32.5
-    api_count: 80
+    agent_score: 31.7
+    api_count: 59
     api_count_basis: published
     immediate_parent: oracle
     name: Oracle Hospitality
@@ -61,7 +61,7 @@ member_bands:
   - &id003
     acquired: null
     agent_band: agent-ready
-    agent_score: 31.3
+    agent_score: 35.1
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -80,7 +80,7 @@ member_bands:
   - &id004
     acquired: null
     agent_band: agent-ready
-    agent_score: 34.0
+    agent_score: 34.9
     api_count: 3
     api_count_basis: published
     immediate_parent: oracle
@@ -92,8 +92,21 @@ member_bands:
     source: declared
   - &id005
     acquired: null
+    agent_band: agent-ready
+    agent_score: 34.9
+    api_count: 3
+    api_count_basis: published
+    immediate_parent: oracle
+    name: Oracle Eloqua
+    relationship: acquisition
+    score_band: developing
+    score_composite: 49.8
+    slug: eloqua
+    source: declared
+  - &id006
+    acquired: null
     agent_band: agent-aware
-    agent_score: 25.4
+    agent_score: 27.8
     api_count: 21
     api_count_basis: published
     immediate_parent: oracle
@@ -103,36 +116,23 @@ member_bands:
     score_composite: 49.8
     slug: peoplesoft
     source: declared
-  - &id006
+  - &id007
     acquired: 2014
     agent_band: agent-aware
-    agent_score: 26.1
-    api_count: 4
+    agent_score: 27.6
+    api_count: 2
     api_count_basis: published
     immediate_parent: oracle
     name: Responsys
     relationship: acquisition
     score_band: developing
-    score_composite: 49.7
+    score_composite: 49.1
     slug: responsys
-    source: declared
-  - &id007
-    acquired: null
-    agent_band: agent-ready
-    agent_score: 31.1
-    api_count: 4
-    api_count_basis: published
-    immediate_parent: oracle
-    name: Oracle Eloqua
-    relationship: acquisition
-    score_band: developing
-    score_composite: 49.6
-    slug: eloqua
     source: declared
   - &id008
     acquired: null
     agent_band: agent-aware
-    agent_score: 23.7
+    agent_score: 24.4
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -145,7 +145,7 @@ member_bands:
   - &id009
     acquired: null
     agent_band: agent-aware
-    agent_score: 24.4
+    agent_score: 28.5
     api_count: 2
     api_count_basis: published
     immediate_parent: oracle
@@ -157,8 +157,8 @@ member_bands:
     source: declared
   - &id010
     acquired: null
-    agent_band: agent-aware
-    agent_score: 27.3
+    agent_band: agent-ready
+    agent_score: 31.8
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -171,7 +171,7 @@ member_bands:
   - &id011
     acquired: 2022
     agent_band: agent-ready
-    agent_score: 28.6
+    agent_score: 30.1
     api_count: 50
     api_count_basis: published
     immediate_parent: oracle
@@ -184,7 +184,7 @@ member_bands:
   - &id012
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 20.7
     api_count: 7
     api_count_basis: published
     immediate_parent: oracle
@@ -197,7 +197,20 @@ member_bands:
   - &id013
     acquired: null
     agent_band: agent-aware
-    agent_score: 22.9
+    agent_score: 23.0
+    api_count: 20
+    api_count_basis: published
+    immediate_parent: oracle
+    name: Oracle WebLogic Server
+    relationship: product
+    score_band: developing
+    score_composite: 43.6
+    slug: oracle-weblogic
+    source: declared
+  - &id014
+    acquired: null
+    agent_band: agent-aware
+    agent_score: 25.4
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -207,23 +220,10 @@ member_bands:
     score_composite: 43.4
     slug: oracle-primavera
     source: declared
-  - &id014
-    acquired: null
-    agent_band: agent-aware
-    agent_score: 22.1
-    api_count: 20
-    api_count_basis: published
-    immediate_parent: oracle
-    name: Oracle WebLogic Server
-    relationship: product
-    score_band: developing
-    score_composite: 43.3
-    slug: oracle-weblogic
-    source: declared
   - &id015
     acquired: null
-    agent_band: agent-aware
-    agent_score: 27.2
+    agent_band: agent-ready
+    agent_score: 28.7
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle-cloud
@@ -236,20 +236,20 @@ member_bands:
   - &id016
     acquired: null
     agent_band: agent-aware
-    agent_score: 20.8
+    agent_score: 22.4
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
     name: Oracle Transportation Management
     relationship: product
     score_band: developing
-    score_composite: 41.4
+    score_composite: 41.6
     slug: oracle-transportation-management
     source: declared
   - &id017
     acquired: null
     agent_band: agent-aware
-    agent_score: 19.8
+    agent_score: 24.1
     api_count: 13
     api_count_basis: published
     immediate_parent: oracle
@@ -268,7 +268,7 @@ member_bands:
   - &id018
     acquired: null
     agent_band: agent-aware
-    agent_score: 17.9
+    agent_score: 19.0
     api_count: 1
     api_count_basis: published
     immediate_parent: oracle
@@ -516,13 +516,13 @@ overview: 'Oracle publishes its API surface across 32 provider profiles indexed 
 
 
   Its highest-rated surfaces are Oracle Cloud Infrastructure, Oracle Hospitality, Oracle Siebel, Oracle
-  Database, PeopleSoft.'
+  Database, Oracle Eloqua.'
 parent_provider: oracle
 permalink: /estates/oracle/
 slug: oracle
 source_filename: apis.yml
 source_heading: Source (apis.yml)
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/apis.yml
+source_yaml_url: https://artifacts.apis.io/oracle/apis.yml
 subfamilies:
 - has_page: false
   member_count: 1
